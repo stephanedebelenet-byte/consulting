@@ -1,7 +1,9 @@
 import './index.css'
 import { useLenis } from './hooks/useLenis'
+import CustomCursor from './components/CustomCursor'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
+import Marquee from './components/Marquee'
 import Pourquoi from './components/Pourquoi'
 import Conseil from './components/Conseil'
 import Systemes from './components/Systemes'
@@ -16,9 +18,11 @@ export default function App() {
   useLenis()
 
   return (
-    <>
+    <div className="grain">
+      <CustomCursor />
       <Nav />
       <Hero />
+      <Marquee />
       <Pourquoi />
       <Conseil />
       <Systemes />
@@ -28,6 +32,6 @@ export default function App() {
       <Engagement />
       <Contact />
       <Footer />
-    </>
+    </div>
   )
 }

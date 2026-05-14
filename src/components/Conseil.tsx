@@ -330,16 +330,50 @@ function OffreCard({ offre }: { offre: Offre }) {
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-      whileHover={{ y: -4, boxShadow: '0 16px 48px rgba(0,0,0,0.1)' }}
+      whileHover={{
+        y: -6,
+        boxShadow: dark
+          ? '0 24px 60px rgba(184,146,42,0.18), 0 0 0 1px rgba(184,146,42,0.3)'
+          : '0 20px 52px rgba(0,0,0,0.1)',
+      }}
       style={{
         background: dark ? 'var(--dark)' : 'var(--card-bg)',
-        border: `1px solid ${dark ? 'var(--gold)' : 'var(--border)'}`,
+        border: `1px solid ${dark ? 'rgba(184,146,42,0.35)' : 'var(--border)'}`,
         padding: '2.5rem',
         position: 'relative',
         overflow: 'hidden',
         color: dark ? 'var(--dark-text)' : 'var(--ink)',
+        transition: 'box-shadow 0.3s',
       }}
     >
+      {/* Top accent line */}
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          height: 3,
+          background: dark
+            ? 'linear-gradient(90deg, var(--gold), var(--gold-light))'
+            : 'transparent',
+        }}
+      />
+      {/* Background glow for featured */}
+      {dark && (
+        <div
+          style={{
+            position: 'absolute',
+            top: -60,
+            right: -60,
+            width: 220,
+            height: 220,
+            borderRadius: '50%',
+            background: 'radial-gradient(circle, rgba(184,146,42,0.12) 0%, transparent 70%)',
+            pointerEvents: 'none',
+          }}
+        />
+      )}
       {offre.featured && <div className="offer-badge">★ Le plus choisi</div>}
       <div
         style={{
