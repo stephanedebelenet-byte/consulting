@@ -3,12 +3,20 @@ import { motion } from 'framer-motion'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
+  const [overHero, setOverHero] = useState(true)
 
   useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 40)
+    const handler = () => {
+      const y = window.scrollY
+      setScrolled(y > 40)
+      setOverHero(y < window.innerHeight * 0.82)
+    }
     window.addEventListener('scroll', handler, { passive: true })
     return () => window.removeEventListener('scroll', handler)
   }, [])
+
+  const textCol = overHero ? 'rgba(227,226,226,0.7)' : 'var(--mid)'
+  const textHover = overHero ? 'var(--dark-text)' : 'var(--ink)'
 
   return (
     <motion.nav
@@ -25,11 +33,15 @@ export default function Nav() {
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: '1.25rem 4rem',
-        background: 'rgba(245,243,238,0.94)',
-        backdropFilter: 'blur(16px)',
-        borderBottom: '1px solid var(--border)',
-        transition: 'box-shadow 0.3s ease',
-        boxShadow: scrolled ? '0 2px 24px rgba(0,0,0,0.08)' : 'none',
+        background: overHero
+          ? 'linear-gradient(to bottom, rgba(18,20,20,0.7) 0%, transparent 100%)'
+          : scrolled
+            ? 'rgba(245,243,238,0.97)'
+            : 'rgba(245,243,238,0.94)',
+        backdropFilter: overHero ? 'none' : 'blur(16px)',
+        borderBottom: overHero ? '1px solid transparent' : '1px solid var(--border)',
+        boxShadow: !overHero && scrolled ? '0 2px 24px rgba(0,0,0,0.08)' : 'none',
+        transition: 'background 0.5s ease, border-color 0.5s ease, box-shadow 0.3s ease',
       }}
     >
       <a
@@ -39,8 +51,9 @@ export default function Nav() {
           fontSize: '1.1rem',
           fontWeight: 700,
           letterSpacing: '0.02em',
-          color: 'var(--ink)',
+          color: overHero ? 'var(--dark-text)' : 'var(--ink)',
           textDecoration: 'none',
+          transition: 'color 0.5s',
         }}
       >
         Cabinet <span style={{ color: 'var(--gold)' }}>SC</span>
@@ -62,12 +75,12 @@ export default function Nav() {
                 fontWeight: 500,
                 letterSpacing: '0.05em',
                 textTransform: 'uppercase',
-                color: 'var(--mid)',
+                color: textCol,
                 textDecoration: 'none',
                 transition: 'color 0.2s',
               }}
-              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--ink)')}
-              onMouseLeave={(e) => ((e.target as HTMLElement).style.color = 'var(--mid)')}
+              onMouseEnter={(e) => ((e.target as HTMLElement).style.color = textHover)}
+              onMouseLeave={(e) => ((e.target as HTMLElement).style.color = textCol)}
             >
               {label}
             </a>
@@ -81,15 +94,23 @@ export default function Nav() {
               fontWeight: 500,
               letterSpacing: '0.05em',
               textTransform: 'uppercase',
-              color: 'var(--paper)',
-              background: 'var(--ink)',
+              color: overHero ? 'var(--dark)' : 'var(--paper)',
+              background: overHero ? 'var(--gold)' : 'var(--ink)',
               textDecoration: 'none',
               padding: '0.6rem 1.4rem',
               borderRadius: '2px',
-              transition: 'background 0.2s',
+              transition: 'background 0.5s, color 0.5s',
             }}
-            onMouseEnter={(e) => ((e.target as HTMLElement).style.background = 'var(--gold)')}
-            onMouseLeave={(e) => ((e.target as HTMLElement).style.background = 'var(--ink)')}
+            onMouseEnter={(e) => {
+              const el = e.target as HTMLElement
+              el.style.background = 'var(--gold)'
+              el.style.color = 'var(--dark)'
+            }}
+            onMouseLeave={(e) => {
+              const el = e.target as HTMLElement
+              el.style.background = overHero ? 'var(--gold)' : 'var(--ink)'
+              el.style.color = overHero ? 'var(--dark)' : 'var(--paper)'
+            }}
           >
             Prendre RDV
           </a>

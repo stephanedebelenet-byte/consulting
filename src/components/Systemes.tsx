@@ -196,10 +196,10 @@ export default function Systemes() {
     <section
       id="systemes"
       ref={sectionRef}
-      style={{ background: 'var(--cream)', padding: '6rem 4rem' }}
+      style={{ background: 'var(--dark-3)', padding: '6rem 4rem' }}
     >
       <div className="section-inner">
-        <div className="section-tag">Systèmes & Digital</div>
+        <div className="section-tag" style={{ color: 'rgba(212,168,67,0.9)' }}>Systèmes & Digital</div>
         <h2
           style={{
             fontFamily: 'Playfair Display, serif',
@@ -207,6 +207,7 @@ export default function Systemes() {
             fontWeight: 800,
             lineHeight: 1.2,
             marginBottom: '1rem',
+            color: 'var(--dark-text)',
           }}
         >
           Déploiement de solutions SCM
@@ -214,7 +215,7 @@ export default function Systemes() {
         <p
           style={{
             fontSize: '1.05rem',
-            color: 'var(--mid)',
+            color: 'var(--dark-muted)',
             maxWidth: 640,
             marginBottom: '3rem',
             lineHeight: 1.8,
@@ -228,7 +229,7 @@ export default function Systemes() {
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(5, 1fr)',
-            gap: '1.5rem',
+            gap: '2px',
           }}
         >
           {systems.map((sys, i) => (
@@ -238,13 +239,13 @@ export default function Systemes() {
               onClick={() => setActive(i)}
               whileHover={{ y: -2 }}
               style={{
-                background: active === i ? 'var(--dark)' : 'var(--card-bg)',
-                border: `1px solid ${active === i ? 'var(--dark)' : 'var(--border)'}`,
+                background: active === i ? 'var(--gold)' : 'rgba(255,255,255,0.04)',
+                border: `1px solid ${active === i ? 'var(--gold)' : 'rgba(255,255,255,0.07)'}`,
                 padding: '2rem 1.5rem',
                 textAlign: 'center',
                 cursor: 'pointer',
                 transition: 'all 0.2s',
-                color: active === i ? 'var(--dark-text)' : 'var(--ink)',
+                color: active === i ? 'var(--dark)' : 'var(--dark-text)',
               }}
             >
               <span style={{ fontSize: '1.8rem', marginBottom: '0.75rem', display: 'block' }}>
