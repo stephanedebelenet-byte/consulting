@@ -1,10 +1,5 @@
 import { useEffect } from 'react'
 
-interface SchemaProps {
-  type: 'FAQPage' | 'ServiceCollection' | 'WebPage'
-  data: Record<string, unknown>
-}
-
 export function useAddSchema(schema: Record<string, unknown>) {
   useEffect(() => {
     const script = document.createElement('script')
