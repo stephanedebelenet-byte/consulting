@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+﻿import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const GOLD = 'rgba(184,146,42,1)'
@@ -60,20 +60,28 @@ export default function Engagement() {
   return (
     <section id="engagement" style={{ background: 'var(--dark)', color: 'var(--dark-text)', padding: '6rem 4rem' }}>
       <div className="section-inner" ref={ref}>
-        <div className="section-tag" style={{ color: 'rgba(212,168,67,0.9)' }}>
-          Notre engagement éthique
+        <div style={{
+          fontFamily: 'DM Mono, monospace',
+          fontSize: '0.6rem',
+          letterSpacing: '0.2em',
+          color: 'rgba(192,154,47,0.45)',
+          textTransform: 'uppercase',
+          marginBottom: '1.5rem',
+        }}>
+          07 / Notre engagement éthique
         </div>
         <h2
           style={{
-            fontFamily: 'Playfair Display, serif',
-            fontSize: 'clamp(2rem, 3vw, 2.8rem)',
+            fontFamily: 'Bodoni Moda, serif',
+            fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
             fontWeight: 800,
-            lineHeight: 1.2,
-            marginBottom: '3rem',
+            lineHeight: 0.92,
+            letterSpacing: '-0.025em',
+            marginBottom: '5rem',
             color: 'var(--dark-text)',
           }}
         >
-          Ce qui nous distingue vraiment
+          Ce qui nous distingue vraiment.
         </h2>
 
         <div
@@ -113,7 +121,7 @@ export default function Engagement() {
               </span>
               <h3
                 style={{
-                  fontFamily: 'Playfair Display, serif',
+                  fontFamily: 'Bodoni Moda, serif',
                   fontSize: '1.1rem',
                   fontWeight: 700,
                   color: 'var(--dark-text)',

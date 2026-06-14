@@ -1,369 +1,322 @@
-import { useEffect, useRef, useState } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
-
-interface SystemTier {
-  label: string
-  title: string
-  desc: string
-  price: string
-  duration: string
-}
-
-interface System {
-  id: string
-  icon: string
-  name: string
-  fullName: string
-  tiers: SystemTier[]
-  results: string
-}
-
-const systems: System[] = [
+const systems = [
   {
-    id: 'wms',
-    icon: '🏭',
+    num: '01',
     name: 'WMS',
-    fullName: "WMS — Gestion d'entrepôt",
+    fullName: "Gestion d'entrepôt",
+    tagline: "Pilotage des flux physiques et des stocks en temps réel.",
     tiers: [
-      {
-        label: '🔹 Mini',
-        title: 'WMS Mini',
-        desc: "1 entrepôt — 5 utilisateurs\nSolution SaaS clé en main (Logiwa, MetaWMS, Odoo)",
-        price: '80 000 – 130 000 MAD HT',
-        duration: '6 à 10 semaines',
-      },
-      {
-        label: '🔸 Pilote ★',
-        title: 'WMS Pilote',
-        desc: "1-2 entrepôts • 1 500-5 000 m² • 5-15 utilisateurs\nAMOA complet + RFP + change management",
-        price: '180 000 – 320 000 MAD HT',
-        duration: '3 à 5 mois',
-      },
-      {
-        label: '🔷 Pro',
-        title: 'WMS Pro',
-        desc: "ETI multi-sites • plus de 5 000 m² • plus de 15 utilisateurs\nAudit + RFP + AMOA full + intégration ERP",
-        price: 'À partir de 450 000 MAD HT',
-        duration: '6 à 10 mois',
-      },
+      { name: 'WMS Mini', price: '80 000 – 130 000 MAD HT', duration: '6 à 10 semaines', desc: '1 entrepôt · 5 utilisateurs · SaaS clé en main' },
+      { name: 'WMS Pilote', price: '180 000 – 320 000 MAD HT', duration: '3 à 5 mois', desc: '1-2 entrepôts · AMOA + RFP + change management', featured: true },
+      { name: 'WMS Pro', price: 'À partir de 450 000 MAD HT', duration: '6 à 10 mois', desc: 'ETI multi-sites · Audit + RFP + AMOA + intégration ERP' },
     ],
-    results: "✓ Réduction des écarts d'inventaire de 80 à 95%  •  ✓ Productivité préparation +25 à 40%  •  ✓ Erreurs d'expédition −70 à 90%",
+    results: ['Écarts d\'inventaire réduits de 80–95%', 'Productivité préparation +25–40%', 'Erreurs d\'expédition −70–90%'],
   },
   {
-    id: 'tms',
-    icon: '🚚',
+    num: '02',
     name: 'TMS',
-    fullName: 'TMS — Gestion du transport',
+    fullName: 'Gestion du transport',
+    tagline: "Optimisation des flux transport et réduction des coûts.",
     tiers: [
-      {
-        label: '🔹 Mini',
-        title: 'TMS Mini',
-        desc: "Moins de 10 véhicules ou 50 expéditions/jour\nSaaS léger + paramétrage + formation",
-        price: '70 000 – 120 000 MAD HT',
-        duration: '6 à 10 semaines',
-      },
-      {
-        label: '🔸 Pilote ★',
-        title: 'TMS Pilote',
-        desc: "Flotte mixte • multi-clients\nAMOA + RFP + déploiement complet",
-        price: '160 000 – 280 000 MAD HT',
-        duration: '3 à 5 mois',
-      },
-      {
-        label: '🔷 Pro',
-        title: 'TMS Pro',
-        desc: "ETI • flotte importante • multi-modes\nAudit + RFP + AMOA full + intégrations",
-        price: 'À partir de 400 000 MAD HT',
-        duration: '5 à 9 mois',
-      },
+      { name: 'TMS Mini', price: '70 000 – 120 000 MAD HT', duration: '6 à 10 semaines', desc: 'Moins de 10 véhicules · SaaS léger + paramétrage' },
+      { name: 'TMS Pilote', price: '160 000 – 280 000 MAD HT', duration: '3 à 5 mois', desc: 'Flotte mixte · multi-clients · AMOA complet', featured: true },
+      { name: 'TMS Pro', price: 'À partir de 400 000 MAD HT', duration: '5 à 9 mois', desc: 'ETI · flotte importante · multi-modes + intégrations' },
     ],
-    results: '✓ Réduction coûts transport 8 à 15%  •  ✓ Productivité dispatch +30 à 50%  •  ✓ Facturation transport ÷ 3 à 5',
+    results: ['Coûts transport réduits 8–15%', 'Productivité dispatch +30–50%', 'Facturation transport ÷3 à 5'],
   },
   {
-    id: 'aps',
-    icon: '📊',
+    num: '03',
     name: 'APS / S&OP',
-    fullName: 'APS / Demand Planning / S&OP',
+    fullName: 'Demand Planning & S&OP',
+    tagline: "Prévisions fiables. Stocks maîtrisés. S&OP opérationnel.",
     tiers: [
-      {
-        label: '🔹 Mini',
-        title: 'Planning Mini',
-        desc: "PME mono-produit • moins de 500 SKU\nNetStock, EazyStock + paramétrage",
-        price: '60 000 – 100 000 MAD HT',
-        duration: '6 à 8 semaines',
-      },
-      {
-        label: '🔸 Pilote ★',
-        title: 'Planning Pilote',
-        desc: "PME multi-canal • 500-3 000 SKU\nRefonte process + APS + S&OP",
-        price: '150 000 – 260 000 MAD HT',
-        duration: '3 à 5 mois',
-      },
-      {
-        label: '🔷 Pro',
-        title: 'Planning Pro (DDMRP)',
-        desc: "ETI multi-sites • plus de 3 000 SKU\nAudit + IBP + AMOA + COPIL S&OP",
-        price: 'À partir de 380 000 MAD HT',
-        duration: '6 à 9 mois',
-      },
+      { name: 'Planning Mini', price: '60 000 – 100 000 MAD HT', duration: '6 à 8 semaines', desc: 'PME mono-produit · moins de 500 SKU' },
+      { name: 'Planning Pilote', price: '150 000 – 260 000 MAD HT', duration: '3 à 5 mois', desc: 'PME multi-canal · 500–3 000 SKU · S&OP complet', featured: true },
+      { name: 'Planning Pro (DDMRP)', price: 'À partir de 380 000 MAD HT', duration: '6 à 9 mois', desc: 'ETI multi-sites · IBP + AMOA + COPIL S&OP' },
     ],
-    results: '✓ Réduction ruptures 40 à 60%  •  ✓ Réduction surstocks 20 à 30%  •  ✓ BFR libéré 15 à 30% du stock',
+    results: ['Ruptures réduites de 40–60%', 'Surstocks réduits de 20–30%', 'BFR libéré 15–30% du stock'],
   },
   {
-    id: 'procurement',
-    icon: '🛒',
+    num: '04',
     name: 'e-Procurement',
-    fullName: 'e-Procurement / Source-to-Pay',
+    fullName: 'Source-to-Pay',
+    tagline: "Visibilité 100% spend. Cycle achat ÷2 à 4.",
     tiers: [
-      {
-        label: '🔹 Mini',
-        title: 'Achats Mini',
-        desc: "TPE/PME • moins de 50 fournisseurs actifs\nPO + catalogue + workflow validation",
-        price: '55 000 – 95 000 MAD HT',
-        duration: '6 à 8 semaines',
-      },
-      {
-        label: '🔸 Pilote ★',
-        title: 'Achats Pilote',
-        desc: "PME • achats stratégiques + contrats\ne-RFx + gestion contrats + reporting",
-        price: '140 000 – 240 000 MAD HT',
-        duration: '3 à 5 mois',
-      },
-      {
-        label: '🔷 Pro',
-        title: 'Achats Pro (S2P)',
-        desc: "ETI • multi-entités • directs + indirects\nS2P complet + ERP + risk management",
-        price: 'À partir de 350 000 MAD HT',
-        duration: '5 à 9 mois',
-      },
+      { name: 'Achats Mini', price: '55 000 – 95 000 MAD HT', duration: '6 à 8 semaines', desc: 'TPE/PME · moins de 50 fournisseurs actifs' },
+      { name: 'Achats Pilote', price: '140 000 – 240 000 MAD HT', duration: '3 à 5 mois', desc: 'PME · e-RFx + gestion contrats + reporting', featured: true },
+      { name: 'Achats Pro (S2P)', price: 'À partir de 350 000 MAD HT', duration: '5 à 9 mois', desc: 'ETI · multi-entités · S2P complet + ERP' },
     ],
-    results: '✓ Visibilité 100% spend  •  ✓ Cycle achat ÷ 2 à 4  •  ✓ Économies 3 à 8% sur le spend traité',
+    results: ['Visibilité 100% spend', 'Cycle achat ÷2 à 4', 'Économies 3–8% sur le spend traité'],
   },
   {
-    id: 'tower',
-    icon: '📈',
+    num: '05',
     name: 'Control Tower',
-    fullName: 'Control Tower & BI Supply Chain',
+    fullName: 'BI Supply Chain',
+    tagline: "Décisions Comex basées sur données. Plus de reportings manuels.",
     tiers: [
-      {
-        label: '🔹 Mini',
-        title: 'Control Tower Mini',
-        desc: "3-5 dashboards clés sur Power BI\nOTIF, stocks, cash dormant, KPI fournisseurs",
-        price: '45 000 – 75 000 MAD HT',
-        duration: '4 à 6 semaines',
-      },
-      {
-        label: '🔸 Pilote ★',
-        title: 'Control Tower Pilote',
-        desc: "8-12 dashboards + alertes + rituel COPIL\nDécisions Comex basées sur données",
-        price: '110 000 – 180 000 MAD HT',
-        duration: '2 à 3 mois',
-      },
-      {
-        label: '🔷 Pro',
-        title: 'Control Tower Pro',
-        desc: "ETI • multi-sites • AI/ML embarqué\nPortail dirigeant mobile + alertes proactives",
-        price: 'À partir de 280 000 MAD HT',
-        duration: '4 à 6 mois',
-      },
+      { name: 'Control Tower Mini', price: '45 000 – 75 000 MAD HT', duration: '4 à 6 semaines', desc: '3–5 dashboards Power BI clés · OTIF, stocks, cash' },
+      { name: 'Control Tower Pilote', price: '110 000 – 180 000 MAD HT', duration: '2 à 3 mois', desc: '8–12 dashboards + alertes + rituel COPIL', featured: true },
+      { name: 'Control Tower Pro', price: 'À partir de 280 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · AI/ML · portail mobile dirigeant' },
     ],
-    results: '✓ Détection anomalies ÷ 5 à 10  •  ✓ Économies 2 à 5% marge supply chain  •  ✓ Plus de reportings manuels',
+    results: ['Détection anomalies ÷5 à 10', 'Économies 2–5% marge SC', 'Zéro reporting manuel'],
   },
 ]
 
-export default function Systemes() {
-  const [active, setActive] = useState(0)
-  const sectionRef = useRef<HTMLElement>(null)
-
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      ScrollTrigger.create({
-        trigger: sectionRef.current,
-        start: 'top top',
-        end: '+=600',
-        pin: true,
-        pinSpacing: true,
-      })
-    }, sectionRef)
-    return () => ctx.revert()
-  }, [])
+function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
+  const [open, setOpen] = useState(false)
 
   return (
-    <section
-      id="systemes"
-      ref={sectionRef}
-      style={{ background: 'var(--dark-3)', padding: '6rem 4rem' }}
-    >
-      <div className="section-inner">
-        <div className="section-tag" style={{ color: 'rgba(212,168,67,0.9)' }}>Systèmes & Digital</div>
-        <h2
+    <div style={{ borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+      <button
+        onClick={() => setOpen((v) => !v)}
+        style={{
+          width: '100%',
+          background: 'none',
+          border: 'none',
+          padding: '2.5rem 0',
+          display: 'grid',
+          gridTemplateColumns: '64px auto 1fr auto',
+          gap: '2.5rem',
+          alignItems: 'center',
+          textAlign: 'left',
+          cursor: 'pointer',
+        }}
+      >
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: index * 0.07 }}
           style={{
-            fontFamily: 'Playfair Display, serif',
-            fontSize: 'clamp(2rem, 3vw, 2.8rem)',
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.18em',
+            color: 'rgba(192,154,47,0.45)',
+            textTransform: 'uppercase',
+          }}
+        >
+          {s.num}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, x: 16 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.07 }}
+          style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.85rem',
+            fontWeight: 500,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            color: 'var(--gold)',
+            whiteSpace: 'nowrap',
+          }}
+        >
+          {s.name}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, x: 16 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: index * 0.07 + 0.05 }}
+          style={{
+            fontFamily: 'Bodoni Moda, serif',
+            fontSize: 'clamp(1.3rem, 2.2vw, 2.5rem)',
             fontWeight: 800,
-            lineHeight: 1.2,
-            marginBottom: '1rem',
+            lineHeight: 1.0,
+            letterSpacing: '-0.02em',
             color: 'var(--dark-text)',
           }}
         >
-          Déploiement de solutions SCM
-        </h2>
-        <p
-          style={{
-            fontSize: '1.05rem',
-            color: 'var(--dark-muted)',
-            maxWidth: 640,
-            marginBottom: '3rem',
-            lineHeight: 1.8,
-          }}
-        >
-          Sélection indépendante et déploiement AMOA des meilleures solutions — adaptées à votre taille
-          et secteur. Aucune commission éditeur. Jamais.
-        </p>
+          {s.fullName}
+        </motion.div>
 
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(5, 1fr)',
-            gap: '2px',
-          }}
-        >
-          {systems.map((sys, i) => (
-            <motion.div
-              key={sys.id}
-              className="sys-card-item"
-              onClick={() => setActive(i)}
-              whileHover={{ y: -2 }}
-              style={{
-                background: active === i ? 'var(--gold)' : 'rgba(255,255,255,0.04)',
-                border: `1px solid ${active === i ? 'var(--gold)' : 'rgba(255,255,255,0.07)'}`,
-                padding: '2rem 1.5rem',
-                textAlign: 'center',
-                cursor: 'pointer',
-                transition: 'all 0.2s',
-                color: active === i ? 'var(--dark)' : 'var(--dark-text)',
-              }}
-            >
-              <span style={{ fontSize: '1.8rem', marginBottom: '0.75rem', display: 'block' }}>
-                {sys.icon}
-              </span>
-              <div
-                style={{
-                  fontFamily: 'DM Mono, monospace',
-                  fontSize: '0.72rem',
-                  letterSpacing: '0.1em',
-                  textTransform: 'uppercase',
-                  fontWeight: 500,
-                }}
-              >
-                {sys.name}
+        <div style={{
+          fontFamily: 'DM Mono, monospace',
+          fontSize: '1.1rem',
+          color: open ? 'var(--gold)' : 'rgba(255,255,255,0.25)',
+          transition: 'color 0.2s, transform 0.3s',
+          transform: open ? 'rotate(45deg)' : 'none',
+          lineHeight: 1,
+          userSelect: 'none',
+        }}>
+          +
+        </div>
+      </button>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: 'auto', opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
+            style={{ overflow: 'hidden' }}
+          >
+            <div style={{ paddingBottom: '3.5rem', paddingLeft: 64 + 40 }}>
+              <p style={{
+                fontSize: '0.95rem',
+                color: 'var(--dark-muted)',
+                lineHeight: 1.8,
+                fontWeight: 300,
+                marginBottom: '2.5rem',
+              }}>
+                {s.tagline}
+              </p>
+
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px', marginBottom: '2.5rem' }}>
+                {s.tiers.map((tier) => (
+                  <div key={tier.name} style={{
+                    background: tier.featured ? 'rgba(192,154,47,0.1)' : 'rgba(255,255,255,0.04)',
+                    border: `1px solid ${tier.featured ? 'rgba(192,154,47,0.4)' : 'rgba(255,255,255,0.08)'}`,
+                    padding: '2.5rem',
+                    position: 'relative',
+                  }}>
+                    {tier.featured && (
+                      <div style={{
+                        position: 'absolute',
+                        top: 0, left: 0, right: 0,
+                        height: 3,
+                        background: 'var(--gold)',
+                      }} />
+                    )}
+
+                    {/* Tier name */}
+                    <div style={{
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.6rem',
+                      letterSpacing: '0.18em',
+                      textTransform: 'uppercase',
+                      color: tier.featured ? 'rgba(192,154,47,0.75)' : 'rgba(227,226,226,0.35)',
+                      marginBottom: '0.75rem',
+                    }}>
+                      {tier.name}
+                    </div>
+
+                    {/* Price — focal point */}
+                    <div style={{
+                      fontFamily: 'Bodoni Moda, serif',
+                      fontSize: 'clamp(1.1rem, 1.8vw, 1.45rem)',
+                      fontWeight: 800,
+                      lineHeight: 1.15,
+                      letterSpacing: '-0.02em',
+                      color: tier.featured ? 'var(--gold)' : 'var(--dark-text)',
+                      marginBottom: '0.6rem',
+                    }}>
+                      {tier.price}
+                    </div>
+
+                    {/* Duration */}
+                    <div style={{
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.62rem',
+                      letterSpacing: '0.1em',
+                      textTransform: 'uppercase',
+                      color: 'rgba(227,226,226,0.45)',
+                      marginBottom: '1.25rem',
+                      paddingBottom: '1.25rem',
+                      borderBottom: '1px solid rgba(255,255,255,0.06)',
+                    }}>
+                      {tier.duration}
+                    </div>
+
+                    {/* Description */}
+                    <div style={{
+                      fontSize: '0.88rem',
+                      color: 'rgba(227,226,226,0.65)',
+                      lineHeight: 1.65,
+                      fontWeight: 300,
+                    }}>
+                      {tier.desc}
+                    </div>
+                  </div>
+                ))}
               </div>
-            </motion.div>
+
+              <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
+                {s.results.map((r) => (
+                  <div key={r} style={{
+                    fontFamily: 'DM Mono, monospace',
+                    fontSize: '0.62rem',
+                    letterSpacing: '0.1em',
+                    textTransform: 'uppercase',
+                    color: 'rgba(192,154,47,0.6)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.5rem',
+                  }}>
+                    <span style={{ color: 'var(--gold)' }}>→</span> {r}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  )
+}
+
+export default function Systemes() {
+  return (
+    <section id="systemes" style={{ background: 'var(--dark)', padding: '8rem 4rem' }}>
+      <div className="section-inner">
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: '1fr 1fr',
+          gap: '4rem',
+          alignItems: 'end',
+          marginBottom: '6rem',
+        }}>
+          <div>
+            <div style={{
+              fontFamily: 'DM Mono, monospace',
+              fontSize: '0.6rem',
+              letterSpacing: '0.2em',
+              color: 'rgba(192,154,47,0.45)',
+              textTransform: 'uppercase',
+              marginBottom: '1.5rem',
+            }}>
+              05 / Systèmes & Digital
+            </div>
+            <h2 style={{
+              fontFamily: 'Bodoni Moda, serif',
+              fontSize: 'clamp(2.8rem, 5vw, 6.5rem)',
+              fontWeight: 800,
+              lineHeight: 0.92,
+              letterSpacing: '-0.025em',
+              color: 'var(--dark-text)',
+              margin: 0,
+            }}>
+              Déploiement de solutions SCM.
+            </h2>
+          </div>
+          <p style={{
+            fontSize: '1rem',
+            color: 'var(--dark-muted)',
+            lineHeight: 1.8,
+            fontWeight: 300,
+            maxWidth: 440,
+          }}>
+            Sélection indépendante et déploiement AMOA des meilleures solutions — adaptées à votre taille
+            et secteur. Aucune commission éditeur. Jamais.
+          </p>
+        </div>
+
+        <div>
+          <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)' }} />
+          {systems.map((s, i) => (
+            <SystemRow key={s.num} s={s} index={i} />
           ))}
         </div>
 
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={active}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-            style={{
-              background: 'var(--dark)',
-              color: 'var(--dark-text)',
-              padding: '3rem',
-            }}
-          >
-            <h3
-              style={{
-                fontFamily: 'Playfair Display, serif',
-                fontSize: '1.6rem',
-                fontWeight: 700,
-                color: 'var(--paper)',
-                marginBottom: '1.5rem',
-              }}
-            >
-              {systems[active].fullName}
-            </h3>
-
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
-              {systems[active].tiers.map((tier, i) => (
-                <div
-                  key={tier.title}
-                  style={{
-                    padding: '1.5rem',
-                    border: `1px solid ${i === 1 ? 'rgba(184,146,42,0.4)' : 'rgba(255,255,255,0.1)'}`,
-                  }}
-                >
-                  <div
-                    style={{
-                      fontFamily: 'DM Mono, monospace',
-                      fontSize: '0.7rem',
-                      letterSpacing: '0.1em',
-                      textTransform: 'uppercase',
-                      color: 'var(--gold)',
-                      marginBottom: '0.75rem',
-                    }}
-                  >
-                    {tier.label}
-                  </div>
-                  <h4
-                    style={{
-                      fontFamily: 'Playfair Display, serif',
-                      fontSize: '1.1rem',
-                      fontWeight: 700,
-                      color: 'var(--paper)',
-                      marginBottom: '0.5rem',
-                    }}
-                  >
-                    {tier.title}
-                  </h4>
-                  <p
-                    style={{
-                      fontSize: '0.85rem',
-                      color: 'rgba(227,226,226,0.65)',
-                      lineHeight: 1.6,
-                      whiteSpace: 'pre-line',
-                    }}
-                  >
-                    {tier.desc}
-                  </p>
-                  <div
-                    style={{
-                      fontFamily: 'Playfair Display, serif',
-                      fontSize: '1.2rem',
-                      color: 'var(--gold-light)',
-                      fontWeight: 700,
-                      marginTop: '1rem',
-                    }}
-                  >
-                    {tier.price}
-                  </div>
-                  <p style={{ fontSize: '0.8rem', color: 'rgba(227,226,226,0.4)', marginTop: '0.5rem' }}>
-                    {tier.duration}
-                  </p>
-                </div>
-              ))}
-            </div>
-
-            <div
-              style={{
-                marginTop: '2rem',
-                paddingTop: '1.5rem',
-                borderTop: '1px solid rgba(255,255,255,0.08)',
-              }}
-            >
-              <p style={{ fontSize: '0.85rem', color: 'rgba(227,226,226,0.6)' }}>
-                {systems[active].results}
-              </p>
-            </div>
-          </motion.div>
-        </AnimatePresence>
+        <div style={{ marginTop: '4rem' }}>
+          <a href="#contact" className="btn-primary">Discuter de votre projet →</a>
+        </div>
       </div>
     </section>
   )

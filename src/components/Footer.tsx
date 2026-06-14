@@ -1,4 +1,4 @@
-export default function Footer() {
+﻿export default function Footer() {
   const nav = [
     { label: 'Notre approche', href: '#pourquoi' },
     { label: 'Conseil & AMOA', href: '#conseil' },
@@ -43,7 +43,7 @@ export default function Footer() {
             <a
               href="#"
               style={{
-                fontFamily: 'Playfair Display, serif',
+                fontFamily: 'Bodoni Moda, serif',
                 fontSize: '1.4rem',
                 fontWeight: 700,
                 color: 'var(--dark-text)',
@@ -52,7 +52,7 @@ export default function Footer() {
                 marginBottom: '1rem',
               }}
             >
-              Cabinet <span style={{ color: 'var(--gold)' }}>SC</span>
+              Essor <span style={{ color: 'var(--gold)' }}>Consulting</span>
             </a>
             <p
               style={{
@@ -63,7 +63,7 @@ export default function Footer() {
                 marginBottom: '1.5rem',
               }}
             >
-              Cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
+              Essor Consulting — cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
               marocaines. Notre seule allégeance est à votre business case.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
@@ -140,12 +140,23 @@ export default function Footer() {
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
               {[
-                { icon: '📧', label: 'contact@cabinet-sc.ma', href: 'mailto:contact@cabinet-sc.ma' },
-                { icon: '📞', label: '+212 6 00 00 00 00', href: 'tel:+212600000000' },
-                { icon: '📍', label: 'Casablanca, Maroc', href: undefined },
-              ].map(({ icon, label, href }) => (
-                <div key={label} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                  <span style={{ fontSize: '0.9rem' }}>{icon}</span>
+                { tag: 'Email', label: 'essor.consulting.maroc@gmail.com', href: 'mailto:essor.consulting.maroc@gmail.com' },
+                { tag: 'Tél', label: '+212 06 63 44 92 00', href: 'tel:+212663449200' },
+                { tag: 'WA', label: 'WhatsApp', href: 'https://wa.me/212663449200' },
+                { tag: 'Lieu', label: 'Casablanca, Maroc', href: undefined },
+              ].map(({ tag, label, href }) => (
+                <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem' }}>
+                  <span style={{
+                    fontFamily: 'DM Mono, monospace',
+                    fontSize: '0.52rem',
+                    letterSpacing: '0.14em',
+                    textTransform: 'uppercase',
+                    color: 'rgba(192,154,47,0.45)',
+                    flexShrink: 0,
+                    width: 26,
+                  }}>
+                    {tag}
+                  </span>
                   {href ? (
                     <a
                       href={href}
@@ -172,7 +183,7 @@ export default function Footer() {
                 </div>
               ))}
               <a
-                href="#contact"
+                href="mailto:essor.consulting.maroc@gmail.com"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -215,7 +226,7 @@ export default function Footer() {
             letterSpacing: '0.06em',
           }}
         >
-          <span>© 2025 CABINET SC — TOUS DROITS RÉSERVÉS</span>
+          <span>© 2026 ESSOR CONSULTING — TOUS DROITS RÉSERVÉS</span>
           <span>CASABLANCA · MAROC · PME & ETI</span>
         </div>
       </div>

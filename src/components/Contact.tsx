@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+﻿import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const deliverables = [
@@ -53,7 +53,7 @@ export default function Contact() {
           </div>
           <h2
             style={{
-              fontFamily: 'Playfair Display, serif',
+              fontFamily: 'Bodoni Moda, serif',
               fontSize: 'clamp(2.2rem, 4vw, 4rem)',
               fontWeight: 900,
               lineHeight: 1.05,
@@ -86,15 +86,26 @@ export default function Contact() {
             }}
           >
             {[
-              { icon: '📧', label: 'contact@cabinet-sc.ma', href: 'mailto:contact@cabinet-sc.ma' },
-              { icon: '📞', label: '+212 6 00 00 00 00', href: 'tel:+212600000000' },
-              { icon: '📍', label: 'Casablanca, Maroc', href: undefined },
-            ].map(({ icon, label, href }) => (
+              { label: 'essor.consulting.maroc@gmail.com', href: 'mailto:essor.consulting.maroc@gmail.com', tag: 'Email' },
+              { label: '+212 06 63 44 92 00', href: 'tel:+212663449200', tag: 'Tél' },
+              { label: 'WhatsApp', href: 'https://wa.me/212663449200', tag: 'WA' },
+              { label: 'Casablanca, Maroc', href: undefined, tag: 'Lieu' },
+            ].map(({ tag, label, href }) => (
               <div
                 key={label}
-                style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}
+                style={{ display: 'flex', alignItems: 'baseline', gap: '1rem' }}
               >
-                <span>{icon}</span>
+                <span style={{
+                  fontFamily: 'DM Mono, monospace',
+                  fontSize: '0.55rem',
+                  letterSpacing: '0.14em',
+                  textTransform: 'uppercase',
+                  color: 'rgba(192,154,47,0.5)',
+                  flexShrink: 0,
+                  width: 28,
+                }}>
+                  {tag}
+                </span>
                 {href ? (
                   <a
                     href={href}
@@ -150,7 +161,7 @@ export default function Contact() {
 
             <h3
               style={{
-                fontFamily: 'Playfair Display, serif',
+                fontFamily: 'Bodoni Moda, serif',
                 fontSize: '1.3rem',
                 fontWeight: 700,
                 color: 'var(--dark-text)',
@@ -195,7 +206,7 @@ export default function Contact() {
             </ul>
 
             <motion.a
-              href="mailto:contact@cabinet-sc.ma"
+              href="mailto:essor.consulting.maroc@gmail.com"
               whileHover={{ scale: 1.02, boxShadow: '0 12px 40px rgba(184,146,42,0.3)' }}
               style={{
                 display: 'flex',
@@ -213,7 +224,7 @@ export default function Contact() {
                 transition: 'background 0.25s',
               }}
             >
-              🗓 Réserver mon échange découverte
+              Réserver mon échange découverte →
             </motion.a>
 
             <p

@@ -4,97 +4,41 @@ import { motion, useInView } from 'framer-motion'
 const formations = [
   {
     num: '01',
-    type: 'Formation intra-entreprise',
+    type: 'Intra-entreprise',
     title: 'Supply Chain Fondamentaux',
-    desc: "Destiné aux équipes opérationnelles et managers non spécialistes. Couvre les flux, les stocks, le transport, les achats et les KPI essentiels. Format 1 à 2 jours en présentiel.",
-    duration: '1–2 jours',
+    desc: "Destiné aux équipes opérationnelles et managers non spécialistes. Flux, stocks, transport, achats, KPIs essentiels. Cas pratiques tirés de votre secteur. Format 1 à 2 jours en présentiel.",
+    duration: '1 à 2 jours',
     audience: 'Équipes opérationnelles',
+    price: '15 000 – 22 000',
   },
   {
     num: '02',
-    type: 'Formation intra-entreprise',
+    type: 'Intra-entreprise',
     title: 'S&OP & Planification Avancée',
-    desc: "Pour les équipes planification, supply chain et commerce. Méthodologie S&OP classique + introduction au DDMRP. Cas pratiques tirés de votre entreprise si disponibles.",
+    desc: "Pour les équipes planification, supply chain et commerce. Méthodologie S&OP classique et introduction au DDMRP. Cas pratiques tirés de votre entreprise si disponibles.",
     duration: '2 jours',
     audience: 'Équipes planification',
+    price: '22 000 – 32 000',
   },
   {
     num: '03',
     type: 'Atelier dirigeants',
     title: 'Supply Chain pour Décideurs',
-    desc: "Séminaire d'une journée pour CODIR / DG / DAF. Comprendre les enjeux SC sans maîtriser le technique. Arbitrer un projet WMS/TMS/APS. Lire un business case. Poser les bonnes questions.",
+    desc: "Séminaire d'une journée pour CODIR, DG, DAF. Comprendre les enjeux SC sans maîtriser le technique. Arbitrer un projet WMS/TMS/APS. Lire un business case. Poser les bonnes questions.",
     duration: '1 jour',
     audience: 'CODIR — DG — DAF',
+    price: '12 000 – 18 000',
   },
   {
     num: '04',
     type: 'Coaching individuel',
     title: 'Montée en compétence DSC',
-    desc: "Pour les Directeurs Supply Chain ou Responsables Logistique souhaitant structurer leurs pratiques. Sessions mensuelles individualisées. Revue de vos KPIs, organisation, projets en cours.",
+    desc: "Pour les Directeurs Supply Chain ou Responsables Logistique souhaitant structurer leurs pratiques. Sessions mensuelles individualisées — revue de vos KPIs, organisation et projets en cours.",
     duration: 'Sessions mensuelles',
     audience: 'DSC — Responsable Logistique',
+    price: '8 000',
   },
 ]
-
-export default function Formation() {
-  const headerRef = useRef(null)
-  const headerInView = useInView(headerRef, { once: true, margin: '-80px' })
-
-  return (
-    <section
-      id="formation"
-      style={{ background: 'var(--ink)', padding: '8rem 4rem 0' }}
-    >
-      <div className="section-inner">
-        {/* Header */}
-        <motion.div
-          ref={headerRef}
-          initial={{ opacity: 0, y: 32 }}
-          animate={headerInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-        >
-          <div className="section-tag" style={{ color: 'rgba(212,168,67,0.9)' }}>
-            Formation
-          </div>
-          <h2
-            style={{
-              fontFamily: 'Playfair Display, serif',
-              fontSize: 'clamp(2rem, 3vw, 2.8rem)',
-              fontWeight: 800,
-              lineHeight: 1.2,
-              marginBottom: '1rem',
-              color: 'var(--dark-text)',
-            }}
-          >
-            Former les équipes qui font tourner votre Supply Chain
-          </h2>
-          <p
-            style={{
-              fontSize: '1.05rem',
-              color: 'var(--dark-muted)',
-              maxWidth: 640,
-              marginBottom: '5rem',
-              lineHeight: 1.8,
-            }}
-          >
-            15 ans d&apos;enseignement dans les meilleures écoles marocaines (TBS, ISCAE, HEM, ENCG, EMI).
-            Des formations ancrées dans la réalité terrain marocaine.
-          </p>
-        </motion.div>
-
-        {/* Sticky-stack cards */}
-        <div>
-          {formations.map((item, i) => (
-            <StickyCard key={item.num} item={item} index={i} total={formations.length} />
-          ))}
-        </div>
-      </div>
-
-      {/* Bottom spacer to ensure last card is visible before next section */}
-      <div style={{ height: '6rem' }} />
-    </section>
-  )
-}
 
 function StickyCard({
   item,
@@ -130,120 +74,259 @@ function StickyCard({
           borderBottom: index === total - 1 ? '1px solid rgba(255,255,255,0.07)' : 'none',
           padding: '3rem',
           display: 'grid',
-          gridTemplateColumns: '220px 1fr auto',
-          gap: '3rem',
+          gridTemplateColumns: '220px 1fr 200px',
+          gap: '2.5rem',
           alignItems: 'center',
           position: 'relative',
           overflow: 'hidden',
           boxShadow: '0 -8px 40px rgba(0,0,0,0.5)',
         }}
       >
-        {/* Background watermark number */}
-        <div
-          style={{
-            position: 'absolute',
-            right: '3rem',
-            top: '50%',
-            transform: 'translateY(-50%)',
-            fontFamily: 'Playfair Display, serif',
-            fontSize: 'clamp(5rem, 10vw, 9rem)',
-            fontWeight: 900,
-            color: 'rgba(184,146,42,0.05)',
-            lineHeight: 1,
-            userSelect: 'none',
-            pointerEvents: 'none',
-          }}
-        >
+        {/* Watermark number */}
+        <div style={{
+          position: 'absolute',
+          right: '2.5rem',
+          top: '50%',
+          transform: 'translateY(-50%)',
+          fontFamily: 'Bodoni Moda, serif',
+          fontSize: 'clamp(5rem, 10vw, 9rem)',
+          fontWeight: 900,
+          color: 'rgba(184,146,42,0.04)',
+          lineHeight: 1,
+          userSelect: 'none',
+          pointerEvents: 'none',
+        }}>
           {item.num}
         </div>
 
-        {/* Left: meta */}
-        <div>
-          <div
-            style={{
-              fontFamily: 'DM Mono, monospace',
-              fontSize: '0.65rem',
-              letterSpacing: '0.15em',
-              color: 'var(--gold)',
-              textTransform: 'uppercase',
-              marginBottom: '0.75rem',
-            }}
-          >
+        {/* Left — meta */}
+        <div style={{ position: 'relative', zIndex: 2 }}>
+          <div style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.18em',
+            textTransform: 'uppercase',
+            color: 'rgba(192,154,47,0.65)',
+            marginBottom: '0.75rem',
+          }}>
             {item.type}
           </div>
-          <h3
-            style={{
-              fontFamily: 'Playfair Display, serif',
-              fontSize: '1.25rem',
-              fontWeight: 700,
-              color: 'var(--dark-text)',
-              lineHeight: 1.2,
-              marginBottom: '1rem',
-            }}
-          >
+          <h3 style={{
+            fontFamily: 'Bodoni Moda, serif',
+            fontSize: 'clamp(1.1rem, 1.8vw, 1.5rem)',
+            fontWeight: 800,
+            color: 'var(--dark-text)',
+            lineHeight: 1.15,
+            letterSpacing: '-0.02em',
+            marginBottom: '1.25rem',
+          }}>
             {item.title}
           </h3>
-          <div
-            style={{
+
+          {/* Duration + audience — sans emoji */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+            <div style={{
               display: 'flex',
-              flexDirection: 'column',
-              gap: '0.3rem',
-            }}
-          >
-            <div
-              style={{
+              alignItems: 'center',
+              gap: '0.5rem',
+            }}>
+              <span style={{
+                display: 'block',
+                width: 16,
+                height: 1,
+                background: 'rgba(192,154,47,0.4)',
+                flexShrink: 0,
+              }} />
+              <span style={{
                 fontFamily: 'DM Mono, monospace',
-                fontSize: '0.68rem',
+                fontSize: '0.62rem',
                 letterSpacing: '0.08em',
-                color: 'rgba(227,226,226,0.4)',
                 textTransform: 'uppercase',
-              }}
-            >
-              ⏱ {item.duration}
+                color: 'rgba(227,226,226,0.4)',
+              }}>
+                {item.duration}
+              </span>
             </div>
-            <div
-              style={{
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+            }}>
+              <span style={{
+                display: 'block',
+                width: 16,
+                height: 1,
+                background: 'rgba(192,154,47,0.4)',
+                flexShrink: 0,
+              }} />
+              <span style={{
                 fontFamily: 'DM Mono, monospace',
-                fontSize: '0.68rem',
+                fontSize: '0.62rem',
                 letterSpacing: '0.08em',
-                color: 'rgba(227,226,226,0.4)',
                 textTransform: 'uppercase',
-              }}
-            >
-              ↗ {item.audience}
+                color: 'rgba(227,226,226,0.4)',
+              }}>
+                {item.audience}
+              </span>
             </div>
           </div>
         </div>
 
-        {/* Center: description */}
-        <p
-          style={{
-            fontSize: '0.92rem',
-            color: 'var(--dark-muted)',
-            lineHeight: 1.75,
-            position: 'relative',
-            zIndex: 2,
-          }}
-        >
+        {/* Center — description */}
+        <p style={{
+          fontSize: '0.92rem',
+          color: 'var(--dark-muted)',
+          lineHeight: 1.8,
+          fontWeight: 300,
+          position: 'relative',
+          zIndex: 2,
+        }}>
           {item.desc}
         </p>
 
-        {/* Right: CTA */}
-        <div style={{ flexShrink: 0, position: 'relative', zIndex: 2 }}>
+        {/* Right — prix + CTA */}
+        <div style={{
+          position: 'relative',
+          zIndex: 2,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-end',
+          gap: '0',
+        }}>
+          {/* Prix */}
+          <div style={{
+            fontFamily: 'Bodoni Moda, serif',
+            fontSize: 'clamp(0.95rem, 1.4vw, 1.25rem)',
+            fontWeight: 800,
+            lineHeight: 1.2,
+            letterSpacing: '-0.02em',
+            color: 'var(--gold)',
+            textAlign: 'right',
+            marginBottom: '0.2rem',
+            wordBreak: 'keep-all',
+          }}>
+            {item.price}
+          </div>
+          <div style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.56rem',
+            letterSpacing: '0.12em',
+            textTransform: 'uppercase',
+            color: 'rgba(227,226,226,0.28)',
+            textAlign: 'right',
+            marginBottom: '1.75rem',
+          }}>
+            MAD HT
+            {item.num === '04' ? ' / session' : ' / session intra'}
+          </div>
+
           <a
             href="#contact"
-            className="btn-outline"
             style={{
-              borderColor: 'rgba(255,255,255,0.2)',
+              fontFamily: 'DM Mono, monospace',
+              fontSize: '0.68rem',
+              fontWeight: 600,
+              letterSpacing: '0.1em',
+              textTransform: 'uppercase',
               color: 'var(--dark-text)',
+              textDecoration: 'none',
+              border: '1px solid rgba(255,255,255,0.15)',
+              padding: '0.65rem 1.2rem',
               whiteSpace: 'nowrap',
-              fontSize: '0.82rem',
+              transition: 'border-color 0.2s, color 0.2s',
+            }}
+            onMouseEnter={e => {
+              const el = e.currentTarget
+              el.style.borderColor = 'rgba(192,154,47,0.5)'
+              el.style.color = 'var(--gold)'
+            }}
+            onMouseLeave={e => {
+              const el = e.currentTarget
+              el.style.borderColor = 'rgba(255,255,255,0.15)'
+              el.style.color = 'var(--dark-text)'
             }}
           >
-            En savoir plus
+            Demander un devis →
           </a>
         </div>
       </motion.div>
     </div>
+  )
+}
+
+export default function Formation() {
+  const headerRef = useRef(null)
+  const headerInView = useInView(headerRef, { once: true, margin: '-80px' })
+
+  return (
+    <section id="formation" style={{ background: 'var(--ink)', padding: '8rem 4rem 0' }}>
+      <div className="section-inner">
+
+        {/* Header */}
+        <motion.div
+          ref={headerRef}
+          initial={{ opacity: 0, y: 32 }}
+          animate={headerInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <div style={{
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.6rem',
+            letterSpacing: '0.2em',
+            textTransform: 'uppercase',
+            color: 'rgba(192,154,47,0.5)',
+            marginBottom: '1.5rem',
+          }}>
+            07 / Formation & Enseignement
+          </div>
+
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            gap: '4rem',
+            alignItems: 'end',
+            marginBottom: '5rem',
+          }}>
+            <h2 style={{
+              fontFamily: 'Bodoni Moda, serif',
+              fontSize: 'clamp(2.8rem, 5.5vw, 7rem)',
+              fontWeight: 800,
+              lineHeight: 0.92,
+              letterSpacing: '-0.025em',
+              color: 'var(--dark-text)',
+              margin: 0,
+            }}>
+              Former les équipes.
+              <br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
+                Transmettre le terrain.
+              </span>
+            </h2>
+
+            <p style={{
+              fontSize: '1rem',
+              color: 'var(--dark-muted)',
+              lineHeight: 1.8,
+              fontWeight: 300,
+              maxWidth: 440,
+              margin: 0,
+            }}>
+              15 ans d&apos;enseignement dans les meilleures écoles marocaines —
+              TBS, ISCAE, HEM, ENCG, EMI. Des formations ancrées dans la réalité
+              terrain, pas dans les manuels.
+            </p>
+          </div>
+        </motion.div>
+
+        {/* Sticky cards */}
+        <div>
+          {formations.map((item, i) => (
+            <StickyCard key={item.num} item={item} index={i} total={formations.length} />
+          ))}
+        </div>
+      </div>
+
+      <div style={{ height: '6rem' }} />
+    </section>
   )
 }

@@ -1,0 +1,70 @@
+# Essor Consulting
+
+> Cabinet de conseil Supply Chain & Logistique indépendant — Maroc
+
+Essor Consulting est un cabinet de conseil spécialisé en Supply Chain et Logistique, fondé par Youssef Bahaida. Le cabinet opère au Maroc et en Europe, sans commission éditeur, sans conflit d'intérêt.
+
+## Fondateur
+
+**Youssef Bahaida** — Fondateur & Directeur
+- 15 ans d'expérience terrain en Supply Chain au Maroc et en Europe
+- DDMRP Certified Practitioner
+- Ancien Directeur de site DHL Supply Chain Maroc (21 000 m², 120 collaborateurs)
+- Ancien Directeur Supply Chain Trade — Groupe Addoha (710M MAD achats, 31 chantiers)
+- Expert national Supply Chain — Task Force Vaccination nationale COVID-19
+- Conception greenfield logistique — Renault-Nissan Tanger
+- Expert national — European Training Foundation
+- Enseignant : TBS, ISCAE, HEM, ENCG, EMI
+- Formation : ENSA Agadir, KEDGE Business School, UM6P
+
+## Services
+
+### Conseil & AMOA
+- Diagnostic Express Supply Chain (2 à 6 semaines)
+- Optimisation Stocks & DDMRP
+- Performance Achats (référence : −11% sur 710M MAD, Groupe Addoha)
+- Schéma Logistique & Greenfield (référence : Renault-Nissan Tanger)
+- Étude de Faisabilité SI (zéro commission éditeur)
+- AMOA & Pilotage Projet
+
+### Déploiement Systèmes SCM
+- WMS (Gestion d'entrepôt)
+- TMS (Gestion du transport)
+- APS / S&OP (Demand Planning)
+- e-Procurement (Source-to-Pay)
+- Control Tower / BI Supply Chain
+
+### Direction SC à Temps Partagé
+Mandat DSC en 3 phases : État des lieux → Pilotage & Fondations → Passation
+- Mandat Pilotage : PME 50–200 pers., 4 à 6 mois
+- Mandat Stratégique : ETI 200–800 pers., 7 à 10 mois
+
+### Formation
+- Supply Chain Fondamentaux (intra-entreprise, 1–2 jours)
+- S&OP & Planification Avancée (2 jours)
+- Supply Chain pour Décideurs (atelier CODIR/DG/DAF, 1 jour)
+- Coaching DSC individuel (sessions mensuelles)
+
+## Références clients
+
+- **Renault-Nissan** — Conception greenfield logistique, site industriel Tanger
+- **L'Oréal, Nestlé, Mars** — Direction site DHL Supply Chain (+35% productivité, 98,5% taux de service)
+- **Groupe Addoha** — 710M MAD achats, 31 chantiers, −11% économies
+- **Task Force Vaccination nationale** — Expert Supply Chain COVID-19, cold chain national
+- **110+ missions** — PME et ETI marocaines, tous secteurs
+
+## Chiffres clés
+
+- 15+ ans d'expérience terrain
+- 110+ missions réalisées
+- 710M MAD d'achats pilotés
+- 120 collaborateurs dirigés (DHL)
+- 0 commission éditeur
+
+## Contact
+
+- Email : essor.consulting.maroc@gmail.com
+- Téléphone : +212 06 63 44 92 00
+- WhatsApp : https://wa.me/212663449200
+- Localisation : Casablanca, Maroc
+- Site web : https://essor-consulting.vercel.app
