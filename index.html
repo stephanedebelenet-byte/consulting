@@ -21,13 +21,17 @@
     <meta property="og:url" content="https://essor-consulting.vercel.app/" />
     <meta property="og:title" content="Essor Consulting — Cabinet Conseil Supply Chain | Maroc" />
     <meta property="og:description" content="Cabinet de conseil Supply Chain indépendant. 110+ missions au Maroc. Diagnostic, stocks, achats, logistique, SI. Fondateur : Youssef Bahaida — 15 ans terrain." />
+    <meta property="og:image" content="https://essor-consulting.vercel.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="fr_MA" />
     <meta property="og:site_name" content="Essor Consulting" />
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Essor Consulting — Cabinet Supply Chain Maroc" />
     <meta name="twitter:description" content="Cabinet de conseil Supply Chain indépendant. 110+ missions. Casablanca, Maroc." />
+    <meta name="twitter:image" content="https://essor-consulting.vercel.app/og-image.jpg" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -109,6 +113,89 @@
           "inLanguage": "fr-MA",
           "isPartOf": { "@id": "https://essor-consulting.vercel.app/#organization" },
           "author": { "@id": "https://essor-consulting.vercel.app/#organization" }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://essor-consulting.vercel.app/#service-diagnostic",
+          "name": "Diagnostic Supply Chain",
+          "description": "Audit et diagnostic complet de la supply chain. Identification des causes racines et levier chiffrés.",
+          "serviceType": "Consulting",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Diagnostic Supply Chain Tiers",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "name": "Diagnostic Flash",
+                "price": "45000",
+                "priceCurrency": "MAD",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock"
+              },
+              {
+                "@type": "Offer",
+                "name": "Diagnostic Stratégique",
+                "price": "105000",
+                "priceCurrency": "MAD",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock"
+              }
+            ]
+          },
+          "provider": { "@id": "https://essor-consulting.vercel.app/#organization" }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://essor-consulting.vercel.app/#service-ddmrp",
+          "name": "Optimisation Stocks & DDMRP",
+          "description": "Politique de stocks optimisée. DDMRP certifié pour complexe. Libération de cash, réduction ruptures.",
+          "serviceType": "Consulting",
+          "provider": { "@id": "https://essor-consulting.vercel.app/#organization" }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://essor-consulting.vercel.app/#service-achats",
+          "name": "Performance Achats",
+          "description": "Optimisation des dépenses achats. Économies réalisées 3–11% chiffré. Matrice Kraljic, panel fournisseurs.",
+          "serviceType": "Consulting",
+          "provider": { "@id": "https://essor-consulting.vercel.app/#organization" }
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://essor-consulting.vercel.app/#local-business",
+          "name": "Essor Consulting",
+          "type": "ProfessionalService",
+          "url": "https://essor-consulting.vercel.app",
+          "telephone": "+212663449200",
+          "email": "essor.consulting.maroc@gmail.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Casablanca",
+            "addressLocality": "Casablanca",
+            "addressRegion": "Grand Casablanca",
+            "postalCode": "20000",
+            "addressCountry": "MA"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "33.5731",
+            "longitude": "-7.5898"
+          },
+          "priceRange": "MAD 35000-350000",
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "@id": "https://essor-consulting.vercel.app/#contact-point",
+          "telephone": "+212663449200",
+          "contactType": "Customer Service",
+          "email": "essor.consulting.maroc@gmail.com",
+          "areaServed": ["MA", "FR"]
         }
       ]
     }

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import SchemaScript from './SchemaHelper'
 
 const services = [
   {
@@ -260,10 +261,48 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   )
 }
 
+const servicesFAQ = [
+  {
+    q: 'Combien coûte un diagnostic Supply Chain?',
+    a: 'Entre 35 000 et 130 000 MAD HT selon la complexité. Diagnostic Flash (35k–55k, 2 sem) pour audit rapide. Diagnostic Stratégique (80k–130k, 4–6 sem) pour analyse complète. Livrable: rapport synthèse + leviers chiffrés + session restitution.',
+  },
+  {
+    q: 'Qu\'est-ce que DDMRP et pourquoi l\'implémenter?',
+    a: 'Demand Driven Material Requirements Planning. Méthode moderne de gestion des stocks basée sur la demande réelle vs prévisions. Réduit les ruptures de 40–60%, surstocks de 20–30%, libère 15–30% du BFR. Certification requise pour bon déploiement.',
+  },
+  {
+    q: 'Combien de temps pour déployer un WMS?',
+    a: 'WMS Mini (SaaS): 6–10 semaines (80k–130k). WMS Pilote: 3–5 mois avec AMOA (180k–320k). WMS Pro (ETI): 6–10 mois (450k+). Durée = scope + nombre sites + intégrations ERP.',
+  },
+  {
+    q: 'Avez-vous des références clients?',
+    a: 'Oui. 110+ missions réalisées. Clients majeurs: Renault-Nissan, L\'Oréal Maroc, Nestlé, P&G, DHL, Huawei, J&J, Addoha, OCP. Résultats: réductions coûts 3–11%, erreurs −70–90%, productivité +25–50%.',
+  },
+  {
+    q: 'Facturez-vous des commissions sur les logiciels?',
+    a: 'Non. Zéro commission éditeur. Notre seule allégeance est au business case client. Recommandations Tier 1/2 (Odoo, SAP, etc) basées uniquement sur vos besoins, pas notre intérêt.',
+  },
+]
+
+const servicesSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: servicesFAQ.map(faq => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a,
+    },
+  })),
+}
+
 export default function Conseil() {
   return (
-    <section id="conseil" style={{ background: 'var(--paper)', padding: '8rem 4rem' }}>
-      <div className="section-inner">
+    <>
+      <SchemaScript schema={servicesSchema} />
+      <section id="conseil" style={{ background: 'var(--paper)', padding: '8rem 4rem' }}>
+        <div className="section-inner">
         <div style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
@@ -319,7 +358,8 @@ export default function Conseil() {
           <a href="#contact" className="btn-primary">Réserver un échange gratuit →</a>
           <a href="#profil" className="btn-outline">Notre approche</a>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </>
   )
 }
