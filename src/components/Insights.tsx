@@ -37,7 +37,7 @@ const ARTICLES = [
 function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index: number }) {
   return (
     <motion.a
-      href="/blog"
+      href="#contact"
       className="insight-card"
       initial={{ opacity: 0, y: 48 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -75,8 +75,7 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
       }}>
         <img
           src={article.image}
-          alt=""
-          aria-hidden="true"
+          alt={article.title}
           style={{
             width: '100%', height: '100%',
             objectFit: 'cover',
@@ -265,7 +264,7 @@ export default function Insights() {
           </motion.div>
 
           <motion.a
-            href="/blog"
+            href="#contact"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
@@ -286,7 +285,7 @@ export default function Insights() {
             onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = 'var(--gold)')}
             onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = 'rgba(184,146,42,0.7)')}
           >
-            Voir tous les articles
+            Discuter de vos besoins
             <span style={{ fontSize: '1rem' }}>→</span>
           </motion.a>
         </div>

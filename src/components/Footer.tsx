@@ -33,8 +33,8 @@
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: '1.5fr 1fr 1fr',
-            gap: '4rem',
+            gridTemplateColumns: '1.5fr 1fr 1fr 1fr',
+            gap: '3rem',
             marginBottom: '4rem',
           }}
         >
@@ -106,6 +106,50 @@
                 <li key={href}>
                   <a
                     href={href}
+                    style={{
+                      fontSize: '0.88rem',
+                      color: 'rgba(227,226,226,0.5)',
+                      textDecoration: 'none',
+                      transition: 'color 0.2s',
+                    }}
+                    onMouseEnter={(e) => ((e.target as HTMLElement).style.color = 'var(--gold)')}
+                    onMouseLeave={(e) =>
+                      ((e.target as HTMLElement).style.color = 'rgba(227,226,226,0.5)')
+                    }
+                  >
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Resources column */}
+          <div>
+            <div
+              style={{
+                fontFamily: 'DM Mono, monospace',
+                fontSize: '0.65rem',
+                letterSpacing: '0.15em',
+                textTransform: 'uppercase',
+                color: 'rgba(227,226,226,0.3)',
+                marginBottom: '1.5rem',
+              }}
+            >
+              Ressources
+            </div>
+            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {[
+                { label: 'DDMRP Institute', href: 'https://www.demanddriveninstitute.com/', target: '_blank' },
+                { label: 'European Training Found.', href: 'https://www.etf.europa.eu/', target: '_blank' },
+                { label: 'ENSA Agadir', href: 'https://www.ensaagadir.ac.ma/', target: '_blank' },
+                { label: 'KEDGE Business School', href: 'https://www.kedge.edu/', target: '_blank' },
+              ].map(({ label, href, target }) => (
+                <li key={href}>
+                  <a
+                    href={href}
+                    target={target}
+                    rel="noopener noreferrer"
                     style={{
                       fontSize: '0.88rem',
                       color: 'rgba(227,226,226,0.5)',
