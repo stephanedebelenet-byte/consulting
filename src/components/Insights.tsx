@@ -127,6 +127,19 @@ function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index:
           </div>
         </div>
 
+        {/* Author byline */}
+        <div
+          style={{
+            fontSize: '0.75rem',
+            color: 'rgba(192,154,47,0.65)',
+            marginBottom: '1rem',
+            fontFamily: 'DM Mono, monospace',
+            letterSpacing: '0.05em',
+          }}
+        >
+          Par <strong>Youssef Bahaida</strong> · Fondateur, Expert Supply Chain
+        </div>
+
         {/* Title */}
         <h3
           style={{
