@@ -2,54 +2,54 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const CREDENTIALS = [
-  { label: 'Formation', value: 'ENSA Agadir · KEDGE / UM6P' },
+  { label: 'Approche', value: 'Indépendant de tout éditeur logiciel' },
   { label: 'Certification', value: 'DDMRP Certified' },
-  { label: 'Expertise', value: 'France & Europe · Maroc' },
-  { label: 'Enseignement', value: 'TBS · ISCAE · HEM · ENCG · EMI' },
+  { label: 'Zone d’action', value: 'France & Europe · Maroc' },
+  { label: 'Transmission', value: 'Académique & terrain' },
 ]
 
 const STATS = [
-  { value: '15+', label: "Ans d'expérience terrain" },
+  { value: '15+', label: "Ans d’expérience terrain" },
   { value: '110+', label: 'Missions réalisées' },
-  { value: '710M', label: 'MAD d\'achats pilotés' },
-  { value: '120', label: 'Collaborateurs dirigés (DHL)' },
+  { value: '710M', label: 'MAD d’achats pilotés' },
+  { value: '6', label: 'Secteurs accompagnés' },
 ]
 
 const HIGHLIGHTS = [
   {
-    role: 'Fondateur & Directeur',
-    org: 'Essor Consulting',
-    period: 'Depuis 2024',
-    img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80&auto=format&fit=crop',
-  },
-  {
-    role: 'Expert Supply Chain COVID-19',
-    org: 'Task Force Vaccination nationale',
-    period: '2020 — Mission nationale',
-    img: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=80&auto=format&fit=crop',
-  },
-  {
-    role: 'Directeur Supply Chain Trade',
-    org: 'Groupe Addoha',
-    period: '710M MAD · 31 chantiers · −11%',
-    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80&auto=format&fit=crop',
-  },
-  {
-    role: 'Directeur de Site',
-    org: 'DHL Supply Chain Maroc',
-    period: '21 000 m² · 120 pers. · P&L',
+    role: 'Grande Distribution & Retail',
+    org: 'Optimisation flux, stocks & approvisionnement',
+    period: 'Secteur accompagné',
     img: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&q=80&auto=format&fit=crop',
   },
   {
-    role: 'Conception Greenfield Logistique',
-    org: 'Renault-Nissan Tanger',
-    period: 'Site industriel · Standards SPR',
+    role: 'Industrie & Manufacture',
+    org: 'Planification S&OP · déploiement DDMRP',
+    period: 'Secteur accompagné',
     img: 'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?w=600&q=80&auto=format&fit=crop',
   },
   {
-    role: 'Expert National',
-    org: 'European Training Foundation',
-    period: 'Réforme gouvernance logistique',
+    role: 'Immobilier & Construction',
+    org: 'Logistique chantier · achats · coordination',
+    period: 'Secteur accompagné',
+    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80&auto=format&fit=crop',
+  },
+  {
+    role: 'Agroalimentaire',
+    org: 'Traçabilité · supply critique · conformité',
+    period: 'Secteur accompagné',
+    img: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&q=80&auto=format&fit=crop',
+  },
+  {
+    role: 'Santé & Pharmaceutique',
+    org: 'Chaîne du froid · approvisionnement critique',
+    period: 'Secteur accompagné',
+    img: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=80&auto=format&fit=crop',
+  },
+  {
+    role: 'Transport & Logistique 3PL',
+    org: 'Schéma directeur · WMS · TMS · P&L',
+    period: 'Secteur accompagné',
     img: 'https://images.unsplash.com/photo-1431540015161-0bf868a2d407?w=600&q=80&auto=format&fit=crop',
   },
 ]
@@ -148,7 +148,7 @@ export default function Profil() {
               color: 'var(--dark-text)',
               margin: '0 0 1rem 0',
             }}>
-              Youssef<span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>.</span>
+              Essor<span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>.</span>
             </h2>
 
             <p style={{
@@ -159,8 +159,9 @@ export default function Profil() {
               maxWidth: 520,
               marginTop: '1.5rem',
             }}>
-              15 ans de terrain au Maroc et en Europe. Directeur Supply Chain, Directeur de site logistique,
-              Expert national COVID-19. Aujourd&apos;hui fondateur d&apos;un cabinet qui ne vend aucun logiciel.
+              15 ans de missions terrain en Supply Chain au Maroc et en Europe.
+              Une expertise construite projet par projet, pas dans les manuels.
+              Un cabinet indépendant, sans allégeance à aucun éditeur.
             </p>
           </motion.div>
         </div>
@@ -218,7 +219,7 @@ export default function Profil() {
         </div>
       </div>
 
-      {/* ── PARCOURS — grille photos ── */}
+      {/* ── SECTEURS — grille photos ── */}
       <div style={{ background: 'var(--paper)', padding: '8rem 4rem' }}>
         <div className="section-inner">
 
@@ -245,10 +246,10 @@ export default function Profil() {
                 margin: 0,
               }}
             >
-              Un parcours.
+              Notre expertise.
               <br />
               <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--gold)' }}>
-                Des références réelles.
+                Des résultats concrets.
               </span>
             </motion.h3>
 
@@ -291,7 +292,7 @@ export default function Profil() {
             </div>
           </div>
 
-          {/* Photos grid — 3×2 avec photos réelles */}
+          {/* Photos grid — 3×2 */}
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(3, 1fr)',
@@ -299,7 +300,7 @@ export default function Profil() {
           }}>
             {HIGHLIGHTS.map((h, i) => (
               <motion.div
-                key={h.org}
+                key={h.role}
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-40px' }}
@@ -313,7 +314,7 @@ export default function Profil() {
                 {/* Photo */}
                 <motion.img
                   src={h.img}
-                  alt={h.org}
+                  alt={h.role}
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                   style={{
@@ -381,7 +382,7 @@ export default function Profil() {
             }}
           >
             <a href="#contact" className="btn-primary">
-              Prendre contact avec Youssef →
+              Prendre contact avec nous →
             </a>
             <a
               href="mailto:essor.consulting.maroc@gmail.com"
