@@ -1,4 +1,4 @@
-﻿export default function Footer() {
+export default function Footer() {
   const nav = [
     { label: 'Notre approche', href: '#pourquoi' },
     { label: 'Conseil & AMOA', href: '#conseil' },
@@ -124,7 +124,7 @@
             </ul>
           </div>
 
-          {/* Resources column */}
+          {/* Nos services column */}
           <div>
             <div
               style={{
@@ -136,20 +136,18 @@
                 marginBottom: '1.5rem',
               }}
             >
-              Ressources
+              Nos services
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {[
-                { label: 'DDMRP Institute', href: 'https://www.demanddriveninstitute.com/', target: '_blank' },
-                { label: 'European Training Found.', href: 'https://www.etf.europa.eu/', target: '_blank' },
-                { label: 'ENSA Agadir', href: 'https://www.ensaagadir.ac.ma/', target: '_blank' },
-                { label: 'KEDGE Business School', href: 'https://www.kedge.edu/', target: '_blank' },
-              ].map(({ label, href, target }) => (
+                { label: 'Conseil & AMOA SC', href: '#conseil' },
+                { label: 'Sélection systèmes SCM', href: '#systemes' },
+                { label: 'Formation terrain', href: '#formation' },
+                { label: 'DSC à temps partagé', href: '#dsc' },
+              ].map(({ label, href }) => (
                 <li key={href}>
                   <a
                     href={href}
-                    target={target}
-                    rel="noopener noreferrer"
                     style={{
                       fontSize: '0.88rem',
                       color: 'rgba(227,226,226,0.5)',
