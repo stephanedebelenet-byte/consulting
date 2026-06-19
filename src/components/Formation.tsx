@@ -123,7 +123,7 @@ function StickyCard({
             {item.title}
           </h3>
 
-          {/* Duration + audience — sans emoji */}
+          {/* Duration + audience */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
             <div style={{
               display: 'flex',
@@ -311,9 +311,8 @@ export default function Formation() {
               maxWidth: 440,
               margin: 0,
             }}>
-              15 ans d&apos;enseignement dans les meilleures écoles marocaines —
-              TBS, ISCAE, HEM, ENCG, EMI. Des formations ancrées dans la réalité
-              terrain, pas dans les manuels.
+              Une pédagogie ancrée dans la réalité terrain, pas dans les manuels.
+              Des formations conçues par des praticiens, pour des praticiens.
             </p>
           </div>
         </motion.div>
