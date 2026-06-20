@@ -15,6 +15,7 @@ import Formation from './components/Formation'
 import DSC from './components/DSC'
 import Profil from './components/Profil'
 import Engagement from './components/Engagement'
+import Blog from './components/Blog'
 import Insights from './components/Insights'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -67,6 +68,7 @@ export default function App() {
       <Statement text="Indépendant. Pas parce que c'est tendance. Parce que c'est juste." bg="var(--paper)" />
       <Profil />
       <Engagement />
+      <Blog />
       <Insights />
       <Contact />
       <Footer />
