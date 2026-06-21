@@ -25,10 +25,10 @@ const SLIDES = [
 ]
 
 const LINES = [
-  { text: 'Nous ne', italic: false },
-  { text: 'vendons', italic: false },
-  { text: 'aucun', italic: true },
-  { text: 'logiciel.', italic: true },
+  { text: 'Transformez', italic: false },
+  { text: 'votre Supply', italic: false },
+  { text: 'Chain en', italic: false },
+  { text: 'avantage compétitif.', italic: true },
 ]
 
 const STATS = [
