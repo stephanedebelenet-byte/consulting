@@ -3,8 +3,6 @@
   "outputDirectory": "dist",
   "devCommand": "npm run dev",
   "env": {
-    "VITE_SITE_URL": {
-      "required": false
-    }
+    "VITE_SITE_URL": "https://nextinotech.com"
   }
 }
