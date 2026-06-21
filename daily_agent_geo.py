@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Daily GEO Agent — Essor Consulting nextinotech.com
 
@@ -10,9 +11,14 @@ Tracks citation rate (LLM spontaneously mentions Essor).
 import os
 import json
 import sys
+import io
 from datetime import datetime
 import requests
 from anthropic import Anthropic
+
+# Force UTF-8 output
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Configuration
 SITE_URL = "https://nextinotech.com"
