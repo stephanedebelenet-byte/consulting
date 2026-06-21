@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev",
+  "env": {
+    "VITE_SITE_URL": "@site_url"
+  },
+  "env": {
+    "VITE_SITE_URL": {
+      "description": "Site URL for analytics and links"
+    }
+  }
+}
