@@ -79,7 +79,7 @@ SITL, Supply Chain Event (Paris), forums logistique Casablanca. Veille sur les t
 
 Programmes modulaires pour cadres et managers en poste : séminaires thématiques, coaching individuel, et accompagnement de projets de transformation. Financement GIAC possible.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -152,6 +152,6 @@ Marrakech offre de vraies opportunités pour les professionnels logistiques qui 
 
 Notre programme phare, ouvert aux participants de toutes les régions, reste **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 Contactez-nous pour réserver votre place ou organiser une formation sur mesure pour votre équipe.

@@ -147,7 +147,7 @@ Une formation Supply Chain Manager sérieuse doit couvrir :
 
 **Supply Chain Management Avancé (2 à 3 jours, sur devis, intra-entreprise possible)** — pour les SCM confirmés qui veulent structurer un processus S&OP, optimiser leur réseau logistique, maîtriser DDMRP pour la planification, construire leur tableau de bord de direction.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 ---
 

@@ -155,7 +155,7 @@ Pour les professionnels du secteur automobile au Nord, nous proposons un program
 
 Le Nord du Maroc est aujourd'hui l'une des zones de développement logistique les plus actives du continent. Les professionnels qui maîtrisent les standards automobile (JIT, EDI, DDMRP) et portuaires (gestion des conteneurs, douane, freight forwarding) ont des perspectives de carrière excellentes.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 Pour structurer les fondamentaux avant de se spécialiser automobile ou portuaire, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) reste le point d'entrée le plus rapide.
 

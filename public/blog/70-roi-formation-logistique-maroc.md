@@ -176,7 +176,7 @@ Chez Nextinotech, nous ne vendons pas des formations, nous vendons des résultat
 
 **Notre [formation Responsable Logistique](/formation-rl/) à 1 500 MAD** est conçue pour générer un ROI minimum de 10× en 6 mois. Si ce n'est pas le cas, contactez-nous — nous avons un problème à résoudre ensemble.
 
-👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026. Ou consultez le **[catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines.
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026. Ou consultez le **[catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines.
 
 ---
 

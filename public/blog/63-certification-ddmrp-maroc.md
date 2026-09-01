@@ -160,6 +160,6 @@ Pour les entreprises sans ERP compatible, Nextinotech propose une approche table
 
 Le DDMRP n'est pas une mode. C'est une réponse concrète aux limitations du MRP dans un monde volatil, incertain et complexe. Les entreprises marocaines qui l'adoptent gagnent un avantage compétitif réel : moins de capital immobilisé, plus de clients servis, moins de stress pour les équipes.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Nextinotech est certifié DDMRP et accompagne les entreprises marocaines dans leur transition depuis 2015.** Contactez-nous pour un diagnostic de votre situation et une proposition personnalisée : **contact@nextinotech.com** · **+212 06 63 44 92 00**

@@ -366,7 +366,7 @@ No pressure. We tell you honnêtement what makes sense pour vous.
 
 ---
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  

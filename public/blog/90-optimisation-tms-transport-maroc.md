@@ -164,7 +164,7 @@ Un TMS génère 3 types de gains : **gains directs transport** (kilométrage −
 - **Optimisation des tournées** : même sans TMS — analyse des tournées existantes et recommandations
 - **Renégociation transporteurs** : benchmarking tarifaire + préparation des négociations
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 Contactez-nous pour un premier bilan de votre situation transport : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

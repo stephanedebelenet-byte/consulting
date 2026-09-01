@@ -77,7 +77,7 @@ Les fournisseurs ont leurs propres tactiques. Les connaître permet de ne pas y 
 
 2 jours de formation intensive avec simulations filmées et feedback individuel. Groupes de 6 à 12 participants maximum pour garantir la qualité des simulations.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

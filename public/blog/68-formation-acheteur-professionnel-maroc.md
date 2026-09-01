@@ -161,6 +161,6 @@ Dans notre programme **Responsable Logistique et Supply Chain**, le module achat
 
 La fonction achats au Maroc offre de très belles perspectives pour les professionnels qui investissent dans leur formation. La pénurie de profils vraiment compétents crée des opportunités réelles de différenciation et de progression rapide.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Nextinotech a piloté plus de 710 millions de MAD d'achats dans ses missions.** Nous partageons cette expérience dans nos formations. Contactez-nous pour un programme adapté à votre profil : **contact@nextinotech.com** · **+212 06 63 44 92 00**

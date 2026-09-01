@@ -81,7 +81,7 @@ Formation des formateurs internes, conduite du changement, KPIs WMS, optimisatio
 
 Nextinotech accompagne les projets WMS de A à Z : aide à la sélection, formation des équipes, et optimisation post-déploiement. 10+ projets WMS menés au Maroc.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

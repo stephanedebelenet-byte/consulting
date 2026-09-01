@@ -102,7 +102,7 @@ Nextinotech propose un programme modulaire Supply Chain Manager : 6 modules de 1
 
 Chaque module peut être suivi séparément ou dans le cadre du programme complet certifiant.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour le programme détaillé et les prochaines dates :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

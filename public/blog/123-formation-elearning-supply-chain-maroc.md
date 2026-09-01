@@ -83,7 +83,7 @@ Cette combinaison donne le meilleur ROI formation tout en s'adaptant aux contrai
 
 Nextinotech propose un format hybride : fondamentaux en e-learning (accessible 24/7), sessions présentielles de pratique, et suivi individuel.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

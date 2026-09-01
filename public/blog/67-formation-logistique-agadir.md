@@ -163,7 +163,7 @@ Ces projets vont créer de nouveaux postes de direction logistique dans la régi
 
 La logistique export d'Agadir est l'une des plus exigeantes du Maroc. Elle demande des profils solides techniquement, capables de gérer la pression des délais, des volumes variables et des exigences réglementaires européennes.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 Pour les nouveaux postes de direction logistique évoqués ci-dessus, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) est un premier pas accessible.
 

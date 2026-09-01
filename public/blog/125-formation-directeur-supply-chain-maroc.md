@@ -86,7 +86,7 @@ Les DSC marocains qui progressent rapidement ont souvent :
 
 Nextinotech propose un programme senior destiné aux managers SC en transition vers le niveau directionnel : 3 jours de séminaire + 6 mois de coaching mensuel.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -278,7 +278,7 @@ Une formation supply chain n'est pas dépense. C'est investissement qu'on mesure
 2. Recommandation formation
 3. ROI projection
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 Contactez-nous. On regarde votre situation, on vous dit honnêtement si formation a sense pour vous.
 

@@ -98,7 +98,7 @@ Je peux préparer le dossier GIAC si vous le souhaitez."
 
 Nextinotech est référencé auprès des principaux GIAC marocains. Nous vous accompagnons dans le montage du dossier de financement.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

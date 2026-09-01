@@ -128,7 +128,7 @@ Nextinotech propose des programmes de formation supply chain pour cadres et diri
 
 **Notre différence :** animateurs ayant occupé des postes de direction supply chain avant de devenir consultants, cas d'étude issus du marché marocain et africain (pas des exemples européens transposés), suivi post-formation avec débriefing 60 jours après pour ancrer les apprentissages.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 Contactez-nous pour construire votre programme sur mesure : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

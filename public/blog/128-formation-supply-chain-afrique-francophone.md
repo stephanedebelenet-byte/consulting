@@ -74,7 +74,7 @@ Des organismes comme Nextinotech proposent des formations à distance en visio, 
 
 Nextinotech propose des formations en présentiel au Maroc et à distance pour toute l'Afrique francophone. Programmes adaptés aux réalités terrain africaines.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour un programme personnalisé :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

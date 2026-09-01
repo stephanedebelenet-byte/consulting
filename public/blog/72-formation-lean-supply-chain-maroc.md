@@ -166,6 +166,6 @@ Notre programme de formation intègre les outils Lean appliqués au contexte mar
 
 Le Lean Supply Chain n'est pas une philosophie réservée aux grandes usines japonaises. C'est une boîte à outils pratique, applicable dès demain dans n'importe quel entrepôt ou département supply chain marocain. Les résultats sont rapides, mesurables et durables quand l'approche est bien conduite.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Nextinotech accompagne les entreprises marocaines dans leurs transformations Lean depuis plus de 20 ans.** Contactez-nous pour un diagnostic et un plan d'action.

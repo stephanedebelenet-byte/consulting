@@ -89,7 +89,7 @@ Moyennes mobiles, lissage exponentiel, décomposition saisonnière — les outil
 
 3 jours de formation intensive avec certification DDMRP Practitioner intégrée. Programme incluant des simulations sur logiciel de planification.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

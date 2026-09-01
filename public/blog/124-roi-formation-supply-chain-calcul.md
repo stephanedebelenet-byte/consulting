@@ -114,7 +114,7 @@ Cette démarche avant/après transforme le ROI estimé en ROI prouvé — et fac
 
 Chaque programme Nextinotech inclut une définition des KPIs à mesurer avant et après formation, et un suivi à 3 mois pour quantifier les résultats réels.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

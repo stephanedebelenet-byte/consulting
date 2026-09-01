@@ -96,7 +96,7 @@ Un chantier 5S de 3 jours sur un entrepôt de 800 m² a réduit le temps de pré
 
 2 jours pratiques avec chantier 5S sur votre propre entrepôt. Formation intra-entreprise disponible pour former une équipe entière simultanément.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

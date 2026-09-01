@@ -82,7 +82,7 @@ La certification DDMRP Practitioner est délivrée par le Demand Driven Institut
 
 Formation DDMRP 2 jours avec préparation à la certification Practitioner. Inclut des simulations sur logiciel et des cas marocains réels.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour les prochaines dates :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

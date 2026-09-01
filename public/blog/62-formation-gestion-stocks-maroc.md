@@ -172,7 +172,7 @@ Avantages DDMRP vs MRP classique :
 
 **Pré-requis :** 1 an minimum en gestion de stocks ou approvisionnement. Autres formats disponibles : Formation DDMRP (2 jours, profils déjà formés aux méthodes classiques), Formation Paramétrage ERP Stocks (1 jour), Accompagnement terrain (1 à 3 mois).
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 22 programmes, 6 domaines, calendrier 2026.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
 
 Contactez-nous pour un programme adapté : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
