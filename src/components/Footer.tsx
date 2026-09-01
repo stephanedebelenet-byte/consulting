@@ -56,7 +56,13 @@ export default function Footer() {
               onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
             >
-              Nextinotech
+              <img
+                src="/logo-lockup.png"
+                alt="Nextinotech"
+                width={484}
+                height={160}
+                style={{ height: 40, width: 'auto', display: 'block', filter: 'brightness(0) invert(1)', opacity: 0.92 }}
+              />
             </a>
             <p
               style={{

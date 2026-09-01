@@ -10,7 +10,6 @@ import {
   IconChartLine,
   IconChevronDown,
 } from '@tabler/icons-react'
-import LogoSVG from './LogoSVG'
 import { useMobileMenu } from '../contexts/MobileMenuContext'
 
 interface SimpleItem {
@@ -335,7 +334,13 @@ export default function Nav() {
           onMouseEnter={e => ((e.currentTarget as HTMLElement).style.opacity = '0.8')}
           onMouseLeave={e => ((e.currentTarget as HTMLElement).style.opacity = '1')}
         >
-          <LogoSVG inkColor="#1b3554" subColor="#6b6560" height={32} />
+          <img
+            src="/logo-lockup.png"
+            alt="Nextinotech"
+            width={484}
+            height={160}
+            style={{ height: 34, width: 'auto', display: 'block' }}
+          />
         </Link>
 
         {/* Desktop nav — groupes déroulants */}
