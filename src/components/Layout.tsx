@@ -9,6 +9,8 @@ import Nav from './Nav'
 import Footer from './Footer'
 import BackToTop from './BackToTop'
 import MobileTabBar from './MobileTabBar'
+import CookieBanner from './CookieBanner'
+import FormationStickyBar from './FormationStickyBar'
 import { MobileMenuProvider } from '../contexts/MobileMenuContext'
 
 function ScrollToTop() {
@@ -58,6 +60,8 @@ export default function Layout({ children }: { children: ReactNode }) {
         <Footer />
         <BackToTop />
         <MobileTabBar />
+        <FormationStickyBar />
+        <CookieBanner />
       </div>
     </MobileMenuProvider>
   )

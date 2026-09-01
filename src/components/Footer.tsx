@@ -283,6 +283,7 @@ export default function Footer() {
           }}
         >
           <span>© 2026 NEXTINOTECH — TOUS DROITS RÉSERVÉS</span>
+          <a href="/confidentialite" style={{ color: 'inherit', textDecoration: 'none' }}>CONFIDENTIALITÉ</a>
           <span>CASABLANCA · MAROC · PME & ETI</span>
         </div>
       </div>
