@@ -3,6 +3,7 @@ import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import SchemaScript from './SchemaHelper'
 import PageMeta from './PageMeta'
+import { VILLES } from '../data/villesFormation'
 
 /* ─── Brand constants ─────────────────────────────────────── */
 const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Nextinotech, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
@@ -1587,6 +1588,35 @@ export default function FormationCatalogue() {
               </div>
             </Reveal>
           </div>
+        </div>
+      </section>
+
+      {/* ══ FORMATIONS PAR VILLE ═════════════════════════════ */}
+      <section style={{ background: 'var(--paper)', padding: '8rem 4rem', color: 'var(--navy)' }}>
+        <div className="section-inner">
+          <Reveal>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
+              Couverture · Maroc
+            </div>
+            <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 2rem' }}>
+              Formation logistique<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>par ville.</span>
+            </h2>
+            <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', lineHeight: 1.8, color: 'var(--mid)', fontWeight: 300, maxWidth: 620, margin: '0 0 2.5rem' }}>
+              Sessions inter-entreprise en présentiel à Casablanca, format intra-entreprise partout au Maroc.
+              Contexte économique local et programmes recommandés pour chaque région.
+            </p>
+          </Reveal>
+          <Reveal delay={0.06}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1px', background: 'var(--border)', border: '1px solid var(--border)' }}>
+              {VILLES.map(v => (
+                <Link key={v.slug} to={`/formation-logistique-${v.slug}`} style={{ flex: '1 1 220px', background: '#ffffff', padding: '1.5rem 1.75rem', textDecoration: 'none' }}>
+                  <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.15rem', fontWeight: 700, color: 'var(--navy)' }}>{v.nom}</div>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.3rem' }}>{v.region}</div>
+                </Link>
+              ))}
+            </div>
+          </Reveal>
         </div>
       </section>
 
