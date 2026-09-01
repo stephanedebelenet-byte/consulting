@@ -1322,6 +1322,16 @@ export default function FormationCatalogue() {
             </h1>
           </Reveal>
 
+          <Reveal delay={0.09}>
+            <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 660, margin: '0 0 2rem' }}>
+              Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
+              27 programmes sur 7 domaines, du{' '}
+              <Link to="/formation-rl/" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
+              à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
+              Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.
+            </p>
+          </Reveal>
+
         </div>
 
         {/* Stats strip — floating blurred glass card, same pattern as the Hero stats bar */}

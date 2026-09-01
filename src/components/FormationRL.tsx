@@ -75,7 +75,23 @@ const FAQS = [
   },
   {
     q: 'La formation est-elle éligible à la formation professionnelle (OFPPT / GIAC) ?',
-    a: 'Une convention de formation vous est remise à l\'inscription pour toute prise en charge par votre entreprise ou votre OPCA. Nous accompagnons les DRH dans le montage du dossier de remboursement.',
+    a: 'Une convention de formation vous est remise à l\'inscription pour toute prise en charge par votre entreprise, un Contrat Spécial de Formation (CSF) OFPPT ou un dossier GIAC. Nous accompagnons les DRH dans le montage du dossier de remboursement.',
+  },
+  {
+    q: 'Combien coûte la formation Responsable Logistique ?',
+    a: '1 500 MAD TTC par participant, tout inclus : salle en hôtel 5 étoiles à Casablanca, déjeuner, support de 60+ pages, attestation et suivi WhatsApp de 30 jours. Aucun frais caché. Tarif dégressif en intra-entreprise à partir de 5 participants.',
+  },
+  {
+    q: 'La formation est-elle certifiante ?',
+    a: 'Elle délivre une attestation de formation Nextinotech, reconnue par les employeurs et valorisable sur un CV ou LinkedIn. Ce n\'est pas un diplôme d\'État : pour une certification internationale, voir notre programme DDMRP Practitioner (Demand Driven Institute).',
+  },
+  {
+    q: 'La formation existe-t-elle à distance ou en e-learning ?',
+    a: 'Non, uniquement en présentiel. Le format repose sur des cas pratiques, des échanges entre pairs et un travail sur le contexte réel de chaque participant — difficilement transposables en ligne. Un accompagnement individuel à distance existe en complément.',
+  },
+  {
+    q: 'Une seule journée suffit-elle pour ce sujet ?',
+    a: 'La journée est intensive (8h30-17h30) et cible les 20 % de méthodes qui produisent 80 % des résultats : structurer son pilotage, ses stocks, son transport et ses KPI. Le plan d\'action à 90 jours et le suivi WhatsApp de 30 jours prolongent l\'apprentissage sur le terrain. Pour aller plus loin, le catalogue propose des formats de 2 à 5 jours.',
   },
   {
     q: 'Y a-t-il une formation intra-entreprise pour plusieurs collaborateurs ?',
@@ -543,7 +559,7 @@ export default function FormationRL() {
               transition={{ duration: 0.8, delay: 0.2 }}
               style={{ fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 520, marginBottom: '3rem' }}
             >
-              Une journée intensive pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique. Animée par un expert avec 20+ ans de terrain au Maroc et en Europe. Tout inclus.
+              La formation Responsable Logistique de référence au Maroc : une journée intensive pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique. Animée par un expert avec 20+ ans de terrain au Maroc et en Europe. Sessions à Casablanca — format intra-entreprise à Rabat, Tanger, Marrakech et Agadir. Tout inclus.
             </motion.p>
 
             <motion.div
