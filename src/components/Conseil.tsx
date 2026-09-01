@@ -82,6 +82,17 @@ const services = [
       { name: 'AMOA Multi-projets', price: 'Sur devis', duration: '6 à 18 mois' },
     ],
   },
+  {
+    num: '08',
+    title: 'IA & Automatisation Supply Chain',
+    tagline: "Des cas d'usage à ROI mesuré — sans hype, sans dépendance éditeur.",
+    desc: "Identifier les cas d'usage IA et automatisation à retour rapide sur vos processus Supply Chain, Logistique et Achats : prévision augmentée, automatisation documentaire (factures fournisseurs, documents de douane), copilotes de planification et de S&OP, assistants de connaissance (procédures, SOP), chatbots de suivi de commande. Cadrage et priorisation des cas d'usage, préparation des données (data readiness), charte de gouvernance conforme loi 09-08 / CNDP, puis POC mesuré avec décision go/no-go chiffrée avant industrialisation. Zéro commission éditeur ou intégrateur — notre seule allégeance est votre business case.",
+    tiers: [
+      { name: "Cadrage & Cas d'Usage IA", price: '35 000 – 55 000 MAD HT', duration: '3 à 4 semaines' },
+      { name: 'POC Automatisation Ciblée', price: '90 000 – 160 000 MAD HT', duration: '2 à 4 mois', featured: true },
+      { name: 'Déploiement & Industrialisation', price: 'Sur devis', duration: '4 à 9 mois' },
+    ],
+  },
 ]
 
 interface SingleOffer {

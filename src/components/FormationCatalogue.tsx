@@ -199,6 +199,33 @@ const PROGRAMMES = [
     cta: WA,
     color: 'var(--blue-bright)',
   },
+  {
+    id: 'ia-supply-chain',
+    num: '27',
+    domaine: 'sc',
+    format: 'inter',
+    badge: 'Nouveau · IA & Digital',
+    title: 'IA Générative pour les Métiers Supply Chain & Achats',
+    subtitle: "Exploiter ChatGPT, Claude et Copilot au quotidien — cas d'usage concrets, prompts métier et garde-fous.",
+    duration: '1 jour',
+    hours: '8h30 — 17h30',
+    group: '8 à 14 participants',
+    price: '2 900',
+    unit: 'MAD TTC / participant',
+    lieu: 'Casablanca',
+    public: ['Responsables & managers Supply Chain', 'Acheteurs et responsables achats', 'Planificateurs & demand planners', 'Responsables logistique et ADV'],
+    modules: [
+      'Panorama : IA générative, IA prédictive et RPA — quel outil pour quel problème',
+      "25 cas d'usage concrets en approvisionnement, achats, entrepôt, transport et ADV",
+      "Prompt engineering métier : la méthode et une bibliothèque de prompts prêts à l'emploi",
+      'Automatisation documentaire : factures fournisseurs, documents de douane, comptes rendus S&OP',
+      'Gouvernance et conformité : loi 09-08 / CNDP, données à ne jamais exposer, relecture humaine',
+      "Atelier : construire son premier cas d'usage IA et son plan à 90 jours",
+    ],
+    inclus: ['Bibliothèque de 30+ prompts métier', "Modèle de charte d'usage IA", 'Support de formation', 'Attestation', 'Suivi WhatsApp 30j'],
+    cta: WA,
+    color: 'var(--blue-bright)',
+  },
 
   /* ── Lean & Amélioration Continue ──────────────────────── */
   {
@@ -734,7 +761,7 @@ const PROGRAMMES = [
 /* ─── Data — FAQ ────────────────────────────────────────────── */
 export const FAQ = [
   {
-    q: 'Comment choisir le bon programme parmi les 26 ?',
+    q: 'Comment choisir le bon programme parmi les 27 ?',
     a: "Selon votre objectif : une compétence terrain immédiate (formations inter, 1 à 2 jours, ex. Responsable Logistique, DDMRP), une montée en compétence d'équipe sur mesure (intra-entreprise adapté à votre secteur), ou un accompagnement individuel dans la durée (coaching DSC). Contactez-nous, nous orientons gratuitement selon votre contexte.",
   },
   {
@@ -832,6 +859,7 @@ const SESSIONS = [
     { date: '22 Oct', titre: 'Business Case & ROI', format: 'inter', places: 8, id: 'business-case' },
     { date: '23 Oct', titre: 'Responsable Logistique', format: 'inter', places: 6, id: 'rl' },
     { date: '29 Oct', titre: 'Développement de Carrière SC', format: 'inter', places: 10, id: 'developpement-carriere' },
+    { date: '30 Oct', titre: 'IA Générative Supply Chain & Achats', format: 'inter', places: 14, id: 'ia-supply-chain' },
   ]},
   { mois: 'Novembre', sessions: [
     { date: '6–7 Nov', titre: 'Supply Chain Fondamentaux', format: 'intra', places: null, id: 'fondamentaux' },
@@ -847,6 +875,7 @@ const SESSIONS = [
     { date: '9–10 Déc', titre: 'Chef de Projet Opérationnel', format: 'inter', places: 12, id: 'chef-projet' },
     { date: '11 Déc', titre: 'Responsable Logistique', format: 'inter', places: 4, id: 'rl' },
     { date: '15 Déc', titre: 'Prévenir le Burnout', format: 'intra', places: null, id: 'prevenir-burnout' },
+    { date: '18 Déc', titre: 'IA Générative Supply Chain & Achats', format: 'inter', places: 14, id: 'ia-supply-chain' },
   ]},
 ]
 
@@ -1199,7 +1228,7 @@ export default function FormationCatalogue() {
     <>
       <PageMeta
         title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech"
-        description="26 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
+        description="27 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
         canonical="https://nextinotech.com/formation"
       />
       <SchemaScript schema={programmesSchema} />
@@ -1249,12 +1278,11 @@ export default function FormationCatalogue() {
             }}
           >
             {[
-              { val: '26', label: 'programmes disponibles' },
+              { val: '27', label: 'programmes disponibles' },
               { val: '7', label: 'domaines de formation' },
               { val: '20+', label: 'ans de terrain formateur' },
-              { val: '0', label: 'commission éditeur' },
             ].map((s, i) => (
-              <div key={i} style={{ padding: '1.4rem 1.8rem', borderRight: i < 3 ? '1px solid var(--border)' : 'none' }}>
+              <div key={i} style={{ padding: '1.4rem 1.8rem', borderRight: i < 2 ? '1px solid var(--border)' : 'none' }}>
                 <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.5rem, 2.4vw, 2.2rem)', fontWeight: 700, color: 'var(--navy)', lineHeight: 1, marginBottom: '0.3rem', letterSpacing: '-0.01em' }}>{s.val}</div>
                 <div style={{ fontFamily: 'var(--mono)', fontSize: '0.6rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--mid)' }}>{s.label}</div>
               </div>
@@ -1282,7 +1310,7 @@ export default function FormationCatalogue() {
                   02 / Catalogue & calendrier
                 </div>
                 <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
-                  26 programmes.<br />
+                  27 programmes.<br />
                   <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>7 domaines d'expertise.</span>
                 </h2>
               </div>

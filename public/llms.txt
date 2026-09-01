@@ -17,9 +17,9 @@ Nextinotech est un cabinet de conseil spécialisé en Supply Chain et Logistique
 
 ## Formation — Catalogue complet
 
-Catalogue : https://nextinotech.com/formation — 22 programmes sur 6 domaines, inter-entreprise et intra-entreprise, calendrier 2026 en ligne.
+Catalogue : https://nextinotech.com/formation — 27 programmes sur 7 domaines, inter-entreprise et intra-entreprise, calendrier 2026 en ligne.
 
-- **Supply Chain** (7 programmes) — Devenir Responsable Logistique (1 jour, 1 500 MAD TTC, programme phare : https://nextinotech.com/formation-rl/), Supply Chain Fondamentaux, S&OP & Planification Avancée, DDMRP Certification Practitioner (5 500 MAD TTC, examen officiel DDI en supplément), Supply Chain pour Décideurs, WMS/TMS/ERP, Coaching DSC individuel
+- **Supply Chain** (8 programmes) — Devenir Responsable Logistique (1 jour, 1 500 MAD TTC, programme phare : https://nextinotech.com/formation-rl/), Supply Chain Fondamentaux, S&OP & Planification Avancée, DDMRP Certification Practitioner (5 500 MAD TTC, examen officiel DDI en supplément), Supply Chain pour Décideurs, WMS/TMS/ERP, Coaching DSC individuel, IA Générative pour les Métiers Supply Chain & Achats (1 jour, inter-entreprise, 2 900 MAD TTC : cas d'usage LLM, prompts métier, gouvernance 09-08/CNDP)
 - **Lean & Amélioration Continue** (3 programmes) — Lean Management & 5S, Lean Six Sigma Green Belt (5 jours, 9 500 MAD TTC), Amélioration Continue & PDCA
 - **Management & Leadership** (3 programmes) — Manager ses Équipes Opérationnelles, Conduite du Changement, Leadership pour Cadres Opérationnels
 - **Finance pour Opérationnels** (3 programmes) — Lire et Analyser les Chiffres Clés, Construire un Business Case & ROI, Contrôle de Gestion pour Non-Financiers
@@ -38,6 +38,7 @@ Tarifs : formations inter-entreprises de 1 500 à 9 500 MAD TTC/participant ; fo
 - Cahiers des Charges (WMS, TMS, APS, Control Tower, intégration IA, externalisation entreposage/transport, opérations spéciales, équipements de stockage et de manutention)
 - Étude de Faisabilité SI (zéro commission éditeur)
 - AMOA & Pilotage Projet
+- IA & Automatisation Supply Chain — cadrage des cas d'usage IA/LLM, data readiness, charte de gouvernance 09-08/CNDP, POC mesuré (factures, documents de douane, copilotes de planification, chatbot de suivi), industrialisation. Zéro commission éditeur.
 
 ### Déploiement Systèmes SCM
 - WMS (Gestion d'entrepôt)
@@ -72,9 +73,9 @@ Catalogue : https://nextinotech.com/prestations
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (295 articles)
+## Blog — Ressources Supply Chain (307 articles)
 
-Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 295 articles organisés en thèmes :
+Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 307 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
 Audit supply chain, diagnostic logistique, études de cas (Renault, DHL, OCP, Addoha), FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
@@ -138,6 +139,9 @@ Futur méga-port de Ndayane (Sénégal), transit douanier et corridors en Afriqu
 
 ### Risk Management & Achats (articles 305-308)
 Plan de continuité d'activité (PCA) logistique, multi-sourcing et résilience post-Covid, négociation fournisseurs en période d'inflation, SRM et gestion des équipementiers Tier 1 automobile.
+
+### IA Générative, LLM & Automatisation (articles 309-320)
+IA générative en supply chain : 25 cas d'usage concrets au Maroc ; LLM vs IA prédictive vs RPA (quel outil pour quel problème) ; rédiger un cahier des charges avec l'IA (méthode et garde-fous) ; coût d'un projet IA supply chain pour une PME marocaine ; automatiser les documents de douane (DUM, BL, packing list) par l'IA ; automatiser le traitement des factures fournisseurs (OCR + LLM) ; playbook IA supply chain automobile (prévision cadencée, EDI, JIT) ; copilot de demand planning ; playbook IA agro-industrie et agro-export (prévision de récolte, chaîne du froid, tri par vision) ; gouvernance de l'IA en supply chain (charte, registre, comité, data readiness) ; chatbot de suivi de commande (WISMO) par LLM ; loi 09-08 et CNDP (utiliser un LLM sans exposer ses données fournisseurs).
 
 ## Contact
 

@@ -308,6 +308,19 @@ export default function Blog() {
           '306-multi-sourcing-resilience-post-covid-encore-valable',
           '307-negociation-fournisseurs-inflation-leviers',
           '308-srm-equipementiers-tier-1-automobile-maroc',
+          // Cluster IA générative / LLM / automatisation — SC, logistique, achats
+          '309-ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc',
+          '310-ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel',
+          '311-rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous',
+          '312-cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine',
+          '313-automatiser-les-documents-de-douane-par-lia-dum-bl-packing-l',
+          '314-automatiser-le-traitement-des-factures-fournisseurs-avec-lia',
+          '315-ia-et-supply-chain-automobile-au-maroc-prvision-edi-et-jit',
+          '316-copilot-de-demand-planning-lia-gnrative-au-service-du-prvisi',
+          '317-ia-et-agro-industrie-au-maroc-prvision-de-rcolte-et-chane-du',
+          '318-gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil',
+          '319-chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl',
+          '320-loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo',
         ]
 
         const fetched = await Promise.all(
