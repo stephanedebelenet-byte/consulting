@@ -259,3 +259,44 @@ export const VILLES: VilleFormation[] = [
 export function findVille(slug: string | undefined): VilleFormation | undefined {
   return VILLES.find((v) => v.slug === slug)
 }
+
+export function buildVilleSchema(v: VilleFormation) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `https://nextinotech.com/formation-logistique-${v.slug}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+          { '@type': 'ListItem', position: 3, name: `Formation logistique à ${v.nom}`, item: `https://nextinotech.com/formation-logistique-${v.slug}` },
+        ],
+      },
+      {
+        '@type': 'Course',
+        '@id': `https://nextinotech.com/formation-logistique-${v.slug}#course`,
+        name: `Formation Logistique & Supply Chain à ${v.nom}`,
+        description: v.metaDescription,
+        provider: { '@id': 'https://nextinotech.com/#organization' },
+        inLanguage: 'fr',
+        educationalCredentialAwarded: 'Attestation de formation Nextinotech',
+        areaServed: { '@type': 'City', name: v.nom },
+        hasCourseInstance: {
+          '@type': 'CourseInstance',
+          courseMode: 'Onsite',
+          location: {
+            '@type': 'Place',
+            name: `${v.nom}, Maroc`,
+            address: { '@type': 'PostalAddress', addressLocality: v.nom, addressRegion: v.region, addressCountry: 'MA' },
+          },
+        },
+      },
+      {
+        '@type': 'FAQPage',
+        '@id': `https://nextinotech.com/formation-logistique-${v.slug}#faq`,
+        mainEntity: v.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+      },
+    ],
+  }
+}

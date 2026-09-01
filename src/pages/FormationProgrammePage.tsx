@@ -2,7 +2,7 @@ import { useParams, Navigate } from 'react-router-dom'
 import PageMeta from '../components/PageMeta'
 import PageHero from '../components/PageHero'
 import FormationProgramme from '../components/FormationProgramme'
-import { PROGRAMMES } from '../components/FormationCatalogue'
+import { PROGRAMMES } from '../data/formations'
 
 function metaDescription(subtitle: string, price: string, unit: string): string {
   const base = `${subtitle} ${price} ${unit}. Financement CSF / GIAC possible.`

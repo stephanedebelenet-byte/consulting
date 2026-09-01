@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
-import { VILLES, type VilleFormation } from '../data/villesFormation'
+import { VILLES, buildVilleSchema, type VilleFormation } from '../data/villesFormation'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -47,54 +47,7 @@ const eyebrow: React.CSSProperties = {
 
 export default function FormationVille({ ville }: { ville: VilleFormation }) {
   const autresVilles = VILLES.filter((v) => v.slug !== ville.slug)
-
-  const schema = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'BreadcrumbList',
-        '@id': `https://nextinotech.com/formation-logistique-${ville.slug}#breadcrumb`,
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
-          {
-            '@type': 'ListItem',
-            position: 3,
-            name: `Formation logistique à ${ville.nom}`,
-            item: `https://nextinotech.com/formation-logistique-${ville.slug}`,
-          },
-        ],
-      },
-      {
-        '@type': 'Course',
-        '@id': `https://nextinotech.com/formation-logistique-${ville.slug}#course`,
-        name: `Formation Logistique & Supply Chain à ${ville.nom}`,
-        description: ville.metaDescription,
-        provider: { '@id': 'https://nextinotech.com/#organization' },
-        inLanguage: 'fr',
-        educationalCredentialAwarded: 'Attestation de formation Nextinotech',
-        areaServed: { '@type': 'City', name: ville.nom },
-        hasCourseInstance: {
-          '@type': 'CourseInstance',
-          courseMode: 'Onsite',
-          location: {
-            '@type': 'Place',
-            name: `${ville.nom}, Maroc`,
-            address: { '@type': 'PostalAddress', addressLocality: ville.nom, addressRegion: ville.region, addressCountry: 'MA' },
-          },
-        },
-      },
-      {
-        '@type': 'FAQPage',
-        '@id': `https://nextinotech.com/formation-logistique-${ville.slug}#faq`,
-        mainEntity: ville.faq.map((f) => ({
-          '@type': 'Question',
-          name: f.q,
-          acceptedAnswer: { '@type': 'Answer', text: f.a },
-        })),
-      },
-    ],
-  }
+  const schema = buildVilleSchema(ville)
 
   return (
     <>

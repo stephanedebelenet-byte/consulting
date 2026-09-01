@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "build:prerender": "tsc -b && vite build && npx playwright install chromium && node scripts/prerender.mjs",
-    "prerender": "node scripts/prerender.mjs",
+    "build:prerender": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
     "video:studio": "remotion studio remotion/index.ts",

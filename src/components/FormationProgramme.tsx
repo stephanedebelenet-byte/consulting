@@ -2,9 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
-import { PROGRAMMES, instancesByProgram, workload } from './FormationCatalogue'
-
-type Programme = (typeof PROGRAMMES)[number]
+import { type Programme, buildProgrammeSchema, programmeFaq, programmeIntro } from '../data/formations'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -48,100 +46,9 @@ function formatLabel(f: string): string {
   return f
 }
 
-export function programmeFaq(p: Programme): { q: string; a: string }[] {
-  const faq: { q: string; a: string }[] = [
-    {
-      q: `Quel est le prix de la formation « ${p.title} » ?`,
-      a: `${p.price} ${p.unit}. ${
-        p.format === 'inter'
-          ? 'Le tarif inter-entreprise inclut le support de formation, l’attestation et, pour les programmes phares, un suivi WhatsApp de 30 jours.'
-          : p.format === 'coaching'
-            ? 'Facturation par session, avec accès entre les séances.'
-            : 'Tarif forfaitaire par groupe pour une session dans vos locaux, contenu adapté à votre secteur.'
-      }`,
-    },
-    {
-      q: 'La formation est-elle éligible à un financement (CSF / GIAC / OFPPT) ?',
-      a: 'Oui. Une convention de formation est remise à l’inscription pour toute prise en charge par votre entreprise, un Contrat Spécial de Formation (CSF) OFPPT ou un dossier GIAC. Nous accompagnons les DRH dans le montage du dossier.',
-    },
-    {
-      q:
-        p.format === 'inter'
-          ? 'Peut-on organiser cette formation en intra-entreprise ?'
-          : 'Où se déroule la formation ?',
-      a:
-        p.format === 'inter'
-          ? `Oui. Pour 5 participants ou plus d’une même entreprise, la formation est organisée dans vos locaux ou à l’hôtel de votre choix, avec un cas pratique adapté à votre activité. Les sessions inter-entreprise ont lieu à ${p.lieu}.`
-          : `${p.lieu}. Le contenu et les cas pratiques sont bâtis sur votre contexte réel (secteur, données, contraintes).`,
-    },
-  ]
-  return faq
-}
-
 export default function FormationProgramme({ p }: { p: Programme }) {
-  const priceNums = p.price.replace(/\s/g, '').split('–').map((s) => parseInt(s.replace(/\D/g, ''), 10)).filter((n) => !isNaN(n))
-  const offer: Record<string, unknown> = {
-    '@type': 'Offer',
-    priceCurrency: 'MAD',
-    category: 'Formation professionnelle',
-    url: `https://nextinotech.com/formation/${p.id}`,
-    availability: 'https://schema.org/InStock',
-  }
-  if (priceNums.length === 2) offer.priceSpecification = { '@type': 'PriceSpecification', minPrice: priceNums[0], maxPrice: priceNums[1], priceCurrency: 'MAD' }
-  else if (priceNums.length === 1) offer.price = priceNums[0]
-
-  const dated = instancesByProgram[p.id] || []
-  const hasCourseInstance = dated.length
-    ? dated.map((d) => ({
-        '@type': 'CourseInstance',
-        courseMode: 'Onsite',
-        startDate: d.startDate,
-        endDate: d.endDate,
-        location: { '@type': 'Place', name: `${p.lieu}`, address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' } },
-        offers: { ...offer },
-      }))
-    : [{
-        '@type': 'CourseInstance',
-        courseMode: p.format === 'coaching' ? 'Online' : 'Onsite',
-        courseWorkload: workload(p.duration),
-        location: { '@type': 'Place', name: p.lieu, address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' } },
-        offers: { ...offer },
-      }]
-
+  const schema = buildProgrammeSchema(p)
   const faq = programmeFaq(p)
-
-  const schema = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'Course',
-        '@id': `https://nextinotech.com/formation/${p.id}#course`,
-        name: p.title,
-        description: p.subtitle,
-        provider: { '@id': 'https://nextinotech.com/#organization' },
-        inLanguage: 'fr',
-        educationalCredentialAwarded: 'Attestation de formation Nextinotech',
-        courseWorkload: workload(p.duration),
-        teaches: p.modules,
-        offers: offer,
-        hasCourseInstance,
-      },
-      {
-        '@type': 'BreadcrumbList',
-        '@id': `https://nextinotech.com/formation/${p.id}#breadcrumb`,
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
-          { '@type': 'ListItem', position: 3, name: p.title, item: `https://nextinotech.com/formation/${p.id}` },
-        ],
-      },
-      {
-        '@type': 'FAQPage',
-        '@id': `https://nextinotech.com/formation/${p.id}#faq`,
-        mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
-      },
-    ],
-  }
 
   return (
     <>
@@ -152,8 +59,7 @@ export default function FormationProgramme({ p }: { p: Programme }) {
         <div className="section-inner" style={{ maxWidth: 820 }}>
           <FadeUp>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1.05rem, 1.6vw, 1.3rem)', lineHeight: 1.8, color: 'var(--ink)', fontWeight: 300, margin: 0 }}>
-              {p.subtitle} Formation {formatLabel(p.format)} de {p.duration.toLowerCase()}, {p.lieu.toLowerCase()},
-              animée par un praticien avec 20+ ans de terrain en Supply Chain, Logistique et Achats au Maroc.
+              {programmeIntro(p)}
             </p>
           </FadeUp>
 
