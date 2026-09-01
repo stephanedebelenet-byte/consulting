@@ -10,7 +10,7 @@ const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Nextin
 const EMAIL = 'mailto:contact@nextinotech.com?subject=Catalogue%20Formations%20Essor%20Consulting'
 
 /* ─── Data — Programmes ────────────────────────────────────── */
-const PROGRAMMES = [
+export const PROGRAMMES = [
   {
     id: 'rl',
     num: '01',
@@ -843,7 +843,7 @@ function sessionToDates(date: string): { startDate: string; endDate: string } | 
   return { startDate, endDate: d2 ? `2026-${mo}-${pad(d2)}` : startDate }
 }
 
-const instancesByProgram: Record<string, { startDate: string; endDate: string; format: string }[]> = {}
+export const instancesByProgram: Record<string, { startDate: string; endDate: string; format: string }[]> = {}
 for (const block of SESSIONS) {
   for (const s of block.sessions) {
     const dt = sessionToDates(s.date)
@@ -853,7 +853,7 @@ for (const block of SESSIONS) {
   }
 }
 
-function workload(duration: string): string {
+export function workload(duration: string): string {
   if (/5\s*jours/i.test(duration)) return 'P5D'
   if (/(2\s*jours|1\s*à\s*2)/i.test(duration)) return 'P2D'
   return 'P1D'
@@ -1206,15 +1206,25 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
             {p.format === 'inter' ? 'Réserver →' : p.format === 'coaching' ? 'Planifier →' : 'Demander un devis →'}
           </a>
 
-          <button
-            onClick={() => setOpen(o => !o)}
-            style={{ background: 'none', border: 'none', cursor: 'pointer', fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', display: 'flex', alignItems: 'center', gap: '0.4rem', padding: 0, transition: 'color 0.2s' }}
-            onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'}
-            onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--mid)'}
-          >
-            {open ? 'Réduire' : 'Voir le programme'}
-            <motion.span animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.2 }} style={{ display: 'inline-block', fontSize: '1rem', lineHeight: 1 }}>+</motion.span>
-          </button>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.5rem' }}>
+            <button
+              onClick={() => setOpen(o => !o)}
+              style={{ background: 'none', border: 'none', cursor: 'pointer', fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', display: 'flex', alignItems: 'center', gap: '0.4rem', padding: 0, transition: 'color 0.2s' }}
+              onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'}
+              onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--mid)'}
+            >
+              {open ? 'Réduire' : 'Aperçu rapide'}
+              <motion.span animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.2 }} style={{ display: 'inline-block', fontSize: '1rem', lineHeight: 1 }}>+</motion.span>
+            </button>
+            <Link
+              to={p.id === 'rl' ? '/formation-rl/' : `/formation/${p.id}`}
+              style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', textDecoration: 'none', transition: 'color 0.2s' }}
+              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)')}
+              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = 'var(--mid)')}
+            >
+              Fiche complète →
+            </Link>
+          </div>
         </div>
       </div>
 

@@ -10,6 +10,7 @@ import ReferencesPage from './pages/ReferencesPage'
 import FormationPage from './pages/FormationPage'
 import FormationRLPage from './pages/FormationRLPage'
 import FormationVillePage from './pages/FormationVillePage'
+import FormationProgrammePage from './pages/FormationProgrammePage'
 import AProposPage from './pages/AProposPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
@@ -63,6 +64,7 @@ function AnimatedRoutes() {
         <Route path="/formation-rl" element={<PageTransition><FormationRLPage /></PageTransition>} />
         <Route path="/formation-rl/" element={<PageTransition><FormationRLPage /></PageTransition>} />
         <Route path="/formation-logistique-:ville" element={<PageTransition><FormationVillePage /></PageTransition>} />
+        <Route path="/formation/:programme" element={<PageTransition><FormationProgrammePage /></PageTransition>} />
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />

@@ -30,6 +30,8 @@ Tarifs : formations inter-entreprises de 1 500 à 9 500 MAD TTC/participant ; fo
 
 Pages par ville (contexte économique local + programmes recommandés) : https://nextinotech.com/formation-logistique-casablanca, -rabat (Rabat-Kénitra, automobile Atlantic Free Zone), -tanger (Tanger Med, automobile, zones franches), -marrakech (tourisme, agroalimentaire), -agadir (Souss-Massa, export agrumes/primeurs, pêche, chaîne du froid), -fes (Fès-Meknès, agro-industrie). Sessions inter-entreprise en présentiel à Casablanca ; intra-entreprise partout au Maroc.
 
+Fiche détaillée par programme (objectifs, public, modules, tarif, financement, FAQ) : https://nextinotech.com/formation/<id> — ids : fondamentaux, sop, ddmrp, decideurs, wms, coaching, ia-supply-chain, lean-5s, six-sigma, amelioration-continue, management-equipes, conduite-changement, leadership, finance-chiffres, business-case, controle-gestion, chef-projet, agile-scrum, amoa-si, developpement-carriere, negociation-achats, prevenir-burnout, caces-cariste, preparateur-commandes, hse-entrepot, maturite-logistique. Le programme phare a sa page dédiée : https://nextinotech.com/formation-rl/
+
 ## Services
 
 ### Conseil & AMOA
