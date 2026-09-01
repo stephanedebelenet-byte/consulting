@@ -794,57 +794,6 @@ export const FAQ = [
   },
 ]
 
-const programmesSchema = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'ItemList',
-      '@id': 'https://nextinotech.com/formation#programmes',
-      name: 'Catalogue de formations Nextinotech',
-      numberOfItems: PROGRAMMES.length,
-      itemListElement: PROGRAMMES.map((p, i) => {
-        const nums = p.price.replace(/\s/g, '').split('–').map(s => parseInt(s.replace(/\D/g, ''), 10)).filter(n => !isNaN(n))
-        const offer: Record<string, unknown> = {
-          '@type': 'Offer',
-          priceCurrency: 'MAD',
-          url: 'https://nextinotech.com/formation',
-          availability: 'https://schema.org/InStock',
-        }
-        if (nums.length === 2) {
-          offer.priceSpecification = { '@type': 'PriceSpecification', minPrice: nums[0], maxPrice: nums[1], priceCurrency: 'MAD' }
-        } else if (nums.length === 1) {
-          offer.price = nums[0]
-        }
-        return {
-          '@type': 'ListItem',
-          position: i + 1,
-          item: {
-            '@type': 'Course',
-            name: p.title,
-            description: p.subtitle,
-            provider: { '@type': 'Organization', name: 'Nextinotech', sameAs: 'https://nextinotech.com/' },
-            hasCourseInstance: {
-              '@type': 'CourseInstance',
-              courseMode: p.format === 'coaching' ? 'Online' : 'Onsite',
-              name: p.duration,
-            },
-            offers: offer,
-          },
-        }
-      }),
-    },
-    {
-      '@type': 'FAQPage',
-      '@id': 'https://nextinotech.com/formation#faq',
-      mainEntity: FAQ.map(f => ({
-        '@type': 'Question',
-        name: f.q,
-        acceptedAnswer: { '@type': 'Answer', text: f.a },
-      })),
-    },
-  ],
-}
-
 /* ─── Data — Calendrier 2026 ───────────────────────────────── */
 const SESSIONS = [
   { mois: 'Septembre', sessions: [
@@ -878,6 +827,120 @@ const SESSIONS = [
     { date: '18 Déc', titre: 'IA Générative Supply Chain & Achats', format: 'inter', places: 14, id: 'ia-supply-chain' },
   ]},
 ]
+
+/* ─── Schema.org — construit à partir des données ci-dessus ── */
+const ORG_ID = 'https://nextinotech.com/#organization'
+const MONTHS_2026: Record<string, string> = { Sep: '09', Oct: '10', Nov: '11', 'Déc': '12' }
+
+function sessionToDates(date: string): { startDate: string; endDate: string } | null {
+  const parts = date.trim().split(' ')
+  const mo = MONTHS_2026[parts[parts.length - 1]]
+  if (!mo) return null
+  const [d1, d2] = parts[0].replace(/[–]/g, '-').split('-')
+  const pad = (d: string) => d.padStart(2, '0')
+  const startDate = `2026-${mo}-${pad(d1)}`
+  return { startDate, endDate: d2 ? `2026-${mo}-${pad(d2)}` : startDate }
+}
+
+const instancesByProgram: Record<string, { startDate: string; endDate: string; format: string }[]> = {}
+for (const block of SESSIONS) {
+  for (const s of block.sessions) {
+    const dt = sessionToDates(s.date)
+    if (!dt) continue
+    if (!instancesByProgram[s.id]) instancesByProgram[s.id] = []
+    instancesByProgram[s.id].push({ ...dt, format: s.format })
+  }
+}
+
+function workload(duration: string): string {
+  if (/5\s*jours/i.test(duration)) return 'P5D'
+  if (/(2\s*jours|1\s*à\s*2)/i.test(duration)) return 'P2D'
+  return 'P1D'
+}
+
+const programmesSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'ItemList',
+      '@id': 'https://nextinotech.com/formation#programmes',
+      name: 'Catalogue de formations Nextinotech',
+      numberOfItems: PROGRAMMES.length,
+      itemListElement: PROGRAMMES.map((p, i) => {
+        const nums = p.price.replace(/\s/g, '').split('–').map(s => parseInt(s.replace(/\D/g, ''), 10)).filter(n => !isNaN(n))
+        const offer: Record<string, unknown> = {
+          '@type': 'Offer',
+          priceCurrency: 'MAD',
+          category: 'Formation professionnelle',
+          url: 'https://nextinotech.com/formation',
+          availability: 'https://schema.org/InStock',
+        }
+        if (nums.length === 2) {
+          offer.priceSpecification = { '@type': 'PriceSpecification', minPrice: nums[0], maxPrice: nums[1], priceCurrency: 'MAD' }
+        } else if (nums.length === 1) {
+          offer.price = nums[0]
+        }
+        const dated = instancesByProgram[p.id] || []
+        const hasCourseInstance = dated.length
+          ? dated.map(d => ({
+              '@type': 'CourseInstance',
+              courseMode: 'Onsite',
+              startDate: d.startDate,
+              endDate: d.endDate,
+              location: {
+                '@type': 'Place',
+                name: d.format === 'inter' ? 'Hôtel 5 étoiles, Casablanca' : "Locaux de l'entreprise cliente",
+                address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' },
+              },
+              offers: { ...offer },
+            }))
+          : [{
+              '@type': 'CourseInstance',
+              courseMode: p.format === 'coaching' ? 'Online' : 'Onsite',
+              courseWorkload: workload(p.duration),
+              location: {
+                '@type': 'Place',
+                name: p.lieu || 'Casablanca',
+                address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' },
+              },
+              offers: { ...offer },
+            }]
+        return {
+          '@type': 'ListItem',
+          position: i + 1,
+          item: {
+            '@type': 'Course',
+            name: p.title,
+            description: p.subtitle,
+            provider: { '@id': ORG_ID },
+            inLanguage: 'fr',
+            educationalCredentialAwarded: 'Attestation de formation Nextinotech',
+            courseWorkload: workload(p.duration),
+            hasCourseInstance,
+            offers: offer,
+          },
+        }
+      }),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': 'https://nextinotech.com/formation#breadcrumb',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://nextinotech.com/formation#faq',
+      mainEntity: FAQ.map(f => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
+  ],
+}
 
 /* ─── Hero carousel — decorative only, images as CSS backgrounds ── */
 const CAROUSEL_IMAGES = [

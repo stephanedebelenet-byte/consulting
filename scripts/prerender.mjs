@@ -8,7 +8,30 @@ import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { chromium } from 'playwright'
 
-const ROUTES = ['/', '/services', '/references', '/formation', '/a-propos', '/blog', '/contact', '/outils/dimensionnement-entrepot', '/outils/productivite-engins-main-doeuvre', '/outils/cout-global-entrepot']
+const ROUTES = [
+  '/',
+  '/conseil',
+  '/prestations',
+  '/services',
+  '/references',
+  '/formation',
+  '/formation-rl',
+  '/a-propos',
+  '/blog',
+  '/contact',
+  '/faq',
+  '/carriere',
+  '/directeur-logistique-mi-temps',
+  '/directeur-achats-mi-temps',
+  '/direction-supply-chain-temps-partage',
+  '/dsc-vs-recrutement-cdi',
+  '/outils/dimensionnement-entrepot',
+  '/outils/productivite-engins-main-doeuvre',
+  '/outils/cout-global-entrepot',
+  '/demo/wms',
+  '/demo/tms',
+  '/demo/aps',
+]
 const PORT = 4173
 const BASE_URL = `http://localhost:${PORT}`
 const DIST = path.resolve('dist')

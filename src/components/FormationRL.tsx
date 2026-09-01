@@ -92,6 +92,17 @@ const FAQS = [
 ]
 
 /* ─── Schema.org ─────────────────────────────────────────── */
+const RL_SESSIONS_2026 = ['2026-09-18', '2026-10-23', '2026-11-13', '2026-12-11']
+
+const rlOffer = {
+  '@type': 'Offer',
+  price: 1500,
+  priceCurrency: 'MAD',
+  category: 'Formation professionnelle',
+  availability: 'https://schema.org/InStock',
+  url: 'https://nextinotech.com/formation-rl/',
+}
+
 const courseSchema = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -100,20 +111,34 @@ const courseSchema = {
       '@id': 'https://nextinotech.com/formation-rl/#course',
       name: 'Devenir Responsable Logistique',
       description: 'Formation intensive d\'une journée pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique : fondamentaux, gestion des stocks, transport, pilotage de la performance, systèmes WMS/TMS/ERP.',
-      provider: { '@type': 'Organization', name: 'Nextinotech', sameAs: 'https://nextinotech.com/' },
-      hasCourseInstance: {
+      provider: { '@id': 'https://nextinotech.com/#organization' },
+      inLanguage: 'fr',
+      educationalCredentialAwarded: 'Attestation de formation Nextinotech',
+      courseWorkload: 'P1D',
+      about: ['Logistique', 'Supply chain', 'Gestion des stocks', 'Transport', 'WMS', 'TMS', 'Pilotage de la performance'],
+      offers: rlOffer,
+      hasCourseInstance: RL_SESSIONS_2026.map(d => ({
         '@type': 'CourseInstance',
         courseMode: 'Onsite',
         courseWorkload: 'P1D',
-        location: { '@type': 'Place', name: 'Hôtel 5 étoiles', address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' } },
-      },
-      offers: {
-        '@type': 'Offer',
-        price: 1500,
-        priceCurrency: 'MAD',
-        availability: 'https://schema.org/InStock',
-        url: 'https://nextinotech.com/formation-rl/',
-      },
+        startDate: d,
+        endDate: d,
+        location: {
+          '@type': 'Place',
+          name: 'Hôtel 5 étoiles, Casablanca',
+          address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' },
+        },
+        offers: rlOffer,
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': 'https://nextinotech.com/formation-rl/#breadcrumb',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+        { '@type': 'ListItem', position: 3, name: 'Devenir Responsable Logistique', item: 'https://nextinotech.com/formation-rl/' },
+      ],
     },
     {
       '@type': 'FAQPage',
