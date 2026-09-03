@@ -350,9 +350,9 @@ function DownloadForm() {
 }
 
 /* ─── Section Inscription — virement bancaire + formulaire avec preuve de paiement ──
-   Le formulaire poste en multipart directement vers FormSubmit (contact@nextinotech.com)
-   pour permettre la pièce jointe. `_next` renvoie sur la page avec ?inscription=recu.
-   Pré-inscription = pièce jointe optionnelle, place réservée 72h. */
+   Le formulaire poste en multipart vers FormSubmit (contact@nextinotech.com) DANS UN
+   IFRAME CACHÉ : la page ne navigue jamais, l'utilisateur voit une confirmation
+   inline et reste sur le site. Pré-inscription = pièce jointe optionnelle (72h). */
 const FORMSUBMIT_URL = 'https://formsubmit.co/contact@nextinotech.com'
 const MAX_FILE_MB = 5
 
@@ -367,17 +367,22 @@ const smallBtn: React.CSSProperties = {
 }
 
 function InscriptionSection() {
-  const [justSubmitted, setJustSubmitted] = useState(false)
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
   const [fileErr, setFileErr] = useState('')
   const [type, setType] = useState<'definitive' | 'preinscription'>('definitive')
+  const loadCount = useRef(0)
+  const timerRef = useRef<number | null>(null)
 
-  useEffect(() => {
-    try {
-      if (new URLSearchParams(window.location.search).get('inscription') === 'recu') {
-        setJustSubmitted(true)
-      }
-    } catch { /* noop */ }
-  }, [])
+  // Soumission via iframe caché : la page ne bouge pas, l'utilisateur ne voit
+  // jamais FormSubmit, la pièce jointe passe (POST multipart natif).
+  useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
+
+  const onIframeLoad = () => {
+    loadCount.current += 1
+    if (loadCount.current <= 1) return // 1er load = about:blank à l'init
+    if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null }
+    setStatus((s) => (s === 'sending' ? 'success' : s))
+  }
 
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     const file = (e.currentTarget.elements.namedItem('preuve_paiement') as HTMLInputElement | null)?.files?.[0]
@@ -387,6 +392,9 @@ function InscriptionSection() {
       return
     }
     setFileErr('')
+    setStatus('sending')
+    timerRef.current = window.setTimeout(() => setStatus((s) => (s === 'sending' ? 'error' : s)), 20000)
+    // la soumission native continue vers l'iframe caché
   }
 
   const input: React.CSSProperties = {
@@ -414,15 +422,15 @@ function InscriptionSection() {
           pour réserver votre place et régler ensuite.
         </p>
 
-        {justSubmitted && (
-          <div style={{ background: '#ffffff', border: '1px solid var(--blue-bright)', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
-            <strong style={{ fontFamily: 'Manrope, sans-serif', color: 'var(--navy)' }}>Demande d&apos;inscription reçue.</strong>
-            <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.92rem', color: 'var(--mid)', margin: '0.4rem 0 0', lineHeight: 1.7 }}>
-              Nous vous confirmons votre place par email sous 24h. Si vous n&apos;avez pas encore joint la
-              preuve de paiement, envoyez-la à contact@nextinotech.com ou via WhatsApp.
-            </p>
-          </div>
-        )}
+        {/* Cible cachée de la soumission — la page principale ne navigue jamais */}
+        <iframe
+          name="frl_inscription_target"
+          title=""
+          aria-hidden="true"
+          tabIndex={-1}
+          onLoad={onIframeLoad}
+          style={{ position: 'absolute', width: 0, height: 0, border: 0, overflow: 'hidden' }}
+        />
 
         <div className="frl-inscription-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1.15fr', gap: '4rem', alignItems: 'start' }}>
           {/* ── Coordonnées bancaires ── */}
@@ -455,14 +463,40 @@ function InscriptionSection() {
           </div>
 
           {/* ── Formulaire d'inscription ── */}
-          <form action={FORMSUBMIT_URL} method="POST" encType="multipart/form-data" onSubmit={onSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}>
+          {status === 'success' ? (
+            <div style={{ background: '#ffffff', border: '1px solid var(--blue-bright)', padding: '2.5rem' }}>
+              <div style={{ fontSize: '1.75rem', marginBottom: '0.75rem' }}>✅</div>
+              <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.3rem', fontWeight: 800, color: 'var(--navy)', margin: '0 0 0.6rem' }}>
+                Demande d&apos;inscription envoyée.
+              </h3>
+              <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, margin: 0 }}>
+                Nous vous confirmons votre place par email sous 24h. Un accusé de réception vient de vous être
+                envoyé. Si vous n&apos;avez pas joint la preuve de paiement, transmettez-la à
+                contact@nextinotech.com ou via WhatsApp pour valider définitivement votre inscription.
+              </p>
+            </div>
+          ) : (
+          <form
+            action={FORMSUBMIT_URL}
+            method="POST"
+            encType="multipart/form-data"
+            target="frl_inscription_target"
+            onSubmit={onSubmit}
+            style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}
+          >
             <input type="hidden" name="_subject" value="Nouvelle inscription — Formation Responsable Logistique" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="https://nextinotech.com/formation-rl/?inscription=recu" />
             <input type="hidden" name="_autoresponse" value="Bonjour, nous avons bien reçu votre demande d'inscription à la formation « Devenir Responsable Logistique ». Notre équipe vous confirme votre place sous 24h. — Nextinotech" />
             <input type="hidden" name="formation" value="Devenir Responsable Logistique — 1 jour, Casablanca, 1 500 MAD TTC" />
             <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" aria-hidden="true" />
+
+            {status === 'error' && (
+              <div style={{ background: 'rgba(200,60,60,0.06)', border: '1px solid rgba(200,60,60,0.4)', padding: '0.9rem 1.1rem', fontSize: '0.82rem', color: '#c83c3c', lineHeight: 1.6 }}>
+                L&apos;envoi n&apos;a pas abouti. Réessayez, ou écrivez-nous directement à contact@nextinotech.com
+                (WhatsApp possible).
+              </div>
+            )}
 
             <div>
               <span style={label}>Type d&apos;inscription</span>
@@ -516,14 +550,16 @@ function InscriptionSection() {
 
             <button
               type="submit"
-              style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', padding: '1rem 2rem', background: 'var(--blue-bright)', color: '#ffffff', border: 'none', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 700, letterSpacing: '0.03em', cursor: 'pointer' }}
+              disabled={status === 'sending'}
+              style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', padding: '1rem 2rem', background: 'var(--blue-bright)', color: '#ffffff', border: 'none', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 700, letterSpacing: '0.03em', cursor: status === 'sending' ? 'default' : 'pointer', opacity: status === 'sending' ? 0.7 : 1 }}
             >
-              Envoyer mon inscription →
+              {status === 'sending' ? 'Envoi en cours…' : 'Envoyer mon inscription →'}
             </button>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.06em', color: 'var(--mid)', lineHeight: 1.6 }}>
               Envoi vers contact@nextinotech.com. Vos données servent uniquement au traitement de votre inscription.
             </div>
           </form>
+          )}
         </div>
       </div>
 
