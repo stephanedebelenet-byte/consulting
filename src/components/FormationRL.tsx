@@ -349,6 +349,189 @@ function DownloadForm() {
   )
 }
 
+/* ─── Section Inscription — virement bancaire + formulaire avec preuve de paiement ──
+   Le formulaire poste en multipart directement vers FormSubmit (contact@nextinotech.com)
+   pour permettre la pièce jointe. `_next` renvoie sur la page avec ?inscription=recu.
+   Pré-inscription = pièce jointe optionnelle, place réservée 72h. */
+const FORMSUBMIT_URL = 'https://formsubmit.co/contact@nextinotech.com'
+const MAX_FILE_MB = 5
+
+const rowStyle: React.CSSProperties = {
+  display: 'flex', justifyContent: 'space-between', gap: '1rem',
+  padding: '0.6rem 0', borderBottom: '1px solid var(--border)',
+}
+const smallBtn: React.CSSProperties = {
+  display: 'inline-flex', alignItems: 'center', padding: '0.7rem 1.4rem',
+  fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em',
+  textTransform: 'uppercase', textDecoration: 'none',
+}
+
+function InscriptionSection() {
+  const [justSubmitted, setJustSubmitted] = useState(false)
+  const [fileErr, setFileErr] = useState('')
+  const [type, setType] = useState<'definitive' | 'preinscription'>('definitive')
+
+  useEffect(() => {
+    try {
+      if (new URLSearchParams(window.location.search).get('inscription') === 'recu') {
+        setJustSubmitted(true)
+      }
+    } catch { /* noop */ }
+  }, [])
+
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const file = (e.currentTarget.elements.namedItem('preuve_paiement') as HTMLInputElement | null)?.files?.[0]
+    if (file && file.size > MAX_FILE_MB * 1024 * 1024) {
+      e.preventDefault()
+      setFileErr(`Fichier trop volumineux (max ${MAX_FILE_MB} Mo). Compressez-le ou envoyez-le par email / WhatsApp.`)
+      return
+    }
+    setFileErr('')
+  }
+
+  const input: React.CSSProperties = {
+    width: '100%', background: '#ffffff', border: '1px solid var(--border)',
+    padding: '0.85rem 1rem', color: 'var(--navy)', fontFamily: 'Jost, sans-serif',
+    fontSize: '0.9rem', outline: 'none', boxSizing: 'border-box',
+  }
+  const label: React.CSSProperties = {
+    fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.16em',
+    textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.4rem', display: 'block',
+  }
+
+  return (
+    <section id="inscription" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
+      <div className="section-inner">
+        <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1rem' }}>
+          Inscription
+        </div>
+        <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.2rem, 4vw, 4rem)', fontWeight: 800, lineHeight: 0.95, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 1rem' }}>
+          S&apos;inscrire à la formation.
+        </h2>
+        <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', lineHeight: 1.8, color: 'var(--mid)', fontWeight: 300, maxWidth: 640, margin: '0 0 3rem' }}>
+          1 500 MAD TTC par participant. Le règlement se fait par virement bancaire ; votre place est
+          confirmée à réception de la preuve de paiement. Vous pouvez aussi faire une pré-inscription
+          pour réserver votre place et régler ensuite.
+        </p>
+
+        {justSubmitted && (
+          <div style={{ background: '#ffffff', border: '1px solid var(--blue-bright)', padding: '1.5rem 1.75rem', marginBottom: '2.5rem' }}>
+            <strong style={{ fontFamily: 'Manrope, sans-serif', color: 'var(--navy)' }}>Demande d&apos;inscription reçue.</strong>
+            <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.92rem', color: 'var(--mid)', margin: '0.4rem 0 0', lineHeight: 1.7 }}>
+              Nous vous confirmons votre place par email sous 24h. Si vous n&apos;avez pas encore joint la
+              preuve de paiement, envoyez-la à contact@nextinotech.com ou via WhatsApp.
+            </p>
+          </div>
+        )}
+
+        <div className="frl-inscription-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1.15fr', gap: '4rem', alignItems: 'start' }}>
+          {/* ── Coordonnées bancaires ── */}
+          <div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.15rem', fontWeight: 700, color: 'var(--navy)', margin: '0 0 1.25rem' }}>
+              Régler par virement
+            </h3>
+            <div style={{ background: '#ffffff', border: '1px solid var(--border)', padding: '1.75rem' }}>
+              {[
+                ['Titulaire du compte', 'NEXTINOTECH'],
+                ['Banque', '[À COMPLÉTER]'],
+                ['RIB (24 chiffres)', '[À COMPLÉTER]'],
+                ['IBAN', '[À COMPLÉTER]'],
+                ['Code SWIFT / BIC', '[À COMPLÉTER]'],
+              ].map(([k, v]) => (
+                <div key={k} style={rowStyle}>
+                  <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>{k}</span>
+                  <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, color: 'var(--navy)', textAlign: 'right' }}>{v}</span>
+                </div>
+              ))}
+              <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.82rem', color: 'var(--mid)', lineHeight: 1.7, margin: '1rem 0 0' }}>
+                Indiquez <strong>votre nom + « Formation RL »</strong> en référence du virement, puis joignez
+                la preuve de paiement au formulaire ci-contre.
+              </p>
+            </div>
+            <div style={{ marginTop: '1.5rem', display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+              <a href={WA_LINK} target="_blank" rel="noopener noreferrer" style={{ ...smallBtn, background: 'var(--blue-bright)', color: '#ffffff', border: '1px solid var(--blue-bright)' }}>WhatsApp</a>
+              <a href={EMAIL_LINK} style={{ ...smallBtn, background: 'transparent', color: 'var(--navy)', border: '1px solid var(--border)' }}>Par email</a>
+            </div>
+          </div>
+
+          {/* ── Formulaire d'inscription ── */}
+          <form action={FORMSUBMIT_URL} method="POST" encType="multipart/form-data" onSubmit={onSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}>
+            <input type="hidden" name="_subject" value="Nouvelle inscription — Formation Responsable Logistique" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://nextinotech.com/formation-rl/?inscription=recu" />
+            <input type="hidden" name="_autoresponse" value="Bonjour, nous avons bien reçu votre demande d'inscription à la formation « Devenir Responsable Logistique ». Notre équipe vous confirme votre place sous 24h. — Nextinotech" />
+            <input type="hidden" name="formation" value="Devenir Responsable Logistique — 1 jour, Casablanca, 1 500 MAD TTC" />
+            <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" aria-hidden="true" />
+
+            <div>
+              <span style={label}>Type d&apos;inscription</span>
+              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                {[
+                  { v: 'definitive', l: 'Inscription définitive (preuve de paiement jointe)' },
+                  { v: 'preinscription', l: 'Pré-inscription (place réservée 72h, règlement ensuite)' },
+                ].map((o) => (
+                  <label key={o.v} style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', fontFamily: 'Jost, sans-serif', fontSize: '0.85rem', color: 'var(--navy)', cursor: 'pointer', flex: '1 1 240px' }}>
+                    <input
+                      type="radio"
+                      name="type_inscription"
+                      value={o.l}
+                      checked={type === o.v}
+                      onChange={() => setType(o.v as 'definitive' | 'preinscription')}
+                      style={{ marginTop: '0.2rem' }}
+                    />
+                    {o.l}
+                  </label>
+                ))}
+              </div>
+            </div>
+
+            <input type="text" name="nom" placeholder="Nom complet *" required style={input} />
+            <input type="email" name="email" placeholder="Email *" required style={input} />
+            <div className="frl-2col" style={{ gap: '1.1rem' }}>
+              <input type="tel" name="telephone" placeholder="Téléphone *" required style={input} />
+              <input type="text" name="entreprise" placeholder="Entreprise (optionnel)" style={input} />
+            </div>
+
+            <div>
+              <span style={label}>
+                Preuve de paiement {type === 'preinscription' ? '(optionnelle)' : '(PDF, JPG ou PNG — max 5 Mo)'}
+              </span>
+              <input
+                type="file"
+                name="preuve_paiement"
+                accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/*"
+                style={{ ...input, padding: '0.6rem' }}
+              />
+              {fileErr && <div style={{ fontSize: '0.72rem', color: '#c83c3c', marginTop: '0.3rem' }}>{fileErr}</div>}
+              {type === 'preinscription' && (
+                <div style={{ fontSize: '0.72rem', color: 'var(--mid)', marginTop: '0.35rem', lineHeight: 1.6 }}>
+                  Sans preuve de paiement, votre place est réservée 72h. Envoyez la preuve ensuite par email
+                  ou WhatsApp pour confirmer définitivement.
+                </div>
+              )}
+            </div>
+
+            <textarea name="message" placeholder="Message (optionnel)" rows={3} style={{ ...input, resize: 'vertical' }} />
+
+            <button
+              type="submit"
+              style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', padding: '1rem 2rem', background: 'var(--blue-bright)', color: '#ffffff', border: 'none', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 700, letterSpacing: '0.03em', cursor: 'pointer' }}
+            >
+              Envoyer mon inscription →
+            </button>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.06em', color: 'var(--mid)', lineHeight: 1.6 }}>
+              Envoi vers contact@nextinotech.com. Vos données servent uniquement au traitement de votre inscription.
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <style>{`@media (max-width: 860px){ .frl-inscription-grid{ grid-template-columns:1fr !important; gap:2.5rem !important; } }`}</style>
+    </section>
+  )
+}
+
 /* ─── Main component ─────────────────────────────────────── */
 export default function FormationRL() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null)
@@ -402,9 +585,7 @@ export default function FormationRL() {
           </div>
         </div>
         <a
-          href={WA_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#inscription"
           style={{
             display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
             padding: '0.75rem 2rem', background: 'var(--blue-bright)', color: '#ffffff',
@@ -810,6 +991,8 @@ export default function FormationRL() {
         </div>
       </div>
 
+      <InscriptionSection />
+
       {/* ── CTA FINAL ────────────────────────────────────────── */}
       <section style={{ background: 'var(--blue-bright)', padding: 'var(--sp-y) var(--sp-x)' }}>
         <div className="section-inner" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '3rem' }}>
@@ -827,7 +1010,7 @@ export default function FormationRL() {
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.15 }} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'flex-start' }}>
             <a
-              href={WA_LINK} target="_blank" rel="noopener noreferrer"
+              href="#inscription"
               style={{
                 display: 'inline-flex', alignItems: 'center', gap: '0.6rem',
                 padding: '1.25rem 3rem', background: 'var(--navy)', color: '#fff',
@@ -837,10 +1020,10 @@ export default function FormationRL() {
               onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = '#12283f'}
               onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--navy)'}
             >
-              Réserver via WhatsApp →
+              S&apos;inscrire — formulaire &amp; RIB →
             </a>
-            <a href={EMAIL_LINK} style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
-              Ou par email → contact@nextinotech.com
+            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
+              Ou via WhatsApp / email → contact@nextinotech.com
             </a>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)', marginTop: '0.5rem' }}>
               Réponse sous 24h · Aucun engagement avant confirmation écrite
