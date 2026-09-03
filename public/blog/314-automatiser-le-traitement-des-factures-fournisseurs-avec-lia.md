@@ -36,13 +36,13 @@ description: "Extraction, rapprochement et validation des factures fournisseurs 
 
 ## Ce que l'IA ne décide pas
 
-La validation d'un « bon à payer », l'acceptation d'un écart de prix, le traitement fiscal d'un cas limite, le blocage d'un fournisseur : décisions humaines. L'IA qualifie l'exception et la présente ; elle ne l'arbitre pas. C'est la même logique que sur l'ensemble du [cycle achats automatisé](/blog?post=automatisation-des-achats-par-lia-du-bon-de-commande-au-paie), dont le traitement des factures est le maillon aval.
+La validation d'un « bon à payer », l'acceptation d'un écart de prix, le traitement fiscal d'un cas limite, le blocage d'un fournisseur : décisions humaines. L'IA qualifie l'exception et la présente ; elle ne l'arbitre pas. C'est la même logique que sur l'ensemble du [cycle achats automatisé](/blog/automatisation-des-achats-par-lia-du-bon-de-commande-au-paie), dont le traitement des factures est le maillon aval.
 
 > **La valeur n'est pas dans la saisie supprimée, elle est dans les litiges évités et les escomptes captés.** Une comptabilité fournisseurs qui paie à l'heure préserve la relation, obtient de meilleures conditions, et libère du temps pour l'analyse de la dépense plutôt que pour la ressaisie.
 
 ## Par où commencer
 
-Mesurez d'abord votre coût et votre délai actuels par facture. Ciblez ensuite le segment à plus fort volume et plus standard (factures avec commande, un ou deux fournisseurs majeurs). Anonymisez ce qui doit l'être avant tout envoi à un modèle externe — voir [Loi 09-08 et CNDP](/blog?post=loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo). Pour arbitrer entre RPA, LLM et plateforme, lisez [quel outil pour quel problème](/blog?post=ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
+Mesurez d'abord votre coût et votre délai actuels par facture. Ciblez ensuite le segment à plus fort volume et plus standard (factures avec commande, un ou deux fournisseurs majeurs). Anonymisez ce qui doit l'être avant tout envoi à un modèle externe — voir [Loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo). Pour arbitrer entre RPA, LLM et plateforme, lisez [quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
 
 ## Ce qu'il faut retenir
 

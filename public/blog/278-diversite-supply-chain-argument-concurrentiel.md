@@ -32,7 +32,7 @@ Le marché marocain de la supply chain, en croissance rapide et confronté à un
 
 ## Ce qu'il faut retenir
 
-La diversité en supply chain devient un critère de performance mesurable, pas seulement un objectif RSE — les entreprises qui élargissent leurs méthodes de recrutement accèdent à un vivier de talents plus large dans un marché où la pénurie de compétences est déjà réelle. Notre article sur les [réseaux et mentorat pour femmes en logistique au Maroc](/blog?post=rseaux-et-mentorat-pour-femmes-en-logistique-ce-qui-existe-e) complète cet enjeu côté accompagnement de carrière une fois les talents recrutés ; notre article sur la [marque employeur logistique](/blog?post=marque-employeur-logistique-pourquoi-les-entrepts-marocains-) situe la diversité dans une stratégie d'attractivité employeur plus large.
+La diversité en supply chain devient un critère de performance mesurable, pas seulement un objectif RSE — les entreprises qui élargissent leurs méthodes de recrutement accèdent à un vivier de talents plus large dans un marché où la pénurie de compétences est déjà réelle. Notre article sur les [réseaux et mentorat pour femmes en logistique au Maroc](/blog/rseaux-et-mentorat-pour-femmes-en-logistique-ce-qui-existe-e) complète cet enjeu côté accompagnement de carrière une fois les talents recrutés ; notre article sur la [marque employeur logistique](/blog/marque-employeur-logistique-pourquoi-les-entrepts-marocains-) situe la diversité dans une stratégie d'attractivité employeur plus large.
 
 Vous voulez élargir votre vivier de recrutement supply chain au-delà des canaux traditionnels ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 

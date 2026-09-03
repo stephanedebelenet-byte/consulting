@@ -32,7 +32,7 @@ En l'absence de baromètre sectoriel marocain, chaque entreprise part d'une page
 
 ## Ce qu'il faut retenir
 
-À l'échelle mondiale, les femmes représentent 41% des effectifs supply chain mais restent minoritaires dans les postes de direction (15-17% selon les enquêtes Gartner) — un écart bien documenté, mais qui n'a pas d'équivalent chiffré marocain publié à ce jour. Le programme "Logistique au féminin" lancé à Logismed 2026 est un premier signal structurant, sans se substituer à une vraie mesure sectorielle. Notre article sur la [marque employeur logistique](/blog?post=marque-employeur-logistique-pourquoi-les-entrepts-marocains-) et notre article sur la [génération Z en logistique](/blog?post=recruter-la-gnration-z-en-logistique-ce-qui-a-chang-ce-quil-) abordent d'autres angles morts RH du secteur marocain.
+À l'échelle mondiale, les femmes représentent 41% des effectifs supply chain mais restent minoritaires dans les postes de direction (15-17% selon les enquêtes Gartner) — un écart bien documenté, mais qui n'a pas d'équivalent chiffré marocain publié à ce jour. Le programme "Logistique au féminin" lancé à Logismed 2026 est un premier signal structurant, sans se substituer à une vraie mesure sectorielle. Notre article sur la [marque employeur logistique](/blog/marque-employeur-logistique-pourquoi-les-entrepts-marocains-) et notre article sur la [génération Z en logistique](/blog/recruter-la-gnration-z-en-logistique-ce-qui-a-chang-ce-quil-) abordent d'autres angles morts RH du secteur marocain.
 
 Votre entreprise veut structurer sa politique de diversité et de mixité dans ses équipes supply chain ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 

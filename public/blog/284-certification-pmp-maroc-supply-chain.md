@@ -32,7 +32,7 @@ Le coût de préparation n'est pas le seul poste à budgétiser : l'examen de ce
 
 ## Ce qu'il faut retenir
 
-La certification PMP vaut l'investissement principalement pour un profil supply chain qui pilote ou vise à piloter des projets transverses (transformation, déploiement ERP/WMS, ouverture de site) — moins pour un poste d'exécution opérationnelle pure. Notre article sur le [ROI d'une formation supply chain](/blog?post=roi-dune-formation-supply-chain-comment-le-calculer-et-le-ju) détaille la méthode de calcul à appliquer avant tout investissement en certification ; notre article sur la [certification APICS/CPIM au Maroc](/blog?post=certification-apics-cpim-au-maroc-valeur-prparation-et-cot) présente une certification alternative plus spécifique à la supply chain.
+La certification PMP vaut l'investissement principalement pour un profil supply chain qui pilote ou vise à piloter des projets transverses (transformation, déploiement ERP/WMS, ouverture de site) — moins pour un poste d'exécution opérationnelle pure. Notre article sur le [ROI d'une formation supply chain](/blog/roi-dune-formation-supply-chain-comment-le-calculer-et-le-ju) détaille la méthode de calcul à appliquer avant tout investissement en certification ; notre article sur la [certification APICS/CPIM au Maroc](/blog/certification-apics-cpim-au-maroc-valeur-prparation-et-cot) présente une certification alternative plus spécifique à la supply chain.
 
 Vous voulez évaluer si la certification PMP correspond à votre trajectoire de carrière supply chain ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 

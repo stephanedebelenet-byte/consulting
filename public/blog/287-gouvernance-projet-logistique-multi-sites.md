@@ -32,7 +32,7 @@ Chaque site logistique a ses spécificités opérationnelles propres (contrainte
 
 ## Ce qu'il faut retenir
 
-La gouvernance d'un projet logistique multi-sites réussit par un équilibre entre cadrage stratégique central et autonomie opérationnelle locale — ni la centralisation totale ni l'autonomie totale ne fonctionnent durablement. Notre article sur le [conseil logistique pour une PME/ETI marocaine](/blog?post=conseil-logistique-au-maroc-ce-qui-diffrencie-une-mission-pm) détaille ce qui change quand la complexité multi-sites impose ce type de gouvernance ; notre article sur le [control tower logistique](/blog?post=control-tower-logistique-piloter-sa-supply-chain-en-temps-re) présente l'outil de visibilité qui soutient cette coordination au quotidien.
+La gouvernance d'un projet logistique multi-sites réussit par un équilibre entre cadrage stratégique central et autonomie opérationnelle locale — ni la centralisation totale ni l'autonomie totale ne fonctionnent durablement. Notre article sur le [conseil logistique pour une PME/ETI marocaine](/blog/conseil-logistique-au-maroc-ce-qui-diffrencie-une-mission-pm) détaille ce qui change quand la complexité multi-sites impose ce type de gouvernance ; notre article sur le [control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps-re) présente l'outil de visibilité qui soutient cette coordination au quotidien.
 
 Vous coordonnez un réseau logistique multi-sites et voulez structurer votre gouvernance ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 

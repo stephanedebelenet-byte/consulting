@@ -98,7 +98,7 @@ export default function HomePage() {
                   {INSIGHT.lede}
                 </p>
                 <Link
-                  to={`/blog?post=${INSIGHT.slug}`}
+                  to={`/blog/${INSIGHT.slug}`}
                   style={{
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.75rem',

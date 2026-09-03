@@ -34,7 +34,7 @@ L'IA excelle à **structurer** (transformer des notes d'atelier en trame propre)
 |--------|-----------|
 | L'IA « invente » des volumétries plausibles | Toute donnée chiffrée provient d'un fichier source cité |
 | Exigences génériques, non discriminantes | Chaque exigence doit être vérifiable en démo ou en test |
-| Fuite de données sensibles dans le prompt | Anonymiser noms, prix, volumes — voir [Loi 09-08 et CNDP](/blog?post=loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo) |
+| Fuite de données sensibles dans le prompt | Anonymiser noms, prix, volumes — voir [Loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo) |
 | Périmètre qui gonfle (l'IA ajoute « au cas où ») | Un responsable métier valide chaque ajout |
 | Biais vers un éditeur connu du modèle | La short-list vient de votre étude de marché, pas du LLM |
 
@@ -42,11 +42,11 @@ L'IA excelle à **structurer** (transformer des notes d'atelier en trame propre)
 
 ## Trame type (systèmes et externalisation)
 
-Contexte et objectifs · Périmètre fonctionnel et exclusions · Volumétries et flux · Exigences fonctionnelles détaillées · Exigences techniques et intégration (ERP, EDI, [interopérabilité](/blog?post=sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du)) · Exigences de service et SLA · Réversibilité et données · Planning et jalons · Modalités de réponse et grille de notation. Pour les projets où vous voulez aussi le scoring et la sélection des prestataires, l'exercice se prolonge en [étude de faisabilité SI](/blog?post=cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
+Contexte et objectifs · Périmètre fonctionnel et exclusions · Volumétries et flux · Exigences fonctionnelles détaillées · Exigences techniques et intégration (ERP, EDI, [interopérabilité](/blog/sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du)) · Exigences de service et SLA · Réversibilité et données · Planning et jalons · Modalités de réponse et grille de notation. Pour les projets où vous voulez aussi le scoring et la sélection des prestataires, l'exercice se prolonge en [étude de faisabilité SI](/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 
-L'IA fait gagner du temps sur la forme et l'exhaustivité d'un cahier des charges, jamais sur le fond : la matière et les arbitrages restent humains. Anonymisez les données, rendez chaque exigence mesurable, et faites valider les ajouts. Pour choisir entre LLM, prédictif et RPA sur vos autres chantiers, lisez [quel outil pour quel problème](/blog?post=ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
+L'IA fait gagner du temps sur la forme et l'exhaustivité d'un cahier des charges, jamais sur le fond : la matière et les arbitrages restent humains. Anonymisez les données, rendez chaque exigence mesurable, et faites valider les ajouts. Pour choisir entre LLM, prédictif et RPA sur vos autres chantiers, lisez [quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
 
 Nous rédigeons des cahiers des charges Supply Chain & Logistique sans commission fournisseur ni intégrateur : [découvrez l'offre Cahiers des Charges](/conseil). Besoin d'en parler ? [Contactez-nous](/contact) ou consultez notre [catalogue de formations](/formation).
 

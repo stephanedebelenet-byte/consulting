@@ -37,17 +37,17 @@ description: "LLM, IA prédictive, RPA : trois technologies souvent confondues. 
 
 ## Elles se combinent — c'est même la norme
 
-Les meilleurs dispositifs empilent les trois. Un cycle achats automatisé utilise la **RPA** pour la mécanique (créer la commande, lancer le rapprochement), un **LLM** pour les cas non standard (lire une facture mal scannée, expliquer un écart), et de l'**IA prédictive** pour prioriser (quel fournisseur risque de livrer en retard). C'est exactement l'architecture décrite dans notre article sur l'[automatisation des achats par l'IA](/blog?post=automatisation-des-achats-par-lia-du-bon-de-commande-au-paie).
+Les meilleurs dispositifs empilent les trois. Un cycle achats automatisé utilise la **RPA** pour la mécanique (créer la commande, lancer le rapprochement), un **LLM** pour les cas non standard (lire une facture mal scannée, expliquer un écart), et de l'**IA prédictive** pour prioriser (quel fournisseur risque de livrer en retard). C'est exactement l'architecture décrite dans notre article sur l'[automatisation des achats par l'IA](/blog/automatisation-des-achats-par-lia-du-bon-de-commande-au-paie).
 
 > **La question n'est pas « quelle IA acheter » mais « quel processus corriger ».** On part du point de douleur — un délai, une ressaisie, une erreur récurrente — et on choisit l'outil qui l'élimine au coût le plus faible. Souvent, la RPA ou un LLM à 20 € par mois règlent le problème que l'on croyait réservé à une plateforme à 200 000 MAD.
 
 ## Ce que ça change pour le budget
 
-L'IA prédictive demande un historique propre et, souvent, un [logiciel spécialisé](/blog?post=choisir-un-logiciel-de-prvision-de-la-demande-les-critres-po). Le LLM se paie à l'usage, se teste en une semaine, et se déploie sans IT. La RPA se situe entre les deux : licence modérée, mais paramétrage et maintenance à prévoir. Pour chiffrer un projet complet, voir [Coût d'un projet IA supply chain pour une PME marocaine](/blog?post=cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
+L'IA prédictive demande un historique propre et, souvent, un [logiciel spécialisé](/blog/choisir-un-logiciel-de-prvision-de-la-demande-les-critres-po). Le LLM se paie à l'usage, se teste en une semaine, et se déploie sans IT. La RPA se situe entre les deux : licence modérée, mais paramétrage et maintenance à prévoir. Pour chiffrer un projet complet, voir [Coût d'un projet IA supply chain pour une PME marocaine](/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 
-Prédictif pour estimer, génératif pour le texte, RPA pour les règles fixes. Partez du processus à corriger, pas de la technologie. Et prévoyez de les combiner. Pour la liste des usages concrets côté LLM, lisez [IA générative en supply chain : 25 cas d'usage](/blog?post=ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc) ; pour la trajectoire d'ensemble, [l'IA agentique](/blog?post=ia-agentique-en-supply-chain-la-feuille-de-route-2026-2027-p).
+Prédictif pour estimer, génératif pour le texte, RPA pour les règles fixes. Partez du processus à corriger, pas de la technologie. Et prévoyez de les combiner. Pour la liste des usages concrets côté LLM, lisez [IA générative en supply chain : 25 cas d'usage](/blog/ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc) ; pour la trajectoire d'ensemble, [l'IA agentique](/blog/ia-agentique-en-supply-chain-la-feuille-de-route-2026-2027-p).
 
 Vous hésitez sur la techno à engager ? Notre [Étude de Faisabilité SI](/conseil) cadre le besoin et le business case avant tout achat. [Contactez-nous](/contact) ou explorez notre [catalogue de formations](/formation).
 

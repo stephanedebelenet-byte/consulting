@@ -32,7 +32,7 @@ Des solutions de livraison par drone sont déjà testées dans certains pays pou
 
 ## Ce qu'il faut retenir
 
-Le dernier kilomètre en zone rurale ou enclavée est structurellement plus coûteux qu'en ville, mais la mutualisation via points relais et le regroupement de tournées par zone permettent de limiter ce surcoût sans attendre une solution technologique de rupture. Notre article sur le [last-mile au Maroc](/blog?post=last-mile-au-maroc-rsoudre-le-problme-du-dernier-kilomtre-en) détaille les enjeux du dernier kilomètre urbain à comparer à cette réalité rurale ; notre article sur la [nouvelle loi sur la livraison de colis au Maroc](/blog?post=nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que-) situe ce sujet dans le cadre réglementaire qui encadre l'ensemble du secteur.
+Le dernier kilomètre en zone rurale ou enclavée est structurellement plus coûteux qu'en ville, mais la mutualisation via points relais et le regroupement de tournées par zone permettent de limiter ce surcoût sans attendre une solution technologique de rupture. Notre article sur le [last-mile au Maroc](/blog/last-mile-au-maroc-rsoudre-le-problme-du-dernier-kilomtre-en) détaille les enjeux du dernier kilomètre urbain à comparer à cette réalité rurale ; notre article sur la [nouvelle loi sur la livraison de colis au Maroc](/blog/nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que-) situe ce sujet dans le cadre réglementaire qui encadre l'ensemble du secteur.
 
 Vous livrez vers des zones rurales ou enclavées et voulez réduire votre coût par livraison ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

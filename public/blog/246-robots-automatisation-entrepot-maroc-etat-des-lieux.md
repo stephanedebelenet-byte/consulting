@@ -32,7 +32,7 @@ L'erreur la plus fréquente est de viser l'automatisation complète d'emblée. U
 
 ## Ce qu'il faut retenir
 
-L'automatisation d'entrepôt (AMR, AGV, tri robotisé) répond d'abord à un problème de volume et de main-d'œuvre, pas à un effet de mode technologique — et sa pertinence pour une entreprise marocaine dépend directement du volume de flux et de la stabilité des références traitées. Notre article sur la [digitalisation de la supply chain au Maroc](/blog?post=digitalisation-de-la-supply-chain-au-maroc-iot-ia-et-outils-) situe cette brique dans une feuille de route plus large ; notre article sur l'[automatisation d'entrepôt au Maroc (solutions, coûts, ROI)](/blog?post=automatisation-dentrept-au-maroc-solutions-cots-et-roi-2026) détaille le calcul de rentabilité par cas d'usage.
+L'automatisation d'entrepôt (AMR, AGV, tri robotisé) répond d'abord à un problème de volume et de main-d'œuvre, pas à un effet de mode technologique — et sa pertinence pour une entreprise marocaine dépend directement du volume de flux et de la stabilité des références traitées. Notre article sur la [digitalisation de la supply chain au Maroc](/blog/digitalisation-de-la-supply-chain-au-maroc-iot-ia-et-outils-) situe cette brique dans une feuille de route plus large ; notre article sur l'[automatisation d'entrepôt au Maroc (solutions, coûts, ROI)](/blog/automatisation-dentrept-au-maroc-solutions-cots-et-roi-2026) détaille le calcul de rentabilité par cas d'usage.
 
 Vous voulez évaluer si votre volume justifie un investissement en automatisation d'entrepôt ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

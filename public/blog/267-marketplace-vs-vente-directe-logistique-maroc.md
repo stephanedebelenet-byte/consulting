@@ -32,7 +32,7 @@ Beaucoup de vendeurs marocains combinent les deux : une présence marketplace po
 
 ## Ce qu'il faut retenir
 
-Le choix entre marketplace et vente directe redistribue la responsabilité logistique plus qu'il ne l'élimine — une marketplace impose ses propres standards d'exécution stricts, tandis qu'un site propre exige une capacité logistique construite entièrement en interne. Notre article sur l'[entrepôt e-commerce au Maroc](/blog?post=entrept-e-commerce-au-maroc-fulfillment-last-mile-et-organis) détaille l'organisation logistique nécessaire dans les deux cas ; notre article sur le [buffer stock e-commerce au Maroc](/blog?post=buffer-stock-au-maroc-pourquoi-les-marques-e-commerce-stocke) complète cette réflexion pour les vendeurs qui gèrent plusieurs canaux de vente simultanément.
+Le choix entre marketplace et vente directe redistribue la responsabilité logistique plus qu'il ne l'élimine — une marketplace impose ses propres standards d'exécution stricts, tandis qu'un site propre exige une capacité logistique construite entièrement en interne. Notre article sur l'[entrepôt e-commerce au Maroc](/blog/entrept-e-commerce-au-maroc-fulfillment-last-mile-et-organis) détaille l'organisation logistique nécessaire dans les deux cas ; notre article sur le [buffer stock e-commerce au Maroc](/blog/buffer-stock-au-maroc-pourquoi-les-marques-e-commerce-stocke) complète cette réflexion pour les vendeurs qui gèrent plusieurs canaux de vente simultanément.
 
 Vous hésitez entre marketplace et site propre et voulez évaluer l'impact logistique de chaque option ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

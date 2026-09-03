@@ -32,7 +32,7 @@ Trois erreurs reviennent souvent lors d'un premier déploiement : sous-estimer l
 
 ## Ce qu'il faut retenir
 
-SAP MM structure et rend traçable le cycle achats complet, mais son apport dépend entièrement de la qualité du référentiel et des process définis avant le déploiement — le module exécute une stratégie achats, il ne la conçoit pas. Notre article sur [SAP vs Odoo vs Dynamics 365](/blog?post=sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du) situe SAP MM dans le comparatif global des ERP disponibles ; notre article sur le [coût réel d'un projet ERP logistique](/blog?post=cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite) détaille le budget à anticiper pour un déploiement de ce type.
+SAP MM structure et rend traçable le cycle achats complet, mais son apport dépend entièrement de la qualité du référentiel et des process définis avant le déploiement — le module exécute une stratégie achats, il ne la conçoit pas. Notre article sur [SAP vs Odoo vs Dynamics 365](/blog/sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du) situe SAP MM dans le comparatif global des ERP disponibles ; notre article sur le [coût réel d'un projet ERP logistique](/blog/cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite) détaille le budget à anticiper pour un déploiement de ce type.
 
 Vous envisagez un déploiement SAP MM et voulez évaluer votre préparation ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

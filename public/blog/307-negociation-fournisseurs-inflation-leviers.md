@@ -32,7 +32,7 @@ Une pression excessive sur un fournisseur déjà sous tension de coûts réels p
 
 ## Ce qu'il faut retenir
 
-Négocier en période d'inflation suppose de déplacer le débat du seul prix unitaire vers les volumes, les échéances de paiement et les clauses de révision — contester un coût réel documenté par le fournisseur érode la relation sans gain durable. Notre article sur la [hausse des prix du carburant et l'adaptation des transporteurs marocains](/blog?post=hausse-des-prix-du-carburant-comment-les-transporteurs-maroc) détaille le contexte marocain spécifique à intégrer dans ces négociations ; notre article sur le [SRM au Maroc](/blog?post=srm-maroc-grer-ses-fournisseurs-comme-un-actif-stratgique) situe cette négociation dans une gestion fournisseur plus large que le seul rapport de force ponctuel.
+Négocier en période d'inflation suppose de déplacer le débat du seul prix unitaire vers les volumes, les échéances de paiement et les clauses de révision — contester un coût réel documenté par le fournisseur érode la relation sans gain durable. Notre article sur la [hausse des prix du carburant et l'adaptation des transporteurs marocains](/blog/hausse-des-prix-du-carburant-comment-les-transporteurs-maroc) détaille le contexte marocain spécifique à intégrer dans ces négociations ; notre article sur le [SRM au Maroc](/blog/srm-maroc-grer-ses-fournisseurs-comme-un-actif-stratgique) situe cette négociation dans une gestion fournisseur plus large que le seul rapport de force ponctuel.
 
 Vous voulez structurer votre négociation fournisseurs face à la hausse des coûts matières premières ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

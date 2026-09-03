@@ -32,7 +32,7 @@ Trois pratiques limitent l'exposition à ces risques : anticiper les achats de m
 
 ## Ce qu'il faut retenir
 
-La supply chain BTP marocaine doit composer avec deux dynamiques distinctes — un ciment plus stable mais sous pression réglementaire, un acier structurellement volatil et dépendant des marchés mondiaux — ce qui impose une stratégie d'approvisionnement différenciée par matériau plutôt qu'une approche uniforme. Notre article sur l'[externalisation logistique au Maroc](/blog?post=externalisation-logistique-au-maroc-quand-et-comment-choisir) présente une option pour sécuriser cette chaîne d'approvisionnement sans tout internaliser ; notre article sur la [logistique industrielle au Maroc](/blog?post=logistique-industrielle-au-maroc-organisation-flux-et-perfor) situe ces enjeux matériaux dans une organisation industrielle plus large.
+La supply chain BTP marocaine doit composer avec deux dynamiques distinctes — un ciment plus stable mais sous pression réglementaire, un acier structurellement volatil et dépendant des marchés mondiaux — ce qui impose une stratégie d'approvisionnement différenciée par matériau plutôt qu'une approche uniforme. Notre article sur l'[externalisation logistique au Maroc](/blog/externalisation-logistique-au-maroc-quand-et-comment-choisir) présente une option pour sécuriser cette chaîne d'approvisionnement sans tout internaliser ; notre article sur la [logistique industrielle au Maroc](/blog/logistique-industrielle-au-maroc-organisation-flux-et-perfor) situe ces enjeux matériaux dans une organisation industrielle plus large.
 
 Vous voulez sécuriser votre approvisionnement matériaux face à la volatilité des prix ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

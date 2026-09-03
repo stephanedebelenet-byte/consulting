@@ -32,7 +32,7 @@ L'absence de réseau logistique féminin dédié au Maroc représente, en creux,
 
 ## Ce qu'il faut retenir
 
-Le Maroc dispose de réseaux de mentorat féminin généralistes solides, mais aucune initiative dédiée spécifiquement à la logistique et la supply chain n'a pu être identifiée — un angle mort qu'une entreprise du secteur peut compenser partiellement par un mentorat interne structuré. Notre article sur [pourquoi les femmes disparaissent des postes exécutifs](/blog?post=pourquoi-les-femmes-disparaissent-des-postes-excutifs-supply) explique pourquoi ce mentorat compte particulièrement dans ce secteur ; notre article sur la [diversité en supply chain comme argument concurrentiel](/blog?post=diversit-en-supply-chain-un-argument-concurrentiel-pour-atti) situe cet enjeu dans une logique business plus large.
+Le Maroc dispose de réseaux de mentorat féminin généralistes solides, mais aucune initiative dédiée spécifiquement à la logistique et la supply chain n'a pu être identifiée — un angle mort qu'une entreprise du secteur peut compenser partiellement par un mentorat interne structuré. Notre article sur [pourquoi les femmes disparaissent des postes exécutifs](/blog/pourquoi-les-femmes-disparaissent-des-postes-excutifs-supply) explique pourquoi ce mentorat compte particulièrement dans ce secteur ; notre article sur la [diversité en supply chain comme argument concurrentiel](/blog/diversit-en-supply-chain-un-argument-concurrentiel-pour-atti) situe cet enjeu dans une logique business plus large.
 
 Vous voulez structurer un mentorat interne pour les femmes de vos équipes supply chain ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 

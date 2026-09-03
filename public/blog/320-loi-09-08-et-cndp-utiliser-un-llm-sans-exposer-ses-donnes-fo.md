@@ -41,11 +41,11 @@ description: "Ce qu'on peut — et ne peut pas — coller dans un LLM au regard 
 
 Sans réponse claire aux trois, l'outil reste cantonné aux données non sensibles.
 
-> **La conformité n'est pas un frein à l'IA, c'est ce qui la rend déployable au-delà de trois utilisateurs.** Une charte claire sur les données interdites (voir notre article [gouvernance de l'IA](/blog?post=gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil)) permet à toute l'équipe d'utiliser l'IA en confiance, au lieu d'un usage clandestin et risqué.
+> **La conformité n'est pas un frein à l'IA, c'est ce qui la rend déployable au-delà de trois utilisateurs.** Une charte claire sur les données interdites (voir notre article [gouvernance de l'IA](/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil)) permet à toute l'équipe d'utiliser l'IA en confiance, au lieu d'un usage clandestin et risqué.
 
 ## À intégrer dans les contrats fournisseurs et clients
 
-Quand vous confiez des traitements à un prestataire qui utilise de l'IA, ou quand un client vous confie ses données : clause sur l'usage d'outils IA, localisation des traitements, interdiction de réutilisation, information mutuelle en cas d'incident. C'est le prolongement naturel du travail sur les [cahiers des charges](/blog?post=rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous) et la [cybersécurité fournisseurs](/blog?post=cyberscurit-de-la-supply-chain-le-maillon-faible-que-les-ent).
+Quand vous confiez des traitements à un prestataire qui utilise de l'IA, ou quand un client vous confie ses données : clause sur l'usage d'outils IA, localisation des traitements, interdiction de réutilisation, information mutuelle en cas d'incident. C'est le prolongement naturel du travail sur les [cahiers des charges](/blog/rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous) et la [cybersécurité fournisseurs](/blog/cyberscurit-de-la-supply-chain-le-maillon-faible-que-les-ent).
 
 ## Ce qu'il faut retenir
 

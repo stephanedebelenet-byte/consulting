@@ -32,7 +32,7 @@ Les systèmes échangent généralement leurs données de deux façons : par tra
 
 ## Ce qu'il faut retenir
 
-L'interopérabilité entre ERP, WMS et TMS dépend d'abord d'un référentiel de données commun et gouverné dans la durée, avant même la technologie d'intégration choisie — un projet d'intégration qui néglige cette base se dégrade rapidement, quelle que soit la sophistication des interfaces techniques construites. Notre article sur le [WMS vs ERP intégré](/blog?post=wms-vs-erp-intgr-faut-il-un-systme-ddi-pour-son-entrept) aide à clarifier le rôle de chaque système avant de les connecter ; notre article sur le [TMS au Maroc](/blog?post=formation-et-optimisation-tms-au-maroc-logiciel-de-gestion-d) détaille le rôle spécifique du TMS dans cette chaîne.
+L'interopérabilité entre ERP, WMS et TMS dépend d'abord d'un référentiel de données commun et gouverné dans la durée, avant même la technologie d'intégration choisie — un projet d'intégration qui néglige cette base se dégrade rapidement, quelle que soit la sophistication des interfaces techniques construites. Notre article sur le [WMS vs ERP intégré](/blog/wms-vs-erp-intgr-faut-il-un-systme-ddi-pour-son-entrept) aide à clarifier le rôle de chaque système avant de les connecter ; notre article sur le [TMS au Maroc](/blog/formation-et-optimisation-tms-au-maroc-logiciel-de-gestion-d) détaille le rôle spécifique du TMS dans cette chaîne.
 
 Vous voulez auditer la cohérence de vos référentiels avant de connecter vos systèmes ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

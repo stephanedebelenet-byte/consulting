@@ -32,7 +32,7 @@ Le coût d'équipement d'une flotte en boîtiers de géolocalisation reste modes
 
 ## Ce qu'il faut retenir
 
-La géolocalisation de flotte réduit mesurablement les coûts carburant et maintenance, mais uniquement si les données collectées sont activement exploitées pour ajuster les itinéraires et former les conducteurs — l'équipement seul, sans discipline d'exploitation, ne produit pas ces gains. Notre article sur la [hausse des prix du carburant et l'adaptation des transporteurs](/blog?post=hausse-des-prix-du-carburant-comment-les-transporteurs-maroc) situe cet outil dans le contexte qui rend son adoption plus urgente ; notre article sur le [TMS au Maroc](/blog?post=formation-et-optimisation-tms-au-maroc-logiciel-de-gestion-d) présente l'outil de pilotage transport plus large dans lequel s'intègre souvent la géolocalisation.
+La géolocalisation de flotte réduit mesurablement les coûts carburant et maintenance, mais uniquement si les données collectées sont activement exploitées pour ajuster les itinéraires et former les conducteurs — l'équipement seul, sans discipline d'exploitation, ne produit pas ces gains. Notre article sur la [hausse des prix du carburant et l'adaptation des transporteurs](/blog/hausse-des-prix-du-carburant-comment-les-transporteurs-maroc) situe cet outil dans le contexte qui rend son adoption plus urgente ; notre article sur le [TMS au Maroc](/blog/formation-et-optimisation-tms-au-maroc-logiciel-de-gestion-d) présente l'outil de pilotage transport plus large dans lequel s'intègre souvent la géolocalisation.
 
 Vous voulez évaluer le retour sur investissement d'une solution de géolocalisation pour votre flotte ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

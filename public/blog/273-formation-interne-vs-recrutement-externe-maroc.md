@@ -32,7 +32,7 @@ Au-delà du seul coût direct, la formation interne affiche un retour sur invest
 
 ## Ce qu'il faut retenir
 
-La formation interne coûte environ trois fois moins cher que le recrutement externe et améliore la rétention, mais le recrutement externe garde sa pertinence quand l'urgence ou le besoin d'un regard neuf le justifient — l'arbitrage se fait critère par critère, pas par principe général. Notre article sur le [cabinet de recrutement vs recrutement direct](/blog?post=cabinet-de-recrutement-vs-recrutement-direct-quelle-stratgie) complète cette réflexion côté recrutement externe ; notre article sur le [plan de succession pour les postes clés](/blog?post=plan-de-succession-pour-les-postes-cls-supply-chain-anticipe) montre comment la formation interne s'inscrit dans une logique d'anticipation à plus long terme.
+La formation interne coûte environ trois fois moins cher que le recrutement externe et améliore la rétention, mais le recrutement externe garde sa pertinence quand l'urgence ou le besoin d'un regard neuf le justifient — l'arbitrage se fait critère par critère, pas par principe général. Notre article sur le [cabinet de recrutement vs recrutement direct](/blog/cabinet-de-recrutement-vs-recrutement-direct-quelle-stratgie) complète cette réflexion côté recrutement externe ; notre article sur le [plan de succession pour les postes clés](/blog/plan-de-succession-pour-les-postes-cls-supply-chain-anticipe) montre comment la formation interne s'inscrit dans une logique d'anticipation à plus long terme.
 
 Vous voulez évaluer si un besoin de compétence justifie une formation interne ou un recrutement externe ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

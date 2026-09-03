@@ -32,7 +32,7 @@ Avant d'investir dans un dark store dédié, beaucoup d'entreprises gagnent à d
 
 ## Ce qu'il faut retenir
 
-Le dark store permet une livraison urbaine en 15 à 60 minutes, mais ne se justifie économiquement qu'au-delà d'une densité de commandes suffisante pour amortir le coût d'un local dédié en zone dense — un modèle encore émergent sur le marché marocain qui mérite d'être testé avant d'être capitalisé. Notre article sur l'[entrepôt e-commerce au Maroc](/blog?post=entrept-e-commerce-au-maroc-fulfillment-last-mile-et-organis) présente le modèle plus classique auquel comparer cette option ; notre article sur le [last-mile au Maroc](/blog?post=last-mile-au-maroc-rsoudre-le-problme-du-dernier-kilomtre-en) détaille les enjeux de livraison urbaine du dernier kilomètre.
+Le dark store permet une livraison urbaine en 15 à 60 minutes, mais ne se justifie économiquement qu'au-delà d'une densité de commandes suffisante pour amortir le coût d'un local dédié en zone dense — un modèle encore émergent sur le marché marocain qui mérite d'être testé avant d'être capitalisé. Notre article sur l'[entrepôt e-commerce au Maroc](/blog/entrept-e-commerce-au-maroc-fulfillment-last-mile-et-organis) présente le modèle plus classique auquel comparer cette option ; notre article sur le [last-mile au Maroc](/blog/last-mile-au-maroc-rsoudre-le-problme-du-dernier-kilomtre-en) détaille les enjeux de livraison urbaine du dernier kilomètre.
 
 Vous voulez évaluer si la densité de vos commandes justifie un modèle dark store ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

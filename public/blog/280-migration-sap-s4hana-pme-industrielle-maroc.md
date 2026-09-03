@@ -32,7 +32,7 @@ Les migrations SAP dépassent systématiquement les délais initiaux de 20 à 30
 
 ## Ce qu'il faut retenir
 
-La migration S/4HANA devient incontournable avant fin 2027, avec un projet réaliste de 18 à 30 mois pour une PME industrielle — le risque principal n'est pas l'échéance elle-même, mais le coût croissant d'un démarrage tardif face à une demande de conseil déjà saturée. Notre article sur le [coût réel d'un projet ERP logistique](/blog?post=cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite) complète cette analyse budgétaire ; notre article sur le [module SAP MM pour les achats](/blog?post=module-sap-mm-pour-les-achats-ce-quil-faut-savoir-avant-de-s) détaille l'un des modules directement concernés par cette migration.
+La migration S/4HANA devient incontournable avant fin 2027, avec un projet réaliste de 18 à 30 mois pour une PME industrielle — le risque principal n'est pas l'échéance elle-même, mais le coût croissant d'un démarrage tardif face à une demande de conseil déjà saturée. Notre article sur le [coût réel d'un projet ERP logistique](/blog/cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite) complète cette analyse budgétaire ; notre article sur le [module SAP MM pour les achats](/blog/module-sap-mm-pour-les-achats-ce-quil-faut-savoir-avant-de-s) détaille l'un des modules directement concernés par cette migration.
 
 Vous préparez une migration S/4HANA et voulez évaluer votre calendrier réaliste ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

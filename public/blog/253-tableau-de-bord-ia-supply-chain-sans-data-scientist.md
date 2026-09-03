@@ -32,7 +32,7 @@ Le no-code démocratise la création de tableaux de bord, mais ne remplace pas u
 
 ## Ce qu'il faut retenir
 
-Les outils no-code permettent à une PME marocaine de construire des tableaux de bord supply chain sans recruter un profil data rare et coûteux — à condition de partir d'une décision concrète à éclairer plutôt que de vouloir tout afficher d'emblée. Notre article sur les [KPIs supply chain au Maroc](/blog?post=kpis-supply-chain-au-maroc-tableau-de-bord-et-indicateurs-de) détaille quels indicateurs prioriser avant de choisir l'outil ; notre article sur l'[intelligence artificielle et la supply chain au Maroc](/blog?post=intelligence-artificielle-et-supply-chain-ce-qui-change-au-m) situe cette brique dans une adoption plus large de l'IA.
+Les outils no-code permettent à une PME marocaine de construire des tableaux de bord supply chain sans recruter un profil data rare et coûteux — à condition de partir d'une décision concrète à éclairer plutôt que de vouloir tout afficher d'emblée. Notre article sur les [KPIs supply chain au Maroc](/blog/kpis-supply-chain-au-maroc-tableau-de-bord-et-indicateurs-de) détaille quels indicateurs prioriser avant de choisir l'outil ; notre article sur l'[intelligence artificielle et la supply chain au Maroc](/blog/intelligence-artificielle-et-supply-chain-ce-qui-change-au-m) situe cette brique dans une adoption plus large de l'IA.
 
 Vous voulez identifier les trois indicateurs qui méritent votre premier tableau de bord ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

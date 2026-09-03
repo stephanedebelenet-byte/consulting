@@ -32,7 +32,7 @@ Trois pratiques réduisent mesurablement le taux de refus COD : la confirmation 
 
 ## Ce qu'il faut retenir
 
-Le COD reste incontournable pour toucher la masse du marché e-commerce marocain, mais il impose une gestion logistique et financière spécifique — suivi du taux de refus, anticipation du décalage de trésorerie, confirmation de commande systématique — plutôt qu'un pilotage calqué sur un modèle de paiement en ligne. Notre article sur la [supply chain e-commerce au Maroc](/blog?post=supply-chain-e-commerce-au-maroc-les-7-dfis-rsoudre-en-2026) situe le COD parmi les défis structurels du secteur ; notre article sur le [last-mile au Maroc](/blog?post=last-mile-au-maroc-rsoudre-le-problme-du-dernier-kilomtre-en) détaille l'organisation de livraison qui réduit le taux de refus.
+Le COD reste incontournable pour toucher la masse du marché e-commerce marocain, mais il impose une gestion logistique et financière spécifique — suivi du taux de refus, anticipation du décalage de trésorerie, confirmation de commande systématique — plutôt qu'un pilotage calqué sur un modèle de paiement en ligne. Notre article sur la [supply chain e-commerce au Maroc](/blog/supply-chain-e-commerce-au-maroc-les-7-dfis-rsoudre-en-2026) situe le COD parmi les défis structurels du secteur ; notre article sur le [last-mile au Maroc](/blog/last-mile-au-maroc-rsoudre-le-problme-du-dernier-kilomtre-en) détaille l'organisation de livraison qui réduit le taux de refus.
 
 Vous voulez réduire votre taux de refus COD et fiabiliser votre trésorerie ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

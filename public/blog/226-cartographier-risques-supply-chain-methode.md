@@ -40,7 +40,7 @@ Une fois l'incident géré, cette dernière étape restaure les opérations norm
 
 ## Ce qu'il faut retenir
 
-La méthode PPRR structure la gestion des risques de supply chain en quatre étapes cohérentes — prévenir, préparer, répondre, rétablir — qui transforment une cartographie statique en un cycle vivant, réévalué après chaque incident. Pour une PME marocaine, le point de départ le plus simple reste un diagnostic honnête de ses dépendances critiques, avant même de formaliser un plan complet. Notre [audit supply chain au Maroc](/blog?post=audit-supply-chain-au-maroc-diagnostiquer-et-transformer-en-) détaille comment structurer ce diagnostic initial ; notre [auto-diagnostic logistique PME](/blog?post=auto-diagnostic-logistique-pme-au-maroc-20-questions-pour-va) propose un premier niveau d'évaluation en autonomie.
+La méthode PPRR structure la gestion des risques de supply chain en quatre étapes cohérentes — prévenir, préparer, répondre, rétablir — qui transforment une cartographie statique en un cycle vivant, réévalué après chaque incident. Pour une PME marocaine, le point de départ le plus simple reste un diagnostic honnête de ses dépendances critiques, avant même de formaliser un plan complet. Notre [audit supply chain au Maroc](/blog/audit-supply-chain-au-maroc-diagnostiquer-et-transformer-en-) détaille comment structurer ce diagnostic initial ; notre [auto-diagnostic logistique PME](/blog/auto-diagnostic-logistique-pme-au-maroc-20-questions-pour-va) propose un premier niveau d'évaluation en autonomie.
 
 Vous voulez identifier les risques critiques de votre supply chain avant qu'ils ne se matérialisent ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un audit de cartographie des risques.
 

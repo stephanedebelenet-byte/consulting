@@ -32,7 +32,7 @@ Avant d'envisager une rénovation complète, un audit énergétique du site — 
 
 ## Ce qu'il faut retenir
 
-Un entrepôt éco-responsable réduit sa facture énergétique via des leviers accessibles (éclairage naturel, isolation, équipements efficaces, solaire) — et le climat marocain rend le potentiel de l'énergie solaire structurellement supérieur aux références internationales généralement citées. Notre article sur l'[automatisation d'entrepôt au Maroc](/blog?post=automatisation-dentrept-au-maroc-solutions-cots-et-roi-2026) présente les usages de type AutoStore mentionnés dans le potentiel solaire ; notre article sur la [logistique verte au Maroc](/blog?post=logistique-verte-au-maroc-pourquoi-la-transition-reste-frein) situe cette démarche dans une transition environnementale plus large.
+Un entrepôt éco-responsable réduit sa facture énergétique via des leviers accessibles (éclairage naturel, isolation, équipements efficaces, solaire) — et le climat marocain rend le potentiel de l'énergie solaire structurellement supérieur aux références internationales généralement citées. Notre article sur l'[automatisation d'entrepôt au Maroc](/blog/automatisation-dentrept-au-maroc-solutions-cots-et-roi-2026) présente les usages de type AutoStore mentionnés dans le potentiel solaire ; notre article sur la [logistique verte au Maroc](/blog/logistique-verte-au-maroc-pourquoi-la-transition-reste-frein) situe cette démarche dans une transition environnementale plus large.
 
 Vous voulez un audit énergétique de votre entrepôt pour identifier les postes de consommation à corriger en priorité ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

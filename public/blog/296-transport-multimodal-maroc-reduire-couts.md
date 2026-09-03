@@ -32,7 +32,7 @@ Une entreprise qui envisage le multimodal doit d'abord identifier ses flux à pl
 
 ## Ce qu'il faut retenir
 
-Le transport multimodal réduit le coût global (10-25%) et l'exposition à la fois au carburant et à la pénurie de chauffeurs, mais ne se justifie qu'à partir d'un volume et d'une distance suffisants pour absorber le coût de rupture de charge entre modes. Notre article sur la [hausse des prix du carburant et l'adaptation des transporteurs](/blog?post=hausse-des-prix-du-carburant-comment-les-transporteurs-maroc) situe cette réflexion dans le contexte qui rend le sujet urgent ; notre article sur les [zones franches marocaines comparées](/blog?post=zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid) détaille l'écosystème portuaire qui soutient le report modal vers le maritime.
+Le transport multimodal réduit le coût global (10-25%) et l'exposition à la fois au carburant et à la pénurie de chauffeurs, mais ne se justifie qu'à partir d'un volume et d'une distance suffisants pour absorber le coût de rupture de charge entre modes. Notre article sur la [hausse des prix du carburant et l'adaptation des transporteurs](/blog/hausse-des-prix-du-carburant-comment-les-transporteurs-maroc) situe cette réflexion dans le contexte qui rend le sujet urgent ; notre article sur les [zones franches marocaines comparées](/blog/zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid) détaille l'écosystème portuaire qui soutient le report modal vers le maritime.
 
 Vous voulez évaluer si une stratégie multimodale réduirait vos coûts de transport ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

@@ -32,7 +32,7 @@ Pour une PME marocaine sans ressource ESG interne, l'entrée en matière réalis
 
 ## Ce qu'il faut retenir
 
-La CSRD ne s'applique pas directement aux entreprises marocaines, mais elle transforme les attentes de leurs clients européens en exigences concrètes de données ESG — une PME qui documente déjà l'essentiel (énergie, déchets, conditions de travail) transforme une contrainte en avantage commercial face à des concurrents pris au dépourvu. Notre article sur les [achats durables et RSE fournisseurs](/blog?post=achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm) présente la grille d'audit correspondante côté acheteur ; notre article sur le [CBAM (taxe carbone UE)](/blog?post=cbam-taxe-carbone-ue-ce-que-les-exportateurs-marocains-doive) détaille l'autre volet réglementaire européen qui touche les exportateurs marocains.
+La CSRD ne s'applique pas directement aux entreprises marocaines, mais elle transforme les attentes de leurs clients européens en exigences concrètes de données ESG — une PME qui documente déjà l'essentiel (énergie, déchets, conditions de travail) transforme une contrainte en avantage commercial face à des concurrents pris au dépourvu. Notre article sur les [achats durables et RSE fournisseurs](/blog/achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm) présente la grille d'audit correspondante côté acheteur ; notre article sur le [CBAM (taxe carbone UE)](/blog/cbam-taxe-carbone-ue-ce-que-les-exportateurs-marocains-doive) détaille l'autre volet réglementaire européen qui touche les exportateurs marocains.
 
 Vous voulez préparer votre entreprise à répondre aux demandes ESG de vos clients européens ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

@@ -32,7 +32,7 @@ L'entrée en matière la plus réaliste n'est pas un système RH sophistiqué de
 
 ## Ce qu'il faut retenir
 
-Le management de proximité, basé sur un feedback régulier et proche du moment réel, corrige le principal défaut de l'entretien annuel classique — mais sa réussite dépend directement de la formation donnée aux chefs d'équipe pour le mettre en pratique. Notre article sur le [turnover en entrepôt](/blog?post=turnover-en-entrept-comprendre-les-causes-relles-et-les-solu) relie directement ce management de proximité à la rétention du personnel ; notre article sur l'[onboarding des caristes et magasiniers](/blog?post=onboarding-des-caristes-et-magasiniers-rduire-lattrition-ds-) détaille comment démarrer ce feedback régulier dès les premiers jours.
+Le management de proximité, basé sur un feedback régulier et proche du moment réel, corrige le principal défaut de l'entretien annuel classique — mais sa réussite dépend directement de la formation donnée aux chefs d'équipe pour le mettre en pratique. Notre article sur le [turnover en entrepôt](/blog/turnover-en-entrept-comprendre-les-causes-relles-et-les-solu) relie directement ce management de proximité à la rétention du personnel ; notre article sur l'[onboarding des caristes et magasiniers](/blog/onboarding-des-caristes-et-magasiniers-rduire-lattrition-ds-) détaille comment démarrer ce feedback régulier dès les premiers jours.
 
 Vous voulez former vos chefs d'équipe au feedback continu ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

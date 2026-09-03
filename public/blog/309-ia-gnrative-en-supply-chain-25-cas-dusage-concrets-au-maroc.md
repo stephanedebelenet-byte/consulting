@@ -16,7 +16,7 @@ description: "25 cas d'usage concrets de l'IA générative en supply chain, logi
 
 ## Ce que l'IA générative sait faire — et ce qu'elle ne remplace pas
 
-Un modèle de langage (LLM : ChatGPT, Claude, Copilot, Gemini) excelle sur trois familles de tâches : **transformer du texte** (résumer, reformuler, traduire, structurer), **extraire de l'information** d'un document non structuré (facture, contrat, e-mail, appel d'offres), et **générer un premier jet** (note, cahier des charges, plan d'action, courrier). Il ne calcule pas une prévision statistique fiable, ne pilote pas un ordonnancement, et ne remplace pas un [outil de prévision de la demande](/blog?post=choisir-un-logiciel-de-prvision-de-la-demande-les-critres-po) ni un ERP. La règle : l'IA générative accélère le travail de l'analyste, elle ne le supprime pas.
+Un modèle de langage (LLM : ChatGPT, Claude, Copilot, Gemini) excelle sur trois familles de tâches : **transformer du texte** (résumer, reformuler, traduire, structurer), **extraire de l'information** d'un document non structuré (facture, contrat, e-mail, appel d'offres), et **générer un premier jet** (note, cahier des charges, plan d'action, courrier). Il ne calcule pas une prévision statistique fiable, ne pilote pas un ordonnancement, et ne remplace pas un [outil de prévision de la demande](/blog/choisir-un-logiciel-de-prvision-de-la-demande-les-critres-po) ni un ERP. La règle : l'IA générative accélère le travail de l'analyste, elle ne le supprime pas.
 
 ## 25 cas d'usage classés par fonction
 
@@ -35,18 +35,18 @@ Un modèle de langage (LLM : ChatGPT, Claude, Copilot, Gemini) excelle sur trois
 1. **Une prévision chiffrée servant de base à un engagement de stock** — c'est le rôle d'un modèle statistique, pas d'un LLM.
 2. **Une décision d'achat ou de sélection fournisseur automatique** — l'IA prépare, l'humain tranche.
 3. **Le calcul réglementaire douanier ou fiscal** (valeur en douane, TVA, retenue à la source) sans contrôle d'un expert.
-4. **Toute donnée nominative ou confidentielle collée sans cadre** — voir notre article [Loi 09-08 et CNDP](/blog?post=loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo).
+4. **Toute donnée nominative ou confidentielle collée sans cadre** — voir notre article [Loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo).
 5. **Une réponse client engageante** (délai, prix, geste commercial) envoyée sans relecture.
 
 > **Le facteur limitant n'est pas le modèle, c'est la donnée et le cadre.** Une PME marocaine qui n'a ni référentiel articles propre, ni charte d'usage, ni processus de relecture obtiendra des résultats décevants — quel que soit l'outil. L'IA générative récompense les organisations rigoureuses.
 
 ## Par où commencer dans une PME marocaine
 
-Trois étapes, six à huit semaines : (1) choisir deux ou trois cas d'usage de la liste ci-dessus à fort volume et faible risque ; (2) poser une [gouvernance minimale](/blog?post=gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil) — charte, liste des données interdites, relecture obligatoire ; (3) mesurer le temps gagné avant/après. C'est la démarche que nous appliquons en mission, dans le prolongement de l'[IA agentique](/blog?post=ia-agentique-en-supply-chain-la-feuille-de-route-2026-2027-p) et de l'[automatisation du cycle achats](/blog?post=automatisation-des-achats-par-lia-du-bon-de-commande-au-paie).
+Trois étapes, six à huit semaines : (1) choisir deux ou trois cas d'usage de la liste ci-dessus à fort volume et faible risque ; (2) poser une [gouvernance minimale](/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil) — charte, liste des données interdites, relecture obligatoire ; (3) mesurer le temps gagné avant/après. C'est la démarche que nous appliquons en mission, dans le prolongement de l'[IA agentique](/blog/ia-agentique-en-supply-chain-la-feuille-de-route-2026-2027-p) et de l'[automatisation du cycle achats](/blog/automatisation-des-achats-par-lia-du-bon-de-commande-au-paie).
 
 ## Ce qu'il faut retenir
 
-L'IA générative crée de la valeur en supply chain par accumulation de petits gains sur des tâches de texte et d'analyse, pas par un grand projet. Commencez par deux cas d'usage mesurables, encadrez l'usage des données, et gardez l'humain dans la boucle sur toute décision. Pour situer ces usages face au prédictif et à la RPA, lisez [LLM, IA prédictive ou RPA : quel outil pour quel problème](/blog?post=ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
+L'IA générative crée de la valeur en supply chain par accumulation de petits gains sur des tâches de texte et d'analyse, pas par un grand projet. Commencez par deux cas d'usage mesurables, encadrez l'usage des données, et gardez l'humain dans la boucle sur toute décision. Pour situer ces usages face au prédictif et à la RPA, lisez [LLM, IA prédictive ou RPA : quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
 
 Vous voulez identifier les cas d'usage IA à ROI rapide dans votre organisation ? Notre offre [IA & Automatisation Supply Chain](/conseil) cadre les priorités, la gouvernance et un POC mesuré ; la formation [IA Générative pour les Métiers Supply Chain & Achats](/formation) outille vos équipes en une journée. [Contactez-nous](/contact) pour un premier échange.
 

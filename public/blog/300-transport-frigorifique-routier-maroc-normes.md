@@ -32,7 +32,7 @@ Au-delà du prix, un chargeur qui confie un transport sous température dirigée
 
 ## Ce qu'il faut retenir
 
-Le transport frigorifique routier marocain répond à une réglementation précise (arrêté 1196-03) et à des contraintes de coût structurellement supérieures au transport classique — la vigilance sur la conformité et le suivi continu de température, pas seulement le prix, doit guider le choix d'un prestataire. Notre article sur l'[entrepôt frigorifique au Maroc](/blog?post=entrept-frigorifique-au-maroc-concevoir-et-grer-la-logistiqu) complète cet enjeu côté stockage sous température dirigée ; notre article sur la [logistique du secteur de la pêche](/blog?post=logistique-du-secteur-de-la-pche-agadir-dakhla-et-lexport-ha) illustre un secteur particulièrement dépendant de ce type de transport.
+Le transport frigorifique routier marocain répond à une réglementation précise (arrêté 1196-03) et à des contraintes de coût structurellement supérieures au transport classique — la vigilance sur la conformité et le suivi continu de température, pas seulement le prix, doit guider le choix d'un prestataire. Notre article sur l'[entrepôt frigorifique au Maroc](/blog/entrept-frigorifique-au-maroc-concevoir-et-grer-la-logistiqu) complète cet enjeu côté stockage sous température dirigée ; notre article sur la [logistique du secteur de la pêche](/blog/logistique-du-secteur-de-la-pche-agadir-dakhla-et-lexport-ha) illustre un secteur particulièrement dépendant de ce type de transport.
 
 Vous transportez des produits sous température dirigée et voulez sécuriser votre chaîne du froid ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

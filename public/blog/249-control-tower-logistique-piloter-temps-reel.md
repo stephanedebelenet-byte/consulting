@@ -32,7 +32,7 @@ Pour une ETI marocaine, la version réaliste d'un control tower démarre souvent
 
 ## Ce qu'il faut retenir
 
-Un control tower logistique n'a de valeur que combiné à une gouvernance de décision claire — la visibilité seule, sans droit d'action associé, ne change rien à la vitesse de réponse face aux aléas. Notre article sur le [jumeau numérique supply chain](/blog?post=jumeau-numrique-digital-twin-supply-chain-quoi-a-sert-vraime) présente l'outil complémentaire pour simuler des scénarios en amont, avant que le control tower ne les pilote en temps réel ; notre article sur le [conseil logistique pour une PME/ETI marocaine](/blog?post=conseil-logistique-au-maroc-ce-qui-diffrencie-une-mission-pm) détaille ce qui change quand la complexité multi-sites impose ce type d'outil.
+Un control tower logistique n'a de valeur que combiné à une gouvernance de décision claire — la visibilité seule, sans droit d'action associé, ne change rien à la vitesse de réponse face aux aléas. Notre article sur le [jumeau numérique supply chain](/blog/jumeau-numrique-digital-twin-supply-chain-quoi-a-sert-vraime) présente l'outil complémentaire pour simuler des scénarios en amont, avant que le control tower ne les pilote en temps réel ; notre article sur le [conseil logistique pour une PME/ETI marocaine](/blog/conseil-logistique-au-maroc-ce-qui-diffrencie-une-mission-pm) détaille ce qui change quand la complexité multi-sites impose ce type d'outil.
 
 Vous pilotez un réseau logistique multi-sites et voulez évaluer votre besoin en visibilité temps réel ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

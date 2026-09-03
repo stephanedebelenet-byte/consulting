@@ -176,7 +176,7 @@ export default function FormationVille({ ville }: { ville: VilleFormation }) {
             </div>
             <p style={{ marginTop: '2.5rem', fontFamily: 'Jost, sans-serif', fontSize: '0.95rem', lineHeight: 1.9, color: 'rgba(235,232,225,0.55)', fontWeight: 300 }}>
               À lire :{' '}
-              <Link to={`/blog?post=${ville.blog.post}`} style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>{ville.blog.label}</Link>.
+              <Link to={`/blog/${ville.blog.post}`} style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>{ville.blog.label}</Link>.
               {' '}Autres villes :{' '}
               {autresVilles.map((v, i) => (
                 <span key={v.slug}>

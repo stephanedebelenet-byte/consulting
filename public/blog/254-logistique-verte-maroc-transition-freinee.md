@@ -32,7 +32,7 @@ Sans attendre une flotte 100% électrique, trois leviers sont accessibles imméd
 
 ## Ce qu'il faut retenir
 
-La transition vers une logistique verte au Maroc reste freinée par le coût et l'infrastructure de recharge, mais elle progresse concrètement — et l'optimisation des flux reste le levier le plus accessible en attendant que le marché des véhicules propres mûrisse. Notre article sur l'[optimisation du réseau logistique au Maroc](/blog?post=optimisation-du-rseau-logistique-au-maroc-stratgie-multi-sit) détaille comment réduire les trajets à vide par une meilleure conception du réseau ; notre article sur le [benchmark des coûts logistiques au Maroc](/blog?post=benchmark-cots-logistiques-au-maroc-2026-ratios-normes-et-co) situe le poste transport dans la structure de coût globale.
+La transition vers une logistique verte au Maroc reste freinée par le coût et l'infrastructure de recharge, mais elle progresse concrètement — et l'optimisation des flux reste le levier le plus accessible en attendant que le marché des véhicules propres mûrisse. Notre article sur l'[optimisation du réseau logistique au Maroc](/blog/optimisation-du-rseau-logistique-au-maroc-stratgie-multi-sit) détaille comment réduire les trajets à vide par une meilleure conception du réseau ; notre article sur le [benchmark des coûts logistiques au Maroc](/blog/benchmark-cots-logistiques-au-maroc-2026-ratios-normes-et-co) situe le poste transport dans la structure de coût globale.
 
 Vous voulez évaluer les leviers de logistique verte accessibles à votre flotte actuelle ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

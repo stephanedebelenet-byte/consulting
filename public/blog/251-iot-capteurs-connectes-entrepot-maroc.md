@@ -32,7 +32,7 @@ Pour une PME marocaine, l'entrée en matière n'est pas un déploiement complet 
 
 ## Ce qu'il faut retenir
 
-L'IoT en entrepôt n'apporte de valeur que combiné à un processus clair de réaction à l'alerte générée — la technologie seule, sans personne responsable d'agir sur la donnée, ne change rien à la performance opérationnelle. Notre article sur l'[automatisation d'entrepôt au Maroc](/blog?post=automatisation-dentrept-au-maroc-solutions-cots-et-roi-2026) situe l'IoT dans une feuille de route d'investissement plus large ; notre article sur l'[entrepôt frigorifique au Maroc](/blog?post=entrept-frigorifique-au-maroc-concevoir-et-grer-la-logistiqu) détaille l'un des cas d'usage les plus critiques pour le suivi de température par capteurs.
+L'IoT en entrepôt n'apporte de valeur que combiné à un processus clair de réaction à l'alerte générée — la technologie seule, sans personne responsable d'agir sur la donnée, ne change rien à la performance opérationnelle. Notre article sur l'[automatisation d'entrepôt au Maroc](/blog/automatisation-dentrept-au-maroc-solutions-cots-et-roi-2026) situe l'IoT dans une feuille de route d'investissement plus large ; notre article sur l'[entrepôt frigorifique au Maroc](/blog/entrept-frigorifique-au-maroc-concevoir-et-grer-la-logistiqu) détaille l'un des cas d'usage les plus critiques pour le suivi de température par capteurs.
 
 Vous voulez identifier l'équipement où un pilote IoT aurait le plus d'impact dans votre entrepôt ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

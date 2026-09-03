@@ -32,7 +32,7 @@ Une entreprise qui externalise son transport n'est pas seulement spectatrice de 
 
 ## Ce qu'il faut retenir
 
-La pénurie de chauffeurs routiers au Maroc touche un secteur qui porte plus de 85% des flux logistiques intérieurs — la réponse durable passe par l'amélioration des conditions de travail et la structuration du secteur, pas seulement par une hausse salariale isolée. Notre article sur la [nouvelle loi sur la livraison de colis au Maroc](/blog?post=nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que-) situe cette tension dans le cadre réglementaire plus large qui touche le secteur transport ; notre article sur la [grille salariale logistique et supply chain Maroc 2026](/blog?post=grille-salariale-logistique-et-supply-chain-maroc-2026-bench) donne des repères de rémunération pour les postes de conduite.
+La pénurie de chauffeurs routiers au Maroc touche un secteur qui porte plus de 85% des flux logistiques intérieurs — la réponse durable passe par l'amélioration des conditions de travail et la structuration du secteur, pas seulement par une hausse salariale isolée. Notre article sur la [nouvelle loi sur la livraison de colis au Maroc](/blog/nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que-) situe cette tension dans le cadre réglementaire plus large qui touche le secteur transport ; notre article sur la [grille salariale logistique et supply chain Maroc 2026](/blog/grille-salariale-logistique-et-supply-chain-maroc-2026-bench) donne des repères de rémunération pour les postes de conduite.
 
 Vous voulez structurer votre relation transporteur pour sécuriser votre capacité de transport ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

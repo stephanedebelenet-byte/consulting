@@ -32,7 +32,7 @@ La fragmentation de la propriété minière (nombreux opérateurs de taille moye
 
 ## Ce qu'il faut retenir
 
-Le secteur minier marocain hors phosphate représente un volume d'export significatif (1,7 million de tonnes/an) mais reste structurellement plus fragmenté que l'OCP, ce qui complexifie sa logistique et crée un besoin réel de mutualisation entre opérateurs. Notre article sur l'[hydrogène vert et l'ammoniac, la nouvelle chaîne logistique de l'OCP](/blog?post=hydrogne-vert-et-ammoniac-la-nouvelle-chane-logistique-que-l) offre un contraste avec le modèle intégré du leader phosphatier ; notre article sur la [logistique industrielle au Maroc](/blog?post=logistique-industrielle-au-maroc-organisation-flux-et-perfor) situe cette filière minière dans une organisation industrielle plus large.
+Le secteur minier marocain hors phosphate représente un volume d'export significatif (1,7 million de tonnes/an) mais reste structurellement plus fragmenté que l'OCP, ce qui complexifie sa logistique et crée un besoin réel de mutualisation entre opérateurs. Notre article sur l'[hydrogène vert et l'ammoniac, la nouvelle chaîne logistique de l'OCP](/blog/hydrogne-vert-et-ammoniac-la-nouvelle-chane-logistique-que-l) offre un contraste avec le modèle intégré du leader phosphatier ; notre article sur la [logistique industrielle au Maroc](/blog/logistique-industrielle-au-maroc-organisation-flux-et-perfor) situe cette filière minière dans une organisation industrielle plus large.
 
 Vous opérez dans le secteur minier marocain et voulez structurer votre logistique d'évacuation ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

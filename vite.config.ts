@@ -1,10 +1,79 @@
 import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs'
 import { resolve, join } from 'node:path'
 import { getPrerenderRoutes, type PrerenderRoute } from './src/data/routeMeta'
 
 const SITE = 'https://nextinotech.com'
+
+/* ── Articles de blog : scan des .md + génération d'un HTML statique par article ── */
+
+function blogSlug(title: string): string {
+  return title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').substring(0, 60)
+}
+
+function parseFrontmatter(md: string): Record<string, string> {
+  const fm: Record<string, string> = {}
+  const src = md.replace(/^﻿/, '')
+  if (!src.startsWith('---')) return fm
+  const end = src.indexOf('\n---', 3)
+  if (end < 0) return fm
+  for (const line of src.slice(3, end).split('\n')) {
+    const i = line.indexOf(':')
+    if (i < 0) continue
+    const k = line.slice(0, i).trim()
+    const v = line.slice(i + 1).trim().replace(/^["']|["']$/g, '')
+    if (k) fm[k] = v
+  }
+  return fm
+}
+
+export function getBlogRoutes(): PrerenderRoute[] {
+  const dir = resolve('public/blog')
+  const out: PrerenderRoute[] = []
+  for (const file of readdirSync(dir)) {
+    if (!file.endsWith('.md') || file.startsWith('_')) continue
+    const fm = parseFrontmatter(readFileSync(join(dir, file), 'utf-8'))
+    if (!fm.title) continue
+    const slug = blogSlug(fm.title)
+    const url = `${SITE}/blog/${slug}`
+    const image = fm.image ? (fm.image.startsWith('http') ? fm.image : SITE + fm.image) : `${SITE}/logo-full.png`
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Article',
+          '@id': `${url}#article`,
+          headline: fm.title,
+          description: fm.description || '',
+          datePublished: fm.date || undefined,
+          dateModified: fm.date || undefined,
+          author: { '@type': 'Organization', name: fm.author || 'Nextinotech', '@id': `${SITE}/#organization` },
+          publisher: { '@id': `${SITE}/#organization` },
+          image,
+          inLanguage: 'fr',
+          mainEntityOfPage: url,
+        },
+        {
+          '@type': 'BreadcrumbList',
+          '@id': `${url}#breadcrumb`,
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${SITE}/` },
+            { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog` },
+            { '@type': 'ListItem', position: 3, name: fm.title, item: url },
+          ],
+        },
+      ],
+    }
+    out.push({
+      path: `/blog/${slug}`,
+      title: fm.title.length <= 52 ? `${fm.title} | Nextinotech` : fm.title,
+      description: fm.description || fm.title,
+      jsonLd: [jsonLd],
+    })
+  }
+  return out
+}
 
 function escapeHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
@@ -70,7 +139,8 @@ function prerenderHeads(): Plugin {
         return
       }
       let count = 0
-      for (const route of getPrerenderRoutes()) {
+      const routes = [...getPrerenderRoutes(), ...getBlogRoutes()]
+      for (const route of routes) {
         try {
           const html = renderRoute(shell, route)
           const rel = route.path.replace(/^\//, '').replace(/\/$/, '')

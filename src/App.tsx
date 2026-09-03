@@ -67,6 +67,7 @@ function AnimatedRoutes() {
         <Route path="/formation/:programme" element={<PageTransition><FormationProgrammePage /></PageTransition>} />
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
+        <Route path="/blog/:slug" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />
         <Route path="/confidentialite" element={<PageTransition><ConfidentialitePage /></PageTransition>} />
         <Route path="/outils/dimensionnement-entrepot" element={<PageTransition><DimensionnementEntrepotPage /></PageTransition>} />

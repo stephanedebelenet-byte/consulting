@@ -26,7 +26,7 @@ description: "Budget, délais et pièges d'un projet IA supply chain dans une PM
 
 ## Les postes de coût qu'on oublie
 
-- **La donnée.** Nettoyer un référentiel articles, fiabiliser un historique, structurer des nomenclatures : c'est souvent 30 à 50 % de la charge d'un projet prédictif, et c'est rarement chiffré au départ. Voir [pourquoi les projets IA échouent avant de commencer](/blog?post=gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil).
+- **La donnée.** Nettoyer un référentiel articles, fiabiliser un historique, structurer des nomenclatures : c'est souvent 30 à 50 % de la charge d'un projet prédictif, et c'est rarement chiffré au départ. Voir [pourquoi les projets IA échouent avant de commencer](/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil).
 - **L'intégration.** Connecter un outil IA à un ERP, à un WMS ou à l'EDI coûte plus que l'outil lui-même dans la moitié des cas.
 - **La conduite du changement.** Un dispositif que personne n'utilise a un ROI négatif. Prévoir formation, accompagnement, temps d'adoption.
 - **La maintenance.** Prompts à maintenir, modèles à réentraîner, exceptions à traiter : 15 à 25 % du coût initial par an.
@@ -39,11 +39,11 @@ Retour = (gain brut annuel − coût total annuel) / coût total. Le **gain brut
 
 ## Le piège du POC permanent
 
-Beaucoup d'entreprises accumulent les preuves de concept sans jamais industrialiser. Un POC doit avoir, dès le départ, un critère de réussite chiffré et une décision go/no-go datée. Sans quoi il devient une dépense récurrente sans effet sur le compte de résultat. C'est le même travers que sur les [projets ERP](/blog?post=cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite).
+Beaucoup d'entreprises accumulent les preuves de concept sans jamais industrialiser. Un POC doit avoir, dès le départ, un critère de réussite chiffré et une décision go/no-go datée. Sans quoi il devient une dépense récurrente sans effet sur le compte de résultat. C'est le même travers que sur les [projets ERP](/blog/cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite).
 
 ## Ce qu'il faut retenir
 
-Trois niveaux de coût, de quelques centaines de dirhams par mois à plusieurs centaines de milliers. Les postes cachés — donnée, intégration, adoption, maintenance — décident du résultat. Commencez par un cas d'usage jugé en six semaines. Pour choisir la bonne technologie, lisez [LLM, IA prédictive ou RPA](/blog?post=ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel) ; pour la liste des usages rapides, [25 cas d'usage concrets](/blog?post=ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc).
+Trois niveaux de coût, de quelques centaines de dirhams par mois à plusieurs centaines de milliers. Les postes cachés — donnée, intégration, adoption, maintenance — décident du résultat. Commencez par un cas d'usage jugé en six semaines. Pour choisir la bonne technologie, lisez [LLM, IA prédictive ou RPA](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel) ; pour la liste des usages rapides, [25 cas d'usage concrets](/blog/ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc).
 
 Nous cadrons le besoin, la donnée et le business case avant tout achat, sans commission éditeur : offres [IA & Automatisation Supply Chain](/conseil) et [Étude de Faisabilité SI](/conseil). [Contactez-nous](/contact) pour un premier échange, ou formez vos équipes via la formation [IA Générative pour les Métiers Supply Chain & Achats](/formation).
 

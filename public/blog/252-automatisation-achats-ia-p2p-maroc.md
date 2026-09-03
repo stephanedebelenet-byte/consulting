@@ -32,7 +32,7 @@ L'entrée en matière la plus rentable n'est généralement pas l'automatisation
 
 ## Ce qu'il faut retenir
 
-L'automatisation P2P enrichie d'IA libère du temps sur les tâches répétitives du cycle achats, mais sa réussite dépend d'abord de la qualité des données fournisseurs et des processus en amont — pas de la sophistication de l'outil choisi. Notre article sur l'[e-sourcing au Maroc](/blog?post=e-sourcing-les-plateformes-qui-digitalisent-les-achats-au-ma) complète cette automatisation en amont du cycle, au moment du sourcing ; notre article sur le [category management achats](/blog?post=category-management-achats-structurer-ses-catgories-pour-plu) aide à prioriser quelles catégories automatiser en premier.
+L'automatisation P2P enrichie d'IA libère du temps sur les tâches répétitives du cycle achats, mais sa réussite dépend d'abord de la qualité des données fournisseurs et des processus en amont — pas de la sophistication de l'outil choisi. Notre article sur l'[e-sourcing au Maroc](/blog/e-sourcing-les-plateformes-qui-digitalisent-les-achats-au-ma) complète cette automatisation en amont du cycle, au moment du sourcing ; notre article sur le [category management achats](/blog/category-management-achats-structurer-ses-catgories-pour-plu) aide à prioriser quelles catégories automatiser en premier.
 
 Vous voulez identifier la première étape de votre cycle achats à automatiser ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

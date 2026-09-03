@@ -16,7 +16,7 @@ description: "Avant d'acheter un outil IA : la charte d'usage, le registre des c
 
 ## 1. La charte d'usage
 
-Un document court, opérationnel, qui répond à : quels outils sont autorisés ? Quelles données ne doivent jamais être saisies (nominatives, prix, volumes, contrats, secrets industriels) — voir [Loi 09-08 et CNDP](/blog?post=loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo) ? Quelles décisions exigent une relecture humaine ? Qui contacter en cas de doute ? Une page, signée à la prise de poste.
+Un document court, opérationnel, qui répond à : quels outils sont autorisés ? Quelles données ne doivent jamais être saisies (nominatives, prix, volumes, contrats, secrets industriels) — voir [Loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo) ? Quelles décisions exigent une relecture humaine ? Qui contacter en cas de doute ? Une page, signée à la prise de poste.
 
 ## 2. Le registre des cas d'usage
 
@@ -26,7 +26,7 @@ Une liste tenue à jour : pour chaque usage IA, l'objectif, les données mobilis
 
 ## 3. Le comité IA
 
-Pas une instance lourde : trois à cinq personnes (métier, IT, direction, éventuellement juridique) qui se réunissent périodiquement pour valider les nouveaux cas d'usage, arbitrer les risques, et décider des go/no-go. C'est aussi là que se traite la [conduite du changement](/blog?post=change-management-dans-un-projet-wms-ou-erp-pourquoi-les-pro), sans laquelle les outils restent inutilisés.
+Pas une instance lourde : trois à cinq personnes (métier, IT, direction, éventuellement juridique) qui se réunissent périodiquement pour valider les nouveaux cas d'usage, arbitrer les risques, et décider des go/no-go. C'est aussi là que se traite la [conduite du changement](/blog/change-management-dans-un-projet-wms-ou-erp-pourquoi-les-pro), sans laquelle les outils restent inutilisés.
 
 ## 4. La préparation des données (data readiness)
 
@@ -44,7 +44,7 @@ C'est le vrai facteur d'échec. Avant tout projet prédictif, vérifier :
 
 ## Ce que la gouvernance débloque
 
-Contre-intuitivement, ce cadre accélère : les équipes savent ce qu'elles peuvent faire sans demander, les cas d'usage à risque sont identifiés tôt, et les budgets vont aux projets dont la donnée est prête. C'est l'inverse du frein. Pour la vue d'ensemble des usages, voir [25 cas d'usage IA](/blog?post=ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc) ; pour le chiffrage, [coût d'un projet IA](/blog?post=cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
+Contre-intuitivement, ce cadre accélère : les équipes savent ce qu'elles peuvent faire sans demander, les cas d'usage à risque sont identifiés tôt, et les budgets vont aux projets dont la donnée est prête. C'est l'inverse du frein. Pour la vue d'ensemble des usages, voir [25 cas d'usage IA](/blog/ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc) ; pour le chiffrage, [coût d'un projet IA](/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 

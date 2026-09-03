@@ -32,7 +32,7 @@ L'audit le plus rentable à mener en premier porte sur les références à plus 
 
 ## Ce qu'il faut retenir
 
-L'emballage durable réduit directement le coût de transport via le poids volumétrique, avec un retour sur investissement quasi immédiat dès les premiers envois — l'audit des références à plus fort volume est le point de départ le plus rentable. Notre article sur le [benchmark des coûts logistiques au Maroc](/blog?post=benchmark-cots-logistiques-au-maroc-2026-ratios-normes-et-co) situe le poste transport et emballage dans la structure de coût globale ; notre article sur la [logistique verte au Maroc](/blog?post=logistique-verte-au-maroc-pourquoi-la-transition-reste-frein) présente les autres leviers de réduction d'empreinte environnementale accessibles dès aujourd'hui.
+L'emballage durable réduit directement le coût de transport via le poids volumétrique, avec un retour sur investissement quasi immédiat dès les premiers envois — l'audit des références à plus fort volume est le point de départ le plus rentable. Notre article sur le [benchmark des coûts logistiques au Maroc](/blog/benchmark-cots-logistiques-au-maroc-2026-ratios-normes-et-co) situe le poste transport et emballage dans la structure de coût globale ; notre article sur la [logistique verte au Maroc](/blog/logistique-verte-au-maroc-pourquoi-la-transition-reste-frein) présente les autres leviers de réduction d'empreinte environnementale accessibles dès aujourd'hui.
 
 Vous voulez auditer le poids volumétrique de vos emballages les plus expédiés ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

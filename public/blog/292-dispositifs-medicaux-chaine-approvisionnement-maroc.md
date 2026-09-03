@@ -32,7 +32,7 @@ La concentration de la fabrication locale sur les produits à faible valeur ajou
 
 ## Ce qu'il faut retenir
 
-La chaîne d'approvisionnement des dispositifs médicaux marocains reste très dépendante de l'importation, particulièrement sur les segments à forte valeur ajoutée (imagerie, orthopédie) — une distribution qui suit une réglementation propre, distincte du circuit du médicament classique. Notre article sur la [logistique santé au Maroc et la chaîne du froid](/blog?post=logistique-sant-au-maroc-ce-que-la-task-force-vaccination-a-) complète cet enjeu côté produits pharmaceutiques et vaccins ; notre article sur la [logistique industrielle au Maroc](/blog?post=logistique-industrielle-au-maroc-organisation-flux-et-perfor) situe cette chaîne d'approvisionnement spécialisée dans une organisation industrielle plus large.
+La chaîne d'approvisionnement des dispositifs médicaux marocains reste très dépendante de l'importation, particulièrement sur les segments à forte valeur ajoutée (imagerie, orthopédie) — une distribution qui suit une réglementation propre, distincte du circuit du médicament classique. Notre article sur la [logistique santé au Maroc et la chaîne du froid](/blog/logistique-sant-au-maroc-ce-que-la-task-force-vaccination-a-) complète cet enjeu côté produits pharmaceutiques et vaccins ; notre article sur la [logistique industrielle au Maroc](/blog/logistique-industrielle-au-maroc-organisation-flux-et-perfor) situe cette chaîne d'approvisionnement spécialisée dans une organisation industrielle plus large.
 
 Vous importez ou distribuez des dispositifs médicaux et voulez sécuriser votre chaîne d'approvisionnement ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

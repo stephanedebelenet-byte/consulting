@@ -32,7 +32,7 @@ Le choix d'une autoroute de la mer suppose d'accepter un délai de transit gén�
 
 ## Ce qu'il faut retenir
 
-L'autoroute de la mer entre le Maroc et l'Europe, portée par la forte fréquence des liaisons depuis Tanger Med, offre une alternative crédible au tout-routier — particulièrement pertinente à mesure que les coûts routiers européens augmentent, pour des flux qui peuvent accepter un délai de transit plus long. Notre article sur le [transport multimodal au Maroc](/blog?post=transport-multimodal-au-maroc-rail-route-mer-quelle-combinai) situe cette option maritime dans une stratégie de report modal plus large ; notre article sur les [zones franches marocaines comparées](/blog?post=zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid) détaille l'écosystème portuaire de Tanger Med qui rend cette option possible.
+L'autoroute de la mer entre le Maroc et l'Europe, portée par la forte fréquence des liaisons depuis Tanger Med, offre une alternative crédible au tout-routier — particulièrement pertinente à mesure que les coûts routiers européens augmentent, pour des flux qui peuvent accepter un délai de transit plus long. Notre article sur le [transport multimodal au Maroc](/blog/transport-multimodal-au-maroc-rail-route-mer-quelle-combinai) situe cette option maritime dans une stratégie de report modal plus large ; notre article sur les [zones franches marocaines comparées](/blog/zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid) détaille l'écosystème portuaire de Tanger Med qui rend cette option possible.
 
 Vous exportez régulièrement vers l'Europe et voulez évaluer une alternative maritime au tout-routier ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

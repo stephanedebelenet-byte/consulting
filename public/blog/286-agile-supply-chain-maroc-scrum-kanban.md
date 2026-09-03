@@ -32,7 +32,7 @@ L'agilité n'est pas une solution universelle : un processus supply chain fortem
 
 ## Ce qu'il faut retenir
 
-Les méthodes agiles (Scrum, Kanban) ont des racines industrielles avant d'être digitales, et leur combinaison — Scrum pour les projets planifiables, Kanban pour le flux continu — correspond souvent mieux à la réalité d'un service supply chain que l'application stricte d'une seule méthode. Notre article sur la [méthode de transformation supply chain en 5 phases](/blog?post=piloter-un-projet-de-transformation-supply-chain-la-mthode-e) situe l'agilité comme un complément possible à un pilotage de projet plus structuré ; notre article sur le [cartographie des risques supply chain](/blog?post=cartographier-les-risques-de-sa-supply-chain-la-mthode-en-4-) offre une méthode complémentaire pour les processus qui nécessitent davantage de rigueur.
+Les méthodes agiles (Scrum, Kanban) ont des racines industrielles avant d'être digitales, et leur combinaison — Scrum pour les projets planifiables, Kanban pour le flux continu — correspond souvent mieux à la réalité d'un service supply chain que l'application stricte d'une seule méthode. Notre article sur la [méthode de transformation supply chain en 5 phases](/blog/piloter-un-projet-de-transformation-supply-chain-la-mthode-e) situe l'agilité comme un complément possible à un pilotage de projet plus structuré ; notre article sur le [cartographie des risques supply chain](/blog/cartographier-les-risques-de-sa-supply-chain-la-mthode-en-4-) offre une méthode complémentaire pour les processus qui nécessitent davantage de rigueur.
 
 Vous voulez introduire une discipline agile dans votre équipe supply chain ou achats ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 

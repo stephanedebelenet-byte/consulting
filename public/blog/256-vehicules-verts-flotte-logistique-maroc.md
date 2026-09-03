@@ -32,7 +32,7 @@ Plutôt qu'un remplacement complet, l'approche la plus réaliste consiste à con
 
 ## Ce qu'il faut retenir
 
-Le choix entre électrique et hybride pour une flotte logistique marocaine dépend du profil réel de chaque tournée, pas d'une préférence technologique générale — une flotte mixte adaptée à l'usage bat généralement une conversion uniforme. Notre article sur la [logistique verte au Maroc](/blog?post=logistique-verte-au-maroc-pourquoi-la-transition-reste-frein) situe ce choix de flotte dans une démarche de transition plus large ; notre article sur le [bilan carbone transport](/blog?post=bilan-carbone-transport-calculer-et-rduire-ses-missions-scop) permet de mesurer l'impact réel du choix de flotte sur les émissions.
+Le choix entre électrique et hybride pour une flotte logistique marocaine dépend du profil réel de chaque tournée, pas d'une préférence technologique générale — une flotte mixte adaptée à l'usage bat généralement une conversion uniforme. Notre article sur la [logistique verte au Maroc](/blog/logistique-verte-au-maroc-pourquoi-la-transition-reste-frein) situe ce choix de flotte dans une démarche de transition plus large ; notre article sur le [bilan carbone transport](/blog/bilan-carbone-transport-calculer-et-rduire-ses-missions-scop) permet de mesurer l'impact réel du choix de flotte sur les émissions.
 
 Vous voulez évaluer le profil de vos tournées pour identifier où l'électrique ou l'hybride serait rentable ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

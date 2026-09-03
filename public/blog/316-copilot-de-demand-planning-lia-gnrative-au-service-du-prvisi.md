@@ -12,7 +12,7 @@ description: "L'IA générative n'améliore pas le calcul de prévision — elle
 
 ![Graphiques de prévision de la demande et de planification](/images/charts.jpg)
 
-**Il faut lever une confusion fréquente : l'IA générative n'améliore pas la précision d'une prévision de la demande. Le calcul du forecast relève des modèles statistiques et du [machine learning prédictif](/blog?post=ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-). Ce que l'IA générative change, c'est le quotidien du prévisionniste : les 60 % de son temps qu'il passe non pas à modéliser, mais à expliquer, documenter, réconcilier et préparer des réunions.** Le « copilot de demand planning » n'est pas un moteur de prévision — c'est un assistant qui absorbe le travail de commentaire et de coordination autour du chiffre.
+**Il faut lever une confusion fréquente : l'IA générative n'améliore pas la précision d'une prévision de la demande. Le calcul du forecast relève des modèles statistiques et du [machine learning prédictif](/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-). Ce que l'IA générative change, c'est le quotidien du prévisionniste : les 60 % de son temps qu'il passe non pas à modéliser, mais à expliquer, documenter, réconcilier et préparer des réunions.** Le « copilot de demand planning » n'est pas un moteur de prévision — c'est un assistant qui absorbe le travail de commentaire et de coordination autour du chiffre.
 
 ## Ce qu'un copilot fait pour le prévisionniste
 
@@ -39,7 +39,7 @@ Il ne remplace pas le modèle, ne valide pas seul un chiffre, et ne doit pas « 
 
 ## Mise en place
 
-Commencez par connecter l'assistant à vos exports de prévision et de réalisé, définissez le format de la fiche d'hypothèses, et cadrez ce qui ne doit jamais sortir de l'entreprise — voir [Loi 09-08 et CNDP](/blog?post=loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo). Pour situer ce copilot dans l'outillage global, voir [LLM, IA prédictive ou RPA](/blog?post=ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel) et notre article sur le [S&OP au Maroc](/blog?post=sop-au-maroc-comment-aligner-ventes-et-oprations-pour-gagner).
+Commencez par connecter l'assistant à vos exports de prévision et de réalisé, définissez le format de la fiche d'hypothèses, et cadrez ce qui ne doit jamais sortir de l'entreprise — voir [Loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo). Pour situer ce copilot dans l'outillage global, voir [LLM, IA prédictive ou RPA](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel) et notre article sur le [S&OP au Maroc](/blog/sop-au-maroc-comment-aligner-ventes-et-oprations-pour-gagner).
 
 ## Ce qu'il faut retenir
 

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useParams, useNavigate } from 'react-router-dom'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
 import SchemaScript from './SchemaHelper'
 
@@ -14,6 +14,8 @@ export default function Blog() {
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null)
   const [loading, setLoading] = useState(true)
   const [searchParams, setSearchParams] = useSearchParams()
+  const params = useParams<{ slug?: string }>()
+  const navigate = useNavigate()
 
   useEffect(() => {
     const loadPosts = async () => {
@@ -349,13 +351,13 @@ export default function Blog() {
     loadPosts()
   }, [])
 
-  // Deep-link : /blog?post=<slug> ouvre directement l'article visé (utilisé par l'insight éditorial de l'accueil)
+  // Deep-link : /blog/<slug> (canonique) ou /blog?post=<slug> (rétro-compat) ouvre l'article visé
   useEffect(() => {
-    const slug = searchParams.get('post')
+    const slug = params.slug || searchParams.get('post')
     if (!slug || posts.length === 0) return
     const match = posts.find((p) => p.slug === slug)
     if (match) setSelectedPost(match)
-  }, [posts, searchParams])
+  }, [posts, params.slug, searchParams])
 
   return (
     <>
@@ -553,7 +555,8 @@ export default function Blog() {
           post={selectedPost}
           onClose={() => {
             setSelectedPost(null)
-            if (searchParams.get('post')) setSearchParams({}, { replace: true })
+            if (params.slug) navigate('/blog', { replace: true })
+            else if (searchParams.get('post')) setSearchParams({}, { replace: true })
           }}
         />
       )}

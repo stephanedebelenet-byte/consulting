@@ -36,7 +36,7 @@ Un périmètre mal défini au départ, qui génère des avenants en cours de pro
 
 ## Ce qu'il faut retenir
 
-Un projet ERP pour une PME marocaine coûte typiquement entre 150 000 et 500 000 MAD tout compris, avec un levier de subvention MOWAKABA pouvant couvrir jusqu'à 80-90% du montant selon la taille de l'entreprise. Les dépassements budgétaires viennent presque toujours de l'intégration et de la conduite du changement, pas du prix du logiciel. Notre comparatif [SAP vs Odoo vs Dynamics 365](/blog?post=sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du) détaille les différences fonctionnelles entre solutions ; notre article sur la [digitalisation supply chain pour PME](/blog?post=conseil-digitalisation-supply-chain-wms-tms-erp-pour-pme) pose les fondations avant tout projet ERP.
+Un projet ERP pour une PME marocaine coûte typiquement entre 150 000 et 500 000 MAD tout compris, avec un levier de subvention MOWAKABA pouvant couvrir jusqu'à 80-90% du montant selon la taille de l'entreprise. Les dépassements budgétaires viennent presque toujours de l'intégration et de la conduite du changement, pas du prix du logiciel. Notre comparatif [SAP vs Odoo vs Dynamics 365](/blog/sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du) détaille les différences fonctionnelles entre solutions ; notre article sur la [digitalisation supply chain pour PME](/blog/conseil-digitalisation-supply-chain-wms-tms-erp-pour-pme) pose les fondations avant tout projet ERP.
 
 Vous préparez un projet ERP et voulez sécuriser votre budget et votre calendrier ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un accompagnement à la définition de votre cahier des charges.
 

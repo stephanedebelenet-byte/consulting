@@ -32,7 +32,7 @@ Toutes les références ne justifient pas un buffer stock local : un produit à 
 
 ## Ce qu'il faut retenir
 
-Le buffer stock local devient une nécessité compétitive pour les marques e-commerce marocaines qui veulent tenir une promesse de livraison rapide, mais ne se justifie économiquement que sur les références à forte rotation — pas sur l'ensemble du catalogue. Notre article sur la [nouvelle loi sur la livraison de colis au Maroc](/blog?post=nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que-) situe cette tendance dans le cadre réglementaire 2026 ; notre article sur l'[entrepôt e-commerce au Maroc](/blog?post=entrept-e-commerce-au-maroc-fulfillment-last-mile-et-organis) détaille comment organiser physiquement ce stock local.
+Le buffer stock local devient une nécessité compétitive pour les marques e-commerce marocaines qui veulent tenir une promesse de livraison rapide, mais ne se justifie économiquement que sur les références à forte rotation — pas sur l'ensemble du catalogue. Notre article sur la [nouvelle loi sur la livraison de colis au Maroc](/blog/nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que-) situe cette tendance dans le cadre réglementaire 2026 ; notre article sur l'[entrepôt e-commerce au Maroc](/blog/entrept-e-commerce-au-maroc-fulfillment-last-mile-et-organis) détaille comment organiser physiquement ce stock local.
 
 Vous voulez déterminer quelles références justifient un buffer stock local ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

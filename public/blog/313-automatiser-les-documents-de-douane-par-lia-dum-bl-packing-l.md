@@ -26,7 +26,7 @@ description: "Extraire et contrôler les documents de dédouanement avec l'IA �
 
 ## Ce qui reste à l'humain — et à PORTNET / BADR
 
-L'IA ne se substitue ni au système d'information douanier (BADR), ni au guichet unique [PORTNET](/blog?post=guide-portnet-et-badr-2026-matriser-les-plateformes-douanire), ni au jugement du déclarant. Le calcul de la valeur en douane, le choix définitif de l'espèce tarifaire, l'application des accords de libre-échange, la gestion d'un contentieux : ces actes engagent la responsabilité de l'entreprise et de son représentant en douane. L'IA prépare le dossier ; elle ne le signe pas.
+L'IA ne se substitue ni au système d'information douanier (BADR), ni au guichet unique [PORTNET](/blog/guide-portnet-et-badr-2026-matriser-les-plateformes-douanire), ni au jugement du déclarant. Le calcul de la valeur en douane, le choix définitif de l'espèce tarifaire, l'application des accords de libre-échange, la gestion d'un contentieux : ces actes engagent la responsabilité de l'entreprise et de son représentant en douane. L'IA prépare le dossier ; elle ne le signe pas.
 
 > **Le gain n'est pas dans le dédouanement lui-même, il est en amont.** L'entreprise qui présente un dossier déjà cohérent, sans écart entre documents, réduit sa probabilité de passage en circuit rouge et fluidifie ses enlèvements. L'automatisation documentaire est un investissement de conformité autant que de productivité.
 
@@ -37,10 +37,10 @@ Pour les entreprises sous Admission Temporaire ou Entrepôt Industriel Franc —
 ## Mettre en place : trois étapes
 
 1. **Cartographier** les documents entrants par flux et par régime, et les champs à recouper.
-2. **Outiller l'extraction** (solution OCR+LLM du marché ou brique intégrée au logiciel de transit), en anonymisant ce qui doit l'être — voir [Loi 09-08 et CNDP](/blog?post=loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo).
+2. **Outiller l'extraction** (solution OCR+LLM du marché ou brique intégrée au logiciel de transit), en anonymisant ce qui doit l'être — voir [Loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo).
 3. **Poser les contrôles de cohérence** en règle métier et définir qui traite les alertes.
 
-Pour choisir la brique technologique, notre article [LLM, IA prédictive ou RPA](/blog?post=ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel) situe l'extraction documentaire dans le paysage des outils.
+Pour choisir la brique technologique, notre article [LLM, IA prédictive ou RPA](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel) situe l'extraction documentaire dans le paysage des outils.
 
 ## Ce qu'il faut retenir
 

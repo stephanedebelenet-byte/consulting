@@ -32,7 +32,7 @@ Beaucoup de projets ERP ou WMS budgétisent la licence, l'implémentation techni
 
 ## Ce qu'il faut retenir
 
-L'échec d'un projet ERP ou WMS se joue rarement sur la qualité du logiciel — il se joue sur l'implication des utilisateurs, la qualité de la formation et l'accompagnement dans la durée après le déploiement. Notre article sur le [coût réel d'un projet ERP logistique](/blog?post=cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite) détaille comment budgétiser correctement ce poste de conduite du changement ; notre article sur la [méthode de transformation supply chain en 5 phases](/blog?post=piloter-un-projet-de-transformation-supply-chain-la-mthode-e) situe la phase d'ancrage comme le prolongement direct de cette conduite du changement.
+L'échec d'un projet ERP ou WMS se joue rarement sur la qualité du logiciel — il se joue sur l'implication des utilisateurs, la qualité de la formation et l'accompagnement dans la durée après le déploiement. Notre article sur le [coût réel d'un projet ERP logistique](/blog/cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite) détaille comment budgétiser correctement ce poste de conduite du changement ; notre article sur la [méthode de transformation supply chain en 5 phases](/blog/piloter-un-projet-de-transformation-supply-chain-la-mthode-e) situe la phase d'ancrage comme le prolongement direct de cette conduite du changement.
 
 Vous préparez un déploiement ERP ou WMS et voulez sécuriser son adoption réelle ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 

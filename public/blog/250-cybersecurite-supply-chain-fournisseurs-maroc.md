@@ -32,7 +32,7 @@ Une PME marocaine sous-traitante d'un donneur d'ordre international (automobile,
 
 ## Ce qu'il faut retenir
 
-La cybersécurité de la supply chain se joue autant chez les fournisseurs que dans l'entreprise elle-même — un point d'entrée mal protégé chez un prestataire suffit à compromettre une organisation par ailleurs bien défendue. Notre article sur la [cartographie des risques de sa supply chain](/blog?post=cartographier-les-risques-de-sa-supply-chain-la-mthode-en-4-) propose une méthode qui inclut ce risque numérique parmi les risques fournisseurs à surveiller ; notre article sur la [digitalisation de la supply chain au Maroc](/blog?post=digitalisation-de-la-supply-chain-au-maroc-iot-ia-et-outils-) situe cet enjeu dans une feuille de route de transformation numérique plus large.
+La cybersécurité de la supply chain se joue autant chez les fournisseurs que dans l'entreprise elle-même — un point d'entrée mal protégé chez un prestataire suffit à compromettre une organisation par ailleurs bien défendue. Notre article sur la [cartographie des risques de sa supply chain](/blog/cartographier-les-risques-de-sa-supply-chain-la-mthode-en-4-) propose une méthode qui inclut ce risque numérique parmi les risques fournisseurs à surveiller ; notre article sur la [digitalisation de la supply chain au Maroc](/blog/digitalisation-de-la-supply-chain-au-maroc-iot-ia-et-outils-) situe cet enjeu dans une feuille de route de transformation numérique plus large.
 
 Vous voulez cartographier vos accès numériques fournisseurs et évaluer votre exposition au risque tiers ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

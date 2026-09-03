@@ -32,7 +32,7 @@ Impliquer les futurs utilisateurs (planificateurs, responsables achats) dès le 
 
 ## Ce qu'il faut retenir
 
-Le choix d'un logiciel de prévision de la demande se fait d'abord sur la qualité mesurable des prévisions obtenues (MAPE) sur les propres données de l'entreprise et sur la facilité d'intégration avec les systèmes existants — pas sur la sophistication affichée de l'intelligence artificielle embarquée. Notre article sur l'[IA prédictive et la prévision de la demande](/blog?post=ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-) détaille l'impact concret d'une prévision plus précise sur le niveau de stock de sécurité ; notre article sur le [tableau de bord IA supply chain sans data scientist](/blog?post=construire-son-premier-tableau-de-bord-ia-supply-chain-sans-) complète cette réflexion côté pilotage des indicateurs.
+Le choix d'un logiciel de prévision de la demande se fait d'abord sur la qualité mesurable des prévisions obtenues (MAPE) sur les propres données de l'entreprise et sur la facilité d'intégration avec les systèmes existants — pas sur la sophistication affichée de l'intelligence artificielle embarquée. Notre article sur l'[IA prédictive et la prévision de la demande](/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-) détaille l'impact concret d'une prévision plus précise sur le niveau de stock de sécurité ; notre article sur le [tableau de bord IA supply chain sans data scientist](/blog/construire-son-premier-tableau-de-bord-ia-supply-chain-sans-) complète cette réflexion côté pilotage des indicateurs.
 
 Vous voulez évaluer votre MAPE actuel avant de choisir un outil de prévision ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

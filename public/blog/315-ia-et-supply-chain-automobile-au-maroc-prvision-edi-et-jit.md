@@ -20,17 +20,17 @@ Les appels de livraison des constructeurs arrivent en EDI (messages type DELFOR/
 
 ## 2. Prévision cadencée et anticipation des à-coups
 
-Sur la partie non ferme de l'horizon, un [modèle prédictif](/blog?post=ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-) apprend des révisions passées du client pour estimer la fiabilité de son prévisionnel par référence — et donc dimensionner les stocks de sécurité au plus juste sans risquer l'arrêt de ligne. C'est le cœur de la [complexité du juste-à-temps chez Renault Tanger](/blog?post=supply-chain-automobile-au-maroc-la-complexit-du-juste--temp).
+Sur la partie non ferme de l'horizon, un [modèle prédictif](/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-) apprend des révisions passées du client pour estimer la fiabilité de son prévisionnel par référence — et donc dimensionner les stocks de sécurité au plus juste sans risquer l'arrêt de ligne. C'est le cœur de la [complexité du juste-à-temps chez Renault Tanger](/blog/supply-chain-automobile-au-maroc-la-complexit-du-juste--temp).
 
 ::stat:: ~250 sites — l'écosystème équipementier marocain, où chaque référence critique se pilote au message EDI près
 
 ## 3. Conformité douanière sous Admission Temporaire
 
-La quasi-totalité des équipementiers exportateurs opèrent sous régime suspensif. L'écart entre stock douane et stock physique est un risque de redressement permanent. Le [rapprochement documentaire assisté par IA](/blog?post=automatiser-les-documents-de-douane-par-lia-dum-bl-packing-l) aide à détecter les écarts d'apurement tôt — le sujet restant organisationnel avant d'être technologique.
+La quasi-totalité des équipementiers exportateurs opèrent sous régime suspensif. L'écart entre stock douane et stock physique est un risque de redressement permanent. Le [rapprochement documentaire assisté par IA](/blog/automatiser-les-documents-de-douane-par-lia-dum-bl-packing-l) aide à détecter les écarts d'apurement tôt — le sujet restant organisationnel avant d'être technologique.
 
 ## 4. SRM et montée en cadence
 
-Générer les revues de performance fournisseur de rang 2, suivre les plans de progrès, préparer les points de crise composant : autant de tâches de synthèse que l'IA accélère. Le fond — la relation, l'arbitrage, l'audit — reste le métier décrit dans notre article [SRM équipementiers Tier 1](/blog?post=srm-maroc-grer-ses-fournisseurs-comme-un-actif-stratgique).
+Générer les revues de performance fournisseur de rang 2, suivre les plans de progrès, préparer les points de crise composant : autant de tâches de synthèse que l'IA accélère. Le fond — la relation, l'arbitrage, l'audit — reste le métier décrit dans notre article [SRM équipementiers Tier 1](/blog/srm-maroc-grer-ses-fournisseurs-comme-un-actif-stratgique).
 
 | Cas d'usage | Outil | Gain visé |
 |-------------|-------|-----------|
@@ -43,7 +43,7 @@ Générer les revues de performance fournisseur de rang 2, suivre les plans de p
 
 ## Ce qu'il faut retenir
 
-Dans l'automobile marocaine, l'IA se concentre sur la lecture des flux EDI, la fiabilisation du prévisionnel client, la conformité douanière et les revues fournisseurs. L'effort porte d'abord sur la donnée et l'organisation. Pour le cadre méthodologique, voir [25 cas d'usage IA](/blog?post=ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc) et [quel outil pour quel problème](/blog?post=ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
+Dans l'automobile marocaine, l'IA se concentre sur la lecture des flux EDI, la fiabilisation du prévisionnel client, la conformité douanière et les revues fournisseurs. L'effort porte d'abord sur la donnée et l'organisation. Pour le cadre méthodologique, voir [25 cas d'usage IA](/blog/ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc) et [quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
 
 Vous êtes équipementier et voulez structurer votre pilotage supply chain ? [Découvrez nos services de conseil](/conseil) ou la [Direction Supply Chain à temps partagé](/direction-supply-chain-temps-partage). [Contactez-nous](/contact) ou formez vos équipes via notre [catalogue](/formation).
 

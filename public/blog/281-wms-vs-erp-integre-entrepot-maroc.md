@@ -32,7 +32,7 @@ Avant de choisir, une entreprise doit mesurer objectivement trois éléments : l
 
 ## Ce qu'il faut retenir
 
-Le choix entre WMS dédié et module ERP intégré se décide par le volume et la complexité réelle de l'entrepôt, pas par principe ni par budget disponible — l'approche hybride (ERP + WMS connectés) reste souvent le meilleur compromis pour une entreprise en croissance. Notre article sur le [déploiement WMS au Maroc](/blog?post=dploiement-wms-au-maroc-mthode-dlais-et-facteurs-de-succs-20) détaille la mise en œuvre concrète d'un WMS dédié ; notre article sur l'[interopérabilité ERP-WMS-TMS](/blog?post=interoprabilit-erp-wms-tms-connecter-ses-systmes-sans-tout-c) explique comment connecter ces systèmes sans tout casser une fois le choix fait.
+Le choix entre WMS dédié et module ERP intégré se décide par le volume et la complexité réelle de l'entrepôt, pas par principe ni par budget disponible — l'approche hybride (ERP + WMS connectés) reste souvent le meilleur compromis pour une entreprise en croissance. Notre article sur le [déploiement WMS au Maroc](/blog/dploiement-wms-au-maroc-mthode-dlais-et-facteurs-de-succs-20) détaille la mise en œuvre concrète d'un WMS dédié ; notre article sur l'[interopérabilité ERP-WMS-TMS](/blog/interoprabilit-erp-wms-tms-connecter-ses-systmes-sans-tout-c) explique comment connecter ces systèmes sans tout casser une fois le choix fait.
 
 Vous voulez évaluer si votre entrepôt justifie un WMS dédié ou un module ERP suffit ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

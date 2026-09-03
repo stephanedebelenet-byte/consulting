@@ -32,7 +32,7 @@ Trois actions réduisent le taux de retour à la source, avant même d'optimiser
 
 ## Ce qu'il faut retenir
 
-Le coût réel d'un retour e-commerce dépasse largement le transport — dépréciation produit, traitement entrepôt et risque de fraude s'additionnent, un coût que les marchands marocains sous-estiment souvent faute de données locales publiées sur le sujet. Notre article sur la [logistique inverse au Maroc](/blog?post=logistique-inverse-au-maroc-grer-les-retours-sans-perdre-de-) détaille l'organisation opérationnelle du traitement des retours une fois qu'ils arrivent ; notre article sur la [supply chain e-commerce au Maroc](/blog?post=supply-chain-e-commerce-au-maroc-les-7-dfis-rsoudre-en-2026) situe ce coût parmi les défis structurels du secteur.
+Le coût réel d'un retour e-commerce dépasse largement le transport — dépréciation produit, traitement entrepôt et risque de fraude s'additionnent, un coût que les marchands marocains sous-estiment souvent faute de données locales publiées sur le sujet. Notre article sur la [logistique inverse au Maroc](/blog/logistique-inverse-au-maroc-grer-les-retours-sans-perdre-de-) détaille l'organisation opérationnelle du traitement des retours une fois qu'ils arrivent ; notre article sur la [supply chain e-commerce au Maroc](/blog/supply-chain-e-commerce-au-maroc-les-7-dfis-rsoudre-en-2026) situe ce coût parmi les défis structurels du secteur.
 
 Vous voulez évaluer le coût réel de vos retours et les leviers pour les réduire à la source ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

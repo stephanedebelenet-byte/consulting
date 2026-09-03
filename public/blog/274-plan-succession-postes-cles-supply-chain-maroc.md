@@ -32,7 +32,7 @@ Un plan de succession complet, avec plateforme dédiée et processus formalisé,
 
 ## Ce qu'il faut retenir
 
-Un plan de succession, même simplifié, sur les quelques postes supply chain les plus critiques réduit le risque de rupture de continuité et améliore mesurablement la performance organisationnelle — l'anticipation continue bat systématiquement la réaction à une démission déjà annoncée. Notre article sur la [formation interne vs recrutement externe](/blog?post=formation-interne-vs-recrutement-externe-arbitrer-la-monte-e) détaille comment préparer concrètement un successeur identifié ; notre article sur le [développement de carrière en supply chain, achats et logistique](/blog?post=dvelopper-sa-carrire-en-supply-chain-achats-et-logistique) situe cette anticipation du côté du collaborateur qui se prépare à évoluer.
+Un plan de succession, même simplifié, sur les quelques postes supply chain les plus critiques réduit le risque de rupture de continuité et améliore mesurablement la performance organisationnelle — l'anticipation continue bat systématiquement la réaction à une démission déjà annoncée. Notre article sur la [formation interne vs recrutement externe](/blog/formation-interne-vs-recrutement-externe-arbitrer-la-monte-e) détaille comment préparer concrètement un successeur identifié ; notre article sur le [développement de carrière en supply chain, achats et logistique](/blog/dvelopper-sa-carrire-en-supply-chain-achats-et-logistique) situe cette anticipation du côté du collaborateur qui se prépare à évoluer.
 
 Vous voulez identifier vos postes supply chain les plus critiques et préparer leur succession ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

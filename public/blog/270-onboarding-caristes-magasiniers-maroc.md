@@ -32,7 +32,7 @@ Un taux de turnover élevé à 90 jours doit systématiquement être interprét�
 
 ## Ce qu'il faut retenir
 
-L'essentiel de l'attrition en entrepôt se joue dans les 45 à 90 premiers jours — un accompagnement structuré sur cette période, avec un référent identifié et des points de suivi formalisés, réduit directement le coût de recrutement répété. Notre article sur le [turnover en entrepôt](/blog?post=turnover-en-entrept-comprendre-les-causes-relles-et-les-solu) situe cette intégration dans une stratégie de rétention plus large ; notre article sur le [management de proximité en entrepôt](/blog?post=management-de-proximit-en-entrept-pourquoi-le-feedback-annue) détaille comment prolonger cet accompagnement au-delà des 90 premiers jours.
+L'essentiel de l'attrition en entrepôt se joue dans les 45 à 90 premiers jours — un accompagnement structuré sur cette période, avec un référent identifié et des points de suivi formalisés, réduit directement le coût de recrutement répété. Notre article sur le [turnover en entrepôt](/blog/turnover-en-entrept-comprendre-les-causes-relles-et-les-solu) situe cette intégration dans une stratégie de rétention plus large ; notre article sur le [management de proximité en entrepôt](/blog/management-de-proximit-en-entrept-pourquoi-le-feedback-annue) détaille comment prolonger cet accompagnement au-delà des 90 premiers jours.
 
 Vous voulez structurer un parcours d'intégration pour vos équipes d'entrepôt ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

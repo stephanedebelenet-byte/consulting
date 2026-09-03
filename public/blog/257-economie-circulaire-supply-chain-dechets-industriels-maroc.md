@@ -32,7 +32,7 @@ Avant d'envisager une réintégration complexe, l'étape la plus rentable pour u
 
 ## Ce qu'il faut retenir
 
-L'économie circulaire industrielle au Maroc bute moins sur la technique que sur la classification réglementaire des sous-produits comme déchets — mais des filières concrètes (VHU, déchets BTP, PET) montrent que la valorisation est possible dès aujourd'hui pour qui structure sa démarche filière par filière. Notre article sur la [supply chain durable au Maroc](/blog?post=supply-chain-durable-au-maroc-concilier-performance-et-rse-e) situe cette réintégration dans une démarche RSE plus large ; notre article sur les [achats durables et RSE fournisseurs](/blog?post=achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm) complète cet enjeu côté amont de la chaîne d'approvisionnement.
+L'économie circulaire industrielle au Maroc bute moins sur la technique que sur la classification réglementaire des sous-produits comme déchets — mais des filières concrètes (VHU, déchets BTP, PET) montrent que la valorisation est possible dès aujourd'hui pour qui structure sa démarche filière par filière. Notre article sur la [supply chain durable au Maroc](/blog/supply-chain-durable-au-maroc-concilier-performance-et-rse-e) situe cette réintégration dans une démarche RSE plus large ; notre article sur les [achats durables et RSE fournisseurs](/blog/achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm) complète cet enjeu côté amont de la chaîne d'approvisionnement.
 
 Vous voulez cartographier le potentiel de valorisation de vos déchets et sous-produits industriels ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 

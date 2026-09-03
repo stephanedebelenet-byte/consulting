@@ -32,7 +32,7 @@ La différence entre un projet qui suit ces 5 phases et un projet improvisé n'e
 
 ## Ce qu'il faut retenir
 
-Une méthode structurée en 5 phases (diagnostic, conception, pilote, déploiement, ancrage) réduit significativement le risque d'échec d'un projet de transformation supply chain — l'ancrage, souvent négligé, détermine si le changement survit dans la durée. Notre article sur le [change management dans un projet WMS ou ERP](/blog?post=change-management-dans-un-projet-wms-ou-erp-pourquoi-les-pro) détaille les causes d'échec les plus fréquentes à chaque étape ; notre article sur la [gouvernance de projet logistique multi-sites](/blog?post=gouvernance-de-projet-logistique-multi-sites-coordonner-sans) complète cette méthode pour un déploiement sur plusieurs sites.
+Une méthode structurée en 5 phases (diagnostic, conception, pilote, déploiement, ancrage) réduit significativement le risque d'échec d'un projet de transformation supply chain — l'ancrage, souvent négligé, détermine si le changement survit dans la durée. Notre article sur le [change management dans un projet WMS ou ERP](/blog/change-management-dans-un-projet-wms-ou-erp-pourquoi-les-pro) détaille les causes d'échec les plus fréquentes à chaque étape ; notre article sur la [gouvernance de projet logistique multi-sites](/blog/gouvernance-de-projet-logistique-multi-sites-coordonner-sans) complète cette méthode pour un déploiement sur plusieurs sites.
 
 Vous pilotez un projet de transformation supply chain et voulez structurer votre approche ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 

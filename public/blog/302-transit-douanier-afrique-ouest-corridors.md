@@ -32,7 +32,7 @@ Avant de planifier un flux régulier sur un corridor donné, une entreprise a in
 
 ## Ce qu'il faut retenir
 
-Le choix d'un corridor de transit en Afrique de l'Ouest doit se faire sur la prévisibilité du passage douanier autant que sur la qualité de l'infrastructure routière — la digitalisation progresse (SIGMAT, programme Abidjan-Lagos) mais reste inégale d'un corridor à l'autre. Notre article sur le [corridor Maroc-Afrique de l'Ouest](/blog?post=corridor-maroc-afrique-de-louest-comment-les-entreprises-mar) situe cette réflexion douanière dans la stratégie d'export des entreprises marocaines ; notre article sur les [3PL et 4PL en Afrique francophone](/blog?post=3pl-et-4pl-en-afrique-francophone-qui-sont-les-acteurs-et-co) aide à identifier les prestataires capables de sécuriser ce transit.
+Le choix d'un corridor de transit en Afrique de l'Ouest doit se faire sur la prévisibilité du passage douanier autant que sur la qualité de l'infrastructure routière — la digitalisation progresse (SIGMAT, programme Abidjan-Lagos) mais reste inégale d'un corridor à l'autre. Notre article sur le [corridor Maroc-Afrique de l'Ouest](/blog/corridor-maroc-afrique-de-louest-comment-les-entreprises-mar) situe cette réflexion douanière dans la stratégie d'export des entreprises marocaines ; notre article sur les [3PL et 4PL en Afrique francophone](/blog/3pl-et-4pl-en-afrique-francophone-qui-sont-les-acteurs-et-co) aide à identifier les prestataires capables de sécuriser ce transit.
 
 Vous exportez régulièrement vers l'Afrique de l'Ouest et voulez sécuriser vos délais de transit douanier ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 

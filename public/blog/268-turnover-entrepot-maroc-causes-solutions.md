@@ -32,7 +32,7 @@ Un taux de turnover global masque souvent une réalité plus contrastée : un tu
 
 ## Ce qu'il faut retenir
 
-Le turnover en entrepôt se joue majoritairement dans les premiers mois d'un collaborateur, et se traite par un management de proximité structuré et un parcours d'évolution visible — pas seulement par une amélioration salariale. Notre article sur l'[onboarding des caristes et magasiniers](/blog?post=onboarding-des-caristes-et-magasiniers-rduire-lattrition-ds-) détaille comment structurer les 90 premiers jours pour réduire le départ précoce ; notre article sur la [marque employeur logistique](/blog?post=marque-employeur-logistique-pourquoi-les-entrepts-marocains-) situe ce sujet dans une stratégie d'attractivité plus large.
+Le turnover en entrepôt se joue majoritairement dans les premiers mois d'un collaborateur, et se traite par un management de proximité structuré et un parcours d'évolution visible — pas seulement par une amélioration salariale. Notre article sur l'[onboarding des caristes et magasiniers](/blog/onboarding-des-caristes-et-magasiniers-rduire-lattrition-ds-) détaille comment structurer les 90 premiers jours pour réduire le départ précoce ; notre article sur la [marque employeur logistique](/blog/marque-employeur-logistique-pourquoi-les-entrepts-marocains-) situe ce sujet dans une stratégie d'attractivité plus large.
 
 Vous voulez diagnostiquer les causes réelles du turnover dans votre entrepôt ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
