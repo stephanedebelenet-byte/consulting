@@ -3,13 +3,14 @@
  * Déployé par Vercel sur https://nextinotech.com/api/whatsapp
  *
  * GET  → vérification du webhook (Meta).
- * POST → message entrant : réponse via Claude, historique dans Upstash Redis,
+ * POST → message entrant : réponse via Gemini, historique dans Upstash Redis,
  *        escalade vers le propriétaire si [ESCALADE] ou pièce jointe.
  *
  * Variables d'environnement (Vercel → Settings → Environment Variables) :
  *   WHATSAPP_VERIFY_TOKEN, WHATSAPP_TOKEN, WHATSAPP_PHONE_NUMBER_ID,
- *   ANTHROPIC_API_KEY, UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN,
- *   OWNER_WHATSAPP, AGENT_MODEL (optionnel).
+ *   GEMINI_API_KEY, UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN,
+ *   OWNER_WHATSAPP, AGENT_MODEL (optionnel, défaut : gemini-2.5-flash).
+ *   Clé gratuite : https://aistudio.google.com/apikey
  *
  * ⚙️  Discours de l'agent = SYSTEM_PROMPT + GREETING ci-dessous (seul endroit à éditer).
  */
@@ -52,7 +53,7 @@ const GREETING =
   'Vous occupez déjà un poste en logistique ou vous préparez une évolution ?'
 
 const GRAPH = 'https://graph.facebook.com/v21.0'
-const MODEL = process.env.AGENT_MODEL || 'claude-haiku-4-5-20251001'
+const MODEL = process.env.AGENT_MODEL || 'gemini-2.5-flash'
 const HISTORY_TTL = 60 * 60 * 24 * 7 // 7 jours
 const MAX_TURNS = 20
 
@@ -92,28 +93,42 @@ async function firstSeen(msgId) {
   return res === 'OK'
 }
 
-/* ── Claude ────────────────────────────────────────────────────────── */
-async function askClaude(history) {
+/* ── Gemini (Google AI Studio — palier gratuit) ───────────────────── */
+const FALLBACK_REPLY =
+  'Merci ! Un conseiller vous répond très vite. Tous les détails ici : https://nextinotech.com/formation-rl/'
+
+async function askGemini(history) {
   try {
-    const r = await fetch('https://api.anthropic.com/v1/messages', {
+    const contents = history.map((m) => ({
+      role: m.role === 'assistant' ? 'model' : 'user',
+      parts: [{ text: m.content }],
+    }))
+    const url =
+      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent` +
+      `?key=${process.env.GEMINI_API_KEY || ''}`
+    const r = await fetch(url, {
       method: 'POST',
-      headers: {
-        'x-api-key': process.env.ANTHROPIC_API_KEY || '',
-        'anthropic-version': '2023-06-01',
-        'content-type': 'application/json',
-      },
-      body: JSON.stringify({ model: MODEL, max_tokens: 400, system: SYSTEM_PROMPT, messages: history }),
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
+        contents,
+        generationConfig: { maxOutputTokens: 400, temperature: 0.6 },
+      }),
     })
     if (!r.ok) {
-      console.error('Claude error', r.status, await r.text())
-      return 'Merci ! Un conseiller vous répond très vite. Tous les détails ici : https://nextinotech.com/formation-rl/'
+      console.error('Gemini error', r.status, await r.text())
+      return FALLBACK_REPLY
     }
     const j = await r.json()
-    const txt = (j.content || []).map((c) => c.text || '').join('').trim()
+    const parts =
+      j.candidates && j.candidates[0] && j.candidates[0].content
+        ? j.candidates[0].content.parts || []
+        : []
+    const txt = parts.map((p) => p.text || '').join('').trim()
     return txt || 'Un conseiller revient vers vous rapidement 🙏'
   } catch (e) {
-    console.error('askClaude error', e)
-    return 'Merci ! Un conseiller vous répond très vite. Tous les détails ici : https://nextinotech.com/formation-rl/'
+    console.error('askGemini error', e)
+    return FALLBACK_REPLY
   }
 }
 
@@ -194,7 +209,7 @@ export default async function handler(req, res) {
     }
 
     history.push({ role: 'user', content: text })
-    let reply = await askClaude(history)
+    let reply = await askGemini(history)
 
     const escalate = reply.indexOf('[ESCALADE]') !== -1
     reply = reply.replace(/\[ESCALADE\]/g, '').trim()

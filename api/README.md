@@ -16,10 +16,10 @@ Le discours de l'agent s'édite dans les constantes en haut de `api/whatsapp.js`
 1. Créer un compte sur https://upstash.com → **Create Database** (type *Redis*, région Europe).
 2. Copier `UPSTASH_REDIS_REST_URL` et `UPSTASH_REDIS_REST_TOKEN` (onglet *REST API*).
 
-### 2. Clé Anthropic
+### 2. Clé Google AI Studio (gratuit)
 
-https://console.anthropic.com → **API Keys** → *Create Key* → `ANTHROPIC_API_KEY`.
-Ajouter ~5 $ de crédit (usage réel : ~1–15 $/mois selon le volume de leads).
+https://aistudio.google.com/apikey → **Create API key** → `GEMINI_API_KEY`.
+Palier gratuit : ~1500 requêtes/jour, sans carte bancaire — largement suffisant.
 
 ### 3. WhatsApp Cloud API (Meta)
 
