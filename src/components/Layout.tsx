@@ -11,6 +11,7 @@ import BackToTop from './BackToTop'
 import MobileTabBar from './MobileTabBar'
 import CookieBanner from './CookieBanner'
 import FormationStickyBar from './FormationStickyBar'
+import WhatsAppFab from './WhatsAppFab'
 import { MobileMenuProvider } from '../contexts/MobileMenuContext'
 
 function ScrollToTop() {
@@ -62,6 +63,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <MobileTabBar />
         <FormationStickyBar />
         <CookieBanner />
+        <WhatsAppFab />
       </div>
     </MobileMenuProvider>
   )
