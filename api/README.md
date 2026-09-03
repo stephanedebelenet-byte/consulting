@@ -5,7 +5,7 @@
 garde le fil de discussion dans Upstash Redis, et prévient le propriétaire quand un
 lead veut être rappelé ou envoie une preuve de paiement.
 
-Le discours de l'agent s'édite dans **`api/_agent-prompt.ts`** — rien d'autre à toucher.
+Le discours de l'agent s'édite dans les constantes en haut de `api/whatsapp.ts`.
 
 ---
 
