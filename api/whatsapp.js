@@ -1,22 +1,17 @@
 /**
  * Webhook WhatsApp Cloud API — agent commercial pour les leads publicités Facebook/Instagram.
+ * Déployé par Vercel sur https://nextinotech.com/api/whatsapp
  *
- * GET  /api/whatsapp  → vérification du webhook (Meta).
- * POST /api/whatsapp  → message entrant : on répond via Claude, on garde l'historique
- *                       dans Upstash Redis, on escalade vers le propriétaire si besoin.
+ * GET  → vérification du webhook (Meta).
+ * POST → message entrant : réponse via Claude, historique dans Upstash Redis,
+ *        escalade vers le propriétaire si [ESCALADE] ou pièce jointe.
  *
- * Variables d'environnement requises (Vercel → Settings → Environment Variables) :
- *   WHATSAPP_VERIFY_TOKEN      chaîne libre, identique à celle saisie côté Meta
- *   WHATSAPP_TOKEN            token d'accès permanent (Meta)
- *   WHATSAPP_PHONE_NUMBER_ID  identifiant du numéro (Meta)
- *   ANTHROPIC_API_KEY        clé API Anthropic
- *   UPSTASH_REDIS_REST_URL   Upstash (base Redis gratuite)
- *   UPSTASH_REDIS_REST_TOKEN Upstash
- *   OWNER_WHATSAPP           numéro du propriétaire pour les alertes (ex. 212663449200)
- *   AGENT_MODEL              (optionnel) id du modèle Claude, défaut : claude-haiku-4-5-20251001
+ * Variables d'environnement (Vercel → Settings → Environment Variables) :
+ *   WHATSAPP_VERIFY_TOKEN, WHATSAPP_TOKEN, WHATSAPP_PHONE_NUMBER_ID,
+ *   ANTHROPIC_API_KEY, UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN,
+ *   OWNER_WHATSAPP, AGENT_MODEL (optionnel).
  *
- * ⚙️  Le discours de l'agent = les deux constantes ci-dessous (SYSTEM_PROMPT, GREETING).
- *     C'est le seul endroit à éditer pour ajuster le ton ou les arguments.
+ * ⚙️  Discours de l'agent = SYSTEM_PROMPT + GREETING ci-dessous (seul endroit à éditer).
  */
 
 const SYSTEM_PROMPT = `Tu es l'assistant commercial WhatsApp de Nextinotech, cabinet marocain de conseil et de formation en Supply Chain. Tu réponds à des personnes qui viennent de cliquer une publicité Facebook/Instagram pour la formation « Devenir Responsable Logistique ».
@@ -56,121 +51,122 @@ const GREETING =
   'Je peux vous donner toutes les infos (programme, dates, tarif, financement). ' +
   'Vous occupez déjà un poste en logistique ou vous préparez une évolution ?'
 
-type Msg = { role: 'user' | 'assistant'; content: string }
-
 const GRAPH = 'https://graph.facebook.com/v21.0'
 const MODEL = process.env.AGENT_MODEL || 'claude-haiku-4-5-20251001'
 const HISTORY_TTL = 60 * 60 * 24 * 7 // 7 jours
 const MAX_TURNS = 20
 
 /* ── Upstash Redis (REST, sans dépendance) ─────────────────────────── */
-async function redis(cmd: (string | number)[]): Promise<unknown> {
+async function redis(cmd) {
   const url = process.env.UPSTASH_REDIS_REST_URL
   const token = process.env.UPSTASH_REDIS_REST_TOKEN
   if (!url || !token) return null
-  const r = await fetch(url, {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify(cmd),
-  })
-  const j = (await r.json()) as { result?: unknown }
-  return j.result ?? null
+  try {
+    const r = await fetch(url, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify(cmd),
+    })
+    const j = await r.json()
+    return j && j.result != null ? j.result : null
+  } catch (e) {
+    console.error('redis error', e)
+    return null
+  }
 }
 
-async function getHistory(phone: string): Promise<Msg[]> {
-  const raw = (await redis(['GET', `wa:hist:${phone}`])) as string | null
+async function getHistory(phone) {
+  const raw = await redis(['GET', `wa:hist:${phone}`])
   if (!raw) return []
   try {
-    return JSON.parse(raw) as Msg[]
+    return JSON.parse(raw)
   } catch {
     return []
   }
 }
-async function saveHistory(phone: string, history: Msg[]) {
-  const trimmed = history.slice(-MAX_TURNS)
-  await redis(['SET', `wa:hist:${phone}`, JSON.stringify(trimmed), 'EX', HISTORY_TTL])
+async function saveHistory(phone, history) {
+  await redis(['SET', `wa:hist:${phone}`, JSON.stringify(history.slice(-MAX_TURNS)), 'EX', HISTORY_TTL])
 }
-/** true si ce message n'a jamais été traité (dédup des retries Meta). */
-async function firstSeen(msgId: string): Promise<boolean> {
+async function firstSeen(msgId) {
   const res = await redis(['SET', `wa:seen:${msgId}`, '1', 'NX', 'EX', 600])
   return res === 'OK'
 }
 
 /* ── Claude ────────────────────────────────────────────────────────── */
-async function askClaude(history: Msg[]): Promise<string> {
-  const r = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'x-api-key': process.env.ANTHROPIC_API_KEY || '',
-      'anthropic-version': '2023-06-01',
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 400,
-      system: SYSTEM_PROMPT,
-      messages: history,
-    }),
-  })
-  if (!r.ok) {
-    console.error('Claude error', r.status, await r.text())
-    return "Merci ! Un conseiller vous répond très vite. Vous pouvez aussi voir tous les détails ici : https://nextinotech.com/formation-rl/"
+async function askClaude(history) {
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key': process.env.ANTHROPIC_API_KEY || '',
+        'anthropic-version': '2023-06-01',
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({ model: MODEL, max_tokens: 400, system: SYSTEM_PROMPT, messages: history }),
+    })
+    if (!r.ok) {
+      console.error('Claude error', r.status, await r.text())
+      return 'Merci ! Un conseiller vous répond très vite. Tous les détails ici : https://nextinotech.com/formation-rl/'
+    }
+    const j = await r.json()
+    const txt = (j.content || []).map((c) => c.text || '').join('').trim()
+    return txt || 'Un conseiller revient vers vous rapidement 🙏'
+  } catch (e) {
+    console.error('askClaude error', e)
+    return 'Merci ! Un conseiller vous répond très vite. Tous les détails ici : https://nextinotech.com/formation-rl/'
   }
-  const j = (await r.json()) as { content?: { type: string; text?: string }[] }
-  return (j.content || []).map((c) => c.text || '').join('').trim() ||
-    'Un conseiller revient vers vous rapidement 🙏'
 }
 
 /* ── WhatsApp Cloud API ────────────────────────────────────────────── */
-async function sendText(to: string, body: string) {
-  await fetch(`${GRAPH}/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${process.env.WHATSAPP_TOKEN}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ messaging_product: 'whatsapp', to, type: 'text', text: { body } }),
-  })
+async function sendText(to, body) {
+  try {
+    await fetch(`${GRAPH}/${process.env.WHATSAPP_PHONE_NUMBER_ID}/messages`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${process.env.WHATSAPP_TOKEN}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ messaging_product: 'whatsapp', to, type: 'text', text: { body } }),
+    })
+  } catch (e) {
+    console.error('sendText error', e)
+  }
 }
-
-async function notifyOwner(text: string) {
+async function notifyOwner(text) {
   const owner = process.env.OWNER_WHATSAPP
   if (owner) await sendText(owner, text)
 }
 
 /* ── Handler ───────────────────────────────────────────────────────── */
-export default async function handler(req: any, res: any) {
-  // 1) Vérification du webhook (Meta, une seule fois à la config)
+export default async function handler(req, res) {
   if (req.method === 'GET') {
-    try {
-      const q = req.query || {}
-      if (q['hub.mode'] === 'subscribe' && q['hub.verify_token'] === process.env.WHATSAPP_VERIFY_TOKEN) {
-        return res.status(200).send(String(q['hub.challenge'] ?? ''))
-      }
-      return res.status(403).send('Forbidden')
-    } catch (e) {
-      console.error('verify error', e)
-      return res.status(500).send('error')
+    const q = req.query || {}
+    if (q['hub.mode'] === 'subscribe' && q['hub.verify_token'] === process.env.WHATSAPP_VERIFY_TOKEN) {
+      return res.status(200).send(String(q['hub.challenge'] == null ? '' : q['hub.challenge']))
     }
+    return res.status(403).send('Forbidden')
   }
 
   if (req.method !== 'POST') return res.status(405).send('Method Not Allowed')
 
-  // Meta exige un 200 rapide — on accuse réception tout de suite.
-  try { res.status(200).send('OK') } catch { /* noop */ }
+  res.status(200).send('OK') // Meta exige un 200 rapide
 
   try {
-    const body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body
-    const value = body?.entry?.[0]?.changes?.[0]?.value
-    const message = value?.messages?.[0]
-    if (!message) return // statuts de livraison, etc.
+    const body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body || {}
+    const value =
+      body.entry && body.entry[0] && body.entry[0].changes && body.entry[0].changes[0]
+        ? body.entry[0].changes[0].value
+        : null
+    const message = value && value.messages ? value.messages[0] : null
+    if (!message) return
 
-    const from: string = message.from
-    const msgId: string = message.id
+    const from = message.from
+    const msgId = message.id
     if (!(await firstSeen(msgId))) return
 
-    const name: string = value?.contacts?.[0]?.profile?.name || ''
+    const name = value.contacts && value.contacts[0] ? value.contacts[0].profile.name || '' : ''
     const referral = message.referral // présent si la conversation vient d'une pub Click-to-WhatsApp
+    const adLabel = referral ? referral.headline || referral.source_id || 'formation' : ''
 
     // Pièce jointe (ex. preuve de paiement) → on remercie et on escalade.
     if (message.type && message.type !== 'text') {
@@ -178,35 +174,29 @@ export default async function handler(req: any, res: any) {
         from,
         'Merci, j’ai bien reçu votre pièce jointe 📎 Un conseiller la vérifie et revient vers vous rapidement.',
       )
-      await notifyOwner(
-        `📎 Pièce jointe reçue de ${name || from} (${from})${referral ? ` — pub : ${referral.headline || referral.source_id}` : ''}`,
-      )
+      await notifyOwner(`📎 Pièce jointe de ${name || from} (${from})${referral ? ` — pub : ${adLabel}` : ''}`)
       return
     }
 
-    const text: string = message.text?.body?.trim() || ''
+    const text = message.text && message.text.body ? message.text.body.trim() : ''
     if (!text) return
 
     const history = await getHistory(from)
 
-    // Premier contact : on injecte le contexte pub + on ouvre par le message d'accueil.
-    if (history.length === 0) {
-      if (referral) {
-        history.push({
-          role: 'user',
-          content: `(Contexte système : ce contact arrive de la publicité Facebook/Instagram « ${
-            referral.headline || referral.source_id || 'formation'
-          } ». Prénom : ${name || 'inconnu'}.)`,
-        })
-        history.push({ role: 'assistant', content: GREETING })
-        await sendText(from, GREETING)
-      }
+    // Premier contact venant d'une pub : contexte + message d'accueil.
+    if (history.length === 0 && referral) {
+      history.push({
+        role: 'user',
+        content: `(Contexte système : ce contact arrive de la publicité Facebook/Instagram « ${adLabel} ». Prénom : ${name || 'inconnu'}.)`,
+      })
+      history.push({ role: 'assistant', content: GREETING })
+      await sendText(from, GREETING)
     }
 
     history.push({ role: 'user', content: text })
     let reply = await askClaude(history)
 
-    const escalate = reply.includes('[ESCALADE]')
+    const escalate = reply.indexOf('[ESCALADE]') !== -1
     reply = reply.replace(/\[ESCALADE\]/g, '').trim()
 
     history.push({ role: 'assistant', content: reply })
@@ -215,9 +205,7 @@ export default async function handler(req: any, res: any) {
 
     if (escalate) {
       await notifyOwner(
-        `🔔 Lead à rappeler : ${name || from} (${from})${
-          referral ? ` — pub : ${referral.headline || referral.source_id}` : ''
-        }\nDernier message : « ${text} »`,
+        `🔔 Lead à rappeler : ${name || from} (${from})${referral ? ` — pub : ${adLabel}` : ''}\nDernier message : « ${text} »`,
       )
     }
   } catch (e) {

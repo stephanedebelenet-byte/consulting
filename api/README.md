@@ -1,11 +1,11 @@
 # Agent WhatsApp — leads publicités Facebook / Instagram
 
-`api/whatsapp.ts` = webhook déployé automatiquement par Vercel sur
+`api/whatsapp.js` = webhook déployé automatiquement par Vercel sur
 `https://nextinotech.com/api/whatsapp`. Il répond aux messages WhatsApp avec Claude,
 garde le fil de discussion dans Upstash Redis, et prévient le propriétaire quand un
 lead veut être rappelé ou envoie une preuve de paiement.
 
-Le discours de l'agent s'édite dans les constantes en haut de `api/whatsapp.ts`.
+Le discours de l'agent s'édite dans les constantes en haut de `api/whatsapp.js`.
 
 ---
 
