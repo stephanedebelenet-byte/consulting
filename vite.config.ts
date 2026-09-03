@@ -27,14 +27,24 @@ function setLinkTag(html: string, rel: string, href: string): string {
   return re.test(html) ? html.replace(re, tag) : html.replace('</head>', `    ${tag}\n</head>`)
 }
 
+function setHreflang(html: string, lang: string, href: string): string {
+  const re = new RegExp(`<link rel="alternate" hreflang="${lang}"[^>]*>`, 'i')
+  const tag = `<link rel="alternate" hreflang="${lang}" href="${href}" />`
+  return re.test(html) ? html.replace(re, tag) : html
+}
+
 function renderRoute(shell: string, route: PrerenderRoute): string {
   let html = shell
+  const url = canonicalFor(route.path)
   html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(route.title)}</title>`)
   html = setMetaTag(html, 'name', 'description', route.description)
-  html = setLinkTag(html, 'canonical', canonicalFor(route.path))
+  html = setLinkTag(html, 'canonical', url)
+  html = setHreflang(html, 'fr-MA', url)
+  html = setHreflang(html, 'fr', url)
+  html = setHreflang(html, 'x-default', url)
   html = setMetaTag(html, 'property', 'og:title', route.title)
   html = setMetaTag(html, 'property', 'og:description', route.description)
-  html = setMetaTag(html, 'property', 'og:url', canonicalFor(route.path))
+  html = setMetaTag(html, 'property', 'og:url', url)
   html = setMetaTag(html, 'name', 'twitter:title', route.title)
   html = setMetaTag(html, 'name', 'twitter:description', route.description)
   if (route.jsonLd && route.jsonLd.length) {
