@@ -3,14 +3,21 @@
  * Déployé par Vercel sur https://nextinotech.com/api/whatsapp
  *
  * GET  → vérification du webhook (Meta).
- * POST → message entrant : réponse via Gemini, historique dans Upstash Redis,
- *        escalade vers le propriétaire si [ESCALADE] ou pièce jointe.
+ * POST → message entrant : réponse via un LLM (API compatible OpenAI),
+ *        historique dans Upstash Redis, escalade si [ESCALADE] ou pièce jointe.
  *
  * Variables d'environnement (Vercel → Settings → Environment Variables) :
  *   WHATSAPP_VERIFY_TOKEN, WHATSAPP_TOKEN, WHATSAPP_PHONE_NUMBER_ID,
- *   GEMINI_API_KEY, UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN,
- *   OWNER_WHATSAPP, AGENT_MODEL (optionnel, défaut : gemini-2.5-flash).
- *   Clé gratuite : https://aistudio.google.com/apikey
+ *   LLM_API_KEY        clé du fournisseur d'IA
+ *   LLM_BASE_URL       (optionnel) défaut : https://api.mistral.ai/v1
+ *   LLM_MODEL          (optionnel) défaut : mistral-small-latest
+ *   UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN,
+ *   OWNER_WHATSAPP
+ *
+ * Fournisseurs gratuits testés (API compatible OpenAI — mêmes 3 variables) :
+ *   Mistral  https://api.mistral.ai/v1        modèle mistral-small-latest   (défaut, FR excellent)
+ *   Groq     https://api.groq.com/openai/v1   modèle llama-3.3-70b-versatile
+ *   OpenRouter https://openrouter.ai/api/v1   modèle meta-llama/llama-3.3-70b-instruct:free
  *
  * ⚙️  Discours de l'agent = SYSTEM_PROMPT + GREETING ci-dessous (seul endroit à éditer).
  */
@@ -53,7 +60,8 @@ const GREETING =
   'Vous occupez déjà un poste en logistique ou vous préparez une évolution ?'
 
 const GRAPH = 'https://graph.facebook.com/v21.0'
-const MODEL = process.env.AGENT_MODEL || 'gemini-2.5-flash'
+const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.mistral.ai/v1').replace(/\/$/, '')
+const LLM_MODEL = process.env.LLM_MODEL || 'mistral-small-latest'
 const HISTORY_TTL = 60 * 60 * 24 * 7 // 7 jours
 const MAX_TURNS = 20
 
@@ -93,41 +101,35 @@ async function firstSeen(msgId) {
   return res === 'OK'
 }
 
-/* ── Gemini (Google AI Studio — palier gratuit) ───────────────────── */
+/* ── LLM (API compatible OpenAI : Mistral / Groq / OpenRouter / …) ── */
 const FALLBACK_REPLY =
   'Merci ! Un conseiller vous répond très vite. Tous les détails ici : https://nextinotech.com/formation-rl/'
 
-async function askGemini(history) {
+async function askLLM(history) {
   try {
-    const contents = history.map((m) => ({
-      role: m.role === 'assistant' ? 'model' : 'user',
-      parts: [{ text: m.content }],
-    }))
-    const url =
-      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent` +
-      `?key=${process.env.GEMINI_API_KEY || ''}`
-    const r = await fetch(url, {
+    const messages = [{ role: 'system', content: SYSTEM_PROMPT }].concat(
+      history.map((m) => ({ role: m.role, content: m.content })),
+    )
+    const r = await fetch(`${LLM_BASE_URL}/chat/completions`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        system_instruction: { parts: [{ text: SYSTEM_PROMPT }] },
-        contents,
-        generationConfig: { maxOutputTokens: 400, temperature: 0.6 },
-      }),
+      headers: {
+        Authorization: `Bearer ${process.env.LLM_API_KEY || ''}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ model: LLM_MODEL, messages, max_tokens: 400, temperature: 0.6 }),
     })
     if (!r.ok) {
-      console.error('Gemini error', r.status, await r.text())
+      console.error('LLM error', r.status, await r.text())
       return FALLBACK_REPLY
     }
     const j = await r.json()
-    const parts =
-      j.candidates && j.candidates[0] && j.candidates[0].content
-        ? j.candidates[0].content.parts || []
-        : []
-    const txt = parts.map((p) => p.text || '').join('').trim()
+    const txt =
+      j.choices && j.choices[0] && j.choices[0].message
+        ? (j.choices[0].message.content || '').trim()
+        : ''
     return txt || 'Un conseiller revient vers vous rapidement 🙏'
   } catch (e) {
-    console.error('askGemini error', e)
+    console.error('askLLM error', e)
     return FALLBACK_REPLY
   }
 }
@@ -209,7 +211,7 @@ export default async function handler(req, res) {
     }
 
     history.push({ role: 'user', content: text })
-    let reply = await askGemini(history)
+    let reply = await askLLM(history)
 
     const escalate = reply.indexOf('[ESCALADE]') !== -1
     reply = reply.replace(/\[ESCALADE\]/g, '').trim()

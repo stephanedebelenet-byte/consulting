@@ -1,7 +1,7 @@
 # Agent WhatsApp — leads publicités Facebook / Instagram
 
 `api/whatsapp.js` = webhook déployé automatiquement par Vercel sur
-`https://nextinotech.com/api/whatsapp`. Il répond aux messages WhatsApp avec Claude,
+`https://nextinotech.com/api/whatsapp`. Il répond aux messages WhatsApp avec un LLM (Mistral par défaut),
 garde le fil de discussion dans Upstash Redis, et prévient le propriétaire quand un
 lead veut être rappelé ou envoie une preuve de paiement.
 
@@ -16,10 +16,17 @@ Le discours de l'agent s'édite dans les constantes en haut de `api/whatsapp.js`
 1. Créer un compte sur https://upstash.com → **Create Database** (type *Redis*, région Europe).
 2. Copier `UPSTASH_REDIS_REST_URL` et `UPSTASH_REDIS_REST_TOKEN` (onglet *REST API*).
 
-### 2. Clé Google AI Studio (gratuit)
+### 2. Clé LLM (API compatible OpenAI — gratuit)
 
-https://aistudio.google.com/apikey → **Create API key** → `GEMINI_API_KEY`.
-Palier gratuit : ~1500 requêtes/jour, sans carte bancaire — largement suffisant.
+Choisir **un** fournisseur avec palier gratuit, sans carte bancaire :
+
+| Fournisseur | Clé | `LLM_BASE_URL` | `LLM_MODEL` |
+|---|---|---|---|
+| **Mistral** (défaut, FR excellent) | console.mistral.ai → API Keys | `https://api.mistral.ai/v1` | `mistral-small-latest` |
+| **Groq** (très rapide) | console.groq.com → API Keys | `https://api.groq.com/openai/v1` | `llama-3.3-70b-versatile` |
+| **OpenRouter** | openrouter.ai → Keys | `https://openrouter.ai/api/v1` | `meta-llama/llama-3.3-70b-instruct:free` |
+
+Renseigner `LLM_API_KEY` (+ `LLM_BASE_URL` et `LLM_MODEL` si autre que Mistral).
 
 ### 3. WhatsApp Cloud API (Meta)
 
@@ -61,4 +68,4 @@ Gestionnaire de publicités Meta → objectif **Contacts / Messages**, destinati
 `Bonjour, je viens de la publicité pour la formation Responsable Logistique.`
 
 Quand quelqu'un clique, le message arrive avec un bloc `referral` (nom de la pub) —
-l'agent le détecte, ouvre par le message d'accueil, puis enchaîne avec Claude.
+l'agent le détecte, ouvre par le message d'accueil, puis enchaîne avec le LLM.
