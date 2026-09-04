@@ -22,9 +22,9 @@ Choisir **un** fournisseur avec palier gratuit, sans carte bancaire :
 
 | Fournisseur | Clé | `LLM_BASE_URL` | `LLM_MODEL` |
 |---|---|---|---|
-| **Mistral** (défaut, FR excellent) | console.mistral.ai → API Keys | `https://api.mistral.ai/v1` | `mistral-small-latest` |
+| **Mistral** (défaut, FR excellent) | console.mistral.ai → API Keys | `https://api.mistral.ai/v1` | `ministral-8b-latest` |
 | **Groq** (très rapide) | console.groq.com → API Keys | `https://api.groq.com/openai/v1` | `llama-3.3-70b-versatile` |
-| **OpenRouter** | openrouter.ai → Keys | `https://openrouter.ai/api/v1` | `meta-llama/llama-3.3-70b-instruct:free` |
+| **OpenRouter** | openrouter.ai → Keys | `https://openrouter.ai/api/v1` | `minimax/minimax-m3:free` |
 
 Renseigner `LLM_API_KEY` (+ `LLM_BASE_URL` et `LLM_MODEL` si autre que Mistral).
 

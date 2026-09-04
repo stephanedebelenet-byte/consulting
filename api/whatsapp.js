@@ -10,14 +10,14 @@
  *   WHATSAPP_VERIFY_TOKEN, WHATSAPP_TOKEN, WHATSAPP_PHONE_NUMBER_ID,
  *   LLM_API_KEY        clé du fournisseur d'IA
  *   LLM_BASE_URL       (optionnel) défaut : https://api.mistral.ai/v1
- *   LLM_MODEL          (optionnel) défaut : mistral-small-latest
+ *   LLM_MODEL          (optionnel) défaut : ministral-8b-latest
  *   UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN,
  *   OWNER_WHATSAPP
  *
  * Fournisseurs gratuits testés (API compatible OpenAI — mêmes 3 variables) :
- *   Mistral  https://api.mistral.ai/v1        modèle mistral-small-latest   (défaut, FR excellent)
+ *   Mistral  https://api.mistral.ai/v1        modèle ministral-8b-latest    (défaut, FR excellent, tier gratuit)
  *   Groq     https://api.groq.com/openai/v1   modèle llama-3.3-70b-versatile
- *   OpenRouter https://openrouter.ai/api/v1   modèle meta-llama/llama-3.3-70b-instruct:free
+ *   OpenRouter https://openrouter.ai/api/v1   modèle minimax/minimax-m3:free
  *
  * ⚙️  Discours de l'agent = SYSTEM_PROMPT + GREETING ci-dessous (seul endroit à éditer).
  */
@@ -61,7 +61,7 @@ const GREETING =
 
 const GRAPH = 'https://graph.facebook.com/v21.0'
 const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.mistral.ai/v1').replace(/\/$/, '')
-const LLM_MODEL = process.env.LLM_MODEL || 'mistral-small-latest'
+const LLM_MODEL = process.env.LLM_MODEL || 'ministral-8b-latest'
 const HISTORY_TTL = 60 * 60 * 24 * 7 // 7 jours
 const MAX_TURNS = 20
 
