@@ -96,7 +96,14 @@ async function getHistory(phone) {
 async function saveHistory(phone, history) {
   await redis(['SET', `wa:hist:${phone}`, JSON.stringify(history.slice(-MAX_TURNS)), 'EX', HISTORY_TTL])
 }
+function redisReady() {
+  return Boolean(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN)
+}
+
 async function firstSeen(msgId) {
+  // Sans Upstash configuré, on ne peut pas dédupliquer — mais on NE bloque PAS
+  // l'agent pour autant (mieux vaut une éventuelle réponse en double que aucune réponse).
+  if (!redisReady()) return true
   const res = await redis(['SET', `wa:seen:${msgId}`, '1', 'NX', 'EX', 600])
   return res === 'OK'
 }
