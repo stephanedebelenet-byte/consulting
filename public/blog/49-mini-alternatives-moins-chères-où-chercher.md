@@ -11,7 +11,7 @@ description: "Existe-t-il des alternatives moins chères à Nextinotech ? Nous n
 
 # Alternatives Moins Chères ? Où Chercher ?
 
-![Transparence tarifaire et budget](/images/business.jpg)
+![Transparence tarifaire et budget](/images/business.webp)
 
 **Nous ne comparons pas nos tarifs à des alternatives non vérifiées — nous n'avons pas de données fiables sur ce que facture réellement chaque freelance ou plateforme, et il serait malhonnête de prétendre le contraire.** Ce que nous pouvons faire, c'est être radicalement transparents sur nos propres prix.
 

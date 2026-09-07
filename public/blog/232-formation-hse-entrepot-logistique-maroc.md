@@ -3,14 +3,14 @@ title: "Formation HSE Entrepôt & Logistique : ce qu'elle Couvre Concrètement"
 date: "2026-08-26"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "formation HSE entrepôt maroc, formation HSE logistique maroc, formation sécurité entrepôt maroc, audit HSE flash"
 description: "Cartographie des risques, manutention, ergonomie, conformité réglementaire : ce que couvre une formation HSE entrepôt & logistique, et pourquoi elle reste rare au Maroc."
 ---
 
 # Formation HSE Entrepôt & Logistique : ce qu'elle Couvre Concrètement
 
-![Bureau et ressources humaines](/images/office.jpg)
+![Bureau et ressources humaines](/images/office.webp)
 
 **Une formation HSE (Hygiène, Sécurité, Environnement) entrepôt & logistique vise à transmettre aux équipes terrain — responsables HSE, chefs d'équipe, caristes, responsables logistique — les compétences pour identifier et prévenir les risques spécifiques à un site d'entreposage et de transport.** Ce n'est pas une formation générique de sécurité au travail : les risques d'un entrepôt (manutention, chariots élévateurs, stockage en hauteur, flux de circulation) sont différents de ceux d'un bureau ou d'un atelier de production, et une formation qui ne les traite pas spécifiquement laisse les équipes mal préparées face aux situations réelles.
 

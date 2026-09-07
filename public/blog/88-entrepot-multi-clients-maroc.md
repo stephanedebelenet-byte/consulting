@@ -2,7 +2,7 @@
 title: "Entrepôt Multi-Clients au Maroc : Mutualisation Logistique et Prestataires 3PL 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "entrepôt multi-clients maroc, prestataire logistique 3pl maroc, mutualisation logistique maroc, logistique externalisée maroc, entrepôt partagé maroc"
 description: "Entrepôt multi-clients et mutualisation logistique au Maroc : avantages, modèles d'organisation, critères de choix d'un 3PL et grille tarifaire 2026."
 ---
@@ -15,7 +15,7 @@ Au Maroc, ce modèle reste sous-exploité par rapport à ce qu'on observe en Eur
 
 J'ai accompagné des entreprises des deux côtés : des chargeurs qui externalisent vers un 3PL multi-clients, et des prestataires logistiques qui développent une offre d'entrepôt partagé. Voici ce que j'ai appris.
 
-![Entrepôt multi-clients et mutualisation logistique au Maroc](/images/hero-warehouse.jpg)
+![Entrepôt multi-clients et mutualisation logistique au Maroc](/images/hero-warehouse.webp)
 
 ---
 

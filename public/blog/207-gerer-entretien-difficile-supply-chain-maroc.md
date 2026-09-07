@@ -2,7 +2,7 @@
 title: "Gérer un Entretien Difficile en Supply Chain : Tactiques et Sang-Froid"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "entretien difficile supply chain Maroc, questions pièges entretien logistique, gérer pression entretien SC, entretien stress supply chain Maroc"
 description: "Comment gérer les questions pièges, les recruteurs agressifs, et les situations difficiles lors d'un entretien supply chain au Maroc ? Tactiques concrètes pour garder le contrôle."
 ---
@@ -11,7 +11,7 @@ description: "Comment gérer les questions pièges, les recruteurs agressifs, et
 
 La majorité des entretiens supply chain se passent bien. Mais il y en a qui sont délibérément difficiles — des recruteurs qui testent votre résilience, des questions déstabilisantes, des confrontations directes sur vos lacunes. Comment garder le contrôle quand la pression monte ?
 
-![Gérer entretien difficile supply chain Maroc](/images/conseil.jpg)
+![Gérer entretien difficile supply chain Maroc](/images/conseil.webp)
 
 ## Pourquoi Certains Entretiens sont Délibérément Difficiles
 

@@ -2,7 +2,7 @@
 title: "Entretien Supply Chain dans le FMCG au Maroc : Guide Pratique"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "entretien supply chain FMCG Maroc, recrutement logistique agroalimentaire Maroc, questions SC grande consommation, entretien supply chain Nestlé Danone Maroc"
 description: "Comment réussir un entretien supply chain dans le secteur FMCG (grande consommation) au Maroc ? Les enjeux spécifiques, les questions types et ce que Nestlé, Danone, Unilever évaluent."
 ---
@@ -11,7 +11,7 @@ description: "Comment réussir un entretien supply chain dans le secteur FMCG (g
 
 Le FMCG (Fast Moving Consumer Goods) — grande consommation, agroalimentaire — est l'un des secteurs les plus dynamiques de la supply chain marocaine. Nestlé, Centrale Danone, Unilever, P&G, L'Oréal, Coca-Cola y recrutent régulièrement des profils SC.
 
-![Entretien supply chain FMCG agroalimentaire Maroc](/images/hero-supply-chain.jpg)
+![Entretien supply chain FMCG agroalimentaire Maroc](/images/hero-supply-chain.webp)
 
 ## Les Spécificités du FMCG
 

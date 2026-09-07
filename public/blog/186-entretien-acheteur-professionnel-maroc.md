@@ -2,7 +2,7 @@
 title: "Entretien pour un Poste d'Acheteur Professionnel au Maroc : Guide Complet"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "entretien acheteur professionnel Maroc, recrutement acheteur logistique Maroc, poste acheteur supply chain entretien Maroc, questions entretien acheteur"
 description: "Comment réussir l'entretien pour un poste d'acheteur professionnel au Maroc ? Questions techniques, mises en situation négociation, et ce que les recruteurs évaluent vraiment."
 ---
@@ -11,7 +11,7 @@ description: "Comment réussir l'entretien pour un poste d'acheteur professionne
 
 Le recrutement pour un poste d'acheteur est différent d'un recrutement SC généraliste. Les compétences évaluées sont plus spécifiques — et les mises en situation de négociation sont fréquentes.
 
-![Entretien acheteur professionnel Maroc](/images/business.jpg)
+![Entretien acheteur professionnel Maroc](/images/business.webp)
 
 ## Ce que Cherchent les Recruteurs pour un Poste Achats
 

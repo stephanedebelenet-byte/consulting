@@ -2,7 +2,7 @@
 title: "Intelligence Artificielle et Supply Chain : Ce qui Change au Maroc en 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "intelligence artificielle supply chain Maroc, IA logistique, automatisation entrepôt, supply chain digitale 2026, IA prévision demande"
 description: "L'IA transforme la supply chain en 2026. Ce qui change vraiment pour les entreprises marocaines — et comment s'adapter sans tomber dans les pièges coûteux."
 ---
@@ -13,7 +13,7 @@ description: "L'IA transforme la supply chain en 2026. Ce qui change vraiment po
 
 J'accompagne des entreprises marocaines dans leur transformation digitale depuis 2005. Ce que je vois aujourd'hui me rend prudent sur les grands discours — et optimiste sur les cas d'usage concrets.
 
-![Tableau de bord analytique supply chain avec données temps réel](/images/analytics.jpg)
+![Tableau de bord analytique supply chain avec données temps réel](/images/analytics.webp)
 
 ## Ce que l'IA Fait Réellement en Supply Chain
 

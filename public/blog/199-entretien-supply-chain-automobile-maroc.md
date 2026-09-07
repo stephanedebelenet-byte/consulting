@@ -2,7 +2,7 @@
 title: "Entretien Supply Chain dans l'Industrie Automobile au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "entretien supply chain automobile Maroc, recrutement logistique Renault Stellantis Maroc, entretien logistique automobile Tanger Kénitra, questions SC automobile"
 description: "Comment réussir un entretien supply chain dans l'industrie automobile au Maroc (Renault, Stellantis, équipementiers) ? Les codes, les questions techniques, et ce qu'on attend."
 ---
@@ -11,7 +11,7 @@ description: "Comment réussir un entretien supply chain dans l'industrie automo
 
 L'automobile est le secteur le plus exigeant de la supply chain marocaine. Les standards de Renault (SPR) et de Stellantis (PSA Manufacturing System) sont parmi les plus élevés au monde. Les entretiens y reflètent cette exigence.
 
-![Entretien supply chain automobile Maroc Renault Stellantis](/images/transport.jpg)
+![Entretien supply chain automobile Maroc Renault Stellantis](/images/transport.webp)
 
 ## Les Spécificités du Secteur Automobile
 

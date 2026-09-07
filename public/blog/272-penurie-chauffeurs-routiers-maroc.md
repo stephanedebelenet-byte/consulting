@@ -3,14 +3,14 @@ title: "Pénurie de Chauffeurs Routiers : Comment les Entreprises Marocaines s'A
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "pénurie chauffeurs routiers maroc, recrutement chauffeur poids lourd maroc, transport routier marchandises maroc"
 description: "Le transport routier assure plus de 85% des flux logistiques intérieurs marocains, avec un déficit structurel de chauffeurs dans certaines régions. Comment les entreprises s'adaptent."
 ---
 
 # Pénurie de Chauffeurs Routiers : Comment les Entreprises Marocaines s'Adaptent
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Le transport routier de marchandises assure plus de 85% des flux logistiques intérieurs au Maroc — ce qui rend la pénurie structurelle de chauffeurs poids lourd, présente dans certaines régions, particulièrement préoccupante pour l'ensemble de la chaîne d'approvisionnement du pays.** Cette pénurie n'est pas conjoncturelle : elle résulte du vieillissement de la population de conducteurs en poste, de conditions de travail exigeantes (longues distances, horaires irréguliers) qui découragent le renouvellement de la profession, et d'exigences croissantes de sécurité et de formation qui, si elles améliorent la qualité du service, compliquent aussi le recrutement de nouveaux profils.
 

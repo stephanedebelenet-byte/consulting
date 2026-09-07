@@ -3,14 +3,14 @@ title: "Retours E-commerce : le Coût Caché que les Marchands Marocains Sous-Es
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "coût retours e-commerce maroc, gestion retours e-commerce, taux de retour e-commerce coût caché"
 description: "Chaque retour coûte en moyenne 15 à 30 euros au e-commerçant en France. Les coûts cachés au-delà du transport que les marchands marocains sous-estiment généralement."
 ---
 
 # Retours E-commerce : le Coût Caché que les Marchands Marocains Sous-Estiment
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Un retour e-commerce ne coûte pas seulement le transport retour — c'est un coût composite qui inclut le transport aller-retour, le traitement en entrepôt (réception, contrôle qualité, remise en stock ou mise au rebut), la dépréciation éventuelle du produit, et le risque de fraude au retour.** En France, où la donnée est mieux documentée qu'au Maroc faute d'étude équivalente publiée localement, chaque retour coûte en moyenne entre 15 et 30 euros au e-commerçant, et le taux de retour moyen se situe entre 20% et 24,5% selon les catégories de produits — avec de fortes variations sectorielles : jusqu'à 18,8% pour l'habillement et la chaussure, contre seulement 7,2% pour l'électronique.
 

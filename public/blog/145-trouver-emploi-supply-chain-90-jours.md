@@ -2,7 +2,7 @@
 title: "Trouver un Emploi Supply Chain en 90 Jours au Maroc : Le Plan"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "trouver emploi supply chain Maroc rapidement, plan recherche emploi logistique 90 jours, méthode recherche emploi supply chain Maroc"
 description: "Un plan concret de 90 jours pour trouver un emploi en supply chain au Maroc. Semaine par semaine : ce que vous devez faire pour décrocher un poste en 3 mois."
 ---
@@ -13,7 +13,7 @@ La plupart des chercheurs d'emploi supply chain n'ont pas de plan. Ils s'inscriv
 
 Voici comment faire différemment — et trouver en 90 jours.
 
-![Plan 90 jours emploi supply chain Maroc](/images/hero-supply-chain.jpg)
+![Plan 90 jours emploi supply chain Maroc](/images/hero-supply-chain.webp)
 
 ## Pourquoi 90 Jours ?
 

@@ -3,14 +3,14 @@ title: "Logistique Verte au Maroc : Pourquoi la Transition Reste Freinée"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "logistique verte maroc, transport durable maroc, transition écologique logistique, véhicules électriques transport maroc"
 description: "Le transport routier représente plus de 80% du fret marocain, avec une flotte encore très dépendante du diesel. Ce qui freine réellement la transition verte de la logistique."
 ---
 
 # Logistique Verte au Maroc : Pourquoi la Transition Reste Freinée
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **La logistique verte regroupe l'ensemble des pratiques qui réduisent l'empreinte environnementale du transport et de l'entreposage — véhicules à faible émission, optimisation des tournées, entrepôts économes en énergie.** Au Maroc, le transport routier représente encore plus de 80% du trafic de marchandises, avec une flotte largement dépendante du diesel. La transition vers des alternatives plus propres reste freinée par un obstacle très concret : le coût. Un véhicule électrique coûte au Maroc environ 30% plus cher qu'un modèle thermique équivalent, en grande partie à cause du régime fiscal appliqué aux importations, et la batterie seule peut représenter jusqu'à 40% du prix du véhicule ([H24info](https://h24info.ma/economie/vehicules-electriques-disponibl-infrastructure/)).
 

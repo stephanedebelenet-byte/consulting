@@ -3,14 +3,14 @@ title: "Supply Chain Cosmétique au Maroc : les Enjeux Logistiques du Secteur Be
 date: "2026-08-22"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "supply chain cosmétique maroc, industrie cosmétique maroc logistique, distribution cosmétique maroc, filière chimie parachimie maroc"
 description: "2 000 entreprises, 45 000 emplois : la filière cosmétique et parachimie marocaine grandit vite. Ce que cela implique pour sa supply chain et sa distribution."
 ---
 
 # Supply Chain Cosmétique au Maroc : les Enjeux Logistiques du Secteur Beauté
 
-![Distribution et entreposage](/images/hero-warehouse.jpg)
+![Distribution et entreposage](/images/hero-warehouse.webp)
 
 **La supply chain cosmétique regroupe l'ensemble des flux d'approvisionnement en matières premières, de production et de distribution propres aux produits de beauté et d'hygiène.** Au Maroc, ce secteur a longtemps été traité comme un sous-segment de la grande distribution — alors qu'il obéit à des contraintes logistiques spécifiques : multiplicité de références (SKU), durées de vie produit courtes sur certaines gammes, et une distribution qui doit couvrir aussi bien la grande distribution moderne que les circuits pharmacie et le e-commerce.
 

@@ -2,7 +2,7 @@
 title: "Formation Planificateur Supply Chain au Maroc : DDMRP, S&OP et Prévisions"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "formation planificateur supply chain Maroc, formation ordonnanceur Maroc, formation DDMRP planificateur, prévision demande formation Maroc"
 description: "Formation planificateur supply chain au Maroc : DDMRP, S&OP, prévision de la demande. Programme, compétences et débouchés pour ce métier clé en 2026."
 ---
@@ -13,7 +13,7 @@ Le Planificateur Supply Chain est l'un des métiers les plus techniques de la ch
 
 Un bon planificateur évite des ruptures qui coûtent des millions. Un mauvais planificateur génère des surstocks qui immobilisent la trésorerie.
 
-![Planification supply chain et prévision demande](/images/charts.jpg)
+![Planification supply chain et prévision demande](/images/charts.webp)
 
 ## Le Périmètre du Planificateur Supply Chain
 

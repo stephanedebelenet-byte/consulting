@@ -2,7 +2,7 @@
 title: "Formation Directeur Supply Chain au Maroc : Du Manager au Leader"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "formation directeur supply chain Maroc, directeur supply chain formation, DSC Maroc formation, leadership supply chain Maroc"
 description: "Formation Directeur Supply Chain au Maroc : comment passer du management opérationnel au leadership stratégique. Compétences, programme et coaching senior."
 ---
@@ -13,7 +13,7 @@ Devenir Directeur Supply Chain (DSC) ne s'improvise pas. La transition du Supply
 
 Beaucoup de managers excellents échouent à cette transition parce qu'ils continuent à manager comme des managers — et non comme des directeurs.
 
-![Direction supply chain leadership stratégique](/images/conseil.jpg)
+![Direction supply chain leadership stratégique](/images/conseil.webp)
 
 ## Ce qui Change Quand on Devient DSC
 

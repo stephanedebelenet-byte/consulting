@@ -2,7 +2,7 @@
 title: "Emploi Supply Chain en France pour les Professionnels Marocains"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "emploi supply chain France Maroc, expatriation logistique France, travail supply chain France marocain, visa travail France supply chain"
 description: "Comment les professionnels supply chain marocains peuvent trouver un emploi en France ? Visa, équivalences, salaires, secteurs qui recrutent et démarches pratiques."
 ---
@@ -13,7 +13,7 @@ La France recrute des logisticiens. Le marché français de la supply chain fait
 
 Voici ce qu'il faut savoir avant de tenter l'aventure.
 
-![Expatriation supply chain France depuis Maroc](/images/conseil.jpg)
+![Expatriation supply chain France depuis Maroc](/images/conseil.webp)
 
 ## Le Marché Français de la Supply Chain
 

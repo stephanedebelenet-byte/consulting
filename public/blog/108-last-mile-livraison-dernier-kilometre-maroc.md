@@ -2,7 +2,7 @@
 title: "Last Mile au Maroc : Résoudre le Problème du Dernier Kilomètre en 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "last mile Maroc, livraison dernier kilomètre Maroc, logistique urbaine Maroc, livreurs Maroc, coût livraison Maroc"
 description: "Le dernier kilomètre représente 30 à 50% du coût logistique total. Comment les entreprises marocaines optimisent leur last mile en 2026 — modèles, coûts, solutions concrètes."
 ---
@@ -13,7 +13,7 @@ Le dernier kilomètre est le kilomètre le plus cher de la supply chain. Paradox
 
 En France, Amazon a mis 10 ans à optimiser son last mile. Au Maroc, les entreprises e-commerce et les distributeurs ont souvent 2 ans pour construire un modèle viable — ou perdre leurs marges face à des concurrents plus agiles.
 
-![Livraison transport logistique urbaine](/images/transport.jpg)
+![Livraison transport logistique urbaine](/images/transport.webp)
 
 ## Pourquoi le Last Mile est si Difficile au Maroc
 

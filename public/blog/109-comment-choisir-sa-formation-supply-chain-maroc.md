@@ -2,7 +2,7 @@
 title: "Comment Choisir sa Formation Supply Chain au Maroc : Le Guide 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "formation supply chain Maroc, choisir formation logistique, meilleure formation supply chain, formation certifiante logistique Maroc"
 description: "Comment choisir la bonne formation supply chain au Maroc en 2026 ? Critères, pièges à éviter, comparatif des formats — le guide complet pour ne pas se tromper."
 ---
@@ -15,7 +15,7 @@ La différence entre les deux ? Le choix de la formation.
 
 Voici le guide pour ne pas se tromper.
 
-![Salle de formation professionnelle supply chain](/images/office.jpg)
+![Salle de formation professionnelle supply chain](/images/office.webp)
 
 ## Les 5 Questions à Poser Avant de Choisir
 

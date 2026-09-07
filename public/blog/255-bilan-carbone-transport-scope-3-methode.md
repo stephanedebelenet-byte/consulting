@@ -3,14 +3,14 @@ title: "Bilan Carbone Transport : Calculer et Réduire ses Émissions Scope 3"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "bilan carbone transport scope 3, émissions scope 3 logistique, calcul empreinte carbone transport maroc"
 description: "Le scope 3 regroupe 15 sous-catégories d'émissions indirectes, dont le transport. La méthode de calcul, transposable à une flotte logistique marocaine faute de méthode équivalente locale."
 ---
 
 # Bilan Carbone Transport : Calculer et Réduire ses Émissions Scope 3
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Le scope 3 d'un bilan carbone regroupe les émissions de gaz à effet de serre indirectes d'une entreprise, situées en amont et en aval de son activité directe — le transport de marchandises (par des tiers ou en propre) en fait partie, aux côtés des biens achetés, des déplacements professionnels ou de la fin de vie des produits vendus.** Selon le GHG Protocol, référence internationale du sujet, le scope 3 se décompose en 15 sous-catégories distinctes. Pour une entreprise marocaine dont le transport représente une part significative de l'activité (distribution, 3PL, export), c'est souvent le poste le plus lourd du bilan carbone total — et le plus difficile à mesurer précisément, faute de données directes sur les émissions réelles de chaque prestataire transport.
 

@@ -3,14 +3,14 @@ title: "Diversité en Supply Chain : un Argument Concurrentiel pour Attirer les 
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "diversité supply chain recrutement, diversité avantage concurrentiel logistique, attractivité talents supply chain"
 description: "43% des entreprises leaders du secteur utilisent déjà des méthodes de recrutement non traditionnelles, contre 13% des suiveurs. La diversité comme levier business, pas seulement RSE."
 ---
 
 # Diversité en Supply Chain : un Argument Concurrentiel pour Attirer les Talents
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Dans un secteur supply chain où 44% des cadres sont en recherche active et où la bataille des talents s'intensifie, la diversité n'est plus seulement un sujet RSE — elle devient un critère de performance et d'attractivité employeur mesurable.** Les entreprises identifiées comme "leaders" en matière de stratégie de recrutement utilisent déjà des méthodes non traditionnelles (sourcing élargi, critères repensés, canaux diversifiés) dans 43% des cas, contre seulement 13% chez les "suiveurs" — un écart qui traduit une longueur d'avance dans la capacité à capter des profils que les méthodes classiques laissent de côté.
 

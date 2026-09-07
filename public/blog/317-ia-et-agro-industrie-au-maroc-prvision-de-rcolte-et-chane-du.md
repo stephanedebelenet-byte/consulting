@@ -3,14 +3,14 @@ title: "IA et Agro-Industrie au Maroc : Prévision de Récolte et Chaîne du Fro
 date: "2026-09-09"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/agro.jpg"
+image: "/images/agro.webp"
 keywords: "ia agro-industrie supply chain maroc, prévision récolte ia, chaîne du froid ia maroc, tri qualité vision agroalimentaire, ia agro-export maroc"
 description: "Playbook IA pour l'agro-industrie et l'agro-export marocains — prévision de récolte, pilotage de la chaîne du froid, tri qualité par vision et fenêtres d'export UE."
 ---
 
 # IA et Agro-Industrie au Maroc : Prévision de Récolte et Chaîne du Froid
 
-![Produits frais et logistique agroalimentaire d'export](/images/agro.jpg)
+![Produits frais et logistique agroalimentaire d'export](/images/agro.webp)
 
 **L'agro-export marocain — Souss-Massa, Gharb, Loukkos — vit sous une double contrainte que peu de secteurs cumulent : une offre incertaine, dépendante du climat et de l'eau, et une demande à fenêtres étroites, celle des linéaires européens. Entre les deux, une chaîne du froid qui ne pardonne pas et une part encore importante du pilotage sur tableur. C'est un terrain où l'IA, prédictive comme générative, apporte des gains rapides — à condition de partir des vrais points de rupture.** Voici les cas d'usage prioritaires.
 

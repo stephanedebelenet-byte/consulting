@@ -2,7 +2,7 @@
 title: "Formation Responsable Logistique au Maroc : Devenir Opérationnel en 3 Mois"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "formation responsable logistique Maroc, devenir responsable logistique, cursus logistique Maroc, formation chef logistique Maroc"
 description: "La formation Responsable Logistique au Maroc : compétences clés, programme recommandé, salaires et comment être opérationnel en 3 mois. Guide 2026."
 ---
@@ -13,7 +13,7 @@ Le Responsable Logistique est le pivot opérationnel de toute supply chain. Ni t
 
 C'est aussi l'un des postes les plus recherchés au Maroc, dans tous les secteurs.
 
-![Entrepôt logistique géré par un responsable opérationnel](/images/hero-warehouse.jpg)
+![Entrepôt logistique géré par un responsable opérationnel](/images/hero-warehouse.webp)
 
 ## Ce que le Responsable Logistique Gère au Quotidien
 

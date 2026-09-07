@@ -10,7 +10,7 @@ description: "Le Mali dépend de plusieurs corridors maritimes pour tout son com
 
 # Supply Chain Mali : logistique d'un pays enclavé entre trois corridors
 
-![Infrastructures de transport et logistique routière](/images/transport.jpg)
+![Infrastructures de transport et logistique routière](/images/transport.webp)
 
 **Le Mali n'a pas de façade maritime : tout son commerce extérieur transite par des ports voisins**, principalement Dakar (Sénégal) et San Pedro/Abidjan (Côte d'Ivoire), avec Conakry, Lomé, Tema et Nouakchott en options secondaires. C'est la contrainte structurante de toute chaîne d'approvisionnement malienne.
 

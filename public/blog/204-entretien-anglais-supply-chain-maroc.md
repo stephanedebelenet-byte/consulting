@@ -2,7 +2,7 @@
 title: "Passer un Entretien en Anglais Supply Chain au Maroc : Guide Pratique"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "entretien anglais supply chain Maroc, interview supply chain English Morocco, entretien logistique anglais Maroc, préparer entretien anglais SC"
 description: "Comment réussir un entretien supply chain en anglais au Maroc ? Vocabulaire SC en anglais, réponses types aux questions classiques, et comment gérer le stress de la langue."
 ---
@@ -11,7 +11,7 @@ description: "Comment réussir un entretien supply chain en anglais au Maroc ? V
 
 De plus en plus d'entreprises au Maroc conduisent leurs entretiens en anglais — en particulier les multinationales, les équipementiers automobiles, et les entreprises orientées export. Maîtriser l'entretien en anglais est devenu une compétence différenciante essentielle.
 
-![Entretien anglais supply chain Maroc](/images/business.jpg)
+![Entretien anglais supply chain Maroc](/images/business.webp)
 
 ## Pourquoi L'Anglais est Indispensable
 

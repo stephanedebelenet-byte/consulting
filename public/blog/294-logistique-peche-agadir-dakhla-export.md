@@ -3,14 +3,14 @@ title: "Logistique du Secteur de la Pêche : Agadir, Dakhla et l'Export Halieuti
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/agro.jpg"
+image: "/images/agro.webp"
 keywords: "logistique pêche maroc export, export halieutique maroc, Agadir Dakhla pêche"
 description: "25,3 milliards de dirhams d'exports de produits de la mer en 2025, soit 29% des exports agroalimentaires marocains. Agadir et Dakhla, deux hubs logistiques complémentaires."
 ---
 
 # Logistique du Secteur de la Pêche : Agadir, Dakhla et l'Export Halieutique
 
-![Agroalimentaire et export](/images/agro.jpg)
+![Agroalimentaire et export](/images/agro.webp)
 
 **Le secteur halieutique marocain pèse lourd dans les exportations agroalimentaires du pays : 25,3 milliards de dirhams d'exports de produits de la mer en 2025, soit près de 29% des exportations agroalimentaires marocaines totales, dont 4,05 milliards de dirhams pour le seul segment du poisson congelé et des filets (+12% par rapport à 2024) ([Le360](https://fr.le360.ma/economie/captures-volumes-exportations-ce-quil-faut-savoir-sur-le-secteur-halieutique-au-maroc_H5LAO3ZCO5HO7A6F4UU77BVUFM/)).** Ces exports reposent sur deux hubs logistiques aux profils très différents, dont la complémentarité structure l'ensemble de la filière.
 

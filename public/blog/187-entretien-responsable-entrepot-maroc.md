@@ -2,7 +2,7 @@
 title: "Entretien Responsable d'Entrepôt au Maroc : Ce que les Recruteurs Évaluent"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "entretien responsable entrepôt Maroc, recrutement chef entrepôt Maroc, poste gestionnaire entrepôt entretien, questions entretien logistique entrepôt"
 description: "Comment réussir l'entretien pour un poste de responsable d'entrepôt au Maroc ? Les compétences évaluées, les questions types et les mises en situation opérationnelles."
 ---
@@ -11,7 +11,7 @@ description: "Comment réussir l'entretien pour un poste de responsable d'entrep
 
 Le poste de responsable d'entrepôt est l'un des plus courants en supply chain — et l'un des plus exigeants opérationnellement. L'entretien pour ce poste teste à la fois les compétences techniques, le leadership, et la capacité à gérer sous pression.
 
-![Entretien responsable entrepôt Maroc](/images/transport.jpg)
+![Entretien responsable entrepôt Maroc](/images/transport.webp)
 
 ## Les Compétences Clés Évaluées
 

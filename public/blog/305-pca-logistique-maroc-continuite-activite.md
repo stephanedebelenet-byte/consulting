@@ -3,14 +3,14 @@ title: "Plan de Continuité d'Activité (PCA) Logistique : se Préparer aux Rupt
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "PCA logistique maroc, plan continuité activité supply chain, ISO 22301 logistique"
 description: "La norme ISO 22301 encadre le plan de continuité d'activité. Comment une entreprise logistique marocaine se prépare aux ruptures — grève, météo, cyberattaque — avant qu'elles ne surviennent."
 ---
 
 # Plan de Continuité d'Activité (PCA) Logistique : se Préparer aux Ruptures
 
-![Conseil et diagnostic](/images/conseil.jpg)
+![Conseil et diagnostic](/images/conseil.webp)
 
 **Un plan de continuité d'activité (PCA) permet à une entreprise de continuer à fonctionner, ou de reprendre rapidement ses activités essentielles, après une perturbation majeure — grève, catastrophe météorologique, panne informatique, cyberattaque.** Pour une organisation logistique, la distinction entre deux types de perturbations structure l'approche du PCA : les épisodes brefs et brutaux (tempête, inondation, blocage ponctuel) qui exigent une réaction rapide sur une durée limitée, et les épisodes prolongés (pandémie, dégradation durable d'une situation géopolitique, cyberattaque majeure) qui demandent une capacité de fonctionnement dégradé sur plusieurs semaines ou mois.
 

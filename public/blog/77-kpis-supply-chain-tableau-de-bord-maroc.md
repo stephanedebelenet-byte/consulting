@@ -2,7 +2,7 @@
 title: "KPIs Supply Chain au Maroc : Tableau de Bord et Indicateurs de Performance 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "KPIs supply chain maroc, tableau de bord logistique maroc, indicateurs performance supply chain maroc, pilotage supply chain maroc, métriques logistiques maroc"
 description: "Les KPIs supply chain essentiels pour les entreprises marocaines : OTIF, rotation stocks, coût logistique, productivité entrepôt. Comment construire votre tableau de bord opérationnel."
 ---
@@ -15,7 +15,7 @@ Ce n'est pas un manque de bonne volonté. C'est un manque de méthode — on ne 
 
 Ce guide présente les KPIs supply chain essentiels pour le contexte marocain — avec leurs formules, leurs benchmarks, et leur organisation en tableau de bord opérationnel.
 
-![Tableau de bord KPIs supply chain — pilotage de la performance logistique au Maroc](/images/analytics.jpg)
+![Tableau de bord KPIs supply chain — pilotage de la performance logistique au Maroc](/images/analytics.webp)
 
 ---
 

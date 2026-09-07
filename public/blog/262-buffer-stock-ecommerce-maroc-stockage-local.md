@@ -3,14 +3,14 @@ title: "Buffer Stock au Maroc : pourquoi les Marques E-commerce Stockent Désorm
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "buffer stock e-commerce maroc, stock tampon e-commerce, stockage local livraison rapide maroc"
 description: "Face à la promesse de livraison en 24h, de plus en plus de marques e-commerce marocaines rapatrient leur stock localement plutôt que de le piloter depuis l'étranger."
 ---
 
 # Buffer Stock au Maroc : pourquoi les Marques E-commerce Stockent Désormais Localement
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **Le buffer stock (ou stock tampon) est un volume de stock intermédiaire positionné stratégiquement pour absorber les écarts entre production, approvisionnement et demande réelle — une protection contre la rupture, distincte du stock de sécurité classique par sa fonction d'amortisseur de flux plutôt que de simple marge de précaution.** Au Maroc, plusieurs prestataires de livraison e-commerce (Digylog, Mpacket, Forcelog, Olivraison) proposent désormais une livraison en moins de 24h dans la majorité des villes du pays — une promesse qui n'est tenable que si le stock est déjà positionné localement, pas piloté depuis un entrepôt à l'étranger avec plusieurs jours de délai d'acheminement.
 

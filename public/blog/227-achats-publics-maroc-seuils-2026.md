@@ -3,14 +3,14 @@ title: "Achats Publics au Maroc : ce qui Change Réellement pour les Fournisseur
 date: "2026-08-25"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "achats publics maroc 2026 seuils, marchés publics maroc PME, décret 2-22-431, enregistrement marchés publics 2026"
 description: "Le cadre des seuils PME date de 2023, mais 2026 apporte une vraie nouveauté : l'enregistrement obligatoire des marchés publics avec un droit de 0,1%. Ce qui change, ce qui ne change pas."
 ---
 
 # Achats Publics au Maroc : ce qui Change Réellement pour les Fournisseurs en 2026
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Les achats publics au Maroc désignent l'ensemble des marchés passés par l'État, les collectivités territoriales et les établissements publics, encadrés depuis 2023 par le décret n° 2-22-431.** Ce cadre est parfois présenté comme une nouveauté 2026 — ce n'est pas exact, et le distinguer clairement de ce qui est réellement nouveau cette année évite des décisions basées sur une mauvaise date. Le décret est en vigueur depuis le 1er septembre 2023. Ce qui est, en revanche, authentiquement nouveau en 2026, c'est l'obligation d'enregistrement des marchés publics assortie d'un droit de 0,1%, entrée en vigueur le 1er janvier 2026.
 

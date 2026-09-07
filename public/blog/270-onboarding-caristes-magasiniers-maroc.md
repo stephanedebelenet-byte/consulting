@@ -3,14 +3,14 @@ title: "Onboarding des Caristes et Magasiniers : Réduire l'Attrition dès les 9
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "onboarding entrepôt maroc, intégration caristes magasiniers, attrition nouveaux employés entrepôt"
 description: "Les 45 premiers jours représentent jusqu'à 20% de la rotation du personnel. Comment structurer l'accueil des caristes et magasiniers pour réduire le départ précoce."
 ---
 
 # Onboarding des Caristes et Magasiniers : Réduire l'Attrition dès les 90 Premiers Jours
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **L'onboarding désigne le processus structuré d'accueil et d'intégration d'un nouveau collaborateur, au-delà de la simple journée d'arrivée — un enjeu particulièrement critique pour les postes de cariste et magasinier, où le départ précoce est fréquent et coûteux à répéter.** Les 45 premiers jours d'un nouvel employé représentent jusqu'à 20% de la rotation totale du personnel dans une organisation — un chiffre qui montre que l'essentiel de la décision implicite de rester ou de partir se joue très tôt, bien avant la fin de la période d'essai classique.
 

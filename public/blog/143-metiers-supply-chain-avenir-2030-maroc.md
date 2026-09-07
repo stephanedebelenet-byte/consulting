@@ -2,7 +2,7 @@
 title: "Les Métiers Supply Chain d'Avenir au Maroc à l'Horizon 2030"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "métiers supply chain avenir Maroc 2030, emploi logistique futur Maroc, nouveaux métiers supply chain, compétences supply chain 2030"
 description: "Quels seront les métiers supply chain les plus demandés au Maroc en 2030 ? Les compétences à acquérir maintenant pour se positionner sur les postes de demain."
 ---
@@ -13,7 +13,7 @@ La supply chain marocaine va radicalement changer d'ici 2030. L'automatisation, 
 
 Voici ce qui va émerger, et comment s'y préparer.
 
-![Métiers supply chain avenir 2030 Maroc](/images/hero-supply-chain.jpg)
+![Métiers supply chain avenir 2030 Maroc](/images/hero-supply-chain.webp)
 
 ## Les Forces de Transformation
 

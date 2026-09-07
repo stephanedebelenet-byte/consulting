@@ -2,7 +2,7 @@
 title: "L'Entretien par Compétences en Supply Chain : Comment le Réussir"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "entretien compétences supply chain Maroc, entretien structuré logistique, évaluation compétences supply chain entretien, grille compétences logistique recrutement"
 description: "Comment fonctionne l'entretien par compétences en supply chain au Maroc et comment s'y préparer pour maximiser ses chances."
 ---
@@ -11,7 +11,7 @@ description: "Comment fonctionne l'entretien par compétences en supply chain au
 
 Les grandes entreprises marocaines et les multinationales ont largement adopté l'entretien par compétences (aussi appelé entretien structuré). C'est différent de l'entretien conversationnel classique — et si vous ne le savez pas, vous pouvez être pris de court.
 
-![Entretien par compétences supply chain Maroc](/images/conseil.jpg)
+![Entretien par compétences supply chain Maroc](/images/conseil.webp)
 
 ## Qu'est-ce que l'Entretien par Compétences ?
 

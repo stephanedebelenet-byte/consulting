@@ -3,14 +3,14 @@ title: "Port de Ndayane au Sénégal : ce que le Futur Méga-Port Change pour le
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "port de Ndayane Sénégal, méga-port Sénégal DP World, futur port profond Dakar"
 description: "1,2 milliard de dollars investis par DP World, 1,2 million d'EVP de capacité en phase 1. Ce que le futur port de Ndayane change pour les chargeurs qui exportent vers l'Afrique de l'Ouest."
 ---
 
 # Port de Ndayane au Sénégal : ce que le Futur Méga-Port Change pour les Chargeurs
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Le futur port en eau profonde de Ndayane, situé à environ 70 km au sud de Dakar, représente le plus grand investissement privé de l'histoire du Sénégal : 1,2 milliard de dollars investis par l'opérateur émirati DP World pour construire et gérer le terminal à conteneurs, dans le cadre d'un partenariat conclu avec l'État sénégalais en décembre 2020.** Conçu pour désengorger le port autonome de Dakar, saturé par la croissance du trafic, Ndayane doit devenir le plus grand port en eau profonde du pays.
 

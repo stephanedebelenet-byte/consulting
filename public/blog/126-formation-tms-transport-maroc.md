@@ -2,7 +2,7 @@
 title: "Formation TMS au Maroc : Optimiser le Transport avec un Logiciel"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "formation TMS Maroc, Transport Management System formation, optimisation transport Maroc, logiciel transport formation, TMS déploiement Maroc"
 description: "Formation TMS au Maroc : comment choisir, déployer et maîtriser un système de gestion du transport. Programme, outils disponibles et résultats attendus."
 ---
@@ -13,7 +13,7 @@ Le transport représente 30 à 50% du coût logistique total dans la plupart des
 
 Mais "bien utilisé" est le point critique. Un TMS mal maîtrisé n'optimise rien.
 
-![Optimisation transport TMS logistique Maroc](/images/transport.jpg)
+![Optimisation transport TMS logistique Maroc](/images/transport.webp)
 
 ## Ce qu'un TMS Fait Vraiment
 

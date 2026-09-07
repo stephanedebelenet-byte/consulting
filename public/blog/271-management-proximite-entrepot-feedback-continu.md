@@ -3,14 +3,14 @@ title: "Management de Proximité en Entrepôt : Pourquoi le Feedback Annuel ne M
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "management entrepôt proximité, feedback continu vs évaluation annuelle, management de proximité logistique"
 description: "70% des responsables RH jugent l'évaluation annuelle inefficace. Ce que le management de proximité change concrètement pour une équipe d'entrepôt."
 ---
 
 # Management de Proximité en Entrepôt : Pourquoi le Feedback Annuel ne Marche Plus
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **Le management de proximité désigne un mode d'encadrement basé sur des retours réguliers et informels, au fil du travail quotidien, plutôt que sur un rendez-vous unique et formel une fois par an.** Le constat qui pousse cette évolution est net : 70% des responsables RH considèrent l'entretien annuel d'évaluation comme un système inefficace dans tout type d'environnement — un chiffre particulièrement pertinent en entrepôt, où le rythme opérationnel quotidien rend un feedback différé de plusieurs mois largement déconnecté du moment où un problème ou une réussite a réellement eu lieu.
 

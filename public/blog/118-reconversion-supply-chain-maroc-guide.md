@@ -2,7 +2,7 @@
 title: "Reconversion vers la Supply Chain au Maroc : Le Guide Complet 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "reconversion supply chain Maroc, changer de métier logistique Maroc, reconversion professionnelle logistique, devenir logisticien reconversion"
 description: "Reconversion vers la supply chain au Maroc : comment passer d'un autre domaine à la logistique, quelles compétences valoriser, par où commencer. Guide 2026."
 ---
@@ -13,7 +13,7 @@ Chaque année, des dizaines de professionnels marocains me contactent avec la m�
 
 La réponse est presque toujours oui. Et souvent, leur parcours précédent est un atout — pas un handicap.
 
-![Reconversion professionnelle vers la logistique](/images/office.jpg)
+![Reconversion professionnelle vers la logistique](/images/office.webp)
 
 ## Pourquoi la Supply Chain est un Bon Choix de Reconversion
 

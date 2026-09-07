@@ -3,14 +3,14 @@ title: "Commerce Triangulaire Maroc-Afrique-Europe : Structurer ses Flux via les
 date: "2026-08-27"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "commerce triangulaire maroc afrique, hub logistique maroc afrique europe, zone franche réexportation maroc, Maroc Logistique 2030"
 description: "Décharger à Tanger, assembler à Kénitra ou Casablanca, réexporter vers Madrid ou Dakar : comment le modèle des zones franches marocaines structure un vrai commerce triangulaire."
 ---
 
 # Commerce Triangulaire Maroc-Afrique-Europe : Structurer ses Flux via les Zones Franches
 
-![Zone logistique et transport](/images/transport.jpg)
+![Zone logistique et transport](/images/transport.webp)
 
 **Le commerce triangulaire désigne ici un modèle où le Maroc n'est ni le seul point de départ ni le seul point d'arrivée d'un flux commercial, mais la plateforme intermédiaire où des composants importés d'un continent sont transformés avant d'être réexportés vers un autre.** Ce n'est pas une abstraction stratégique : c'est un modèle opérationnel concret, rendu possible par le réseau de zones franches marocaines et la position géographique du pays au carrefour de l'Europe, de l'Afrique et de l'Atlantique. Il s'inscrit dans la stratégie nationale de développement de la compétitivité logistique à horizon 2030 (parfois désignée "Maroc Logistique 2030"), qui vise à faire du pays un point de transit incontournable des flux commerciaux entre Europe, Afrique et Amérique — une ambition confirmée par deux sources indépendantes, qui décrivent l'une le réseau de zones franches comme moteur du modèle ([Chronexium](https://chronexium.ma/p/maroc-zone-franche-logistique-hub-afrique)), l'autre le positionnement du Maroc comme plateforme logistique du bassin méditerranéen porté par un effort d'investissement infrastructurel massif ([Aujourd'hui le Maroc](https://aujourdhui.ma/actualite/maroc-le-nouveau-corridor-logistique-entre-leurope-lafrique-et-latlantique)).
 

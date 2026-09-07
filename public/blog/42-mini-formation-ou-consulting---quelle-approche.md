@@ -11,7 +11,7 @@ description: "Formation ou consulting supply chain : comment choisir entre monte
 
 # Formation ou Consulting - Quelle Approche ?
 
-![Conseil et accompagnement supply chain](/images/conseil.jpg)
+![Conseil et accompagnement supply chain](/images/conseil.webp)
 
 **La formation monte en compétence une équipe qui reste en poste après la mission. Le consulting résout un problème précis, avec un livrable et un délai engagés.** Ce ne sont pas deux versions du même service — ce sont deux réponses à deux besoins différents.
 

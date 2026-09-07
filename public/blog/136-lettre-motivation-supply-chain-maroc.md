@@ -2,7 +2,7 @@
 title: "Lettre de Motivation Supply Chain au Maroc : Modèle et Conseils"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "lettre motivation supply chain Maroc, lettre candidature logistique, modèle lettre motivation logisticien, lettre motivation acheteur Maroc"
 description: "Comment rédiger une lettre de motivation supply chain percutante au Maroc ? Structure, modèle complet, erreurs à éviter et conseils d'un expert du secteur."
 ---
@@ -13,7 +13,7 @@ La lettre de motivation est soit ignorée (quand elle est générique), soit dé
 
 La clé : ne pas écrire ce que vous voulez — écrire ce que le recruteur a besoin de lire.
 
-![Lettre de motivation supply chain logistique](/images/office.jpg)
+![Lettre de motivation supply chain logistique](/images/office.webp)
 
 ## La Structure en 4 Paragraphes
 

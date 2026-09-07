@@ -11,7 +11,7 @@ description: "Comment démarrer une mission avec Nextinotech ? La première éta
 
 # Comment Débuter ? Première Étape ?
 
-![Conseil et première prise de contact](/images/conseil.jpg)
+![Conseil et première prise de contact](/images/conseil.webp)
 
 **La première étape est toujours un Diagnostic Express de 2 à 6 semaines — jamais un engagement de transformation complète dès le premier échange.** L'objectif est de cartographier votre existant et d'identifier des leviers chiffrés avant de parler d'un projet plus large.
 

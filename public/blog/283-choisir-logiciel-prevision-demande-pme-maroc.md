@@ -3,14 +3,14 @@ title: "Choisir un Logiciel de Prévision de la Demande : les Critères pour une
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "logiciel prévision demande maroc, choisir outil forecast PME, MAPE prévision supply chain"
 description: "Un MAPE (taux d'erreur de prévision) inférieur à 10-20% est généralement considéré comme acceptable. Les critères concrets pour choisir un logiciel de prévision adapté à une PME."
 ---
 
 # Choisir un Logiciel de Prévision de la Demande : les Critères pour une PME Marocaine
 
-![Données et pilotage supply chain](/images/charts.jpg)
+![Données et pilotage supply chain](/images/charts.webp)
 
 **Avant de comparer des logiciels de prévision de la demande, une PME doit d'abord savoir comment mesurer leur performance — le MAPE (Mean Absolute Percentage Error, taux d'erreur moyen en pourcentage) est l'indicateur de référence, et un MAPE inférieur à 10-20% est généralement considéré comme acceptable dans la plupart des environnements supply chain, ce seuil variant selon la volatilité de la demande et le cycle de vie du produit.** Un logiciel de prévision qui affiche des fonctionnalités impressionnantes mais ne réduit pas mesurablement le MAPE par rapport à une méthode existante n'apporte pas de valeur réelle, quel que soit son prix.
 

@@ -3,14 +3,14 @@ title: "Femmes dans la Supply Chain Marocaine : où en est-on Vraiment"
 date: "2026-08-25"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "femmes supply chain maroc chiffres, diversité logistique maroc, femmes logistique maroc, parité supply chain"
 description: "41% des postes supply chain occupés par des femmes dans le monde, mais 17% des postes de direction seulement (Gartner). Où en est le Maroc, et que dit-on vraiment ?"
 ---
 
 # Femmes dans la Supply Chain Marocaine : où en est-on Vraiment
 
-![Bureau et ressources humaines](/images/office.jpg)
+![Bureau et ressources humaines](/images/office.webp)
 
 **La question de la place des femmes dans la supply chain se pose en deux temps distincts : la présence globale dans les effectifs, et la présence dans les postes de direction — deux réalités très différentes, y compris à l'échelle mondiale.** Il n'existe à ce jour aucune étude marocaine publiée et chiffrée sur la répartition hommes-femmes dans le secteur supply chain local. Ce que l'on peut documenter avec confiance, ce sont les tendances mondiales — et un signal marocain récent et concret : l'apparition, en 2026, d'un programme dédié à ce sujet dans le plus grand salon logistique du pays.
 

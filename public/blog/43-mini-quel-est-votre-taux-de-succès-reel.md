@@ -11,7 +11,7 @@ description: "Pourquoi Nextinotech ne publie pas de taux de succès agrégé, et
 
 # Quel Est Votre Taux de Succès Réel ?
 
-![Analyse de données et de résultats](/images/analytics.jpg)
+![Analyse de données et de résultats](/images/analytics.webp)
 
 **Nextinotech ne publie pas de taux de succès agrégé — et c'est un choix assumé, pas une esquive.** Un "92% de missions réussies" ne veut rien dire sans savoir comment "succès" est défini, ni sur quel périmètre. Ce que nous publions, ce sont des résultats chiffrés, mission par mission, vérifiables.
 

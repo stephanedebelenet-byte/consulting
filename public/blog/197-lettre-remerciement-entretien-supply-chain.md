@@ -2,7 +2,7 @@
 title: "La Lettre de Remerciement après Entretien Supply Chain : Modèles et Conseils"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "lettre remerciement entretien supply chain Maroc, email remerciement entretien logistique, suivre entretien supply chain, message après entretien recrutement"
 description: "Comment rédiger un email de remerciement après un entretien supply chain au Maroc ? Modèles complets, conseils de rédaction, et quand l'envoyer."
 ---
@@ -17,7 +17,7 @@ Un email bien rédigé peut :
 - Renforcer votre intérêt et votre différenciation
 - Rester dans les esprits si la décision n'est pas encore prise
 
-![Email remerciement entretien supply chain Maroc](/images/office.jpg)
+![Email remerciement entretien supply chain Maroc](/images/office.webp)
 
 ## Quand l'Envoyer
 

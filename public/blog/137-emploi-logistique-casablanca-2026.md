@@ -2,7 +2,7 @@
 title: "Emploi Logistique à Casablanca en 2026 : Où Chercher et Comment Décrocher"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "emploi logistique Casablanca, offres emploi supply chain Casablanca, recrutement logistique Casablanca 2026, travail logisticien Casablanca"
 description: "Trouver un emploi en logistique à Casablanca en 2026 : zones industrielles, entreprises qui recrutent, sites d'offres, et stratégie pour décrocher un poste rapidement."
 ---
@@ -13,7 +13,7 @@ Casablanca est le premier bassin d'emploi supply chain au Maroc. Avec son port, 
 
 Mais la concurrence est forte. Voici comment se positionner intelligemment.
 
-![Casablanca hub logistique emploi supply chain](/images/hero-supply-chain.jpg)
+![Casablanca hub logistique emploi supply chain](/images/hero-supply-chain.webp)
 
 ## Les Zones d'Emploi Logistique à Casablanca
 

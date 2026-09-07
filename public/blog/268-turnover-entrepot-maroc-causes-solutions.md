@@ -3,14 +3,14 @@ title: "Turnover en Entrepôt : Comprendre les Causes Réelles et les Solutions 
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "turnover entrepôt maroc, rotation personnel logistique, rétention magasiniers caristes maroc"
 description: "10% est le seuil au-delà duquel le turnover est considéré comme élevé. Ce qui pousse réellement le personnel d'entrepôt à partir, et ce qui fonctionne pour le retenir."
 ---
 
 # Turnover en Entrepôt : Comprendre les Causes Réelles et les Solutions qui Fonctionnent
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **Le turnover (rotation du personnel) mesure la part des effectifs qui quittent l'entreprise sur une période donnée — un indicateur particulièrement sensible en entrepôt, où les postes de magasinier et cariste sont souvent parmi les plus exposés à la rotation dans l'organisation.** En France, où la donnée est mieux documentée que dans un contexte marocain qui manque d'étude sectorielle publiée équivalente, le taux de rotation moyen tous secteurs confondus est d'environ 15% selon l'INSEE, avec un seuil de 10% généralement retenu comme repère au-delà duquel le turnover est considéré comme élevé — et certains secteurs comme le commerce ou les nouvelles technologies dépassent facilement 50%.
 

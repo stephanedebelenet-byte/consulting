@@ -2,7 +2,7 @@
 title: "Déploiement WMS au Maroc : Méthode, Délais et Facteurs de Succès 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "déploiement WMS maroc, implémentation WMS maroc, projet WMS entrepôt, choisir WMS maroc, warehouse management system maroc"
 description: "Comment réussir le déploiement d'un WMS au Maroc : 5 phases, budget réel, facteurs de succès et pièges à éviter. Retours terrain de 12+ projets WMS au Maroc."
 ---
@@ -13,7 +13,7 @@ description: "Comment réussir le déploiement d'un WMS au Maroc : 5 phases, bud
 
 J'ai accompagné plus d'une douzaine de projets WMS au Maroc — chez DHL, des groupes de distribution, des industriels et des PME. Voici ce qui fait réellement la différence entre un projet qui tient ses promesses et un projet qui finit dans les regrets.
 
-![Digitalisation logistique — déploiement WMS et systèmes entrepôt au Maroc](/images/analytics.jpg)
+![Digitalisation logistique — déploiement WMS et systèmes entrepôt au Maroc](/images/analytics.webp)
 
 ---
 

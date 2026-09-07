@@ -2,7 +2,7 @@
 title: "Négocier une Offre d'Emploi Supply Chain au Maroc : Le Guide Complet"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "négocier offre emploi supply chain Maroc, négociation salariale logistique offre, accepter refuser offre supply chain Maroc, package emploi supply chain"
 description: "Comment négocier une offre d'emploi supply chain au Maroc ? Délai de réflexion, contre-offre, négociation du package et les erreurs à éviter pour ne pas perdre l'offre."
 ---
@@ -11,7 +11,7 @@ description: "Comment négocier une offre d'emploi supply chain au Maroc ? Déla
 
 Vous avez reçu une offre. C'est le moment le plus délicat — et le plus important — de tout le processus de recrutement. Trop peu de candidats négocient. Ceux qui le font obtiennent souvent plus, sans mettre en danger l'offre.
 
-![Négocier offre emploi supply chain Maroc](/images/business.jpg)
+![Négocier offre emploi supply chain Maroc](/images/business.webp)
 
 ## Quand Négocier
 

@@ -2,7 +2,7 @@
 title: "LinkedIn pour les Logisticiens au Maroc : Profil qui Attire les Recruteurs"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "LinkedIn supply chain Maroc, profil LinkedIn logisticien, LinkedIn recrutement logistique Maroc, optimiser LinkedIn supply chain"
 description: "Comment optimiser son profil LinkedIn pour être recruté en supply chain au Maroc ? Photo, titre, résumé, expériences, recommandations — le guide complet."
 ---
@@ -13,7 +13,7 @@ description: "Comment optimiser son profil LinkedIn pour être recruté en suppl
 
 Voici comment construire un profil LinkedIn qui vous fait trouver.
 
-![LinkedIn profil professionnel supply chain logistique](/images/office.jpg)
+![LinkedIn profil professionnel supply chain logistique](/images/office.webp)
 
 ## Les 8 Sections Critiques
 

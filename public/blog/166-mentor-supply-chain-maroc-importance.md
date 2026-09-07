@@ -2,7 +2,7 @@
 title: "Trouver un Mentor Supply Chain au Maroc : Pourquoi et Comment"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "mentor supply chain Maroc, mentorat logistique Maroc, trouver mentor supply chain, coaching supply chain jeune professionnel"
 description: "Pourquoi avoir un mentor supply chain au Maroc peut accélérer votre carrière, et comment trouver la bonne personne pour vous guider."
 ---
@@ -11,7 +11,7 @@ description: "Pourquoi avoir un mentor supply chain au Maroc peut accélérer vo
 
 Les professionnels qui progressent le plus vite dans leur carrière ont un point en commun : ils ont bénéficié de conseils de personnes qui les avaient précédés. Un mentor n'est pas un coach (vous le payez) ni un manager (il vous évalue) — c'est quelqu'un qui partage son expérience parce qu'il veut vous voir réussir.
 
-![Mentor supply chain Maroc](/images/conseil.jpg)
+![Mentor supply chain Maroc](/images/conseil.webp)
 
 ## Ce qu'un Mentor Peut Apporter
 

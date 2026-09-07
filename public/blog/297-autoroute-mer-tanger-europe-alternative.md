@@ -3,14 +3,14 @@ title: "Autoroute de la Mer Tanger-Europe : une Alternative au Tout-Routier"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "autoroute de la mer maroc europe, ferry ro-ro tanger med, alternative maritime transport routier maroc"
 description: "Jusqu'à 247 traversées hebdomadaires depuis Tanger Med. Comment l'autoroute de la mer maritime offre une alternative crédible au tout-routier face à la hausse des coûts."
 ---
 
 # Autoroute de la Mer Tanger-Europe : une Alternative au Tout-Routier
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Une "autoroute de la mer" désigne des liaisons maritimes courte distance conçues pour réduire le trafic routier, un principe porté par la politique commune des transports de l'Union européenne pour renforcer les connexions avec les régions périphériques et les pays partenaires.** Le Maroc bénéficie déjà d'une infrastructure concrète sur ce principe : le port de Tanger Med propose jusqu'à 247 traversées hebdomadaires, connectant le Maroc à l'Espagne, la France et l'Italie — une fréquence qui en fait une alternative crédible au transport routier pur pour relier le Maroc à l'Europe.
 

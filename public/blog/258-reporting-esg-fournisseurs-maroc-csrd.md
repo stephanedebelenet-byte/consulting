@@ -3,14 +3,14 @@ title: "Reporting ESG : ce que les Nouvelles Normes Imposent aux Fournisseurs Ma
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "reporting ESG fournisseurs maroc, CSRD impact maroc, norme durabilité sous-traitant maroc"
 description: "La CSRD européenne s'applique aussi aux chaînes de valeur des entreprises non-européennes. Ce que ça change concrètement pour un fournisseur ou sous-traitant marocain."
 ---
 
 # Reporting ESG : ce que les Nouvelles Normes Imposent aux Fournisseurs Marocains
 
-![Bureau et conformité](/images/office.jpg)
+![Bureau et conformité](/images/office.webp)
 
 **La CSRD (Corporate Sustainability Reporting Directive) est une directive européenne qui oblige les grandes entreprises européennes à publier un reporting détaillé sur leur impact environnemental, social et de gouvernance — et ce reporting couvre l'ensemble de leur chaîne de valeur, y compris leurs fournisseurs et sous-traitants situés hors de l'Union européenne.** Pour une entreprise marocaine qui fournit ou sous-traite pour un donneur d'ordre européen, la CSRD ne s'applique pas directement — mais elle change concrètement ce que ce donneur d'ordre va lui demander : données de consommation énergétique, conditions sociales de production, gestion des déchets, souvent via un questionnaire ou un audit fournisseur ([Forvis Mazars Maroc](https://www.forvismazars.com/ma/fr/insights/nos-contributions/csrd-impact-sur-les-entreprises-marocaines)).
 

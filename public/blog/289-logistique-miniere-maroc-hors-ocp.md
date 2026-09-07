@@ -3,14 +3,14 @@ title: "Logistique Minière au Maroc : au-delà de l'OCP"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/construction.jpg"
+image: "/images/construction.webp"
 keywords: "logistique minière maroc, mines maroc hors phosphate, exploitation minière maroc barytine cobalt"
 description: "1,7 million de tonnes de minerais hors phosphate exportées chaque année par le Maroc. Un secteur minier diversifié et sous-couvert, au-delà de l'OCP."
 ---
 
 # Logistique Minière au Maroc : au-delà de l'OCP
 
-![Construction et industrie](/images/construction.jpg)
+![Construction et industrie](/images/construction.webp)
 
 **Le secteur minier marocain ne se résume pas au phosphate et à l'OCP : le pays exporte en moyenne 1,7 million de tonnes d'autres minerais chaque année, soit environ 6% de la production minière globale — principalement de la barytine (572 000 tonnes), du sel (503 000 tonnes) et de la bentonite (110 000 tonnes), avec des volumes plus modestes de fluorine, zinc, cuivre et manganèse ([La Vie Éco](https://www.lavieeco.com/affaires/produits-miniers-hors-phosphates-1-7-million-de-tonnes-exporte-en-moyenne-par-an-24424/)).** Ce secteur diversifié reste largement dans l'ombre médiatique et logistique de l'OCP, alors qu'il structure sa propre chaîne d'approvisionnement, avec ses propres contraintes.
 

@@ -3,14 +3,14 @@ title: "Cybersécurité de la Supply Chain : le Maillon Faible que les Entrepris
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "cybersécurité supply chain maroc, cyberattaque fournisseur, risque tiers numérique, sécurité chaîne approvisionnement"
 description: "45% des organisations dans le monde auront subi une attaque via leur chaîne d'approvisionnement logicielle selon Gartner. Comment une entreprise marocaine limite son exposition via ses fournisseurs."
 ---
 
 # Cybersécurité de la Supply Chain : le Maillon Faible que les Entreprises Marocaines Négligent
 
-![Données et sécurité informatique](/images/analytics.jpg)
+![Données et sécurité informatique](/images/analytics.webp)
 
 **Une cyberattaque via la supply chain ne cible pas directement l'entreprise, mais l'un de ses fournisseurs, prestataires informatiques ou outils tiers — un point d'entrée souvent moins protégé que le système d'information de la cible finale.** Selon Gartner, 45% des organisations dans le monde auront subi une attaque sur leur chaîne d'approvisionnement logicielle d'ici 2025, soit un triplement depuis 2021 ([Gartner, cité par Cyberdesserts](https://blog.cyberdesserts.com/gartners-2025-supply-chain-prediction-a-retrospective-look-at-what-actually-happened/)). Cette statistique est mondiale — aucune donnée équivalente n'est publiée spécifiquement pour le Maroc — mais la logique qu'elle décrit (un fournisseur mal sécurisé devient la porte d'entrée vers l'entreprise cible) s'applique à toute organisation marocaine connectée numériquement à ses partenaires commerciaux.
 

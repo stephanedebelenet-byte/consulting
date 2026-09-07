@@ -2,7 +2,7 @@
 title: "Formation Continue Supply Chain pour Cadres au Maroc : Rester Compétitif"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "formation continue supply chain Maroc, formation cadres logistique Maroc, développement professionnel supply chain, mise à niveau supply chain cadres"
 description: "Formation continue supply chain pour cadres et managers au Maroc : quelles compétences mettre à jour, comment rester compétitif face aux nouvelles technologies et méthodes."
 ---
@@ -13,7 +13,7 @@ Un cadre supply chain qui n'a pas suivi de formation en 5 ans travaille avec des
 
 La formation continue n'est pas un luxe. C'est une assurance professionnelle.
 
-![Formation continue pour cadres supply chain](/images/analytics.jpg)
+![Formation continue pour cadres supply chain](/images/analytics.webp)
 
 ## Ce qui a Changé en Supply Chain en 5 Ans
 

@@ -2,7 +2,7 @@
 title: "Auto-Diagnostic Logistique PME au Maroc : 20 Questions pour Évaluer votre Supply Chain"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "diagnostic logistique pme maroc, auto-diagnostic supply chain, évaluation logistique entreprise maroc, bilan logistique pme, check-list supply chain maroc"
 description: "20 questions pour auto-diagnostiquer la performance logistique de votre PME au Maroc. Scoring, résultats et plan d'action. Outil gratuit basé sur 110+ audits terrain."
 ---
@@ -13,7 +13,7 @@ Avant de faire appel à un consultant, avant d'investir dans un WMS ou de recrut
 
 La plupart des dirigeants de PME marocaines que je rencontre ont un sentiment diffus que "la logistique pose des problèmes". Ce diagnostic vous aide à transformer ce sentiment en données — et les données en priorités.
 
-![Analyse et diagnostic supply chain PME au Maroc — métriques et performance](/images/analytics.jpg)
+![Analyse et diagnostic supply chain PME au Maroc — métriques et performance](/images/analytics.webp)
 
 ---
 

@@ -3,14 +3,14 @@ title: "Cartographier les Risques de sa Supply Chain : la Méthode en 4 Étapes"
 date: "2026-08-24"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "cartographie risques supply chain, méthode PPRR supply chain, gestion des risques logistique maroc, audit risque fournisseur"
 description: "Prévention, préparation, réponse, rétablissement : la méthode PPRR appliquée à la cartographie des risques d'une supply chain marocaine, en 4 étapes concrètes."
 ---
 
 # Cartographier les Risques de sa Supply Chain : la Méthode en 4 Étapes
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Cartographier les risques d'une supply chain consiste à identifier, évaluer et hiérarchiser les points de vulnérabilité d'une chaîne d'approvisionnement, avant qu'un incident ne les révèle de la pire manière possible.** La plupart des PME marocaines découvrent leurs risques logistiques après coup — un fournisseur unique qui fait défaut, une rupture de stock liée à un incident de transport, une dépendance non identifiée à un seul axe routier. Une cartographie structurée inverse cette logique : elle rend visible avant l'incident ce que l'entreprise ne découvrirait sinon qu'en le subissant.
 

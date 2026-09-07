@@ -10,7 +10,7 @@ description: "Renault Group Maroc a produit 394 474 véhicules en 2025. Retour s
 
 # Supply Chain Automobile au Maroc : la complexité du Juste-à-Temps chez Renault Tanger
 
-![Site industriel et logistique automobile](/images/construction.jpg)
+![Site industriel et logistique automobile](/images/construction.webp)
 
 **Renault Group Maroc a produit 394 474 véhicules en 2025, dont l'essentiel destiné à l'export.** L'usine de Tanger à elle seule exporte 95% de sa production. Un tel volume ne fonctionne que si la logistique amont est conçue pour zéro tolérance à la rupture.
 

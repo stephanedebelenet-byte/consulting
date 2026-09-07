@@ -3,14 +3,14 @@ title: "Entrepôts Éco-Responsables : Certification et Bonnes Pratiques Énerg�
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "entrepôt éco-responsable maroc, réduction facture énergétique entrepôt, entrepôt économe énergie"
 description: "Un entrepôt de 10 000 m² consomme jusqu'à 250 000 euros d'énergie par an. Les leviers concrets pour réduire cette facture, transposables à un entrepôt marocain."
 ---
 
 # Entrepôts Éco-Responsables : Certification et Bonnes Pratiques Énergétiques
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **Un entrepôt éco-responsable est un site conçu ou rénové pour minimiser sa consommation d'énergie — éclairage, chauffage, climatisation, manutention — sans dégrader sa performance opérationnelle.** L'enjeu financier est loin d'être marginal : un entrepôt logistique de 10 000 m² consomme en moyenne entre 80 et 150 kWh/m²/an, soit une facture énergétique annuelle comprise entre 120 000 et 250 000 euros selon le profil d'activité (données du marché français, faute de référence chiffrée équivalente publiée pour le Maroc). Pour un entrepôt marocain de taille comparable, avec un ensoleillement nettement supérieur à la moyenne européenne, le potentiel d'économie via l'énergie solaire est structurellement plus élevé que dans les références disponibles.
 

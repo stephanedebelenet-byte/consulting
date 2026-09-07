@@ -11,7 +11,7 @@ description: "Nextinotech travaille-t-il avec les petites entreprises ? Position
 
 # Travaillez-vous Avec Petites Entreprises ?
 
-![Conseil et accompagnement PME](/images/business.jpg)
+![Conseil et accompagnement PME](/images/business.webp)
 
 **Oui — Nextinotech est positionné spécifiquement pour les PME et ETI marocaines**, pas pour les grands groupes internationaux avec des budgets de transformation à plusieurs millions de MAD. C'est un choix de positionnement, pas une contrainte de taille.
 

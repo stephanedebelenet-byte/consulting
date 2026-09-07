@@ -3,14 +3,14 @@ title: "Supply Chain Textile Technique et Denim : ce qui Différencie le Maroc d
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/construction.jpg"
+image: "/images/construction.webp"
 keywords: "supply chain textile technique maroc, denim maroc export, sourcing textile maroc vs asie"
 description: "Une livraison en 3-5 jours vers l'Europe contre 3 semaines depuis l'Asie. Le denim marocain, segment le plus structuré du secteur, illustre l'avantage de proximité face aux géants asiatiques."
 ---
 
 # Supply Chain Textile Technique et Denim : ce qui Différencie le Maroc de l'Asie
 
-![Construction et industrie](/images/construction.jpg)
+![Construction et industrie](/images/construction.webp)
 
 **Le denim est historiquement le segment le plus structuré de l'industrie textile marocaine, maîtrisant l'ensemble du processus industriel — conception, sourcing du tissu, coupe, confection, délavage, broderie — une intégration verticale rare qui distingue le Maroc de nombreux concurrents qui ne maîtrisent qu'un maillon isolé de la chaîne.** Cette maîtrise complète du processus s'accompagne d'un avantage logistique concret face à l'Asie : le Maroc offre une livraison vers l'Europe en 3 à 5 jours, contre environ 3 semaines depuis l'Asie — un écart de délai qui pèse lourd pour des marques qui doivent réagir vite aux tendances de mode ou reconstituer rapidement un stock en rupture.
 

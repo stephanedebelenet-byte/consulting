@@ -3,14 +3,14 @@ title: "SAP vs Odoo vs Dynamics 365 : Quel ERP pour la Supply Chain d'une PME Ma
 date: "2026-08-19"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "erp supply chain maroc comparatif, sap vs odoo vs dynamics 365, choisir erp pme maroc, sap business one maroc"
 description: "SAP Business One, Odoo 19 ou Dynamics 365 Supply Chain Management : comparatif factuel et sans parti pris pour une PME marocaine, sans commission éditeur."
 ---
 
 # SAP vs Odoo vs Dynamics 365 : Quel ERP pour la Supply Chain d'une PME Marocaine ?
 
-![Digitalisation et systèmes d'information](/images/analytics.jpg)
+![Digitalisation et systèmes d'information](/images/analytics.webp)
 
 **Il n'y a pas de meilleur ERP dans l'absolu — seulement le mieux adapté à votre échelle, votre budget et votre écosystème existant.** Pour une PME marocaine qui compare SAP, Odoo et Microsoft Dynamics 365 pour piloter sa supply chain, trois logiques s'opposent : Odoo mise sur l'accessibilité et la localisation marocaine (comptabilité PCGE, TVA, CNSS), SAP Business One sur la robustesse pour des opérations complexes ou multi-pays, Dynamics 365 Supply Chain Management sur l'intégration à l'écosystème Microsoft et l'IA embarquée. Aucune des trois n'est objectivement supérieure — chacune répond à un contexte différent.
 

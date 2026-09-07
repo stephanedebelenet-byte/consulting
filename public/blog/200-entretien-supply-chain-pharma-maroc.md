@@ -2,7 +2,7 @@
 title: "Entretien Supply Chain dans le Secteur Pharmaceutique au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "entretien supply chain pharmaceutique Maroc, recrutement logistique pharma Maroc, supply chain santé Maroc entretien, questions SC pharma"
 description: "Comment réussir un entretien supply chain dans l'industrie pharmaceutique au Maroc ? Les normes BPF, la traçabilité, et ce que les recruteurs évaluent dans ce secteur réglementé."
 ---
@@ -11,7 +11,7 @@ description: "Comment réussir un entretien supply chain dans l'industrie pharma
 
 Le pharmaceutique est le secteur supply chain le plus réglementé au Maroc. Les Bonnes Pratiques de Fabrication (BPF), la traçabilité totale, la gestion des dates de péremption — ce sont des réalités quotidiennes qui exigent une rigueur et une connaissance réglementaire spécifiques.
 
-![Entretien supply chain pharmaceutique Maroc](/images/business.jpg)
+![Entretien supply chain pharmaceutique Maroc](/images/business.webp)
 
 ## Les Spécificités de la Supply Chain Pharmaceutique
 

@@ -2,7 +2,7 @@
 title: "Certification APICS CPIM au Maroc : Valeur, Préparation et Coût"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "certification APICS Maroc, CPIM Maroc, CSCP Maroc, certification supply chain internationale Maroc, APICS formation Maroc"
 description: "La certification APICS CPIM ou CSCP vaut-elle le coût au Maroc ? Valeur sur le marché, comment se préparer et combien ça coûte vraiment. Guide 2026."
 ---
@@ -13,7 +13,7 @@ L'APICS est la référence mondiale en supply chain et gestion des opérations. 
 
 Voici ce que vous devez savoir avant d'investir.
 
-![Certification supply chain internationale](/images/analytics.jpg)
+![Certification supply chain internationale](/images/analytics.webp)
 
 ## CPIM vs CSCP : Quelle Différence ?
 

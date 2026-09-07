@@ -3,14 +3,14 @@ title: "Coût Réel d'un Projet ERP Logistique : Budget, Délais et Pièges à �
 date: "2026-08-25"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "coût projet ERP maroc, budget ERP PME maroc, prix implémentation ERP maroc, subvention MOWAKABA ERP"
 description: "Entre 70 000 et 900 000 MAD selon la taille de l'entreprise, une subvention MOWAKABA qui peut couvrir jusqu'à 90% : le vrai coût d'un projet ERP logistique au Maroc."
 ---
 
 # Coût Réel d'un Projet ERP Logistique : Budget, Délais et Pièges à Éviter
 
-![Données et indicateurs](/images/analytics.jpg)
+![Données et indicateurs](/images/analytics.webp)
 
 **Le coût réel d'un projet ERP ne se limite jamais au prix de la licence logicielle — il inclut l'intégration, le paramétrage, la migration des données, la formation et le support, des postes qui représentent souvent la majorité de la facture totale.** Pour une PME marocaine, ce coût varie fortement selon la taille et la complexité du projet, mais un mécanisme de subvention publique peu connu peut en réduire l'impact réel de façon spectaculaire.
 

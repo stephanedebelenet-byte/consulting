@@ -3,14 +3,14 @@ title: "Blockchain et Traçabilité Agroalimentaire : un Vrai Levier Export pour
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/agro.jpg"
+image: "/images/agro.webp"
 keywords: "blockchain traçabilité agroalimentaire maroc, traçabilité export coopérative maroc, blockchain agriculture souss-massa"
 description: "Une étude menée dans la région Souss-Massa montre comment la blockchain renforce la confiance des acheteurs internationaux envers les coopératives agricoles marocaines."
 ---
 
 # Blockchain et Traçabilité Agroalimentaire : un Vrai Levier Export pour les Coopératives Marocaines
 
-![Agroalimentaire et export](/images/agro.jpg)
+![Agroalimentaire et export](/images/agro.webp)
 
 **La blockchain appliquée à la traçabilité agroalimentaire enregistre chaque étape d'un produit — récolte, transformation, conditionnement, transport — dans un registre infalsifiable et partagé entre tous les acteurs de la chaîne, du producteur à l'acheteur final.** Pour une coopérative agricole marocaine qui exporte vers l'Europe, l'enjeu n'est pas la technologie elle-même mais ce qu'elle résout : la difficulté à prouver, de façon vérifiable par un acheteur étranger, l'origine et les conditions de production d'un produit. Une étude menée dans la région Souss-Massa sur des coopératives agricoles marocaines montre que la blockchain peut apporter une contribution significative à la transparence de la chaîne d'approvisionnement, renforçant la réputation des coopératives sur les marchés internationaux et leur position concurrentielle face à des producteurs de pays émergents concurrents ([African Scientific Journal](https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/1153)).
 

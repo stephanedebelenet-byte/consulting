@@ -2,7 +2,7 @@
 title: "Formation Acheteur Professionnel au Maroc : Compétences, Salaires et Débouchés 2026"
 date: "2026-08-10"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "formation acheteur professionnel maroc, cursus acheteur maroc, acheteur supply chain maroc, formation achats casablanca, certification acheteur maroc, négociation achats formation maroc, responsable achats maroc"
 description: "Guide complet formation Acheteur Professionnel au Maroc : ce que fait vraiment un acheteur, compétences, programme 3 modules, certifications, salaires et débouchés 2026."
 ---
@@ -13,7 +13,7 @@ La fonction achats est l'une des plus stratégiques de l'entreprise — et l'une
 
 Pourtant, la formation achats au Maroc reste embryonnaire et les profils vraiment compétents sont rares. La bonne nouvelle : c'est une compétence qui s'apprend, et vite.
 
-![Négociation et stratégie achats — performance supply chain au Maroc](/images/business.jpg)
+![Négociation et stratégie achats — performance supply chain au Maroc](/images/business.webp)
 
 ::stat:: 710M MAD — d'achats pilotés dans les missions Nextinotech au Maroc et en Afrique
 

@@ -3,14 +3,14 @@ title: "Construire son Premier Tableau de Bord IA Supply Chain sans Data Scienti
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "tableau de bord IA supply chain, no-code BI logistique, dashboard supply chain PME maroc, self-service BI"
 description: "70% des nouvelles applications d'entreprise utiliseront le no-code/low-code d'ici 2025 selon Gartner. Comment une PME marocaine construit un tableau de bord supply chain sans équipe IT dédiée."
 ---
 
 # Construire son Premier Tableau de Bord IA Supply Chain sans Data Scientist
 
-![Données et pilotage supply chain](/images/analytics.jpg)
+![Données et pilotage supply chain](/images/analytics.webp)
 
 **Un tableau de bord supply chain "no-code" ou "low-code" permet à un responsable logistique ou achats de créer ses propres visualisations et alertes à partir des données de l'entreprise, via une interface visuelle, sans écrire de code ni dépendre d'une équipe IT ou d'un data scientist.** Ce n'est pas une tendance marginale : selon Gartner, 70% des nouvelles applications développées par les entreprises utiliseront des technologies low-code ou no-code d'ici 2025, contre moins de 25% en 2020 — et la part des utilisateurs de no-code situés hors des départements IT devrait atteindre 80% d'ici fin 2026, contre 60% en 2021.
 

@@ -2,7 +2,7 @@
 title: "L'Anglais en Supply Chain au Maroc : Pourquoi c'est Critique et Comment Progresser"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "anglais supply chain Maroc, apprendre anglais logistique Maroc, anglais professionnel supply chain, améliorer anglais logisticien Maroc"
 description: "L'anglais est-il vraiment nécessaire en supply chain au Maroc ? Oui, de plus en plus. Voici pourquoi, dans quels contextes, et comment progresser efficacement."
 ---
@@ -13,7 +13,7 @@ description: "L'anglais est-il vraiment nécessaire en supply chain au Maroc ? O
 
 Parce que la supply chain est internationale. Parce que les certifications, les outils, les fournisseurs, les formations, et de plus en plus les employeurs sont anglophones. Parce que les postes qui ne demandent pas l'anglais sont souvent les postes qui n'évoluent pas.
 
-![Anglais supply chain Maroc professionnel](/images/office.jpg)
+![Anglais supply chain Maroc professionnel](/images/office.webp)
 
 ## Où l'Anglais est Indispensable en Supply Chain
 

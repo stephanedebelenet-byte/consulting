@@ -2,7 +2,7 @@
 title: "Travailler en Supply Chain dans le Golfe depuis le Maroc : Guide Pratique"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "emploi supply chain Golfe Maroc, logistique EAU Qatar Arabie expatriation Maroc, supply chain Dubai Maroc, travailler Golfe supply chain"
 description: "Comment trouver un emploi en supply chain dans le Golfe (EAU, Arabie Saoudite, Qatar) depuis le Maroc ? Salaires, entreprises qui recrutent, visa, et stratégie."
 ---
@@ -13,7 +13,7 @@ Les pays du Golfe offrent aux professionnels supply chain marocains une opportun
 
 Des milliers de Marocains travaillent déjà dans la supply chain du Golfe. Voici comment les rejoindre.
 
-![Supply chain Golfe Persique expatriation Maroc](/images/transport.jpg)
+![Supply chain Golfe Persique expatriation Maroc](/images/transport.webp)
 
 ## Pourquoi le Golfe Attire
 

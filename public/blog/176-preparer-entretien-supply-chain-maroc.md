@@ -2,7 +2,7 @@
 title: "Préparer un Entretien Supply Chain au Maroc : Guide Complet"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "préparer entretien supply chain Maroc, entretien emploi logistique Maroc, questions entretien supply chain, réussir entretien logistique Maroc"
 description: "Comment préparer un entretien d'embauche supply chain au Maroc ? Recherche entreprise, réponses aux questions, présentation — le guide complet pour réussir."
 ---
@@ -11,7 +11,7 @@ description: "Comment préparer un entretien d'embauche supply chain au Maroc ? 
 
 L'entretien supply chain n'est pas un examen qu'on passe. C'est une conversation entre deux professionnels pour déterminer si la collaboration sera mutuellement bénéfique. Préparez-le comme tel.
 
-![Préparer entretien supply chain Maroc](/images/conseil.jpg)
+![Préparer entretien supply chain Maroc](/images/conseil.webp)
 
 ## 48h Avant : La Préparation Fondamentale
 

@@ -2,7 +2,7 @@
 title: "Entrepreneuriat en Supply Chain au Maroc : Opportunités pour les Jeunes"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "entrepreneuriat supply chain Maroc jeunes, créer entreprise logistique Maroc, startup logistique Maroc, auto-entrepreneur logistique Maroc"
 description: "Les opportunités entrepreneuriales en supply chain au Maroc pour les jeunes : idées de business, conditions de succès, et comment se lancer après un début de carrière."
 ---
@@ -11,7 +11,7 @@ description: "Les opportunités entrepreneuriales en supply chain au Maroc pour 
 
 La supply chain n'est pas juste un secteur où travailler — c'est aussi un secteur où entreprendre. Les problèmes logistiques des PME marocaines, les besoins en transport optimisé, les services aux e-commerçants — ce sont autant d'opportunités pour des jeunes entrepreneurs avec une expertise supply chain.
 
-![Entrepreneuriat supply chain Maroc jeunes](/images/conseil.jpg)
+![Entrepreneuriat supply chain Maroc jeunes](/images/conseil.webp)
 
 ## Pourquoi la Supply Chain est Propice à l'Entrepreneuriat
 

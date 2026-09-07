@@ -3,14 +3,14 @@ title: "Achats Durables et RSE Fournisseurs : la Grille d'Audit pour PME Marocai
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "achats responsables maroc, audit rse fournisseurs, grille audit fournisseurs pme, csrd fournisseurs maroc, ecovadis maroc"
 description: "CSRD, EcoVadis, Label RSE CGEM : comment les PME marocaines fournisseurs de multinationales peuvent construire une grille d'audit RSE réaliste, sans se faire déborder."
 ---
 
 # Achats Durables et RSE Fournisseurs : la Grille d'Audit pour PME Marocaines
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Les achats responsables désignent l'intégration de critères environnementaux, sociaux et éthiques dans la sélection et le suivi des fournisseurs — au Maroc, la pression vient désormais autant des donneurs d'ordre exportateurs que des acheteurs eux-mêmes.** Une PME marocaine qui fournit une filiale d'un groupe international se voit de plus en plus demander des données RSE et carbone qu'elle ne sait pas structurer. Deux référentiels dominent ces demandes — EcoVadis côté international, le Label RSE de la CGEM côté marocain — et une nouvelle règle européenne, le "Value Chain Cap", limite désormais ce qu'un grand groupe a le droit d'exiger d'un petit fournisseur. Cet article construit une grille d'audit réaliste à partir de ces trois éléments, sans transformer une PME en filiale conformité d'un groupe européen.
 

@@ -3,14 +3,14 @@ title: "Véhicules Verts pour sa Flotte Logistique : Électrique ou Hybride au M
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "flotte véhicules verts logistique maroc, véhicule électrique flotte maroc, hybride flotte transport maroc"
 description: "Le parc de véhicules électriques a franchi les 15 000 unités au Maroc en 2025, en doublement depuis 2023. Comparatif électrique vs hybride pour une flotte logistique marocaine."
 ---
 
 # Véhicules Verts pour sa Flotte Logistique : Électrique ou Hybride au Maroc
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Pour une flotte logistique marocaine qui veut réduire sa dépendance au diesel, deux options concrètes existent aujourd'hui sur le marché : le véhicule 100% électrique (BEV) et l'hybride rechargeable (PHEV) — le GNV (gaz naturel pour véhicules), répandu dans d'autres pays, reste quasiment absent de l'offre marocaine.** Le parc de véhicules électriques au Maroc a franchi la barre des 15 000 unités en 2025, avec un doublement des immatriculations entre 2023 et 2025 — une dynamique portée par la hausse continue du prix du carburant, l'essence dépassant régulièrement 14 MAD le litre.
 

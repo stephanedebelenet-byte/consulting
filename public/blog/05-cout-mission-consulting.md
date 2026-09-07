@@ -2,7 +2,7 @@
 title: "Combien Coûte une Mission de Consulting Supply Chain?"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "coût consulting supply chain, devis mission, budget conseil logistique, ROI conseil"
 description: "Transparent : les coûts réels d'une mission de consulting supply chain. Modèles pricing, facteurs, et ROI."
 ---

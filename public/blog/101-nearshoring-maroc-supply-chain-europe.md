@@ -2,7 +2,7 @@
 title: "Nearshoring au Maroc : Pourquoi les Entreprises Européennes Relocalisent"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "nearshoring Maroc, relocalisation supply chain, Maroc hub logistique, supply chain Europe Maroc, offshoring Maroc"
 description: "Le nearshoring au Maroc s'accélère en 2026. Pourquoi les entreprises européennes relocalisent leur supply chain au Maroc — et comment en tirer parti concrètement."
 ---
@@ -13,7 +13,7 @@ En 2020, les ruptures Covid ont révélé une vérité que beaucoup refusaient d
 
 Le Maroc est devenu, en l'espace de 5 ans, l'une des destinations nearshoring les plus sérieuses de la région Méditerranée.
 
-![Vue du Port de Tanger Med, hub logistique majeur](/images/transport.jpg)
+![Vue du Port de Tanger Med, hub logistique majeur](/images/transport.webp)
 
 ## Pourquoi le Nearshoring s'Accélère en 2026
 

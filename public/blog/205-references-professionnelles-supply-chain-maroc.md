@@ -2,7 +2,7 @@
 title: "Les Références Professionnelles en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "références professionnelles supply chain Maroc, background check logistique Maroc, lettres de recommandation SC Maroc, vérification références emploi Maroc"
 description: "Comment gérer les références professionnelles dans votre recherche d'emploi supply chain au Maroc ? Qui choisir, comment les préparer, et comment les recruteurs font leur vérification."
 ---
@@ -11,7 +11,7 @@ description: "Comment gérer les références professionnelles dans votre recher
 
 "Pouvez-vous nous fournir des références ?" — cette question arrive souvent en fin de processus de recrutement. Bien gérées, vos références peuvent être le facteur décisif. Mal gérées, elles peuvent saborder une candidature pourtant solide.
 
-![Références professionnelles supply chain Maroc](/images/conseil.jpg)
+![Références professionnelles supply chain Maroc](/images/conseil.webp)
 
 ## Le Rôle des Références dans le Recrutement SC au Maroc
 

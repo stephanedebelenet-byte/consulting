@@ -3,14 +3,14 @@ title: "Transport Frigorifique Routier : Normes et Coûts Spécifiques au March�
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "transport frigorifique routier maroc, normes camion frigorifique maroc, arrêté 1196-03 transport froid"
 description: "L'arrêté conjoint n°1196-03 encadre les engins isothermes et frigorifiques au Maroc depuis 2004. Les normes et contraintes spécifiques du transport routier sous température dirigée."
 ---
 
 # Transport Frigorifique Routier : Normes et Coûts Spécifiques au Marché Marocain
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Le transport frigorifique routier au Maroc est encadré par un texte réglementaire précis, l'arrêté conjoint n° 1196-03 du 30 avril 2004, qui fixe les normes que doivent respecter les engins de transport isothermes, réfrigérants ou frigorifiques, ainsi que les méthodes d'essai et de contrôle appliquées à ces véhicules.** Concrètement, un camion frigorifique en trafic international doit porter une plaque d'attestation de conformité visible et permanente, résistante à la corrosion et au feu, d'au moins 160 mm sur 100 mm — une exigence précise qui distingue le transport frigorifique du transport routier classique dès le contrôle documentaire.
 

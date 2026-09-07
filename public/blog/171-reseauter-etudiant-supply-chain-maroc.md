@@ -2,7 +2,7 @@
 title: "Réseauter Quand on est Étudiant Supply Chain au Maroc : Le Guide"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "réseauter étudiant supply chain Maroc, réseau professionnel étudiant logistique, networking supply chain étudiant Maroc, contacts professionnels supply chain Maroc"
 description: "Comment construire son réseau professionnel supply chain quand on est encore étudiant au Maroc ? Actions concrètes pour sortir de l'école avec un réseau utile."
 ---
@@ -13,7 +13,7 @@ Le mythe : le réseau professionnel, ça se construit après l'école.
 
 La réalité : les étudiants qui sortent avec un réseau déjà actif trouvent un emploi en 30-45 jours. Ceux qui n'en ont pas cherchent pendant 3-6 mois.
 
-![Réseau professionnel étudiant supply chain Maroc](/images/office.jpg)
+![Réseau professionnel étudiant supply chain Maroc](/images/office.webp)
 
 ## Pourquoi Commencer Pendant les Études
 

@@ -3,14 +3,14 @@ title: "Pourquoi les Femmes Disparaissent des Postes Exécutifs Supply Chain"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "femmes postes exécutifs supply chain, plafond de verre supply chain, barreau cassé carrière femmes logistique"
 description: "80% des femmes en supply chain démarrent au niveau employé, contre 73% des hommes. Ce que le phénomène du 'barreau cassé' révèle sur la disparition des femmes en cours de carrière."
 ---
 
 # Pourquoi les Femmes Disparaissent des Postes Exécutifs Supply Chain
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le phénomène qui explique la sous-représentation des femmes dans les postes de direction supply chain n'est pas un plafond de verre unique situé tout en haut de la hiérarchie, mais ce que les chercheurs appellent le "barreau cassé" (broken rung) : une perte progressive à chaque échelon intermédiaire de la carrière, bien avant d'atteindre les postes de direction.** Une donnée illustre ce point de départ : 80% des femmes qui rejoignent la supply chain démarrent au niveau employé, contre 73% des hommes — un écart qui semble faible au premier abord, mais qui se creuse à chaque étape suivante de la progression de carrière ([The Conversation, Université Grenoble Alpes](https://theconversation.com/supply-chain-management-la-lente-progression-de-carriere-des-femmes-157994)). Notre article sur les [femmes dans la supply chain marocaine](/blog/femmes-dans-la-supply-chain-marocaine-o-en-est-on-vraiment) présente la photographie d'ensemble (41% des effectifs mondiaux, 15-17% des postes de direction) ; celui-ci se concentre spécifiquement sur le mécanisme qui explique cette disparition progressive.
 

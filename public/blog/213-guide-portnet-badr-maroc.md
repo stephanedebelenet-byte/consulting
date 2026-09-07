@@ -3,14 +3,14 @@ title: "Guide PORTNET et BADR 2026 : Maîtriser les Plateformes Douanières Maro
 date: "2026-08-19"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "portnet badr guide maroc, guichet unique commerce extérieur maroc, système badr douane maroc, déclaration douanière maroc"
 description: "PORTNET et BADR ne se confondent pas : guichet unique national d'un côté, système de dédouanement de l'ADII de l'autre. Guide pratique après la refonte PORTNET de mai-juin 2026."
 ---
 
 # Guide PORTNET et BADR 2026 : Maîtriser les Plateformes Douanières Marocaines
 
-![Digitalisation et systèmes d'information](/images/analytics.jpg)
+![Digitalisation et systèmes d'information](/images/analytics.webp)
 
 **PORTNET et BADR sont deux systèmes distincts, souvent confondus.** PORTNET est le guichet unique national du commerce extérieur — il centralise une vingtaine de formalités d'import-export pour tous les acteurs concernés (importateurs, exportateurs, banques, transitaires, administrations). BADR (Base Automatisée des Douanes en Réseau) est le système de dédouanement propre à l'Administration des Douanes et Impôts Indirects (ADII) — il traite spécifiquement la déclaration douanière et n'est accessible qu'aux transitaires agréés. Comprendre lequel fait quoi évite des pertes de temps évitables, d'autant que PORTNET vient de connaître une refonte majeure entre mai et juin 2026.
 

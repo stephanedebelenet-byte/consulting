@@ -3,14 +3,14 @@ title: "Régimes Douaniers Suspensifs (Admission Temporaire, EIF) : Stock Théor
 date: "2026-08-26"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "admission temporaire maroc, entrepôt industriel franc maroc, régime douanier suspensif, apurement douane maroc, stock théorique douane"
 description: "Le stock vu par la douane n'est pas toujours le stock vu par la logistique. Ce que dit le Code des douanes marocain sur l'Admission Temporaire et l'EIF, et le risque réel d'écart."
 ---
 
 # Régimes Douaniers Suspensifs (Admission Temporaire, EIF) : Stock Théorique vs Stock Réel
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Un régime douanier suspensif permet d'importer des marchandises, matériels ou équipements en suspension des droits et taxes, à condition de respecter des obligations précises de réexportation ou d'usage — l'Admission Temporaire (AT) et l'Entrepôt Industriel Franc (EIF) en sont les deux piliers les plus utilisés par l'industrie exportatrice marocaine, notamment en automobile et en aéronautique.** Le bénéfice fiscal est réel, mais il a une contrepartie souvent sous-estimée : le stock que voit la douane, calculé selon des règles précises du Code des douanes, n'est pas toujours celui que voit la logistique au quotidien. Cet écart, s'il n'est pas traité en amont, devient un risque de redressement.
 

@@ -3,14 +3,14 @@ title: "Recruter la Génération Z en Logistique : ce qui a Changé, ce qu'il Fa
 date: "2026-08-23"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "recruter génération Z logistique, génération Z entrepôt maroc, attentes jeunes travail logistique, fidélisation gen z supply chain"
 description: "Sens, reconnaissance, évolution lisible : ce que la génération Z attend réellement d'un poste en logistique, et pourquoi les méthodes de recrutement classiques ne suffisent plus."
 ---
 
 # Recruter la Génération Z en Logistique : ce qui a Changé, ce qu'il Faut Arrêter de Faire
 
-![Bureau et ressources humaines](/images/office.jpg)
+![Bureau et ressources humaines](/images/office.webp)
 
 **La génération Z désigne ici les actifs nés après 1997, qui représentent une part croissante des effectifs en entrepôt, en production et dans les fonctions supply chain.** Leurs attentes ne ressemblent pas à celles de leurs aînés sur les mêmes postes — et les entreprises logistiques marocaines qui continuent à recruter et manager comme il y a dix ans se privent d'un vivier de plus en plus déterminant.
 

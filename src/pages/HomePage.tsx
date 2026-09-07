@@ -52,9 +52,9 @@ const ACCOMPAGNEMENTS = [
 // Même 4 logos et même patron visuel que la section "Ils nous font confiance" de References.tsx.
 const PROOF_LOGOS = [
   { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34 },
-  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.png', height: 40 },
+  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.webp', height: 40 },
   { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26 },
-  { name: 'Casanet', file: '/images/logos/casanet.png', height: 46 },
+  { name: 'Casanet', file: '/images/logos/casanet.webp', height: 46 },
 ]
 
 export default function HomePage() {

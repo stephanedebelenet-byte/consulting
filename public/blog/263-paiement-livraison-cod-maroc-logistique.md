@@ -3,14 +3,14 @@ title: "Paiement à la Livraison (COD) : Optimiser sa Logistique quand la Majori
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "paiement livraison COD maroc, cash on delivery e-commerce maroc, gestion trésorerie livraison cash"
 description: "Plus de 66% des commandes e-commerce marocaines sont réglées en espèces à la livraison selon l'ANRT. Comment organiser sa logistique et sa trésorerie autour de cette réalité."
 ---
 
 # Paiement à la Livraison (COD) : Optimiser sa Logistique quand la Majorité des Commandes Restent Cash
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le paiement à la livraison (COD, Cash on Delivery) reste le mode de règlement dominant du e-commerce marocain : selon l'Enquête nationale sur les technologies de l'information et de la communication (TIC) menée par l'ANRT, plus de 66% des commandes continuent d'être réglées en espèces à la livraison.** D'autres sources, avec des méthodologies différentes, avancent des parts allant jusqu'à 80% selon les segments — l'écart entre ces chiffres illustre l'absence de statistique officielle unique et consolidée sur le sujet, mais toutes convergent sur un même constat : le COD n'est pas un mode de paiement secondaire au Maroc, c'est le mode dominant.
 

@@ -2,7 +2,7 @@
 title: "50 Questions d'Entretien Supply Chain et leurs Meilleures Réponses"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "questions entretien supply chain Maroc, réponses entretien logistique, questions recrutement supply chain, entretien responsable supply chain Maroc"
 description: "Les 50 questions les plus fréquentes en entretien supply chain au Maroc, avec les réponses structurées pour vous distinguer."
 ---
@@ -11,7 +11,7 @@ description: "Les 50 questions les plus fréquentes en entretien supply chain au
 
 Les recruteurs supply chain au Maroc posent souvent les mêmes questions — mais ce qui différencie les candidats, c'est la qualité des réponses. Voici les 50 questions les plus fréquentes, organisées par thème.
 
-![Questions entretien supply chain Maroc](/images/conseil.jpg)
+![Questions entretien supply chain Maroc](/images/conseil.webp)
 
 ## Questions de Présentation
 

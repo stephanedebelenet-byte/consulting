@@ -3,14 +3,14 @@ title: "Transit Douanier en Afrique de l'Ouest : les Corridors qui Fonctionnent 
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "transit douanier afrique de l'ouest, corridor Abidjan Ouagadougou, SIGMAT transit marchandises"
 description: "Certaines procédures douanières rallongent les délais de transit de 48 à 72 heures et augmentent les coûts de 10 à 15%. Guide pratique des corridors ouest-africains pour les exportateurs marocains."
 ---
 
 # Transit Douanier en Afrique de l'Ouest : les Corridors qui Fonctionnent (et Ceux à Éviter)
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Pour une entreprise marocaine qui exporte vers l'Afrique de l'Ouest, le choix du corridor douanier compte souvent autant que le choix du transporteur : certaines procédures douanières rallongent les délais de transit de 48 à 72 heures et augmentent les coûts logistiques de près de 10 à 15%, un écart qui varie fortement selon la saison, l'état des routes et l'encombrement aux postes-frontières.** Les corridors officiels les mieux investis, comme l'axe Dakar-Bamako ou le corridor Abidjan-Ouagadougou-Niamey, bénéficient d'investissements massifs depuis plusieurs années — le corridor Abidjan-Ouagadougou-Bamako représente à lui seul environ 3 millions de tonnes de marchandises par an.
 

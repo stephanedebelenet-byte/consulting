@@ -2,7 +2,7 @@
 title: "Salaire Responsable Logistique au Maroc 2026 : Grilles, Écarts et Leviers"
 date: "2026-07-20"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "salaire responsable logistique maroc, salaire supply chain manager maroc, rémunération logistique maroc, salaire chef d entrepôt maroc, logistique emploi maroc 2026"
 description: "Découvrez les salaires réels des Responsables Logistiques et Supply Chain Managers au Maroc en 2026, par secteur, niveau et ville. Basé sur 110+ missions terrain."
 ---
@@ -13,7 +13,7 @@ La question du salaire est souvent la première que posent les candidats à un p
 
 Chez Nextinotech, nous intervenons depuis plus de 20 ans dans les entreprises marocaines et européennes sur les fonctions supply chain. Voici ce que nous observons réellement sur le terrain.
 
-![Gestion et performance — enjeux salariaux supply chain au Maroc](/images/business.jpg)
+![Gestion et performance — enjeux salariaux supply chain au Maroc](/images/business.webp)
 
 ---
 

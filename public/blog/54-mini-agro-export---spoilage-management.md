@@ -10,7 +10,7 @@ description: "Le Maroc est l'un des premiers fournisseurs extra-européens de to
 
 # Supply Chain Agro-Export au Maroc : la chaîne du froid, facteur de compétitivité
 
-![Chaîne logistique agroalimentaire](/images/agro.jpg)
+![Chaîne logistique agroalimentaire](/images/agro.webp)
 
 **Le Maroc figure parmi les premiers fournisseurs extra-européens de tomates et d'agrumes vers l'Union européenne**, avec une présence croissante sur l'avocat et les fruits rouges. Dans ce secteur, la compétitivité ne se joue pas qu'au champ : elle se joue dans la chaîne du froid.
 

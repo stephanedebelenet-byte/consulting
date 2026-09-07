@@ -2,7 +2,7 @@
 title: "Réussir son Entretien Vidéo en Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "entretien vidéo supply chain Maroc, entretien Teams Zoom logistique Maroc, entretien à distance supply chain, visioconférence recrutement logistique"
 description: "Comment réussir un entretien supply chain en vidéo (Teams, Zoom) au Maroc ? Préparation technique, présentation, communication non-verbale et erreurs à éviter."
 ---
@@ -13,7 +13,7 @@ Les entretiens vidéo sont désormais la norme pour les premiers filtrages — e
 
 Voici comment les maîtriser.
 
-![Entretien vidéo supply chain Maroc Teams Zoom](/images/office.jpg)
+![Entretien vidéo supply chain Maroc Teams Zoom](/images/office.webp)
 
 ## Les Spécificités de l'Entretien Vidéo
 

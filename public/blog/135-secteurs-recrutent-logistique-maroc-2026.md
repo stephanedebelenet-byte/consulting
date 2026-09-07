@@ -2,7 +2,7 @@
 title: "Secteurs qui Recrutent en Logistique au Maroc en 2026 : Où Postuler"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "secteurs recrutement logistique Maroc, emploi supply chain secteur Maroc, où trouver emploi logistique Maroc, industrie qui recrute logisticien Maroc 2026"
 description: "Quels secteurs recrutent le plus en supply chain et logistique au Maroc en 2026 ? Automobile, pharma, e-commerce, agroalimentaire — le classement avec les opportunités concrètes."
 ---
@@ -11,7 +11,7 @@ description: "Quels secteurs recrutent le plus en supply chain et logistique au 
 
 Pas tous les secteurs marocains recrutent au même rythme en supply chain. Certains sont en forte croissance, d'autres en consolidation. Savoir où se concentrent les opportunités vous permet de postuler là où vous avez le plus de chances.
 
-![Secteurs qui recrutent en supply chain au Maroc](/images/hero-supply-chain.jpg)
+![Secteurs qui recrutent en supply chain au Maroc](/images/hero-supply-chain.webp)
 
 ## Secteur 1 : Automobile — Toujours en Tête
 

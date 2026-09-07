@@ -3,14 +3,14 @@ title: "Chaîne d'Approvisionnement des Dispositifs Médicaux : un Secteur Disti
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/pharma.jpg"
+image: "/images/pharma.webp"
 keywords: "supply chain dispositifs médicaux maroc, import dispositif médical maroc réglementation, IMANOR dispositifs médicaux"
 description: "Entre 85% et 90% de la demande marocaine en dispositifs médicaux est couverte par l'import. Une chaîne d'approvisionnement à la réglementation distincte du médicament."
 ---
 
 # Chaîne d'Approvisionnement des Dispositifs Médicaux : un Secteur Distinct du Médicament
 
-![Secteur pharmaceutique et santé](/images/pharma.jpg)
+![Secteur pharmaceutique et santé](/images/pharma.webp)
 
 **Un dispositif médical (tensiomètre, stent, prothèse, glucomètre, seringue) n'est pas un médicament — c'est un instrument, appareil ou consommable à usage médical, soumis à une réglementation d'importation et d'enregistrement distincte de celle des substances thérapeutiques.** Au Maroc, cette distinction a des conséquences concrètes sur la chaîne d'approvisionnement : entre 85% et 90% de la demande nationale en dispositifs médicaux reste couverte par les importations, la fabrication locale se concentrant sur des produits à faible valeur ajoutée (pansements, seringues, gants), tandis que l'imagerie médicale et les dispositifs orthopédiques ou dentaires demeurent très largement importés.
 

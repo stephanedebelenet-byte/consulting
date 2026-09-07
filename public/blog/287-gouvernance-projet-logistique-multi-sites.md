@@ -3,14 +3,14 @@ title: "Gouvernance de Projet Logistique Multi-Sites : Coordonner sans Tout Cent
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "gouvernance projet logistique multi-sites, coordination multi-sites maroc, centralisation décentralisation logistique"
 description: "Trop de centralisation freine l'agilité, trop d'autonomie dilue la stratégie. Le modèle de gouvernance hybride qui fonctionne pour coordonner un réseau logistique multi-sites."
 ---
 
 # Gouvernance de Projet Logistique Multi-Sites : Coordonner sans Tout Centraliser
 
-![Conseil et diagnostic](/images/conseil.jpg)
+![Conseil et diagnostic](/images/conseil.webp)
 
 **Coordonner un projet logistique sur plusieurs sites impose un arbitrage permanent entre deux excès : une gouvernance trop centralisée qui freine l'agilité de chaque site, et une autonomie locale trop large qui dilue la stratégie globale et fragmente la culture d'entreprise.** Dans un modèle de gouvernance fédéré ou décentralisé, chaque site gère ses opérations quotidiennes et propose ses propres initiatives dans un cadre défini collectivement — une approche qui préserve l'agilité locale, mais expose au risque de fragmentation si le cadre commun reste trop vague.
 

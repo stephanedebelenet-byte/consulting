@@ -3,14 +3,14 @@ title: "Supply Chain Aéronautique au Maroc : l'Écosystème Safran et ses 150+ 
 date: "2026-08-22"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "supply chain aéronautique maroc, écosystème Safran maroc, GIMAS maroc, aéropole Casablanca Nouaceur"
 description: "155 entreprises, 3 milliards de dollars d'export, 27 000 emplois : comment l'écosystème aéronautique marocain, porté par Safran, structure sa supply chain."
 ---
 
 # Supply Chain Aéronautique au Maroc : l'Écosystème Safran et ses 150+ Entreprises
 
-![Supply chain industrielle](/images/hero-supply-chain.jpg)
+![Supply chain industrielle](/images/hero-supply-chain.webp)
 
 **La supply chain aéronautique marocaine désigne le réseau d'équipementiers, de sous-traitants et de zones industrielles dédiées qui approvisionnent les grands motoristes et avionneurs installés au Maroc.** En un quart de siècle, le secteur est passé de 3 entreprises en 2000 à un écosystème qui pèse aujourd'hui plusieurs milliards de dollars à l'export. Safran en est le moteur le plus visible, avec une accélération d'investissements marquée en 2026 — mais la vraie question pour un sous-traitant marocain est de savoir comment s'insérer dans cette chaîne, pas seulement de constater sa croissance.
 

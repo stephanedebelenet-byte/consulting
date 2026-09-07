@@ -2,7 +2,7 @@
 title: "Automatisation d'Entrepôt au Maroc : Solutions, Coûts et ROI 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "automatisation entrepôt maroc, robotisation logistique maroc, AGV maroc, entrepôt automatisé maroc, convoyeur entrepôt maroc"
 description: "Automatisation d'entrepôt au Maroc en 2026 : convoyeurs, AGV, tri automatique, cobots. Quand investir, quel ROI, et quelles solutions sont accessibles aux PME et ETI marocaines."
 ---
@@ -15,7 +15,7 @@ Cela ne signifie pas que toute PME marocaine doit automatiser. Mais cela signifi
 
 J'ai accompagné plusieurs projets d'automatisation d'entrepôt au Maroc dans des contextes très différents. Voici ce qui fonctionne, ce qui ne fonctionne pas, et comment évaluer si l'automatisation est une bonne décision pour votre situation.
 
-![Automatisation et robotisation d'entrepôt logistique au Maroc en 2026](/images/hero-warehouse.jpg)
+![Automatisation et robotisation d'entrepôt logistique au Maroc en 2026](/images/hero-warehouse.webp)
 
 ---
 

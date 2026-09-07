@@ -2,7 +2,7 @@
 title: "Optimisation du Réseau Logistique au Maroc : Stratégie Multi-Sites 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "optimisation réseau logistique maroc, réseau distribution maroc, stratégie logistique multi-sites maroc, localisation entrepôt maroc, schéma réseau supply chain maroc"
 description: "Comment optimiser votre réseau logistique au Maroc : nombre de sites, localisation, taille, politique de stock. Méthode et cas réels issus de 20+ projets réseau au Maroc."
 ---
@@ -15,7 +15,7 @@ Cette question semble simple. Elle ne l'est pas. Elle engage des décisions sur 
 
 Au Maroc, j'ai accompagné plus de vingt projets d'optimisation de réseau logistique. Les entreprises qui y réfléchissent de façon rigoureuse gagnent en moyenne 15 à 25% sur leur coût logistique total. Celles qui laissent leur réseau se construire par accumulation de décisions réactives paient cette inefficacité pendant des années.
 
-![Optimisation réseau logistique et stratégie distribution au Maroc — analyse multi-sites](/images/charts.jpg)
+![Optimisation réseau logistique et stratégie distribution au Maroc — analyse multi-sites](/images/charts.webp)
 
 ---
 

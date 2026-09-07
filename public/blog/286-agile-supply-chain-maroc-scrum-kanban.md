@@ -3,14 +3,14 @@ title: "Agile Appliqué à la Supply Chain : ce que l'Industriel Peut Emprunter 
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "agile supply chain maroc, scrum kanban logistique, méthode agile industrielle"
 description: "Kanban vient de Toyota dans les années 1950 — la méthode agile digitale a en réalité des racines industrielles. Ce qu'un service supply chain peut concrètement emprunter au monde du digital."
 ---
 
 # Agile Appliqué à la Supply Chain : ce que l'Industriel Peut Emprunter au Digital
 
-![Conseil et diagnostic](/images/conseil.jpg)
+![Conseil et diagnostic](/images/conseil.webp)
 
 **Les méthodes agiles les plus connues aujourd'hui dans le développement logiciel ont, pour l'une d'elles, des racines directement industrielles : la méthode Kanban est issue d'un système de production créé par Toyota dans les années 1950, bien avant d'être adoptée par le monde du digital.** Scrum, à l'inverse, a été développé dans les années 1990 comme méthode de développement logiciel, en s'inspirant des techniques de production industrielle et des théories de contrôle de processus — ce qui signifie que le transfert de ces méthodes vers la supply chain n'est pas un emprunt artificiel à un monde étranger, c'est un retour à des racines communes.
 

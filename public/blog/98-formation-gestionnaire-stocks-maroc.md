@@ -2,7 +2,7 @@
 title: "Formation Gestionnaire de Stocks au Maroc : Métier, Compétences et Programme 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "formation gestionnaire de stocks maroc, gestionnaire stocks compétences maroc, formation approvisionnement maroc, gestion des stocks avancée maroc, DDMRP formation maroc"
 description: "Formation gestionnaire de stocks au Maroc : compétences clés, programme avancé, outils DDMRP et MRP, salaires et évolutions de carrière. Par Nextinotech."
 ---
@@ -15,7 +15,7 @@ Un gestionnaire de stocks mal formé commande trop, commande trop tard, ou comma
 
 Voici ce qu'un bon programme de formation doit lui apprendre.
 
-![Formation gestionnaire de stocks — outils, méthodes et indicateurs au Maroc](/images/analytics.jpg)
+![Formation gestionnaire de stocks — outils, méthodes et indicateurs au Maroc](/images/analytics.webp)
 
 ---
 

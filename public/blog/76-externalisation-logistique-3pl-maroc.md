@@ -2,7 +2,7 @@
 title: "Externalisation Logistique au Maroc : Quand et Comment Choisir un 3PL 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "externalisation logistique maroc, 3PL maroc, prestataire logistique maroc, outsourcing logistique maroc, choisir 3PL maroc"
 description: "Externaliser sa logistique au Maroc : avantages, risques, critères de sélection d'un 3PL et cahier des charges. Retour terrain sur 20+ dossiers d'externalisation au Maroc."
 ---
@@ -15,7 +15,7 @@ Certaines entreprises externalisent pour les mauvaises raisons : parce que leur 
 
 J'ai accompagné plus de 20 dossiers d'externalisation logistique au Maroc, des deux côtés de la table. Voici ce que j'ai appris.
 
-![Externalisation logistique et partenariat 3PL au Maroc — entrepôt et opérations](/images/hero-warehouse.jpg)
+![Externalisation logistique et partenariat 3PL au Maroc — entrepôt et opérations](/images/hero-warehouse.webp)
 
 ---
 

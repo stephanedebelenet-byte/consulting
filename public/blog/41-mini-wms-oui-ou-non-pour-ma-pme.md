@@ -11,7 +11,7 @@ description: "Un WMS se justifie-t-il pour une PME ? Critères de décision, seu
 
 # WMS Oui ou Non pour Ma PME ?
 
-![Entrepôt et gestion des stocks](/images/hero-warehouse.jpg)
+![Entrepôt et gestion des stocks](/images/hero-warehouse.webp)
 
 **Un WMS (Warehouse Management System) se justifie dès que la gestion manuelle de votre entrepôt génère des erreurs coûteuses ou limite votre croissance — pas avant.** Chez Nextinotech, le déploiement le plus léger démarre à 80 000 MAD HT pour un entrepôt et 5 utilisateurs, en 6 à 10 semaines.
 

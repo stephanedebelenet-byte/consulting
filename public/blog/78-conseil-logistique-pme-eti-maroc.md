@@ -2,7 +2,7 @@
 title: "Conseil Logistique au Maroc : Ce qui Différencie une Mission PME d'une Mission ETI 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "conseil logistique pme maroc, consultant supply chain maroc, mission conseil logistique maroc, accompagnement supply chain pme maroc, consultant logistique eti maroc"
 description: "Comment une mission de conseil logistique diffère entre une PME et une ETI marocaine : méthode, durée, livrables et ROI. Guide pour choisir le bon accompagnement selon votre taille."
 ---
@@ -15,7 +15,7 @@ Les deux frustrations ont la même origine : une incompréhension de ce que le c
 
 Après 110+ missions au Maroc, voici ce que j'ai appris sur ce qui fonctionne selon les contextes.
 
-![Mission de conseil logistique et supply chain au Maroc — PME et ETI](/images/conseil.jpg)
+![Mission de conseil logistique et supply chain au Maroc — PME et ETI](/images/conseil.webp)
 
 ---
 

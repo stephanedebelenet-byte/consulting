@@ -2,7 +2,7 @@
 title: "Réussir l'Entretien Technique Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "entretien technique supply chain Maroc, test technique logistique Maroc, cas pratique supply chain entretien, épreuve technique supply chain"
 description: "Comment réussir l'entretien technique supply chain au Maroc ? Tests Excel, cas pratiques, questions techniques — ce que les recruteurs testent et comment s'y préparer."
 ---
@@ -13,7 +13,7 @@ De plus en plus d'entreprises marocaines ajoutent un entretien technique à leur
 
 Voici ce que ces tests évaluent et comment s'y préparer.
 
-![Entretien technique supply chain Maroc](/images/hero-supply-chain.jpg)
+![Entretien technique supply chain Maroc](/images/hero-supply-chain.webp)
 
 ## Pourquoi les Entretiens Techniques Ont Augmenté
 

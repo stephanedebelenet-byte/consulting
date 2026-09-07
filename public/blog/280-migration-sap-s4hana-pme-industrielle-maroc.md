@@ -3,14 +3,14 @@ title: "Migrer vers SAP S/4HANA : le Guide pour une PME Industrielle Marocaine"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "SAP S/4HANA maroc PME, migration S/4HANA industrielle, fin de vie SAP ECC 2027"
 description: "La maintenance de SAP ECC s'arrête en décembre 2027. Ce que ça signifie concrètement pour une PME industrielle marocaine encore sur l'ancienne génération SAP."
 ---
 
 # Migrer vers SAP S/4HANA : le Guide pour une PME Industrielle Marocaine
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **La maintenance de SAP ECC (la génération SAP précédente, encore utilisée par une large part des entreprises industrielles) s'arrête en décembre 2027 — une échéance qui transforme la migration vers S/4HANA d'un projet optionnel en une nécessité programmée pour toute entreprise encore sur l'ancienne génération.** Pour une PME industrielle marocaine, une migration réaliste demande généralement entre 18 et 30 mois de projet — ce qui signifie concrètement qu'une entreprise qui démarre son projet début 2026 termine avec une marge de sécurité raisonnable avant l'échéance, mais qu'un démarrage tardif expose à un risque calendaire réel.
 

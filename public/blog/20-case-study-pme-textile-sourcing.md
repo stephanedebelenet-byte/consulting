@@ -2,7 +2,7 @@
 title: "Case Study: PME Textile — 18% Sourcing Cost Reduction en 3 Mois"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 type: "case-study"
 keywords: "case study supply chain, sourcing optimization, cost reduction, textile Maroc"
 description: "PME textile 80 employés: stratégie sourcing → 18% coût réduit, stock optimisé, ROI 5 mois."

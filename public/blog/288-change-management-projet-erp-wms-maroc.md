@@ -3,14 +3,14 @@ title: "Change Management dans un Projet WMS ou ERP : Pourquoi les Projets Écho
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "change management ERP WMS, conduite du changement projet ERP maroc, échec projet ERP raisons"
 description: "Entre 50 et 70% des projets ERP n'atteignent pas complètement leurs objectifs, et 70% des échecs sont directement liés à un manque de formation et à la résistance des employés."
 ---
 
 # Change Management dans un Projet WMS ou ERP : Pourquoi les Projets Échouent
 
-![Bureau et gestion du changement](/images/office.jpg)
+![Bureau et gestion du changement](/images/office.webp)
 
 **Entre 50% et 70% des projets ERP n'atteignent pas complètement leurs objectifs — un taux d'échec qui ne s'explique presque jamais par la qualité du logiciel choisi.** Selon Deloitte, les principales raisons d'échec d'un projet ERP sont un management du changement inefficace et une adoption utilisateur insuffisante — pas des défauts techniques de l'outil. Plus précisément, 70% des échecs de ce type de projet sont directement liés à un manque de formation et à la résistance des employés au changement.
 

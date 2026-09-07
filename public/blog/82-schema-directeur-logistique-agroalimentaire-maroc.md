@@ -2,7 +2,7 @@
 title: "Schéma Directeur Logistique Agroalimentaire au Maroc : Méthode et Enjeux 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "logistique agroalimentaire maroc, schéma directeur agroalimentaire maroc, supply chain alimentaire maroc, chaîne du froid maroc, traçabilité agroalimentaire maroc"
 description: "Schéma directeur logistique pour l'industrie agroalimentaire marocaine : chaîne du froid, traçabilité ONSSA, saisonnalité et conformité export. Méthode et cas concrets 2026."
 ---
@@ -15,7 +15,7 @@ Au Maroc, l'industrie agroalimentaire est l'un des piliers de l'économie — pr
 
 Un schéma directeur logistique change cette dynamique. Voici comment le construire pour une entreprise agroalimentaire marocaine.
 
-![Schéma directeur logistique agroalimentaire au Maroc — chaîne du froid et traçabilité](/images/conseil.jpg)
+![Schéma directeur logistique agroalimentaire au Maroc — chaîne du froid et traçabilité](/images/conseil.webp)
 
 ---
 

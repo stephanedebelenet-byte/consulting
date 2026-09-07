@@ -2,7 +2,7 @@
 title: "Audit Supply Chain au Maroc : Diagnostiquer et Transformer en 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "audit supply chain maroc, diagnostic logistique maroc, bilan supply chain pme, analyse chaîne approvisionnement maroc, consultant audit logistique casablanca"
 description: "Comment diagnostiquer votre supply chain au Maroc : méthodologie d'audit en 3 phases, 10 signaux d'alarme, coûts réels et ROI. Basé sur 110+ missions Nextinotech."
 ---
@@ -13,7 +13,7 @@ description: "Comment diagnostiquer votre supply chain au Maroc : méthodologie 
 
 Ce n'est pas un reproche. La supply chain est précisément le domaine où les pertes sont les plus invisibles : elles n'apparaissent pas dans le compte de résultat avec une ligne "inefficacité logistique". Elles se cachent dans les surstocks, les ruptures non calculées, les transports urgents banalisés, les retours clients normalisés.
 
-![Audit et diagnostic supply chain — mission conseil Nextinotech Maroc](/images/conseil.jpg)
+![Audit et diagnostic supply chain — mission conseil Nextinotech Maroc](/images/conseil.webp)
 
 ---
 

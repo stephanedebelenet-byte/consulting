@@ -3,14 +3,14 @@ title: "Dark Stores et Micro-Fulfillment : le Futur de la Livraison Rapide en Vi
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "dark store maroc, micro-fulfillment center, livraison rapide q-commerce, entrepôt urbain livraison"
 description: "Un dark store ressemble à un magasin de l'extérieur mais ne reçoit aucun client : c'est un centre de préparation de commandes conçu pour la livraison en 15 à 60 minutes."
 ---
 
 # Dark Stores et Micro-Fulfillment : le Futur de la Livraison Rapide en Ville
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **Un dark store est un local qui ressemble à un magasin classique vu de l'extérieur, mais fermé au public — il fonctionne exclusivement comme un centre de préparation de commandes conçu pour un traitement et une livraison rapides dans une zone urbaine dense.** Le terme "dark" (obscur) fait référence à l'absence d'activité commerciale visible : pas de clients qui parcourent les rayons, pas de caisse, pas d'éclairage de vente classique — uniquement du picking et de l'expédition. Un micro-fulfillment center est une variante plus petite et souvent automatisée, positionnée stratégiquement à proximité immédiate des zones résidentielles denses, utilisant robotique, convoyeurs et stockage vertical pour préparer les commandes rapidement.
 

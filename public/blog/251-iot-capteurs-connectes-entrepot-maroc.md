@@ -3,14 +3,14 @@ title: "IoT et Capteurs Connectés en Entrepôt : ce qu'ils Changent Vraiment"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "IoT entrepôt maroc, capteurs connectés logistique, maintenance prédictive entrepôt, internet des objets logistique"
 description: "77% des décideurs entrepôt pensent que la technologie doit d'abord augmenter les travailleurs, mais seulement 35% savent par où commencer. Cas d'usage IoT concrets en entrepôt."
 ---
 
 # IoT et Capteurs Connectés en Entrepôt : ce qu'ils Changent Vraiment
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **L'IoT (Internet des objets) en entrepôt désigne l'ensemble des capteurs connectés — température, vibration, localisation, humidité — qui collectent des données en continu sur l'état des équipements, des stocks et de l'environnement, sans intervention humaine de relevé.** L'usage le mieux documenté et le plus largement déployé est la maintenance prédictive : équiper les équipements critiques (convoyeurs, chariots élévateurs, systèmes de réfrigération) de capteurs de vibration et de température pour détecter les signes avant-coureurs d'une panne avant qu'elle ne survienne. Selon une étude mondiale de Zebra Technologies auprès de décideurs entrepôt, 77% estiment que la technologie doit d'abord augmenter la performance des travailleurs plutôt que les remplacer — mais seulement 35% ont une idée claire de par où commencer l'automatisation ([Zebra Technologies, cité par Loss Prevention Media](https://losspreventionmedia.com/zebra-study-6-in-10-plan-warehouse-automation-to-augment-labor-by-2024/)).
 

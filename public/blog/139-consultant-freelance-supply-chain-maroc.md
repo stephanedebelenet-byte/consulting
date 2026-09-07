@@ -2,7 +2,7 @@
 title: "Devenir Consultant Freelance Supply Chain au Maroc : Guide Complet"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "consultant freelance supply chain Maroc, indépendant logistique Maroc, auto-entrepreneur logistique Maroc, devenir consultant supply chain"
 description: "Devenir consultant freelance supply chain au Maroc : comment se lancer, trouver ses premiers clients, fixer ses tarifs et structurer son activité. Guide d'un praticien."
 ---
@@ -13,7 +13,7 @@ Le consulting supply chain indépendant au Maroc est une voie sous-estimée. J'a
 
 Voici ce que j'aurais voulu savoir avant de me lancer.
 
-![Consultant freelance supply chain indépendant Maroc](/images/conseil.jpg)
+![Consultant freelance supply chain indépendant Maroc](/images/conseil.webp)
 
 ## Pourquoi le Consulting Supply Chain Indépendant ?
 

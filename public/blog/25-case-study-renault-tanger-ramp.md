@@ -2,7 +2,7 @@
 title: "Case Study: Renault Tanger — Production Ramp 0→400 Units/Day (18 months)"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 type: "case-study"
 keywords: "case study Renault Tanger, montée en cadence, ramp-up automobile, logistique usine"
 description: "Renault-Nissan Tanger (site Melloussa) : conception d'usine et pilotage de la montée en cadence jusqu'à 400 unités/jour, zéro arrêt de production."

@@ -3,14 +3,14 @@ title: "Interopérabilité ERP-WMS-TMS : Connecter ses Systèmes sans Tout Casse
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "intégration ERP WMS TMS, interopérabilité systèmes logistique, connecter ERP WMS entrepôt transport"
 description: "Une interopérabilité robuste commence par trois référentiels alignés : article, partenaire, unité logistique. Ce qu'il faut structurer avant de connecter ERP, WMS et TMS."
 ---
 
 # Interopérabilité ERP-WMS-TMS : Connecter ses Systèmes sans Tout Casser
 
-![Données et pilotage supply chain](/images/analytics.jpg)
+![Données et pilotage supply chain](/images/analytics.webp)
 
 **Une entreprise qui utilise un ERP pour son pilotage global, un WMS pour son entrepôt et un TMS pour son transport possède trois systèmes chacun expert dans son domaine — mais qui, sans connexion robuste entre eux, produisent des données incohérentes plutôt qu'une vision unifiée.** Le WMS gère l'entrepôt, le TMS gère le transport, et ensemble avec l'ERP, ils garantissent en théorie la traçabilité complète du flux logistique — en théorie seulement, car sans une intégration bien construite, chaque système développe sa propre version de la réalité, avec des écarts qui s'accumulent et finissent par coûter cher en erreurs opérationnelles.
 

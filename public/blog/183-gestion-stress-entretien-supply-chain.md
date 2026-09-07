@@ -2,7 +2,7 @@
 title: "Gérer le Stress de l'Entretien Supply Chain : Techniques Pratiques"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "gérer stress entretien supply chain Maroc, stress entretien logistique, anxiété entretien emploi, techniques anti-stress entretien"
 description: "Comment gérer le stress avant et pendant un entretien supply chain au Maroc ? Techniques concrètes pour être calme, confiant et performant le jour J."
 ---
@@ -13,7 +13,7 @@ Le stress avant un entretien est normal — c'est votre corps qui vous prépare 
 
 Voici comment transformer ce stress en performance.
 
-![Gérer stress entretien supply chain Maroc](/images/office.jpg)
+![Gérer stress entretien supply chain Maroc](/images/office.webp)
 
 ## Comprendre le Stress de l'Entretien
 

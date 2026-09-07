@@ -3,14 +3,14 @@ title: "Transport Multimodal au Maroc : Rail, Route, Mer, quelle Combinaison pou
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "transport multimodal maroc, combinaison rail route mer, réduction coût transport multimodal"
 description: "10 à 25% de réduction du coût global de transport selon les distances et volumes. Comment combiner rail, route et mer pour une entreprise marocaine exposée à la hausse du carburant."
 ---
 
 # Transport Multimodal au Maroc : Rail, Route, Mer, quelle Combinaison pour Réduire ses Coûts
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Le transport multimodal combine plusieurs modes — route, rail, mer, parfois fluvial ou aérien — pour optimiser à la fois le coût, le délai et l'empreinte carbone d'une chaîne logistique, plutôt que de dépendre d'un mode unique du premier au dernier kilomètre.** La combinaison la plus courante associe un mode massifié (rail ou mer) sur la plus longue distance et un mode plus flexible (route) pour le premier et le dernier kilomètre. Une stratégie multimodale bien conçue permet de réduire le coût global de transport de 10 à 25%, selon les distances, les volumes et le type de marchandise transportée.
 

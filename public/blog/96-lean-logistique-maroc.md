@@ -2,7 +2,7 @@
 title: "Lean Logistique au Maroc : Méthodes, Outils et Résultats Terrain 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "lean logistique maroc, amélioration continue entrepôt maroc, lean supply chain maroc, 5S entrepôt maroc, kaizen logistique maroc"
 description: "Lean logistique au Maroc : 5S, VSM, Kaizen appliqués à l'entrepôt et à la supply chain. Méthodes concrètes et résultats chiffrés issus de 20+ ans de terrain au Maroc."
 ---
@@ -15,7 +15,7 @@ Le principe central du Lean est simple : identifier et éliminer ce qui n'apport
 
 Ce qui fonctionne dans une usine Toyota fonctionne aussi dans un entrepôt de Casablanca ou de Tanger — à condition de l'adapter au contexte.
 
-![Lean logistique et amélioration continue en entrepôt au Maroc](/images/hero-warehouse.jpg)
+![Lean logistique et amélioration continue en entrepôt au Maroc](/images/hero-warehouse.webp)
 
 ---
 

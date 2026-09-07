@@ -3,14 +3,14 @@ title: "Nouvelle Loi sur la Livraison de Colis au Maroc 2026 : ce que change le 
 date: "2026-08-19"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "loi livraison colis maroc 2026, projet de loi 36-25, agrément livraison Maroc, réglementation e-commerce Maroc"
 description: "Le projet de loi 36-25 prévoit un agrément obligatoire et des amendes jusqu'à 5 millions MAD pour les opérateurs de livraison au Maroc. Ce qu'il faut savoir avant l'entrée en vigueur."
 ---
 
 # Nouvelle Loi sur la Livraison de Colis au Maroc 2026 : ce que change le projet de loi 36-25
 
-![Livraison et distribution logistique](/images/transport.jpg)
+![Livraison et distribution logistique](/images/transport.webp)
 
 **Le Maroc s'apprête à encadrer légalement le secteur de la livraison de colis — mais le texte n'est, à ce stade, qu'un projet de loi, pas encore une loi promulguée.** Le projet de loi 36-25 prévoit un agrément obligatoire délivré par le ministère de l'Industrie et du Commerce pour tout opérateur de livraison de colis et de messagerie e-commerce, avec des amendes pouvant atteindre 5 millions de MAD et jusqu'à trois ans de prison ferme pour les dirigeants en cas d'exercice sans agrément. Le texte prévoit aussi la fin du monopole historique de Barid Al-Maghrib sur les envois de moins d'1 kg — une règle héritée d'une législation de 1924.
 

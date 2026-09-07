@@ -3,14 +3,14 @@ title: "ISO 9001 pour une PME Logistique Marocaine : par où Commencer"
 date: "2026-08-26"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "ISO 9001 PME maroc, certification ISO 9001 maroc logistique, IMANOR ISO 9001, démarche qualité PME maroc"
 description: "Plus de 2 000 entreprises marocaines certifiées ISO 9001, IMANOR et organismes privés, 3 à 6 mois de démarche : par où commencer pour une PME logistique."
 ---
 
 # ISO 9001 pour une PME Logistique Marocaine : par où Commencer
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **ISO 9001 est la norme internationale de référence pour les systèmes de management de la qualité — elle ne certifie pas un produit, mais la capacité d'une organisation à maîtriser et améliorer en continu ses processus.** Pour une PME logistique marocaine, la question n'est généralement pas "faut-il s'y mettre", mais "par où commencer" : la norme est large, le vocabulaire est technique, et la plupart des ressources disponibles en ligne s'adressent à des entreprises européennes avec des références de coûts et de délais qui ne se transposent pas telles quelles au marché marocain.
 

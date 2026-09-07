@@ -3,14 +3,14 @@ title: "Jumeau Numérique (Digital Twin) Supply Chain : à quoi ça Sert Vraimen
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "digital twin supply chain, jumeau numérique logistique, simulation supply chain maroc, digital supply chain twin"
 description: "60% des directions supply chain pilotent ou prévoient un jumeau numérique selon Gartner. Ce que c'est concrètement, et à partir de quand ça devient utile pour une PME."
 ---
 
 # Jumeau Numérique (Digital Twin) Supply Chain : à quoi ça Sert Vraiment
 
-![Données et pilotage supply chain](/images/charts.jpg)
+![Données et pilotage supply chain](/images/charts.webp)
 
 **Un jumeau numérique (digital twin) de supply chain est une réplique virtuelle d'un réseau logistique — entrepôts, flux de transport, fournisseurs, stocks — qui permet de simuler l'impact d'une décision ou d'une perturbation avant qu'elle ne se produise réellement.** Ce n'est pas un tableau de bord qui affiche l'état présent : c'est un modèle qui répond à la question "que se passe-t-il si" — fermeture d'un port, faillite d'un fournisseur, pic de demande — sans perturber l'activité réelle pendant le test. Selon une enquête Gartner menée en 2023 auprès de 380 dirigeants supply chain, 60% des organisations pilotent ou prévoient l'implémentation d'un jumeau numérique de leur chaîne d'approvisionnement ([Gartner](https://www.gartner.com/en/documents/6771134)).
 

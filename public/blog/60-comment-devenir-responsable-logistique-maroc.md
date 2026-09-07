@@ -2,7 +2,7 @@
 title: "Comment Devenir Responsable Logistique au Maroc : Le Guide Complet 2026"
 date: "2026-07-20"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "devenir responsable logistique maroc, responsable logistique maroc, chef logistique maroc, carrière logistique maroc, formation responsable logistique"
 description: "Parcours, compétences, formations et salaires : tout ce qu'il faut savoir pour devenir Responsable Logistique au Maroc en 2026, par un expert avec 20 ans de terrain."
 ---
@@ -13,7 +13,7 @@ Il y a vingt ans, le poste de Responsable Logistique n'existait quasiment pas da
 
 Si vous lisez cet article, c'est que vous aspirez à ce poste ou que vous cherchez à structurer votre évolution vers ce rôle. Voici ce que j'ai vu sur le terrain depuis 20 ans de missions supply chain au Maroc.
 
-![Entrepôt logistique moderne — pilotage opérationnel au Maroc](/images/hero-warehouse.jpg)
+![Entrepôt logistique moderne — pilotage opérationnel au Maroc](/images/hero-warehouse.webp)
 
 ---
 
@@ -136,7 +136,7 @@ Gérer 5 à 30 personnes, c'est 50% du poste RL en PME. Les formations purement 
 
 ---
 
-![Supply chain analytics — piloter par les données](/images/analytics.jpg)
+![Supply chain analytics — piloter par les données](/images/analytics.webp)
 
 ---
 

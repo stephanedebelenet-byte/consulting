@@ -2,7 +2,7 @@
 title: "Réussir un Cas Pratique en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "cas pratique entretien supply chain Maroc, étude de cas logistique entretien, exercice supply chain entretien, résoudre cas SC entretien Maroc"
 description: "Comment aborder et résoudre un cas pratique supply chain lors d'un entretien au Maroc ? Méthode, exemple complet résolu et erreurs à éviter."
 ---
@@ -13,7 +13,7 @@ Les cas pratiques en entretien supply chain sont de plus en plus courants au Mar
 
 Un candidat qui structure bien un problème et arrive à une recommandation logique — même avec une solution imparfaite — est souvent préféré à un candidat qui connaît la "bonne" réponse mais ne sait pas l'expliquer.
 
-![Cas pratique entretien supply chain Maroc](/images/conseil.jpg)
+![Cas pratique entretien supply chain Maroc](/images/conseil.webp)
 
 ## Pourquoi les Recruteurs Donnent des Cas Pratiques
 

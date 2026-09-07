@@ -3,14 +3,14 @@ title: "Loi 09-08 et CNDP : Utiliser un LLM sans Exposer ses Données Fournisseu
 date: "2026-09-12"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "loi 09-08 ia maroc, cndp llm données personnelles, confidentialité chatgpt entreprise maroc, protection données ia supply chain, rgpd maroc ia achats"
 description: "Ce qu'on peut — et ne peut pas — coller dans un LLM au regard de la loi 09-08 et des règles CNDP : données interdites, anonymisation, hébergement, clauses fournisseurs."
 ---
 
 # Loi 09-08 et CNDP : Utiliser un LLM sans Exposer ses Données Fournisseurs
 
-![Bureau, documents contractuels et conformité](/images/office.jpg)
+![Bureau, documents contractuels et conformité](/images/office.webp)
 
 **Une entreprise marocaine qui utilise l'IA générative manipule, souvent sans s'en rendre compte, des données protégées : coordonnées de contacts, données RH, prix négociés, clauses contractuelles, volumes clients. La loi 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel, sous le contrôle de la CNDP, encadre ces traitements — et coller un fichier dans un outil hébergé hors du Maroc constitue un transfert de données. Le sujet n'est pas théorique : c'est la première chose à border avant de déployer un LLM à l'échelle d'une équipe.** Voici les règles pratiques.
 

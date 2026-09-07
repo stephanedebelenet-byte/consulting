@@ -3,14 +3,14 @@ title: "Marque Employeur Logistique : Pourquoi les Entrepôts Marocains Peinent 
 date: "2026-08-23"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "marque employeur logistique maroc, attractivité entrepôt maroc, recrutement logistique maroc, image métiers logistiques"
 description: "472 000 emplois dans le secteur, et pourtant presque aucune entreprise logistique marocaine ne travaille sa marque employeur. Diagnostic et pistes concrètes."
 ---
 
 # Marque Employeur Logistique : Pourquoi les Entrepôts Marocains Peinent à Attirer les Jeunes
 
-![Bureau et ressources humaines](/images/office.jpg)
+![Bureau et ressources humaines](/images/office.webp)
 
 **La marque employeur désigne l'image qu'une entreprise projette en tant qu'employeur — ce qui, dans le secteur logistique marocain, reste un chantier presque vierge.** Le secteur transport et logistique représente au Maroc environ 472 000 emplois, soit 4,3% de la population active occupée selon les derniers chiffres officiels publiés par l'AMDL, l'Agence Marocaine de Développement de la Logistique ([AMDL](https://www.amdl.gov.ma/amdl/chiffres-cles/)). Un secteur de cette taille devrait avoir une image de marque employeur construite et documentée. Ce n'est pas le cas : la quasi-totalité du contenu RH marocain sur la logistique s'adresse au candidat qui cherche un poste, presque rien ne s'adresse à l'employeur qui doit apprendre à se rendre attractif.
 

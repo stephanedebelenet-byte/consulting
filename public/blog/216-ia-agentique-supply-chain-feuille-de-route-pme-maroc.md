@@ -3,14 +3,14 @@ title: "IA Agentique en Supply Chain : la Feuille de Route 2026-2027 pour les PM
 date: "2026-08-20"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "ia agentique supply chain, ia agentique supply chain maroc, agents ia achats logistique, feuille de route ia pme"
 description: "Gartner place l'IA agentique en tête des tendances supply chain 2026. Ce qui est réellement mature aujourd'hui, et une feuille de route réaliste pour une PME marocaine."
 ---
 
 # IA Agentique en Supply Chain : la Feuille de Route 2026-2027 pour les PME Marocaines
 
-![Digitalisation et systèmes d'information](/images/analytics.jpg)
+![Digitalisation et systèmes d'information](/images/analytics.webp)
 
 **L'IA agentique désigne des agents logiciels qui ne se contentent plus de recommander une action — ils planifient, agissent et s'adaptent en cours d'exécution.** Gartner l'a placée en tête des tendances technologiques supply chain pour 2026, aux côtés de l'IA physique (capteurs, robotique, automatisation). Le marché des logiciels supply chain intégrant de l'IA agentique est projeté à 53 milliards de dollars de dépenses mondiales d'ici 2030. Mais entre ce narratif et la réalité d'une PME marocaine, il y a un écart concret — cet article trace une feuille de route qui part de cet écart, pas du battage médiatique.
 

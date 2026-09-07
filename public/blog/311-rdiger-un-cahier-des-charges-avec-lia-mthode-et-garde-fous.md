@@ -3,14 +3,14 @@ title: "Rédiger un Cahier des Charges avec l'IA : Méthode et Garde-Fous"
 date: "2026-09-03"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "rédiger cahier des charges ia, cahier des charges wms tms ia, appel d'offres ia achats maroc, cahier des charges logistique, rédaction cdc supply chain"
 description: "Comment utiliser l'IA pour rédiger un cahier des charges supply chain plus vite — la méthode en 5 étapes, la trame type, et les garde-fous qui évitent le hors-sujet."
 ---
 
 # Rédiger un Cahier des Charges avec l'IA : Méthode et Garde-Fous
 
-![Consultant travaillant sur un cahier des charges supply chain](/images/conseil.jpg)
+![Consultant travaillant sur un cahier des charges supply chain](/images/conseil.webp)
 
 **Un cahier des charges bâclé est la première cause de dérapage d'un projet WMS, TMS ou d'externalisation logistique : besoin flou, critères non mesurables, périmètre mouvant, et une consultation fournisseurs qui produit des offres incomparables. L'IA générative ne rédige pas le cahier des charges à votre place — mais bien utilisée, elle divise par deux le temps de mise en forme et fait remonter les questions qu'on oublie. À condition de garder la main sur le fond.** Voici la méthode que nous appliquons, et les garde-fous sans lesquels l'exercice se retourne contre vous.
 

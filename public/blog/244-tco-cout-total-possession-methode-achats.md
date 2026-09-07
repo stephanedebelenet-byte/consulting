@@ -3,14 +3,14 @@ title: "TCO (Coût Total de Possession) : la Méthode que les Acheteurs Marocain
 date: "2026-08-28"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "TCO achats méthode, coût total de possession achats maroc, coûts cachés achats, calcul TCO"
 description: "Plus d'un tiers des directions achats utilisent le TCO comme stratégie de création de valeur. La méthode de calcul, et pourquoi elle change radicalement une décision d'achat."
 ---
 
 # TCO (Coût Total de Possession) : la Méthode que les Acheteurs Marocains Sous-Utilisent
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le TCO (Total Cost of Ownership, coût total de possession) additionne l'ensemble des coûts directs et indirects associés à un bien ou un service sur tout son cycle de vie — pas seulement son prix d'achat.** Le concept trouve son origine dans les années 1980, popularisé par le cabinet Gartner pour les décisions d'investissement technologique, avant de devenir une méthodologie centrale de la fonction achats. Aujourd'hui, plus d'un tiers des directions achats utilisent le TCO comme l'une de leurs stratégies privilégiées pour créer de la valeur ([Décision Achats](https://www.decision-achats.fr/Thematique/strategie-achats-1236/breve/tout-savoir-sur-le-tco-cout-total-dacquisition-342558.htm)) — un chiffre qui laisse supposer qu'une majorité d'entreprises continue de décider sur le seul prix affiché.
 

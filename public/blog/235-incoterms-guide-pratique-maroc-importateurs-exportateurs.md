@@ -3,14 +3,14 @@ title: "Incoterms au Maroc : le Guide Pratique pour Importateurs et Exportateurs
 date: "2026-08-27"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "incoterms maroc, incoterms 2020 maroc, FOB CIF maroc, valeur en douane maroc incoterms"
 description: "Il n'existe pas d'édition 'Incoterms 2026' — la version en vigueur reste Incoterms 2020. Le guide pratique pour importateurs et exportateurs marocains, et l'erreur qui coûte cher en douane."
 ---
 
 # Incoterms au Maroc : le Guide Pratique pour Importateurs et Exportateurs
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Les Incoterms sont des règles internationales, publiées par la Chambre de Commerce Internationale (CCI), qui répartissent les responsabilités et les coûts entre acheteur et vendeur dans un contrat de vente international.** Une précision s'impose avant toute chose, y compris pour un lecteur qui chercherait spécifiquement des "Incoterms 2026" : cette édition n'existe pas. La CCI révise ses règles environ tous les dix ans, et la version en vigueur reste **Incoterms® 2020**, applicable depuis le 1er janvier 2020 — la prochaine mise à jour n'est pas attendue avant 2029-2030 ([Nexco Expertise](https://www.nexco-expertise.com/incoterms-2026)). Mentionner "Incoterms 2026" dans un contrat sans autre précision crée une ambiguïté juridique inutile : la référence correcte, aujourd'hui comme en 2026, reste "Incoterms® 2020".
 

@@ -3,14 +3,14 @@ title: "Supply Chain BTP : Gérer la Pénurie et la Volatilité des Prix du Mat�
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/construction.jpg"
+image: "/images/construction.webp"
 keywords: "supply chain BTP maroc pénurie matériel, prix matériaux construction maroc, sonasid acier ciment maroc"
 description: "Le prix de l'acier reste très volatil au Maroc, dépendant des cours mondiaux, quand le ciment reste plus stable. Comment un acteur du BTP marocain sécurise son approvisionnement matériaux."
 ---
 
 # Supply Chain BTP : Gérer la Pénurie et la Volatilité des Prix du Matériel de Chantier
 
-![Construction et industrie](/images/construction.jpg)
+![Construction et industrie](/images/construction.webp)
 
 **Le secteur du BTP marocain fait face à deux dynamiques de prix très différentes selon le matériau : le ciment est resté relativement stable en 2025 malgré une demande soutenue, tandis que l'acier reste structurellement volatil, dépendant directement des cours mondiaux des matières premières.** Le marché marocain de l'acier est approvisionné principalement par Sonasid (filiale du groupe ArcelorMittal) et par des importations en provenance de Turquie et d'Espagne — une double dépendance (production locale + import) qui expose directement les acteurs du BTP marocain aux fluctuations des marchés internationaux, notamment en période de tensions géopolitiques qui restreignent l'accès à certains matériaux comme l'acier ou l'aluminium.
 

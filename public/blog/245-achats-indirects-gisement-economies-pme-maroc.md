@@ -3,14 +3,14 @@ title: "Achats Indirects : le Gisement d'Économies que les PME Marocaines Ignor
 date: "2026-08-28"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "optimisation achats indirects, achats indirects maroc, achats hors production, gisement économies achats"
 description: "Jusqu'à 26% d'économies potentielles sur les achats indirects selon des études européennes — IT, facilities, intérim : le budget que la plupart des PME pilotent le moins."
 ---
 
 # Achats Indirects : le Gisement d'Économies que les PME Marocaines Ignorent
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Les achats indirects — aussi appelés achats hors production ou achats non stratégiques — regroupent tout ce dont une entreprise a besoin pour fonctionner sans que cela entre directement dans son produit ou service final : informatique, facilities management, intérim et recrutement, marketing, prestations intellectuelles, sécurité.** C'est, par construction, le budget le moins piloté d'une entreprise : décentralisé entre plusieurs services, souvent négocié par la personne qui en a le besoin plutôt que par un acheteur, rarement consolidé dans une vue d'ensemble.
 

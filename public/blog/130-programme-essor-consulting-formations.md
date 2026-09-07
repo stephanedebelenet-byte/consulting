@@ -2,7 +2,7 @@
 title: "Programmes de Formation Nextinotech : Catalogue Complet 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "formation Nextinotech Maroc, catalogue formation supply chain Maroc, programme formation logistique Nextinotech"
 description: "Catalogue complet des formations Nextinotech au Maroc : supply chain, achats, entrepôt, planification, DDMRP. Programmes inter et intra-entreprises, certification incluse."
 ---
@@ -11,7 +11,7 @@ description: "Catalogue complet des formations Nextinotech au Maroc : supply cha
 
 Nextinotech propose des formations supply chain conçues par des praticiens, pour des praticiens. Chaque programme est basé sur 20 ans d'expérience terrain au Maroc et en Afrique — pas sur des manuels académiques.
 
-![Formations Nextinotech supply chain Maroc](/images/conseil.jpg)
+![Formations Nextinotech supply chain Maroc](/images/conseil.webp)
 
 ## Nos 6 Programmes Signature
 

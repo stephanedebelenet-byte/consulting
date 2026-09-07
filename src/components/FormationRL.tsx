@@ -651,7 +651,7 @@ export default function FormationRL() {
           >
             <div style={{ position: 'relative', paddingBottom: '62%', overflow: 'hidden', background: 'var(--paper)' }}>
               <img
-                src="/images/formation-rl/hero.jpg"
+                src="/images/formation-rl/hero.webp"
                 alt="Équipe Nextinotech animant une session de formation autour d'une visualisation supply chain"
                 loading="lazy"
                 style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '38% 50%' }}
@@ -695,7 +695,7 @@ export default function FormationRL() {
               </h2>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ duration: 0.8, delay: 0.1 }}>
-              <InfographicFrame src="/images/formation-rl/parcours-profils.jpg" alt="Trois profils progressant vers la Direction Supply Chain : technique, opérationnel, management stratégique" />
+              <InfographicFrame src="/images/formation-rl/parcours-profils.webp" alt="Trois profils progressant vers la Direction Supply Chain : technique, opérationnel, management stratégique" />
             </motion.div>
           </div>
           <div className="frl-cibles">
@@ -835,7 +835,7 @@ export default function FormationRL() {
         <div className="section-inner">
           <div className="frl-comp">
             <motion.div initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-              <InfographicFrame src="/images/formation-rl/parcours-carriere.jpg" alt="Trajectoire de carrière en logistique : opérateur, planificateur, chef d'équipe, jusqu'à responsable logistique certifié" />
+              <InfographicFrame src="/images/formation-rl/parcours-carriere.webp" alt="Trajectoire de carrière en logistique : opérateur, planificateur, chef d'équipe, jusqu'à responsable logistique certifié" />
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}>

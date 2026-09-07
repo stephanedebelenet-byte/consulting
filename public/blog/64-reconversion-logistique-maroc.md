@@ -2,7 +2,7 @@
 title: "Reconversion vers la Supply Chain au Maroc : Le Guide Complet 2026"
 date: "2026-08-10"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "reconversion logistique maroc, reconversion supply chain maroc, changer de carrière supply chain, formation reconversion logistique, emploi logistique sans diplôme maroc, devenir logisticien reconversion"
 description: "Guide complet reconversion vers la supply chain au Maroc : profils qui réussissent, compétences transférables, étapes, formations et délais réalistes. Par Nextinotech."
 ---
@@ -13,7 +13,7 @@ Chaque année, des dizaines de professionnels marocains nous contactent avec la 
 
 La logistique et la supply chain font partie des domaines qui recrutent le plus au Maroc, tous niveaux confondus. Cette réalité attire de nombreux professionnels venus d'autres horizons — commerce, administration, informatique, BTP — qui souhaitent se reconvertir vers un secteur en croissance avec de vraies perspectives.
 
-![Bureau et management — reconversion professionnelle vers la logistique](/images/office.jpg)
+![Bureau et management — reconversion professionnelle vers la logistique](/images/office.webp)
 
 > **La logistique est l'un des rares secteurs où une reconversion à 35 ou 40 ans peut être aussi payante qu'un démarrage en carrière** — l'expérience terrain dans d'autres domaines (commerce, production, finance) est souvent un atout, pas un handicap.
 

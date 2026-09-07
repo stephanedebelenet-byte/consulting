@@ -3,14 +3,14 @@ title: "Litiges Douaniers et Contentieux Import-Export : Éviter les Pièges Co�
 date: "2026-08-27"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "litige douanier maroc import export, contentieux douanier maroc, recours douane maroc, offre transactionnelle douane"
 description: "Réclamation préalable, recours gracieux ou judiciaire, offre transactionnelle : comment fonctionne réellement le contentieux douanier au Maroc, et comment l'éviter en amont."
 ---
 
 # Litiges Douaniers et Contentieux Import-Export : Éviter les Pièges Coûteux
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Le contentieux douanier regroupe l'ensemble des litiges nés de la violation de la législation douanière, des impôts indirects ou de la réglementation des changes, dont l'application relève de l'Administration des Douanes et Impôts Indirects (ADII).** Au Maroc, ce contentieux se divise en deux natures bien distinctes : le contentieux répressif, qui vise à sanctionner une infraction constatée, et le contentieux civil, qui concerne l'application de dispositions pour lesquelles aucune peine n'est prévue par les textes ([Douane.gov.ma](https://www.douane.gov.ma/dms/loadDocument?documentId=30860&application=rdii)). Pour une entreprise important-exportatrice, comprendre cette distinction change directement la manière de réagir face à un PV ou une notification.
 

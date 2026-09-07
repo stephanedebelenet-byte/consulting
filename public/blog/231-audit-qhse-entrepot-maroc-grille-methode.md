@@ -3,14 +3,14 @@ title: "Audit QHSE Entrepôt au Maroc : la Grille et la Méthode"
 date: "2026-08-26"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "audit QHSE entrepôt maroc, audit QHSE maroc, comité sécurité hygiène maroc, DUER maroc entrepôt"
 description: "Seules 17% des entreprises marocaines ont mis en place un comité de sécurité et d'hygiène pourtant obligatoire (CESE). La grille et la méthode pour auditer un entrepôt."
 ---
 
 # Audit QHSE Entrepôt au Maroc : la Grille et la Méthode
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Un audit QHSE entrepôt évalue la conformité qualité, hygiène, sécurité et environnement d'un site logistique face aux obligations légales et aux bonnes pratiques du secteur.** Au Maroc, le cadre légal existe et il est précis — mais son application réelle sur le terrain reste très en retard sur le texte. Selon un rapport du Conseil Économique, Social et Environnemental (CESE) publié en 2020, seules 17% des entreprises marocaines ont mis en place une commission de sécurité et d'hygiène, alors même qu'il s'agit d'une obligation légale pour toute entreprise de 50 salariés ou plus. Un audit QHSE structuré est le point de départ pour sortir de cet écart entre le texte et la réalité du site.
 

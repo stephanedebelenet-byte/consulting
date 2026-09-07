@@ -2,7 +2,7 @@
 title: "Agences de Recrutement Logistique au Maroc : Lesquelles Choisir"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "agences recrutement supply chain Maroc, cabinet recrutement logistique Maroc, chasseur tête supply chain Maroc, recruteur logistique Maroc"
 description: "Les meilleures agences et cabinets de recrutement pour la supply chain au Maroc. Comment travailler avec eux efficacement et maximiser vos chances d'être placé."
 ---
@@ -13,7 +13,7 @@ Les cabinets de recrutement sont un canal souvent sous-utilisé par les candidat
 
 Bien utilisés, ils peuvent vous ouvrir des portes invisibles ailleurs.
 
-![Agences recrutement logistique Maroc](/images/office.jpg)
+![Agences recrutement logistique Maroc](/images/office.webp)
 
 ## Comment Fonctionne un Cabinet de Recrutement
 

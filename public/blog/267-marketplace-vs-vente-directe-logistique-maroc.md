@@ -3,14 +3,14 @@ title: "Marketplace vs Vente Directe : quelles Implications Logistiques pour les
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "marketplace logistique maroc, vente directe vs marketplace, site e-commerce propre logistique"
 description: "Vendre sur marketplace ou sur son propre site e-commerce n'implique pas la même organisation logistique. Ce qui change concrètement pour un vendeur marocain."
 ---
 
 # Marketplace vs Vente Directe : quelles Implications Logistiques pour les Vendeurs Marocains
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Une marketplace (place de marché) met en relation plusieurs vendeurs et acheteurs sur une même plateforme moyennant une commission, tandis qu'un site e-commerce propre est une boutique en ligne exclusive où le vendeur maîtrise l'intégralité de l'expérience client — de la navigation à la livraison.** Le choix entre les deux n'est pas qu'une décision commerciale, c'est une décision qui redistribue directement les responsabilités logistiques : sur une marketplace, l'opérateur de la plateforme gère souvent une partie de l'infrastructure technique et parfois la logistique elle-même ; sur un site propre, le vendeur porte seul l'intégralité du stockage, de la préparation et de la livraison.
 

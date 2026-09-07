@@ -3,14 +3,14 @@ title: "WMS vs ERP Intégré : Faut-il un Système Dédié pour son Entrepôt"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "WMS vs ERP entrepôt, système dédié entrepôt maroc, module WMS ERP intégré"
 description: "Au-delà de 5 000 m² et 10 000 références actives, un WMS dédié devient indispensable. Le seuil à partir duquel un module ERP intégré ne suffit plus."
 ---
 
 # WMS vs ERP Intégré : Faut-il un Système Dédié pour son Entrepôt
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **La question n'est pas de savoir si un WMS (Warehouse Management System) est "meilleur" qu'un module de gestion d'entrepôt intégré à un ERP — c'est de savoir à partir de quel volume et de quelle complexité d'entrepôt le module intégré devient insuffisant.** Le repère le plus opérationnel : un entrepôt de plus de 5 000 m², avec plus de 10 000 références actives et des flux critiques (dates limites de consommation dans l'alimentaire, traçabilité dans le médical) nécessite généralement un WMS dédié. À l'inverse, un entrepôt de taille moyenne — moins de 2 000 m², moins de 3 000 références — s'accommode généralement très bien d'un module WMS intégré à l'ERP existant.
 

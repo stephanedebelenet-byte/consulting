@@ -2,7 +2,7 @@
 title: "Schéma Directeur Distribution Multi-Régions au Maroc : Stratégie et Mise en Œuvre 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "schéma directeur distribution maroc, stratégie distribution multi-régionale maroc, réseau distribution régional maroc, expansion logistique maroc, couverture nationale distribution maroc"
 description: "Construire une stratégie de distribution multi-régionale au Maroc : modèles de réseau, décision hub vs dépôt, politique de stock et plan d'expansion. Méthode et cas réels."
 ---
@@ -15,7 +15,7 @@ La distribution multi-régionale au Maroc pose des défis que les modèles de di
 
 J'ai accompagné une vingtaine d'entreprises marocaines dans leur passage d'une distribution mono-site à une distribution multi-régionale. Voici ce que j'ai appris.
 
-![Schéma directeur distribution multi-régionale au Maroc — réseau et stratégie logistique](/images/charts.jpg)
+![Schéma directeur distribution multi-régionale au Maroc — réseau et stratégie logistique](/images/charts.webp)
 
 ---
 

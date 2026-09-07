@@ -2,7 +2,7 @@
 title: "Case Study: DHL Supply Chain — 3-Site Warehouse Consolidation & Efficiency +25%"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 type: "case-study"
 keywords: "case study DHL, consolidation entrepôts, WMS, logistique 3PL Maroc"
 description: "DHL Supply Chain, 3 sites et 21 000 m² : refonte WMS et processus de picking → efficacité opérationnelle +25%, ruptures -45%, SLA à 96%."

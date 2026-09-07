@@ -3,14 +3,14 @@ title: "Cabinet de Recrutement vs Recrutement Direct : quelle Stratégie pour un
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "recrutement cabinet vs direct maroc, cabinet recrutement logistique maroc, coût recrutement supply chain"
 description: "Un mauvais recrutement à 12 mois coûte 1,8 à 2,9 fois le salaire annuel. Comment arbitrer entre cabinet de recrutement et sourcing direct pour un poste supply chain critique."
 ---
 
 # Cabinet de Recrutement vs Recrutement Direct : quelle Stratégie pour un Poste Critique
 
-![Bureau et recrutement](/images/office.jpg)
+![Bureau et recrutement](/images/office.webp)
 
 **Le choix entre passer par un cabinet de recrutement ou sourcer directement un candidat n'est pas qu'une question de coût direct — c'est un arbitrage entre coût visible, délai de recrutement et risque d'erreur de casting.** Un cabinet de recrutement facture généralement entre 15% et 35% du salaire brut annuel du candidat recruté, un coût direct plus élevé que le sourcing interne, dont le coût visible se situe plutôt entre 500 et 2 000 euros — mais ce chiffre interne ne compte pas le temps de direction mobilisé, estimé entre 5 000 et 15 000 euros selon la complexité du poste.
 

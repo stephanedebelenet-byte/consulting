@@ -3,14 +3,14 @@ title: "Hydrogène Vert et Ammoniac : la Nouvelle Chaîne Logistique que l'OCP C
 date: "2026-08-22"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/construction.jpg"
+image: "/images/construction.webp"
 keywords: "hydrogène vert OCP, ammoniac vert maroc, OCP Fortescue, logistique énergie verte maroc"
 description: "13 milliards de dollars d'investissement, une usine d'ammoniac vert à Tarfaya : ce que le méga-projet OCP construit comme nouvelle chaîne logistique industrielle."
 ---
 
 # Hydrogène Vert et Ammoniac : la Nouvelle Chaîne Logistique que l'OCP Construit
 
-![Chantier industriel](/images/construction.jpg)
+![Chantier industriel](/images/construction.webp)
 
 **L'hydrogène vert et l'ammoniac vert désignent des molécules produites à partir d'électricité renouvelable, utilisées ici pour décarboner la production d'engrais et créer une nouvelle filière d'exportation énergétique.** L'OCP, déjà le premier exportateur mondial d'engrais phosphatés, construit dans la région de Tarfaya l'une des plus grandes chaînes logistiques industrielles jamais lancées au Maroc — un projet qui dépasse largement le seul enjeu énergétique pour redessiner toute une supply chain de matériaux, d'équipements et de main-d'œuvre.
 

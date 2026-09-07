@@ -3,14 +3,14 @@ title: "3PL et 4PL en Afrique Francophone : qui sont les Acteurs et Comment les 
 date: "2026-08-24"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "3PL 4PL afrique francophone, prestataire logistique afrique, AGL Africa Global Logistics, CEVA Logistics afrique"
 description: "AGL, CEVA Logistics : panorama des grands prestataires 3PL/4PL en Afrique francophone, et critères pour choisir le bon partenaire logistique régional."
 ---
 
 # 3PL et 4PL en Afrique Francophone : qui sont les Acteurs et Comment les Choisir
 
-![Zone logistique et transport](/images/transport.jpg)
+![Zone logistique et transport](/images/transport.webp)
 
 **Un 3PL (third-party logistics) opère directement le transport, l'entreposage ou le dédouanement pour le compte d'un chargeur, tandis qu'un 4PL (fourth-party logistics) pilote et orchestre plusieurs prestataires sans nécessairement posséder les actifs physiques.** En Afrique francophone, le paysage de ces prestataires a été bouleversé par deux consolidations majeures ces trois dernières années — utiles à connaître avant de choisir un partenaire logistique régional depuis le Maroc.
 

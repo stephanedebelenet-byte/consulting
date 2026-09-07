@@ -2,7 +2,7 @@
 title: "10 Erreurs des Jeunes Diplômés Supply Chain au Maroc (et Comment les Éviter)"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "erreurs jeune diplômé supply chain Maroc, pièges premiers emploi logistique, mistakes junior supply chain Maroc, conseils débutant supply chain"
 description: "Les 10 erreurs les plus courantes des jeunes diplômés supply chain au Maroc, observées sur le terrain, avec les solutions concrètes pour les éviter."
 ---
@@ -11,7 +11,7 @@ description: "Les 10 erreurs les plus courantes des jeunes diplômés supply cha
 
 Après des années à accompagner des professionnels supply chain et à travailler avec des DRH et des DSC, j'ai observé des patterns d'erreurs qui reviennent systématiquement chez les jeunes diplômés. Aucune de ces erreurs n'est fatale — mais chacune peut coûter des mois de recherche d'emploi inutile.
 
-![Erreurs jeunes diplômés supply chain Maroc](/images/conseil.jpg)
+![Erreurs jeunes diplômés supply chain Maroc](/images/conseil.webp)
 
 ## Erreur 1 — Attendre que les Offres Viennent à Soi
 

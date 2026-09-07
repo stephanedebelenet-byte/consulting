@@ -2,7 +2,7 @@
 title: "Formation Supply Chain Intra-Entreprise au Maroc : Former Toute une Équipe"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "formation intra-entreprise supply chain Maroc, formation sur mesure logistique Maroc, formation équipe supply chain, formation corporate logistique Maroc"
 description: "La formation supply chain intra-entreprise au Maroc : comment former toute une équipe sur vos processus réels, les avantages vs inter-entreprises et le coût par personne."
 ---
@@ -13,7 +13,7 @@ Quand une entreprise a 5 personnes ou plus à former, la formation intra-entrepr
 
 Plus économique parce que le coût est partagé. Plus efficace parce que la formation se fait sur vos propres processus, avec vos propres données, dans votre propre contexte.
 
-![Formation intra-entreprise équipe supply chain](/images/analytics.jpg)
+![Formation intra-entreprise équipe supply chain](/images/analytics.webp)
 
 ## Pourquoi l'Intra-Entreprise Surpasse l'Inter-Entreprises
 

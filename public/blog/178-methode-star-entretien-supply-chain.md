@@ -2,7 +2,7 @@
 title: "La Méthode STAR pour les Entretiens Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "méthode STAR entretien supply chain Maroc, STAR logistique entretien, raconter expérience entretien supply chain, exemples STAR supply chain"
 description: "La méthode STAR appliquée aux entretiens supply chain au Maroc : comment structurer vos réponses pour convaincre, avec des exemples concrets du secteur logistique."
 ---
@@ -11,7 +11,7 @@ description: "La méthode STAR appliquée aux entretiens supply chain au Maroc :
 
 La méthode STAR est la technique la plus efficace pour répondre aux questions comportementales en entretien. Elle transforme vos anecdotes professionnelles en arguments percutants — si vous l'appliquez correctement.
 
-![Méthode STAR entretien supply chain Maroc](/images/conseil.jpg)
+![Méthode STAR entretien supply chain Maroc](/images/conseil.webp)
 
 ## Qu'est-ce que STAR ?
 

@@ -2,7 +2,7 @@
 title: "Entrepôt Frigorifique au Maroc : Concevoir et Gérer la Logistique du Froid 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "entrepôt frigorifique maroc, logistique du froid maroc, chambre froide entrepôt maroc, cold chain maroc, logistique agroalimentaire froid maroc"
 description: "Entrepôt frigorifique au Maroc : conception, réglementation, gestion opérationnelle et coûts. Guide complet pour la logistique du froid dans les secteurs agroalimentaire et pharmaceutique."
 ---
@@ -13,7 +13,7 @@ La logistique du froid est la supply chain la moins tolérante aux erreurs. Dans
 
 Au Maroc, le développement de la chaîne du froid suit l'essor de l'agroalimentaire d'export, de la grande distribution, et d'une industrie pharmaceutique en croissance. Les besoins en entrepôts frigorifiques bien conçus et bien gérés sont réels — et les erreurs fréquentes.
 
-![Logistique du froid et entrepôt frigorifique au Maroc — gestion et conformité](/images/conseil.jpg)
+![Logistique du froid et entrepôt frigorifique au Maroc — gestion et conformité](/images/conseil.webp)
 
 ---
 

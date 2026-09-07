@@ -3,14 +3,14 @@ title: "Hausse des Prix du Carburant : Comment les Transporteurs Marocains Absor
 date: "2026-08-19"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "hausse carburant transporteurs maroc 2026, prix gasoil maroc 2026, aide transport routier maroc, coût carburant transport"
 description: "Le gasoil a atteint environ 14,25 MAD/L après plusieurs hausses en 2026. Comment les transporteurs marocains absorbent ce choc — aides publiques et clauses de révision."
 ---
 
 # Hausse des Prix du Carburant : Comment les Transporteurs Marocains Absorbent le Choc en 2026
 
-![Transport et logistique routière](/images/transport.jpg)
+![Transport et logistique routière](/images/transport.webp)
 
 **Le gasoil a franchi environ 14,25 MAD le litre début août 2026, après une série de hausses depuis le 30 mars.** Pour une flotte de transport routier, où le carburant représente 30 à 40% des coûts d'exploitation, cette progression n'est pas un détail de trésorerie — c'est une pression directe sur la marge. Les transporteurs marocains absorbent ce choc par deux leviers principaux : les aides publiques ponctuelles et la répercussion contractuelle sur leurs clients.
 

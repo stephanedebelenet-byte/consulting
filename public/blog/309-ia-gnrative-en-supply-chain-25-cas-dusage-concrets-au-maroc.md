@@ -3,14 +3,14 @@ title: "IA Générative en Supply Chain : 25 Cas d'Usage Concrets au Maroc"
 date: "2026-09-01"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "ia générative supply chain maroc, cas usage llm logistique, chatgpt supply chain, ia achats logistique maroc, automatisation supply chain maroc"
 description: "25 cas d'usage concrets de l'IA générative en supply chain, logistique et achats — ce qui fonctionne aujourd'hui dans une PME marocaine, et les 5 usages à éviter."
 ---
 
 # IA Générative en Supply Chain : 25 Cas d'Usage Concrets au Maroc
 
-![Tableau de bord analytique supply chain avec indicateurs temps réel](/images/analytics.jpg)
+![Tableau de bord analytique supply chain avec indicateurs temps réel](/images/analytics.webp)
 
 **En deux ans, l'IA générative est passée du gadget à l'outil de bureau. McKinsey chiffre le potentiel de création de valeur de l'IA générative dans les fonctions supply chain et achats entre 40 et 110 milliards de dollars par an à l'échelle mondiale, l'essentiel provenant non pas de projets lourds mais d'un gain de productivité diffus sur des tâches de rédaction, d'analyse et de synthèse. Le sujet, pour une PME ou une ETI marocaine, n'est plus « faut-il s'y mettre » mais « quels cas d'usage donnent un résultat en quelques semaines, sans data scientist, sans budget à sept chiffres ».** Cet article liste 25 usages testés sur le terrain, classés par fonction, puis les cinq tâches qu'il ne faut pas confier à un modèle de langage.
 

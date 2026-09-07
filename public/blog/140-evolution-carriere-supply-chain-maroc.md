@@ -2,7 +2,7 @@
 title: "Évolution de Carrière en Supply Chain au Maroc : Plan sur 10 Ans"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "évolution carrière supply chain Maroc, progression carrière logistique, plan carrière supply chain Maroc, promotion supply chain Maroc"
 description: "Comment évoluer en supply chain au Maroc : les étapes de carrière, les compétences à développer à chaque niveau, et le plan sur 10 ans pour devenir directeur."
 ---
@@ -13,7 +13,7 @@ La supply chain offre l'une des progressions de carrière les plus claires dans 
 
 Voici la carte du territoire — et comment la traverser en 10 ans.
 
-![Évolution carrière supply chain Maroc](/images/business.jpg)
+![Évolution carrière supply chain Maroc](/images/business.webp)
 
 ## Les 5 Niveaux de Carrière Supply Chain
 

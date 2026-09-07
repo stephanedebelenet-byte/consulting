@@ -2,7 +2,7 @@
 title: "ROI d'une Formation Supply Chain au Maroc : Comment le Calculer et le Justifier"
 date: "2026-08-10"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "roi formation logistique maroc, roi formation supply chain, retour sur investissement formation supply chain, justifier budget formation supply chain, formation logistique rentable maroc, coût formation supply chain maroc"
 description: "Comment calculer et justifier le ROI d'une formation logistique ou supply chain au Maroc ? Méthode, exemples chiffrés, coûts cachés et modèle de présentation à la direction."
 ---
@@ -13,7 +13,7 @@ description: "Comment calculer et justifier le ROI d'une formation logistique ou
 
 Bonne nouvelle : le ROI d'une formation supply chain se calcule, se justifie, et il est souvent spectaculaire.
 
-![Analyse de la performance logistique — calcul du retour sur investissement](/images/analytics.jpg)
+![Analyse de la performance logistique — calcul du retour sur investissement](/images/analytics.webp)
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Case Study: Autoroutes du Maroc — Externalisation Pilotage: 1.2 Milliard MAD Budget"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 type: "case-study"
 keywords: "case study Autoroutes du Maroc, externalisation, SLA, gestion de contrats"
 description: "Autoroutes du Maroc : externalisation péage et assistance sur 1,2 MMAD de flux annuel → cadre contractuel SLA/KPI, coûts stabilisés, risques maîtrisés."

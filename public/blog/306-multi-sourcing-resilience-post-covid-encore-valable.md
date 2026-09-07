@@ -3,14 +3,14 @@ title: "Multi-Sourcing et Stocks Stratégiques : les Leçons de Résilience Post
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "multi-sourcing résilience supply chain, stocks stratégiques 2026, leçons covid supply chain"
 description: "Les coûts logistiques avaient bondi de 300 à 400% lors des pires épisodes de la crise Covid. Pourquoi le multi-sourcing et les stocks stratégiques restent des leviers de résilience valables en 2026."
 ---
 
 # Multi-Sourcing et Stocks Stratégiques : les Leçons de Résilience Post-Covid Encore Valables
 
-![Supply chain globale](/images/hero-supply-chain.jpg)
+![Supply chain globale](/images/hero-supply-chain.webp)
 
 **La crise Covid a révélé la fragilité des chaînes d'approvisionnement fortement concentrées sur un seul fournisseur ou une seule zone géographique — confinements, congestion portuaire et retards d'expédition ont freiné la production, avec des coûts logistiques qui ont bondi de 300 à 400% dans certains des pires épisodes de la crise.** Ces leçons restent hautement applicables en 2026 : le multi-sourcing et le nearshoring (rapprochement géographique des sources d'approvisionnement) sont devenus des leviers structurels plutôt que des ajustements temporaires, avec une diversification qui dépasse aujourd'hui la seule sortie de la dépendance à la Chine pour englober une logique plus large de résilience géographique.
 

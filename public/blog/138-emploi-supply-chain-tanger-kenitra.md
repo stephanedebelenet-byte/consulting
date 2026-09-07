@@ -2,7 +2,7 @@
 title: "Emploi Supply Chain à Tanger et Kénitra : Le Boom Automobile"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "emploi supply chain Tanger, emploi logistique Tanger, emploi supply chain Kénitra, travail logistique Tanger Med, emploi automobile Tanger"
 description: "Emploi supply chain à Tanger et Kénitra en 2026 : le boom automobile, les entreprises qui recrutent, les salaires et comment postuler dans l'écosystème industriel."
 ---
@@ -11,7 +11,7 @@ description: "Emploi supply chain à Tanger et Kénitra en 2026 : le boom automo
 
 Tanger-Kénitra est devenue la Silicon Valley de l'industrie automobile africaine. Avec Renault à Tanger, Stellantis à Kénitra, et plus de 250 équipementiers répartis sur les deux villes, c'est le deuxième bassin d'emploi supply chain du Maroc — et de loin le plus dynamique en croissance.
 
-![Tanger Kénitra hub automobile supply chain](/images/transport.jpg)
+![Tanger Kénitra hub automobile supply chain](/images/transport.webp)
 
 ## L'Écosystème Industriel de Tanger
 

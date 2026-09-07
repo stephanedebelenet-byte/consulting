@@ -3,14 +3,14 @@ title: "Formation Interne vs Recrutement Externe : Arbitrer la Montée en Compé
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "formation interne vs recrutement maroc, montée en compétence supply chain, upskilling vs recrutement externe"
 description: "Former un collaborateur existant coûte environ 3 fois moins cher que recruter en externe. Comment arbitrer entre formation interne et recrutement pour couvrir un besoin de compétence."
 ---
 
 # Formation Interne vs Recrutement Externe : Arbitrer la Montée en Compétence Supply Chain
 
-![Bureau et formation](/images/office.jpg)
+![Bureau et formation](/images/office.webp)
 
 **Face à un besoin de compétence supply chain non couvert en interne, une entreprise a deux options structurellement différentes : former un collaborateur déjà en poste (upskilling) ou recruter un nouveau profil qui possède déjà la compétence recherchée.** Le calcul économique penche largement en faveur de la première option : former un collaborateur interne coûte environ trois fois moins cher que recruter en externe, et 88% des entreprises déclarent qu'il est plus rapide de faire monter en compétence un talent interne que de pourvoir un poste par un recrutement externe.
 

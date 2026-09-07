@@ -2,7 +2,7 @@
 title: "Travailler en Supply Chain à l'International depuis le Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "travailler international supply chain Maroc, expatriation logistique, carrière internationale supply chain marocain, supply chain Afrique internationale"
 description: "Comment les professionnels supply chain marocains peuvent accéder à des postes internationaux : les destinations, les stratégies, et les compétences pour se positionner."
 ---
@@ -11,7 +11,7 @@ description: "Comment les professionnels supply chain marocains peuvent accéder
 
 Le Maroc forme d'excellents professionnels supply chain. Ce que beaucoup ne réalisent pas : leurs compétences sont recherchées bien au-delà des frontières marocaines. La supply chain est un secteur profondément international — et les profils marocains ont des atouts uniques.
 
-![Carrière supply chain internationale depuis Maroc](/images/transport.jpg)
+![Carrière supply chain internationale depuis Maroc](/images/transport.webp)
 
 ## Les Atouts Spécifiques des Profils Marocains
 

@@ -3,14 +3,14 @@ title: "CBAM (Taxe Carbone UE) : ce que les Exportateurs Marocains Doivent Antic
 date: "2026-08-28"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "CBAM maroc export, taxe carbone UE maroc, mécanisme ajustement carbone frontière maroc, CBAM exportateurs marocains"
 description: "Le CBAM européen est entré en phase financière complète le 1er janvier 2026. 3 à 3,7% des exportations marocaines vers l'UE sont déjà concernées, 10% dès 2028."
 ---
 
 # CBAM (Taxe Carbone UE) : ce que les Exportateurs Marocains Doivent Anticiper
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le CBAM (Carbon Border Adjustment Mechanism, ou mécanisme d'ajustement carbone aux frontières) est un dispositif européen qui impose aux importateurs de l'UE de payer un coût carbone sur certains produits, calqué sur le prix du carbone payé par les producteurs européens équivalents.** Après 18 mois de phase transitoire limitée à des obligations de déclaration, le CBAM est entré dans sa phase financière complète le 1er janvier 2026 : les exportateurs marocains des secteurs concernés font désormais face à un coût carbone réel, plus une simple formalité de reporting.
 

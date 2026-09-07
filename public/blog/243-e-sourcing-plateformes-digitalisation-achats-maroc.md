@@ -3,14 +3,14 @@ title: "E-Sourcing : les Plateformes qui Digitalisent les Achats au Maroc"
 date: "2026-08-28"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "e-sourcing maroc, digitalisation achats maroc, plateforme achats maroc, SAP Ariba Odoo Purchase Ivalua"
 description: "60% des PME marocaines gèrent encore leurs achats manuellement. Comparatif SAP Ariba, Ivalua, Odoo Purchase et les plateformes locales marocaines."
 ---
 
 # E-Sourcing : les Plateformes qui Digitalisent les Achats au Maroc
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **L'e-sourcing regroupe les outils numériques qui digitalisent le cycle achats — appels d'offres, consultations fournisseurs, enchères inversées, suivi des dépenses — pour remplacer des processus encore largement gérés par email et tableur.** Au Maroc, ce chantier reste largement devant nous : environ 60% des PME marocaines gèrent encore leurs achats de manière manuelle, alors que les entreprises qui adoptent tôt une solution d'e-sourcing sourcent mieux et moins cher que leurs homologues restées sur des processus papier ou tableur ([Oasis Techno Cloud](https://oasistechnocloud.com/blog/digitalisation-pme-maroc/)).
 

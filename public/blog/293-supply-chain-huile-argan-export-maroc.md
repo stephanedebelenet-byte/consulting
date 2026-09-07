@@ -3,14 +3,14 @@ title: "Supply Chain de l'Huile d'Argan : Structurer l'Export d'une Filière 100
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/agro.jpg"
+image: "/images/agro.webp"
 keywords: "supply chain argan export maroc, filière huile argan, coopératives argan export"
 description: "Près de 200 coopératives structurent la filière argan, mais leur part dans l'export a chuté de 80% à 18% entre 2008 et 2018 face aux entreprises privées. Ce que ça révèle sur la compétitivité logistique."
 ---
 
 # Supply Chain de l'Huile d'Argan : Structurer l'Export d'une Filière 100% Marocaine
 
-![Agroalimentaire et export](/images/agro.jpg)
+![Agroalimentaire et export](/images/agro.webp)
 
 **L'huile d'argan est une filière emblématique 100% marocaine, mais sa chaîne d'approvisionnement export révèle une transformation structurelle rarement documentée : la part des coopératives dans les exportations est passée d'environ 80% en 2008 à seulement 18% en 2018, au profit d'entreprises privées mieux structurées sur la commercialisation et la logistique export.** La filière compte aujourd'hui près de 200 coopératives, 160 entreprises privées, 4 groupements d'intérêt économique et 2 unions — une production totale annuelle d'environ 4 000 tonnes, dont seulement 10% est exportée, l'essentiel étant consommé sur le marché domestique et régional.
 

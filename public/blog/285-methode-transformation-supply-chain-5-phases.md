@@ -3,14 +3,14 @@ title: "Piloter un Projet de Transformation Supply Chain : la Méthode en 5 Phas
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "méthode transformation supply chain, piloter projet transformation logistique, phases projet supply chain"
 description: "Moins de 30% des projets de transformation d'entreprise atteignent leurs objectifs selon McKinsey. La méthode en 5 phases qui structure une transformation supply chain réussie."
 ---
 
 # Piloter un Projet de Transformation Supply Chain : la Méthode en 5 Phases
 
-![Conseil et diagnostic](/images/conseil.jpg)
+![Conseil et diagnostic](/images/conseil.webp)
 
 **Un projet de transformation supply chain — refonte d'un réseau logistique, déploiement d'un nouveau modèle opérationnel, restructuration d'une fonction achats — échoue plus souvent qu'il ne réussit : selon une étude McKinsey menée en 2014 auprès de plus de 3 000 dirigeants, moins de 30% des chantiers de transformation d'entreprise atteignent leurs objectifs, un chiffre resté remarquablement stable depuis une étude comparable menée dès 2006.** Ce taux d'échec élevé n'est presque jamais lié à une mauvaise idée de départ — il est lié à un pilotage insuffisamment structuré entre le diagnostic initial et l'ancrage final du changement.
 

@@ -2,7 +2,7 @@
 title: "Formation Acheteur Professionnel au Maroc : Cursus, Compétences et Salaires"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "formation acheteur professionnel Maroc, cursus acheteur Maroc, devenir acheteur professionnel, négociation achats formation Maroc"
 description: "Formation acheteur professionnel au Maroc : programme complet, compétences en négociation, certifications, salaires et débouchés. Guide 2026 par Nextinotech."
 ---
@@ -13,7 +13,7 @@ Un bon acheteur professionnel génère 3 à 8 fois son salaire en économies ann
 
 La bonne nouvelle : c'est une compétence qui s'apprend. Et vite.
 
-![Négociation achats professionnel](/images/business.jpg)
+![Négociation achats professionnel](/images/business.webp)
 
 ## Ce que Fait Vraiment un Acheteur Professionnel
 

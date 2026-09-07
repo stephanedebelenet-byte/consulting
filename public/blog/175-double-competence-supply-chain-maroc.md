@@ -2,7 +2,7 @@
 title: "La Double Compétence : L'Arme Secrète des Profils Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "double compétence supply chain Maroc, profil hybride logistique, supply chain data Maroc, supply chain finance Maroc, compétences combinées logistique"
 description: "Comment la double compétence supply chain + une autre expertise (data, finance, digital, RSE) vous positionne sur les postes les plus rares et les mieux rémunérés au Maroc."
 ---
@@ -13,7 +13,7 @@ Les profils qui progressent le plus vite et atteignent les salaires les plus él
 
 Voici comment construire cette double compétence dès le début de votre carrière.
 
-![Double compétence supply chain Maroc profil hybride](/images/business.jpg)
+![Double compétence supply chain Maroc profil hybride](/images/business.webp)
 
 ## Pourquoi la Double Compétence ?
 

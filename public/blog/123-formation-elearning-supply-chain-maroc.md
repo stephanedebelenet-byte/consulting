@@ -2,7 +2,7 @@
 title: "Formation E-learning Supply Chain au Maroc : Apprendre à Son Rythme"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "formation en ligne supply chain Maroc, e-learning logistique Maroc, formation à distance supply chain, MOOC supply chain Maroc"
 description: "Formations e-learning supply chain disponibles au Maroc : MOOC gratuits, plateformes payantes, certifications en ligne. Que valent-elles vraiment ?"
 ---
@@ -13,7 +13,7 @@ Le e-learning en supply chain a explosé depuis 2020. Entre les MOOC gratuits, l
 
 Que vaut vraiment une formation en ligne supply chain ? Et comment choisir parmi les centaines d'options disponibles ?
 
-![Formation en ligne e-learning supply chain](/images/office.jpg)
+![Formation en ligne e-learning supply chain](/images/office.webp)
 
 ## Les Avantages Réels du E-learning
 

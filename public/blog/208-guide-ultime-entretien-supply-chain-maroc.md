@@ -2,7 +2,7 @@
 title: "Guide Ultime : Réussir son Entretien Supply Chain au Maroc en 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "guide ultime entretien supply chain Maroc, réussir entretien logistique Maroc 2026, préparation complète entretien SC Maroc, meilleur guide entretien supply chain"
 description: "Le guide de référence complet pour réussir votre entretien supply chain au Maroc en 2026 : de la préparation au suivi post-entretien, toutes les étapes clés en un seul article."
 ---
@@ -11,7 +11,7 @@ description: "Le guide de référence complet pour réussir votre entretien supp
 
 Vous avez décroché un entretien pour un poste supply chain au Maroc. Félicitations — c'est déjà une victoire dans un marché compétitif. Maintenant, l'objectif est de transformer cette opportunité en offre. Ce guide compile tout ce que vous devez savoir pour arriver préparé, convaincant, et mémorable.
 
-![Guide ultime entretien supply chain Maroc 2026](/images/hero-supply-chain.jpg)
+![Guide ultime entretien supply chain Maroc 2026](/images/hero-supply-chain.webp)
 
 ## J-7 : La Semaine Avant l'Entretien
 

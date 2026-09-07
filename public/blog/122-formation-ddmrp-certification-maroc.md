@@ -2,7 +2,7 @@
 title: "Formation DDMRP au Maroc : Certification Practitioner et Résultats Terrain"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "formation DDMRP Maroc, certification DDMRP Maroc, DDMRP Practitioner Maroc, Demand Driven MRP formation, DDMRP planification Maroc"
 description: "Formation DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, pourquoi c'est la méthode de planification de référence en 2026 et comment se certifier."
 ---
@@ -13,7 +13,7 @@ Le DDMRP (Demand Driven Material Requirements Planning) est la méthode de plani
 
 J'ai personnellement déployé le DDMRP dans plusieurs entreprises marocaines. Les résultats sont constants : ruptures -40 à 65%, stocks -25 à 35%, et des équipes qui travaillent enfin en mode proactif plutôt que réactif.
 
-![Planification DDMRP buffers dynamiques](/images/charts.jpg)
+![Planification DDMRP buffers dynamiques](/images/charts.webp)
 
 ## Pourquoi le MRP Classique Ne Suffit Plus
 

@@ -2,7 +2,7 @@
 title: "Les Meilleurs Secteurs pour Débuter en Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "meilleurs secteurs supply chain débutant Maroc, secteurs logistique jeune diplômé, où travailler supply chain Maroc junior, secteur supply chain formateur Maroc"
 description: "Quel secteur choisir pour commencer sa carrière supply chain au Maroc ? Comparatif des secteurs les plus formateurs, les mieux rémunérés, et les plus porteurs à long terme."
 ---
@@ -11,7 +11,7 @@ description: "Quel secteur choisir pour commencer sa carrière supply chain au M
 
 Tous les secteurs ne se valent pas pour démarrer une carrière supply chain. Certains vous forment mieux, d'autres paient mieux, d'autres ouvrent plus de portes ensuite. Voici un guide sectoriel honnête pour orienter votre premier emploi.
 
-![Secteurs supply chain débutant Maroc](/images/hero-supply-chain.jpg)
+![Secteurs supply chain débutant Maroc](/images/hero-supply-chain.webp)
 
 ## Critères de Comparaison
 

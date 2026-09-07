@@ -3,14 +3,14 @@ title: "Automatiser les Documents de Douane par l'IA : DUM, BL, Packing List"
 date: "2026-09-05"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "automatisation documents douane ia maroc, dum bl packing list ia, dédouanement ia maroc, ocr douane import export, portnet badr automatisation"
 description: "Extraire et contrôler les documents de dédouanement avec l'IA — DUM, connaissement, packing list, facture. Ce qui est automatisable au Maroc, et le gain en jours."
 ---
 
 # Automatiser les Documents de Douane par l'IA : DUM, BL, Packing List
 
-![Port et opérations de transport international](/images/transport.jpg)
+![Port et opérations de transport international](/images/transport.webp)
 
 **Un dossier d'importation au Maroc, c'est une dizaine de documents — facture commerciale, connaissement (BL), packing list, certificat d'origine, DUM — dont les données doivent concorder à la ligne près. Le moindre écart entre le poids du packing list et celui du BL, entre la valeur facture et la valeur déclarée, et le dossier bloque en circuit de contrôle. Ce travail de recopie et de recoupement, aujourd'hui manuel, mobilise un déclarant plusieurs heures par dossier et génère des retards en cascade.** L'IA générative, couplée à la reconnaissance de caractères, automatise l'extraction et le contrôle de cohérence — sans remplacer le déclarant, mais en lui rendant des heures.
 

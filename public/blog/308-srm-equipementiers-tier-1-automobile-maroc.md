@@ -3,14 +3,14 @@ title: "SRM Fournisseurs Stratégiques : Gérer la Relation avec les Équipement
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "gestion relation fournisseurs automobile maroc, SRM Tier 1 automobile, équipementiers Renault Stellantis Maroc"
 description: "18 équipementiers Tier 1 et une trentaine de Tier 2 sont installés au Maroc, pour 5 milliards d'euros d'achats annuels. Comment se structure la relation fournisseur dans cet écosystème automobile spécifique."
 ---
 
 # SRM Fournisseurs Stratégiques : Gérer la Relation avec les Équipementiers Tier 1 Automobile
 
-![Conseil et diagnostic](/images/conseil.jpg)
+![Conseil et diagnostic](/images/conseil.webp)
 
 **L'écosystème automobile marocain a atteint une échelle qui justifie une gestion fournisseur spécifique, distincte du SRM généraliste : pas moins de 18 équipementiers de rang 1 (Tier 1) et une trentaine de rang 2 sont aujourd'hui installés au Maroc, répartis sur près de 250 sites de production, pour un volume d'achats de 5 milliards d'euros l'an dernier entre Renault et Stellantis auprès de leurs fournisseurs implantés dans le pays — un chiffre que les deux constructeurs prévoient de doubler dans les trois prochaines années.** Tous les grands noms des bases fournisseurs de Stellantis et Renault sont représentés : Sumitomo, Forvia, Valeo, OPmobility (ex-Plastic Omnium), Lear, ZF, ainsi que Yazaki pour le câblage et Saint-Gobain pour le vitrage.
 

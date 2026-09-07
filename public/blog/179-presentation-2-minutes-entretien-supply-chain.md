@@ -2,7 +2,7 @@
 title: "Se Présenter en 2 Minutes en Entretien Supply Chain : La Formule Parfaite"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "se présenter entretien supply chain Maroc, pitch 2 minutes logistique entretien, présentation parcours supply chain entretien, parlez-moi de vous supply chain"
 description: "Comment réussir sa présentation de 2 minutes en entretien supply chain au Maroc ? Formule, exemples et erreurs à éviter pour un pitch percutant."
 ---
@@ -13,7 +13,7 @@ description: "Comment réussir sa présentation de 2 minutes en entretien supply
 
 Ceux qui s'en sortent bien ne récitent pas leur CV. Ils racontent une histoire avec une logique claire qui amène naturellement à "c'est pourquoi ce poste est parfait pour la suite de mon parcours."
 
-![Présentation 2 minutes entretien supply chain Maroc](/images/office.jpg)
+![Présentation 2 minutes entretien supply chain Maroc](/images/office.webp)
 
 ## La Structure en 4 Temps
 

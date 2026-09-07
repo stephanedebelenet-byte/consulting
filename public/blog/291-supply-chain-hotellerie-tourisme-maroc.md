@@ -3,14 +3,14 @@ title: "Supply Chain du Secteur Hôtelier et Tourisme : Approvisionner sans Rupt
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "supply chain hôtellerie tourisme maroc, approvisionnement hôtel maroc, achats CHR maroc"
 description: "Un hôtel produit en moyenne 4 tonnes de gaspillage alimentaire par an, soit 38 000€ de coût direct. Comment le secteur hôtelier marocain sécurise son approvisionnement en haute saison."
 ---
 
 # Supply Chain du Secteur Hôtelier et Tourisme : Approvisionner sans Rupture en Haute Saison
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le secteur hôtelier marocain aborde des saisons touristiques de plus en plus tendues — les perspectives 2026 convergent vers une saison estivale de très haut niveau, dans un contexte où les performances exceptionnelles du secteur laissent anticiper une saturation de la capacité hôtelière d'ici 2030.** Cette pression de la demande a un revers logistique direct : un approvisionnement mal calibré en haute saison se traduit soit par des ruptures qui dégradent l'expérience client, soit par un surstockage qui génère un gaspillage coûteux — un hôtel produit en moyenne 4 tonnes de gaspillage alimentaire par an, pour un coût direct estimé à 38 000 euros, une référence européenne faute de donnée équivalente publiée pour le Maroc.
 

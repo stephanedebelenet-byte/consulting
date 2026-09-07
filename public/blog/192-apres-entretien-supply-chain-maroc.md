@@ -2,7 +2,7 @@
 title: "Après l'Entretien Supply Chain : Ce qu'il Faut Faire"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "après entretien supply chain Maroc, suivi entretien logistique Maroc, relance entretien supply chain, attendre réponse entretien logistique"
 description: "Que faire après un entretien supply chain au Maroc ? Email de suivi, relance, analyse de l'entretien, et comment gérer l'attente d'une décision."
 ---
@@ -13,7 +13,7 @@ L'entretien s'est terminé. Vous sortez du bureau — soulagé, stressé, ou les
 
 Ce que vous faites dans les heures et jours suivant l'entretien peut faire la différence entre un oui et un peut-être.
 
-![Après entretien supply chain Maroc](/images/office.jpg)
+![Après entretien supply chain Maroc](/images/office.webp)
 
 ## Dans les 2 Heures Après l'Entretien
 

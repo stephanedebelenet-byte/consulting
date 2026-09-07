@@ -10,7 +10,7 @@ description: "La Task Force Vaccination nationale a mobilisé une gouvernance co
 
 # Logistique Santé au Maroc : ce que la Task Force Vaccination a montré sur la chaîne du froid
 
-![Chaîne logistique du secteur de la santé](/images/healthcare.jpg)
+![Chaîne logistique du secteur de la santé](/images/healthcare.webp)
 
 **La logistique de santé ne pardonne pas les approximations : une rupture de chaîne du froid ne se corrige pas, elle se subit.** C'est cette exigence qui a structuré la mission bénévole de Nextinotech au sein de la Task Force Vaccination nationale, pendant la campagne de vaccination COVID-19 à l'échelle du Royaume.
 

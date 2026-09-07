@@ -2,7 +2,7 @@
 title: "Formation Lean Logistique au Maroc : 5S, Kaizen et VSM en Entrepôt"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "formation lean logistique Maroc, 5S entrepôt Maroc, Kaizen supply chain Maroc, VSM formation Maroc, lean management logistique"
 description: "Formation Lean Logistique au Maroc : 5S, Kaizen, VSM et réduction des gaspillages en entrepôt. Programme pratique, résultats concrets et certification."
 ---
@@ -13,7 +13,7 @@ Le Lean n'est pas une philosophie abstraite japonaise. C'est un ensemble d'outil
 
 En supply chain et logistique, le Lean peut réduire les temps de préparation de 30 à 50%, les erreurs de picking de 70%, et améliorer la sécurité. Sans investissement lourd.
 
-![Entrepôt organisé avec méthode 5S et Lean](/images/hero-warehouse.jpg)
+![Entrepôt organisé avec méthode 5S et Lean](/images/hero-warehouse.webp)
 
 ## Les 7 Gaspillages à Éliminer en Logistique
 

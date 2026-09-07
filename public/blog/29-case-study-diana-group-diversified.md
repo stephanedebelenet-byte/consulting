@@ -2,7 +2,7 @@
 title: "Case Study: Diana Holding — Multi-Filiale S&OP: Stock -20%, Cash -12 Days"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/agro.jpg"
+image: "/images/agro.webp"
 type: "case-study"
 keywords: "case study Diana Holding, S&OP multi-filiales, besoin en fonds de roulement"
 description: "Diana Holding (boissons et agroalimentaire) : processus S&OP unifié sur 4 filiales → stock -48%, cycle de cash -12 jours, 2,1 MMAD de cash libéré."

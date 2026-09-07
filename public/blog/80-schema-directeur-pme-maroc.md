@@ -2,7 +2,7 @@
 title: "Schéma Directeur Logistique pour PME au Maroc : Méthode Adaptée 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "schéma directeur logistique pme maroc, plan directeur supply chain pme, stratégie logistique pme maroc, plan logistique entreprise maroc, roadmap supply chain maroc"
 description: "Comment construire un schéma directeur logistique adapté à une PME marocaine : méthode en 4 étapes, budget réaliste et livrables concrets. Sans le budget d'un grand groupe."
 ---
@@ -15,7 +15,7 @@ J'ai réalisé des schémas directeurs logistiques pour des groupes de 2 000 per
 
 Voici comment.
 
-![Schéma directeur logistique pour PME marocaine — planification et roadmap supply chain](/images/conseil.jpg)
+![Schéma directeur logistique pour PME marocaine — planification et roadmap supply chain](/images/conseil.webp)
 
 ---
 

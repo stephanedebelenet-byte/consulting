@@ -2,7 +2,7 @@
 title: "Formation Gestionnaire d'Entrepôt au Maroc : Programme et Certification"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "formation gestionnaire entrepôt Maroc, formation chef entrepôt, formation magasinier Maroc, certification entrepôt logistique Maroc"
 description: "Formation gestionnaire d'entrepôt au Maroc : compétences, programme, certification et évolution vers chef d'entrepôt. Guide pratique 2026."
 ---
@@ -13,7 +13,7 @@ L'entrepôt est le cœur battant de la supply chain. Un gestionnaire d'entrepôt
 
 Un gestionnaire bien formé, c'est exactement le contraire.
 
-![Gestion opérationnelle d'un entrepôt logistique](/images/hero-warehouse.jpg)
+![Gestion opérationnelle d'un entrepôt logistique](/images/hero-warehouse.webp)
 
 ## Les Responsabilités du Gestionnaire d'Entrepôt
 

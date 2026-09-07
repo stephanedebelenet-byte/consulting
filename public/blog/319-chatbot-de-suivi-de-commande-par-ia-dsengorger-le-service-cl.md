@@ -3,14 +3,14 @@ title: "Chatbot de Suivi de Commande par IA : Désengorger le Service Client Log
 date: "2026-09-11"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "chatbot suivi commande ia, wismo ia logistique maroc, service client logistique automatisation, ia adv suivi livraison, chatbot logistique maroc"
 description: "Les demandes « où est ma commande » saturent les services client logistique. Comment un assistant IA connecté au TMS/WMS y répond, et ce qu'il ne faut pas lui déléguer."
 ---
 
 # Chatbot de Suivi de Commande par IA : Désengorger le Service Client Logistique
 
-![Équipe service client et administration des ventes](/images/business.jpg)
+![Équipe service client et administration des ventes](/images/business.webp)
 
 **Dans un service client logistique ou une ADV, une part énorme des contacts entrants — souvent la moitié — se résume à une seule question : « où en est ma commande ? ». Ces demandes, dites WISMO (Where Is My Order), sont répétitives, à faible valeur ajoutée, et pourtant elles mobilisent des équipes qui n'ont alors plus le temps de traiter les vrais litiges. Un assistant IA connecté aux systèmes de suivi absorbe ce volume — à condition d'être branché sur des données fiables et bordé sur ce qu'il a le droit de dire.** Voici comment le concevoir.
 

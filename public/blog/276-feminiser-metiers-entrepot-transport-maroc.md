@@ -3,14 +3,14 @@ title: "Féminiser les Métiers d'Entrepôt et de Transport : Lever les Freins C
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "féminisation métiers logistiques maroc, femmes entrepôt transport, femmes caristes conductrices maroc"
 description: "En France, les femmes ne représentent que 11% des métiers de la conduite en transport. Les freins culturels qui expliquent cette sous-représentation, et ce qui commence à changer."
 ---
 
 # Féminiser les Métiers d'Entrepôt et de Transport : Lever les Freins Culturels au Maroc
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **Les métiers opérationnels de la logistique — cariste, magasinier, conducteur poids lourd — restent parmi les plus masculins de l'économie, avec des freins qui relèvent davantage de représentations culturelles que de contraintes physiques réelles.** En France, où la donnée sectorielle est mieux documentée, les femmes ne représentent que 19% des salariés de la branche transport-logistique, une part qui chute à 12% dans le transport de marchandises et à seulement 11% dans les métiers de la conduite — des chiffres européens, faute d'étude équivalente publiée au Maroc, mais qui illustrent une dynamique observée dans la plupart des marchés où le secteur reste associé à une image de métier physique et "viril".
 

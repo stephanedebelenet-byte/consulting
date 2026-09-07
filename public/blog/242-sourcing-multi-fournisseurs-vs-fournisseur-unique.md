@@ -3,14 +3,14 @@ title: "Sourcing Multi-Fournisseurs vs Fournisseur Unique : Arbitrer le Risque A
 date: "2026-08-28"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "diversification fournisseurs risque, single sourcing vs dual sourcing, fournisseur unique risque supply chain, arbitrage sourcing achats"
 description: "60 à 80% du coût d'une rupture fournisseur vient d'effets indirects, pas du coût d'achat direct. Comment arbitrer entre fournisseur unique et sourcing multiple."
 ---
 
 # Sourcing Multi-Fournisseurs vs Fournisseur Unique : Arbitrer le Risque Achats
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le choix entre fournisseur unique (single sourcing) et sourcing multiple (dual ou multi-sourcing) n'est pas une question de principe, mais un arbitrage entre coût et résilience qui doit se décider catégorie d'achat par catégorie d'achat.** Le single sourcing permet de réduire les coûts en concentrant les volumes chez un seul fournisseur — remises de volume, coûts administratifs plus faibles, relation fournisseur plus forte. Le sourcing multiple protège contre la défaillance d'un fournisseur, au prix d'une gestion plus complexe et d'une perte partielle des remises de volume.
 

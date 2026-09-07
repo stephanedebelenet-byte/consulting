@@ -2,7 +2,7 @@
 title: "Emploi Supply Chain à Rabat et la Région : Guide 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "emploi supply chain Rabat, emploi logistique Rabat-Salé, travail supply chain Rabat 2026, offres emploi logistique Rabat"
 description: "Trouver un emploi en supply chain à Rabat et dans la région Rabat-Salé-Kénitra en 2026 : secteurs, entreprises, salaires et stratégie de candidature."
 ---
@@ -11,7 +11,7 @@ description: "Trouver un emploi en supply chain à Rabat et dans la région Raba
 
 Rabat est souvent éclipsée par Casablanca dans les conversations sur l'emploi supply chain. À tort. La capitale marocaine et sa région immédiate offrent un marché du travail supply chain solide et spécifique — notamment avec le cluster automobile de Kénitra, à 40 km.
 
-![Emploi supply chain Rabat région](/images/business.jpg)
+![Emploi supply chain Rabat région](/images/business.webp)
 
 ## Le Profil Économique de la Région
 

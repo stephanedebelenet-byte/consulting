@@ -10,7 +10,7 @@ description: "L'e-commerce marocain croît de 25 à 30% par an. Le dernier kilom
 
 # Supply Chain E-Commerce au Maroc : le dernier kilomètre, vrai défi du secteur
 
-![Livraison et distribution logistique](/images/transport.jpg)
+![Livraison et distribution logistique](/images/transport.webp)
 
 **L'e-commerce marocain compte plus de 8 millions d'acheteurs en ligne en 2026, contre 4,5 millions en 2022** — une croissance du chiffre d'affaires de 25 à 30% par an depuis 2022. Le secteur n'a pas de problème de demande. Il a un problème de dernier kilomètre.
 

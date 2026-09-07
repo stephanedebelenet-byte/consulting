@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 
 const LOGOS = [
   { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34 },
-  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.png', height: 40 },
+  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.webp', height: 40 },
   { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26 },
-  { name: 'Casanet', file: '/images/logos/casanet.png', height: 46 },
+  { name: 'Casanet', file: '/images/logos/casanet.webp', height: 46 },
 ]
 
 const REFS = [
@@ -13,7 +13,7 @@ const REFS = [
     sector: 'Automobile',
     mission: 'Conception greenfield logistique — site industriel de Tanger. Logistique amont, flux assemblage, standards SPR Groupe Renault.',
     result: 'Référence greenfield industrielle au Maroc',
-    image: '/images/pharma.jpg',
+    image: '/images/pharma.webp',
     span: 2,
   },
   {
@@ -29,7 +29,7 @@ const REFS = [
     sector: 'Immobilier & Construction',
     mission: '31 chantiers simultanés. 710 millions MAD d\'achats annuels. Transformation complète de la fonction supply chain groupe.',
     result: '11% d\'économies réalisées sur le spend achats',
-    image: '/images/construction.jpg',
+    image: '/images/construction.webp',
     span: 1,
   },
   {
@@ -37,7 +37,7 @@ const REFS = [
     sector: 'Mission Nationale COVID-19',
     mission: 'Expert métier bénévole pour la Task Force vaccination nationale. DDMRP, AMOA SI, gouvernance risques, cold chain national à l\'échelle du Royaume.',
     result: 'Cold chain national — vaccination de masse',
-    image: '/images/healthcare.jpg',
+    image: '/images/healthcare.webp',
     span: 1,
   },
   {
@@ -45,7 +45,7 @@ const REFS = [
     sector: '110+ Missions · Tous secteurs',
     mission: 'Diagnostic, optimisation stocks, performance achats, schémas logistiques, AMOA SI, déploiement WMS/TMS/APS. De Casablanca à Agadir.',
     result: '110+ missions · 20+ ans · 0 commission',
-    image: '/images/business.jpg',
+    image: '/images/business.webp',
     span: 2,
   },
 ]

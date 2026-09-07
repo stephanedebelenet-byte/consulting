@@ -3,14 +3,14 @@ title: "Zones Logistiques Industrielles d'Afrique Francophone : Comparatif des H
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/construction.jpg"
+image: "/images/construction.webp"
 keywords: "zones logistiques afrique francophone, zones industrielles Bénin Togo Gabon, Arise IIP zones économiques"
 description: "Près de 2 milliards de dollars investis dans une quinzaine de pays majoritairement francophones. Comparatif des zones industrielles émergentes d'Afrique francophone pour un investisseur."
 ---
 
 # Zones Logistiques Industrielles d'Afrique Francophone : Comparatif des Hubs Émergents
 
-![Construction et industrie](/images/construction.jpg)
+![Construction et industrie](/images/construction.webp)
 
 **Un acteur structure aujourd'hui une part significative du développement de zones industrielles en Afrique francophone : Arise IIP, actif dans une quinzaine de pays subsahariens majoritairement francophones (Gabon, Bénin, Togo, Rwanda, Côte d'Ivoire), revendique près de 2 milliards de dollars d'investissement cumulé et 50 000 emplois créés, avec une levée récente de 700 millions de dollars aux côtés de Vision Invest pour l'aménagement de nouvelles plateformes industrielles.** Pour un investisseur ou une entreprise marocaine qui envisage une implantation en Afrique francophone, ces zones structurées offrent un point d'entrée avec une infrastructure déjà en place, plutôt qu'un développement isolé sans écosystème logistique environnant.
 

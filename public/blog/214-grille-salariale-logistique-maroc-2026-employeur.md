@@ -3,14 +3,14 @@ title: "Grille Salariale Logistique et Supply Chain Maroc 2026 : Benchmark Emplo
 date: "2026-08-19"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "grille salariale logistique maroc 2026, salaire supply chain maroc employeur, coût recrutement logistique maroc, charges patronales maroc"
 description: "Agent logistique 5-8k MAD, Directeur Supply Chain 30-65k MAD brut. La grille salariale 2026 vue côté employeur — budgétisation, charges patronales, tension Tanger."
 ---
 
 # Grille Salariale Logistique et Supply Chain Maroc 2026 : Benchmark Employeur
 
-![Conseil et budgétisation RH](/images/business.jpg)
+![Conseil et budgétisation RH](/images/business.webp)
 
 **Un agent logistique coûte 5 000 à 8 000 MAD brut par mois, un Directeur Supply Chain entre 30 000 et 65 000 MAD.** Entre les deux, un Responsable Logistique / Supply Chain Manager se situe entre 12 000 et 28 000 MAD selon la séniorité et la taille de l'entreprise, et un Responsable des Achats entre 12 000 et 28 000 MAD également. Ces chiffres, issus des guides des salaires Michael Page Maroc et Diorh 2025-2026, ne racontent qu'une partie de l'histoire pour un employeur : le salaire brut n'est pas le coût réel d'un poste, et la tension du marché varie fortement selon la région et le secteur.
 

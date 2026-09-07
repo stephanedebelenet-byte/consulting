@@ -3,14 +3,14 @@ title: "Copilot de Demand Planning : l'IA Générative au Service du Prévisionn
 date: "2026-09-08"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "copilot demand planning ia, ia générative prévision demande, prévisionniste ia maroc, demand planner assistant ia, s&op ia maroc"
 description: "L'IA générative n'améliore pas le calcul de prévision — elle rend le prévisionniste plus rapide : expliquer les écarts, documenter les hypothèses, préparer le S&OP."
 ---
 
 # Copilot de Demand Planning : l'IA Générative au Service du Prévisionniste
 
-![Graphiques de prévision de la demande et de planification](/images/charts.jpg)
+![Graphiques de prévision de la demande et de planification](/images/charts.webp)
 
 **Il faut lever une confusion fréquente : l'IA générative n'améliore pas la précision d'une prévision de la demande. Le calcul du forecast relève des modèles statistiques et du [machine learning prédictif](/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-). Ce que l'IA générative change, c'est le quotidien du prévisionniste : les 60 % de son temps qu'il passe non pas à modéliser, mais à expliquer, documenter, réconcilier et préparer des réunions.** Le « copilot de demand planning » n'est pas un moteur de prévision — c'est un assistant qui absorbe le travail de commentaire et de coordination autour du chiffre.
 

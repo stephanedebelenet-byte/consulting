@@ -2,7 +2,7 @@
 title: "Formation WMS au Maroc : Choisir, Déployer et Maîtriser son Système"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "formation WMS Maroc, déploiement WMS Maroc, Warehouse Management System formation, formation logiciel entrepôt Maroc"
 description: "Formation WMS au Maroc : comment choisir son logiciel entrepôt, le déployer sans erreur et former ses équipes. Guide pratique par un expert ayant déployé 10+ WMS."
 ---
@@ -13,7 +13,7 @@ Un WMS mal choisi ou mal déployé est l'une des dépenses les plus douloureuses
 
 La formation WMS n'est pas qu'une formation logiciel. C'est une formation sur les processus, le changement, et la conduite de projet.
 
-![Déploiement WMS warehouse management system](/images/analytics.jpg)
+![Déploiement WMS warehouse management system](/images/analytics.webp)
 
 ## Pourquoi Tant de Déploiements WMS Échouent
 

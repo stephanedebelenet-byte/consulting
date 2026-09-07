@@ -2,7 +2,7 @@
 title: "Logistique Inverse au Maroc : Gérer les Retours sans Perdre de l'Argent"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "logistique inverse Maroc, gestion retours logistique, reverse logistics Maroc, retours e-commerce Maroc, supply chain retours"
 description: "La logistique inverse coûte 2 à 4 fois plus cher que la logistique directe. Comment les entreprises marocaines structurent leurs retours pour limiter les pertes en 2026."
 ---
@@ -13,7 +13,7 @@ La logistique inverse est le parent pauvre de la supply chain marocaine. Quand j
 
 En e-commerce, 20 à 30% des commandes sont retournées. En retail, entre 8 et 12%. En B2B industriel, entre 3 et 6%. Ces chiffres représentent un coût réel — souvent invisible dans les comptes, toujours présent dans les marges.
 
-![Gestion des retours en entrepôt logistique](/images/hero-warehouse.jpg)
+![Gestion des retours en entrepôt logistique](/images/hero-warehouse.webp)
 
 ## Pourquoi la Logistique Inverse Est Ignorée (À Tort)
 

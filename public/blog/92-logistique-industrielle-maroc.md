@@ -2,7 +2,7 @@
 title: "Logistique Industrielle au Maroc : Organisation, Flux et Performance 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "logistique industrielle maroc, supply chain industrielle maroc, flux de production maroc, logistique usine maroc, approvisionnement production maroc"
 description: "Logistique industrielle au Maroc : approvisionnement production, flux intra-usine, gestion des pièces de rechange et interface supply chain / production. Guide opérationnel 2026."
 ---
@@ -15,7 +15,7 @@ Le résultat : des arrêts de production pour manque de matière, des stocks de 
 
 J'ai accompagné des projets de logistique industrielle dans l'automobile, l'agroalimentaire, le textile et l'industrie générale au Maroc. Voici ce que j'y ai appris.
 
-![Organisation des flux logistiques en milieu industriel au Maroc](/images/hero-warehouse.jpg)
+![Organisation des flux logistiques en milieu industriel au Maroc](/images/hero-warehouse.webp)
 
 ---
 

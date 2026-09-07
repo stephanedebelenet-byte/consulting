@@ -2,7 +2,7 @@
 title: "Réseaux Professionnels Logistique au Maroc : Comment les Utiliser"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "réseau professionnel logistique Maroc, networking supply chain Maroc, AMLOG, associations logistique Maroc, réseau logisticien Maroc"
 description: "Les réseaux professionnels supply chain au Maroc : quelles associations rejoindre, comment utiliser LinkedIn, et comment construire un réseau qui ouvre des opportunités."
 ---
@@ -13,7 +13,7 @@ On dit souvent que le réseau professionnel est la clé des opportunités de car
 
 Voici comment construire et activer ce réseau.
 
-![Réseau professionnel logistique Maroc](/images/office.jpg)
+![Réseau professionnel logistique Maroc](/images/office.webp)
 
 ## Les Associations Professionnelles
 

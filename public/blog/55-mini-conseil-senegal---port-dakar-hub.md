@@ -10,7 +10,7 @@ description: "Le Port Autonome de Dakar gère environ 70% des importations du Ma
 
 # Supply Chain Sénégal : le Port de Dakar, verrou logistique ouest-africain
 
-![Quais et infrastructures portuaires](/images/transport.jpg)
+![Quais et infrastructures portuaires](/images/transport.webp)
 
 **Le Port Autonome de Dakar gère à lui seul environ 70% des importations du Mali.** C'est le fait à retenir en premier pour comprendre le rôle du Sénégal dans la logistique ouest-africaine : ce n'est pas qu'un marché domestique, c'est une infrastructure régionale dont dépendent des pays entiers.
 

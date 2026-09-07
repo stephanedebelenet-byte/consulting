@@ -3,14 +3,14 @@ title: "Category Management Achats : Structurer ses Catégories pour Plus de Val
 date: "2026-08-28"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "category management achats maroc, matrice kraljic achats, segmentation achats stratégie, gestion catégories achats"
 description: "La matrice de Kraljic, conçue chez McKinsey en 1983, reste l'outil de référence pour segmenter ses achats. La méthode pour une PME ou ETI multi-sites marocaine."
 ---
 
 # Category Management Achats : Structurer ses Catégories pour Plus de Valeur
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le category management consiste à segmenter les achats d'une entreprise en catégories homogènes — matières premières, prestations logistiques, IT, intérim — pour leur appliquer une stratégie d'achat différenciée plutôt qu'une négociation uniforme.** La plupart des PME et ETI marocaines traitent encore leurs achats comme un bloc unique, négocié fournisseur par fournisseur sans logique de portefeuille — une approche qui laisse une valeur significative sur la table, en particulier sur les catégories à fort enjeu stratégique.
 

@@ -2,7 +2,7 @@
 title: "Formation Chef d'Entrepôt au Maroc : Compétences, Programme et Certifications 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "formation chef d'entrepôt maroc, formation responsable entrepôt maroc, formation logistique entrepôt casablanca, chef d'entrepôt compétences maroc, management entrepôt formation"
 description: "Formation chef d'entrepôt au Maroc : compétences clés, programme type, certifications reconnues et salaires. Guide complet pour les professionnels et les entreprises."
 ---
@@ -13,7 +13,7 @@ Le chef d'entrepôt est le rouage le plus critique de la supply chain opération
 
 Dans mes 20 ans de missions au Maroc, j'ai observé une constante : les entrepôts performants ont un chef d'entrepôt formé et compétent. Les entrepôts chaotiques ont souvent un chef d'entrepôt expérimenté mais jamais structuré. L'expérience sans formation produit des habitudes. La formation sans expérience produit de la théorie. Les deux ensemble produisent de la performance.
 
-![Formation et management en entrepôt logistique au Maroc](/images/hero-warehouse.jpg)
+![Formation et management en entrepôt logistique au Maroc](/images/hero-warehouse.webp)
 
 ---
 

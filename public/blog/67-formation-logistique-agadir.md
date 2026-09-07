@@ -2,7 +2,7 @@
 title: "Formation Logistique à Agadir : Supply Chain Export et Région Souss-Massa 2026"
 date: "2026-08-01"
 author: "Nextinotech"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "formation logistique agadir, supply chain agadir, formation responsable logistique agadir, export logistique souss massa, formation transport agadir"
 description: "Formation logistique et supply chain pour les professionnels d'Agadir et de la région Souss-Massa : export, pêche, agrumes, BTP. Nextinotech."
 ---
@@ -13,7 +13,7 @@ Agadir est la capitale économique du Souss-Massa, une région dont la supply ch
 
 Pourtant, la formation supply chain locale reste insuffisante au regard des enjeux.
 
-![Transport et export — supply chain Agadir Souss-Massa](/images/transport.jpg)
+![Transport et export — supply chain Agadir Souss-Massa](/images/transport.webp)
 
 > **La région Souss-Massa exporte plus de 1,2 million de tonnes de produits agricoles par an.** Cette supply chain d'export complexe — gestion du froid, délais serrés, conformité UE — exige des professionnels formés aux normes internationales.
 

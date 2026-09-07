@@ -3,14 +3,14 @@ title: "Module SAP MM pour les Achats : ce qu'il Faut Savoir avant de se Lancer"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "SAP MM achats maroc, module SAP materials management, SAP achats guide maroc"
 description: "SAP MM couvre l'intégralité du cycle Procure-to-Pay. Ce que le module fait concrètement, et ce qu'un acheteur doit comprendre avant un déploiement, sans jargon IT."
 ---
 
 # Module SAP MM pour les Achats : ce qu'il Faut Savoir avant de se Lancer
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **SAP MM (Materials Management) est le module SAP qui orchestre l'intégralité du cycle Procure-to-Pay — de la demande d'achat initiale jusqu'au paiement du fournisseur, en passant par les commandes, la réception des marchandises, la gestion des stocks et la valorisation des inventaires.** Pour un acheteur qui n'a jamais travaillé sur SAP, la difficulté n'est généralement pas technique — c'est de comprendre que SAP MM impose une discipline de saisie et de process bien plus rigide qu'un tableur, et que cette rigidité, souvent perçue comme une contrainte au démarrage, est précisément ce qui rend les données fiables une fois le système maîtrisé.
 

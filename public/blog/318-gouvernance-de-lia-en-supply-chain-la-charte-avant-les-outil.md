@@ -3,14 +3,14 @@ title: "Gouvernance de l'IA en Supply Chain : la Charte Avant les Outils"
 date: "2026-09-10"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "gouvernance ia supply chain, charte ia entreprise maroc, comité ia cas usage, data readiness supply chain, gouvernance ia achats logistique"
 description: "Avant d'acheter un outil IA : la charte d'usage, le registre des cas d'usage, le comité et la préparation des données. Le cadre que 9 PME sur 10 sautent."
 ---
 
 # Gouvernance de l'IA en Supply Chain : la Charte Avant les Outils
 
-![Réunion de gouvernance et de cadrage projet](/images/office.jpg)
+![Réunion de gouvernance et de cadrage projet](/images/office.webp)
 
 **La séquence habituelle dans une PME marocaine : quelqu'un teste ChatGPT, trouve ça utile, et six mois plus tard une dizaine de personnes collent des données clients, des prix fournisseurs et des extraits de contrats dans des outils grand public, sans règle, sans traçabilité, sans personne pour arbitrer. Le jour où un incident survient — donnée exposée, décision fausse prise sur une hallucination, litige fournisseur — il n'y a ni cadre ni responsable. La gouvernance de l'IA n'est pas de la bureaucratie : c'est ce qui permet d'aller vite sans se mettre en risque.** Elle tient en quatre briques.
 

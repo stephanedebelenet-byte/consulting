@@ -2,7 +2,7 @@
 title: "Digitalisation de la Supply Chain au Maroc : IoT, IA et Outils Concrets 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "digitalisation supply chain maroc, transformation digitale logistique maroc, iot logistique maroc, intelligence artificielle supply chain maroc, erp logistique maroc"
 description: "Digitalisation de la supply chain au Maroc : ERP, WMS, TMS, IoT, IA — quels outils pour quels enjeux, comment prioriser et éviter les pièges. Guide opérationnel 2026."
 ---
@@ -15,7 +15,7 @@ La digitalisation de la supply chain n'est pas une fin en soi. C'est un moyen de
 
 Une supply chain digitale chaotique est plus difficile à corriger qu'une supply chain manuelle chaotique. C'est la leçon que j'ai apprise sur le terrain.
 
-![Digitalisation et intelligence artificielle dans la supply chain marocaine](/images/analytics.jpg)
+![Digitalisation et intelligence artificielle dans la supply chain marocaine](/images/analytics.webp)
 
 ---
 

@@ -3,14 +3,14 @@ title: "IA et Supply Chain Automobile au Maroc : Prévision, EDI et JIT"
 date: "2026-09-07"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "ia supply chain automobile maroc, prévision cadencée edi jit, équipementiers renault stellantis ia, industrie automobile maroc digitalisation, ia logistique automobile"
 description: "Playbook IA pour la filière automobile marocaine — prévision cadencée, fiabilisation EDI, juste-à-temps et conformité douanière dans l'écosystème Renault-Stellantis."
 ---
 
 # IA et Supply Chain Automobile au Maroc : Prévision, EDI et JIT
 
-![Ligne de production et logistique industrielle automobile](/images/business.jpg)
+![Ligne de production et logistique industrielle automobile](/images/business.webp)
 
 **La filière automobile marocaine — deux constructeurs, une base d'équipementiers de rang 1 et 2 répartie sur près de 250 sites, plusieurs milliards d'euros d'achats locaux annuels — fonctionne à un niveau d'exigence supply chain que peu de secteurs connaissent au Maroc : livraison synchrone, cadences imposées, pénalités de ligne arrêtée, traçabilité pièce. C'est précisément dans cet environnement contraint que l'IA a le meilleur rapport valeur/effort, parce que chaque heure d'arrêt et chaque écart de stock se chiffrent immédiatement.** Voici les cas d'usage prioritaires pour un équipementier installé à Tanger ou Kénitra.
 

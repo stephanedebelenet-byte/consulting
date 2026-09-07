@@ -3,14 +3,14 @@ title: "Automatiser le Traitement des Factures Fournisseurs avec l'IA (OCR + LLM
 date: "2026-09-06"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "automatisation factures fournisseurs ocr ia, traitement facture ia maroc, rapprochement 3 way match ia, comptabilité fournisseurs automatisation, p2p automatisation maroc"
 description: "Extraction, rapprochement et validation des factures fournisseurs par IA — le 3-way match automatisé, les spécificités TVA et retenue à la source au Maroc."
 ---
 
 # Automatiser le Traitement des Factures Fournisseurs avec l'IA (OCR + LLM)
 
-![Équipe achats et comptabilité fournisseurs au travail](/images/business.jpg)
+![Équipe achats et comptabilité fournisseurs au travail](/images/business.webp)
 
 **Dans une PME marocaine qui traite quelques centaines de factures fournisseurs par mois, le circuit type prend cinq à dix jours : réception par e-mail, saisie manuelle dans l'ERP, rapprochement avec la commande et le bon de réception, chasse aux validations, puis mise en paiement. Chaque étape est une source d'erreur, de litige et de retard de paiement — avec un coût de traitement par facture souvent supérieur à 40 MAD une fois tout compté.** L'IA, combinant reconnaissance de caractères et modèle de langage, automatise l'extraction et le rapprochement, et ne laisse à l'humain que les exceptions.
 

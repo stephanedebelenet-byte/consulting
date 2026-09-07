@@ -2,7 +2,7 @@
 title: "La Psychologie de l'Entretien Supply Chain : Ce que le Recruteur Pense"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "psychologie entretien supply chain Maroc, ce que pense recruteur logistique, biais recrutement supply chain, comment se faire voir recruteur SC Maroc"
 description: "Comprendre la psychologie du recruteur supply chain au Maroc : ses biais, ses critères réels de décision, et comment adapter votre comportement pour maximiser vos chances."
 ---
@@ -11,7 +11,7 @@ description: "Comprendre la psychologie du recruteur supply chain au Maroc : ses
 
 Pour réussir un entretien, il faut comprendre l'autre côté de la table. Le recruteur a des critères officiels — et des critères non-dits. Il a des biais — dont certains fonctionnent en votre faveur si vous les comprenez.
 
-![Psychologie entretien supply chain Maroc](/images/conseil.jpg)
+![Psychologie entretien supply chain Maroc](/images/conseil.webp)
 
 ## Ce que le Recruteur Cherche Vraiment
 

@@ -2,7 +2,7 @@
 title: "Programme de Formation Supply Chain Management pour Cadres au Maroc 2026"
 date: "2026-08-10"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "formation supply chain management cadres maroc, formation continue supply chain maroc, programme supply chain manager maroc, formation directeur supply chain maroc, certification supply chain maroc, executive supply chain formation"
 description: "Programme de formation supply chain management pour cadres au Maroc : compétences stratégiques, S&OP, pilotage par les données, formation continue et certifications APICS. Par Nextinotech."
 ---
@@ -13,7 +13,7 @@ Il y a deux types de managers supply chain au Maroc. Ceux qui gèrent les urgenc
 
 La différence entre les deux n'est pas l'expérience. C'est la formation — initiale et continue. Nous avons rencontré des directeurs supply chain avec 20 ans d'expérience qui gèrent encore dans la réaction, et des managers de 35 ans qui pilotent avec une précision remarquable. La variable n'est pas les années : c'est ce qu'on a appris à faire avec, et si cet apprentissage continue.
 
-![Formation supply chain management pour cadres et managers au Maroc](/images/conseil.jpg)
+![Formation supply chain management pour cadres et managers au Maroc](/images/conseil.webp)
 
 ---
 

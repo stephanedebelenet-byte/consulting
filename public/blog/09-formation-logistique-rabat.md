@@ -2,7 +2,7 @@
 title: "Formation Supply Chain à Rabat — Expert Logistique Maroc"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "formation supply chain Rabat, formation logistique Salé, conseil Rabat, expert supply chain Rabat"
 description: "Formation et conseil supply chain à Rabat/Salé. Sourcing stratégique, WMS, S&OP, formation équipes. PME/ME/GE Maroc."
 location: "Rabat, Salé, Maroc"

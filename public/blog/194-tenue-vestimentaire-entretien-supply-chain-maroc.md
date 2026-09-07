@@ -2,7 +2,7 @@
 title: "Tenue Vestimentaire pour un Entretien Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "tenue entretien supply chain Maroc, comment s'habiller entretien logistique, vestimentaire recrutement supply chain Maroc, s'habiller entretien professionnel Maroc"
 description: "Comment s'habiller pour un entretien supply chain au Maroc ? Conseils par type de poste et d'entreprise, erreurs à éviter et comment adapter sa tenue au contexte."
 ---
@@ -11,7 +11,7 @@ description: "Comment s'habiller pour un entretien supply chain au Maroc ? Conse
 
 On dit souvent que l'habit ne fait pas le moine. Mais en entretien, la tenue fait définitivement partie de la première impression — et au Maroc, les codes vestimentaires professionnels ont leur propre logique.
 
-![Tenue entretien supply chain Maroc](/images/office.jpg)
+![Tenue entretien supply chain Maroc](/images/office.webp)
 
 ## Le Principe de Base
 

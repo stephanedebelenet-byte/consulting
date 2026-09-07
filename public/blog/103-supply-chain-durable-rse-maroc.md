@@ -2,7 +2,7 @@
 title: "Supply Chain Durable au Maroc : Concilier Performance et RSE en 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "supply chain durable Maroc, green logistics Maroc, RSE supply chain, logistique verte Maroc, empreinte carbone supply chain"
 description: "Supply chain durable au Maroc : comment concilier performance logistique et RSE en 2026. Outils concrets, exemples réels, et guide pratique pour passer à l'action."
 ---
@@ -13,7 +13,7 @@ En 2025, la CSRD européenne est entrée en vigueur. Les entreprises marocaines 
 
 Ce n'est plus une question d'éthique. C'est une question de survie commerciale.
 
-![Vue aérienne supply chain et logistique globale durable](/images/hero-supply-chain.jpg)
+![Vue aérienne supply chain et logistique globale durable](/images/hero-supply-chain.webp)
 
 ## Pourquoi la Supply Chain Durable Devient Obligatoire
 

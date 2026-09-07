@@ -3,14 +3,14 @@ title: "Digitalisation Logistique en Afrique de l'Ouest : les ERP qui s'Adaptent
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "digitalisation logistique afrique ouest, ERP adapté afrique, connectivité logistique afrique de l'ouest"
 description: "Coût, connectivité intermittente, résistance au changement : les freins réels à la digitalisation logistique en Afrique de l'Ouest, et pourquoi les ERP occidentaux classiques y répondent mal."
 ---
 
 # Digitalisation Logistique en Afrique de l'Ouest : les ERP qui s'Adaptent aux Réalités Locales
 
-![Données et pilotage supply chain](/images/analytics.jpg)
+![Données et pilotage supply chain](/images/analytics.webp)
 
 **Les ERP historiques, conçus initialement pour des marchés occidentaux avec une connectivité stable et des régimes fiscaux standardisés, se révèlent souvent mal adaptés aux contraintes spécifiques d'une entreprise logistique ouest-africaine — coûts d'acquisition élevés pour une PME, fiscalité locale mal prise en compte, et surtout une dépendance à une connectivité internet qui reste intermittente dans de nombreuses zones d'Afrique de l'Ouest.** Pour une entreprise marocaine qui exporte vers cette région ou y opère directement, cette réalité technologique compte autant que l'infrastructure physique — un partenaire logistique local mal outillé numériquement complique la visibilité sur les flux, même quand la route et le corridor douanier fonctionnent bien.
 

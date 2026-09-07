@@ -2,7 +2,7 @@
 title: "Les 15 Erreurs à Éviter en Entretien Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "erreurs entretien supply chain Maroc, pièges entretien logistique, fautes entretien supply chain, ce qu'il ne faut pas faire entretien supply chain"
 description: "Les 15 erreurs les plus fréquentes en entretien supply chain au Maroc, observées par des recruteurs, avec les correctifs pour les éviter."
 ---
@@ -11,7 +11,7 @@ description: "Les 15 erreurs les plus fréquentes en entretien supply chain au M
 
 Ces erreurs viennent directement de DRH et de DSC marocains interrogés sur ce qui les fait éliminer un candidat. Certaines semblent évidentes — et pourtant elles reviennent semaine après semaine.
 
-![Erreurs entretien supply chain Maroc](/images/conseil.jpg)
+![Erreurs entretien supply chain Maroc](/images/conseil.webp)
 
 ## Erreur 1 — Arriver Sans Avoir Recherché l'Entreprise
 

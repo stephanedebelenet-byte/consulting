@@ -2,7 +2,7 @@
 title: "Entretien pour un Poste de Supply Chain Manager au Maroc : Ce qu'on Attend"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "entretien supply chain manager Maroc, recrutement SCM Maroc, poste supply chain manager entretien, responsable supply chain entretien Maroc"
 description: "Ce que les recruteurs attendent d'un candidat Supply Chain Manager au Maroc lors de l'entretien : compétences, posture, questions types et erreurs à éviter."
 ---
@@ -11,7 +11,7 @@ description: "Ce que les recruteurs attendent d'un candidat Supply Chain Manager
 
 Le poste de Supply Chain Manager (SCM) est l'un des plus exigeants à recruter au Maroc. Les recruteurs savent ce qu'ils cherchent — et ils sont déçus quand ils ne le trouvent pas. Voici les codes de cet entretien spécifique.
 
-![Entretien supply chain manager Maroc](/images/business.jpg)
+![Entretien supply chain manager Maroc](/images/business.webp)
 
 ## Ce que Représente le Poste de SCM
 

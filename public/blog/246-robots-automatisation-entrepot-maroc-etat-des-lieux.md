@@ -3,14 +3,14 @@ title: "Robots et Automatisation d'Entrepôt : où en est Réellement le Maroc"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "robot entrepôt automatisation maroc, AGV logistique maroc, robotique entrepôt, automatisation intralogistique"
 description: "Le marché mondial de l'automatisation d'entrepôt vise 112 milliards $ d'ici 2035. Où se situe le Maroc, et à partir de quel volume l'automatisation devient pertinente."
 ---
 
 # Robots et Automatisation d'Entrepôt : où en est Réellement le Maroc
 
-![Entrepôt et opérations logistiques](/images/hero-warehouse.jpg)
+![Entrepôt et opérations logistiques](/images/hero-warehouse.webp)
 
 **L'automatisation d'entrepôt regroupe les technologies qui exécutent physiquement une partie des tâches de manutention — robots mobiles autonomes (AMR), véhicules guidés automatisés (AGV), systèmes de tri robotisé, bras de picking — sans remplacer entièrement l'humain, mais en redistribuant les tâches.** Le marché mondial de l'automatisation d'entrepôt est estimé à environ 31,5 milliards de dollars en 2026 et devrait atteindre plus de 112 milliards de dollars d'ici 2035, porté par la pénurie de main-d'œuvre en entrepôt et l'essor du e-commerce ([Precision Reports](https://www.precisionreports.co/fr/market-reports/warehouse-automation-market-608736)). Ces chiffres sont mondiaux, faute de données de marché publiées spécifiquement pour le Maroc — mais la dynamique qui les porte (coût de la main-d'œuvre en hausse, exigences de rapidité des donneurs d'ordre européens) s'applique directement aux entrepôts marocains à vocation export ou 3PL.
 

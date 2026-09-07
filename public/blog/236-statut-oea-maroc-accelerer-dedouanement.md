@@ -3,14 +3,14 @@ title: "Statut d'Opérateur Économique Agréé (OEA) : Accélérer son Dédouan
 date: "2026-08-27"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "opérateur économique agréé maroc OEA, statut OEA maroc ADII, certification OEA douane maroc"
 description: "681 entreprises marocaines certifiées OEA, sur environ 10 000 éligibles — seulement 6,81% de taux de pénétration. Conditions, avantages et procédure du statut."
 ---
 
 # Statut d'Opérateur Économique Agréé (OEA) : Accélérer son Dédouanement
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Le statut d'Opérateur Économique Agréé (OEA) labellise, aux yeux de l'Administration des Douanes et Impôts Indirects (ADII), les entreprises jugées fiables et sûres dans leurs opérations de commerce international — en échange, elles bénéficient de simplifications concrètes dans leurs procédures douanières.** C'est un statut qui reste largement sous-exploité au Maroc : selon un rapport d'activité de la douane marocaine portant sur l'année 2024, seules 681 entreprises étaient certifiées OEA fin 2024, sur un potentiel estimé à environ 10 000 entreprises éligibles parmi les plus de 80 000 opérateurs enregistrés sur PORTNET — soit un taux de pénétration d'à peine 6,81% ([Maritime News](https://maritimenews.ma/commerce-exterieur/14196-statut-oea-de-plus-en-plus-d-entreprises-seduites-par-les-avantages-de-la-douane)).
 

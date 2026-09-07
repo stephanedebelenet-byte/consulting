@@ -2,7 +2,7 @@
 title: "Plan de Carrière sur 5 Ans en Supply Chain au Maroc : Mode d'Emploi"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "plan carrière supply chain Maroc 5 ans, objectifs carrière logistique Maroc, plan développement professionnel supply chain, stratégie carrière logistique"
 description: "Comment construire un plan de carrière supply chain sur 5 ans au Maroc ? Méthode, objectifs SMART, compétences à développer et jalons de progression."
 ---
@@ -13,7 +13,7 @@ La majorité des professionnels supply chain marocains naviguent leur carrière 
 
 Les meilleurs ont un plan. Pas gravé dans le marbre — mais un plan.
 
-![Plan carrière supply chain 5 ans Maroc](/images/business.jpg)
+![Plan carrière supply chain 5 ans Maroc](/images/business.webp)
 
 ## Pourquoi un Plan de 5 Ans
 

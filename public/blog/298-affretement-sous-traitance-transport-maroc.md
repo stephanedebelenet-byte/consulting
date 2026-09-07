@@ -3,14 +3,14 @@ title: "Affrètement et Sous-Traitance Transport : Sécuriser sa Capacité en P�
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "affrètement transport maroc, sous-traitance transport routier, capacité transport tension maroc"
 description: "L'affrètement permet de sécuriser une capacité de transport auprès d'un tiers, mais la sous-traitance en cascade non régulée reste un risque documenté. Ce qu'un chargeur doit encadrer."
 ---
 
 # Affrètement et Sous-Traitance Transport : Sécuriser sa Capacité en Période de Tension
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **L'affrètement désigne la sous-traitance d'un contrat de transport routier : une entreprise chargeuse fait appel à un transporteur tiers ou à un commissionnaire de transport pour acheminer ses marchandises, plutôt que de disposer de sa propre flotte pour l'ensemble de ses besoins.** Dans un contexte marocain marqué par une pénurie structurelle de chauffeurs routiers et une flotte de transport vieillissante, l'affrètement devient un levier essentiel pour sécuriser une capacité de transport que l'entreprise ne peut pas garantir en interne seule, notamment lors des pics d'activité saisonniers.
 

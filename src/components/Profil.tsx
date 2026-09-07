@@ -20,19 +20,19 @@ const HIGHLIGHTS = [
     role: 'Grande Distribution & Retail',
     org: 'Optimisation flux, stocks & approvisionnement',
     period: 'Secteur accompagné',
-    img: '/images/hero-warehouse.jpg',
+    img: '/images/hero-warehouse.webp',
   },
   {
     role: 'Industrie & Manufacture',
     org: 'Planification S&OP · déploiement DDMRP',
     period: 'Secteur accompagné',
-    img: '/images/pharma.jpg',
+    img: '/images/pharma.webp',
   },
   {
     role: 'Immobilier & Construction',
     org: 'Logistique chantier · achats · coordination',
     period: 'Secteur accompagné',
-    img: '/images/construction.jpg',
+    img: '/images/construction.webp',
   },
   {
     role: 'Agroalimentaire',
@@ -44,13 +44,13 @@ const HIGHLIGHTS = [
     role: 'Santé & Pharmaceutique',
     org: 'Chaîne du froid · approvisionnement critique',
     period: 'Secteur accompagné',
-    img: '/images/healthcare.jpg',
+    img: '/images/healthcare.webp',
   },
   {
     role: 'Transport & Logistique 3PL',
     org: 'Schéma directeur · WMS · TMS · P&L',
     period: 'Secteur accompagné',
-    img: '/images/agro.jpg',
+    img: '/images/agro.webp',
   },
 ]
 
@@ -77,7 +77,7 @@ export default function Profil() {
       >
         {/* Background photo */}
         <motion.img
-          src="/images/office.jpg"
+          src="/images/office.webp"
           alt=""
           aria-hidden="true"
           initial={{ scale: 1.06 }}

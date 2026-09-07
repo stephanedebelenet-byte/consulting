@@ -2,7 +2,7 @@
 title: "ROI d'une Formation Supply Chain : Comment le Calculer et le Justifier"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "ROI formation supply chain, retour sur investissement formation logistique, justifier budget formation supply chain, valeur formation logistique"
 description: "Comment calculer le ROI d'une formation supply chain et le justifier à sa direction ? Méthode, exemples chiffrés et modèle de présentation pour convaincre en 5 minutes."
 ---
@@ -13,7 +13,7 @@ description: "Comment calculer le ROI d'une formation supply chain et le justifi
 
 Bonne nouvelle : le ROI d'une formation supply chain se calcule. Et il est souvent spectaculaire.
 
-![Calcul ROI et retour sur investissement formation](/images/analytics.jpg)
+![Calcul ROI et retour sur investissement formation](/images/analytics.webp)
 
 ## La Formule de Base
 

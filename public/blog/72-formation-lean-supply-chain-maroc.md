@@ -2,7 +2,7 @@
 title: "Formation Lean Supply Chain au Maroc : Éliminer les Gaspillages et Créer de la Valeur"
 date: "2026-08-02"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "formation lean supply chain maroc, lean logistique maroc, lean six sigma maroc, formation lean manufacturing maroc, kaizen supply chain maroc"
 description: "Formation Lean Supply Chain au Maroc : principes lean appliqués à la logistique, outils VSM, 5S entrepôt, Kaizen et réduction des gaspillages. Nextinotech."
 ---
@@ -13,7 +13,7 @@ Le Lean Management est né dans les usines Toyota au Japon dans les années 1950
 
 Pourtant, les résultats obtenus par les entreprises qui appliquent le Lean à leur supply chain sont régulièrement spectaculaires.
 
-![Lean supply chain — éliminer les gaspillages dans l'entrepôt au Maroc](/images/hero-warehouse.jpg)
+![Lean supply chain — éliminer les gaspillages dans l'entrepôt au Maroc](/images/hero-warehouse.webp)
 
 ::stat:: +20% — gain moyen de productivité entrepôt après un chantier 5S bien conduit (3 mois)
 

@@ -2,7 +2,7 @@
 title: "Layout Entrepôt : Les 5 Principes d'une Conception Efficace au Maroc"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "layout entrepôt maroc, aménagement entrepôt, conception entrepôt logistique, implantation entrepôt efficace, organisation entrepôt maroc"
 description: "Les 5 principes fondamentaux d'un layout entrepôt efficace au Maroc : séparation des flux, règle ABC, dimensionnement des allées et des quais. Exemples chiffrés."
 ---
@@ -13,7 +13,7 @@ Un entrepôt mal conçu ne peut pas être bien géré. On peut y mettre les meil
 
 J'ai audité et reconfiguré des dizaines d'entrepôts au Maroc. La réalité du terrain est sans appel : un bon layout vaut entre 20% et 40% de productivité supplémentaire sans aucun investissement en équipement ou en technologie. C'est la décision logistique la plus rentable qui soit — et aussi la plus difficile à corriger après coup.
 
-![Conception et organisation d'un entrepôt logistique au Maroc — layout et flux](/images/hero-warehouse.jpg)
+![Conception et organisation d'un entrepôt logistique au Maroc — layout et flux](/images/hero-warehouse.webp)
 
 ---
 

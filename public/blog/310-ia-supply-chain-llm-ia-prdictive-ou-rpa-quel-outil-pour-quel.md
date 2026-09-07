@@ -3,14 +3,14 @@ title: "IA Supply Chain : LLM, IA Prédictive ou RPA — Quel Outil pour Quel Pr
 date: "2026-09-02"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "ia générative vs prédictive supply chain, llm rpa supply chain, choisir outil ia logistique maroc, automatisation supply chain, ia achats maroc"
 description: "LLM, IA prédictive, RPA : trois technologies souvent confondues. Un arbre de décision pour choisir la bonne selon le problème supply chain à résoudre."
 ---
 
 # IA Supply Chain : LLM, IA Prédictive ou RPA — Quel Outil pour Quel Problème
 
-![Graphiques de planification et de prévision supply chain](/images/charts.jpg)
+![Graphiques de planification et de prévision supply chain](/images/charts.webp)
 
 **La plupart des projets « IA » qui échouent dans les PME marocaines échouent pour une raison simple : la mauvaise technologie a été choisie pour le problème. On attend d'un modèle de langage qu'il produise une prévision fiable, d'un moteur prédictif qu'il rédige un cahier des charges, ou d'un robot logiciel qu'il « comprenne » un contrat. Trois familles d'outils, trois logiques, trois types de problèmes. Les confondre coûte cher.** Cet article donne une grille de décision et des exemples concrets pour chacune.
 

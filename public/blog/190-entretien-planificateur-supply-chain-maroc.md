@@ -2,7 +2,7 @@
 title: "Entretien Planificateur Supply Chain au Maroc : Questions et Réponses"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "entretien planificateur supply chain Maroc, recrutement demand planner Maroc, poste planification SC entretien, questions planificateur logistique"
 description: "Comment réussir l'entretien pour un poste de planificateur supply chain au Maroc ? Questions techniques spécifiques, cas pratiques de planification et ce que les recruteurs évaluent."
 ---
@@ -11,7 +11,7 @@ description: "Comment réussir l'entretien pour un poste de planificateur supply
 
 La planification est l'une des disciplines les plus techniques de la supply chain. Les entretiens pour ces postes testent des compétences pointues en statistiques, prévision, et pilotage des stocks.
 
-![Entretien planificateur supply chain Maroc](/images/hero-supply-chain.jpg)
+![Entretien planificateur supply chain Maroc](/images/hero-supply-chain.webp)
 
 ## Ce que Cherchent les Recruteurs
 

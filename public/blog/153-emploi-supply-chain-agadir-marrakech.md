@@ -2,7 +2,7 @@
 title: "Emploi Supply Chain à Agadir et Marrakech : Opportunités et Spécificités"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "emploi supply chain Agadir, emploi logistique Agadir, travail supply chain Marrakech, emploi logistique Marrakech, offres emploi logistique sud Maroc"
 description: "Emploi supply chain à Agadir et Marrakech en 2026 : les secteurs qui recrutent, les entreprises, les salaires, et comment décrocher un poste dans le sud du Maroc."
 ---
@@ -11,7 +11,7 @@ description: "Emploi supply chain à Agadir et Marrakech en 2026 : les secteurs 
 
 Agadir et Marrakech sont deux bassins d'emploi supply chain sous-estimés. Loin de la concentration casablancaise, ces villes ont des profils sectoriels distincts — et des opportunités bien réelles pour les logisticiens qui savent où chercher.
 
-![Emploi supply chain Agadir Marrakech](/images/hero-supply-chain.jpg)
+![Emploi supply chain Agadir Marrakech](/images/hero-supply-chain.webp)
 
 ## Agadir — La Supply Chain de l'Halieutique et de l'Agro
 

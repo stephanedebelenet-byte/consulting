@@ -2,7 +2,7 @@
 title: "Formation Logistique à Marrakech : Opportunités et Programme 2026"
 date: "2026-07-30"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "formation logistique marrakech, supply chain marrakech, formation responsable logistique marrakech, cours logistique marrakech, emploi logistique marrakech"
 description: "Formation en logistique et supply chain pour les professionnels de Marrakech. Secteurs clés, débouchés locaux et programme de formation Nextinotech."
 ---
@@ -13,7 +13,7 @@ Marrakech est bien plus qu'une destination touristique. La ville ocre est aujour
 
 Pour les professionnels de la logistique à Marrakech, les opportunités sont réelles — mais les formations spécialisées locales restent rares. Ce guide fait le point.
 
-![Supply chain Marrakech — chaîne logistique tourisme, BTP et agroalimentaire](/images/hero-supply-chain.jpg)
+![Supply chain Marrakech — chaîne logistique tourisme, BTP et agroalimentaire](/images/hero-supply-chain.webp)
 
 > **Nextinotech se déplace à Marrakech pour des formations intra-entreprise.** Si votre équipe compte 3 professionnels ou plus, nous organisons une session sur site.
 

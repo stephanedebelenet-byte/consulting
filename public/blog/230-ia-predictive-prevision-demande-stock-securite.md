@@ -3,14 +3,14 @@ title: "IA Prédictive et Prévision de la Demande : Réduire ses Stocks de Séc
 date: "2026-08-25"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "prévision de la demande IA, IA prédictive stock sécurité, forecast IA supply chain, réduction stock IA maroc"
 description: "McKinsey documente jusqu'à 50% de réduction des erreurs de prévision grâce à l'IA. Ce que cela signifie concrètement pour les stocks de sécurité d'une PME marocaine."
 ---
 
 # IA Prédictive et Prévision de la Demande : Réduire ses Stocks de Sécurité
 
-![Données et prévisions](/images/charts.jpg)
+![Données et prévisions](/images/charts.webp)
 
 **La prévision de la demande par IA prédictive utilise des modèles statistiques et de machine learning pour anticiper la demande future à partir de données historiques et de signaux externes — avec un objectif direct : réduire l'incertitude qui oblige à sur-stocker.** Moins une entreprise est incertaine sur sa demande future, moins elle a besoin de stock de sécurité pour s'en prémunir. McKinsey a documenté cette relation avec des chiffres précis, qui donnent un ordre de grandeur concret du gain possible — à condition de ne pas les survendre.
 

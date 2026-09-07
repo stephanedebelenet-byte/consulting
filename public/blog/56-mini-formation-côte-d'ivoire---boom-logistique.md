@@ -10,7 +10,7 @@ description: "Le Port d'Abidjan a enregistré +16,1% de trafic en 2025. Contexte
 
 # Supply Chain Côte d'Ivoire : le boom logistique d'Abidjan et San Pedro
 
-![Quais et infrastructures portuaires](/images/transport.jpg)
+![Quais et infrastructures portuaires](/images/transport.webp)
 
 **Le Port d'Abidjan a enregistré une croissance de trafic de 16,1% en 2025**, passant de 40,1 à 46,6 millions de tonnes en un an. C'est le chiffre qui résume la dynamique logistique ivoirienne du moment — un rythme d'expansion rare sur le continent.
 

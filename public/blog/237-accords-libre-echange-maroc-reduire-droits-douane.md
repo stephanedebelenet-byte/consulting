@@ -3,14 +3,14 @@ title: "Accords de Libre-Échange du Maroc : Comment Réduire ses Droits de Doua
 date: "2026-08-27"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "accords libre échange maroc douane, certificat EUR.1 maroc, préférence tarifaire maroc, accord d'agadir maroc"
 description: "Le Maroc a signé des accords de libre-échange avec l'UE, les États-Unis, la Turquie et la zone Agadir. Comment les exploiter réellement grâce au certificat EUR.1, sans perdre la préférence tarifaire."
 ---
 
 # Accords de Libre-Échange du Maroc : Comment Réduire ses Droits de Douane
 
-![Conseil et audit supply chain](/images/conseil.jpg)
+![Conseil et audit supply chain](/images/conseil.webp)
 
 **Un accord de libre-échange (ALE) réduit ou supprime les droits de douane entre pays signataires, à condition que la marchandise satisfasse aux règles d'origine préférentielle définies par l'accord — le connaître ne sert à rien si l'entreprise ne sait pas prouver cette origine au moment du dédouanement.** Le Maroc dispose d'un réseau d'accords parmi les plus étendus de la région : Union Européenne, Association Européenne de Libre Échange (AELE), Zone de Libre-Échange Continentale Africaine (ZLECAf), Accord d'Agadir avec l'Égypte, la Jordanie, le Liban, la Palestine et la Tunisie, et des accords bilatéraux avec la Turquie, les Émirats Arabes Unis et les États-Unis ([AMDIE](https://www.amdie.gov.ma/accords-libre-echange/)). Pour une PME exportatrice, la question n'est pas de connaître la liste, mais de savoir actionner concrètement la préférence tarifaire qu'elle ouvre.
 

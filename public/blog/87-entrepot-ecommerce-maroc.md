@@ -2,7 +2,7 @@
 title: "Entrepôt E-Commerce au Maroc : Fulfillment, Last Mile et Organisation 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "entrepôt e-commerce maroc, logistique e-commerce maroc, fulfillment maroc, last mile e-commerce maroc, préparation commandes e-commerce maroc"
 description: "Logistique e-commerce au Maroc 2026 : organisation du fulfillment, spécificités de l'entrepôt e-commerce, last mile livraison et retours. Guide opérationnel pour les marchands marocains."
 ---
@@ -15,7 +15,7 @@ Un entrepôt de distribution B2B expédie des palettes complètes à des clients
 
 Le e-commerce marocain a décollé. Jumia, Glovo, les marketplaces et les sites directs-to-consumer ont créé une demande de livraison qui dépasse souvent la capacité logistique des marchands. Voici comment y répondre.
 
-![Organisation du fulfillment e-commerce et logistique last mile au Maroc](/images/hero-warehouse.jpg)
+![Organisation du fulfillment e-commerce et logistique last mile au Maroc](/images/hero-warehouse.webp)
 
 ---
 

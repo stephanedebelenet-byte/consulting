@@ -3,14 +3,14 @@ title: "Économie Circulaire en Supply Chain : Réintégrer les Déchets Industr
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/construction.jpg"
+image: "/images/construction.webp"
 keywords: "économie circulaire supply chain maroc, réintégration déchets industriels, recyclage industriel maroc"
 description: "Seulement 13% des déchets électroniques ont été recyclés au Maroc en 2020. Ce qui bloque la réintégration industrielle des déchets, et comment une entreprise peut avancer malgré tout."
 ---
 
 # Économie Circulaire en Supply Chain : Réintégrer les Déchets Industriels au Maroc
 
-![Construction et industrie](/images/construction.jpg)
+![Construction et industrie](/images/construction.webp)
 
 **L'économie circulaire en supply chain consiste à réintégrer les déchets et sous-produits industriels dans un cycle de production — comme matière première secondaire — plutôt que de les traiter comme un coût d'élimination pur.** Au Maroc, le potentiel est réel mais largement sous-exploité : seulement 13% des déchets électroniques ont été recyclés en 2020, un chiffre qui illustre un cadre encore peu structuré pour la valorisation industrielle des déchets ([CESE, cité par Circemed](https://www.circemed.org/articles/h/economie-circulaire-les-defis-du-maroc-dans-la-gestion-des-dechets.html)).
 

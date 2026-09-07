@@ -3,14 +3,14 @@ title: "Zones Franches Marocaines Comparées : Tanger Med, TFZ, TAC et Midparc"
 date: "2026-08-23"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "zones franches maroc comparatif, Tanger Free Zone, Tanger Automotive City, Midparc, zone d'accélération industrielle maroc"
 description: "Tanger Med, TFZ, TAC, Midparc : quatre zones franches marocaines aux spécialisations différentes. Comparatif fiscal et sectoriel pour choisir son implantation."
 ---
 
 # Zones Franches Marocaines Comparées : Tanger Med, TFZ, TAC et Midparc
 
-![Zone logistique et transport](/images/transport.jpg)
+![Zone logistique et transport](/images/transport.webp)
 
 **Une zone franche marocaine — depuis la réforme fiscale de 2023, officiellement appelée "zone d'accélération industrielle" — est un espace dédié offrant des avantages douaniers et fiscaux aux entreprises exportatrices.** Le Maroc en compte plusieurs, avec des spécialisations sectorielles très différentes : Tanger Med Zones pour la logistique portuaire, la Tanger Free Zone (TFZ) pour l'industrie diversifiée, Tanger Automotive City (TAC) pour l'automobile, et Midparc pour l'aéronautique. Le bon choix d'implantation dépend moins du statut fiscal — désormais largement harmonisé entre zones — que de l'écosystème sectoriel et logistique propre à chacune.
 

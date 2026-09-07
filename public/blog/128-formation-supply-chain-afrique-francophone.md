@@ -2,7 +2,7 @@
 title: "Formation Supply Chain en Afrique Francophone : Maroc, Sénégal, Côte d'Ivoire"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "formation supply chain Afrique francophone, formation logistique Afrique, supply chain manager Afrique, formation logistique Sénégal Côte d'Ivoire"
 description: "Les formations supply chain en Afrique francophone : Maroc, Sénégal, Côte d'Ivoire, Cameroun. Ce qui est disponible, ce qui manque, et comment se former à distance."
 ---
@@ -13,7 +13,7 @@ L'Afrique francophone connaît un boom logistique sans précédent. Le Port de D
 
 La demande de formation supply chain en Afrique francophone dépasse largement l'offre. C'est une opportunité pour ceux qui se forment aujourd'hui.
 
-![Supply chain en Afrique francophone développement logistique](/images/hero-supply-chain.jpg)
+![Supply chain en Afrique francophone développement logistique](/images/hero-supply-chain.webp)
 
 ## L'État de la Formation Supply Chain par Pays
 

@@ -2,7 +2,7 @@
 title: "Case Study: Oland Group — S&OP Implementation: Cash Cycle -12 Days, Stock -20%"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 type: "case-study"
 keywords: "S&OP, demand planning, cash cycle, working capital"
 description: "Oland Group: S&OP process implemented → 2.1 MMAD cash freed, stock -20%, forecast accuracy +15pts."

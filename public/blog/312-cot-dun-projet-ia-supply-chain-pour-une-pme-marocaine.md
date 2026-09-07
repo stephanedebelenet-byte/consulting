@@ -3,14 +3,14 @@ title: "Coût d'un Projet IA Supply Chain pour une PME Marocaine"
 date: "2026-09-04"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "coût projet ia supply chain maroc, budget ia logistique, roi ia supply chain, prix projet ia achats maroc, projet ia pme maroc"
 description: "Budget, délais et pièges d'un projet IA supply chain dans une PME marocaine — du cas d'usage à 0 MAD au déploiement à six chiffres, et comment calculer le retour."
 ---
 
 # Coût d'un Projet IA Supply Chain pour une PME Marocaine
 
-![Consultant présentant un business case chiffré](/images/conseil.jpg)
+![Consultant présentant un business case chiffré](/images/conseil.webp)
 
 **« Combien coûte l'IA en supply chain ? » La bonne réponse est une fourchette qui va de zéro à plusieurs centaines de milliers de dirhams, selon qu'on parle d'un assistant de rédaction utilisé par trois personnes ou d'une plateforme de planification connectée à l'ERP. Le piège classique de la PME marocaine : viser d'emblée le projet lourd, geler un budget, et découvrir après 12 mois que la donnée n'était pas prête. La bonne approche est inverse — commencer petit, mesurer, réinvestir le gain.** Voici les ordres de grandeur et la méthode de calcul du retour.
 

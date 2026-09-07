@@ -2,7 +2,7 @@
 title: "Audit Supply Chain 2026 : Les 10 Erreurs Critiques que les PME/ME Marocaines Commettent"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "audit supply chain Maroc, diagnostic logistique, transformation supply chain, optimisation chaîne approvisionnement"
 description: "Découvrez les 10 erreurs critiques en supply chain que les PME marocaines commettent et comment les corriger. Basé sur 20+ ans d'expertise et 110+ missions."
 ---

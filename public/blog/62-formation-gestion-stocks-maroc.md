@@ -2,7 +2,7 @@
 title: "Formation Gestion des Stocks au Maroc : Méthodes, Métier et Certifications 2026"
 date: "2026-08-10"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "formation gestion des stocks maroc, formation gestionnaire de stocks maroc, gestion des stocks casablanca, gestionnaire stocks compétences maroc, formation approvisionnement maroc, optimisation stocks pme maroc, DDMRP formation maroc"
 description: "Guide complet formation gestion et gestionnaire des stocks au Maroc : méthodes ABC-XYZ, DDMRP, outils (Excel à APS), compétences clés, salaires, programme 4 jours. Par Nextinotech."
 ---
@@ -11,7 +11,7 @@ description: "Guide complet formation gestion et gestionnaire des stocks au Maro
 
 La gestion des stocks est l'un des leviers les plus puissants — et les plus sous-exploités — de la performance des entreprises marocaines. Et le gestionnaire de stocks qui la pilote est souvent le profil le plus sous-estimé de la supply chain : pas le plus visible, pas le plus glamour, mais celui qui tient la trésorerie de l'entreprise ou la laisse s'échapper.
 
-![Analyse et optimisation des stocks — méthodes et outils pour les entreprises marocaines](/images/analytics.jpg) Une étude récente sur 50 PME marocaines révèle que **68% d'entre elles immobilisent entre 20 et 45% de trop de capital en stocks**, pendant que 34% souffrent régulièrement de ruptures qui coûtent du chiffre d'affaires. Un seul gestionnaire de stocks mal formé peut coûter 500 000 à 2 000 000 MAD par an en capital inutilement immobilisé dans une PME de 50 personnes.
+![Analyse et optimisation des stocks — méthodes et outils pour les entreprises marocaines](/images/analytics.webp) Une étude récente sur 50 PME marocaines révèle que **68% d'entre elles immobilisent entre 20 et 45% de trop de capital en stocks**, pendant que 34% souffrent régulièrement de ruptures qui coûtent du chiffre d'affaires. Un seul gestionnaire de stocks mal formé peut coûter 500 000 à 2 000 000 MAD par an en capital inutilement immobilisé dans une PME de 50 personnes.
 
 La bonne nouvelle : ces deux problèmes se résolvent avec les bonnes méthodes et une formation adaptée.
 

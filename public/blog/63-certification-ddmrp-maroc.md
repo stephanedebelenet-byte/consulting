@@ -2,7 +2,7 @@
 title: "Formation DDMRP au Maroc : Certification Practitioner et Résultats Terrain"
 date: "2026-08-10"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "certification ddmrp maroc, formation ddmrp maroc, formation ddmrp casablanca, demand driven mrp maroc, ddmrp practitioner maroc, planification supply chain maroc"
 description: "Guide complet formation et certification DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, programme de formation 2 jours, comment se certifier Practitioner, résultats terrain."
 ---
@@ -13,7 +13,7 @@ Le DDMRP (Demand Driven Material Requirements Planning) est la méthode de plani
 
 Nextinotech est l'un des rares cabinets certifiés DDMRP en Afrique francophone. Voici tout ce que vous devez savoir.
 
-![Planification supply chain avancée — DDMRP et buffers dynamiques](/images/charts.jpg)
+![Planification supply chain avancée — DDMRP et buffers dynamiques](/images/charts.webp)
 
 ::stat:: −30% — réduction moyenne des stocks après déploiement DDMRP (benchmark Nextinotech, 20+ déploiements)
 

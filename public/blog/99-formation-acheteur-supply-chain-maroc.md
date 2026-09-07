@@ -2,7 +2,7 @@
 title: "Formation Acheteur Supply Chain au Maroc : Négociation, Sourcing et Pilotage Fournisseurs 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "formation acheteur supply chain maroc, formation négociation achats maroc, sourcing fournisseurs maroc, formation pilotage fournisseurs maroc, achats stratégiques supply chain maroc"
 description: "Formation acheteur supply chain au Maroc : négociation, sourcing, évaluation fournisseurs et réduction des coûts. Programme avancé pour acheteurs et responsables achats en supply chain."
 ---
@@ -15,7 +15,7 @@ Au Maroc, j'observe deux profils d'acheteurs. Le premier négocie le prix — il
 
 La différence entre les deux se forme en formation. Voici ce que doit couvrir un programme pour acheteur supply chain en 2026.
 
-![Formation acheteur supply chain — négociation, sourcing et pilotage fournisseurs au Maroc](/images/conseil.jpg)
+![Formation acheteur supply chain — négociation, sourcing et pilotage fournisseurs au Maroc](/images/conseil.webp)
 
 ---
 

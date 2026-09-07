@@ -3,14 +3,14 @@ title: "Négociation Fournisseurs en Période d'Inflation : les Leviers qui Marc
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "négociation achats inflation maroc, hausse matières premières négociation fournisseur, tactiques négociation achats"
 description: "Le Brent a progressé de plus de 35% et le gaz naturel européen de 40%, se répercutant en cascade sur les coûts de production. Les leviers de négociation qui restent efficaces face à des fournisseurs sous pression de coûts réels."
 ---
 
 # Négociation Fournisseurs en Période d'Inflation : les Leviers qui Marchent Encore
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Négocier avec un fournisseur en période d'inflation des matières premières est structurellement différent de négocier en période de prix stables : le fournisseur ne gonfle pas artificiellement ses tarifs, il répercute des coûts réels — le cours du Brent a progressé de plus de 35% récemment, le gaz naturel européen d'environ 40%, une hausse qui se répercute en cascade sur les coûts de production (carburant, engrais azotés, plastiques, aluminium).** Cette réalité change la nature de la négociation : le levier classique consistant à contester la légitimité d'une hausse perd de son efficacité quand le fournisseur peut démontrer un coût réel en amont — la négociation doit alors se déplacer sur d'autres paramètres que le seul prix unitaire.
 

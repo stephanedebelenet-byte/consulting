@@ -2,7 +2,7 @@
 title: "Implantation d'un Entrepôt au Maroc : Guide Complet de A à Z"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 keywords: "implantation entrepôt maroc, ouverture entrepôt maroc, conception entrepôt logistique, projet entrepôt maroc, logistique entrepôt casablanca"
 description: "Guide complet pour implanter un nouvel entrepôt au Maroc : localisation, layout, équipements, WMS, équipes. 7 phases, budgets réels et pièges à éviter."
 ---
@@ -13,7 +13,7 @@ Trois erreurs sur quatre dans un projet d'implantation d'entrepôt au Maroc se p
 
 Après avoir accompagné plus d'une dizaine de projets d'implantation ou d'extension d'entrepôt au Maroc — chez DHL, des groupes de distribution, des industriels et des opérateurs 3PL — voici la méthode que j'applique systématiquement.
 
-![Entrepôt logistique moderne au Maroc — implantation et organisation des flux](/images/hero-warehouse.jpg)
+![Entrepôt logistique moderne au Maroc — implantation et organisation des flux](/images/hero-warehouse.webp)
 
 ---
 

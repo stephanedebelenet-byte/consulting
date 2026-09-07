@@ -2,7 +2,7 @@
 title: "Changer de Secteur en Supply Chain au Maroc : Réussir son Entretien"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "reconversion sectorielle supply chain Maroc, changer secteur logistique Maroc, entretien reconversion supply chain, passer FMCG automobile Maroc"
 description: "Comment convaincre un recruteur supply chain lors d'un changement de secteur au Maroc ? Les arguments à préparer, les compétences transférables, et comment gérer les objections."
 ---
@@ -13,7 +13,7 @@ Changer de secteur en supply chain est souvent une excellente décision de carri
 
 Votre mission : démontrer que vos compétences transférables compensent et que la courbe d'apprentissage sectorielle est courte.
 
-![Reconversion sectorielle supply chain Maroc](/images/hero-supply-chain.jpg)
+![Reconversion sectorielle supply chain Maroc](/images/hero-supply-chain.webp)
 
 ## Pourquoi les Changements Sectoriels Réussissent en Supply Chain
 

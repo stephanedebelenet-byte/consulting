@@ -3,14 +3,14 @@ title: "Suivi de Flotte et Géolocalisation : les Outils qui Réduisent Réellem
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "géolocalisation flotte transport maroc, télématique flotte, réduction coût carburant flotte"
 description: "55% des flottes équipées de télématique constatent une baisse de leurs coûts carburant. Ce que la géolocalisation change concrètement pour une flotte de transport marocaine."
 ---
 
 # Suivi de Flotte et Géolocalisation : les Outils qui Réduisent Réellement les Coûts
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **La géolocalisation de flotte, associée à la télématique embarquée, ne se limite pas à savoir où se trouve un véhicule — elle collecte des données de conduite, de consommation et de temps d'arrêt qui, correctement exploitées, réduisent mesurablement les coûts d'exploitation d'une flotte de transport.** Selon les données disponibles sur le secteur, 55% des flottes équipées de télématique constatent une baisse de leurs coûts carburant, et un tiers d'entre elles réduisent également la durée de leurs trajets grâce à une meilleure planification des itinéraires — une gestion digitalisée de flotte permet généralement une réduction de consommation de carburant de 12 à 18%.
 

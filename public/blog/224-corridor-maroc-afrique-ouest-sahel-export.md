@@ -3,14 +3,14 @@ title: "Corridor Maroc-Afrique de l'Ouest : Comment les Entreprises Marocaines E
 date: "2026-08-24"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "corridor maroc afrique de l'ouest export, initiative atlantique sahel, port Dakhla Atlantique, Guerguerat corridor logistique"
 description: "Au-delà du corridor Dakar-Bamako, le Maroc construit sa propre route vers le Sahel : Initiative Atlantique, port de Dakhla Atlantique, postes-frontières de Guerguerat et Amgala."
 ---
 
 # Corridor Maroc-Afrique de l'Ouest : Comment les Entreprises Marocaines Exportent vers le Sahel
 
-![Zone logistique et transport](/images/transport.jpg)
+![Zone logistique et transport](/images/transport.webp)
 
 **Le corridor Maroc-Afrique de l'Ouest désigne l'axe logistique terrestre qui relie le sud du Maroc aux pays sahéliens enclavés — Mali, Burkina Faso, Niger, Tchad — via le Sahara occidental et la Mauritanie.** C'est un axe distinct du corridor Dakar-Bamako que nous avons déjà couvert dans un précédent article : celui-là relie le Sénégal au Mali par le sud-ouest, tandis que celui-ci construit une route nouvelle, portée directement par le Maroc, pour donner aux pays sahéliens un accès à l'Atlantique par le nord. Les deux corridors ne sont pas concurrents au même stade : l'un est opérationnel depuis des décennies, l'autre est une infrastructure encore en construction, adossée à une initiative diplomatique récente.
 

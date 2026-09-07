@@ -2,7 +2,7 @@
 title: "Salaires Supply Chain au Maroc 2026 : Guide Complet par Poste et Secteur"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "salaires supply chain Maroc 2026, salaire logisticien Maroc, salaire responsable logistique Maroc, salaire supply chain manager Maroc"
 description: "Salaires supply chain au Maroc en 2026 : fourchettes par poste, par secteur et par ville. Ce que vous valez vraiment et comment négocier une augmentation."
 ---
@@ -13,7 +13,7 @@ La question que tout logisticien se pose : "Est-ce que je suis bien payé ?" La 
 
 Voici les données de marché 2026 basées sur les informations recueillies auprès de recruteurs, de professionnels du secteur, et de 20 ans de missions de conseil au Maroc.
 
-![Salaires supply chain logistique Maroc](/images/business.jpg)
+![Salaires supply chain logistique Maroc](/images/business.webp)
 
 ## Salaires par Poste — Marché Marocain 2026
 

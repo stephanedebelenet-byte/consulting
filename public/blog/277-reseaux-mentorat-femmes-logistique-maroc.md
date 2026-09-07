@@ -3,14 +3,14 @@ title: "Réseaux et Mentorat pour Femmes en Logistique : ce qui Existe (et Manqu
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "réseau femmes logistique maroc, mentorat femmes maroc, association femmes leadership maroc"
 description: "Le Réseau de Femmes pour le Mentoring compte 83 membres au Maroc. Un panorama des initiatives existantes, et l'angle mort spécifique à la logistique et au transport."
 ---
 
 # Réseaux et Mentorat pour Femmes en Logistique : ce qui Existe (et Manque) au Maroc
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **Le mentorat informel — l'accompagnement par un pair plus expérimenté — reste l'un des principaux leviers de progression de carrière, et son absence pèse particulièrement sur les femmes dans des secteurs où elles sont peu représentées aux postes de direction, comme la logistique et la supply chain.** Le Maroc dispose de plusieurs initiatives de mentorat féminin généralistes : le Réseau de Femmes pour le Mentoring et le Networking (RFMN), créé en juin 2010 par des femmes chefs d'entreprises, compte aujourd'hui 83 membres et vise à promouvoir l'autonomisation socio-économique de la femme marocaine à travers le mentoring et le leadership. Moroccan Women Mentoring et le programme Ma Business Mentor complètent ce paysage, davantage orientés vers l'entrepreneuriat que vers la carrière salariée en entreprise.
 

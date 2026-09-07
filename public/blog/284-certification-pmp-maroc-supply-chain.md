@@ -3,14 +3,14 @@ title: "Certification PMP au Maroc : Vaut-elle l'Investissement pour un Profil S
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "certification PMP maroc supply chain, coût PMP maroc, valeur certification gestion de projet maroc"
 description: "Entre 5 000 et 25 000 MAD de budget selon le format. La certification PMP est associée à une marge salariale de 20% selon PMI. Vaut-elle l'investissement pour un profil supply chain ?"
 ---
 
 # Certification PMP au Maroc : Vaut-elle l'Investissement pour un Profil Supply Chain
 
-![Bureau et formation](/images/office.jpg)
+![Bureau et formation](/images/office.webp)
 
 **La certification PMP (Project Management Professional) reste la certification en gestion de projet la plus répandue et la plus généraliste sur le marché marocain, avec un budget de préparation qui varie généralement entre 5 000 et 25 000 MAD selon la ville, le format choisi et le niveau d'accompagnement — certains centres proposant une préparation pour moins de 3 000 MAD.** Selon la 9e édition de l'enquête sur les salaires publiée par le PMI (Project Management Institute), les professionnels certifiés PMP bénéficient d'une marge salariale d'environ 20% par rapport à leurs pairs non certifiés — un chiffre mondial, à nuancer selon le contexte marocain spécifique, mais qui donne un ordre de grandeur de la valeur perçue de la certification sur le marché de l'emploi.
 

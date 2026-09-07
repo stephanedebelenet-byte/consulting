@@ -3,14 +3,14 @@ title: "Control Tower Logistique : Piloter sa Supply Chain en Temps Réel, Mode 
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "control tower logistique, tour de contrôle supply chain, pilotage temps réel logistique maroc, visibilité supply chain"
 description: "8 à 15% de réduction du coût de service, selon les cabinets spécialisés. Ce qu'est un control tower logistique et comment une ETI marocaine multi-sites peut en mettre un en place."
 ---
 
 # Control Tower Logistique : Piloter sa Supply Chain en Temps Réel, Mode d'Emploi
 
-![Données et pilotage supply chain](/images/charts.jpg)
+![Données et pilotage supply chain](/images/charts.webp)
 
 **Un control tower logistique (tour de contrôle) est un hub organisationnel qui centralise les données de toute la chaîne d'approvisionnement — stocks, transport, commandes, fournisseurs — pour donner une visibilité en temps réel et permettre des décisions plus rapides face aux aléas.** Ce n'est ni un simple tableau de bord (qui montre l'état présent sans agir dessus) ni un logiciel unique : c'est une combinaison de données intégrées, de personnes et de droits de décision organisés pour gérer la complexité d'un réseau multi-sites ([IBM](https://www.ibm.com/think/topics/control-towers)). La valeur ne vient pas de la visualisation seule, mais de la capacité à détecter un problème plus tôt et à y répondre plus vite.
 

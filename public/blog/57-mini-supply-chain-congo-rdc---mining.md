@@ -10,7 +10,7 @@ description: "Le corridor de Lobito relie les mines du Katanga au port angolais 
 
 # Supply Chain RDC : la logistique minière du Katanga et le corridor de Lobito
 
-![Infrastructures de transport et logistique lourde](/images/transport.jpg)
+![Infrastructures de transport et logistique lourde](/images/transport.webp)
 
 **Le corridor de Lobito relie les bassins miniers du Katanga au port angolais de Lobito sur environ 1 739 km, avec un transit visé à 7 jours.** C'est le projet d'infrastructure le plus stratégique pour désenclaver l'export minier de la République démocratique du Congo.
 

@@ -3,14 +3,14 @@ title: "Automatisation des Achats par l'IA : du Bon de Commande au Paiement sans
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "automatisation achats IA, procure to pay automatisation, P2P automatisation maroc, IA achats"
 description: "79% des entreprises ayant déployé une solution P2P atteignent ou dépassent leurs objectifs selon Gartner. Ce que l'automatisation du cycle achats change concrètement."
 ---
 
 # Automatisation des Achats par l'IA : du Bon de Commande au Paiement sans Intervention
 
-![Achats et management](/images/business.jpg)
+![Achats et management](/images/business.webp)
 
 **L'automatisation du cycle Procure-to-Pay (P2P, du bon de commande au paiement) désigne l'ensemble des technologies — souvent enrichies d'intelligence artificielle — qui traitent sans intervention manuelle les tâches répétitives du processus achats : validation de commande, rapprochement facture-bon de livraison, détection d'anomalies, relance de paiement.** Selon Gartner, 79% des entreprises ayant déployé une solution P2P atteignent ou dépassent leurs objectifs de déploiement, et l'automatisation peut aujourd'hui traiter plus de 90% du traitement des factures, éliminant les tâches répétitives de saisie manuelle et de validation des bons de commande.
 

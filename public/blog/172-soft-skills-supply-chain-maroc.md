@@ -2,7 +2,7 @@
 title: "Les Soft Skills Indispensables en Supply Chain au Maroc"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "soft skills supply chain Maroc, compétences relationnelles logistique, qualités supply chain Maroc, intelligence émotionnelle logisticien"
 description: "Quels soft skills développer en supply chain au Maroc pour progresser rapidement ? Les compétences humaines qui font la différence dans les équipes et les recrutements."
 ---
@@ -15,7 +15,7 @@ J'ai vu des brillants techniciens supply chain plafonner en position intermédia
 
 Voici les soft skills qui font vraiment la différence en SC au Maroc.
 
-![Soft skills supply chain Maroc](/images/conseil.jpg)
+![Soft skills supply chain Maroc](/images/conseil.webp)
 
 ## 1. La Communication Transversale
 

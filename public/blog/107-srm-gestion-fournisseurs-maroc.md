@@ -2,7 +2,7 @@
 title: "SRM Maroc : Gérer ses Fournisseurs comme un Actif Stratégique"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "SRM Maroc, gestion fournisseurs Maroc, supplier relationship management, panel fournisseurs Maroc, négociation fournisseurs Maroc"
 description: "Le SRM (Supplier Relationship Management) transforme vos fournisseurs en partenaires de performance. Guide pratique pour les PME/ME marocaines — segmentation, KPI, négociation."
 ---
@@ -15,7 +15,7 @@ Le Supplier Relationship Management (SRM) est une approche structurée qui trait
 
 Après 20 ans de missions en achats et supply chain, voici ce que j'ai vu fonctionner au Maroc.
 
-![Réunion de pilotage fournisseurs stratégiques](/images/conseil.jpg)
+![Réunion de pilotage fournisseurs stratégiques](/images/conseil.webp)
 
 ## Pourquoi le SRM n'est Pas (Que) de la Négociation
 

@@ -2,7 +2,7 @@
 title: "Compétences Digitales du Logisticien en 2026 : Ce qu'il Faut Maîtriser"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/hero-supply-chain.jpg"
+image: "/images/hero-supply-chain.webp"
 keywords: "compétences digitales logisticien Maroc, outils digitaux supply chain, Excel supply chain Maroc, ERP logistique Maroc, compétences tech supply chain"
 description: "Quelles compétences digitales doit maîtriser un logisticien en 2026 au Maroc ? De l'Excel avancé à la data analytics, le guide complet des outils indispensables."
 ---
@@ -13,7 +13,7 @@ En 2026, "je maîtrise Excel" ne suffit plus. Les recruteurs supply chain maroca
 
 Voici ce que vous devez vraiment savoir — et à quel niveau.
 
-![Compétences digitales supply chain 2026](/images/hero-supply-chain.jpg)
+![Compétences digitales supply chain 2026](/images/hero-supply-chain.webp)
 
 ## Niveau 1 — Les Indispensables (tout le monde doit maîtriser)
 

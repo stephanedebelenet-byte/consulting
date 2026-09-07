@@ -2,7 +2,7 @@
 title: "Burnout en Supply Chain au Maroc : Signaux et Prévention"
 date: "2026-08-07"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "burnout supply chain maroc, épuisement professionnel logistique, stress responsable logistique, prévenir burnout maroc, gestion énergie manager supply chain"
 description: "Burnout en supply chain et logistique au Maroc : signaux d'alerte spécifiques aux métiers à astreinte, facteurs de risque du secteur et méthode de prévention terrain."
 ---
@@ -11,7 +11,7 @@ description: "Burnout en supply chain et logistique au Maroc : signaux d'alerte 
 
 Un Responsable Logistique sur trois que j'ai formés ces cinq dernières années m'a confié, en aparté, qu'il ne "tenait plus" son rythme. Aucun n'en avait parlé à sa hiérarchie. Le burnout en supply chain au Maroc n'est pas un sujet tabou par pudeur — il est tabou parce que personne ne sait à quoi il ressemble avant qu'il soit trop tard.
 
-![Manager supply chain épuisé face à ses tableaux de bord](/images/office.jpg)
+![Manager supply chain épuisé face à ses tableaux de bord](/images/office.webp)
 
 ## Pourquoi la Supply Chain est un Terrain à Risque
 

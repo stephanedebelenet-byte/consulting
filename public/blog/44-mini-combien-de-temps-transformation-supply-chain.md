@@ -11,7 +11,7 @@ description: "Combien de temps dure une transformation supply chain ? Durées r�
 
 # Combien de Temps Transformation Supply Chain ?
 
-![Planification et pilotage de projet](/images/charts.jpg)
+![Planification et pilotage de projet](/images/charts.webp)
 
 **Il n'existe pas de durée standard : de 2 semaines pour un diagnostic flash à 12-18 mois pour une transformation multi-sites complète.** La bonne question n'est pas "combien de temps" dans l'absolu, mais "combien de temps pour quel périmètre".
 

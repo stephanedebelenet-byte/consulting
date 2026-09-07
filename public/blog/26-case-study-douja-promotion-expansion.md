@@ -2,7 +2,7 @@
 title: "Case Study: Douja Promotion — 11% Saving Across 31 Chantiers (710 MMAD Volume)"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/construction.jpg"
+image: "/images/construction.webp"
 type: "case-study"
 keywords: "case study Douja Promotion, Addoha, sourcing BTP, optimisation achats chantiers"
 description: "Douja Promotion (Groupe Addoha), 31 chantiers au Maroc et en Afrique subsaharienne : centralisation des achats et de la logistique → 11% d'économies, 78 MMAD/an."

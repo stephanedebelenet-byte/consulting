@@ -2,7 +2,7 @@
 title: "Case Study: SOMACA — Premier Projet iFA (Integrated Factory Automation) au Maroc"
 date: "2026-06-21"
 author: "Nextinotech"
-image: "/images/hero-warehouse.jpg"
+image: "/images/hero-warehouse.webp"
 type: "case-study"
 keywords: "case study SOMACA, iFA, automatisation industrielle, kitting Maroc"
 description: "SOMACA (partenaire Renault) : premier déploiement iFA et kitting automatisé au Maroc → ruptures de chaîne -33%, efficience de montage +25%."

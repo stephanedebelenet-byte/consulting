@@ -2,7 +2,7 @@
 title: "MBA Supply Chain au Maroc : Vaut-il le Coût et le Temps Investi ?"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "MBA supply chain Maroc, executive MBA logistique Maroc, formation master supply chain Maroc, diplôme supply chain executive Maroc"
 description: "Un MBA supply chain au Maroc vaut-il l'investissement ? Comparatif des programmes, coût réel, impact salarial et alternatives pour progresser sans MBA."
 ---
@@ -13,7 +13,7 @@ Le MBA est le graal de beaucoup de cadres marocains. Mais un MBA supply chain sp
 
 La réponse dépend de votre situation. Et elle n'est pas toujours "oui".
 
-![MBA supply chain formation executive Maroc](/images/office.jpg)
+![MBA supply chain formation executive Maroc](/images/office.webp)
 
 ## L'Offre MBA Supply Chain / Logistique au Maroc
 

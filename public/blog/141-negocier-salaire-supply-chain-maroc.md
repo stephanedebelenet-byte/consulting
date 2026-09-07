@@ -2,7 +2,7 @@
 title: "Négocier son Salaire en Supply Chain au Maroc : Techniques et Chiffres"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/business.jpg"
+image: "/images/business.webp"
 keywords: "négocier salaire supply chain Maroc, salaire logistique Maroc négociation, augmentation salaire logisticien Maroc, entretien salaire supply chain"
 description: "Comment négocier son salaire en supply chain au Maroc ? Techniques concrètes, fourchettes par poste, et les erreurs qui coûtent des milliers de dirhams par mois."
 ---
@@ -13,7 +13,7 @@ La plupart des professionnels supply chain acceptent le premier chiffre qu'on le
 
 Voici comment négocier, avec quels arguments, et pour quels montants.
 
-![Négocier salaire supply chain Maroc](/images/business.jpg)
+![Négocier salaire supply chain Maroc](/images/business.webp)
 
 ## Connaître sa Valeur de Marché
 

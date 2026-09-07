@@ -2,7 +2,7 @@
 title: "Formation Transport et Douanes au Maroc : Transit, Incoterms et Conformité 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/analytics.jpg"
+image: "/images/analytics.webp"
 keywords: "formation transport maroc, formation douanes maroc, formation transit douanier maroc, incoterms formation maroc, formation import export maroc"
 description: "Formation transport et douanes au Maroc : Incoterms 2020, procédures douanières, transit import/export, documents de transport. Programme complet pour les professionnels du commerce international."
 ---
@@ -13,7 +13,7 @@ La douane est le point de friction le plus coûteux et le moins compris de la su
 
 Ce ne sont pas des erreurs de mauvaise foi. Ce sont des erreurs de formation. Les équipes achats, logistique et commerce international opèrent souvent sans maîtriser les règles du transport international et de la douane marocaine. Le coût de cette méconnaissance est réel, récurrent et facilement évitable.
 
-![Formation transport international et procédures douanières au Maroc](/images/analytics.jpg)
+![Formation transport international et procédures douanières au Maroc](/images/analytics.webp)
 
 ---
 

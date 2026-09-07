@@ -2,7 +2,7 @@
 title: "Benchmark Coûts Logistiques au Maroc 2026 : Ratios, Normes et Comparaisons"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "coûts logistiques maroc, benchmark logistique maroc, ratio coût logistique maroc, coût supply chain maroc, performance logistique maroc 2026"
 description: "Benchmark des coûts logistiques au Maroc 2026 : ratios par secteur, coût entrepôt, transport, stocks. Comparez votre performance aux normes du marché marocain."
 ---
@@ -15,7 +15,7 @@ Sans benchmark, la notion de "trop élevé" est subjective. Avec un benchmark, e
 
 Ce benchmark est construit à partir de 110+ missions Nextinotech au Maroc et en Afrique francophone, complétées par des données sectorielles disponibles. Il ne prétend pas à l'exhaustivité — mais il vous donne les ordres de grandeur nécessaires pour situer votre performance.
 
-![Benchmark et analyse des coûts logistiques au Maroc — données 2026](/images/charts.jpg)
+![Benchmark et analyse des coûts logistiques au Maroc — données 2026](/images/charts.webp)
 
 ---
 

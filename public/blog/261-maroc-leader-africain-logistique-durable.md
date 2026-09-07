@@ -3,14 +3,14 @@ title: "Le Maroc peut-il Devenir le Leader Africain de la Logistique Durable ?"
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "logistique durable afrique maroc, leader logistique verte afrique, maroc énergie renouvelable logistique"
 description: "52% d'énergies renouvelables dans le mix énergétique marocain visé d'ici 2030. Ce que ça change pour le positionnement du Maroc comme hub logistique durable en Afrique."
 ---
 
 # Le Maroc peut-il Devenir le Leader Africain de la Logistique Durable ?
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Le Maroc combine deux atouts rarement réunis ailleurs en Afrique pour se positionner sur la logistique durable : une infrastructure portuaire de rang mondial (Tanger Med, premier port d'Afrique et de Méditerranée) et une trajectoire de transition énergétique parmi les plus avancées du continent.** Le Royaume vise 52% d'énergies renouvelables dans son mix énergétique d'ici 2030 — un objectif qui place le Maroc parmi les pays les mieux positionnés d'Afrique et du Moyen-Orient pour combiner croissance logistique et réduction de l'empreinte carbone associée.
 

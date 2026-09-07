@@ -2,7 +2,7 @@
 title: "Financer sa Formation Logistique au Maroc : Toutes les Options en 2026"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "financement formation logistique Maroc, OFPPT formation supply chain, financer formation professionnelle Maroc, bourse formation logistique"
 description: "Comment financer sa formation supply chain au Maroc en 2026 ? OFPPT, plan de formation entreprise, GIAC, financement personnel — toutes les options expliquées."
 ---
@@ -13,7 +13,7 @@ L'une des premières questions que je reçois quand quelqu'un veut se former en 
 
 La réalité : il existe plusieurs mécanismes pour réduire — voire annuler — le coût d'une formation professionnelle au Maroc. La plupart des professionnels ne les connaissent pas.
 
-![Financement formation professionnelle](/images/office.jpg)
+![Financement formation professionnelle](/images/office.webp)
 
 ## Option 1 : Le Plan de Formation de l'Entreprise
 

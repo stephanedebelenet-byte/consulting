@@ -3,14 +3,14 @@ title: "Plan de Succession pour les Postes Clés Supply Chain : Anticiper les D�
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/office.jpg"
+image: "/images/office.webp"
 keywords: "plan succession supply chain maroc, anticiper départ poste clé, succession planning logistique"
 description: "Les entreprises qui structurent un plan de succession surperforment de 20% en retour actionnarial. Comment anticiper les départs sur les postes supply chain les plus critiques."
 ---
 
 # Plan de Succession pour les Postes Clés Supply Chain : Anticiper les Départs Stratégiques
 
-![Bureau et planification](/images/office.jpg)
+![Bureau et planification](/images/office.webp)
 
 **Un plan de succession consiste à identifier les postes les plus stratégiques d'une organisation — direction supply chain, responsables d'entrepôts critiques, experts techniques rares — puis à préparer en amont les profils capables de prendre le relais en cas de départ, volontaire ou non.** Ce n'est pas un exercice réservé aux grands groupes : les entreprises qui investissent dans la planification de la succession affichent une surperformance de 20% sur le retour actionnarial total par rapport à celles qui n'en ont pas structuré — un signe que l'anticipation des départs stratégiques a un effet mesurable au-delà du seul confort organisationnel.
 

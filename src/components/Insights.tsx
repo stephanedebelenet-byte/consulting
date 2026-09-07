@@ -10,7 +10,7 @@ const ARTICLES = [
     excerpt:
       "La méthode DDMRP réduit le BFR de 20 à 40% en moyenne. Pourtant, moins de 3% des entreprises marocaines l'ont adoptée. Analyse des freins et de la marche à suivre.",
     tag: '— DDMRP · S&OP',
-    image: '/images/analytics.jpg',
+    image: '/images/analytics.webp',
   },
   {
     category: 'AMOA SI',
@@ -20,7 +20,7 @@ const ARTICLES = [
     excerpt:
       "Un projet ERP raté coûte en moyenne 2 à 4× son budget initial. Sept décisions critiques que la plupart des directions achètent trop tard — et comment les éviter.",
     tag: '— ERP · Sélection',
-    image: '/images/charts.jpg',
+    image: '/images/charts.webp',
   },
   {
     category: 'Logistique',
@@ -30,7 +30,7 @@ const ARTICLES = [
     excerpt:
       'Make or buy logistique — la vraie analyse dépasse le simple coût à la palette. Grille de décision terrain testée sur 12 configurations réelles.',
     tag: '— 3PL · Make vs Buy',
-    image: '/images/transport.jpg',
+    image: '/images/transport.webp',
   },
 ]
 

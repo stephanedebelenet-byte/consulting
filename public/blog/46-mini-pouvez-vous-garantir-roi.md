@@ -11,7 +11,7 @@ description: "Nextinotech garantit-il un ROI ? Non, et voici pourquoi c'est un c
 
 # Pouvez-vous Garantir ROI ?
 
-![Analyse de données et de résultats](/images/analytics.jpg)
+![Analyse de données et de résultats](/images/analytics.webp)
 
 **Non — et c'est un choix délibéré, pas une esquive commerciale.** Promettre un ROI avant d'avoir diagnostiqué votre situation reviendrait à annoncer un résultat sans connaître le point de départ. Ce que nous engageons, ce sont des résultats chiffrés une fois le diagnostic réalisé.
 

@@ -11,7 +11,7 @@ description: "Nextinotech est-il un consultant indépendant ou une équipe ? Str
 
 # Consultants Indépendants ou Équipe ?
 
-![Équipe et organisation du cabinet](/images/business.jpg)
+![Équipe et organisation du cabinet](/images/business.webp)
 
 **Une équipe structurée, pas un consultant solo.** Nextinotech compte environ 5 consultants organisés autour de trois profils complémentaires : consultants seniors certifiés DDMRP, consultants juniors formés en interne, et une équipe administrative dédiée au suivi de chaque mission.
 

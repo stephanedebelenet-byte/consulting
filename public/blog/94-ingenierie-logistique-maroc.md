@@ -2,7 +2,7 @@
 title: "Ingénierie Logistique au Maroc : Conception, Flux et Optimisation 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "ingénierie logistique maroc, bureau d'étude logistique maroc, conception flux logistiques, optimisation supply chain maroc, ingénieur logistique casablanca"
 description: "L'ingénierie logistique au Maroc : définition, missions, outils de simulation des flux et différence avec le consulting opérationnel. Par Nextinotech, 110+ missions."
 ---
@@ -13,7 +13,7 @@ Il existe deux façons de résoudre un problème logistique. La première : réa
 
 L'ingénierie logistique, c'est la deuxième approche appliquée avec rigueur. C'est la démarche qui transforme des décisions prises sous pression en décisions prises avec des données. Et au Maroc, c'est encore trop rare.
 
-![Ingénierie logistique et conception des flux supply chain au Maroc](/images/charts.jpg)
+![Ingénierie logistique et conception des flux supply chain au Maroc](/images/charts.webp)
 
 ---
 

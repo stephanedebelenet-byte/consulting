@@ -2,7 +2,7 @@
 title: "Schéma Directeur Logistique au Maroc : Méthode et Livrables 2026"
 date: "2026-08-04"
 author: "Nextinotech"
-image: "/images/charts.jpg"
+image: "/images/charts.webp"
 keywords: "schéma directeur logistique maroc, plan directeur supply chain, conception réseau logistique maroc, transformation logistique maroc, stratégie supply chain maroc"
 description: "Qu'est-ce qu'un Schéma Directeur Logistique, quand en lancer un, quelle méthode, quels livrables et quel budget ? Guide complet par Nextinotech — 110+ missions."
 ---
@@ -13,7 +13,7 @@ J'ai vu des entreprises marocaines dépenser 3 à 5 millions de dirhams dans un 
 
 Le Schéma Directeur Logistique (SDL) est précisément l'outil qui répond à cette question avant d'engager le moindre dirham. C'est la carte routière de votre supply chain : où vous êtes aujourd'hui, où vous devez être dans 5 à 10 ans, et par quel chemin y aller.
 
-![Planification stratégique supply chain — schéma directeur logistique et conception réseau](/images/charts.jpg)
+![Planification stratégique supply chain — schéma directeur logistique et conception réseau](/images/charts.webp)
 
 ---
 

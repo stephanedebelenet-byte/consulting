@@ -3,14 +3,14 @@ title: "Livraison en Zones Rurales et Enclavées : le Dernier Kilomètre le Plus
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "livraison zone rurale maroc, dernier kilomètre zones enclavées, logistique atlas montagne maroc"
 description: "Le dernier kilomètre peut représenter jusqu'à 53% des coûts de transport — une proportion encore plus élevée en zone rurale. Comment une entreprise marocaine limite ce surcoût."
 ---
 
 # Livraison en Zones Rurales et Enclavées : le Dernier Kilomètre le Plus Cher
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Le dernier kilomètre — le trajet final entre le dernier point de tri et le destinataire — représente déjà, en moyenne, jusqu'à 53% des coûts totaux de transport dans un contexte urbain standard. En zone rurale ou enclavée, cette proportion grimpe encore, portée par une densité de population plus faible qui allonge mécaniquement les distances parcourues par livraison.** Au Maroc, les zones de montagne (Atlas), les régions désenclavées du Sud et les zones rurales dispersées cumulent les facteurs qui renchérissent la livraison : infrastructure routière parfois limitée, distances importantes entre points de livraison, et absence fréquente de point relais local qui obligerait autrement à mutualiser plusieurs livraisons en un seul arrêt.
 

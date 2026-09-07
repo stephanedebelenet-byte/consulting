@@ -10,7 +10,7 @@ description: "Une plateforme 3PL de 21 000 m² gérée pour L'Oréal, Nestlé et
 
 # Supply Chain Retail au Maroc : piloter une plateforme multi-marques à grande échelle
 
-![Entrepôt et distribution retail](/images/hero-warehouse.jpg)
+![Entrepôt et distribution retail](/images/hero-warehouse.webp)
 
 **Une plateforme logistique 3PL de 21 000 m², gérée pour L'Oréal, Nestlé et Mars, a atteint 98,5% de taux de service avec 120 collaborateurs.** C'est l'un des repères concrets de Nextinotech sur la distribution retail et FMCG au Maroc — un secteur où des enseignes comme Marjane comptent parmi les acteurs structurants du marché.
 

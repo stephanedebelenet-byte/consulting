@@ -10,7 +10,7 @@ description: "Le Port de Douala gère près de 95% du commerce extérieur camero
 
 # Supply Chain Cameroun : le Port de Douala, hub logistique d'Afrique centrale
 
-![Quais et infrastructures portuaires](/images/transport.jpg)
+![Quais et infrastructures portuaires](/images/transport.webp)
 
 **Le Port de Douala gère à lui seul près de 95% du commerce extérieur du Cameroun.** Mais son rôle dépasse largement les frontières camerounaises : c'est aussi la porte d'entrée logistique du Tchad et de la République centrafricaine, deux pays enclavés entièrement dépendants de cet axe.
 

@@ -13,7 +13,7 @@ Le e-commerce marocain a atteint 16 milliards de dirhams en 2025. C'est une croi
 
 J'accompagne des entreprises dans leur transformation logistique depuis 20 ans. Ces dernières années, j'ai vu émerger une nouvelle catégorie de problèmes — spécifiques au e-commerce. Voici les 7 défis que je rencontre systématiquement.
 
-![Entrepôt e-commerce gestion des commandes](/images/hero-warehouse.jpg)
+![Entrepôt e-commerce gestion des commandes](/images/hero-warehouse.webp)
 
 ## Défi #1 : La Gestion des Stocks Multi-canaux
 

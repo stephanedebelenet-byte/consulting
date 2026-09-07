@@ -2,7 +2,7 @@
 title: "Entretien RH vs Entretien Opérationnel en Supply Chain : Deux Formats Différents"
 date: "2026-08-05"
 author: "Nextinotech"
-image: "/images/conseil.jpg"
+image: "/images/conseil.webp"
 keywords: "entretien RH supply chain Maroc, entretien opérationnel logistique Maroc, différence entretien RH métier supply chain, recrutement supply chain étapes Maroc"
 description: "Comment adapter votre préparation à l'entretien RH vs l'entretien avec le manager opérationnel en supply chain au Maroc ? Deux formats distincts, deux approches."
 ---
@@ -11,7 +11,7 @@ description: "Comment adapter votre préparation à l'entretien RH vs l'entretie
 
 La plupart des processus de recrutement supply chain incluent au moins deux types d'entretiens : un avec le RH/DRH et un avec le manager opérationnel ou le DSC. Ce ne sont pas les mêmes entretiens — et ils ne doivent pas être préparés de la même façon.
 
-![Entretien RH vs opérationnel supply chain Maroc](/images/conseil.jpg)
+![Entretien RH vs opérationnel supply chain Maroc](/images/conseil.webp)
 
 ## L'Entretien RH — Comprendre le "Fit Global"
 

@@ -3,14 +3,14 @@ title: "Emballages Durables : Réduire ses Coûts Logistiques en Verdissant sa C
 date: "2026-08-21"
 author: "Nextinotech"
 schema: "Article"
-image: "/images/transport.jpg"
+image: "/images/transport.webp"
 keywords: "emballage durable logistique, réduction coût emballage transport, éco-conception emballage maroc"
 description: "46 milliards de dollars pourraient être économisés dans le monde en éliminant le vide dans les emballages logistiques. Comment un emballage mieux pensé réduit directement le coût de transport."
 ---
 
 # Emballages Durables : Réduire ses Coûts Logistiques en Verdissant sa Chaîne
 
-![Transport et logistique](/images/transport.jpg)
+![Transport et logistique](/images/transport.webp)
 
 **Un emballage durable en logistique n'est pas seulement un choix de matériau écologique — c'est d'abord un emballage dimensionné au plus près du produit, qui réduit le poids volumétrique facturé par les transporteurs et donc le coût de transport directement.** Plus le volume d'un colis est proche de celui du produit qu'il contient, plus le poids volumétrique facturé diminue, un effet particulièrement marqué sur les livraisons express ou aériennes. Selon une étude Forbes Insight réalisée pour DS Smith, jusqu'à 46 milliards de dollars pourraient être économisés chaque année dans le monde rien qu'en éliminant les espaces vides contenus dans les emballages logistiques.
 
