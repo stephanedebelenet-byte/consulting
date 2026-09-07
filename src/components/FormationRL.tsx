@@ -199,12 +199,14 @@ function FAQItem({ q, a, open, onClick }: { q: string; a: string; open: boolean;
 
 /* Cadre "infographie" — l'image garde son cadrage d'origine (objectFit: contain)
    pour ne jamais rogner les libellés qu'elle contient. */
-function InfographicFrame({ src, alt }: { src: string; alt: string }) {
+function InfographicFrame({ src, alt, width, height }: { src: string; alt: string; width: number; height: number }) {
   return (
     <div style={{ background: '#ffffff', border: '1px solid var(--border)', padding: '1.25rem' }}>
       <img
         src={src}
         alt={alt}
+        width={width}
+        height={height}
         loading="lazy"
         style={{ display: 'block', width: '100%', height: 'auto', objectFit: 'contain' }}
       />
@@ -508,6 +510,28 @@ function InscriptionSection() {
   )
 }
 
+/* ── Urgency badge — hors du composant principal pour garder une identité
+   stable entre les re-renders (FAQ, apparition du CTA sticky) : défini à
+   l'intérieur de FormationRL(), React le traitait comme un nouveau composant
+   à chaque re-render et rejouait son animation d'entrée sans raison. ── */
+const UrgencyBadge = () => (
+  <motion.div
+    initial={{ opacity: 0, scale: 0.9 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5, delay: 0.6 }}
+    style={{
+      display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
+      background: 'rgba(47,111,181,0.08)', border: '1px solid rgba(47,111,181,0.3)',
+      padding: '0.4rem 1rem', marginBottom: '1.5rem',
+    }}
+  >
+    <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#2f6fb5', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
+    <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)' }}>
+      {PLACES} places disponibles — Prochaine session
+    </span>
+  </motion.div>
+)
+
 /* ─── Main component ─────────────────────────────────────── */
 export default function FormationRL() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null)
@@ -521,25 +545,6 @@ export default function FormationRL() {
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
-
-  /* ── Urgency badge ── */
-  const UrgencyBadge = () => (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.5, delay: 0.6 }}
-      style={{
-        display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
-        background: 'rgba(47,111,181,0.08)', border: '1px solid rgba(47,111,181,0.3)',
-        padding: '0.4rem 1rem', marginBottom: '1.5rem',
-      }}
-    >
-      <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#2f6fb5', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
-      <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)' }}>
-        {PLACES} places disponibles — Prochaine session
-      </span>
-    </motion.div>
-  )
 
   return (
     <div className="grain" style={{ background: 'var(--paper)', minHeight: '100vh', color: 'var(--navy)' }}>
@@ -653,7 +658,10 @@ export default function FormationRL() {
               <img
                 src="/images/formation-rl/hero.webp"
                 alt="Équipe Nextinotech animant une session de formation autour d'une visualisation supply chain"
-                loading="lazy"
+                width={1600}
+                height={893}
+                loading="eager"
+                fetchPriority="high"
                 style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '38% 50%' }}
               />
             </div>
@@ -695,7 +703,7 @@ export default function FormationRL() {
               </h2>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 32 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-40px' }} transition={{ duration: 0.8, delay: 0.1 }}>
-              <InfographicFrame src="/images/formation-rl/parcours-profils.webp" alt="Trois profils progressant vers la Direction Supply Chain : technique, opérationnel, management stratégique" />
+              <InfographicFrame src="/images/formation-rl/parcours-profils.webp" alt="Trois profils progressant vers la Direction Supply Chain : technique, opérationnel, management stratégique" width={1408} height={768} />
             </motion.div>
           </div>
           <div className="frl-cibles">
@@ -835,7 +843,7 @@ export default function FormationRL() {
         <div className="section-inner">
           <div className="frl-comp">
             <motion.div initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-              <InfographicFrame src="/images/formation-rl/parcours-carriere.webp" alt="Trajectoire de carrière en logistique : opérateur, planificateur, chef d'équipe, jusqu'à responsable logistique certifié" />
+              <InfographicFrame src="/images/formation-rl/parcours-carriere.webp" alt="Trajectoire de carrière en logistique : opérateur, planificateur, chef d'équipe, jusqu'à responsable logistique certifié" width={1408} height={768} />
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.15 }}>
