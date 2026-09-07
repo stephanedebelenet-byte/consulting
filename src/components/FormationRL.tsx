@@ -387,12 +387,12 @@ function DownloadForm() {
 }
 
 /* ─── Section Inscription ──
-   Le formulaire poste vers FormSubmit (contact@nextinotech.com) DANS UN
-   IFRAME CACHÉ : la page ne navigue jamais, l'utilisateur voit une confirmation
-   inline et reste sur le site. La preuve de paiement se transmet séparément
-   par email/WhatsApp (plus de champ pièce jointe dans le formulaire). */
-const FORMSUBMIT_URL = 'https://formsubmit.co/contact@nextinotech.com'
-
+   Utilisait FormSubmit + iframe caché (nécessaire à l'époque pour le POST
+   multipart natif de la pièce jointe). FormSubmit renvoie une erreur 500
+   serveur sur ce endpoint (vérifié directement, indépendamment de tout code
+   du site) et la pièce jointe a été retirée du formulaire — donc plus
+   besoin ni de FormSubmit ni de l'iframe. Bascule sur Formspree + fetch,
+   même service et même schéma que DownloadForm plus haut dans ce fichier. */
 const smallBtn: React.CSSProperties = {
   display: 'inline-flex', alignItems: 'center', padding: '0.7rem 1.4rem',
   fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em',
@@ -400,32 +400,50 @@ const smallBtn: React.CSSProperties = {
 }
 
 function InscriptionSection() {
+  const [form, setForm] = useState({ nom: '', email: '', tel: '', entreprise: '', message: '' })
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
-  const loadCount = useRef(0)
-  const timerRef = useRef<number | null>(null)
+  const [errors, setErrors] = useState<Record<string, string>>({})
 
-  // Soumission via iframe caché : la page ne bouge pas, l'utilisateur ne voit
-  // jamais FormSubmit.
-  useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
-
-  const onIframeLoad = () => {
-    loadCount.current += 1
-    if (loadCount.current <= 1) return // 1er load = about:blank à l'init
-    if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null }
-    setStatus((s) => (s === 'sending' ? 'success' : s))
+  const validate = () => {
+    const e: Record<string, string> = {}
+    if (!form.nom.trim()) e.nom = 'Obligatoire'
+    if (!form.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) e.email = 'Email invalide'
+    if (!form.tel.trim()) e.tel = 'Obligatoire'
+    return e
   }
 
-  const onSubmit = () => {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    const errs = validate()
+    if (Object.keys(errs).length) { setErrors(errs); return }
+    setErrors({})
     setStatus('sending')
-    timerRef.current = window.setTimeout(() => setStatus((s) => (s === 'sending' ? 'error' : s)), 20000)
-    // la soumission native continue vers l'iframe caché
+    try {
+      const res = await fetch('https://formspree.io/f/mqpzpqwj', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          formulaire: 'Inscription formation — Devenir Responsable Logistique',
+          formation: 'Devenir Responsable Logistique — 1 jour, Casablanca, 1 500 MAD TTC',
+          nom: form.nom,
+          email: form.email,
+          téléphone: form.tel,
+          entreprise: form.entreprise || 'Non renseignée',
+          message: form.message || 'Aucun',
+        }),
+      })
+      setStatus(res.ok ? 'success' : 'error')
+    } catch {
+      setStatus('error')
+    }
   }
 
-  const input: React.CSSProperties = {
-    width: '100%', background: '#ffffff', border: '1px solid var(--border)',
+  const inputStyle = (field: string): React.CSSProperties => ({
+    width: '100%', background: '#ffffff',
+    border: `1px solid ${errors[field] ? 'rgba(200,60,60,0.55)' : 'var(--border)'}`,
     padding: '0.85rem 1rem', color: 'var(--navy)', fontFamily: 'Jost, sans-serif',
-    fontSize: '0.9rem', outline: 'none', boxSizing: 'border-box',
-  }
+    fontSize: '0.9rem', outline: 'none', transition: 'border-color 0.2s', boxSizing: 'border-box',
+  })
 
   return (
     <section id="inscription" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
@@ -441,16 +459,6 @@ function InscriptionSection() {
           Nous vous confirmons votre place par email sous 24h.
         </p>
 
-        {/* Cible cachée de la soumission — la page principale ne navigue jamais */}
-        <iframe
-          name="frl_inscription_target"
-          title=""
-          aria-hidden="true"
-          tabIndex={-1}
-          onLoad={onIframeLoad}
-          style={{ position: 'absolute', width: 0, height: 0, border: 0, overflow: 'hidden' }}
-        />
-
         {status === 'success' ? (
           <div style={{ background: '#ffffff', border: '1px solid var(--blue-bright)', padding: '2.5rem' }}>
             <div style={{ fontSize: '1.75rem', marginBottom: '0.75rem' }}>✅</div>
@@ -458,26 +466,12 @@ function InscriptionSection() {
               Demande d&apos;inscription envoyée.
             </h3>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, margin: 0 }}>
-              Nous vous confirmons votre place par email sous 24h. Un accusé de réception vient de vous être
-              envoyé. Merci de nous transmettre votre preuve de paiement à
-              contact@nextinotech.com ou via WhatsApp.
+              Nous vous confirmons votre place par email sous 24h. Merci de nous transmettre votre preuve de
+              paiement à contact@nextinotech.com ou via WhatsApp.
             </p>
           </div>
         ) : (
-          <form
-            action={FORMSUBMIT_URL}
-            method="POST"
-            target="frl_inscription_target"
-            onSubmit={onSubmit}
-            style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}
-          >
-            <input type="hidden" name="_subject" value="Nouvelle inscription — Formation Responsable Logistique" />
-            <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_autoresponse" value="Bonjour, nous avons bien reçu votre demande d'inscription à la formation « Devenir Responsable Logistique ». Notre équipe vous confirme votre place sous 24h. — Nextinotech" />
-            <input type="hidden" name="formation" value="Devenir Responsable Logistique — 1 jour, Casablanca, 1 500 MAD TTC" />
-            <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" aria-hidden="true" />
-
+          <form onSubmit={handleSubmit} noValidate style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}>
             {status === 'error' && (
               <div style={{ background: 'rgba(200,60,60,0.06)', border: '1px solid rgba(200,60,60,0.4)', padding: '0.9rem 1.1rem', fontSize: '0.82rem', color: '#c83c3c', lineHeight: 1.6 }}>
                 L&apos;envoi n&apos;a pas abouti. Réessayez, ou écrivez-nous directement à contact@nextinotech.com
@@ -485,14 +479,53 @@ function InscriptionSection() {
               </div>
             )}
 
-            <input type="text" name="nom" placeholder="Nom complet *" required style={input} />
-            <input type="email" name="email" placeholder="Email *" required style={input} />
+            <div>
+              <input
+                type="text"
+                placeholder="Nom complet *"
+                value={form.nom}
+                onChange={e => setForm({ ...form, nom: e.target.value })}
+                style={inputStyle('nom')}
+              />
+              {errors.nom && <div style={{ fontSize: '0.72rem', color: '#c83c3c', marginTop: '0.3rem' }}>{errors.nom}</div>}
+            </div>
+            <div>
+              <input
+                type="email"
+                placeholder="Email *"
+                value={form.email}
+                onChange={e => setForm({ ...form, email: e.target.value })}
+                style={inputStyle('email')}
+              />
+              {errors.email && <div style={{ fontSize: '0.72rem', color: '#c83c3c', marginTop: '0.3rem' }}>{errors.email}</div>}
+            </div>
             <div className="frl-2col" style={{ gap: '1.1rem' }}>
-              <input type="tel" name="telephone" placeholder="Téléphone *" required style={input} />
-              <input type="text" name="entreprise" placeholder="Entreprise (optionnel)" style={input} />
+              <div>
+                <input
+                  type="tel"
+                  placeholder="Téléphone *"
+                  value={form.tel}
+                  onChange={e => setForm({ ...form, tel: e.target.value })}
+                  style={inputStyle('tel')}
+                />
+                {errors.tel && <div style={{ fontSize: '0.72rem', color: '#c83c3c', marginTop: '0.3rem' }}>{errors.tel}</div>}
+              </div>
+              <input
+                type="text"
+                placeholder="Entreprise (optionnel)"
+                value={form.entreprise}
+                onChange={e => setForm({ ...form, entreprise: e.target.value })}
+                style={inputStyle('entreprise')}
+              />
             </div>
 
-            <textarea name="message" placeholder="Message (optionnel)" rows={3} style={{ ...input, resize: 'vertical' }} />
+            <textarea
+              placeholder="Message (optionnel)"
+              rows={3}
+              value={form.message}
+              onChange={e => setForm({ ...form, message: e.target.value })}
+              style={{ ...inputStyle('message'), resize: 'vertical' }}
+            />
 
             <button
               type="submit"
