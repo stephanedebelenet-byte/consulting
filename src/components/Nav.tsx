@@ -335,10 +335,10 @@ export default function Nav() {
           onMouseLeave={e => ((e.currentTarget as HTMLElement).style.opacity = '1')}
         >
           <img
-            src="/logo-lockup.png"
+            src="/logo-lockup.webp"
             alt="Nextinotech"
-            width={484}
-            height={160}
+            width={300}
+            height={99}
             style={{ height: 34, width: 'auto', display: 'block' }}
           />
         </Link>

@@ -57,10 +57,10 @@ export default function Footer() {
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
             >
               <img
-                src="/logo-lockup.png"
+                src="/logo-lockup.webp"
                 alt="Nextinotech"
-                width={484}
-                height={160}
+                width={300}
+                height={99}
                 style={{ height: 40, width: 'auto', display: 'block', filter: 'brightness(0) invert(1)', opacity: 0.92 }}
               />
             </a>

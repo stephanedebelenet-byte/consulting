@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
 
 const LOGOS = [
-  { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34 },
-  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.webp', height: 40 },
-  { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26 },
-  { name: 'Casanet', file: '/images/logos/casanet.webp', height: 46 },
+  { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34, natW: 153, natH: 46 },
+  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.webp', height: 40, natW: 227, natH: 81 },
+  { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26, natW: 162, natH: 22 },
+  { name: 'Casanet', file: '/images/logos/casanet.webp', height: 46, natW: 146, natH: 95 },
 ]
 
 const REFS = [
@@ -199,6 +199,8 @@ function LogoWall() {
             <img
               src={logo.file}
               alt={logo.name}
+              width={logo.natW}
+              height={logo.natH}
               style={{
                 height: logo.height,
                 maxWidth: '100%',

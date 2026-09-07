@@ -51,10 +51,10 @@ const ACCOMPAGNEMENTS = [
 
 // Même 4 logos et même patron visuel que la section "Ils nous font confiance" de References.tsx.
 const PROOF_LOGOS = [
-  { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34 },
-  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.webp', height: 40 },
-  { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26 },
-  { name: 'Casanet', file: '/images/logos/casanet.webp', height: 46 },
+  { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34, natW: 153, natH: 46 },
+  { name: 'Safari Groupe', file: '/images/logos/safari-groupe.webp', height: 40, natW: 227, natH: 81 },
+  { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26, natW: 162, natH: 22 },
+  { name: 'Casanet', file: '/images/logos/casanet.webp', height: 46, natW: 146, natH: 95 },
 ]
 
 export default function HomePage() {
@@ -233,7 +233,7 @@ export default function HomePage() {
                   className="logo-wall-tile"
                   style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: 120, background: 'var(--dark)', padding: '1.5rem' }}
                 >
-                  <img src={logo.file} alt={logo.name} style={{ height: logo.height, width: 'auto', maxWidth: '100%', objectFit: 'contain' }} />
+                  <img src={logo.file} alt={logo.name} width={logo.natW} height={logo.natH} style={{ height: logo.height, width: 'auto', maxWidth: '100%', objectFit: 'contain' }} />
                 </div>
               ))}
             </div>
