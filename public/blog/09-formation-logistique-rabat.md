@@ -12,7 +12,7 @@ location: "Rabat, Salé, Maroc"
 
 **Directeur des Achats | Expert Supply Chain & Transformation Digitale**
 
-Rabat/Salé, Maroc · 18 ans expérience · 40+ cadres formés
+Rabat/Salé, Maroc · 20+ ans expérience · 40+ cadres formés
 
 ---
 

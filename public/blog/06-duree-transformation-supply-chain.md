@@ -13,7 +13,7 @@ description: "Timeline réaliste pour transformer votre supply chain. Audit à s
 
 Bonne question. Et la réponse dépend du scope.
 
-Basé sur 18 ans d'expérience et 110+ missions, voici les timelines réalistes. Pas de promesses, juste faits.
+Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes. Pas de promesses, juste faits.
 
 ---
 

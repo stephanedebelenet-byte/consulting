@@ -1,14 +1,14 @@
 ---
 name: blog-plan
-description: Plan a complete blog content strategy for Essor Consulting. Use when asked to plan new articles, identify keyword gaps, build a content calendar, or decide what to write next. Produces a prioritized list of article topics with keywords, intent, and expected impact.
+description: Plan a complete blog content strategy for Nextinotech. Use when asked to plan new articles, identify keyword gaps, build a content calendar, or decide what to write next. Produces a prioritized list of article topics with keywords, intent, and expected impact.
 metadata:
   type: strategy
 ---
 
-# Blog Content Planning Skill — Essor Consulting
+# Blog Content Planning Skill — Nextinotech
 
 ## Context
-Essor Consulting has 197 published articles (see the `blogFiles` array in `src/components/Blog.tsx`) targeting supply chain/logistics in Morocco and francophone Africa — covering formation, géo, case studies, secteurs, carrière, entretien d'embauche, jeunes diplômés, and tendances 2026. A researched 100-article expansion plan (new clusters: Achats & Procurement avancé, IA & Digital Supply Chain, RSE & Durabilité, Douane & Commerce International, E-commerce & Last-Mile, RH & Attractivité Employeur, Femmes en Logistique, ERP & Outils, Gestion de Projet, Secteurs verticaux approfondis, Transport & Fret, Afrique francophone approfondie, Risk Management) lives in `blog/_content-plan-100.md` — check it first before proposing new topics. The next articles should:
+Nextinotech has 307 published articles (see the `blogFiles` array in `src/components/Blog.tsx`) targeting supply chain/logistics in Morocco and francophone Africa — covering formation, géo, case studies, secteurs, carrière, entretien d'embauche, jeunes diplômés, and tendances 2026. A researched 100-article expansion plan (clusters: Achats & Procurement avancé, IA & Digital Supply Chain, RSE & Durabilité, Douane & Commerce International, E-commerce & Last-Mile, RH & Attractivité Employeur, Femmes en Logistique, ERP & Outils, Gestion de Projet, Secteurs verticaux approfondis, Transport & Fret, Afrique francophone approfondie, Risk Management) lives in `blog/_content-plan-100.md` — **most of these clusters are now published** (check `blogFiles` for what already exists before proposing a topic, not just this plan file, which is no longer a reliable list of what's missing). The next articles should:
 1. Fill keyword gaps (topics not yet covered)
 2. Target high-volume searches with low competition
 3. Build topical authority in the main clusters
@@ -17,7 +17,7 @@ Essor Consulting has 197 published articles (see the `blogFiles` array in `src/c
 
 ## Topical Cluster Map
 
-Essor Consulting owns these 5 main topic clusters. New articles should fit one of them:
+Nextinotech owns these 5 main topic clusters. New articles should fit one of them:
 
 ### Cluster 1: Formation Logistique Maroc (PRIORITY)
 Core: "formation logistique maroc", "formation supply chain"
@@ -77,7 +77,7 @@ When planning, score each article idea on:
 |-----------|--------|-----------|
 | Monthly search volume (est.) | 30% | |
 | Competition level (low=5, high=1) | 25% | |
-| Fit with Essor expertise | 25% | |
+| Fit with Nextinotech expertise | 25% | |
 | Revenue/conversion potential | 20% | |
 
 **Priority threshold: score ≥ 3.5/5 → write now**
@@ -143,7 +143,7 @@ Monthly total: 5 articles (one per week minus one)
 When identifying what to write next, look for topics that:
 1. Have high search intent (informational + transactional)
 2. Are not covered by moroccan.jobs, OFPPT site, or generic training directories
-3. Can be answered with Essor Consulting's specific 20+ year expertise
+3. Can be answered with Nextinotech's specific 20+ year expertise
 4. Include numbers, case studies, or tools that generalist sites can't match
 
 ---
@@ -153,7 +153,7 @@ When identifying what to write next, look for topics that:
 Every new article should link to:
 - At least 2 existing articles (by topic relevance)
 - The `/formation` page
-- The `/contact` page or `b.youssef@essor.ma`
+- The `/contact` page or `contact@nextinotech.com`
 
 Track interlinking in a mental map:
 - "Formation" articles → link to each other + /formation page

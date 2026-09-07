@@ -151,5 +151,5 @@ PME textile a transformé supply chain en 3 mois sans massive investment. Clé: 
 
 **Nextinotech**  
 Expert Supply Chain & Transformation Digitale  
-18 ans expérience, 110+ missions réussies
+20+ ans expérience, 110+ missions réussies
 

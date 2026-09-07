@@ -13,7 +13,7 @@ description: "Formation seule vs Consulting seul vs Formation + Consulting : gui
 
 Fausse question. Ce n'est pas OU, c'est souvent ET.
 
-Après 18 ans et 110+ missions (dont 40+ cadres formés), j'ai vu les deux approches. Et la vérité: chacune a sa place.
+Après 20+ ans et 110+ missions (dont 40+ cadres formés), j'ai vu les deux approches. Et la vérité: chacune a sa place.
 
 Voici comment choisir.
 

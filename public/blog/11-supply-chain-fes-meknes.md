@@ -12,7 +12,7 @@ location: "Fès, Meknès, Maroc"
 
 **Directeur des Achats | Expert Supply Chain & Transformation Digitale**
 
-Fès/Meknès region, Maroc · 18 ans expérience
+Fès/Meknès region, Maroc · 20+ ans expérience
 
 ---
 

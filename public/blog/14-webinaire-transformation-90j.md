@@ -54,7 +54,7 @@ description: "Webinaire gratuit 45min : Transformation supply chain réaliste en
 
 **Nextinotech**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-- 18 ans expérience (OCP, DHL, Renault, Douja)
+- 20+ ans expérience (OCP, DHL, Renault, Douja)
 - 110+ missions réussies
 - 40+ cadres formés
 

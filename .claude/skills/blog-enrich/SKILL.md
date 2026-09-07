@@ -1,11 +1,11 @@
 ---
 name: blog-enrich
-description: Enrich an existing Essor Consulting blog article with images, ::stat:: blocks, > callouts, tables, and improved prose. Use when asked to add visuals, animations, or improve an existing article. Does NOT change the fundamental structure — adds visual richness and engagement elements.
+description: Enrich an existing Nextinotech blog article with images, ::stat:: blocks, > callouts, tables, and improved prose. Use when asked to add visuals, animations, or improve an existing article. Does NOT change the fundamental structure — adds visual richness and engagement elements.
 metadata:
   type: writing
 ---
 
-# Blog Enrichment Skill — Essor Consulting
+# Blog Enrichment Skill — Nextinotech
 
 ## What This Skill Does
 Takes an existing article and:
@@ -63,14 +63,14 @@ Takes an existing article and:
 - Add before a section that explains a phenomenon
 - Use after a case study result
 
-### Examples from Essor Consulting context
+### Examples from Nextinotech context
 ```
 ::stat:: 110+ — missions supply chain en Afrique et Europe
-::stat:: 20+ — années d'expérience terrain Essor Consulting
+::stat:: 20+ — années d'expérience terrain Nextinotech
 ::stat:: −30% — réduction moyenne des stocks avec DDMRP
 ::stat:: +25% — gain productivité entrepôt après déploiement WMS
 ::stat:: 29 000% — ROI calculé formation logistique (PME agroalimentaire)
-::stat:: 710M MAD — d'achats pilotés dans les missions Essor Consulting
+::stat:: 710M MAD — d'achats pilotés dans les missions Nextinotech
 ::stat:: 600 000 — véhicules produits/an région Tanger-Kénitra
 ::stat:: 78% — des offres RL au Maroc exigent 3 ans d'expérience minimum
 ::stat:: 1 500 MAD — coût formation Responsable Logistique 1 journée
@@ -93,7 +93,7 @@ Takes an existing article and:
 ### Best use cases
 1. **Counter-intuitive insight**: something surprising that deserves emphasis
 2. **Expert position**: Youssef's personal take
-3. **Essor differentiator**: what makes Essor unique vs competitors
+3. **Nextinotech differentiator**: what makes Nextinotech unique vs competitors
 4. **Reader warning**: a common mistake to avoid
 
 ### Examples
@@ -102,7 +102,7 @@ Takes an existing article and:
 
 > **Le DDMRP n'est pas une mise à jour du MRP — c'est une rupture paradigmatique.** Là où le MRP tire la demande depuis des prévisions, le DDMRP positionne des buffers physiques qui absorbent la variabilité sans surstock.
 
-> **Essor Consulting est l'un des rares cabinets certifiés DDMRP en Afrique francophone.** Nos formateurs ont des missions de déploiement actives — ils forment sur ce qu'ils font, pas sur ce qu'ils ont lu.
+> **Nextinotech est l'un des rares cabinets certifiés DDMRP en Afrique francophone.** Nos formateurs ont des missions de déploiement actives — ils forment sur ce qu'ils font, pas sur ce qu'ils ont lu.
 ```
 
 ### Placement
@@ -156,19 +156,19 @@ Every article must end with a clear call-to-action section.
 
 ### Standard CTA template
 ```markdown
-## Formation / Accompagnement Essor Consulting
+## Formation / Accompagnement Nextinotech
 
 [2-3 sentences describing the specific program relevant to this article topic]
 
 **[Program name] — [Duration] — [Price if applicable]**
 
-> **[Essor differentiator in one sentence.]**
+> **[Nextinotech differentiator in one sentence.]**
 
-**Contactez Essor Consulting pour [specific action related to article topic].**
+**Contactez Nextinotech pour [specific action related to article topic].**
 ```
 
 ### Contact details (always include)
-- Email: b.youssef@essor.ma
+- Email: contact@nextinotech.com
 - Phone: +212 06 63 44 92 00
 - Formation: `/formation` page
 

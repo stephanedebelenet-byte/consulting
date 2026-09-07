@@ -1,11 +1,11 @@
 ---
 name: essor-hugeinc
-description: Design system skill for Essor Consulting — clones hugeinc.com's visual DNA (massive editorial typography, clean dark/light alternation, numbered sections) mapped to the Essor brand (navy #1b3554, gold #c09a2f, Bodoni Moda serif). Use when building or redesigning any section of the consulting site.
+description: Design system skill for Nextinotech — clones hugeinc.com's visual DNA (massive editorial typography, clean dark/light alternation, numbered sections) mapped to the Nextinotech brand (navy #1b3554, gold #c09a2f, Bodoni Moda serif). Use when building or redesigning any section of the consulting site.
 metadata:
   type: design
 ---
 
-# Essor Consulting × Huge Inc. — Design System
+# Nextinotech × Huge Inc. — Design System
 
 ## The One Rule
 Before writing a single line of code, commit to the hugeinc principle:
@@ -30,7 +30,7 @@ Before writing a single line of code, commit to the hugeinc principle:
 
 ---
 
-## Essor Brand Tokens
+## Nextinotech Brand Tokens
 
 ```css
 /* Dark surfaces */
@@ -212,7 +212,7 @@ const inView = useInView(ref, { once: true, margin: '-60px' })
 
 ---
 
-## hugeinc Statement Lines for Essor — Ready to use
+## hugeinc Statement Lines for Nextinotech — Ready to use
 
 These are the "big idea" lines in 6–8vw italic gold, placed between sections:
 
@@ -221,21 +221,21 @@ These are the "big idea" lines in 6–8vw italic gold, placed between sections:
 - *"Votre Supply Chain est un avantage compétitif. Pas encore."*
 - *"Le bon logiciel ne vaut rien sans la bonne méthode."*
 - *"Indépendant. Pas parce que c'est tendance. Parce que c'est juste."*
-- *"15 ans de terrain, zéro commission éditeur."*
+- *"20+ ans de terrain, zéro commission éditeur."*
 
 ---
 
-## Real Essor Data (always use — never placeholder)
+## Real Nextinotech Data (always use — never placeholder)
 
-**Company:** Essor Consulting
+**Company:** Nextinotech
 **Founder:** Youssef BAHAIDA
 **Location:** Casablanca, Maroc
-**Email:** b.youssef@essor.ma
+**Email:** contact@nextinotech.com
 **Phone:** +212 06 63 44 92 00
 
-**Stats:** 110+ missions · 15+ ans · 0 commission · ~5 consultants
+**Stats:** 110+ missions · 20+ ans · 0 commission · ~5 consultants
 
-**Clients:** Renault-Nissan · L'Oréal Maroc · Nestlé · P&G · HP · DHL · Huawei · J&J · Centrale Laitière · Cosumar · Nexans · Diana Holding · Acima · Addoha · Mars · OCP · Marjane
+**Clients:** Renault-Nissan · L'Oréal Maroc · Nestlé · P&G · DHL · Huawei · J&J · Addoha · OCP
 
 **Certifications:** DDMRP Certified · ENSA Agadir · KEDGE/UM6P · European Training Foundation · Task Force Vaccination COVID-19
 

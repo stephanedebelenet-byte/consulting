@@ -15,7 +15,7 @@ Faux.
 
 Textile ≠ Agroalimentaire ≠ Industrie lourde. Les problèmes diffèrent. Les solutions diffèrent.
 
-Après 18 ans et 110+ missions (Maghreb Steel sidérurgie, Crouzet aéronautique, LEMO Bensaleh agro, Tanger Med logistique), je vais vous montrer les patterns par secteur.
+Après 20+ ans et 110+ missions (Maghreb Steel sidérurgie, Crouzet aéronautique, LEMO Bensaleh agro, Tanger Med logistique), je vais vous montrer les patterns par secteur.
 
 ---
 

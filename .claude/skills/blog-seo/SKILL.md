@@ -1,11 +1,11 @@
 ---
 name: blog-seo
-description: SEO and GEO audit + optimization of an existing Essor Consulting blog article. Use when asked to optimize, improve SEO, or boost ranking of an existing article. Checks title, meta, keyword density, structure, internal linking, and GEO signals.
+description: SEO and GEO audit + optimization of an existing Nextinotech blog article. Use when asked to optimize, improve SEO, or boost ranking of an existing article. Checks title, meta, keyword density, structure, internal linking, and GEO signals.
 metadata:
   type: seo
 ---
 
-# Blog SEO/GEO Audit Skill — Essor Consulting
+# Blog SEO/GEO Audit Skill — Nextinotech
 
 ## What This Skill Does
 Audits an existing article and produces:
@@ -80,7 +80,7 @@ Audits an existing article and produces:
 
 ---
 
-## Keyword Research for Essor Consulting
+## Keyword Research for Nextinotech
 
 ### Top-priority keywords (highest Moroccan search volume)
 ```

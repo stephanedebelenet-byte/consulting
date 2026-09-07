@@ -12,7 +12,7 @@ location: "Sénégal, Côte d'Ivoire, Congo, Cameroun, Afrique Francophone"
 
 **Directeur des Achats | Expert Supply Chain & Transformation Digitale**
 
-Afrique Francophone · 18 ans expérience · Multi-région expertise
+Afrique Francophone · 20+ ans expérience · Multi-région expertise
 
 ---
 

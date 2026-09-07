@@ -13,7 +13,7 @@ description: "Transparent : les coûts réels d'une mission de consulting supply
 
 C'est la première question. Et c'est honnête.
 
-Après 18 ans et 110+ missions, j'aime la transparence. Je vais vous donner les chiffres réels, les modèles pricing, et comment évaluer ROI.
+Après 20+ ans et 110+ missions, j'aime la transparence. Je vais vous donner les chiffres réels, les modèles pricing, et comment évaluer ROI.
 
 ---
 

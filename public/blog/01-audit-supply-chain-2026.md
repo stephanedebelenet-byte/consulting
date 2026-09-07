@@ -4,12 +4,12 @@ date: "2026-06-21"
 author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "audit supply chain Maroc, diagnostic logistique, transformation supply chain, optimisation chaîne approvisionnement"
-description: "Découvrez les 10 erreurs critiques en supply chain que les PME marocaines commettent et comment les corriger. Basé sur 18 ans d'expertise et 110+ missions."
+description: "Découvrez les 10 erreurs critiques en supply chain que les PME marocaines commettent et comment les corriger. Basé sur 20+ ans d'expertise et 110+ missions."
 ---
 
 # Audit Supply Chain 2026 : Les 10 Erreurs Critiques que les PME/ME Marocaines Commettent
 
-Après plus de 18 ans d'expertise en supply chain — intervenant chez Renault, DHL, OCP et dans 110+ missions de conseil stratégique — j'ai identifié un pattern récurrent : **90% des PME/ME marocaines perdent entre 15% et 40% de leur efficacité opérationnelle** due à des erreurs structurelles et non détectées.
+Après plus de 20+ ans d'expertise en supply chain — intervenant chez Renault, DHL, OCP et dans 110+ missions de conseil stratégique — j'ai identifié un pattern récurrent : **90% des PME/ME marocaines perdent entre 15% et 40% de leur efficacité opérationnelle** due à des erreurs structurelles et non détectées.
 
 Ces erreurs ne sont pas une question de budget. Ce sont des **angles morts stratégiques** que un audit rapide révèle en 3-5 jours, et que une bonne implémentation rectifie en 2-4 mois.
 
@@ -238,7 +238,7 @@ Ces 10 erreurs ne sont pas génétiques. Elles se corrigent. Et chaque correctio
 
 **Un audit rapide supply chain (2-3 jours, 5-8K MAD) peut identifier précisément** où vous êtes, ce que vous pouvez corriger vite (quick wins 1-3 mois), et ce qui demande transformation (6+ mois).
 
-**Vous avez une question? Une situation spécifique?** Contactez-nous. 18 ans d'expertise, 110+ missions, 0 commission. On regarde votre situation, on vous dit honnêtement quoi faire.
+**Vous avez une question? Une situation spécifique?** Contactez-nous. 20+ ans d'expertise, 110+ missions, 0 commission. On regarde votre situation, on vous dit honnêtement quoi faire.
 
 ---
 

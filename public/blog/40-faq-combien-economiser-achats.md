@@ -4,12 +4,12 @@ date: "2026-06-21"
 author: "Nextinotech"
 type: "faq"
 keywords: "économies achats, sourcing stratégique, cost reduction, PME Maroc"
-description: "Après 18 ans et 110+ missions, découvrez combien économiser réellement sur achats. Cas réels, timeline, ROI."
+description: "Après 20+ ans et 110+ missions, découvrez combien économiser réellement sur achats. Cas réels, timeline, ROI."
 ---
 
 # Combien Économiser Réellement sur Vos Achats?
 
-Après 18 ans et 110+ missions, je peux vous dire: **la plupart des PME marocaines perdent 8-15% par an en inefficacités d'achat.**
+Après 20+ ans et 110+ missions, je peux vous dire: **la plupart des PME marocaines perdent 8-15% par an en inefficacités d'achat.**
 
 ## Économies Typiques
 

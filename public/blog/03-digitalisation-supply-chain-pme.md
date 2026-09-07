@@ -4,7 +4,7 @@ date: "2026-06-21"
 author: "Nextinotech"
 image: "/images/analytics.jpg"
 keywords: "implémentation WMS, conseil ERP supply chain, TMS logistique, digitalisation PME, automatisation logistique"
-description: "Guide complet : comment choisir et implémenter WMS/TMS/ERP pour PME. 18 ans d'expérience, 12+ projets tech réussis. Timeline et budget réaliste."
+description: "Guide complet : comment choisir et implémenter WMS/TMS/ERP pour PME. 20+ ans d'expérience, 12+ projets tech réussis. Timeline et budget réaliste."
 ---
 
 # Conseil Digitalisation Supply Chain : WMS, TMS, ERP pour PME
@@ -389,7 +389,7 @@ Digitalisation supply chain n'est pas "pick a system, install it". C'est straté
 3. ROI projection (réaliste)
 4. Roadmap (12 mois)
 
-Contactez-nous. 18 ans d'expérience, 12+ implémentations réussies.
+Contactez-nous. 20+ ans d'expérience, 12+ implémentations réussies.
 
 ---
 

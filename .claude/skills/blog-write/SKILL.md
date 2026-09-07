@@ -1,14 +1,14 @@
 ---
 name: blog-write
-description: Write a complete, SEO/GEO-optimized blog article for the Essor Consulting site. Use when asked to write a new article from a topic, keyword, or brief. Produces a ready-to-publish markdown file with frontmatter, strong hook, sections, images, ::stat:: blocks, > callouts, and a CTA.
+description: Write a complete, SEO/GEO-optimized blog article for the Nextinotech site. Use when asked to write a new article from a topic, keyword, or brief. Produces a ready-to-publish markdown file with frontmatter, strong hook, sections, images, ::stat:: blocks, > callouts, and a CTA.
 metadata:
   type: writing
 ---
 
-# Blog Article Writing Skill — Essor Consulting
+# Blog Article Writing Skill — Nextinotech
 
 ## Context
-You are writing for **Youssef BAHAIDA**, founder of Essor Consulting — 20+ years of supply chain consulting in Morocco and francophone Africa. Voice: expert, direct, terrain-focused. Never generic. Always grounded in real numbers and real experience.
+You are writing for **Youssef BAHAIDA**, founder of Nextinotech — 20+ years of supply chain consulting in Morocco and francophone Africa. Voice: expert, direct, terrain-focused. Never generic. Always grounded in real numbers and real experience.
 
 Target reader: Moroccan logistics/supply chain professionals — Responsable Logistique, Supply Chain Manager, PME owner, procurement professional.
 
@@ -81,7 +81,7 @@ Examples:
 Use for:
 - Youssef's expert position statements
 - Counter-intuitive findings
-- Essor Consulting differentiators
+- Nextinotech differentiators
 
 ### 6. Tables (when comparing options/costs/salaries)
 ```
@@ -91,10 +91,10 @@ Use for:
 ```
 
 ### 7. CTA section (last section before conclusion)
-Title: `## Notre Formation / Notre Programme / Pourquoi Choisir Essor Consulting`
+Title: `## Notre Formation / Notre Programme / Pourquoi Choisir Nextinotech`
 - 3-4 sentences max
 - Specific offer: "Formation Responsable Logistique — 1 journée — 1 500 MAD"
-- Direct CTA: "Contactez Essor Consulting pour..."
+- Direct CTA: "Contactez Nextinotech pour..."
 
 ### 8. Conclusion (3-5 sentences)
 - Restate the key insight

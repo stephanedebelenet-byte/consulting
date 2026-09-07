@@ -4,7 +4,7 @@ date: "2026-06-21"
 author: "Nextinotech"
 image: "/images/conseil.jpg"
 keywords: "consultant supply chain Casablanca, conseil logistique Maroc, audit supply chain Casablanca, optimisation chaîne approvisionnement Casa"
-description: "Expert supply chain basé à Casablanca. 18 ans expérience, 110+ missions. Audit, formation, digitalisation WMS/TMS. PME/ME/GE tous secteurs."
+description: "Expert supply chain basé à Casablanca. 20+ ans expérience, 110+ missions. Audit, formation, digitalisation WMS/TMS. PME/ME/GE tous secteurs."
 location: "Casablanca, Maroc"
 ---
 
@@ -12,7 +12,7 @@ location: "Casablanca, Maroc"
 
 **Directeur des Achats | Expert Supply Chain & Transformation Digitale**
 
-Casablanca, Maroc · 18 ans expérience · 110+ missions réussies
+Casablanca, Maroc · 20+ ans expérience · 110+ missions réussies
 
 ---
 
