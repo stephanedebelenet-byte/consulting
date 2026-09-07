@@ -73,20 +73,27 @@ import { RL_FAQ as FAQS, rlCourseSchema as courseSchema } from '../data/formatio
 
 
 /* ─── Hooks ──────────────────────────────────────────────── */
+/* requestAnimationFrame plutôt que setInterval(16ms) : 4 compteurs tournent
+   en parallèle dès l'arrivée sur la page (déclenchés par le même
+   statsInView), et 4 setInterval indépendants non calés sur le cycle de
+   rendu du navigateur forçaient des recalculs de layout hors du pipeline
+   normal de peinture — c'est le "ajustement forcé de la mise en page"
+   relevé par Lighthouse. rAF synchronise nativement chaque mise à jour
+   avec la peinture réelle du navigateur. */
 function useCountUp(target: number, duration = 1800, trigger = false) {
   const [count, setCount] = useState(0)
   useEffect(() => {
     if (!trigger) return
-    let frame = 0
-    const totalFrames = Math.round(duration / 16)
-    const timer = setInterval(() => {
-      frame++
-      const progress = frame / totalFrames
+    let rafId: number
+    const start = performance.now()
+    const tick = (now: number) => {
+      const progress = Math.min((now - start) / duration, 1)
       const eased = 1 - Math.pow(1 - progress, 3)
       setCount(Math.round(eased * target))
-      if (frame >= totalFrames) clearInterval(timer)
-    }, 16)
-    return () => clearInterval(timer)
+      if (progress < 1) rafId = requestAnimationFrame(tick)
+    }
+    rafId = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(rafId)
   }, [trigger, target, duration])
   return count
 }
