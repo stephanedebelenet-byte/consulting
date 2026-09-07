@@ -91,6 +91,34 @@ function useCountUp(target: number, duration = 1800, trigger = false) {
   return count
 }
 
+/* ─── Variants pour listes animées ──────────────────────────
+   Un seul IntersectionObserver sur le conteneur (whileInView) orchestre
+   l'entrée en cascade de tous les enfants via staggerChildren, au lieu
+   d'un observer + calcul de layout indépendant par élément. Sur les listes
+   de 6 à 11 éléments de cette page, ça évite de multiplier les instances
+   Framer Motion (coût mesuré : TBT mobile en forte hausse avec l'ancienne
+   approche un-motion.div-par-item). Rendu visuel identique. */
+const listContainerVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.08 } },
+}
+const listItemVariantsY = {
+  hidden: { opacity: 0, y: 32 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as const } },
+}
+const listContainerVariantsFast = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.03 } },
+}
+const listItemVariantsX = {
+  hidden: { opacity: 0, x: -16 },
+  show: { opacity: 1, x: 0, transition: { duration: 0.4 } },
+}
+const listItemVariantsXRev = {
+  hidden: { opacity: 0, x: 20 },
+  show: { opacity: 1, x: 0, transition: { duration: 0.55 } },
+}
+
 /* ─── Sub-components ─────────────────────────────────────── */
 function CTAButton({ children, href, primary = true, large = false }: {
   children: ReactNode; href: string; primary?: boolean; large?: boolean
@@ -471,8 +499,9 @@ function InscriptionSection() {
             </div>
 
             <div>
-              <span style={label}>Preuve de paiement (PDF, JPG ou PNG — max 5 Mo, optionnelle)</span>
+              <label htmlFor="frl-preuve-paiement" style={label}>Preuve de paiement (PDF, JPG ou PNG — max 5 Mo, optionnelle)</label>
               <input
+                id="frl-preuve-paiement"
                 type="file"
                 name="preuve_paiement"
                 accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/*"
@@ -706,14 +735,17 @@ export default function FormationRL() {
               <InfographicFrame src="/images/formation-rl/parcours-profils.webp" alt="Trois profils progressant vers la Direction Supply Chain : technique, opérationnel, management stratégique" width={1408} height={768} />
             </motion.div>
           </div>
-          <div className="frl-cibles">
-            {CIBLES.map((c, i) => (
+          <motion.div
+            className="frl-cibles"
+            variants={listContainerVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: '-40px' }}
+          >
+            {CIBLES.map((c) => (
               <motion.div
                 key={c.titre}
-                initial={{ opacity: 0, y: 32 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-40px' }}
-                transition={{ duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+                variants={listItemVariantsY}
                 style={{ background: '#fff', padding: '2.5rem', borderLeft: '3px solid var(--blue-bright)' }}
               >
                 <div style={{ fontSize: '2rem', marginBottom: '1.25rem' }}>{c.icon}</div>
@@ -721,7 +753,7 @@ export default function FormationRL() {
                 <p style={{ fontSize: '0.88rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, margin: 0 }}>{c.desc}</p>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
@@ -743,13 +775,16 @@ export default function FormationRL() {
             {/* Vertical line */}
             <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 1, background: 'linear-gradient(to bottom, var(--blue-bright), rgba(47,111,181,0.1))' }} />
 
+            <motion.div
+              variants={listContainerVariantsFast}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, margin: '-30px' }}
+            >
             {PROGRAMME.map((item, i) => (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, x: -16 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, margin: '-30px' }}
-                transition={{ duration: 0.55, delay: i * 0.04 }}
+                variants={listItemVariantsX}
                 style={{
                   display: 'flex', gap: '1.5rem', alignItems: 'flex-start',
                   padding: item.type === 'module' ? '1.5rem 2rem' : '0.9rem 2rem',
@@ -796,6 +831,7 @@ export default function FormationRL() {
                 </div>
               </motion.div>
             ))}
+            </motion.div>
           </div>
         </div>
       </section>
@@ -817,14 +853,17 @@ export default function FormationRL() {
                 Pas de théorie abstraite. Des compétences directement applicables le lendemain matin, dans votre propre contexte.
               </p>
             </motion.div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <motion.div
+              style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}
+              variants={listContainerVariants}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
+            >
               {COMPETENCES.map((c, i) => (
                 <motion.div
                   key={i}
-                  initial={{ opacity: 0, x: 20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.55, delay: i * 0.08 }}
+                  variants={listItemVariantsXRev}
                   style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem', padding: '1.25rem 1.5rem', background: '#ffffff', borderLeft: '2px solid var(--blue-bright)' }}
                 >
                   <span style={{ color: 'var(--blue-bright)', fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', minWidth: 24, marginTop: '0.1rem' }}>
@@ -833,7 +872,7 @@ export default function FormationRL() {
                   <span style={{ fontSize: '0.9rem', color: 'var(--navy)', lineHeight: 1.5 }}>{c}</span>
                 </motion.div>
               ))}
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -892,14 +931,18 @@ export default function FormationRL() {
             </h2>
           </motion.div>
 
-          <div className="frl-inclus" style={{ marginBottom: '4rem' }}>
+          <motion.div
+            className="frl-inclus"
+            style={{ marginBottom: '4rem' }}
+            variants={listContainerVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+          >
             {INCLUS.map((item, i) => (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: i * 0.07 }}
+                variants={listItemVariantsY}
                 style={{ padding: '2.5rem 2rem', background: '#ffffff', borderTop: '2px solid var(--blue-bright)' }}
               >
                 <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>{item.icon}</div>
@@ -907,7 +950,7 @@ export default function FormationRL() {
                 <p style={{ fontSize: '0.82rem', color: 'var(--mid)', lineHeight: 1.65, fontWeight: 300, margin: 0 }}>{item.desc}</p>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
 
           {/* Logistics grid */}
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="frl-logistics">
@@ -940,14 +983,17 @@ export default function FormationRL() {
             </h2>
           </motion.div>
 
-          <div className="frl-photos">
+          <motion.div
+            className="frl-photos"
+            variants={listContainerVariantsFast}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: '-40px' }}
+          >
             {PHOTOS_TERRAIN.map((src, i) => (
               <motion.div
                 key={src}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-40px' }}
-                transition={{ duration: 0.5, delay: i * 0.05 }}
+                variants={listItemVariantsY}
                 style={{ position: 'relative', paddingBottom: '75%', overflow: 'hidden', background: 'var(--paper)' }}
               >
                 <img
@@ -958,7 +1004,7 @@ export default function FormationRL() {
                 />
               </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
