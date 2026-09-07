@@ -395,7 +395,20 @@ const smallBtn: React.CSSProperties = {
 function InscriptionSection() {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
   const [fileErr, setFileErr] = useState('')
-  const loadCount = useRef(0)
+  // Identifie la soumission en cours (0 = aucune). On ne traite un onLoad de
+  // l'iframe comme "confirmation d'envoi" que s'il arrive APRÈS un vrai submit,
+  // au lieu de compter les onLoad depuis le montage. L'ancienne logique
+  // ("ignorer le 1er load, ne réagir qu'au 2e") supposait que le load initial
+  // about:blank se termine toujours avant que la vraie navigation démarre.
+  // Sans pièce jointe, le navigateur peut soumettre le formulaire assez vite
+  // pour que cette hypothèse soit fausse : le load about:blank est alors
+  // annulé par la navigation réelle et ne se déclenche jamais, donc ce load
+  // réel devient le "1er" comptabilisé et se retrouve ignoré à tort — le
+  // statut reste bloqué sur "sending" jusqu'au timeout de secours (→ erreur).
+  // Avec une pièce jointe, l'encodage du fichier laisse le temps au load
+  // about:blank de se terminer avant la vraie navigation, ce qui masquait
+  // le bug. Cette version ne dépend plus de cet ordre d'arrivée.
+  const pendingIdRef = useRef(0)
   const timerRef = useRef<number | null>(null)
 
   // Soumission via iframe caché : la page ne bouge pas, l'utilisateur ne voit
@@ -403,8 +416,8 @@ function InscriptionSection() {
   useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
 
   const onIframeLoad = () => {
-    loadCount.current += 1
-    if (loadCount.current <= 1) return // 1er load = about:blank à l'init
+    if (!pendingIdRef.current) return // pas de soumission en cours : c'est le load initial about:blank
+    pendingIdRef.current = 0
     if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null }
     setStatus((s) => (s === 'sending' ? 'success' : s))
   }
@@ -418,7 +431,12 @@ function InscriptionSection() {
     }
     setFileErr('')
     setStatus('sending')
-    timerRef.current = window.setTimeout(() => setStatus((s) => (s === 'sending' ? 'error' : s)), 20000)
+    const id = Date.now() || 1
+    pendingIdRef.current = id
+    timerRef.current = window.setTimeout(() => {
+      if (pendingIdRef.current === id) pendingIdRef.current = 0
+      setStatus((s) => (s === 'sending' ? 'error' : s))
+    }, 20000)
     // la soumission native continue vers l'iframe caché
   }
 
