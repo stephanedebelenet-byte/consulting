@@ -386,12 +386,12 @@ function DownloadForm() {
   )
 }
 
-/* ─── Section Inscription — formulaire avec preuve de paiement ──
-   Le formulaire poste en multipart vers FormSubmit (contact@nextinotech.com) DANS UN
+/* ─── Section Inscription ──
+   Le formulaire poste vers FormSubmit (contact@nextinotech.com) DANS UN
    IFRAME CACHÉ : la page ne navigue jamais, l'utilisateur voit une confirmation
-   inline et reste sur le site. Preuve de paiement facultative. */
+   inline et reste sur le site. La preuve de paiement se transmet séparément
+   par email/WhatsApp (plus de champ pièce jointe dans le formulaire). */
 const FORMSUBMIT_URL = 'https://formsubmit.co/contact@nextinotech.com'
-const MAX_FILE_MB = 5
 
 const smallBtn: React.CSSProperties = {
   display: 'inline-flex', alignItems: 'center', padding: '0.7rem 1.4rem',
@@ -401,12 +401,11 @@ const smallBtn: React.CSSProperties = {
 
 function InscriptionSection() {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
-  const [fileErr, setFileErr] = useState('')
   const loadCount = useRef(0)
   const timerRef = useRef<number | null>(null)
 
   // Soumission via iframe caché : la page ne bouge pas, l'utilisateur ne voit
-  // jamais FormSubmit, la pièce jointe passe (POST multipart natif).
+  // jamais FormSubmit.
   useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current) }, [])
 
   const onIframeLoad = () => {
@@ -416,14 +415,7 @@ function InscriptionSection() {
     setStatus((s) => (s === 'sending' ? 'success' : s))
   }
 
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    const file = (e.currentTarget.elements.namedItem('preuve_paiement') as HTMLInputElement | null)?.files?.[0]
-    if (file && file.size > MAX_FILE_MB * 1024 * 1024) {
-      e.preventDefault()
-      setFileErr(`Fichier trop volumineux (max ${MAX_FILE_MB} Mo). Compressez-le ou envoyez-le par email / WhatsApp.`)
-      return
-    }
-    setFileErr('')
+  const onSubmit = () => {
     setStatus('sending')
     timerRef.current = window.setTimeout(() => setStatus((s) => (s === 'sending' ? 'error' : s)), 20000)
     // la soumission native continue vers l'iframe caché
@@ -433,10 +425,6 @@ function InscriptionSection() {
     width: '100%', background: '#ffffff', border: '1px solid var(--border)',
     padding: '0.85rem 1rem', color: 'var(--navy)', fontFamily: 'Jost, sans-serif',
     fontSize: '0.9rem', outline: 'none', boxSizing: 'border-box',
-  }
-  const label: React.CSSProperties = {
-    fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.16em',
-    textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.4rem', display: 'block',
   }
 
   return (
@@ -449,7 +437,7 @@ function InscriptionSection() {
           S&apos;inscrire à la formation.
         </h2>
         <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', lineHeight: 1.8, color: 'var(--mid)', fontWeight: 300, margin: '0 0 2.5rem' }}>
-          1 500 MAD TTC par participant. Remplissez le formulaire et joignez votre preuve de paiement.
+          1 500 MAD TTC par participant. Remplissez le formulaire ci-dessous.
           Nous vous confirmons votre place par email sous 24h.
         </p>
 
@@ -471,7 +459,7 @@ function InscriptionSection() {
             </h3>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, margin: 0 }}>
               Nous vous confirmons votre place par email sous 24h. Un accusé de réception vient de vous être
-              envoyé. Si vous n&apos;avez pas joint la preuve de paiement, transmettez-la à
+              envoyé. Merci de nous transmettre votre preuve de paiement à
               contact@nextinotech.com ou via WhatsApp.
             </p>
           </div>
@@ -479,7 +467,6 @@ function InscriptionSection() {
           <form
             action={FORMSUBMIT_URL}
             method="POST"
-            encType="multipart/form-data"
             target="frl_inscription_target"
             onSubmit={onSubmit}
             style={{ display: 'flex', flexDirection: 'column', gap: '1.1rem' }}
@@ -503,22 +490,6 @@ function InscriptionSection() {
             <div className="frl-2col" style={{ gap: '1.1rem' }}>
               <input type="tel" name="telephone" placeholder="Téléphone *" required style={input} />
               <input type="text" name="entreprise" placeholder="Entreprise (optionnel)" style={input} />
-            </div>
-
-            <div>
-              <label htmlFor="frl-preuve-paiement" style={label}>Preuve de paiement (PDF, JPG ou PNG — max 5 Mo, optionnelle)</label>
-              <input
-                id="frl-preuve-paiement"
-                type="file"
-                name="preuve_paiement"
-                accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/*"
-                style={{ ...input, padding: '0.6rem' }}
-              />
-              {fileErr && <div style={{ fontSize: '0.72rem', color: '#c83c3c', marginTop: '0.3rem' }}>{fileErr}</div>}
-              <div style={{ fontSize: '0.72rem', color: 'var(--mid)', marginTop: '0.35rem', lineHeight: 1.6 }}>
-                Si vous ne l&apos;avez pas encore, vous pourrez nous l&apos;envoyer par email ou WhatsApp —
-                votre place est réservée en attendant.
-              </div>
             </div>
 
             <textarea name="message" placeholder="Message (optionnel)" rows={3} style={{ ...input, resize: 'vertical' }} />
