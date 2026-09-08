@@ -222,6 +222,33 @@ export const PROGRAMMES = [
     cta: WA,
     color: 'var(--blue-bright)',
   },
+  {
+    id: 'import',
+    num: '28',
+    domaine: 'sc',
+    format: 'inter',
+    badge: 'Nouveau · Entrepreneurs',
+    title: 'Réussir sa Première Importation',
+    subtitle: "1 journée pour lancer votre activité d'import en toute confiance, de l'idée à la marchandise en stock.",
+    duration: '1 jour',
+    hours: '8h30 — 17h30',
+    group: '8 à 16 participants',
+    price: '1 500',
+    unit: 'MAD TTC / participant',
+    lieu: 'Hôtel 5★ Casablanca',
+    public: ['Porteur de projet e-commerce', "Futur importateur indépendant", 'Commerçant en diversification', 'Entrepreneur en phase de lancement'],
+    modules: [
+      "Identifier son besoin et cadrer son projet d'importation",
+      'Calculer son prix de revient réel : produit, transport, douane et marge',
+      'Trouver et sécuriser ses fournisseurs à l\'international',
+      'Transport maritime vs routier : choisir son transitaire et son assureur',
+      'Droits de douane : nomenclature, calcul et optimisation légale',
+      'Réceptionner la marchandise et organiser son stockage',
+    ],
+    inclus: ['Hôtel 5★', 'Déjeuner gastronomique', 'Pauses café', 'Simulateur de prix de revient (Excel)', 'Attestation', 'Suivi WhatsApp 30j'],
+    cta: '/formation-import',
+    color: 'var(--blue-bright)',
+  },
 
   /* ── Lean & Amélioration Continue ──────────────────────── */
   {
@@ -1098,7 +1125,64 @@ export const rlCourseSchema = {
   ],
 }
 
+/* ── Programme : Réussir sa Première Importation ──
+   Programme nouvellement lancé, jamais encore donné : contrairement à RL,
+   pas de dates de session confirmées (hasCourseInstance générique, sans
+   startDate) et pas de section "aperçu terrain" côté page — on n'invente
+   pas de preuve sociale qui n'existe pas encore. */
+
+export const IMPORT_FAQ: { q: string; a: string }[] = [
+  { q: 'Faut-il déjà avoir créé mon entreprise pour suivre cette formation ?', a: "Non. Elle s'adresse justement aux porteurs de projet en phase de lancement, avant ou pendant la création de leur structure. Le contenu s'applique aussi bien à un statut auto-entrepreneur qu'à une société déjà immatriculée." },
+  { q: 'La formation est-elle spécifique à un type de produit ?', a: "Non. La méthode s'applique à toute marchandise importée (textile, équipement, électronique, cosmétique...). Le module douane vous apprend à identifier vous-même la nomenclature et les droits applicables à votre produit, plutôt que de traiter des cas génériques." },
+  { q: 'Combien coûte la formation ?', a: "1 500 MAD TTC par participant, tout inclus : salle en hôtel 5 étoiles à Casablanca, déjeuner, support terrain, simulateur de prix de revient Excel et attestation. Aucun frais caché." },
+  { q: 'Cette formation est-elle éligible à un financement CSF / GIAC ?', a: "Ces dispositifs (OFPPT, GIAC) sont réservés aux entreprises cotisantes. Comme cette formation cible avant tout les porteurs de projet indépendants, elle est généralement autofinancée. Si vous disposez déjà d'une société éligible, contactez-nous pour vérifier votre situation." },
+  { q: 'Faut-il avoir déjà identifié mes fournisseurs avant de venir ?', a: "Non. Le module 3 couvre justement comment chercher, évaluer et sécuriser des fournisseurs à l'international, avec ou sans contact déjà établi." },
+  { q: 'La formation est-elle certifiante ?', a: "Elle délivre une attestation de formation Nextinotech. Ce n'est pas un diplôme d'État : l'objectif est opérationnel — repartir avec une méthode et des outils applicables immédiatement à votre projet." },
+  { q: "Une seule journée suffit-elle pour couvrir tout le processus d'importation ?", a: "La journée intensive couvre l'ensemble du parcours, de l'identification du besoin à la réception de la marchandise, avec les points de vigilance à chaque étape. Elle ne remplace pas un accompagnement individuel sur un dossier réel — un suivi WhatsApp de 30 jours est inclus pour ça." },
+  { q: 'Quelle est votre politique d’annulation ?', a: "Annulation gratuite jusqu'à 7 jours avant la session. Après ce délai, possibilité de reporter sur la session suivante sans frais. En cas d'annulation de notre part, remboursement intégral immédiat." },
+  { q: 'Quelles sont les prochaines dates disponibles ?', a: "Les sessions sont planifiées selon les inscriptions reçues. Envoyez-nous votre demande via WhatsApp ou email — nous vous confirmons la prochaine date sous 24h." },
+]
+
+const importOffer = { '@type': 'Offer', price: 1500, priceCurrency: 'MAD', category: 'Formation professionnelle', availability: 'https://schema.org/InStock', url: 'https://nextinotech.com/formation-import' }
+
+export const importCourseSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Course',
+      '@id': 'https://nextinotech.com/formation-import#course',
+      name: 'Réussir sa Première Importation',
+      description: "Formation intensive d'une journée pour maîtriser le processus complet d'importation : identification du besoin, prix de revient, fournisseurs, transport, douane, réception et stockage.",
+      provider: { '@id': ORG_ID },
+      inLanguage: 'fr',
+      educationalCredentialAwarded: 'Attestation de formation Nextinotech',
+      courseWorkload: 'P1D',
+      about: ['Import-export', 'Douane', 'Transport international', 'Transitaire', 'Prix de revient', 'Logistique'],
+      offers: importOffer,
+      hasCourseInstance: [{
+        '@type': 'CourseInstance', courseMode: 'Onsite', courseWorkload: 'P1D',
+        location: { '@type': 'Place', name: 'Hôtel 5 étoiles, Casablanca', address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' } },
+        offers: importOffer,
+      }],
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': 'https://nextinotech.com/formation-import#breadcrumb',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+        { '@type': 'ListItem', position: 3, name: 'Réussir sa Première Importation', item: 'https://nextinotech.com/formation-import' },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://nextinotech.com/formation-import#faq',
+      mainEntity: IMPORT_FAQ.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    },
+  ],
+}
+
 export const catalogueMeta = {
   title: 'Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech',
-  description: "27 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.",
+  description: "28 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.",
 }

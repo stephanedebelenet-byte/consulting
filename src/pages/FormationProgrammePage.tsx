@@ -13,6 +13,7 @@ export default function FormationProgrammePage() {
   const { programme: id } = useParams<{ programme: string }>()
 
   if (id === 'rl') return <Navigate to="/formation-rl" replace />
+  if (id === 'import') return <Navigate to="/formation-import" replace />
 
   const p = PROGRAMMES.find((x) => x.id === id)
   if (!p) return <Navigate to="/formation" replace />

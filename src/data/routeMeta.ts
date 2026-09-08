@@ -3,7 +3,7 @@
 // JSON-LD dans un fichier HTML statique par page. Module pur (aucun React).
 
 import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, catalogueMeta } from './formations'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
 
 export interface PrerenderRoute {
   path: string
@@ -19,7 +19,7 @@ const STATIC: PrerenderRoute[] = [
     path: '/',
     title: 'Nextinotech — Conseil & Formation Supply Chain, Logistique et Achats au Maroc',
     description:
-      "Cabinet indépendant de conseil et de formation en Supply Chain, Logistique et Achats au Maroc. Diagnostic, optimisation des stocks (DDMRP), schéma logistique, AMOA WMS/TMS, 27 formations. 20+ ans de terrain, zéro commission éditeur.",
+      "Cabinet indépendant de conseil et de formation en Supply Chain, Logistique et Achats au Maroc. Diagnostic, optimisation des stocks (DDMRP), schéma logistique, AMOA WMS/TMS, 28 formations. 20+ ans de terrain, zéro commission éditeur.",
   },
   {
     path: '/conseil',
@@ -87,6 +87,13 @@ const STATIC: PrerenderRoute[] = [
     description:
       "Formation Responsable Logistique de référence au Maroc : 1 journée intensive à Casablanca, 1 500 MAD tout inclus. Fondamentaux, stocks, transport, KPI, WMS/TMS. Financement CSF / GIAC.",
     jsonLd: [rlCourseSchema],
+  },
+  {
+    path: '/formation-import',
+    title: 'Formation Réussir sa Première Importation — 1 jour · 1 500 MAD · Casablanca' + SUFFIX,
+    description:
+      "Formation import pour porteurs de projet au Maroc : besoin, prix de revient, fournisseurs, transport maritime/routier, transitaire, douane et nomenclature, stockage. 1 journée, 1 500 MAD à Casablanca.",
+    jsonLd: [importCourseSchema],
   },
   {
     path: '/directeur-logistique-mi-temps',
@@ -160,7 +167,7 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
     jsonLd: [buildVilleSchema(v)],
   }))
 
-  const programmes: PrerenderRoute[] = PROGRAMMES.filter((p) => p.id !== 'rl').map((p) => ({
+  const programmes: PrerenderRoute[] = PROGRAMMES.filter((p) => p.id !== 'rl' && p.id !== 'import').map((p) => ({
     path: `/formation/${p.id}`,
     title: `Formation ${p.title} au Maroc${SUFFIX}`,
     description: programmeDescription(p.subtitle, p.price, p.unit),

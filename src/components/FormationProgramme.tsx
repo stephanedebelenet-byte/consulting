@@ -163,7 +163,7 @@ export default function FormationProgramme({ p }: { p: Programme }) {
             </div>
             <p style={{ marginTop: '2.5rem', fontFamily: 'Jost, sans-serif', fontSize: '0.95rem', color: 'rgba(235,232,225,0.55)', fontWeight: 300 }}>
               Voir le{' '}
-              <Link to="/formation" style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>catalogue complet des 27 formations</Link>{' '}
+              <Link to="/formation" style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>catalogue complet des 28 formations</Link>{' '}
               ou la{' '}
               <Link to="/formation-rl" style={{ color: 'var(--blue-bright-on-dark, #8fbce8)' }}>formation Responsable Logistique</Link>.
             </p>
