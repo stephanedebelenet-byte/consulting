@@ -83,14 +83,14 @@ const STATIC: PrerenderRoute[] = [
   },
   {
     path: '/formation-rl',
-    title: 'Formation Responsable Logistique — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca' + SUFFIX,
+    title: 'Formation Responsable Logistique — Casablanca' + SUFFIX,
     description:
       "Formation Responsable Logistique de référence au Maroc : 1 journée intensive à Casablanca, 1 500 MAD tout inclus. Fondamentaux, stocks, transport, KPI, WMS/TMS. Financement CSF / GIAC.",
     jsonLd: [rlCourseSchema],
   },
   {
     path: '/formation-import',
-    title: 'Formation Réussir sa Première Importation — 1 jour · 1 500 MAD · Casablanca' + SUFFIX,
+    title: 'Formation Réussir sa Première Importation' + SUFFIX,
     description:
       "Formation import 1 jour à Casablanca pour porteurs de projet : prix de revient, fournisseurs, transport, douane, nomenclature, stockage. 1 500 MAD tout inclus.",
     jsonLd: [importCourseSchema],
