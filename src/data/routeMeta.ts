@@ -92,7 +92,7 @@ const STATIC: PrerenderRoute[] = [
     path: '/formation-import',
     title: 'Formation Réussir sa Première Importation — 1 jour · 1 500 MAD · Casablanca' + SUFFIX,
     description:
-      "Formation import pour porteurs de projet au Maroc : besoin, prix de revient, fournisseurs, transport maritime/routier, transitaire, douane et nomenclature, stockage. 1 journée, 1 500 MAD à Casablanca.",
+      "Formation import 1 jour à Casablanca pour porteurs de projet : prix de revient, fournisseurs, transport, douane, nomenclature, stockage. 1 500 MAD tout inclus.",
     jsonLd: [importCourseSchema],
   },
   {

@@ -552,7 +552,7 @@ export default function FormationImport() {
     <div className="grain" style={{ background: 'var(--paper)', minHeight: '100vh', color: 'var(--navy)' }}>
       <PageMeta
         title="Formation Réussir sa Première Importation — 1 jour · 1 500 MAD · Hôtel 5★ Casablanca | Nextinotech"
-        description="Formation intensive 1 journée pour réussir sa première importation. Prix de revient, fournisseurs, transport, douane, stockage. Hôtel 5 étoiles Casablanca. 1 500 MAD tout inclus."
+        description="Formation import 1 jour à Casablanca pour porteurs de projet : prix de revient, fournisseurs, transport, douane, nomenclature, stockage. 1 500 MAD tout inclus."
         canonical="https://nextinotech.com/formation-import"
       />
       <SchemaScript schema={courseSchema} />
