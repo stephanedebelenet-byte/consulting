@@ -1,7 +1,7 @@
 ---
 title: "Automatiser les Documents de Douane par l'IA : DUM, BL, Packing List"
 date: "2026-09-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "automatisation documents douane ia maroc, dum bl packing list ia, dédouanement ia maroc, ocr douane import export, portnet badr automatisation"
@@ -48,8 +48,8 @@ L'IA automatise l'extraction et le contrôle de cohérence des documents de déd
 
 Vous voulez fiabiliser vos flux import-export ou sécuriser vos comptes AT ? [Découvrez nos services de conseil](/conseil) et notre [accompagnement douanier](/conseil), ou [contactez-nous](/contact). Formations import-export et supply chain sur notre [catalogue](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

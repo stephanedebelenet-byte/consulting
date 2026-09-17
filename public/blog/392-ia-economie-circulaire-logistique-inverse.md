@@ -1,7 +1,7 @@
 ---
 title: "IA et Économie Circulaire : Optimiser les Flux Retour"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "ia économie circulaire logistique inverse, optimisation flux retour ia, reconditionnement ia logistique, économie circulaire supply chain maroc, ia tri retours matières"
@@ -38,8 +38,8 @@ L'IA rend l'économie circulaire opérationnellement viable en automatisant le t
 
 Vous voulez structurer vos flux de retour et de reconditionnement ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

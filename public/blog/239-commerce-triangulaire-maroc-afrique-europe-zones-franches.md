@@ -1,7 +1,7 @@
 ---
 title: "Commerce Triangulaire Maroc-Afrique-Europe : Structurer ses Flux via les Zones Franches"
 date: "2026-08-27"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "commerce triangulaire maroc afrique, hub logistique maroc afrique europe, zone franche réexportation maroc, Maroc Logistique 2030"
@@ -36,11 +36,11 @@ Le commerce triangulaire Maroc-Afrique-Europe repose sur un modèle concret et r
 
 Vous étudiez une implantation de transformation ou de réexportation entre l'Europe et l'Afrique via le Maroc ? [Découvrez nos services de conseil supply chain et douane](/conseil), ou [contactez-nous](/contact) pour structurer votre projet.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Tanger Med Port Authority — Port Activity Report in 2025 (communiqué officiel, 2 février 2026)](https://www.tangermed.ma/wp-content/uploads/press-releases/2026/CP-TMPA-PORT-ACTIVITY-REPORT-IN-2025.pdf)

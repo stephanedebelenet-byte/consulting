@@ -1,7 +1,7 @@
 ---
 title: "Prévision Commerciale Augmentée par IA : Aligner Ventes et Supply Chain"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "prévision commerciale ia s&op, aligner ventes supply chain ia, ia prévision ventes maroc, désalignement commercial supply chain, ia collaboration commercial logistique"
@@ -38,8 +38,8 @@ L'IA facilite la réconciliation régulière entre prévision commerciale et pr�
 
 Vous voulez aligner vos prévisions commerciales et supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

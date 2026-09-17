@@ -1,7 +1,7 @@
 ---
 title: "Certifications IA pour Professionnels Supply Chain : Lesquelles Valent l'Investissement"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "certification ia supply chain professionnels, quelle certification ia choisir, certification ia maroc valeur, meilleure certification ia logistique, certification ia carrière supply chain"
@@ -38,8 +38,8 @@ Une certification IA vaut l'investissement quand elle applique la méthode au m�
 
 Vous voulez évaluer les options de certification pour vos équipes ? [Découvrez nos programmes de formation](/formation) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

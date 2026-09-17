@@ -1,7 +1,7 @@
 ---
 title: "Recruter un Profil IA Appliquée à la Supply Chain"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "recrutement ia supply chain profil, poste ia supply chain maroc, fiche de poste ia logistique, recruter référent ia achats, profil hybride ia supply chain"
@@ -38,8 +38,8 @@ Le poste de référent IA appliquée à la supply chain privilégie la connaissa
 
 Vous voulez identifier ou former ce profil dans votre équipe ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

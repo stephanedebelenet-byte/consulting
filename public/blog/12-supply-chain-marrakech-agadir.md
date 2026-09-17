@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Marrakech/Agadir — Expert Logistique Sud Maroc"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/agro.webp"
 keywords: "consultant supply chain Marrakech, conseil logistique Agadir, audit supply chain sud Maroc"
 description: "Expert supply chain pour Marrakech, Agadir, région sud. Tourisme, commerce, agriculture. Audit, formation, logistique."
@@ -10,7 +10,7 @@ location: "Marrakech, Agadir, Maroc"
 
 # Conseil Supply Chain Marrakech/Agadir — Expert Logistique Sud Maroc
 
-**Directeur des Achats | Expert Supply Chain & Transformation Digitale**
+**Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale**
 
 Marrakech/Agadir region, Maroc
 
@@ -51,5 +51,5 @@ Marrakech/Agadir region, Maroc
 
 ---
 
-**Nextinotech**
+**Youssef Bahaida**
 

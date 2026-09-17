@@ -1,7 +1,7 @@
 ---
 title: "Audit QHSE Entrepôt au Maroc : la Grille et la Méthode"
 date: "2026-08-26"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "audit QHSE entrepôt maroc, audit QHSE maroc, comité sécurité hygiène maroc, DUER maroc entrepôt"
@@ -40,11 +40,11 @@ Le cadre légal QHSE marocain est précis — Code du travail, CSH obligatoire, 
 
 Vous voulez évaluer la conformité QHSE réelle de votre entrepôt avant qu'un incident ne le fasse ? [Découvrez notre formation HSE Entrepôt & Logistique](/formation), qui inclut un cas pratique d'audit HSE flash sur votre site, ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Preventica.ma — Sécurité et Santé au Travail : état des lieux de la situation au Maroc (citant le rapport CESE 2020)](https://www.preventica.ma/actualites/2305141)

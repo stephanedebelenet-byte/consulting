@@ -1,7 +1,7 @@
 ---
 title: "OEA dans l'Automobile et l'Aéronautique au Maroc"
 date: "2026-09-20"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "OEA automobile maroc, OEA aéronautique maroc, dédouanement just-in-time Tanger Med, statut OEA équipementier maroc"
@@ -49,11 +49,11 @@ Nextinotech accompagne les entreprises industrielles marocaines, notamment en é
 
 Dans un modèle de production en flux tendu, chaque heure gagnée au dédouanement se traduit directement en ligne de production non interrompue. Le statut OEA transforme une contrainte douanière récurrente en avantage compétitif mesurable. [Contactez-nous](/contact) pour évaluer votre éligibilité.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [ADII — Circulaire n°5517/313 du 17 février 2015, Programme d'agrément des opérateurs économiques](https://www.douane.gov.ma/dms/loadDocument?documentId=65565)

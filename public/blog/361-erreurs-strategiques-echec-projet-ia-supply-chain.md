@@ -1,7 +1,7 @@
 ---
 title: "Les 7 Erreurs Stratégiques qui Font Échouer un Projet IA Supply Chain"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "échec projet ia supply chain erreurs, pourquoi projet ia échoue, erreurs fréquentes ia entreprise, pièges projet ia logistique, causes échec transformation ia"
@@ -42,8 +42,8 @@ Les projets IA supply chain échouent majoritairement pour des raisons stratégi
 
 Vous voulez sécuriser votre prochain projet IA supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour un cadrage préalable.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

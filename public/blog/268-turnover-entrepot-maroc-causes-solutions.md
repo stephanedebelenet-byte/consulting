@@ -1,7 +1,7 @@
 ---
 title: "Turnover en Entrepôt : Comprendre les Causes Réelles et les Solutions qui Fonctionnent"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "turnover entrepôt maroc, rotation personnel logistique, rétention magasiniers caristes maroc"
@@ -36,11 +36,11 @@ Le turnover en entrepôt se joue majoritairement dans les premiers mois d'un col
 
 Vous voulez diagnostiquer les causes réelles du turnover dans votre entrepôt ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Hunteed — Taux de turnover des employés : quel serait le chiffre idéal ?](https://blog.hunteed.com/taux-de-turnover-quel-chiffre-ideal/)

@@ -1,7 +1,7 @@
 ---
 title: "Qualité des Données : Pourquoi les Projets IA Supply Chain Échouent Avant de Commencer"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "data readiness supply chain ia, qualité des données ia maroc, référentiel article ia, prérequis projet ia entreprise, données historiques prévision ia"
@@ -42,8 +42,8 @@ Un projet IA supply chain se joue avant le choix du modèle : sur le référenti
 
 Vous voulez évaluer la maturité data de votre organisation avant un projet IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour un diagnostic express.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

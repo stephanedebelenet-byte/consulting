@@ -1,7 +1,7 @@
 ---
 title: "Acculturation et Conduite du Changement : Embarquer les Équipes dans l'IA"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "conduite du changement ia équipes, acculturation ia entreprise maroc, adoption ia collaborateurs, résistance ia salariés, plan acculturation ia 90 jours"
@@ -43,8 +43,8 @@ L'adoption de l'IA en supply chain se joue sur la conduite du changement autant 
 
 Vous voulez structurer l'acculturation IA de vos équipes achats et logistique ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Nos [formations](/formation) intègrent un module dédié à la conduite du changement.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

@@ -1,7 +1,7 @@
 ---
 title: "IA Agentique en Supply Chain : la Feuille de Route 2026-2027 pour les PME Marocaines"
 date: "2026-08-20"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "ia agentique supply chain, ia agentique supply chain maroc, agents ia achats logistique, feuille de route ia pme"
@@ -40,11 +40,11 @@ L'IA agentique n'est pas une question de "faut-il y aller", mais de "par où com
 
 Vous voulez identifier le bon premier cas d'usage pour votre organisation ? [Découvrez nos formations](/formation) sur la digitalisation supply chain, ou [contactez-nous](/contact) pour un premier échange gratuit.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Gartner — Gartner Identifies Top Supply Chain Technology Trends for 2026](https://www.gartner.com/en/newsroom/press-releases/2026-06-30-gartner-identifies-top-supply-chain-technology-trends-for-2026)

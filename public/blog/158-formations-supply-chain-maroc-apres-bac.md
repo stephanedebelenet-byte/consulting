@@ -1,7 +1,7 @@
 ﻿---
 title: "Formations Supply Chain au Maroc après le Bac : Quel Parcours Choisir"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/formation.jpg"
 keywords: "formation supply chain Maroc après bac, études logistique Maroc, diplôme supply chain Maroc, école logistique Maroc bac"
 description: "Quelles formations supply chain choisir après le bac au Maroc ? Comparatif des parcours Bac+2 à Bac+5 : écoles, programmes, débouchés et conseils d'orientation."
@@ -96,7 +96,7 @@ Supply chain + Finance, Supply chain + Digital, Ingénieur + MBA Supply Chain �
 
 Nextinotech accompagne les étudiants dans leur orientation formation et les entreprises dans le développement des compétences de leurs équipes supply chain.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

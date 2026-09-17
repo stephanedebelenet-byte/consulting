@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain Manager au Maroc : Programme, Contenu et Débouchés"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "formation supply chain manager Maroc, programme supply chain manager, devenir supply chain manager Maroc, formation SCM Maroc"
 description: "Tout sur la formation Supply Chain Manager au Maroc : programme détaillé, compétences acquises, débouchés, salaires et organismes recommandés en 2026."
@@ -102,7 +102,7 @@ Nextinotech propose un programme modulaire Supply Chain Manager : 6 modules de 1
 
 Chaque module peut être suivi séparément ou dans le cadre du programme complet certifiant.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour le programme détaillé et les prochaines dates :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

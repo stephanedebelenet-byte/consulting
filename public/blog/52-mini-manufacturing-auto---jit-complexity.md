@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Automobile au Maroc : la complexité du Juste-à-Temps chez Renault Tanger"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain automobile Maroc, Renault Tanger, juste à temps JIT, logistique greenfield Tanger"
@@ -32,8 +32,8 @@ Le secteur automobile marocain illustre, à l'échelle industrielle, ce que la r
 
 Vous pilotez une supply chain industrielle à cadence élevée ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

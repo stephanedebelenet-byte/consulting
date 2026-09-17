@@ -1,7 +1,7 @@
 ---
 title: "Automatisation des Achats par l'IA : du Bon de Commande au Paiement sans Intervention"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "automatisation achats IA, procure to pay automatisation, P2P automatisation maroc, IA achats"
@@ -36,11 +36,11 @@ L'automatisation P2P enrichie d'IA libère du temps sur les tâches répétitive
 
 Vous voulez identifier la première étape de votre cycle achats à automatiser ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Itesoft — Rapport Gartner : Automatisation du P2P, le processus achat transformé](https://www.itesoft.com/fr/blog/rapport-gartner-automatisation-p2p-processus-achat-transformation/)

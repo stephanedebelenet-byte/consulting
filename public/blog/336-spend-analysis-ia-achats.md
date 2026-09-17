@@ -1,7 +1,7 @@
 ---
 title: "Spend Analysis par l'IA : Catégoriser 100% de ses Dépenses"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "spend analysis ia achats, catégorisation dépenses ia maroc, maverick buying détection ia, analyse des dépenses achats pme, gisement d'économies achats ia"
@@ -42,8 +42,8 @@ Une spend analysis assistée par IA catégorise 100% des dépenses, pas un écha
 
 Vous voulez cartographier l'ensemble de vos dépenses achats ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour un diagnostic express. Découvrez aussi notre [Direction Achats à temps partagé](/directeur-achats-mi-temps).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

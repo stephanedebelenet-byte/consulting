@@ -1,7 +1,7 @@
 ---
 title: "Contrôle de Gestion Supply Chain Augmenté par IA"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "contrôle gestion ia supply chain coûts, dérive coûts détection ia, contrôle de gestion logistique ia, ia analyse écart coûts, pilotage coûts supply chain ia"
@@ -38,8 +38,8 @@ Un contrôle de gestion supply chain augmenté par IA détecte les dérives de c
 
 Vous voulez surveiller vos coûts logistiques en continu ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

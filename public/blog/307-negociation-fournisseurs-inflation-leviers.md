@@ -1,7 +1,7 @@
 ---
 title: "Négociation Fournisseurs en Période d'Inflation : les Leviers qui Marchent Encore"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "négociation achats inflation maroc, hausse matières premières négociation fournisseur, tactiques négociation achats"
@@ -36,11 +36,11 @@ Négocier en période d'inflation suppose de déplacer le débat du seul prix un
 
 Vous voulez structurer votre négociation fournisseurs face à la hausse des coûts matières premières ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [FIM — Matières premières : peut-on répercuter les hausses de prix et délais ?](https://www.fim.net/fr/accueil/actualites/juridique/relations-clients-fournisseurs/matieres-premieres-peut-on-repercuter-les-hausses-de-prix-et-delais)

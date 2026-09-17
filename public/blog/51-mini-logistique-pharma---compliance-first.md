@@ -1,7 +1,7 @@
 ---
 title: "Logistique Santé au Maroc : ce que la Task Force Vaccination a montré sur la chaîne du froid"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "logistique santé Maroc, chaîne du froid Maroc, cold chain vaccination, DDMRP santé"
@@ -32,8 +32,8 @@ La mission Task Force Vaccination illustre une conviction terrain : les mêmes d
 
 Vous pilotez une chaîne logistique sensible à la température ou aux délais ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

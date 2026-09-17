@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain de l'Huile d'Argan : Structurer l'Export d'une Filière 100% Marocaine"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "supply chain argan export maroc, filière huile argan, coopératives argan export"
@@ -36,11 +36,11 @@ La filière argan illustre un cas concret où la compétitivité export dépend 
 
 Vous structurez l'export d'une filière agricole ou artisanale marocaine ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Archive HAL — Moroccan argan oil supply chain: what levers for improving sustainability](https://dumas.ccsd.cnrs.fr/dumas-03810545)

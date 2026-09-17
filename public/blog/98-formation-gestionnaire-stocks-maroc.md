@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Gestionnaire de Stocks au Maroc : Métier, Compétences et Programme 2026"
 date: "2026-08-04"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "formation gestionnaire de stocks maroc, gestionnaire stocks compétences maroc, formation approvisionnement maroc, gestion des stocks avancée maroc, DDMRP formation maroc"
 description: "Formation gestionnaire de stocks au Maroc : compétences clés, programme avancé, outils DDMRP et MRP, salaires et évolutions de carrière. Par Nextinotech."
@@ -177,7 +177,7 @@ Nextinotech forme les gestionnaires de stocks et les responsables approvisionnem
 - Formation Paramétrage ERP Stocks (1 jour) — Odoo, SAP ou Sage selon votre contexte
 - Accompagnement terrain (1 à 3 mois) — pour appliquer les méthodes dans votre entreprise réelle
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous pour un programme adapté : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

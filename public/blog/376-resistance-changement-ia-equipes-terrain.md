@@ -1,7 +1,7 @@
 ---
 title: "Résistance au Changement Face à l'IA : ce que Craignent les Équipes"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "résistance changement ia équipes terrain, peur ia salariés logistique, gérer résistance ia entreprise, craintes ia équipes achats, résistance adoption ia maroc"
@@ -39,8 +39,8 @@ La résistance à l'IA sur le terrain ne se résume pas à la peur du remplaceme
 
 Vous voulez diagnostiquer les freins réels de vos équipes avant un déploiement IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

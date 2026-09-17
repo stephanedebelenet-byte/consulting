@@ -1,7 +1,7 @@
 ---
 title: "Emballages Durables : Réduire ses Coûts Logistiques en Verdissant sa Chaîne"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "emballage durable logistique, réduction coût emballage transport, éco-conception emballage maroc"
@@ -36,11 +36,11 @@ L'emballage durable réduit directement le coût de transport via le poids volum
 
 Vous voulez auditer le poids volumétrique de vos emballages les plus expédiés ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [RAJA — 5 astuces pour réduire le volume de vos emballages (et donc vos coûts de transport)](https://www.raja.fr/blog/reduire-volume-emballages-couts-transport)

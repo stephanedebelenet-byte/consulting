@@ -1,7 +1,7 @@
 ---
 title: "Alternatives Moins Chères ? Où Chercher ?"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Nous ne comparons pas nos tarifs à des alternatives non vérifiées. Nos prix sont publics et détaillés par mission, du Diagnostic Flash à 35 000 MAD HT aux missions sur devis, pour que vous puissiez juger vous-même de ce qui correspond à votre budget."
@@ -33,8 +33,8 @@ Nous préférons une transparence tarifaire totale à une comparaison que nous n
 
 **Notre approche.** Consultez nos tarifs par service ; un premier échange gratuit permet de vérifier que le périmètre correspond à votre besoin avant tout engagement.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

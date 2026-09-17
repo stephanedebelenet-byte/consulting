@@ -1,7 +1,7 @@
 ---
 title: "IA Générative en 2027 : ce qui va Réellement Changer"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "ia générative 2027 supply chain maroc, tendances ia 2027 logistique, avenir ia supply chain maroc, prévision ia 2027 achats, ia générative futur supply chain"
@@ -38,8 +38,8 @@ D'ici 2027, l'IA agentique, la gouvernance contractuelle et la compétence IA ap
 
 Vous voulez préparer votre entreprise aux prochaines années d'IA supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Nos [formations](/formation) accompagnent cette montée en compétence continue.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

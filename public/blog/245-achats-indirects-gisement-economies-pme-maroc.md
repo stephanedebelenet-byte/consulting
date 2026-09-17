@@ -1,7 +1,7 @@
 ---
 title: "Achats Indirects : le Gisement d'Économies que les PME Marocaines Ignorent"
 date: "2026-08-28"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "optimisation achats indirects, achats indirects maroc, achats hors production, gisement économies achats"
@@ -40,11 +40,11 @@ Les achats indirects représentent un budget souvent aussi lourd que les achats 
 
 Vous voulez cartographier vos achats indirects et identifier votre potentiel d'économies réel ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [RS Online — Achats Indirects : Comprendre les enjeux et définition](https://fr.rs-online.com/web/content/blog-discovery/achat/achats-indirects)

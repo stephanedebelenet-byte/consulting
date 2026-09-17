@@ -1,7 +1,7 @@
 ---
 title: "ISO 9001 pour une PME Logistique Marocaine : par où Commencer"
 date: "2026-08-26"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "ISO 9001 PME maroc, certification ISO 9001 maroc logistique, IMANOR ISO 9001, démarche qualité PME maroc"
@@ -40,11 +40,11 @@ ISO 9001 est une démarche accessible à une PME logistique marocaine — plus d
 
 Vous envisagez une démarche ISO 9001 pour votre PME logistique et voulez un diagnostic de votre niveau de maturité réel avant de vous engager ? [Découvrez nos services de conseil et de diagnostic](/conseil), ou [contactez-nous](/contact) pour en parler.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Maroc1000.net — Les certifiés ISO parmi les 1000 premières entreprises au Maroc](https://www.maroc1000.net/Certifi%C3%A9s-ISO)

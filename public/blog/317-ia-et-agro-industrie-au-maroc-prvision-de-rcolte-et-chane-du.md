@@ -1,7 +1,7 @@
 ---
 title: "IA et Agro-Industrie au Maroc : Prévision de Récolte et Chaîne du Froid"
 date: "2026-09-09"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "ia agro-industrie supply chain maroc, prévision récolte ia, chaîne du froid ia maroc, tri qualité vision agroalimentaire, ia agro-export maroc"
@@ -51,8 +51,8 @@ Dans l'agro-industrie marocaine, l'IA agit sur quatre points : prévision de ré
 
 Vous voulez structurer votre supply chain agro-export ? [Découvrez nos services de conseil](/conseil) et notre approche [schéma directeur logistique agroalimentaire](/blog/schma-directeur-logistique-agroalimentaire-au-maroc-mthode-e). [Contactez-nous](/contact) ou consultez notre [catalogue de formations](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

@@ -1,7 +1,7 @@
 ---
 title: "Gouvernance de Projet Logistique Multi-Sites : Coordonner sans Tout Centraliser"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "gouvernance projet logistique multi-sites, coordination multi-sites maroc, centralisation décentralisation logistique"
@@ -36,11 +36,11 @@ La gouvernance d'un projet logistique multi-sites réussit par un équilibre ent
 
 Vous coordonnez un réseau logistique multi-sites et voulez structurer votre gouvernance ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Insuffle — CODIR multi-sites : gouvernance qui tient](https://www.insuffle.com/codir-multi-sites-gouvernance/)

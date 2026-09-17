@@ -1,7 +1,7 @@
 ---
 title: "IA, Mines et Chimie : Planification Vrac et Logistique Portuaire"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia logistique minière chimie maroc, planification vrac ia, cadence train port ia, maintenance prédictive minière maroc, ia logistique portuaire maroc"
@@ -38,8 +38,8 @@ Dans les mines et la chimie marocaines, l'IA porte sur la planification intégr�
 
 Vous opérez dans la logistique minière ou chimique ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

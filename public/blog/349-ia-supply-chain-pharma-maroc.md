@@ -1,7 +1,7 @@
 ---
 title: "IA et Pharma : Sérialisation, Conformité et Prévision Réglementée"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/pharma.webp"
 keywords: "ia supply chain pharma maroc, sérialisation ia pharmaceutique, chaîne du froid pharma ia, pénurie médicament ia prévision, bpd ia conformité maroc"
@@ -38,8 +38,8 @@ Dans la filière pharmaceutique et les dispositifs médicaux, l'IA se concentre 
 
 Vous opérez dans la filière pharma ou dispositifs médicaux ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

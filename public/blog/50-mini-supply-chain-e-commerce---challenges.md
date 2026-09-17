@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain E-Commerce au Maroc : le dernier kilomètre, vrai défi du secteur"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain e-commerce Maroc, last mile Maroc, logistique livraison Maroc, paiement à la livraison"
@@ -36,8 +36,8 @@ La croissance de l'e-commerce marocain n'est plus à démontrer. Ce qui différe
 
 Vous pilotez une chaîne logistique e-commerce ou omnicanal au Maroc ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

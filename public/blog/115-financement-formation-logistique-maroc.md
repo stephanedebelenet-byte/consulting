@@ -1,7 +1,7 @@
 ﻿---
 title: "Financer sa Formation Logistique au Maroc : Toutes les Options en 2026"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "financement formation logistique Maroc, OFPPT formation supply chain, financer formation professionnelle Maroc, bourse formation logistique"
 description: "Comment financer sa formation supply chain au Maroc en 2026 ? OFPPT, plan de formation entreprise, GIAC, financement personnel — toutes les options expliquées."
@@ -98,7 +98,7 @@ Je peux préparer le dossier GIAC si vous le souhaitez."
 
 Nextinotech est référencé auprès des principaux GIAC marocains. Nous vous accompagnons dans le montage du dossier de financement.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

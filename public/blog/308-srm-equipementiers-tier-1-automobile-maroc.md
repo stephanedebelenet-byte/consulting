@@ -1,7 +1,7 @@
 ---
 title: "SRM Fournisseurs Stratégiques : Gérer la Relation avec les Équipementiers Tier 1 Automobile"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "gestion relation fournisseurs automobile maroc, SRM Tier 1 automobile, équipementiers Renault Stellantis Maroc"
@@ -36,11 +36,11 @@ L'écosystème automobile marocain, avec ses 18 équipementiers Tier 1 et son vo
 
 Vous êtes un équipementier automobile marocain et voulez structurer votre relation avec vos donneurs d'ordre Tier 1 ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Journal Auto — La filière automobile se consolide au Maroc](https://journalauto.com/industrie/la-filiere-automobile-se-consolide-au-maroc/)

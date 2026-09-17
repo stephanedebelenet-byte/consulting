@@ -1,7 +1,7 @@
 ---
 title: "CBAM (Taxe Carbone UE) : ce que les Exportateurs Marocains Doivent Anticiper"
 date: "2026-08-28"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "CBAM maroc export, taxe carbone UE maroc, mécanisme ajustement carbone frontière maroc, CBAM exportateurs marocains"
@@ -36,11 +36,11 @@ Le CBAM européen est passé d'une obligation déclarative à un coût financier
 
 Votre entreprise exporte vers l'UE dans un secteur concerné par le CBAM, aujourd'hui ou à l'horizon 2028 ? [Découvrez nos services de conseil achats et supply chain](/conseil), ou [contactez-nous](/contact) pour anticiper votre mise en conformité.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [North Africa Post — EU Carbon Border Mechanism: Morocco's Exporters Urged to Act Without Delay](https://northafricapost.com/97427-eu-carbon-border-mechanism-moroccos-exporters-urged-to-act-without-delay.html)

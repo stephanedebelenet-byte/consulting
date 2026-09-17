@@ -1,7 +1,7 @@
 ---
 title: "Port de Ndayane au Sénégal : ce que le Futur Méga-Port Change pour les Chargeurs"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "port de Ndayane Sénégal, méga-port Sénégal DP World, futur port profond Dakar"
@@ -36,11 +36,11 @@ Le port de Ndayane, porté par un investissement massif de DP World et un calend
 
 Vous exportez vers l'Afrique de l'Ouest et voulez anticiper l'impact de ce nouveau port sur votre stratégie logistique ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Agence Ecofin — Sénégal : DP World accélère la construction du port de Ndayane](https://www.agenceecofin.com/actualites-infrastructures/2807-140563-senegal-dp-world-accelere-la-construction-du-port-de-ndayane-apres-lachevement-du-dragage)

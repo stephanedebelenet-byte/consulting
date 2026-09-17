@@ -1,7 +1,7 @@
 ---
 title: "L'IA a Elle-Même une Empreinte Carbone : ce qu'il Faut Savoir"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "empreinte carbone ia entreprise, ia consommation énergétique data center, impact environnemental ia générative, ia écologique entreprise maroc, coût carbone modèle ia"
@@ -37,8 +37,8 @@ L'IA a une empreinte carbone réelle, qu'il faut intégrer honnêtement dans tou
 
 Vous voulez intégrer l'IA dans un bilan carbone global crédible ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

@@ -1,7 +1,7 @@
 ---
 title: "MES et IA : ce que l'Intelligence Artificielle Ajoute à l'Atelier"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "mes ia pilotage atelier production, ia mes usine maroc, intégration ia mes production, mes augmenté ia, ia suivi production temps réel"
@@ -38,8 +38,8 @@ L'IA générative complète un MES existant en synthétisant la production en la
 
 Vous voulez enrichir votre MES existant avec de l'IA générative ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

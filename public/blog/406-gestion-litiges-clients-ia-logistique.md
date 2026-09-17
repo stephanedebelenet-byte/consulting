@@ -1,7 +1,7 @@
 ---
 title: "IA et Gestion des Litiges Clients Logistiques"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "gestion litiges clients ia logistique, ia traitement litige client, accélérer litige logistique ia, ia relation client litige, résolution litige transport ia"
@@ -38,8 +38,8 @@ L'IA accélère le rassemblement du dossier et la proposition de résolution d'u
 
 Vous voulez accélérer le traitement de vos litiges clients ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

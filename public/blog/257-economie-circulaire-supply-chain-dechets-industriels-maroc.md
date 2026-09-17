@@ -1,7 +1,7 @@
 ---
 title: "Économie Circulaire en Supply Chain : Réintégrer les Déchets Industriels au Maroc"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "économie circulaire supply chain maroc, réintégration déchets industriels, recyclage industriel maroc"
@@ -36,11 +36,11 @@ L'économie circulaire industrielle au Maroc bute moins sur la technique que sur
 
 Vous voulez cartographier le potentiel de valorisation de vos déchets et sous-produits industriels ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Circemed — Economie-Circulaire : Les défis du Maroc dans la gestion des déchets](https://www.circemed.org/articles/h/economie-circulaire-les-defis-du-maroc-dans-la-gestion-des-dechets.html)

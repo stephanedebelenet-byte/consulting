@@ -1,7 +1,7 @@
 ---
 title: "Logistique Minière au Maroc : au-delà de l'OCP"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "logistique minière maroc, mines maroc hors phosphate, exploitation minière maroc barytine cobalt"
@@ -36,11 +36,11 @@ Le secteur minier marocain hors phosphate représente un volume d'export signifi
 
 Vous opérez dans le secteur minier marocain et voulez structurer votre logistique d'évacuation ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [La Vie Éco — Produits miniers hors phosphates : 1,7 million de tonnes exporté en moyenne par an](https://www.lavieeco.com/affaires/produits-miniers-hors-phosphates-1-7-million-de-tonnes-exporte-en-moyenne-par-an-24424/)

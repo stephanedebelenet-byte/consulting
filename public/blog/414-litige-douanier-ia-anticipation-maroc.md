@@ -1,7 +1,7 @@
 ---
 title: "IA et Gestion des Litiges Douaniers : Anticiper les Contrôles"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "litige douanier ia anticipation maroc, ia anticiper contrôle douanier, prévenir litige douanier ia, ia audit risque douanier, anticipation redressement douanier"
@@ -38,8 +38,8 @@ Une revue systématique des déclarations douanières par IA permet d'anticiper 
 
 Vous voulez auditer préventivement vos risques douaniers ? [Découvrez notre offre de conseil](/conseil) ou notre [accompagnement OEA](/accompagnement-oea). [Contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

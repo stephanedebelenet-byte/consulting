@@ -1,7 +1,7 @@
 ---
 title: "Classification Tarifaire Douanière par IA : Réduire les Erreurs"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "classification tarifaire ia douane maroc, code sh erreur ia, ia classification douanière, réduire redressement douanier ia, ia code tarifaire import export"
@@ -38,8 +38,8 @@ L'IA aide à sécuriser la classification tarifaire douanière en proposant des 
 
 Vous voulez sécuriser votre classification tarifaire ? [Découvrez notre offre de conseil](/conseil) ou notre [accompagnement OEA](/accompagnement-oea). [Contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

@@ -1,7 +1,7 @@
 ---
 title: "Business Case IA : le Modèle Financier pour Convaincre la Finance"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "business case ia supply chain modèle financier, convaincre direction financière ia, modèle financier projet ia, template business case ia, argumentaire financier ia entreprise"
@@ -40,8 +40,8 @@ Un business case IA qui convainc une direction financière repose sur des coûts
 
 Vous voulez construire un business case IA solide ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

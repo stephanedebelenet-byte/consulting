@@ -1,7 +1,7 @@
 ---
 title: "IA et Changements de Série (SMED) : Réduire les Temps de Changeover"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia smed changement série production, réduire temps changeover ia, ia optimisation smed maroc, temps de changement de série ia, smed augmenté par ia"
@@ -37,8 +37,8 @@ L'IA complète une démarche SMED existante en optimisant le séquençage des or
 
 Vous voulez optimiser vos changements de série ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

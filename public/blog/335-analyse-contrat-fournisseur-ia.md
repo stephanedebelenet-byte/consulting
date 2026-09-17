@@ -1,7 +1,7 @@
 ---
 title: "Analyse de Contrats Fournisseurs par LLM : Repérer les Clauses à Risque"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "analyse contrat fournisseur ia, revue contrat llm achats, clauses à risque contrat ia, ia juridique achats maroc, analyse pénalités contrat fournisseur"
@@ -44,8 +44,8 @@ L'analyse de contrats fournisseurs par LLM accélère considérablement la premi
 
 Vous voulez outiller votre équipe achats pour l'analyse de contrats ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour structurer ce cas d'usage en toute sécurité.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

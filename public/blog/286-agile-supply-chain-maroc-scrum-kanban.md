@@ -1,7 +1,7 @@
 ---
 title: "Agile Appliqué à la Supply Chain : ce que l'Industriel Peut Emprunter au Digital"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "agile supply chain maroc, scrum kanban logistique, méthode agile industrielle"
@@ -36,11 +36,11 @@ Les méthodes agiles (Scrum, Kanban) ont des racines industrielles avant d'être
 
 Vous voulez introduire une discipline agile dans votre équipe supply chain ou achats ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Blog du Modérateur — Scrum, Kanban, Scrumban : quelle méthode agile choisir ?](https://www.blogdumoderateur.com/scrum-kanban-scrumban-methode/)

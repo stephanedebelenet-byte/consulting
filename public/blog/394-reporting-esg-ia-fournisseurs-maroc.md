@@ -1,7 +1,7 @@
 ---
 title: "Reporting ESG Augmenté par IA : Automatiser la Collecte Fournisseurs"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "reporting esg ia fournisseurs maroc, collecte données esg automatisée, ia reporting csrd fournisseurs, esg supply chain maroc ia, automatisation reporting rse"
@@ -38,8 +38,8 @@ L'IA réduit considérablement le délai de collecte des données ESG fournisseu
 
 Vous voulez structurer votre reporting ESG fournisseurs ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

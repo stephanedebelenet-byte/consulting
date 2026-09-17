@@ -1,7 +1,7 @@
 ---
 title: "Direction Supply Chain à Temps Partagé à l'Ère de l'IA"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "dsc temps partagé ia maroc, direction supply chain temps partagé, dsc externalisée ia, directeur supply chain externe ia, dsc vs recrutement cdi ia"
@@ -38,8 +38,8 @@ L'IA rend la Direction Supply Chain à temps partagé plus efficace en assurant 
 
 Vous voulez évaluer la Direction Supply Chain à Temps Partagé pour votre entreprise ? [Découvrez notre offre](/direction-supply-chain-temps-partage) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

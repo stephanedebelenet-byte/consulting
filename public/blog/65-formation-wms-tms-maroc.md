@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation WMS et TMS au Maroc : Maîtriser les Outils Logistiques Digitaux 2026"
 date: "2026-07-28"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "formation wms maroc, formation tms maroc, formation warehouse management system, formation sap wm maroc, logiciel logistique maroc formation"
 description: "Tout sur les formations WMS (Warehouse Management System) et TMS (Transport Management System) au Maroc : quels outils apprendre, pourquoi et comment se former."
@@ -199,6 +199,6 @@ Pour une entreprise qui déploie un WMS :
 
 Les WMS et TMS ne sont plus réservés aux grandes entreprises. Les solutions cloud et open source ont démocratisé l'accès pour les PME marocaines. Se former sur ces outils est donc devenu une nécessité pour tout professionnel logistique qui veut rester employable et progresser dans sa carrière.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Nextinotech forme et accompagne les équipes logistiques marocaines sur les WMS depuis plus de 15 ans.** Contactez-nous pour un programme adapté à votre contexte.

@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain à Casablanca — Expert Logistique Maroc"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/conseil.webp"
 keywords: "consultant supply chain Casablanca, conseil logistique Maroc, audit supply chain Casablanca, optimisation chaîne approvisionnement Casa"
 description: "Expert supply chain basé à Casablanca. 20+ ans expérience, 110+ missions. Audit, formation, digitalisation WMS/TMS. PME/ME/GE tous secteurs."
@@ -10,7 +10,7 @@ location: "Casablanca, Maroc"
 
 # Conseil Supply Chain à Casablanca — Expert Logistique Maroc
 
-**Directeur des Achats | Expert Supply Chain & Transformation Digitale**
+**Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale**
 
 Casablanca, Maroc · 20+ ans expérience · 110+ missions réussies
 
@@ -142,7 +142,7 @@ Casablanca, Maroc · 20+ ans expérience · 110+ missions réussies
 
 ---
 
-**Nextinotech**  
-Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Nextinotech — Casablanca, Maroc
+**Youssef Bahaida**
+Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
+Youssef Bahaida — Casablanca, Maroc
 

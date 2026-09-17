@@ -1,7 +1,7 @@
 ---
 title: "Personnalisation des Délais de Livraison par IA : Promettre Juste"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "promesse délai livraison ia, personnalisation délai livraison ia, ia prédiction délai livraison maroc, promesse client livraison fiable, ia estimation délai transport"
@@ -37,8 +37,8 @@ Personnaliser la promesse de délai de livraison par zone, transporteur et histo
 
 Vous voulez fiabiliser vos promesses de délai de livraison ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

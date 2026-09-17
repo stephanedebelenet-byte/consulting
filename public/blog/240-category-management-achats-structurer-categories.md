@@ -1,7 +1,7 @@
 ---
 title: "Category Management Achats : Structurer ses Catégories pour Plus de Valeur"
 date: "2026-08-28"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "category management achats maroc, matrice kraljic achats, segmentation achats stratégie, gestion catégories achats"
@@ -36,11 +36,11 @@ Le category management transforme les achats d'un exercice de négociation fourn
 
 Vous voulez cartographier vos catégories d'achats et structurer une stratégie différenciée par segment ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic de votre portefeuille.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Okaveo — Matrice de Kraljic : définition, méthode et exemples](https://www.okaveo.com/blog/matrice-kraljic-segmentation-achats/)

@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Logistique à Marrakech : Opportunités et Programme 2026"
 date: "2026-07-30"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-supply-chain.webp"
 keywords: "formation logistique marrakech, supply chain marrakech, formation responsable logistique marrakech, cours logistique marrakech, emploi logistique marrakech"
 description: "Formation en logistique et supply chain pour les professionnels de Marrakech. Secteurs clés, débouchés locaux et programme de formation Nextinotech."
@@ -150,8 +150,8 @@ Marrakech offre de vraies opportunités pour les professionnels logistiques qui 
 
 **Nextinotech forme les professionnels logistiques de toutes les régions du Maroc**, avec des sessions régulières à Casablanca et la possibilité d'organisations en intra-entreprise à Marrakech.
 
-Notre programme phare, ouvert aux participants de toutes les régions, reste **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
+Notre programme phare, ouvert aux participants de toutes les régions, reste **[Devenir Responsable Logistique](/formation-rl)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous pour réserver votre place ou organiser une formation sur mesure pour votre équipe.

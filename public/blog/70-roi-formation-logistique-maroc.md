@@ -1,7 +1,7 @@
 ---
 title: "ROI d'une Formation Supply Chain au Maroc : Comment le Calculer et le Justifier"
 date: "2026-08-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "roi formation logistique maroc, roi formation supply chain, retour sur investissement formation supply chain, justifier budget formation supply chain, formation logistique rentable maroc, coût formation supply chain maroc"
 description: "Comment calculer et justifier le ROI d'une formation logistique ou supply chain au Maroc ? Méthode, exemples chiffrés, coûts cachés et modèle de présentation à la direction."
@@ -174,9 +174,9 @@ Chez Nextinotech, nous ne vendons pas des formations, nous vendons des résultat
 - **Formateurs avec missions en cours** : ils forment sur ce qu'ils font, pas sur ce qu'ils ont lu
 - **Suivi post-formation** : 30 minutes de consultation 3 mois après pour vérifier les résultats
 
-**Notre [formation Responsable Logistique](/formation-rl/) à 1 500 MAD** est conçue pour générer un ROI minimum de 10× en 6 mois. Si ce n'est pas le cas, contactez-nous — nous avons un problème à résoudre ensemble.
+**Notre [formation Responsable Logistique](/formation-rl) à 1 500 MAD** est conçue pour générer un ROI minimum de 10× en 6 mois. Si ce n'est pas le cas, contactez-nous — nous avons un problème à résoudre ensemble.
 
-👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026. Ou consultez le **[catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines.
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026. Ou consultez le **[catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines.
 
 ---
 
