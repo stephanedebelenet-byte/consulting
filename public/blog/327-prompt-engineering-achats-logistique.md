@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering pour les Métiers Achats et Supply Chain"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "prompt engineering achats logistique, prompts ia supply chain maroc, méthode prompt chatgpt achats, écrire un bon prompt supply chain, ia générative acheteur"
@@ -55,8 +55,8 @@ Un prompt métier efficace suit la méthode CRAF — contexte, rôle, action, fo
 
 Vous voulez outiller vos équipes achats et supply chain avec des prompts et des cas d'usage adaptés à votre activité ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact) pour structurer votre adoption de l'IA. Nos [formations](/formation) intègrent désormais un module prompt engineering métier.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

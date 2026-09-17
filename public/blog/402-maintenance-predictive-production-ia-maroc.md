@@ -1,7 +1,7 @@
 ---
 title: "Prévoir les Pannes Machines Avant l'Arrêt de Ligne"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "maintenance prédictive production ia maroc, prévoir panne machine ia, ia arrêt de ligne prévention, maintenance prédictive usine maroc, ia disponibilité équipement production"
@@ -38,8 +38,8 @@ La maintenance prédictive en production réduit significativement les arrêts d
 
 Vous voulez identifier vos équipements prioritaires pour la maintenance prédictive ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

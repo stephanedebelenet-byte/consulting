@@ -1,7 +1,7 @@
 ---
 title: "Femmes dans la Supply Chain Marocaine : où en est-on Vraiment"
 date: "2026-08-25"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "femmes supply chain maroc chiffres, diversité logistique maroc, femmes logistique maroc, parité supply chain"
@@ -36,11 +36,11 @@ En l'absence de baromètre sectoriel marocain, chaque entreprise part d'une page
 
 Votre entreprise veut structurer sa politique de diversité et de mixité dans ses équipes supply chain ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Gartner — Gartner Survey Finds Women Comprise 41% of the Supply Chain Workforce (2021, données mondiales)](https://www.gartner.com/en/newsroom/press-releases/2021-06-16-gartner-survey-finds-women-comprise-41-percent-of-the-supply-chain-workforce)

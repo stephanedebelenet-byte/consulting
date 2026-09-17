@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Chef d'Entrepôt au Maroc : Compétences, Programme et Certifications 2026"
 date: "2026-08-04"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-warehouse.webp"
 keywords: "formation chef d'entrepôt maroc, formation responsable entrepôt maroc, formation logistique entrepôt casablanca, chef d'entrepôt compétences maroc, management entrepôt formation"
 description: "Formation chef d'entrepôt au Maroc : compétences clés, programme type, certifications reconnues et salaires. Guide complet pour les professionnels et les entreprises."
@@ -191,9 +191,9 @@ Nextinotech forme les chefs d'entrepôt et les responsables logistique au Maroc 
 - Suivi post-formation : appel de bilan 30 jours après
 - Possibilité de mission d'accompagnement pour aider à appliquer les acquis
 
-Pour les chefs d'entrepôt visant une évolution vers un poste de Responsable Logistique, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
+Pour les chefs d'entrepôt visant une évolution vers un poste de Responsable Logistique, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl)** — 1 journée, 1 500 MAD TTC.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous pour un programme sur mesure : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

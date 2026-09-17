@@ -1,7 +1,7 @@
 ---
 title: "Créer son Académie IA Interne Supply Chain"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "académie ia interne supply chain, académie ia entreprise maroc, former en interne ia supply chain, structurer académie ia, méthode académie ia entreprise"
@@ -39,8 +39,8 @@ Une académie IA interne réussie combine un tronc commun court, des modules mé
 
 Vous voulez structurer votre académie IA interne ? [Découvrez nos programmes de formation](/formation) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

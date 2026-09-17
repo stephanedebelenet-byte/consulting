@@ -1,7 +1,7 @@
 ---
 title: "Former ses Équipes Entrepôt et Transport à l'IA sans les Effrayer"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "formation ia entrepôt transport équipes, former caristes ia sans effrayer, formation terrain ia logistique, pédagogie ia équipes opérationnelles, formation ia opérateurs entrepôt"
@@ -38,8 +38,8 @@ Former des équipes entrepôt et transport à l'IA exige une pédagogie adaptée
 
 Vous voulez former vos équipes terrain à l'IA ? [Découvrez notre catalogue de formations](/formation) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

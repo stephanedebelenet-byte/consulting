@@ -1,7 +1,7 @@
 ---
 title: "Formation ou Consulting - Quelle Approche ?"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "La formation monte en compétence une équipe qui reste en poste ; le consulting résout un problème précis avec un livrable et un délai engagés. Les deux se combinent souvent : diagnostic en conseil, puis formation des équipes pour ancrer le changement."
@@ -33,8 +33,8 @@ Posez-vous une seule question : le problème est-il "nous ne savons pas faire" (
 
 **Notre approche.** Diagnostic Express pour clarifier le problème réel, puis orientation vers le bon format — formation d'équipe ou mission de conseil — selon ce que révèle l'analyse.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

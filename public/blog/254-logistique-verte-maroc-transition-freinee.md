@@ -1,7 +1,7 @@
 ---
 title: "Logistique Verte au Maroc : Pourquoi la Transition Reste Freinée"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "logistique verte maroc, transport durable maroc, transition écologique logistique, véhicules électriques transport maroc"
@@ -36,11 +36,11 @@ La transition vers une logistique verte au Maroc reste freinée par le coût et 
 
 Vous voulez évaluer les leviers de logistique verte accessibles à votre flotte actuelle ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [H24info — Véhicules électriques : disponibles, mais une infrastructure en panne de financement et de cadre réglementaire](https://h24info.ma/economie/vehicules-electriques-disponibl-infrastructure/)

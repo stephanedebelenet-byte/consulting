@@ -1,7 +1,7 @@
 ---
 title: "IA et Gaspillage Alimentaire dans la Chaîne du Froid"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "ia gaspillage alimentaire chaîne du froid, détection perte chaîne froid ia, réduction gaspillage agroalimentaire ia, ia excursion température prévention, chaîne froid maroc ia"
@@ -38,8 +38,8 @@ L'IA connectée aux capteurs de température détecte les excursions de chaîne 
 
 Vous voulez sécuriser votre chaîne du froid export ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

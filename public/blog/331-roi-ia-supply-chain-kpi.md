@@ -1,7 +1,7 @@
 ---
 title: "Mesurer le ROI de l'IA en Supply Chain : les KPI qui Comptent"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "roi ia supply chain kpi, mesurer retour sur investissement ia, business case ia logistique, kpi ia achats maroc, calcul rentabilité ia entreprise"
@@ -44,8 +44,8 @@ Mesurer le ROI de l'IA en supply chain exige une baseline avant déploiement, un
 
 Vous voulez construire un business case IA solide pour votre direction ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour cadrer votre mesure de ROI avant le lancement.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

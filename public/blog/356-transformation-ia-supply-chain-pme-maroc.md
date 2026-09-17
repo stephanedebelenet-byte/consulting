@@ -1,7 +1,7 @@
 ---
 title: "Piloter la Transformation IA de sa Supply Chain sans CDO"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "transformation ia supply chain pme maroc, piloter ia sans data scientist, transformation ia sans cdo, gouvernance transformation ia pme, ia pme maroc pilotage"
@@ -38,8 +38,8 @@ Une transformation IA supply chain n'exige pas de CDO ni de data scientist inter
 
 Vous voulez lancer votre transformation IA sans recrutement préalable ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

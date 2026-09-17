@@ -1,7 +1,7 @@
 ---
 title: "IA et Supply Chain Automobile au Maroc : Prévision, EDI et JIT"
 date: "2026-09-07"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "ia supply chain automobile maroc, prévision cadencée edi jit, équipementiers renault stellantis ia, industrie automobile maroc digitalisation, ia logistique automobile"
@@ -47,8 +47,8 @@ Dans l'automobile marocaine, l'IA se concentre sur la lecture des flux EDI, la f
 
 Vous êtes équipementier et voulez structurer votre pilotage supply chain ? [Découvrez nos services de conseil](/conseil) ou la [Direction Supply Chain à temps partagé](/direction-supply-chain-temps-partage). [Contactez-nous](/contact) ou formez vos équipes via notre [catalogue](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

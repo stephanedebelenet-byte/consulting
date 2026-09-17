@@ -1,7 +1,7 @@
 ---
 title: "Logistique du Secteur de la Pêche : Agadir, Dakhla et l'Export Halieutique"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "logistique pêche maroc export, export halieutique maroc, Agadir Dakhla pêche"
@@ -36,11 +36,11 @@ Le secteur halieutique marocain structure sa logistique autour de deux pôles co
 
 Vous opérez dans le secteur halieutique marocain et voulez structurer votre chaîne logistique export ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Le360 — Captures, volumes, exportations... Ce qu'il faut savoir sur le secteur halieutique au Maroc](https://fr.le360.ma/economie/captures-volumes-exportations-ce-quil-faut-savoir-sur-le-secteur-halieutique-au-maroc_H5LAO3ZCO5HO7A6F4UU77BVUFM/)

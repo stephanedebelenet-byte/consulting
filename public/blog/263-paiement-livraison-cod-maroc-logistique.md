@@ -1,7 +1,7 @@
 ---
 title: "Paiement à la Livraison (COD) : Optimiser sa Logistique quand la Majorité des Commandes Restent Cash"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "paiement livraison COD maroc, cash on delivery e-commerce maroc, gestion trésorerie livraison cash"
@@ -36,11 +36,11 @@ Le COD reste incontournable pour toucher la masse du marché e-commerce marocain
 
 Vous voulez réduire votre taux de refus COD et fiabiliser votre trésorerie ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Le Matin — E-commerce : le Maroc peut-il créer son propre « PayPal » ?](https://lematin.ma/societe/e-commerce-le-maroc-peut-il-creer-son-propre-paypal/346218)

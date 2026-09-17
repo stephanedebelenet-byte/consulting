@@ -1,7 +1,7 @@
 ---
 title: "OEA Catégorie A ou B au Maroc : les Différences Clés"
 date: "2026-09-18"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "OEA catégorie A B maroc, différence OEA A B, OEA sécurité et sûreté maroc, statut opérateur économique agréé catégorie"
@@ -50,11 +50,11 @@ Nextinotech réalise le diagnostic d'éligibilité qui positionne objectivement 
 
 Catégorie A ou B n'est pas un choix administratif, c'est le résultat direct de votre niveau de préparation documentaire, de traçabilité des stocks et de solvabilité financière au moment de l'audit. [Contactez-nous](/contact) pour évaluer où vous vous situez aujourd'hui.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [ADII — Arrêté n°690-11 du 22 juillet 2011 fixant les catégories du statut OEA](https://www.douane.gov.ma/code/AMF_690_F.htm)

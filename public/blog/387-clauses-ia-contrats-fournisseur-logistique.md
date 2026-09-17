@@ -1,7 +1,7 @@
 ---
 title: "Clauses IA dans les Contrats Fournisseurs et Prestataires Logistiques"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "clauses contrat ia fournisseur logistique, négocier clause ia contrat, clause ia prestataire logistique, contrat fournisseur usage ia, clause information ia contrat"
@@ -39,8 +39,8 @@ Les contrats fournisseurs et prestataires logistiques doivent désormais intégr
 
 Vous voulez revoir vos contrats fournisseurs sous cet angle ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

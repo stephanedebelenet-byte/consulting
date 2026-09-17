@@ -1,7 +1,7 @@
 ---
 title: "Sourcing Multi-Fournisseurs vs Fournisseur Unique : Arbitrer le Risque Achats"
 date: "2026-08-28"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "diversification fournisseurs risque, single sourcing vs dual sourcing, fournisseur unique risque supply chain, arbitrage sourcing achats"
@@ -32,11 +32,11 @@ Le choix entre fournisseur unique et sourcing multiple doit se décider par cat�
 
 Vous voulez évaluer votre exposition au risque fournisseur unique sur vos catégories stratégiques ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un diagnostic de votre panel fournisseurs.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Décision Achats — Approvisionnements : anticiper et prévenir les risques de rupture de la supply chain](https://www.decision-achats.fr/Thematique/supply-logistique-1297/conjoncture-economique-2269/Breves/Approvisionnements-anticiper-prevenir-risques-rupture-supply-chain-361951.htm)

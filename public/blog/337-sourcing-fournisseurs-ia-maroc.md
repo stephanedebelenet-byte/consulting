@@ -1,7 +1,7 @@
 ---
 title: "Sourcing Assisté par IA : Identifier et Comparer les Fournisseurs Plus Vite"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "sourcing fournisseurs ia maroc, recherche fournisseurs ia, rfi généré par ia, comparaison fournisseurs automatisée, ia identification nouveaux fournisseurs"
@@ -43,8 +43,8 @@ L'IA accélère la recherche, la rédaction de RFI et la première comparaison d
 
 Vous voulez structurer votre processus de sourcing fournisseurs ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Découvrez aussi notre [Direction Achats à temps partagé](/directeur-achats-mi-temps).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

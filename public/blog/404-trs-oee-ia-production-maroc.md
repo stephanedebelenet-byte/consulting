@@ -1,7 +1,7 @@
 ---
 title: "IA et TRS/OEE : Identifier les Pertes Cachées en 48 Heures"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "trs oee ia production maroc, identifier pertes cachées trs, ia taux de rendement synthétique, oee automatisé ia maroc, analyse trs par ia"
@@ -38,8 +38,8 @@ L'IA accélère radicalement la décomposition du TRS en ses trois pertes — di
 
 Vous voulez décomposer rapidement le TRS de vos lignes de production ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

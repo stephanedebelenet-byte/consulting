@@ -1,7 +1,7 @@
 ---
 title: "Accords de Libre-Échange du Maroc : Comment Réduire ses Droits de Douane"
 date: "2026-08-27"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "accords libre échange maroc douane, certificat EUR.1 maroc, préférence tarifaire maroc, accord d'agadir maroc"
@@ -36,11 +36,11 @@ Le Maroc dispose d'un réseau d'accords de libre-échange dense — UE, AELE, ZL
 
 Votre entreprise exporte vers l'UE, la zone Agadir ou un pays sous accord bilatéral et veut vérifier que ses préférences tarifaires sont bien sécurisées ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour un audit de vos règles d'origine.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [AMDIE — Accords de Libre-Échange du Maroc](https://www.amdie.gov.ma/accords-libre-echange/)

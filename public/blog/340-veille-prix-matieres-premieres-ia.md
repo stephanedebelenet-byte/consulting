@@ -1,7 +1,7 @@
 ---
 title: "Veille Prix et Matières Premières par IA : Anticiper la Volatilité"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "veille prix matières premières ia, anticiper hausse carburant ia, veille prix acier ciment ia, alerte indexation prix ia, ia volatilité matières premières maroc"
@@ -38,8 +38,8 @@ Une veille prix et matières premières assistée par IA transforme des signaux 
 
 Vous voulez mettre en place une veille prix adaptée à vos catégories critiques ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

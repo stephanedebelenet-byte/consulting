@@ -1,7 +1,7 @@
 ---
 title: "API et Intégration IA-ERP-WMS-TMS : les Pièges Techniques"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "intégration api ia erp wms tms, piège technique intégration ia, connecter ia erp maroc, api ia wms tms erreurs, intégration systèmes ia entreprise"
@@ -39,8 +39,8 @@ L'intégration d'un outil IA avec l'ERP, le WMS et le TMS révèle ses vrais pi�
 
 Vous voulez sécuriser l'intégration technique de votre projet IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

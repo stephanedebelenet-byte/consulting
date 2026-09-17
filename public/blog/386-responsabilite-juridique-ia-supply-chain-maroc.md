@@ -1,7 +1,7 @@
 ---
 title: "Qui est Responsable Quand l'IA se Trompe : le Droit des Contrats"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "responsabilité juridique ia supply chain maroc, qui est responsable erreur ia, droit marocain contrats ia, responsabilité décision ia entreprise, ia erreur qui paie"
@@ -38,8 +38,8 @@ En droit marocain, la responsabilité d'une décision assistée par IA reste ent
 
 Vous voulez sécuriser juridiquement votre usage de l'IA en supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

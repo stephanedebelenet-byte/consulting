@@ -1,7 +1,7 @@
 ---
 title: "Comment Débuter ? Première Étape ?"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "La première étape est toujours un Diagnostic Express de 2 à 6 semaines pour cartographier l'existant et identifier des leviers chiffrés — jamais un engagement de transformation complète dès le premier contact."
@@ -33,8 +33,8 @@ Débuter avec Nextinotech suit toujours la même séquence : un échange pour ca
 
 **Notre approche.** Réservez un échange gratuit pour cadrer votre situation ; nous vous orientons ensuite vers le format de diagnostic adapté à votre périmètre.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

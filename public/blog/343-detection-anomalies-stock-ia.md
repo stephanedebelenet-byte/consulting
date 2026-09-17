@@ -1,7 +1,7 @@
 ---
 title: "Détection d'Anomalies et Alertes Intelligentes sur Stocks et Commandes"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "détection anomalies stock ia, alerte intelligente commande, rupture larvée détection ia, commande aberrante ia, dérive couverture stock ia"
@@ -37,8 +37,8 @@ La détection d'anomalies par IA repère les ruptures larvées et les commandes 
 
 Vous voulez mettre en place une détection d'anomalies sur vos stocks critiques ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

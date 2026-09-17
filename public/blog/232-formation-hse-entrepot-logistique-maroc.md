@@ -1,7 +1,7 @@
 ---
 title: "Formation HSE Entrepôt & Logistique : ce qu'elle Couvre Concrètement"
 date: "2026-08-26"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "formation HSE entrepôt maroc, formation HSE logistique maroc, formation sécurité entrepôt maroc, audit HSE flash"
@@ -36,11 +36,11 @@ Une formation HSE entrepôt efficace n'est pas une déclinaison d'une formation 
 
 Vous voulez structurer la prévention des risques dans votre entrepôt avec une équipe formée sur votre propre site ? [Découvrez le programme complet de la Formation HSE Entrepôt & Logistique](/formation) dans notre catalogue, ou [contactez-nous](/contact) pour l'organiser en intra-entreprise.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Chariotelevateur.fr — Prévention Accident Chariot Élévateur : Causes Réelles & Guide 2026 (référence européenne)](https://www.chariotelevateur.fr/post/prevention-accident-chariot-elevateur)

@@ -1,7 +1,7 @@
 ---
 title: "Travaillez-vous Avec Petites Entreprises ?"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Oui — Nextinotech est positionné spécifiquement PME et ETI marocaines, avec une entrée accessible dès 35 000 MAD HT pour un diagnostic flash de 2 semaines."
@@ -33,8 +33,8 @@ Le positionnement PME/ETI n'est pas une case cochée dans une plaquette commerci
 
 **Notre approche.** Diagnostic Flash comme point d'entrée : cartographie de l'existant, causes racines, leviers chiffrés — sans engagement au-delà de ces 2 semaines.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

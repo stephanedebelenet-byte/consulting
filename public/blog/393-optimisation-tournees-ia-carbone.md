@@ -1,7 +1,7 @@
 ---
 title: "Optimisation des Tournées par IA : le Double Gain Coût-Carbone"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "optimisation tournées ia carbone, double gain coût carbone transport, ia réduction émissions tournée, optimisation transport ia maroc, ia carbone livraison"
@@ -38,8 +38,8 @@ L'optimisation des tournées par IA génère un double gain coût-carbone quasi 
 
 Vous voulez mesurer le double gain coût-carbone de vos tournées ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

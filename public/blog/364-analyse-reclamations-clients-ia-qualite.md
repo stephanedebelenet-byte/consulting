@@ -1,7 +1,7 @@
 ---
 title: "Analyse des Réclamations Clients par IA : Trouver le Signal"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "analyse réclamations clients ia qualité, ia signal réclamations, catégorisation automatique réclamation, analyse verbatim client ia, ia insight qualité client"
@@ -38,8 +38,8 @@ L'analyse de masse des réclamations clients par IA révèle des motifs structur
 
 Vous voulez transformer vos réclamations clients en signal d'action qualité ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

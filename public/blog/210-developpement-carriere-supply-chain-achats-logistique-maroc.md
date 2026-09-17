@@ -1,7 +1,7 @@
 ---
 title: "Développer sa Carrière en Supply Chain, Achats et Logistique"
 date: "2026-08-07"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/business.webp"
 keywords: "développement de carrière supply chain maroc, évoluer en logistique maroc, carrière achats maroc, plan de carrière supply chain, progression professionnelle logistique"
 description: "Développer sa carrière en supply chain, achats et logistique au Maroc : cartographie des métiers, auto-diagnostic de compétences et plan de développement concret."
@@ -60,7 +60,7 @@ Nextinotech propose une formation d'une journée, **Développement de Carrière 
 
 👉 **[Voir le programme complet et les autres formations du catalogue](/formation)**
 
-Si votre plan à 3-5 ans démarre par une prise de poste opérationnelle, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) est souvent la première étape.
+Si votre plan à 3-5 ans démarre par une prise de poste opérationnelle, notre programme **[Devenir Responsable Logistique](/formation-rl)** (1 journée, 1 500 MAD TTC) est souvent la première étape.
 
 Pour compléter votre plan de carrière, consultez aussi nos articles sur [négocier son salaire en supply chain](/blog/141-negocier-salaire-supply-chain-maroc.md) et sur les [techniques de négociation achats](/blog/119-formation-negociation-achats-maroc.md).
 

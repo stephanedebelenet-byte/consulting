@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Agro-Export au Maroc : la chaîne du froid, facteur de compétitivité"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain agro-export Maroc, chaîne du froid Agadir, export agrumes Maroc, logistique agroalimentaire"
@@ -36,8 +36,8 @@ L'agro-export marocain vit une phase d'expansion portée par la demande europée
 
 Vous pilotez une chaîne logistique périssable ou sous température dirigée ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

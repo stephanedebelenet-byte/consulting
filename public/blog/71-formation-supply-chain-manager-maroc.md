@@ -1,7 +1,7 @@
 ---
 title: "Formation Supply Chain Manager au Maroc : Devenir SCM en 2026"
 date: "2026-08-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-supply-chain.webp"
 keywords: "formation supply chain manager maroc, scm maroc formation, programme supply chain manager, devenir supply chain manager maroc, supply chain manager casablanca, certification supply chain maroc"
 description: "Guide complet pour devenir Supply Chain Manager au Maroc en 2026 : rôle, programme de formation en 8 modules, certifications CPIM/CSCMP, compétences, salaires et débouchés."
@@ -147,7 +147,7 @@ Une formation Supply Chain Manager sérieuse doit couvrir :
 
 **Supply Chain Management Avancé (2 à 3 jours, sur devis, intra-entreprise possible)** — pour les SCM confirmés qui veulent structurer un processus S&OP, optimiser leur réseau logistique, maîtriser DDMRP pour la planification, construire leur tableau de bord de direction.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 ---
 

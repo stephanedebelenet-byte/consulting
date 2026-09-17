@@ -1,7 +1,7 @@
 ---
 title: "IA et Ordonnancement de Production : Arbitrer les Priorités"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia ordonnancement production maroc, arbitrage priorité production ia, ia planning atelier maroc, ordonnancement fabrication ia, ia urgence production arbitrage"
@@ -38,8 +38,8 @@ L'IA aide l'ordonnanceur de production à arbitrer des priorités contradictoire
 
 Vous voulez outiller votre ordonnancement de production ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

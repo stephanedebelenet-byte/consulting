@@ -1,7 +1,7 @@
 ﻿---
 title: "Webinaire GRATUIT : Formation ou Consulting? Quelle Approche Pour Vous?"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "webinaire"
 keywords: "webinaire formation supply chain, consulting vs formation, stratégie transformation"
 description: "Webinaire gratuit 50min : Formation seule vs Consulting vs Hybrid. Décision guide, ROI comparison, cas réels. Inscription libre."
@@ -73,8 +73,8 @@ description: "Webinaire gratuit 50min : Formation seule vs Consulting vs Hybrid.
 
 ## Speaker
 
-**Nextinotech**  
-Directeur des Achats | Expert Supply Chain & Transformation Digitale  
+**Youssef Bahaida**
+Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
 - 40+ cadres formés (Bosch, Casanet, Oland, Mutandis)
 - 110+ missions consulting
 - Formation + Consulting hybrid specialist
@@ -112,10 +112,10 @@ Directeur des Achats | Expert Supply Chain & Transformation Digitale
 
 ---
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contact:** contact@nextinotech.com | +212 663 449 200
 
 ---
 
-**Nextinotech**
+**Youssef Bahaida**

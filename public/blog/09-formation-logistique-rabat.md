@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain à Rabat — Expert Logistique Maroc"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-supply-chain.webp"
 keywords: "formation supply chain Rabat, formation logistique Salé, conseil Rabat, expert supply chain Rabat"
 description: "Formation et conseil supply chain à Rabat/Salé. Sourcing stratégique, WMS, S&OP, formation équipes. PME/ME/GE Maroc."
@@ -10,7 +10,7 @@ location: "Rabat, Salé, Maroc"
 
 # Formation Supply Chain à Rabat — Expert Logistique Maroc
 
-**Directeur des Achats | Expert Supply Chain & Transformation Digitale**
+**Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale**
 
 Rabat/Salé, Maroc · 20+ ans expérience · 40+ cadres formés
 
@@ -67,7 +67,7 @@ Rabat/Salé, Maroc · 20+ ans expérience · 40+ cadres formés
 
 ---
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 ## Contact Rabat
 
@@ -79,7 +79,7 @@ Rabat/Salé, Maroc · 20+ ans expérience · 40+ cadres formés
 
 ---
 
-**Nextinotech**  
-Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Nextinotech — Casablanca, Maroc
+**Youssef Bahaida**
+Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
+Youssef Bahaida — Casablanca, Maroc
 

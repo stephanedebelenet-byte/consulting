@@ -1,7 +1,7 @@
 ---
 title: "Suivi de Flotte et Géolocalisation : les Outils qui Réduisent Réellement les Coûts"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "géolocalisation flotte transport maroc, télématique flotte, réduction coût carburant flotte"
@@ -36,11 +36,11 @@ La géolocalisation de flotte réduit mesurablement les coûts carburant et main
 
 Vous voulez évaluer le retour sur investissement d'une solution de géolocalisation pour votre flotte ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Geotab — Boostez votre flotte avec la géolocalisation performances](https://www.geotab.com/fr/blog/boostez-votre-flotte-avec-geolocalisation-performances/)

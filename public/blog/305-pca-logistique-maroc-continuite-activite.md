@@ -1,7 +1,7 @@
 ---
 title: "Plan de Continuité d'Activité (PCA) Logistique : se Préparer aux Ruptures"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "PCA logistique maroc, plan continuité activité supply chain, ISO 22301 logistique"
@@ -36,11 +36,11 @@ Un PCA logistique efficace se construit sur des scénarios concrets et testés, 
 
 Vous voulez formaliser un plan de continuité d'activité pour votre chaîne logistique ? [Découvrez nos services conseil supply chain](/conseil), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Baker Tilly — Comment mettre en place un Plan de Continuité d'Activité ?](https://www.bakertilly.fr/actualites/erhs-plan-continuite-activite-pca-entreprise)

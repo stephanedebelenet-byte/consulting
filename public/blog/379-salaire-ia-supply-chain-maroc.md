@@ -1,7 +1,7 @@
 ---
 title: "L'IA Change-t-elle la Grille Salariale Supply Chain Marocaine"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "salaire ia supply chain maroc, grille salariale ia logistique, prime compétence ia salarié, rémunération compétence ia maroc, impact ia salaire achats"
@@ -38,8 +38,8 @@ L'IA fait émerger une prime salariale mesurable pour les postes hybrides nouvea
 
 Vous voulez évaluer l'impact de l'IA sur votre politique salariale supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Sénégal : le Port de Dakar, verrou logistique ouest-africain"
 date: "2026-08-18"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Sénégal, Port de Dakar, corridor Dakar Bamako, logistique Afrique de l'Ouest"
@@ -38,8 +38,8 @@ Le Sénégal occupe une position charnière dans la logistique ouest-africaine, 
 
 Vous pilotez des flux entre le Maroc et l'Afrique de l'Ouest ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

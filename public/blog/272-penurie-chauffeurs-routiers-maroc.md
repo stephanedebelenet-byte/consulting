@@ -1,7 +1,7 @@
 ---
 title: "Pénurie de Chauffeurs Routiers : Comment les Entreprises Marocaines s'Adaptent"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "pénurie chauffeurs routiers maroc, recrutement chauffeur poids lourd maroc, transport routier marchandises maroc"
@@ -36,11 +36,11 @@ La pénurie de chauffeurs routiers au Maroc touche un secteur qui porte plus de 
 
 Vous voulez structurer votre relation transporteur pour sécuriser votre capacité de transport ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [FNH — Transport routier de marchandises : ras-le-bol des opérateurs du secteur](https://fnh.ma/article/actualite-economique/transport-routier-marchandises)

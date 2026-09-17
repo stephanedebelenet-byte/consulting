@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Logistique à Agadir : Supply Chain Export et Région Souss-Massa 2026"
 date: "2026-08-01"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/transport.webp"
 keywords: "formation logistique agadir, supply chain agadir, formation responsable logistique agadir, export logistique souss massa, formation transport agadir"
 description: "Formation logistique et supply chain pour les professionnels d'Agadir et de la région Souss-Massa : export, pêche, agrumes, BTP. Nextinotech."
@@ -163,8 +163,8 @@ Ces projets vont créer de nouveaux postes de direction logistique dans la régi
 
 La logistique export d'Agadir est l'une des plus exigeantes du Maroc. Elle demande des profils solides techniquement, capables de gérer la pression des délais, des volumes variables et des exigences réglementaires européennes.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
-Pour les nouveaux postes de direction logistique évoqués ci-dessus, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) est un premier pas accessible.
+Pour les nouveaux postes de direction logistique évoqués ci-dessus, notre programme **[Devenir Responsable Logistique](/formation-rl)** (1 journée, 1 500 MAD TTC) est un premier pas accessible.
 
 **Nextinotech forme les professionnels logistiques de la région Souss-Massa** depuis plusieurs années, en présentiel à Casablanca et en intra-entreprise sur site. Contactez-nous pour organiser une session pour votre équipe.

@@ -1,7 +1,7 @@
 ---
 title: "Calculer son Bilan Carbone Transport par IA : le Scope 3 Automatisé"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "bilan carbone transport ia scope 3, calcul émissions transport ia, scope 3 logistique maroc, ia empreinte carbone transport, automatiser bilan carbone entreprise"
@@ -38,8 +38,8 @@ L'IA automatise le calcul du bilan carbone transport (scope 3) à partir des don
 
 Vous voulez automatiser le calcul de votre bilan carbone transport ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

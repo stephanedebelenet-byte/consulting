@@ -1,7 +1,7 @@
 ---
 title: "Formation Gestion des Stocks au Maroc : Méthodes, Métier et Certifications 2026"
 date: "2026-08-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "formation gestion des stocks maroc, formation gestionnaire de stocks maroc, gestion des stocks casablanca, gestionnaire stocks compétences maroc, formation approvisionnement maroc, optimisation stocks pme maroc, DDMRP formation maroc"
 description: "Guide complet formation gestion et gestionnaire des stocks au Maroc : méthodes ABC-XYZ, DDMRP, outils (Excel à APS), compétences clés, salaires, programme 4 jours. Par Nextinotech."
@@ -172,7 +172,7 @@ Avantages DDMRP vs MRP classique :
 
 **Pré-requis :** 1 an minimum en gestion de stocks ou approvisionnement. Autres formats disponibles : Formation DDMRP (2 jours, profils déjà formés aux méthodes classiques), Formation Paramétrage ERP Stocks (1 jour), Accompagnement terrain (1 à 3 mois).
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous pour un programme adapté : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

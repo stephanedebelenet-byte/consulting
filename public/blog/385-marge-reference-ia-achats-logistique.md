@@ -1,7 +1,7 @@
 ---
 title: "Piloter la Marge par Référence Grâce à l'IA"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "marge référence ia achats logistique, marge produit croisée ia, ia rentabilité par référence, croiser achats logistique vente ia, marge réelle produit ia"
@@ -37,8 +37,8 @@ Croiser achats, coûts logistiques réels et prix de vente par IA révèle une m
 
 Vous voulez calculer la marge réelle de votre catalogue par référence ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

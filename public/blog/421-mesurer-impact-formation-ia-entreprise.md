@@ -1,7 +1,7 @@
 ---
 title: "Mesurer l'Impact d'une Formation IA Supply Chain"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "mesurer impact formation ia entreprise, indicateur formation ia efficace, évaluer formation ia au-delà satisfaction, roi formation ia supply chain, kpi formation ia"
@@ -39,8 +39,8 @@ Mesurer l'impact réel d'une formation IA supply chain exige de suivre le taux d
 
 Vous voulez mesurer l'impact réel de vos formations IA ? [Découvrez notre catalogue de formations](/formation) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

@@ -1,7 +1,7 @@
 ﻿---
 title: "LinkedIn pour les Jeunes Diplômés Supply Chain : Guide Complet"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "LinkedIn jeune diplômé supply chain Maroc, profil LinkedIn logistique étudiant, optimiser LinkedIn supply chain junior, LinkedIn emploi supply chain"
 description: "Comment construire un profil LinkedIn percutant quand on est jeune diplômé supply chain au Maroc ? Titre, résumé, expériences, activité — guide étape par étape."

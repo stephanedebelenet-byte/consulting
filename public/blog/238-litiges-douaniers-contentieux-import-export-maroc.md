@@ -1,7 +1,7 @@
 ---
 title: "Litiges Douaniers et Contentieux Import-Export : Éviter les Pièges Coûteux"
 date: "2026-08-27"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "litige douanier maroc import export, contentieux douanier maroc, recours douane maroc, offre transactionnelle douane"
@@ -36,11 +36,11 @@ Le contentieux douanier marocain suit une procédure structurée — réclamatio
 
 Votre entreprise fait face à une notification ou un contrôle douanier, ou souhaite auditer ses pratiques déclaratives en amont ? [Découvrez nos services de conseil douane et supply chain](/conseil), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Douane.gov.ma — Section 02 : la nature du contentieux en douane](https://www.douane.gov.ma/dms/loadDocument?documentId=30860&application=rdii)

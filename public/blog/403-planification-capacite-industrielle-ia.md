@@ -1,7 +1,7 @@
 ---
 title: "Planifier sa Capacité Industrielle avec l'IA"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "planification capacité industrielle ia, arbitrage heures supplémentaires ia, sous-traitance vs stock ia, ia capacité production arbitrage, planification usine ia maroc"
@@ -38,8 +38,8 @@ L'IA permet de chiffrer rapidement les trois options classiques d'absorption d'u
 
 Vous voulez structurer vos arbitrages de capacité industrielle ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

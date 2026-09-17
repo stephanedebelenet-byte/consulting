@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain BTP : Gérer la Pénurie et la Volatilité des Prix du Matériel de Chantier"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "supply chain BTP maroc pénurie matériel, prix matériaux construction maroc, sonasid acier ciment maroc"
@@ -36,11 +36,11 @@ La supply chain BTP marocaine doit composer avec deux dynamiques distinctes — 
 
 Vous voulez sécuriser votre approvisionnement matériaux face à la volatilité des prix ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [FNH — Prix des matériaux de construction : les promoteurs et les opérateurs du BTP dans l'expectative](https://fnh.ma/article/actualite-economique/prix-des-materiaux-de-construction-les-promoteurs-et-les-operateurs-du-btp-dans-l-expectative)

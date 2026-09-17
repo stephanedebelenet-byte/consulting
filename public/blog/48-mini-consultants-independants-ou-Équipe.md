@@ -1,7 +1,7 @@
 ---
 title: "Consultants Indépendants ou Équipe ?"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Une équipe structurée — Nextinotech compte environ 5 consultants organisés en trois profils : consultants seniors certifiés DDMRP, consultants juniors formés en interne, et une équipe administrative dédiée au suivi de chaque mission."
@@ -33,8 +33,8 @@ La question "indépendant ou équipe" a une réponse simple pour Nextinotech : �
 
 **Notre approche.** Chaque mission est pilotée par un consultant senior, appuyé par l'équipe — jamais un consultant isolé sans filet.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

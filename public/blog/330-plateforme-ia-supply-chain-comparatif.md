@@ -1,7 +1,7 @@
 ---
 title: "Build, Buy ou Embedded : Quelle Plateforme IA pour votre Supply Chain"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "plateforme ia supply chain comparatif, build vs buy ia entreprise, ia native erp sap odoo, choisir outil ia supply chain maroc, o9 kinaxis blue yonder"
@@ -43,8 +43,8 @@ Build, buy ou embedded ne sont pas trois options équivalentes : elles correspon
 
 Vous hésitez entre plusieurs plateformes IA pour votre supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour un arbitrage objectif, sans commission éditeur.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

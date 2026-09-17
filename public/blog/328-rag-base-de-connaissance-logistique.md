@@ -1,7 +1,7 @@
 ---
 title: "RAG et Base de Connaissance Interne : l'Assistant qui Connaît vos Procédures"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "rag base de connaissance logistique, assistant ia procédures wms, chatbot interne entreprise maroc, rag entreprise supply chain, ia procédures qualité"
@@ -46,8 +46,8 @@ Le RAG transforme vos procédures internes en assistant interrogeable, avec des 
 
 Vous voulez transformer vos procédures en assistant interne fiable ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact). Formez vos équipes documentaires via notre [catalogue de formations](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

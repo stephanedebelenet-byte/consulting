@@ -1,7 +1,7 @@
 ---
 title: "IA Supply Chain : LLM, IA Prédictive ou RPA — Quel Outil pour Quel Problème"
 date: "2026-09-02"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "ia générative vs prédictive supply chain, llm rpa supply chain, choisir outil ia logistique maroc, automatisation supply chain, ia achats maroc"
@@ -51,8 +51,8 @@ Prédictif pour estimer, génératif pour le texte, RPA pour les règles fixes. 
 
 Vous hésitez sur la techno à engager ? Notre [Étude de Faisabilité SI](/conseil) cadre le besoin et le business case avant tout achat. [Contactez-nous](/contact) ou explorez notre [catalogue de formations](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

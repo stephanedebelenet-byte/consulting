@@ -1,7 +1,7 @@
 ﻿---
 title: "ROI d'une Formation Supply Chain : Comment le Calculer et le Justifier"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "ROI formation supply chain, retour sur investissement formation logistique, justifier budget formation supply chain, valeur formation logistique"
 description: "Comment calculer le ROI d'une formation supply chain et le justifier à sa direction ? Méthode, exemples chiffrés et modèle de présentation pour convaincre en 5 minutes."
@@ -114,7 +114,7 @@ Cette démarche avant/après transforme le ROI estimé en ROI prouvé — et fac
 
 Chaque programme Nextinotech inclut une définition des KPIs à mesurer avant et après formation, et un suivi à 3 mois pour quantifier les résultats réels.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

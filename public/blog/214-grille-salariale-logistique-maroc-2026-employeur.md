@@ -1,7 +1,7 @@
 ---
 title: "Grille Salariale Logistique et Supply Chain Maroc 2026 : Benchmark Employeur"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "grille salariale logistique maroc 2026, salaire supply chain maroc employeur, coût recrutement logistique maroc, charges patronales maroc"
@@ -46,13 +46,13 @@ Trois réflexes pratiques pour un employeur : intégrer systématiquement les ch
 
 Une grille salariale n'est utile à un employeur que si elle intègre le coût réel — charges comprises — et la réalité géographique du marché, pas seulement une moyenne nationale de salaire brut. Les entreprises qui budgétisent sur cette base évitent les deux écueils classiques : sous-payer et perdre leurs recrues en quelques mois, ou surpayer sans levier de rétention réel.
 
-Vous voulez benchmarker vos postes supply chain ou logistique face au marché réel ? [Découvrez nos formations](/formation) en management et pilotage d'équipes, ou [contactez-nous](/contact) pour un premier échange gratuit. Plutôt que de recruter au prix fort, faire monter en compétences un collaborateur en place via notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC/participant, dès 5 participants en intra-entreprise) est souvent l'option la plus rentable.
+Vous voulez benchmarker vos postes supply chain ou logistique face au marché réel ? [Découvrez nos formations](/formation) en management et pilotage d'équipes, ou [contactez-nous](/contact) pour un premier échange gratuit. Plutôt que de recruter au prix fort, faire monter en compétences un collaborateur en place via notre programme **[Devenir Responsable Logistique](/formation-rl)** (1 journée, 1 500 MAD TTC/participant, dès 5 participants en intra-entreprise) est souvent l'option la plus rentable.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Jobsquare.ma — Salaires logistique et supply chain au Maroc en 2026](https://www.jobsquare.ma/blog/salaires-logistique-supply-chain-maroc/)

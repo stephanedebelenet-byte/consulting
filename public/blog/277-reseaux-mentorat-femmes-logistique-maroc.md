@@ -1,7 +1,7 @@
 ---
 title: "Réseaux et Mentorat pour Femmes en Logistique : ce qui Existe (et Manque) au Maroc"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "réseau femmes logistique maroc, mentorat femmes maroc, association femmes leadership maroc"
@@ -36,11 +36,11 @@ Le Maroc dispose de réseaux de mentorat féminin généralistes solides, mais a
 
 Vous voulez structurer un mentorat interne pour les femmes de vos équipes supply chain ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Fondation des Femmes de l'Euro-Méditerranée — Réseau de Femmes pour le Mentoring/Networking (RFMN)](https://www.euromedwomen.foundation/pg/fr/profile/nadiaelfassi)

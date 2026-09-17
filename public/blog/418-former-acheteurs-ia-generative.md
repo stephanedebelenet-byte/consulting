@@ -1,7 +1,7 @@
 ---
 title: "Former ses Acheteurs à l'IA Générative : le Programme en 5 Modules"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "formation ia acheteurs générative, programme formation ia achats, former équipe achats ia, module formation ia acheteur maroc, formation ia générative achats"
@@ -40,8 +40,8 @@ Un programme de formation IA pour acheteurs efficace se structure en 5 modules p
 
 Vous voulez former votre équipe achats à l'IA générative ? [Découvrez notre catalogue de formations](/formation) ou notre [Direction Achats à temps partagé](/directeur-achats-mi-temps). [Contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

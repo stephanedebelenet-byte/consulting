@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain as a Service : ce que l'IA Rend Possible pour les PME"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "supply chain as a service ia maroc, dsc externalisée ia, service supply chain à la demande, pilotage supply chain externalisé ia, supply chain à la carte maroc"
@@ -38,8 +38,8 @@ L'IA rend viable un modèle de supply chain as a service pour les PME marocaines
 
 Vous êtes dans cette zone intermédiaire et voulez explorer ce modèle ? [Découvrez notre offre](/direction-supply-chain-temps-partage) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

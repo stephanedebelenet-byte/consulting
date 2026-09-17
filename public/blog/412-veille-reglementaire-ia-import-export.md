@@ -1,7 +1,7 @@
 ---
 title: "IA et Veille Réglementaire Import-Export : Suivre sans y Passer ses Journées"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "veille réglementaire ia import export, ia suivi accords commerciaux, veille sanctions commerciales ia, ia réglementation douanière maroc, veille commerce international ia"
@@ -38,8 +38,8 @@ Une veille réglementaire import-export assistée par IA synthétise en continu 
 
 Vous voulez structurer votre veille réglementaire import-export ? [Découvrez notre offre de conseil](/conseil) ou notre [accompagnement OEA](/accompagnement-oea). [Contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

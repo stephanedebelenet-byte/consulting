@@ -1,7 +1,7 @@
 ﻿---
 title: "Comment Choisir sa Formation Supply Chain au Maroc : Le Guide 2026"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "formation supply chain Maroc, choisir formation logistique, meilleure formation supply chain, formation certifiante logistique Maroc"
 description: "Comment choisir la bonne formation supply chain au Maroc en 2026 ? Critères, pièges à éviter, comparatif des formats — le guide complet pour ne pas se tromper."
@@ -90,7 +90,7 @@ Nextinotech propose des formations supply chain conçues par des praticiens pour
 
 Formats disponibles : présentiel Casablanca, intra-entreprise, et accompagnement individuel.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour recevoir le catalogue complet :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

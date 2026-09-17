@@ -1,7 +1,7 @@
 ---
 title: "Assistant IA et Voix pour le Cariste : Préparation et Formation"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "assistant ia entrepôt cariste, voice picking nouvelle génération, aide au contrôle cariste ia, formation terrain cariste ia, ia préparation commande entrepôt"
@@ -38,8 +38,8 @@ L'assistant IA vocal en entrepôt accélère la formation des nouveaux caristes 
 
 Vous voulez évaluer ce cas d'usage pour votre entrepôt ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

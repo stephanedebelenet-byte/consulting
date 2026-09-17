@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Acheteur Supply Chain au Maroc : Négociation, Sourcing et Pilotage Fournisseurs 2026"
 date: "2026-08-04"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/conseil.webp"
 keywords: "formation acheteur supply chain maroc, formation négociation achats maroc, sourcing fournisseurs maroc, formation pilotage fournisseurs maroc, achats stratégiques supply chain maroc"
 description: "Formation acheteur supply chain au Maroc : négociation, sourcing, évaluation fournisseurs et réduction des coûts. Programme avancé pour acheteurs et responsables achats en supply chain."
@@ -179,7 +179,7 @@ Nextinotech forme les acheteurs et responsables achats supply chain au Maroc dep
 - Formation Pilotage Fournisseurs et KPIs (1 jour)
 - Préparation à la certification CIPS (modules étalés sur 2 à 4 mois)
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

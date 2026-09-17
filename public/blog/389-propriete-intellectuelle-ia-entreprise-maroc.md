@@ -1,7 +1,7 @@
 ---
 title: "IA et Propriété Intellectuelle : à qui Appartient un Plan Généré par IA"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "propriété intellectuelle ia entreprise maroc, à qui appartient contenu ia, droit d'auteur plan généré ia, propriété ia entreprise, ia contenu généré propriété"
@@ -38,8 +38,8 @@ Le contenu métier produit avec assistance IA reste la propriété de l'entrepri
 
 Vous avez des questions sur la propriété de vos contenus générés par IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

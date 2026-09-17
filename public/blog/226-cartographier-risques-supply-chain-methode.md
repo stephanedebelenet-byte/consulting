@@ -1,7 +1,7 @@
 ---
 title: "Cartographier les Risques de sa Supply Chain : la Méthode en 4 Étapes"
 date: "2026-08-24"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "cartographie risques supply chain, méthode PPRR supply chain, gestion des risques logistique maroc, audit risque fournisseur"
@@ -44,11 +44,11 @@ La méthode PPRR structure la gestion des risques de supply chain en quatre éta
 
 Vous voulez identifier les risques critiques de votre supply chain avant qu'ils ne se matérialisent ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un audit de cartographie des risques.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Resilient Services — PPRR Model & Framework: Prevention, Preparedness, Response, Recovery](https://resilientservices.com.au/pprr-emergency-management/)

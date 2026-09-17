@@ -1,7 +1,7 @@
 ---
 title: "Optimiser ses Origines Douanières avec l'IA sans Risque"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "origine douanière ia accord libre échange, optimiser origine douanière ia, ia règles d'origine maroc, exploiter accords libre-échange ia, ia droits préférentiels export"
@@ -38,8 +38,8 @@ L'IA aide à identifier les opportunités d'accords de libre-échange sous-explo
 
 Vous voulez optimiser l'exploitation de vos accords de libre-échange ? [Découvrez notre offre de conseil](/conseil) ou notre [accompagnement OEA](/accompagnement-oea). [Contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

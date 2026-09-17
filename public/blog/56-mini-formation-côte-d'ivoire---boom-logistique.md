@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Côte d'Ivoire : le boom logistique d'Abidjan et San Pedro"
 date: "2026-08-18"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Côte d'Ivoire, Port d'Abidjan, Port San Pedro, logistique Afrique de l'Ouest"
@@ -36,8 +36,8 @@ La Côte d'Ivoire consolide sa position de hub logistique ouest-africain sur deu
 
 Vous pilotez des flux entre le Maroc et l'Afrique de l'Ouest ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

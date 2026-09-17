@@ -1,7 +1,7 @@
 ---
 title: "IA et Besoin en Fonds de Roulement : Libérer du Cash Caché"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "ia bfr stock cash supply chain, libérer cash stock ia, réduire bfr ia maroc, ia trésorerie supply chain, optimisation cash caché stock"
@@ -38,8 +38,8 @@ L'IA permet d'identifier précisément où se cache le cash dans le stock — su
 
 Vous voulez identifier le cash caché dans vos stocks ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

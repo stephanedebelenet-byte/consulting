@@ -1,7 +1,7 @@
 ---
 title: "Automatiser le Traitement des Factures Fournisseurs avec l'IA (OCR + LLM)"
 date: "2026-09-06"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "automatisation factures fournisseurs ocr ia, traitement facture ia maroc, rapprochement 3 way match ia, comptabilité fournisseurs automatisation, p2p automatisation maroc"
@@ -50,8 +50,8 @@ L'IA automatise l'extraction et le rapprochement des factures fournisseurs et ne
 
 Vous voulez structurer votre fonction achats et son cycle P2P ? [Découvrez notre offre Performance Achats](/conseil) ou le [Directeur Achats à temps partagé](/directeur-achats-mi-temps). [Contactez-nous](/contact) ou formez vos acheteurs via notre [catalogue](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

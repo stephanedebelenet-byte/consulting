@@ -1,7 +1,7 @@
 ---
 title: "Construire son Premier Tableau de Bord IA Supply Chain sans Data Scientist"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "tableau de bord IA supply chain, no-code BI logistique, dashboard supply chain PME maroc, self-service BI"
@@ -36,11 +36,11 @@ Les outils no-code permettent à une PME marocaine de construire des tableaux de
 
 Vous voulez identifier les trois indicateurs qui méritent votre premier tableau de bord ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Hellosafe — Low-code et no-code : statistiques clés et tendances (2026)](https://hellosafe.fr/blog/rapport-statistique-no-code-low-code)
