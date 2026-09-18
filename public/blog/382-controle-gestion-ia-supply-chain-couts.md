@@ -12,13 +12,9 @@ description: "Comment un contrôle de gestion supply chain augmenté par IA dét
 
 ![Tableaux de données et graphiques analytiques](/images/analytics.webp)
 
-**Un contrôle de gestion classique détecte une dérive de coût transport ou de coût de stockage à la clôture mensuelle — trois à quatre semaines après que la dérive a commencé, quand le mois entier est déjà consommé. L'IA surveille les indicateurs de coût en continu, et signale la dérive dès qu'elle apparaît, pas au bilan de fin de mois.** Voici comment ce cas d'usage transforme le rôle du contrôleur de gestion supply chain.
+**Un contrôle de gestion classique détecte une dérive de coût transport ou de coût de stockage à la clôture mensuelle.** Trois à quatre semaines après que la dérive a commencé, autrement dit, quand le mois entier est déjà consommé et qu'il ne reste plus qu'à constater les dégâts. L'IA change ce rythme : elle surveille les indicateurs de coût en continu, et signale la dérive dès qu'elle apparaît, pas au bilan de fin de mois. Voici comment ce cas d'usage transforme le rôle du contrôleur de gestion supply chain.
 
-## Ce que la surveillance continue détecte
-
-- **Dérive de coût transport** : hausse anormale du coût par kilomètre ou par palette, avant la facture consolidée mensuelle.
-- **Dérive de coût de stockage** : surcoût lié à un surstock non planifié, détecté avant qu'il n'impacte le résultat du mois.
-- **Écarts entre coût standard et coût réel** par référence, catégorisés par cause probable.
+Trois types de dérives ressortent le plus souvent d'une surveillance continue. La dérive de coût transport d'abord : une hausse anormale du coût par kilomètre ou par palette, repérée avant la facture consolidée mensuelle plutôt qu'avec elle. La dérive de coût de stockage ensuite, liée à un surstock non planifié, détectée avant qu'elle n'impacte le résultat du mois en cours. Et les écarts entre coût standard et coût réel par référence, enfin, catégorisés directement par cause probable plutôt que laissés à une analyse rétrospective fastidieuse.
 
 ::stat:: 3 à 4 semaines — l'anticipation gagnée entre une détection continue de dérive de coût et une détection à la clôture mensuelle classique
 
@@ -34,7 +30,7 @@ description: "Comment un contrôle de gestion supply chain augmenté par IA dét
 
 ## Ce qu'il faut retenir
 
-Un contrôle de gestion supply chain augmenté par IA détecte les dérives de coûts plusieurs semaines avant la clôture mensuelle classique, transformant le rôle du contrôleur de gestion d'un constat rétrospectif en un pilotage en temps réel.
+Un contrôle de gestion supply chain augmenté par IA détecte les dérives de coûts plusieurs semaines avant la clôture mensuelle classique. Le rôle du contrôleur de gestion s'en trouve transformé : moins un constat rétrospectif après coup, davantage un pilotage en temps réel qui permet d'agir pendant que le mois se déroule encore.
 
 Vous voulez surveiller vos coûts logistiques en continu ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
