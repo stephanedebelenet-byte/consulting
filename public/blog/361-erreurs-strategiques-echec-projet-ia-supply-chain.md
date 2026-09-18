@@ -12,17 +12,7 @@ description: "Les 7 erreurs stratégiques les plus fréquentes qui font échouer
 
 ![Réunion de conseil et accompagnement stratégique](/images/conseil.webp)
 
-**La majorité des projets IA supply chain qui échouent ne le font pas à cause de la technologie — les modèles disponibles aujourd'hui sont largement suffisants pour la plupart des cas d'usage. Ils échouent pour des raisons stratégiques et organisationnelles, toujours les mêmes, que nous retrouvons mission après mission.** Voici les 7 erreurs les plus fréquentes.
-
-## Les 7 erreurs, dans l'ordre où elles apparaissent
-
-1. **Viser une plateforme ambitieuse avant d'avoir traité la donnée** — voir [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue).
-2. **Piloter le projet uniquement par l'IT**, sans sponsor métier engagé.
-3. **Lancer plusieurs initiatives en parallèle**, diluant budget et attention.
-4. **Négliger la conduite du changement**, en pensant que l'outil suffit à l'adoption.
-5. **Ne pas mesurer de baseline** avant déploiement, rendant tout ROI invérifiable.
-6. **Ignorer la conformité des données** dès la conception du projet, pas après.
-7. **Confondre un pilote réussi avec un déploiement réussi** — ce sont deux étapes différentes, avec des contraintes différentes.
+**La majorité des projets IA supply chain qui échouent ne le font pas à cause de la technologie.** Les modèles disponibles aujourd'hui sont largement suffisants pour la plupart des cas d'usage. Ils échouent pour des raisons stratégiques et organisationnelles — toujours les mêmes, que nous retrouvons mission après mission.
 
 ::stat:: 70% — part des projets IA qui échouent pour des raisons organisationnelles et stratégiques, pas technologiques, selon les retours de mission consolidés
 
@@ -34,11 +24,21 @@ description: "Les 7 erreurs stratégiques les plus fréquentes qui font échouer
 | Pas de sponsor métier | Les réunions de suivi sont annulées ou reportées |
 | Dispersion | Plus de 3 projets IA lancés la même année |
 
+## Les 7 erreurs, dans l'ordre où elles apparaissent
+
+1. **Viser une plateforme ambitieuse avant d'avoir traité la donnée** — voir [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue).
+2. **Piloter le projet uniquement par l'IT**, sans sponsor métier réellement engagé.
+3. **Lancer plusieurs initiatives en parallèle**, diluant budget et attention entre elles.
+4. **Négliger la conduite du changement**, en pensant à tort que l'outil suffit à l'adoption.
+5. **Ne pas mesurer de baseline** avant déploiement, ce qui rend tout ROI invérifiable par la suite.
+6. **Ignorer la conformité des données** dès la conception du projet, pas une fois le pilote lancé.
+7. **Confondre un pilote réussi avec un déploiement réussi** — ce sont deux étapes différentes, avec des contraintes différentes.
+
 > **Un projet IA qui échoue coûte souvent plus cher en crédibilité future qu'en budget consommé.** Une équipe qui a vécu un échec devient beaucoup plus difficile à mobiliser pour la tentative suivante — c'est pour cela que le séquençage et la préparation comptent plus que la vitesse de lancement.
 
 ## Ce qu'il faut retenir
 
-Les projets IA supply chain échouent majoritairement pour des raisons stratégiques — donnée non prête, absence de sponsor métier, dispersion, conduite du changement négligée — jamais pour des raisons purement technologiques. Éviter ces 7 erreurs vaut plus que choisir le meilleur outil du marché.
+Les projets IA supply chain échouent majoritairement pour des raisons stratégiques — donnée non prête, absence de sponsor métier, dispersion, conduite du changement négligée —, presque jamais pour des raisons purement technologiques. Éviter ces 7 erreurs vaut, dans notre expérience, largement plus que choisir le meilleur outil du marché.
 
 Vous voulez sécuriser votre prochain projet IA supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour un cadrage préalable.
 
