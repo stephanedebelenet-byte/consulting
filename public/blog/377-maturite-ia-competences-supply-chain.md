@@ -12,14 +12,9 @@ description: "Une grille simple pour évaluer la maturité IA de vos collaborate
 
 ![Bureau avec ordinateur, notes et documents professionnels](/images/office.webp)
 
-**Former toute une équipe achats ou logistique avec le même programme IA, au même rythme, ignore une réalité simple : certains collaborateurs utilisent déjà l'IA quotidiennement de façon informelle, d'autres n'ont jamais ouvert un outil. Un plan de formation uniforme ennuie les premiers et perd les seconds.** Voici une grille simple pour évaluer la maturité réelle avant de former.
+**Former toute une équipe achats ou logistique avec le même programme IA, au même rythme, ignore une réalité simple.** Certains collaborateurs utilisent déjà l'IA quotidiennement de façon informelle, d'autres n'ont jamais ouvert un outil de leur vie professionnelle. Un plan de formation uniforme ennuie les premiers et perd complètement les seconds — le pire des deux résultats possibles. Une grille simple en quatre niveaux permet d'évaluer la maturité réelle avant de former qui que ce soit.
 
-## La grille en 4 niveaux
-
-1. **Novice** : n'a jamais utilisé d'outil IA générative, même à titre personnel.
-2. **Utilisateur occasionnel** : a testé un outil, sans usage régulier ni structuré.
-3. **Utilisateur régulier** : utilise l'IA plusieurs fois par semaine sur des tâches personnelles ou professionnelles simples.
-4. **Utilisateur avancé** : a développé ses propres prompts et cas d'usage métier, pourrait former ses pairs.
+Le novice n'a jamais utilisé d'outil IA générative, même à titre personnel — il part de zéro, et ce n'est pas un problème en soi. L'utilisateur occasionnel a testé un outil, sans usage régulier ni structuré derrière. L'utilisateur régulier, lui, s'en sert plusieurs fois par semaine sur des tâches personnelles ou professionnelles simples. Et l'utilisateur avancé a déjà développé ses propres prompts et cas d'usage métier ; il pourrait souvent former ses pairs, à condition qu'on lui en donne l'occasion.
 
 ::stat:: 4 groupes — le nombre de sous-groupes qu'une formation IA supply chain devrait constituer pour rester efficace, plutôt qu'un programme unique pour toute l'équipe
 
@@ -36,7 +31,7 @@ description: "Une grille simple pour évaluer la maturité IA de vos collaborate
 
 ## Ce qu'il faut retenir
 
-Évaluer la maturité IA de chaque collaborateur avant de former permet de constituer des groupes homogènes et d'identifier les utilisateurs avancés qui peuvent devenir formateurs internes. C'est un préalable de 15 minutes par personne qui change radicalement l'efficacité d'un plan de formation.
+Évaluer la maturité IA de chaque collaborateur avant de former permet de constituer des groupes homogènes et d'identifier les utilisateurs avancés qui peuvent devenir formateurs internes. Ce préalable de quinze minutes par personne change souvent, à lui seul, l'efficacité perçue d'un plan de formation entier.
 
 Vous voulez évaluer la maturité IA de vos équipes avant de former ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Nos [formations](/formation) s'adaptent à chaque niveau.
 
