@@ -12,15 +12,7 @@ description: "Comment l'IA aide à arbitrer entre heures supplémentaires, sous-
 
 ![Graphiques et tableaux de planification](/images/charts.webp)
 
-**Face à un pic de charge annoncé, une direction industrielle a généralement trois options — heures supplémentaires, sous-traitance externe, ou constitution de stock en amont — et arbitre souvent selon l'habitude plutôt que selon un calcul comparé des coûts et des risques réels de chaque option pour la situation précise. L'IA permet de chiffrer rapidement ces trois scénarios avant de décider.** Voici comment structurer cet arbitrage.
-
-## Les trois options, chiffrées systématiquement
-
-- **Heures supplémentaires** : coût direct connu, mais capacité limitée et fatigue des équipes à surveiller.
-- **Sous-traitance externe** : capacité flexible, mais délai de mise en place et risque qualité à contrôler.
-- **Stock constitué en amont** : lisse la charge, mais immobilise du cash et suppose une demande bien anticipée.
-
-::stat:: 3 scénarios chiffrés en quelques minutes, contre plusieurs jours de calcul manuel pour comparer heures sup, sous-traitance et stock
+Face à un pic de charge annoncé, une direction industrielle dispose en général de trois options : heures supplémentaires, sous-traitance externe, ou constitution de stock en amont. Le choix se fait trop souvent par habitude — la même option reconduite d'une année sur l'autre — plutôt que par un calcul comparé des coûts et des risques réels pour la situation précise. **L'IA permet de chiffrer rapidement ces trois scénarios avant de décider**, en quelques minutes plutôt qu'en plusieurs jours de calcul manuel.
 
 ## Le tableau d'arbitrage par situation
 
@@ -29,6 +21,14 @@ description: "Comment l'IA aide à arbitrer entre heures supplémentaires, sous-
 | Pic ponctuel de courte durée | Heures supplémentaires |
 | Pic durable, capacité interne insuffisante | Sous-traitance externe qualifiée |
 | Demande prévisible à l'avance, saisonnière | Stock constitué en amont |
+
+::stat:: 3 scénarios chiffrés en quelques minutes, contre plusieurs jours de calcul manuel pour comparer heures sup, sous-traitance et stock
+
+Chaque option a ses avantages et ses angles morts, qu'il vaut mieux chiffrer que deviner :
+
+- **Heures supplémentaires** : coût direct connu, mais capacité limitée et fatigue des équipes à surveiller.
+- **Sous-traitance externe** : capacité flexible, mais délai de mise en place et risque qualité à contrôler.
+- **Stock constitué en amont** : lisse la charge, mais immobilise du cash et suppose une demande bien anticipée.
 
 > **Le bon arbitrage n'est presque jamais la même option répétée par habitude, c'est la comparaison chiffrée des trois pour la situation précise du moment.** Une entreprise qui recourt systématiquement aux heures supplémentaires par réflexe paie souvent plus cher qu'une sous-traitance ponctuelle bien négociée. Complète notre article sur les [scénarios S&OP simulés par IA](/blog/gnrer-ses-scnarios-sop-avec-lia-simuler-ruptures-et-arbitrag).
 

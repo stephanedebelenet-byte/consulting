@@ -12,15 +12,7 @@ description: "Comment l'IA analyse le TRS (taux de rendement synthétique) pour 
 
 ![Chantier BTP et industrie lourde](/images/construction.webp)
 
-**Le taux de rendement synthétique (TRS ou OEE) décompose la performance d'une ligne en trois pertes — disponibilité, performance, qualité — mais calculer ce décomposé manuellement, ligne par ligne, prend souvent des semaines d'analyse. L'IA automatise ce calcul à partir des données déjà collectées par les capteurs et le MES, révélant en 48 heures où se cachent réellement les pertes de rendement.** Voici comment ce cas d'usage accélère la démarche d'amélioration continue.
-
-## Les trois pertes que l'IA décompose rapidement
-
-- **Perte de disponibilité** : arrêts planifiés et non planifiés, changements de série.
-- **Perte de performance** : écart entre la cadence théorique et la cadence réelle observée.
-- **Perte de qualité** : rebuts, retouches, non-conformités en sortie de ligne.
-
-::stat:: 48 heures — délai typique pour obtenir une décomposition TRS fiable par ligne avec analyse assistée par IA, contre plusieurs semaines en analyse manuelle
+Le taux de rendement synthétique (TRS, ou OEE) décompose la performance d'une ligne en trois pertes : disponibilité, performance, qualité. Calculer ce décomposé manuellement, ligne par ligne, prend souvent des semaines d'analyse — le temps que la ligne suivante ait déjà changé de configuration. **L'IA automatise ce calcul à partir des données déjà collectées par les capteurs et le MES**, révélant en 48 heures où se cachent réellement les pertes de rendement.
 
 ## Le tableau des priorités d'action par type de perte
 
@@ -29,6 +21,14 @@ description: "Comment l'IA analyse le TRS (taux de rendement synthétique) pour 
 | Disponibilité | Réduire les arrêts non planifiés — voir maintenance prédictive |
 | Performance | Analyser les écarts de cadence par poste et par référence |
 | Qualité | Cibler les rebuts récurrents par cause racine |
+
+::stat:: 48 heures — délai typique pour obtenir une décomposition TRS fiable par ligne avec analyse assistée par IA, contre plusieurs semaines en analyse manuelle
+
+Les trois pertes se décomposent ainsi :
+
+- **Perte de disponibilité** : arrêts planifiés et non planifiés, changements de série.
+- **Perte de performance** : écart entre la cadence théorique et la cadence réelle observée.
+- **Perte de qualité** : rebuts, retouches, non-conformités en sortie de ligne.
 
 > **Un TRS calculé une fois par mois pour un rapport de direction ne permet aucune action ; un TRS décomposé rapidement, ligne par ligne, permet de cibler l'investissement d'amélioration continue là où il rapporte le plus.** Complète notre article sur la [détection de défauts par vision IA](/blog/dtection-de-dfauts-en-ligne-de-production-par-vision-ia).
 
