@@ -12,13 +12,7 @@ description: "Ce qui va réellement changer pour la supply chain marocaine d'ici
 
 ![Entrepôt et chaîne logistique moderne](/images/hero-supply-chain.webp)
 
-**Prédire l'avenir de l'IA en supply chain avec certitude serait malhonnête — le rythme des annonces dépasse régulièrement les prévisions les plus prudentes comme les plus audacieuses. Ce qui est possible, en revanche, c'est d'extrapoler raisonnablement les tendances déjà solidement engagées aujourd'hui, et de distinguer ce qui va probablement se généraliser de ce qui restera marginal malgré le bruit médiatique.** Voici notre lecture, sans emballement ni scepticisme excessif.
-
-## Ce qui va probablement se généraliser d'ici 2027
-
-- **L'IA agentique** — des systèmes qui exécutent des tâches multi-étapes de façon autonome, sous supervision — dépassera le stade du pilote pour devenir un standard opérationnel dans les grandes entreprises marocaines.
-- **La gouvernance IA** deviendra une exigence contractuelle standard dans les appels d'offres et les cahiers des charges, pas seulement une bonne pratique recommandée.
-- **La compétence IA appliquée au métier** deviendra un critère de recrutement explicite pour les postes supply chain de niveau intermédiaire et supérieur.
+Prédire l'avenir de l'IA en supply chain avec certitude serait malhonnête : le rythme des annonces dépasse régulièrement les prévisions les plus prudentes comme les plus audacieuses. Ce qui reste possible, en revanche, c'est d'extrapoler raisonnablement les tendances déjà solidement engagées aujourd'hui, et de distinguer ce qui va probablement se généraliser de ce qui restera marginal malgré le bruit médiatique. **Voici notre lecture, sans emballement ni scepticisme excessif.**
 
 ## Ce qui restera probablement marginal
 
@@ -30,11 +24,17 @@ description: "Ce qui va réellement changer pour la supply chain marocaine d'ici
 
 ::stat:: 3 ans — l'écart de maturité qui devrait subsister entre les grands groupes internationaux présents au Maroc et la majorité des PME locales, sauf accélération volontariste de ces dernières
 
+## Ce qui va probablement se généraliser d'ici 2027
+
+- **L'IA agentique** — des systèmes qui exécutent des tâches multi-étapes de façon autonome, sous supervision — dépassera le stade du pilote pour devenir un standard opérationnel dans les grandes entreprises marocaines.
+- **La gouvernance IA** deviendra une exigence contractuelle standard dans les appels d'offres et les cahiers des charges, pas seulement une bonne pratique recommandée.
+- **La compétence IA appliquée au métier** deviendra un critère de recrutement explicite pour les postes supply chain de niveau intermédiaire et supérieur.
+
 > **Le vrai risque pour une entreprise marocaine n'est pas de se tromper sur la prédiction exacte de 2027, c'est de rester au niveau 2026 pendant que l'écart de maturité avec les leaders continue de se creuser.** Voir notre [benchmark de maturité IA](/blog/benchmark-ia-supply-chain-o-se-situe-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 
-D'ici 2027, l'IA agentique, la gouvernance contractuelle et la compétence IA appliquée au métier devraient se généraliser en supply chain marocaine, tandis que le remplacement complet des équipes et l'autonomie totale sans supervision resteront probablement marginaux. L'enjeu pour une entreprise n'est pas de prédire l'exact, mais de ne pas rester immobile.
+D'ici 2027, l'IA agentique, la gouvernance contractuelle et la compétence IA appliquée au métier devraient se généraliser en supply chain marocaine — tandis que le remplacement complet des équipes et l'autonomie totale sans supervision resteront probablement marginaux. L'enjeu pour une entreprise n'est pas de deviner l'exact, mais simplement de ne pas rester immobile.
 
 Vous voulez préparer votre entreprise aux prochaines années d'IA supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Nos [formations](/formation) accompagnent cette montée en compétence continue.
 
