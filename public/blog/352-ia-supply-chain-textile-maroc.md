@@ -12,13 +12,15 @@ description: "Playbook IA pour le textile-habillement marocain : prévision de c
 
 ![Réunion professionnelle avec documents et échanges](/images/business.webp)
 
-**Le textile marocain vit sur des cycles courts, des quantités minimales de commande contraignantes et une pression permanente de réassort rapide — un terrain où l'avantage nearshoring face à l'Asie se joue justement sur la vitesse de décision, pas sur le coût unitaire. L'IA y trouve sa place en accélérant exactement les décisions où chaque semaine gagnée compte.** Voici les cas d'usage prioritaires du secteur.
+**Le textile marocain vit sur des cycles courts, des quantités minimales de commande contraignantes et une pression permanente de réassort rapide.** L'avantage nearshoring face à l'Asie s'y joue sur la vitesse de décision, pas sur le seul coût unitaire — un point que beaucoup de donneurs d'ordre continuent de sous-estimer. L'IA trouve sa place en accélérant exactement les décisions où chaque semaine gagnée compte.
 
 ## Trois cas d'usage à fort enjeu de vitesse
 
-- **Prévision de collection** : estimer la demande par référence avant même la première commande réelle, à partir de collections comparables passées.
-- **Sourcing de tissu et matières** : identifier et comparer rapidement des fournisseurs alternatifs en cas de tension d'approvisionnement.
-- **Arbitrage nearshoring vs sourcing lointain** : chiffrer en temps réel le compromis coût/délai selon la saisonnalité de la commande.
+1. **Prévision de collection** : estimer la demande par référence avant même la première commande réelle, à partir de collections comparables passées.
+2. **Sourcing de tissu et matières** : identifier et comparer rapidement des fournisseurs alternatifs en cas de tension d'approvisionnement.
+3. **Arbitrage nearshoring vs sourcing lointain** : chiffrer en temps réel le compromis coût/délai selon la saisonnalité de la commande.
+
+Sur une mission dans ce secteur, la question qui revenait le plus souvent n'était pas « faut-il produire ici ou en Asie », mais « en combien de temps peut-on trancher » — c'est cette rapidité de décision, plus que l'écart de coût lui-même, qui fait gagner ou perdre une vente en rayon.
 
 ::stat:: 6 à 8 semaines — avantage délai typique du nearshoring marocain sur l'Asie pour un réassort rapide, un avantage que la vitesse de décision doit exploiter
 
@@ -34,7 +36,7 @@ description: "Playbook IA pour le textile-habillement marocain : prévision de c
 
 ## Ce qu'il faut retenir
 
-Dans le textile-habillement marocain, l'IA accélère la prévision de collection, le sourcing alternatif de tissu et l'arbitrage nearshoring — trois décisions où la vitesse d'exécution est l'avantage compétitif principal face à l'Asie.
+Dans le textile-habillement marocain, l'IA accélère trois décisions où la vitesse d'exécution reste l'avantage compétitif principal face à l'Asie : la prévision de collection, le sourcing alternatif de tissu et l'arbitrage nearshoring.
 
 Vous opérez dans le textile et voulez accélérer vos décisions de réassort ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 
