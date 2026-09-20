@@ -19,6 +19,14 @@ const ROW1 = [
   'Mars',
   'OCP',
   'Marjane',
+  'Stellantis',
+  'Fondation Mohammed V',
+  'GIZ',
+  'Sapress',
+  'Logiphar',
+  'ECU World',
+  'Tirso',
+  'Nigerian Ports Authority',
 ]
 
 const ROW2 = [

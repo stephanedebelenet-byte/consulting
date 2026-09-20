@@ -85,3 +85,5 @@ Session de 90 minutes pour auditer et optimiser votre profil LinkedIn : titre, r
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200
+
+> Un profil LinkedIn soigné mérite une prise de contact à la hauteur en salon ou en rendez-vous — beaucoup de nos consultants sont passés à la [carte de visite digitale NFC](/solutions/carte-visite-digitale-nfc) pour ça.

@@ -38,6 +38,8 @@ Vous voulez évaluer si votre volume justifie un investissement en automatisatio
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
+> À côté du tri robotisé, beaucoup de sites gagnent d'abord en fiabilité avec une base de [traçabilité RFID bien posée](/solutions/marquage-et-tracabilite) — un préalable souvent sous-estimé avant tout projet d'automatisation.
+
 ---
 
 *20+ ans d'expertise terrain. 110+ missions. 0 commission.*

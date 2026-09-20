@@ -84,3 +84,5 @@ Nextinotech coache les professionnels supply chain dans la construction et l'act
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200
+
+> Pour activer ce réseau efficacement en événement ou en salon, une [carte de visite digitale NFC](/solutions/carte-visite-digitale-nfc) évite l'écueil classique du stock de cartes papier épuisé au pire moment.

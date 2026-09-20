@@ -13,6 +13,13 @@
  *      la racine "/").
  *   4. Aucune balise noindex n'est présente.
  *
+ * Vérifie aussi la complétude de public/llms.txt et public/llms-full.txt :
+ * toute page marquée `isOffer` (et non `hidden`) dans src/data/routeMeta.ts
+ * doit être référencée par son URL dans les deux fichiers — voir
+ * .offers-manifest.json, généré par le plugin de prérendu (vite.config.ts).
+ * Objectif : qu'une offre ajoutée au site ne puisse plus être oubliée de ces
+ * fichiers en silence (audit UI/UX, question "comment ne rater aucune offre").
+ *
  * Usage : node scripts/check-seo-consistency.mjs   (après `npm run build`)
  * Code de sortie : 1 si une incohérence est trouvée, 0 sinon.
  */
@@ -21,8 +28,11 @@ import { join, resolve } from 'node:path'
 
 const SITE = 'https://nextinotech.com'
 const ROOT = resolve(import.meta.dirname, '..')
-const SITEMAP_PATH = join(ROOT, 'public', 'sitemap.xml')
 const DIST_DIR = join(ROOT, 'dist')
+const SITEMAP_PATH = join(DIST_DIR, 'sitemap.xml')
+const OFFERS_MANIFEST_PATH = join(ROOT, '.offers-manifest.json')
+const LLMS_PATH = join(ROOT, 'public', 'llms.txt')
+const LLMS_FULL_PATH = join(ROOT, 'public', 'llms-full.txt')
 
 function fail(msg) {
   problems.push(msg)
@@ -106,6 +116,26 @@ for (const loc of locs) {
 }
 
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
+
+// ── Complétude llms.txt / llms-full.txt ────────────────────────────────────
+if (!existsSync(OFFERS_MANIFEST_PATH)) {
+  fail(`Manifeste des offres introuvable : ${OFFERS_MANIFEST_PATH} (relance "npm run build" pour le régénérer)`)
+} else {
+  const offerPaths = JSON.parse(readFileSync(OFFERS_MANIFEST_PATH, 'utf-8'))
+  const llmsTxt = existsSync(LLMS_PATH) ? readFileSync(LLMS_PATH, 'utf-8') : ''
+  const llmsFullTxt = existsSync(LLMS_FULL_PATH) ? readFileSync(LLMS_FULL_PATH, 'utf-8') : ''
+
+  let offersChecked = 0
+  for (const path of offerPaths) {
+    const url = SITE + path
+    offersChecked++
+    const inLlms = llmsTxt.includes(url) || llmsTxt.includes(path)
+    const inLlmsFull = llmsFullTxt.includes(url) || llmsFullTxt.includes(path)
+    if (!inLlms) fail(`Offre absente de llms.txt : ${path} (ajoute son URL, ou marque la route "hidden: true" dans routeMeta.ts si c'est volontaire)`)
+    if (!inLlmsFull) fail(`Offre absente de llms-full.txt : ${path} (ajoute son URL, ou marque la route "hidden: true" dans routeMeta.ts si c'est volontaire)`)
+  }
+  console.log(`[check-seo-consistency] ${offersChecked} offre(s) vérifiée(s) dans llms.txt / llms-full.txt.\n`)
+}
 
 if (problems.length > 0) {
   console.error(`❌ ${problems.length} incohérence(s) détectée(s) :\n`)

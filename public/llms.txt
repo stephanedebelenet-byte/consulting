@@ -30,11 +30,13 @@ Tarifs : formations inter-entreprises de 1 500 à 9 500 MAD TTC/participant ; fo
 
 Pages par ville (contexte économique local + programmes recommandés) : https://nextinotech.com/formation-logistique-casablanca, -rabat (Rabat-Kénitra, automobile Atlantic Free Zone), -tanger (Tanger Med, automobile, zones franches), -marrakech (tourisme, agroalimentaire), -agadir (Souss-Massa, export agrumes/primeurs, pêche, chaîne du froid), -fes (Fès-Meknès, agro-industrie). Sessions inter-entreprise en présentiel à Casablanca ; intra-entreprise partout au Maroc.
 
-Fiche détaillée par programme (objectifs, public, modules, tarif, financement, FAQ) : https://nextinotech.com/formation/<id> — ids : fondamentaux, sop, ddmrp, decideurs, wms, coaching, ia-supply-chain, lean-5s, six-sigma, amelioration-continue, management-equipes, conduite-changement, leadership, finance-chiffres, business-case, controle-gestion, chef-projet, agile-scrum, amoa-si, developpement-carriere, negociation-achats, prevenir-burnout, caces-cariste, preparateur-commandes, hse-entrepot, maturite-logistique. Le programme phare a sa page dédiée : https://nextinotech.com/formation-rl/
+Fiche détaillée par programme (objectifs, public, modules, tarif, financement, FAQ) : https://nextinotech.com/formation/<id> — ids : fondamentaux, sop, ddmrp, decideurs, wms, coaching, ia-supply-chain, lean-5s, six-sigma, amelioration-continue, management-equipes, conduite-changement, leadership, finance-chiffres, business-case, controle-gestion, chef-projet, agile-scrum, amoa-si, developpement-carriere, negociation-achats, prevenir-burnout, caces-cariste, preparateur-commandes, hse-entrepot, maturite-logistique. Le programme phare a sa page dédiée : https://nextinotech.com/formation-rl/. Formation dédiée aux porteurs de projet d'import : https://nextinotech.com/formation-import (prix de revient, fournisseurs, transport, douane, nomenclature, stockage).
 
 ## Services
 
 ### Conseil & AMOA
+Détail : https://nextinotech.com/conseil
+
 - Diagnostic Express Supply Chain (2 à 6 semaines)
 - Optimisation Stocks & DDMRP
 - Performance Achats (référence : -11% sur 710M MAD)
@@ -52,14 +54,20 @@ Fiche détaillée par programme (objectifs, public, modules, tarif, financement,
 - Control Tower / BI Supply Chain
 
 ### Direction Supply Chain à Temps Partagé
-Mandat DSC en 3 phases : État des lieux → Pilotage & Fondations → Passation
+Détail : https://nextinotech.com/direction-supply-chain-temps-partage
+
+Mandat DSC en 3 phases : État des lieux → Pilotage & Fondations → Passation. Déclinaisons par métier : https://nextinotech.com/directeur-logistique-mi-temps (direction logistique), https://nextinotech.com/directeur-achats-mi-temps (direction achats). Comparatif chiffré CDI vs mandat : https://nextinotech.com/dsc-vs-recrutement-cdi.
+
+### Accompagnement Statut OEA (Opérateur Économique Agréé)
+Détail : https://nextinotech.com/accompagnement-oea
+
+Cabinet d'accompagnement pour l'obtention du statut OEA auprès de l'ADII (Administration des Douanes) : diagnostic, mise en conformité, dossier de candidature, audit à blanc, coaching le jour de l'audit — simplifications douanières pour PME et ETI exportatrices/importatrices.
 
 ### Prestations Opérationnelles
 Catalogue : https://nextinotech.com/prestations
 
-- **Pack Inventaire** — inventaires physiques d'entrepôt en 3 paliers (petit/moyen/grand site), équipe et matériel dimensionnés selon la complexité du site
+- **Pack Inventaire** — inventaires physiques d'entrepôt en 3 paliers (petit/moyen/grand site), équipe et matériel dimensionnés selon la complexité du site. Deux publics : entreprises, et experts comptables recherchant un tiers de comptage indépendant pour certifier l'inventaire physique de fin d'exercice de leurs clients.
 - **7 Services Logistiques à Valeur Ajoutée** — Co-packing, Fardelage, Étiquetage/Marquage, Kitting, Mise en carton/Reconditionnement, Contrôle Qualité Visuel, Palettisation sur Mesure
-- **Imprimantes Industrielles Leibinger** — Nextinotech est distributeur/partenaire officiel Leibinger (fabricant allemand) au Maroc : conseil et fourniture d'imprimantes à jet d'encre continu pour le marquage et codage industriel (agroalimentaire, pharmacie, industrie)
 
 ## Références clients
 
@@ -68,6 +76,7 @@ Catalogue : https://nextinotech.com/prestations
 - **Groupe Addoha** — 710M MAD achats, 31 chantiers, -11% économies
 - **Task Force Vaccination nationale** — Expert Supply Chain COVID-19, cold chain national
 - **DHL, Huawei, J&J, OCP, P&G** — Missions conseil et formation
+- **Stellantis, Fondation Mohammed V, GIZ, Sapress, Logiphar, ECU World, Tirso, Nigerian Ports Authority** — Missions industrie, logistique et institutions, Maroc et Afrique
 - **110+ missions** — PME et ETI marocaines, tous secteurs
 
 ## Chiffres clés

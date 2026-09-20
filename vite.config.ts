@@ -3,13 +3,28 @@ import react from '@vitejs/plugin-react'
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs'
 import { resolve, join } from 'node:path'
 import { getPrerenderRoutes, type PrerenderRoute } from './src/data/routeMeta'
+import { slugify } from './src/utils/slugify'
+import { EVENEMENTS } from './src/data/evenements'
+import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides'
 
 const SITE = 'https://nextinotech.com'
+
+// Fichiers .md exclus du prérendu /blog/* car déplacés vers /evenements/
+// (voir src/data/evenements.ts et l'audit UI/UX — ce sont des pages
+// d'inscription à un webinaire, pas des articles éditoriaux).
+const EVENEMENT_FILES = new Set(EVENEMENTS.map((e) => e.file))
+
+// Ressources hors routes React (fichiers texte statiques) mais qui doivent
+// tout de même figurer dans le sitemap généré.
+const SITEMAP_EXTRAS: { loc: string; lastmod: string; changefreq: string; priority: number }[] = [
+  { loc: '/llms.txt', lastmod: '2026-08-05', changefreq: 'monthly', priority: 0.6 },
+  { loc: '/llms-full.txt', lastmod: '2026-08-05', changefreq: 'monthly', priority: 0.6 },
+]
 
 /* ── Articles de blog : scan des .md + génération d'un HTML statique par article ── */
 
 function blogSlug(title: string): string {
-  return title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').substring(0, 60)
+  return slugify(title)
 }
 
 function parseFrontmatter(md: string): Record<string, string> {
@@ -33,6 +48,7 @@ export function getBlogRoutes(): PrerenderRoute[] {
   const out: PrerenderRoute[] = []
   for (const file of readdirSync(dir)) {
     if (!file.endsWith('.md') || file.startsWith('_')) continue
+    if (EVENEMENT_FILES.has(file.replace(/\.md$/, ''))) continue
     const fm = parseFrontmatter(readFileSync(join(dir, file), 'utf-8'))
     if (!fm.title) continue
     const slug = blogSlug(fm.title)
@@ -70,6 +86,9 @@ export function getBlogRoutes(): PrerenderRoute[] {
       title: fm.title.length <= 52 ? `${fm.title} | Nextinotech` : fm.title,
       description: fm.description || fm.title,
       jsonLd: [jsonLd],
+      priority: BLOG_PRIORITY_OVERRIDES[slug] ?? 0.7,
+      changefreq: 'yearly',
+      lastmod: fm.date || undefined,
     })
   }
   return out
@@ -125,6 +144,46 @@ function renderRoute(shell: string, route: PrerenderRoute): string {
   return html
 }
 
+/* ── Sitemap : généré depuis la même liste de routes que le prérendu, pour
+   qu'aucune page réelle ne puisse manquer au sitemap (voir audit UI/UX —
+   avant ce changement, public/sitemap.xml était un fichier statique
+   recopié à la main, à l'origine de plusieurs oublis constatés). ── */
+
+function formatPriority(p: number | undefined): string {
+  const n = p ?? 0.6
+  // Number.toFixed(1) arrondirait 0.85 → "0.8" et 0.95 → "0.9" (perte de
+  // précision sur les valeurs à 2 décimales reprises telles quelles du
+  // sitemap précédent) — on préserve donc la valeur exacte, en ne forçant
+  // qu'un ".0" pour les entiers (1 → "1.0", comme la convention du site).
+  return Number.isInteger(n) ? n.toFixed(1) : String(n)
+}
+
+function generateSitemapXML(routes: PrerenderRoute[]): string {
+  const urlTag = (loc: string, lastmod: string | undefined, changefreq: string | undefined, priority: number | undefined) => {
+    const parts = [`<loc>${escapeHtml(loc)}</loc>`]
+    if (lastmod) parts.push(`<lastmod>${lastmod}</lastmod>`)
+    parts.push(`<changefreq>${changefreq ?? 'monthly'}</changefreq>`)
+    parts.push(`<priority>${formatPriority(priority)}</priority>`)
+    return `  <url>${parts.join('')}</url>`
+  }
+
+  const routeUrls = routes.map((r) =>
+    urlTag(canonicalFor(r.path), r.lastmod, r.changefreq, r.priority)
+  )
+  const extraUrls = SITEMAP_EXTRAS.map((e) =>
+    urlTag(SITE + e.loc, e.lastmod, e.changefreq, e.priority)
+  )
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...routeUrls, ...extraUrls].join('\n')}\n</urlset>\n`
+}
+
+/* ── Complétude llms.txt : toute page isOffer (et non hidden) doit être
+   référencée par son URL dans public/llms.txt et public/llms-full.txt.
+   Exporté pour être réutilisé par scripts/check-seo-consistency.mjs. ── */
+export function getOfferRoutes(): PrerenderRoute[] {
+  return [...getPrerenderRoutes(), ...getBlogRoutes()].filter((r) => r.isOffer && !r.hidden)
+}
+
 function prerenderHeads(): Plugin {
   return {
     name: 'nxt-prerender-heads',
@@ -155,6 +214,20 @@ function prerenderHeads(): Plugin {
       this.info?.(`prerender-heads: ${count} pages générées`)
       // eslint-disable-next-line no-console
       console.log(`\n[prerender-heads] ${count} pages HTML générées avec <head> statique`)
+
+      const sitemap = generateSitemapXML(routes)
+      writeFileSync(join(dist, 'sitemap.xml'), sitemap, 'utf-8')
+      const urlCount = routes.length + SITEMAP_EXTRAS.length
+      // eslint-disable-next-line no-console
+      console.log(`[prerender-heads] sitemap.xml généré (${urlCount} URLs)`)
+
+      // Liste des pages « offre » (isOffer && !hidden), matérialisée en JSON pour
+      // que scripts/check-seo-consistency.mjs (Node pur, sans support TS) puisse
+      // vérifier leur présence dans llms.txt / llms-full.txt sans réimporter ce
+      // fichier de config. Écrit hors de dist/ : artefact de build interne, pas
+      // un fichier à déployer (voir .gitignore).
+      const offerPaths = getOfferRoutes().map((r) => r.path)
+      writeFileSync(resolve('.offers-manifest.json'), JSON.stringify(offerPaths, null, 2), 'utf-8')
     },
   }
 }

@@ -202,6 +202,8 @@ Nextinotech accompagne les entreprises marocaines dans leurs projets d'automatis
 
 Contactez-nous pour une analyse préliminaire de votre potentiel d'automatisation : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
+> Un projet d'automatisation s'accompagne souvent d'un chantier de [marquage industriel et de traçabilité RFID](/solutions/marquage-et-tracabilite) — les deux sujets sont liés dès que les flux s'accélèrent.
+
 ---
 
 ## Conclusion

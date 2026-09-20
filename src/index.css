@@ -431,8 +431,6 @@ html.lenis { height: auto; }
   .dsc-declinaisons-grid { grid-template-columns: 1fr !important; }
   /* References / Conseil : teaser DSC 2 colonnes → 1 */
   .dsc-teaser-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
-  /* Prestations : offre Leibinger 2 colonnes → 1 */
-  .leibinger-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
   /* Prestations : offre Solutions IT — 3 piliers → 1 */
   .partenaire-pillars-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
   /* Prestations : offre Solutions IT — mur de références 5 colonnes → 3 */

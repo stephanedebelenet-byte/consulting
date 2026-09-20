@@ -14,6 +14,9 @@ import FormationVillePage from './pages/FormationVillePage'
 import FormationProgrammePage from './pages/FormationProgrammePage'
 import AProposPage from './pages/AProposPage'
 import BlogPage from './pages/BlogPage'
+import EvenementPage from './pages/EvenementPage'
+import MarquageTracabilitePage from './pages/MarquageTracabilitePage'
+import CarteNfcPage from './pages/CarteNfcPage'
 import ContactPage from './pages/ContactPage'
 import ConfidentialitePage from './pages/ConfidentialitePage'
 import DimensionnementEntrepotPage from './pages/DimensionnementEntrepotPage'
@@ -72,6 +75,9 @@ function AnimatedRoutes() {
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/blog/:slug" element={<PageTransition><BlogPage /></PageTransition>} />
+        <Route path="/evenements/:slug" element={<PageTransition><EvenementPage /></PageTransition>} />
+        <Route path="/solutions/marquage-et-tracabilite" element={<PageTransition><MarquageTracabilitePage /></PageTransition>} />
+        <Route path="/solutions/carte-visite-digitale-nfc" element={<PageTransition><CarteNfcPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />
         <Route path="/confidentialite" element={<PageTransition><ConfidentialitePage /></PageTransition>} />
         <Route path="/outils/dimensionnement-entrepot" element={<PageTransition><DimensionnementEntrepotPage /></PageTransition>} />

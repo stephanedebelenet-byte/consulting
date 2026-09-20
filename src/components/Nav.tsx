@@ -30,7 +30,6 @@ const CONSEIL_ITEMS: SimpleItem[] = [
 const PRESTATIONS_ITEMS: SimpleItem[] = [
   { label: 'Pack Inventaire', href: '/prestations' },
   { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations' },
-  { label: 'Imprimantes Leibinger', href: '/prestations' },
   { label: 'Solutions IT & RFID', href: '/prestations' },
 ]
 

@@ -7,26 +7,1995 @@
     "VITE_GA_MEASUREMENT_ID": "G-TFF7N0G2P0"
   },
   "rewrites": [
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/images/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=86400"
+        }
       ]
     },
     {
       "source": "/(.*).(svg|png|jpg|jpeg|webp|ico|woff|woff2|ttf)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=86400"
+        }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/blog/audit-supply-chain-2026-les-10-erreurs-critiques-que-les-pme",
+      "destination": "/blog/audit-supply-chain-2026-les-10-erreurs-critiques-que-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roi-formation-supply-chain-transformation-mesurable-en-90-jo",
+      "destination": "/blog/roi-formation-supply-chain-transformation-mesurable-en-90",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-optimise-par-secteur-textile-agro-industrie",
+      "destination": "/blog/supply-chain-optimisee-par-secteur-textile-agro-industrie",
+      "permanent": true
+    },
+    {
+      "source": "/blog/combien-cote-une-mission-de-consulting-supply-chain",
+      "destination": "/blog/combien-coute-une-mission-de-consulting-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conseil-supply-chain-casablanca-expert-logistique-maroc",
+      "destination": "/blog/conseil-supply-chain-a-casablanca-expert-logistique-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-supply-chain-rabat-expert-logistique-maroc",
+      "destination": "/blog/formation-supply-chain-a-rabat-expert-logistique-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-transport-et-douanes-au-maroc-transit-incoterms-et",
+      "destination": "/blog/formation-transport-et-douanes-au-maroc-transit-incoterms",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nearshoring-au-maroc-pourquoi-les-entreprises-europennes-rel",
+      "destination": "/blog/nearshoring-au-maroc-pourquoi-les-entreprises-europeennes",
+      "permanent": true
+    },
+    {
+      "source": "/blog/intelligence-artificielle-et-supply-chain-ce-qui-change-au-m",
+      "destination": "/blog/intelligence-artificielle-et-supply-chain-ce-qui-change-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-durable-au-maroc-concilier-performance-et-rse-e",
+      "destination": "/blog/supply-chain-durable-au-maroc-concilier-performance-et-rse",
+      "permanent": true
+    },
+    {
+      "source": "/blog/logistique-inverse-au-maroc-grer-les-retours-sans-perdre-de-",
+      "destination": "/blog/logistique-inverse-au-maroc-gerer-les-retours-sans-perdre",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sop-au-maroc-comment-aligner-ventes-et-oprations-pour-gagner",
+      "destination": "/blog/sop-au-maroc-comment-aligner-ventes-et-operations-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-e-commerce-au-maroc-les-7-dfis-rsoudre-en-2026",
+      "destination": "/blog/supply-chain-e-commerce-au-maroc-les-7-defis-a-resoudre-en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/srm-maroc-grer-ses-fournisseurs-comme-un-actif-stratgique",
+      "destination": "/blog/srm-maroc-gerer-ses-fournisseurs-comme-un-actif-strategique",
+      "permanent": true
+    },
+    {
+      "source": "/blog/last-mile-au-maroc-rsoudre-le-problme-du-dernier-kilomtre-en",
+      "destination": "/blog/last-mile-au-maroc-resoudre-le-probleme-du-dernier",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comment-choisir-sa-formation-supply-chain-au-maroc-le-guide-",
+      "destination": "/blog/comment-choisir-sa-formation-supply-chain-au-maroc-le-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conseil-supply-chain-fsmekns-expert-logistique-centre-maroc",
+      "destination": "/blog/conseil-supply-chain-fesmeknes-expert-logistique-centre",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-supply-chain-manager-au-maroc-programme-contenu-et",
+      "destination": "/blog/formation-supply-chain-manager-au-maroc-programme-contenu",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-responsable-logistique-au-maroc-devenir-oprationne",
+      "destination": "/blog/formation-responsable-logistique-au-maroc-devenir",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-acheteur-professionnel-au-maroc-cursus-comptences-",
+      "destination": "/blog/formation-acheteur-professionnel-au-maroc-cursus",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-gestionnaire-dentrept-au-maroc-programme-et-certif",
+      "destination": "/blog/formation-gestionnaire-d-entrepot-au-maroc-programme-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-planificateur-supply-chain-au-maroc-ddmrp-sop-et-p",
+      "destination": "/blog/formation-planificateur-supply-chain-au-maroc-ddmrp-sop-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/financer-sa-formation-logistique-au-maroc-toutes-les-options",
+      "destination": "/blog/financer-sa-formation-logistique-au-maroc-toutes-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/certification-apics-cpim-au-maroc-valeur-prparation-et-cot",
+      "destination": "/blog/certification-apics-cpim-au-maroc-valeur-preparation-et-cout",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-lean-logistique-au-maroc-5s-kaizen-et-vsm-en-entre",
+      "destination": "/blog/formation-lean-logistique-au-maroc-5s-kaizen-et-vsm-en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-ngociation-achats-au-maroc-techniques-et-cas-prati",
+      "destination": "/blog/formation-negociation-achats-au-maroc-techniques-et-cas",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conseil-supply-chain-marrakechagadir-expert-logistique-sud-m",
+      "destination": "/blog/conseil-supply-chain-marrakechagadir-expert-logistique-sud",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-continue-supply-chain-pour-cadres-au-maroc-rester-",
+      "destination": "/blog/formation-continue-supply-chain-pour-cadres-au-maroc-rester",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-wms-au-maroc-choisir-dployer-et-matriser-son-systm",
+      "destination": "/blog/formation-wms-au-maroc-choisir-deployer-et-maitriser-son",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-e-learning-supply-chain-au-maroc-apprendre-son-ryt",
+      "destination": "/blog/formation-e-learning-supply-chain-au-maroc-apprendre-a-son",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roi-dune-formation-supply-chain-comment-le-calculer-et-le-ju",
+      "destination": "/blog/roi-d-une-formation-supply-chain-comment-le-calculer-et-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-directeur-supply-chain-au-maroc-du-manager-au-lead",
+      "destination": "/blog/formation-directeur-supply-chain-au-maroc-du-manager-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-tms-au-maroc-optimiser-le-transport-avec-un-logici",
+      "destination": "/blog/formation-tms-au-maroc-optimiser-le-transport-avec-un",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-supply-chain-intra-entreprise-au-maroc-former-tout",
+      "destination": "/blog/formation-supply-chain-intra-entreprise-au-maroc-former",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-supply-chain-en-afrique-francophone-maroc-sngal-ct",
+      "destination": "/blog/formation-supply-chain-en-afrique-francophone-maroc-senegal",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mba-supply-chain-au-maroc-vaut-il-le-cot-et-le-temps-investi",
+      "destination": "/blog/mba-supply-chain-au-maroc-vaut-il-le-cout-et-le-temps",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conseil-supply-chain-afrique-francophone-expert-logistique-r",
+      "destination": "/blog/conseil-supply-chain-afrique-francophone-expert-logistique",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cv-supply-chain-parfait-au-maroc-structure-contenu-et-erreur",
+      "destination": "/blog/cv-supply-chain-parfait-au-maroc-structure-contenu-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/linkedin-pour-les-logisticiens-au-maroc-profil-qui-attire-le",
+      "destination": "/blog/linkedin-pour-les-logisticiens-au-maroc-profil-qui-attire",
+      "permanent": true
+    },
+    {
+      "source": "/blog/salaires-supply-chain-au-maroc-2026-guide-complet-par-poste-",
+      "destination": "/blog/salaires-supply-chain-au-maroc-2026-guide-complet-par-poste",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comptences-supply-chain-les-plus-recherches-au-maroc-en-2026",
+      "destination": "/blog/competences-supply-chain-les-plus-recherchees-au-maroc-en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/secteurs-qui-recrutent-en-logistique-au-maroc-en-2026-o-post",
+      "destination": "/blog/secteurs-qui-recrutent-en-logistique-au-maroc-en-2026-ou",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lettre-de-motivation-supply-chain-au-maroc-modle-et-conseils",
+      "destination": "/blog/lettre-de-motivation-supply-chain-au-maroc-modele-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emploi-logistique-casablanca-en-2026-o-chercher-et-comment-d",
+      "destination": "/blog/emploi-logistique-a-casablanca-en-2026-ou-chercher-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emploi-supply-chain-tanger-et-knitra-le-boom-automobile",
+      "destination": "/blog/emploi-supply-chain-a-tanger-et-kenitra-le-boom-automobile",
+      "permanent": true
+    },
+    {
+      "source": "/blog/devenir-consultant-freelance-supply-chain-au-maroc-guide-com",
+      "destination": "/blog/devenir-consultant-freelance-supply-chain-au-maroc-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/volution-de-carrire-en-supply-chain-au-maroc-plan-sur-10-ans",
+      "destination": "/blog/evolution-de-carriere-en-supply-chain-au-maroc-plan-sur-10",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ngocier-son-salaire-en-supply-chain-au-maroc-techniques-et-c",
+      "destination": "/blog/negocier-son-salaire-en-supply-chain-au-maroc-techniques-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/passer-de-technicien-manager-supply-chain-la-transition-cl",
+      "destination": "/blog/passer-de-technicien-a-manager-supply-chain-la-transition",
+      "permanent": true
+    },
+    {
+      "source": "/blog/les-mtiers-supply-chain-davenir-au-maroc-lhorizon-2030",
+      "destination": "/blog/les-metiers-supply-chain-d-avenir-au-maroc-a-l-horizon-2030",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rseaux-professionnels-logistique-au-maroc-comment-les-utilis",
+      "destination": "/blog/reseaux-professionnels-logistique-au-maroc-comment-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travailler-en-supply-chain-dans-le-golfe-depuis-le-maroc-gui",
+      "destination": "/blog/travailler-en-supply-chain-dans-le-golfe-depuis-le-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/agences-de-recrutement-logistique-au-maroc-lesquelles-choisi",
+      "destination": "/blog/agences-de-recrutement-logistique-au-maroc-lesquelles",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comptences-digitales-du-logisticien-en-2026-ce-quil-faut-mat",
+      "destination": "/blog/competences-digitales-du-logisticien-en-2026-ce-qu-il-faut",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travailler-en-supply-chain-linternational-depuis-le-maroc",
+      "destination": "/blog/travailler-en-supply-chain-a-l-international-depuis-le-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/webinaire-gratuit-formation-ou-consulting-quelle-approche-po",
+      "destination": "/evenements/formation-ou-consulting-quelle-approche",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emploi-supply-chain-en-france-pour-les-professionnels-maroca",
+      "destination": "/blog/emploi-supply-chain-en-france-pour-les-professionnels",
+      "permanent": true
+    },
+    {
+      "source": "/blog/le-portfolio-professionnel-du-logisticien-montrez-ce-que-vou",
+      "destination": "/blog/le-portfolio-professionnel-du-logisticien-montrez-ce-que",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reconversion-en-supply-chain-au-maroc-tmoignages-de-profils-",
+      "destination": "/blog/reconversion-en-supply-chain-au-maroc-temoignages-de",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emploi-supply-chain-agadir-et-marrakech-opportunits-et-spcif",
+      "destination": "/blog/emploi-supply-chain-a-agadir-et-marrakech-opportunites-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emploi-supply-chain-rabat-et-la-rgion-guide-2026",
+      "destination": "/blog/emploi-supply-chain-a-rabat-et-la-region-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/15-stratgies-pour-trouver-un-emploi-supply-chain-au-maroc-en",
+      "destination": "/blog/15-strategies-pour-trouver-un-emploi-supply-chain-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/jeune-diplm-supply-chain-dcrocher-son-premier-emploi-au-maro",
+      "destination": "/blog/jeune-diplome-supply-chain-decrocher-son-premier-emploi-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formations-supply-chain-au-maroc-aprs-le-bac-quel-parcours-c",
+      "destination": "/blog/formations-supply-chain-au-maroc-apres-le-bac-quel-parcours",
+      "permanent": true
+    },
+    {
+      "source": "/blog/les-comptences-que-les-recruteurs-cherchent-chez-les-jeunes-",
+      "destination": "/blog/les-competences-que-les-recruteurs-cherchent-chez-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lalternance-en-supply-chain-au-maroc-la-voie-royale-vers-lem",
+      "destination": "/blog/l-alternance-en-supply-chain-au-maroc-la-voie-royale-vers-l",
+      "permanent": true
+    },
+    {
+      "source": "/blog/linkedin-pour-les-jeunes-diplms-supply-chain-guide-complet",
+      "destination": "/blog/linkedin-pour-les-jeunes-diplomes-supply-chain-guide-complet",
+      "permanent": true
+    },
+    {
+      "source": "/blog/10-erreurs-des-jeunes-diplms-supply-chain-au-maroc-et-commen",
+      "destination": "/blog/10-erreurs-des-jeunes-diplomes-supply-chain-au-maroc-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/salaires-des-jeunes-diplms-supply-chain-au-maroc-en-2026",
+      "destination": "/blog/salaires-des-jeunes-diplomes-supply-chain-au-maroc-en-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pfe-supply-chain-au-maroc-choisir-son-sujet-et-russir-sa-mis",
+      "destination": "/blog/pfe-supply-chain-au-maroc-choisir-son-sujet-et-reussir-sa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/certifications-supply-chain-pour-jeunes-professionnels-au-ma",
+      "destination": "/blog/certifications-supply-chain-pour-jeunes-professionnels-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/jeune-diplm-supply-chain-grande-entreprise-ou-startup-au-mar",
+      "destination": "/blog/jeune-diplome-supply-chain-grande-entreprise-ou-startup-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plan-de-carrire-sur-5-ans-en-supply-chain-au-maroc-mode-demp",
+      "destination": "/blog/plan-de-carriere-sur-5-ans-en-supply-chain-au-maroc-mode-d",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entrepreneuriat-en-supply-chain-au-maroc-opportunits-pour-le",
+      "destination": "/blog/entrepreneuriat-en-supply-chain-au-maroc-opportunites-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/langlais-en-supply-chain-au-maroc-pourquoi-cest-critique-et-",
+      "destination": "/blog/l-anglais-en-supply-chain-au-maroc-pourquoi-c-est-critique",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rseauter-quand-on-est-tudiant-supply-chain-au-maroc-le-guide",
+      "destination": "/blog/reseauter-quand-on-est-etudiant-supply-chain-au-maroc-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/les-meilleurs-secteurs-pour-dbuter-en-supply-chain-au-maroc",
+      "destination": "/blog/les-meilleurs-secteurs-pour-debuter-en-supply-chain-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/russir-son-premier-mois-dans-un-emploi-supply-chain-au-maroc",
+      "destination": "/blog/reussir-son-premier-mois-dans-un-emploi-supply-chain-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/la-double-comptence-larme-secrte-des-profils-supply-chain-au",
+      "destination": "/blog/la-double-competence-l-arme-secrete-des-profils-supply",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prparer-un-entretien-supply-chain-au-maroc-guide-complet",
+      "destination": "/blog/preparer-un-entretien-supply-chain-au-maroc-guide-complet",
+      "permanent": true
+    },
+    {
+      "source": "/blog/50-questions-dentretien-supply-chain-et-leurs-meilleures-rpo",
+      "destination": "/blog/50-questions-d-entretien-supply-chain-et-leurs-meilleures",
+      "permanent": true
+    },
+    {
+      "source": "/blog/la-mthode-star-pour-les-entretiens-supply-chain-au-maroc",
+      "destination": "/blog/la-methode-star-pour-les-entretiens-supply-chain-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/se-prsenter-en-2-minutes-en-entretien-supply-chain-la-formul",
+      "destination": "/blog/se-presenter-en-2-minutes-en-entretien-supply-chain-la",
+      "permanent": true
+    },
+    {
+      "source": "/blog/les-meilleures-questions-poser-en-entretien-supply-chain",
+      "destination": "/blog/les-meilleures-questions-a-poser-en-entretien-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/russir-lentretien-technique-supply-chain-au-maroc",
+      "destination": "/blog/reussir-l-entretien-technique-supply-chain-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/russir-son-entretien-vido-en-supply-chain-au-maroc",
+      "destination": "/blog/reussir-son-entretien-video-en-supply-chain-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/grer-le-stress-de-lentretien-supply-chain-techniques-pratiqu",
+      "destination": "/blog/gerer-le-stress-de-l-entretien-supply-chain-techniques",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lentretien-par-comptences-en-supply-chain-comment-le-russir",
+      "destination": "/blog/l-entretien-par-competences-en-supply-chain-comment-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entretien-pour-un-poste-de-supply-chain-manager-au-maroc-ce-",
+      "destination": "/blog/entretien-pour-un-poste-de-supply-chain-manager-au-maroc-ce",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entretien-pour-un-poste-dacheteur-professionnel-au-maroc-gui",
+      "destination": "/blog/entretien-pour-un-poste-d-acheteur-professionnel-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entretien-responsable-dentrept-au-maroc-ce-que-les-recruteur",
+      "destination": "/blog/entretien-responsable-d-entrepot-au-maroc-ce-que-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/les-15-erreurs-viter-en-entretien-supply-chain-au-maroc",
+      "destination": "/blog/les-15-erreurs-a-eviter-en-entretien-supply-chain-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entretien-planificateur-supply-chain-au-maroc-questions-et-r",
+      "destination": "/blog/entretien-planificateur-supply-chain-au-maroc-questions-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/simuler-son-entretien-supply-chain-mthodes-et-exercices",
+      "destination": "/blog/simuler-son-entretien-supply-chain-methodes-et-exercices",
+      "permanent": true
+    },
+    {
+      "source": "/blog/aprs-lentretien-supply-chain-ce-quil-faut-faire",
+      "destination": "/blog/apres-l-entretien-supply-chain-ce-qu-il-faut-faire",
+      "permanent": true
+    },
+    {
+      "source": "/blog/le-deuxime-tour-dentretien-supply-chain-comment-le-prparer",
+      "destination": "/blog/le-deuxieme-tour-d-entretien-supply-chain-comment-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ngocier-une-offre-demploi-supply-chain-au-maroc-le-guide-com",
+      "destination": "/blog/negocier-une-offre-d-emploi-supply-chain-au-maroc-le-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rpondre-quelle-est-votre-faiblesse-en-entretien-supply-chain",
+      "destination": "/blog/repondre-a-quelle-est-votre-faiblesse-en-entretien-supply",
+      "permanent": true
+    },
+    {
+      "source": "/blog/la-lettre-de-remerciement-aprs-entretien-supply-chain-modles",
+      "destination": "/blog/la-lettre-de-remerciement-apres-entretien-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entretien-rh-vs-entretien-oprationnel-en-supply-chain-deux-f",
+      "destination": "/blog/entretien-rh-vs-entretien-operationnel-en-supply-chain-deux",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entretien-supply-chain-dans-lindustrie-automobile-au-maroc",
+      "destination": "/blog/entretien-supply-chain-dans-l-industrie-automobile-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entretien-supply-chain-dans-le-secteur-pharmaceutique-au-mar",
+      "destination": "/blog/entretien-supply-chain-dans-le-secteur-pharmaceutique-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/russir-un-cas-pratique-en-entretien-supply-chain-au-maroc",
+      "destination": "/blog/reussir-un-cas-pratique-en-entretien-supply-chain-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/la-psychologie-de-lentretien-supply-chain-ce-que-le-recruteu",
+      "destination": "/blog/la-psychologie-de-l-entretien-supply-chain-ce-que-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/passer-un-entretien-en-anglais-supply-chain-au-maroc-guide-p",
+      "destination": "/blog/passer-un-entretien-en-anglais-supply-chain-au-maroc-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/les-rfrences-professionnelles-en-entretien-supply-chain-au-m",
+      "destination": "/blog/les-references-professionnelles-en-entretien-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/changer-de-secteur-en-supply-chain-au-maroc-russir-son-entre",
+      "destination": "/blog/changer-de-secteur-en-supply-chain-au-maroc-reussir-son",
+      "permanent": true
+    },
+    {
+      "source": "/blog/grer-un-entretien-difficile-en-supply-chain-tactiques-et-san",
+      "destination": "/blog/gerer-un-entretien-difficile-en-supply-chain-tactiques-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guide-ultime-russir-son-entretien-supply-chain-au-maroc-en-2",
+      "destination": "/blog/guide-ultime-reussir-son-entretien-supply-chain-au-maroc-en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/burnout-en-supply-chain-au-maroc-signaux-et-prvention",
+      "destination": "/blog/burnout-en-supply-chain-au-maroc-signaux-et-prevention",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-bosch-maroc-8-saving-via-formation-sourcing-strat",
+      "destination": "/blog/case-study-bosch-maroc-8-saving-via-formation-sourcing",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dvelopper-sa-carrire-en-supply-chain-achats-et-logistique",
+      "destination": "/blog/developper-sa-carriere-en-supply-chain-achats-et-logistique",
+      "permanent": true
+    },
+    {
+      "source": "/blog/nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que-",
+      "destination": "/blog/nouvelle-loi-sur-la-livraison-de-colis-au-maroc-2026-ce-que",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hausse-des-prix-du-carburant-comment-les-transporteurs-maroc",
+      "destination": "/blog/hausse-des-prix-du-carburant-comment-les-transporteurs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guide-portnet-et-badr-2026-matriser-les-plateformes-douanire",
+      "destination": "/blog/guide-portnet-et-badr-2026-maitriser-les-plateformes",
+      "permanent": true
+    },
+    {
+      "source": "/blog/grille-salariale-logistique-et-supply-chain-maroc-2026-bench",
+      "destination": "/blog/grille-salariale-logistique-et-supply-chain-maroc-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-du",
+      "destination": "/blog/sap-vs-odoo-vs-dynamics-365-quel-erp-pour-la-supply-chain-d",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-agentique-en-supply-chain-la-feuille-de-route-2026-2027-p",
+      "destination": "/blog/ia-agentique-en-supply-chain-la-feuille-de-route-2026-2027",
+      "permanent": true
+    },
+    {
+      "source": "/blog/achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm",
+      "destination": "/blog/achats-durables-et-rse-fournisseurs-la-grille-d-audit-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-aronautique-au-maroc-lcosystme-safran-et-ses-15",
+      "destination": "/blog/supply-chain-aeronautique-au-maroc-l-ecosysteme-safran-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-cosmtique-au-maroc-les-enjeux-logistiques-du-se",
+      "destination": "/blog/supply-chain-cosmetique-au-maroc-les-enjeux-logistiques-du",
+      "permanent": true
+    },
+    {
+      "source": "/blog/hydrogne-vert-et-ammoniac-la-nouvelle-chane-logistique-que-l",
+      "destination": "/blog/hydrogene-vert-et-ammoniac-la-nouvelle-chaine-logistique",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marque-employeur-logistique-pourquoi-les-entrepts-marocains-",
+      "destination": "/blog/marque-employeur-logistique-pourquoi-les-entrepots",
+      "permanent": true
+    },
+    {
+      "source": "/blog/recruter-la-gnration-z-en-logistique-ce-qui-a-chang-ce-quil-",
+      "destination": "/blog/recruter-la-generation-z-en-logistique-ce-qui-a-change-ce",
+      "permanent": true
+    },
+    {
+      "source": "/blog/zones-franches-marocaines-compares-tanger-med-tfz-tac-et-mid",
+      "destination": "/blog/zones-franches-marocaines-comparees-tanger-med-tfz-tac-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/corridor-maroc-afrique-de-louest-comment-les-entreprises-mar",
+      "destination": "/blog/corridor-maroc-afrique-de-l-ouest-comment-les-entreprises",
+      "permanent": true
+    },
+    {
+      "source": "/blog/3pl-et-4pl-en-afrique-francophone-qui-sont-les-acteurs-et-co",
+      "destination": "/blog/3pl-et-4pl-en-afrique-francophone-qui-sont-les-acteurs-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cartographier-les-risques-de-sa-supply-chain-la-mthode-en-4-",
+      "destination": "/blog/cartographier-les-risques-de-sa-supply-chain-la-methode-en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/achats-publics-au-maroc-ce-qui-change-rellement-pour-les-fou",
+      "destination": "/blog/achats-publics-au-maroc-ce-qui-change-reellement-pour-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/femmes-dans-la-supply-chain-marocaine-o-en-est-on-vraiment",
+      "destination": "/blog/femmes-dans-la-supply-chain-marocaine-ou-en-est-on-vraiment",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cot-rel-dun-projet-erp-logistique-budget-dlais-et-piges-vite",
+      "destination": "/blog/cout-reel-d-un-projet-erp-logistique-budget-delais-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-oland-group-sop-implementation-cash-cycle--12-day",
+      "destination": "/blog/case-study-oland-group-sop-implementation-cash-cycle-12",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-",
+      "destination": "/blog/ia-predictive-et-prevision-de-la-demande-reduire-ses-stocks",
+      "permanent": true
+    },
+    {
+      "source": "/blog/audit-qhse-entrept-au-maroc-la-grille-et-la-mthode",
+      "destination": "/blog/audit-qhse-entrepot-au-maroc-la-grille-et-la-methode",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-hse-entrept-logistique-ce-quelle-couvre-concrtemen",
+      "destination": "/blog/formation-hse-entrepot-logistique-ce-qu-elle-couvre",
+      "permanent": true
+    },
+    {
+      "source": "/blog/iso-9001-pour-une-pme-logistique-marocaine-par-o-commencer",
+      "destination": "/blog/iso-9001-pour-une-pme-logistique-marocaine-par-ou-commencer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rgimes-douaniers-suspensifs-admission-temporaire-eif-stock-t",
+      "destination": "/blog/regimes-douaniers-suspensifs-admission-temporaire-eif-stock",
+      "permanent": true
+    },
+    {
+      "source": "/blog/incoterms-au-maroc-le-guide-pratique-pour-importateurs-et-ex",
+      "destination": "/blog/incoterms-au-maroc-le-guide-pratique-pour-importateurs-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/statut-doprateur-conomique-agr-oea-acclrer-son-ddouanement",
+      "destination": "/blog/statut-d-operateur-economique-agree-oea-accelerer-son",
+      "permanent": true
+    },
+    {
+      "source": "/blog/accords-de-libre-change-du-maroc-comment-rduire-ses-droits-d",
+      "destination": "/blog/accords-de-libre-echange-du-maroc-comment-reduire-ses",
+      "permanent": true
+    },
+    {
+      "source": "/blog/litiges-douaniers-et-contentieux-import-export-viter-les-pig",
+      "destination": "/blog/litiges-douaniers-et-contentieux-import-export-eviter-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/commerce-triangulaire-maroc-afrique-europe-structurer-ses-fl",
+      "destination": "/blog/commerce-triangulaire-maroc-afrique-europe-structurer-ses",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-dhl-supply-chain-3-site-warehouse-consolidation-e",
+      "destination": "/blog/case-study-dhl-supply-chain-3-site-warehouse-consolidation",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category-management-achats-structurer-ses-catgories-pour-plu",
+      "destination": "/blog/category-management-achats-structurer-ses-categories-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cbam-taxe-carbone-ue-ce-que-les-exportateurs-marocains-doive",
+      "destination": "/blog/cbam-taxe-carbone-ue-ce-que-les-exportateurs-marocains",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sourcing-multi-fournisseurs-vs-fournisseur-unique-arbitrer-l",
+      "destination": "/blog/sourcing-multi-fournisseurs-vs-fournisseur-unique-arbitrer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/e-sourcing-les-plateformes-qui-digitalisent-les-achats-au-ma",
+      "destination": "/blog/e-sourcing-les-plateformes-qui-digitalisent-les-achats-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tco-cot-total-de-possession-la-mthode-que-les-acheteurs-maro",
+      "destination": "/blog/tco-cout-total-de-possession-la-methode-que-les-acheteurs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/achats-indirects-le-gisement-dconomies-que-les-pme-marocaine",
+      "destination": "/blog/achats-indirects-le-gisement-d-economies-que-les-pme",
+      "permanent": true
+    },
+    {
+      "source": "/blog/robots-et-automatisation-dentrept-o-en-est-rellement-le-maro",
+      "destination": "/blog/robots-et-automatisation-d-entrepot-ou-en-est-reellement-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/jumeau-numrique-digital-twin-supply-chain-quoi-a-sert-vraime",
+      "destination": "/blog/jumeau-numerique-digital-twin-supply-chain-a-quoi-ca-sert",
+      "permanent": true
+    },
+    {
+      "source": "/blog/blockchain-et-traabilit-agroalimentaire-un-vrai-levier-expor",
+      "destination": "/blog/blockchain-et-tracabilite-agroalimentaire-un-vrai-levier",
+      "permanent": true
+    },
+    {
+      "source": "/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps-re",
+      "destination": "/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-renault-tanger-production-ramp-0400-unitsday-18-m",
+      "destination": "/blog/case-study-renault-tanger-production-ramp-0400-unitsday-18",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cyberscurit-de-la-supply-chain-le-maillon-faible-que-les-ent",
+      "destination": "/blog/cybersecurite-de-la-supply-chain-le-maillon-faible-que-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/iot-et-capteurs-connects-en-entrept-ce-quils-changent-vraime",
+      "destination": "/blog/iot-et-capteurs-connectes-en-entrepot-ce-qu-ils-changent",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatisation-des-achats-par-lia-du-bon-de-commande-au-paie",
+      "destination": "/blog/automatisation-des-achats-par-l-ia-du-bon-de-commande-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/construire-son-premier-tableau-de-bord-ia-supply-chain-sans-",
+      "destination": "/blog/construire-son-premier-tableau-de-bord-ia-supply-chain-sans",
+      "permanent": true
+    },
+    {
+      "source": "/blog/logistique-verte-au-maroc-pourquoi-la-transition-reste-frein",
+      "destination": "/blog/logistique-verte-au-maroc-pourquoi-la-transition-reste",
+      "permanent": true
+    },
+    {
+      "source": "/blog/bilan-carbone-transport-calculer-et-rduire-ses-missions-scop",
+      "destination": "/blog/bilan-carbone-transport-calculer-et-reduire-ses-emissions",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vhicules-verts-pour-sa-flotte-logistique-lectrique-ou-hybrid",
+      "destination": "/blog/vehicules-verts-pour-sa-flotte-logistique-electrique-ou",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conomie-circulaire-en-supply-chain-rintgrer-les-dchets-indus",
+      "destination": "/blog/economie-circulaire-en-supply-chain-reintegrer-les-dechets",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reporting-esg-ce-que-les-nouvelles-normes-imposent-aux-fourn",
+      "destination": "/blog/reporting-esg-ce-que-les-nouvelles-normes-imposent-aux",
+      "permanent": true
+    },
+    {
+      "source": "/blog/emballages-durables-rduire-ses-cots-logistiques-en-verdissan",
+      "destination": "/blog/emballages-durables-reduire-ses-couts-logistiques-en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-douja-promotion-11-saving-across-31-chantiers-710",
+      "destination": "/blog/case-study-douja-promotion-11-saving-across-31-chantiers",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entrepts-co-responsables-certification-et-bonnes-pratiques-n",
+      "destination": "/blog/entrepots-eco-responsables-certification-et-bonnes",
+      "permanent": true
+    },
+    {
+      "source": "/blog/le-maroc-peut-il-devenir-le-leader-africain-de-la-logistique",
+      "destination": "/blog/le-maroc-peut-il-devenir-le-leader-africain-de-la",
+      "permanent": true
+    },
+    {
+      "source": "/blog/buffer-stock-au-maroc-pourquoi-les-marques-e-commerce-stocke",
+      "destination": "/blog/buffer-stock-au-maroc-pourquoi-les-marques-e-commerce",
+      "permanent": true
+    },
+    {
+      "source": "/blog/paiement-la-livraison-cod-optimiser-sa-logistique-quand-la-m",
+      "destination": "/blog/paiement-a-la-livraison-cod-optimiser-sa-logistique-quand",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dark-stores-et-micro-fulfillment-le-futur-de-la-livraison-ra",
+      "destination": "/blog/dark-stores-et-micro-fulfillment-le-futur-de-la-livraison",
+      "permanent": true
+    },
+    {
+      "source": "/blog/livraison-en-zones-rurales-et-enclaves-le-dernier-kilomtre-l",
+      "destination": "/blog/livraison-en-zones-rurales-et-enclavees-le-dernier",
+      "permanent": true
+    },
+    {
+      "source": "/blog/retours-e-commerce-le-cot-cach-que-les-marchands-marocains-s",
+      "destination": "/blog/retours-e-commerce-le-cout-cache-que-les-marchands",
+      "permanent": true
+    },
+    {
+      "source": "/blog/marketplace-vs-vente-directe-quelles-implications-logistique",
+      "destination": "/blog/marketplace-vs-vente-directe-quelles-implications",
+      "permanent": true
+    },
+    {
+      "source": "/blog/turnover-en-entrept-comprendre-les-causes-relles-et-les-solu",
+      "destination": "/blog/turnover-en-entrepot-comprendre-les-causes-reelles-et-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cabinet-de-recrutement-vs-recrutement-direct-quelle-stratgie",
+      "destination": "/blog/cabinet-de-recrutement-vs-recrutement-direct-quelle",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-autoroutes-du-maroc-externalisation-pilotage-12-m",
+      "destination": "/blog/case-study-autoroutes-du-maroc-externalisation-pilotage-12",
+      "permanent": true
+    },
+    {
+      "source": "/blog/onboarding-des-caristes-et-magasiniers-rduire-lattrition-ds-",
+      "destination": "/blog/onboarding-des-caristes-et-magasiniers-reduire-l-attrition",
+      "permanent": true
+    },
+    {
+      "source": "/blog/management-de-proximit-en-entrept-pourquoi-le-feedback-annue",
+      "destination": "/blog/management-de-proximite-en-entrepot-pourquoi-le-feedback",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pnurie-de-chauffeurs-routiers-comment-les-entreprises-maroca",
+      "destination": "/blog/penurie-de-chauffeurs-routiers-comment-les-entreprises",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-interne-vs-recrutement-externe-arbitrer-la-monte-e",
+      "destination": "/blog/formation-interne-vs-recrutement-externe-arbitrer-la-montee",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plan-de-succession-pour-les-postes-cls-supply-chain-anticipe",
+      "destination": "/blog/plan-de-succession-pour-les-postes-cles-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pourquoi-les-femmes-disparaissent-des-postes-excutifs-supply",
+      "destination": "/blog/pourquoi-les-femmes-disparaissent-des-postes-executifs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fminiser-les-mtiers-dentrept-et-de-transport-lever-les-frein",
+      "destination": "/blog/feminiser-les-metiers-d-entrepot-et-de-transport-lever-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rseaux-et-mentorat-pour-femmes-en-logistique-ce-qui-existe-e",
+      "destination": "/blog/reseaux-et-mentorat-pour-femmes-en-logistique-ce-qui-existe",
+      "permanent": true
+    },
+    {
+      "source": "/blog/diversit-en-supply-chain-un-argument-concurrentiel-pour-atti",
+      "destination": "/blog/diversite-en-supply-chain-un-argument-concurrentiel-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/module-sap-mm-pour-les-achats-ce-quil-faut-savoir-avant-de-s",
+      "destination": "/blog/module-sap-mm-pour-les-achats-ce-qu-il-faut-savoir-avant-de",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-somaca-premier-projet-ifa-integrated-factory-auto",
+      "destination": "/blog/case-study-somaca-premier-projet-ifa-integrated-factory",
+      "permanent": true
+    },
+    {
+      "source": "/blog/migrer-vers-sap-s4hana-le-guide-pour-une-pme-industrielle-ma",
+      "destination": "/blog/migrer-vers-sap-s4hana-le-guide-pour-une-pme-industrielle",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wms-vs-erp-intgr-faut-il-un-systme-ddi-pour-son-entrept",
+      "destination": "/blog/wms-vs-erp-integre-faut-il-un-systeme-dedie-pour-son",
+      "permanent": true
+    },
+    {
+      "source": "/blog/interoprabilit-erp-wms-tms-connecter-ses-systmes-sans-tout-c",
+      "destination": "/blog/interoperabilite-erp-wms-tms-connecter-ses-systemes-sans",
+      "permanent": true
+    },
+    {
+      "source": "/blog/choisir-un-logiciel-de-prvision-de-la-demande-les-critres-po",
+      "destination": "/blog/choisir-un-logiciel-de-prevision-de-la-demande-les-criteres",
+      "permanent": true
+    },
+    {
+      "source": "/blog/certification-pmp-au-maroc-vaut-elle-linvestissement-pour-un",
+      "destination": "/blog/certification-pmp-au-maroc-vaut-elle-l-investissement-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/piloter-un-projet-de-transformation-supply-chain-la-mthode-e",
+      "destination": "/blog/piloter-un-projet-de-transformation-supply-chain-la-methode",
+      "permanent": true
+    },
+    {
+      "source": "/blog/agile-appliqu-la-supply-chain-ce-que-lindustriel-peut-emprun",
+      "destination": "/blog/agile-applique-a-la-supply-chain-ce-que-l-industriel-peut",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gouvernance-de-projet-logistique-multi-sites-coordonner-sans",
+      "destination": "/blog/gouvernance-de-projet-logistique-multi-sites-coordonner",
+      "permanent": true
+    },
+    {
+      "source": "/blog/change-management-dans-un-projet-wms-ou-erp-pourquoi-les-pro",
+      "destination": "/blog/change-management-dans-un-projet-wms-ou-erp-pourquoi-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/logistique-minire-au-maroc-au-del-de-locp",
+      "destination": "/blog/logistique-miniere-au-maroc-au-dela-de-l-ocp",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-diana-holding-multi-filiale-sop-stock--20-cash--1",
+      "destination": "/blog/case-study-diana-holding-multi-filiale-sop-stock-20-cash-12",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-btp-grer-la-pnurie-et-la-volatilit-des-prix-du-",
+      "destination": "/blog/supply-chain-btp-gerer-la-penurie-et-la-volatilite-des-prix",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-du-secteur-htelier-et-tourisme-approvisionner-s",
+      "destination": "/blog/supply-chain-du-secteur-hotelier-et-tourisme-approvisionner",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chane-dapprovisionnement-des-dispositifs-mdicaux-un-secteur-",
+      "destination": "/blog/chaine-d-approvisionnement-des-dispositifs-medicaux-un",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-de-lhuile-dargan-structurer-lexport-dune-filire",
+      "destination": "/blog/supply-chain-de-l-huile-d-argan-structurer-l-export-d-une",
+      "permanent": true
+    },
+    {
+      "source": "/blog/logistique-du-secteur-de-la-pche-agadir-dakhla-et-lexport-ha",
+      "destination": "/blog/logistique-du-secteur-de-la-peche-agadir-dakhla-et-l-export",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-textile-technique-et-denim-ce-qui-diffrencie-le",
+      "destination": "/blog/supply-chain-textile-technique-et-denim-ce-qui-differencie",
+      "permanent": true
+    },
+    {
+      "source": "/blog/transport-multimodal-au-maroc-rail-route-mer-quelle-combinai",
+      "destination": "/blog/transport-multimodal-au-maroc-rail-route-mer-quelle",
+      "permanent": true
+    },
+    {
+      "source": "/blog/autoroute-de-la-mer-tanger-europe-une-alternative-au-tout-ro",
+      "destination": "/blog/autoroute-de-la-mer-tanger-europe-une-alternative-au-tout",
+      "permanent": true
+    },
+    {
+      "source": "/blog/affrtement-et-sous-traitance-transport-scuriser-sa-capacit-e",
+      "destination": "/blog/affretement-et-sous-traitance-transport-securiser-sa",
+      "permanent": true
+    },
+    {
+      "source": "/blog/suivi-de-flotte-et-golocalisation-les-outils-qui-rduisent-re",
+      "destination": "/blog/suivi-de-flotte-et-geolocalisation-les-outils-qui-reduisent",
+      "permanent": true
+    },
+    {
+      "source": "/blog/case-study-ocp-group-saedm-gouvernance-transformation-digita",
+      "destination": "/blog/case-study-ocp-group-saedm-gouvernance-transformation",
+      "permanent": true
+    },
+    {
+      "source": "/blog/transport-frigorifique-routier-normes-et-cots-spcifiques-au-",
+      "destination": "/blog/transport-frigorifique-routier-normes-et-couts-specifiques",
+      "permanent": true
+    },
+    {
+      "source": "/blog/port-de-ndayane-au-sngal-ce-que-le-futur-mga-port-change-pou",
+      "destination": "/blog/port-de-ndayane-au-senegal-ce-que-le-futur-mega-port-change",
+      "permanent": true
+    },
+    {
+      "source": "/blog/transit-douanier-en-afrique-de-louest-les-corridors-qui-fonc",
+      "destination": "/blog/transit-douanier-en-afrique-de-l-ouest-les-corridors-qui",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digitalisation-logistique-en-afrique-de-louest-les-erp-qui-s",
+      "destination": "/blog/digitalisation-logistique-en-afrique-de-l-ouest-les-erp-qui",
+      "permanent": true
+    },
+    {
+      "source": "/blog/zones-logistiques-industrielles-dafrique-francophone-compara",
+      "destination": "/blog/zones-logistiques-industrielles-d-afrique-francophone",
+      "permanent": true
+    },
+    {
+      "source": "/blog/plan-de-continuit-dactivit-pca-logistique-se-prparer-aux-rup",
+      "destination": "/blog/plan-de-continuite-d-activite-pca-logistique-se-preparer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/multi-sourcing-et-stocks-stratgiques-les-leons-de-rsilience-",
+      "destination": "/blog/multi-sourcing-et-stocks-strategiques-les-lecons-de",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ngociation-fournisseurs-en-priode-dinflation-les-leviers-qui",
+      "destination": "/blog/negociation-fournisseurs-en-periode-d-inflation-les-leviers",
+      "permanent": true
+    },
+    {
+      "source": "/blog/srm-fournisseurs-stratgiques-grer-la-relation-avec-les-quipe",
+      "destination": "/blog/srm-fournisseurs-strategiques-gerer-la-relation-avec-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc",
+      "destination": "/blog/ia-generative-en-supply-chain-25-cas-d-usage-concrets-au",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel",
+      "destination": "/blog/ia-supply-chain-llm-ia-predictive-ou-rpa-quel-outil-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous",
+      "destination": "/blog/rediger-un-cahier-des-charges-avec-l-ia-methode-et-garde",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine",
+      "destination": "/blog/cout-d-un-projet-ia-supply-chain-pour-une-pme-marocaine",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatiser-les-documents-de-douane-par-lia-dum-bl-packing-l",
+      "destination": "/blog/automatiser-les-documents-de-douane-par-l-ia-dum-bl-packing",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatiser-le-traitement-des-factures-fournisseurs-avec-lia",
+      "destination": "/blog/automatiser-le-traitement-des-factures-fournisseurs-avec-l",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-supply-chain-automobile-au-maroc-prvision-edi-et-jit",
+      "destination": "/blog/ia-et-supply-chain-automobile-au-maroc-prevision-edi-et-jit",
+      "permanent": true
+    },
+    {
+      "source": "/blog/copilot-de-demand-planning-lia-gnrative-au-service-du-prvisi",
+      "destination": "/blog/copilot-de-demand-planning-l-ia-generative-au-service-du",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-agro-industrie-au-maroc-prvision-de-rcolte-et-chane-du",
+      "destination": "/blog/ia-et-agro-industrie-au-maroc-prevision-de-recolte-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil",
+      "destination": "/blog/gouvernance-de-l-ia-en-supply-chain-la-charte-avant-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl",
+      "destination": "/blog/chatbot-de-suivi-de-commande-par-ia-desengorger-le-service",
+      "permanent": true
+    },
+    {
+      "source": "/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo",
+      "destination": "/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnees",
+      "permanent": true
+    },
+    {
+      "source": "/blog/statut-oea-maroc-la-procdure-adii-tape-par-tape",
+      "destination": "/blog/statut-oea-maroc-la-procedure-adii-etape-par-etape",
+      "permanent": true
+    },
+    {
+      "source": "/blog/oea-catgorie-a-ou-b-au-maroc-les-diffrences-cls",
+      "destination": "/blog/oea-categorie-a-ou-b-au-maroc-les-differences-cles",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pourquoi-une-demande-de-statut-oea-choue-au-maroc",
+      "destination": "/blog/pourquoi-une-demande-de-statut-oea-echoue-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/oea-dans-lautomobile-et-laronautique-au-maroc",
+      "destination": "/blog/oea-dans-l-automobile-et-l-aeronautique-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/combien-de-temps-pour-obtenir-le-statut-oea-au-maroc-",
+      "destination": "/blog/combien-de-temps-pour-obtenir-le-statut-oea-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/le-statut-oea-cote-t-il-cher-au-maroc-",
+      "destination": "/blog/le-statut-oea-coute-t-il-cher-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prompt-engineering-pour-les-mtiers-achats-et-supply-chain",
+      "destination": "/blog/prompt-engineering-pour-les-metiers-achats-et-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rag-et-base-de-connaissance-interne-lassistant-qui-connat-vo",
+      "destination": "/blog/rag-et-base-de-connaissance-interne-l-assistant-qui-connait",
+      "permanent": true
+    },
+    {
+      "source": "/blog/copilot-excel-et-power-bi-pour-lanalyste-supply-chain",
+      "destination": "/blog/copilot-excel-et-power-bi-pour-l-analyste-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/build-buy-ou-embedded-quelle-plateforme-ia-pour-votre-supply",
+      "destination": "/blog/build-buy-ou-embedded-quelle-plateforme-ia-pour-votre",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mesurer-le-roi-de-lia-en-supply-chain-les-kpi-qui-comptent",
+      "destination": "/blog/mesurer-le-roi-de-l-ia-en-supply-chain-les-kpi-qui-comptent",
+      "permanent": true
+    },
+    {
+      "source": "/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue",
+      "destination": "/blog/qualite-des-donnees-pourquoi-les-projets-ia-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/llm-cloud-api-prive-ou-modle-local-arbitrer-lhbergement-de-l",
+      "destination": "/blog/llm-cloud-api-privee-ou-modele-local-arbitrer-l-hebergement",
+      "permanent": true
+    },
+    {
+      "source": "/blog/acculturation-et-conduite-du-changement-embarquer-les-quipes",
+      "destination": "/blog/acculturation-et-conduite-du-changement-embarquer-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyse-de-contrats-fournisseurs-par-llm-reprer-les-clauses-",
+      "destination": "/blog/analyse-de-contrats-fournisseurs-par-llm-reperer-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/spend-analysis-par-lia-catgoriser-100-de-ses-dpenses",
+      "destination": "/blog/spend-analysis-par-l-ia-categoriser-100-de-ses-depenses",
+      "permanent": true
+    },
+    {
+      "source": "/blog/sourcing-assist-par-ia-identifier-et-comparer-les-fournisseu",
+      "destination": "/blog/sourcing-assiste-par-ia-identifier-et-comparer-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/assistant-de-ngociation-ia-prparer-ses-scnarios-et-son-batna",
+      "destination": "/blog/assistant-de-negociation-ia-preparer-ses-scenarios-et-son",
+      "permanent": true
+    },
+    {
+      "source": "/blog/srm-augment-scoring-relances-et-revues-de-performance-par-ia",
+      "destination": "/blog/srm-augmente-scoring-relances-et-revues-de-performance-par",
+      "permanent": true
+    },
+    {
+      "source": "/blog/veille-prix-et-matires-premires-par-ia-anticiper-la-volatili",
+      "destination": "/blog/veille-prix-et-matieres-premieres-par-ia-anticiper-la",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gnrer-ses-scnarios-sop-avec-lia-simuler-ruptures-et-arbitrag",
+      "destination": "/blog/generer-ses-scenarios-sop-avec-l-ia-simuler-ruptures-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comptes-rendus-et-plans-daction-sop-automatiss-par-lia",
+      "destination": "/blog/comptes-rendus-et-plans-d-action-sop-automatises-par-l-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dtection-danomalies-et-alertes-intelligentes-sur-stocks-et-c",
+      "destination": "/blog/detection-d-anomalies-et-alertes-intelligentes-sur-stocks",
+      "permanent": true
+    },
+    {
+      "source": "/blog/planifier-ses-tournes-et-son-plan-transport-avec-lia",
+      "destination": "/blog/planifier-ses-tournees-et-son-plan-transport-avec-l-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/assistant-ia-et-voix-pour-le-cariste-prparation-et-formation",
+      "destination": "/blog/assistant-ia-et-voix-pour-le-cariste-preparation-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vision-par-ordinateur-en-rception-et-contrle-qualit-o-en-est",
+      "destination": "/blog/vision-par-ordinateur-en-reception-et-controle-qualite-ou",
+      "permanent": true
+    },
+    {
+      "source": "/blog/maintenance-prdictive-des-quipements-dentrept-et-de-la-flott",
+      "destination": "/blog/maintenance-predictive-des-equipements-d-entrepot-et-de-la",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-supply-chain-aronautique-au-maroc-traabilit-et-conform",
+      "destination": "/blog/ia-et-supply-chain-aeronautique-au-maroc-tracabilite-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-pharma-srialisation-conformit-et-prvision-rglemente",
+      "destination": "/blog/ia-et-pharma-serialisation-conformite-et-prevision",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-grande-distribution-rassort-promotion-et-dmarque",
+      "destination": "/blog/ia-et-grande-distribution-reassort-promotion-et-demarque",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-e-commerce-last-mile-prvision-cod-et-gestion-des-retou",
+      "destination": "/blog/ia-et-e-commerce-last-mile-prevision-cod-et-gestion-des",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-textile-habillement-collections-sourcing-et-nearshorin",
+      "destination": "/blog/ia-et-textile-habillement-collections-sourcing-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-mines-et-chimie-planification-vrac-et-logistique-portuair",
+      "destination": "/blog/ia-mines-et-chimie-planification-vrac-et-logistique",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-btp-prvision-de-chantier-et-volatilit-des-prix",
+      "destination": "/blog/ia-et-btp-prevision-de-chantier-et-volatilite-des-prix",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route-",
+      "destination": "/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route",
+      "permanent": true
+    },
+    {
+      "source": "/blog/le-comit-de-pilotage-ia-supply-chain-qui-doit-y-siger",
+      "destination": "/blog/le-comite-de-pilotage-ia-supply-chain-qui-doit-y-sieger",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-avantage-comptitif-ce-quun-directeur-supply-chain-prse",
+      "destination": "/blog/ia-et-avantage-competitif-ce-qu-un-directeur-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/direction-supply-chain-temps-partag-lre-de-lia",
+      "destination": "/blog/direction-supply-chain-a-temps-partage-a-l-ere-de-l-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/benchmark-ia-supply-chain-o-se-situe-une-pme-marocaine",
+      "destination": "/blog/benchmark-ia-supply-chain-ou-se-situe-une-pme-marocaine",
+      "permanent": true
+    },
+    {
+      "source": "/blog/les-7-erreurs-stratgiques-qui-font-chouer-un-projet-ia-suppl",
+      "destination": "/blog/les-7-erreurs-strategiques-qui-font-echouer-un-projet-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-audit-qualit-fournisseurs-automatiser-la-notation",
+      "destination": "/blog/ia-et-audit-qualite-fournisseurs-automatiser-la-notation",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dtection-automatique-des-non-conformits-par-ia",
+      "destination": "/blog/detection-automatique-des-non-conformites-par-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/analyse-des-rclamations-clients-par-ia-trouver-le-signal",
+      "destination": "/blog/analyse-des-reclamations-clients-par-ia-trouver-le-signal",
+      "permanent": true
+    },
+    {
+      "source": "/blog/certifications-iso-9001-et-iatf-16949-ce-que-lia-change",
+      "destination": "/blog/certifications-iso-9001-et-iatf-16949-ce-que-l-ia-change",
+      "permanent": true
+    },
+    {
+      "source": "/blog/traabilit-produit-augmente-par-ia-au-del-du-code-barres",
+      "destination": "/blog/tracabilite-produit-augmentee-par-ia-au-dela-du-code-barres",
+      "permanent": true
+    },
+    {
+      "source": "/blog/contrle-qualit-fournisseur-distance-ce-que-change-la-vision-",
+      "destination": "/blog/controle-qualite-fournisseur-a-distance-ce-que-change-la",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-dsi-supply-chain-ce-que-linformatique-doit-valider",
+      "destination": "/blog/ia-et-dsi-supply-chain-ce-que-l-informatique-doit-valider",
+      "permanent": true
+    },
+    {
+      "source": "/blog/api-et-intgration-ia-erp-wms-tms-les-piges-techniques",
+      "destination": "/blog/api-et-integration-ia-erp-wms-tms-les-pieges-techniques",
+      "permanent": true
+    },
+    {
+      "source": "/blog/scuriser-ses-accs-ia-gouvernance-des-cls-api-en-supply-chain",
+      "destination": "/blog/securiser-ses-acces-ia-gouvernance-des-cles-api-en-supply",
+      "permanent": true
+    },
+    {
+      "source": "/blog/shadow-ia-en-entreprise-le-risque-des-outils-non-valids",
+      "destination": "/blog/shadow-ia-en-entreprise-le-risque-des-outils-non-valides",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-emploi-en-supply-chain-quels-mtiers-se-transforment",
+      "destination": "/blog/ia-et-emploi-en-supply-chain-quels-metiers-se-transforment",
+      "permanent": true
+    },
+    {
+      "source": "/blog/recruter-un-profil-ia-applique-la-supply-chain",
+      "destination": "/blog/recruter-un-profil-ia-appliquee-a-la-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rorganiser-une-quipe-achats-ou-logistique-autour-de-lia",
+      "destination": "/blog/reorganiser-une-equipe-achats-ou-logistique-autour-de-l-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/rsistance-au-changement-face-lia-ce-que-craignent-les-quipes",
+      "destination": "/blog/resistance-au-changement-face-a-l-ia-ce-que-craignent-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/valuer-la-maturit-ia-de-ses-collaborateurs-supply-chain",
+      "destination": "/blog/evaluer-la-maturite-ia-de-ses-collaborateurs-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/manager-une-quipe-hybride-humains-ia-en-entrept",
+      "destination": "/blog/manager-une-equipe-hybride-humains-ia-en-entrepot",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lia-change-t-elle-la-grille-salariale-supply-chain-marocaine",
+      "destination": "/blog/l-ia-change-t-elle-la-grille-salariale-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-besoin-en-fonds-de-roulement-librer-du-cash-cach",
+      "destination": "/blog/ia-et-besoin-en-fonds-de-roulement-liberer-du-cash-cache",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prvision-budgtaire-supply-chain-par-ia-sortir-du-tableur-fig",
+      "destination": "/blog/prevision-budgetaire-supply-chain-par-ia-sortir-du-tableur",
+      "permanent": true
+    },
+    {
+      "source": "/blog/contrle-de-gestion-supply-chain-augment-par-ia",
+      "destination": "/blog/controle-de-gestion-supply-chain-augmente-par-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/business-case-ia-le-modle-financier-pour-convaincre-la-finan",
+      "destination": "/blog/business-case-ia-le-modele-financier-pour-convaincre-la",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-cot-logistique-complet-ce-quun-produit-cote-vraiment",
+      "destination": "/blog/ia-et-cout-logistique-complet-ce-qu-un-produit-coute",
+      "permanent": true
+    },
+    {
+      "source": "/blog/piloter-la-marge-par-rfrence-grce-lia",
+      "destination": "/blog/piloter-la-marge-par-reference-grace-a-l-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/qui-est-responsable-quand-lia-se-trompe-le-droit-des-contrat",
+      "destination": "/blog/qui-est-responsable-quand-l-ia-se-trompe-le-droit-des",
+      "permanent": true
+    },
+    {
+      "source": "/blog/clauses-ia-dans-les-contrats-fournisseurs-et-prestataires-lo",
+      "destination": "/blog/clauses-ia-dans-les-contrats-fournisseurs-et-prestataires",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-proprit-intellectuelle-qui-appartient-un-plan-gnr-par-",
+      "destination": "/blog/ia-et-propriete-intellectuelle-a-qui-appartient-un-plan",
+      "permanent": true
+    },
+    {
+      "source": "/blog/calculer-son-bilan-carbone-transport-par-ia-le-scope-3-autom",
+      "destination": "/blog/calculer-son-bilan-carbone-transport-par-ia-le-scope-3",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-conomie-circulaire-optimiser-les-flux-retour",
+      "destination": "/blog/ia-et-economie-circulaire-optimiser-les-flux-retour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/optimisation-des-tournes-par-ia-le-double-gain-cot-carbone",
+      "destination": "/blog/optimisation-des-tournees-par-ia-le-double-gain-cout-carbone",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reporting-esg-augment-par-ia-automatiser-la-collecte-fournis",
+      "destination": "/blog/reporting-esg-augmente-par-ia-automatiser-la-collecte",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-gaspillage-alimentaire-dans-la-chane-du-froid",
+      "destination": "/blog/ia-et-gaspillage-alimentaire-dans-la-chaine-du-froid",
+      "permanent": true
+    },
+    {
+      "source": "/blog/co-conception-assiste-par-ia-rduire-lempreinte-ds-le-produit",
+      "destination": "/blog/eco-conception-assistee-par-ia-reduire-l-empreinte-des-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lia-a-elle-mme-une-empreinte-carbone-ce-quil-faut-savoir",
+      "destination": "/blog/l-ia-a-elle-meme-une-empreinte-carbone-ce-qu-il-faut-savoir",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-ordonnancement-de-production-arbitrer-les-priorits",
+      "destination": "/blog/ia-et-ordonnancement-de-production-arbitrer-les-priorites",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mes-et-ia-ce-que-lintelligence-artificielle-ajoute-latelier",
+      "destination": "/blog/mes-et-ia-ce-que-l-intelligence-artificielle-ajoute-a-l",
+      "permanent": true
+    },
+    {
+      "source": "/blog/combien-conomiser-rellement-sur-vos-achats-cas-rels-chiffres",
+      "destination": "/blog/combien-economiser-reellement-sur-vos-achats-cas-reels",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dtection-de-dfauts-en-ligne-de-production-par-vision-ia",
+      "destination": "/blog/detection-de-defauts-en-ligne-de-production-par-vision-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-changements-de-srie-smed-rduire-les-temps-de-changeove",
+      "destination": "/blog/ia-et-changements-de-serie-smed-reduire-les-temps-de",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prvoir-les-pannes-machines-avant-larrt-de-ligne",
+      "destination": "/blog/prevoir-les-pannes-machines-avant-l-arret-de-ligne",
+      "permanent": true
+    },
+    {
+      "source": "/blog/planifier-sa-capacit-industrielle-avec-lia",
+      "destination": "/blog/planifier-sa-capacite-industrielle-avec-l-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-trsoee-identifier-les-pertes-caches-en-48-heures",
+      "destination": "/blog/ia-et-trsoee-identifier-les-pertes-cachees-en-48-heures",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prvision-commerciale-augmente-par-ia-aligner-ventes-et-suppl",
+      "destination": "/blog/prevision-commerciale-augmentee-par-ia-aligner-ventes-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/service-adv-augment-par-ia-traiter-plus-de-commandes-sans-re",
+      "destination": "/blog/service-adv-augmente-par-ia-traiter-plus-de-commandes-sans",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-gestion-des-retours-trier-router-et-rembourser-plus-vi",
+      "destination": "/blog/ia-et-gestion-des-retours-trier-router-et-rembourser-plus",
+      "permanent": true
+    },
+    {
+      "source": "/blog/personnalisation-des-dlais-de-livraison-par-ia-promettre-jus",
+      "destination": "/blog/personnalisation-des-delais-de-livraison-par-ia-promettre",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wms-oui-ou-non-pour-ma-pme-",
+      "destination": "/blog/wms-oui-ou-non-pour-ma-pme",
+      "permanent": true
+    },
+    {
+      "source": "/blog/classification-tarifaire-douanire-par-ia-rduire-les-erreurs",
+      "destination": "/blog/classification-tarifaire-douaniere-par-ia-reduire-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-veille-rglementaire-import-export-suivre-sans-y-passer",
+      "destination": "/blog/ia-et-veille-reglementaire-import-export-suivre-sans-y",
+      "permanent": true
+    },
+    {
+      "source": "/blog/optimiser-ses-origines-douanires-avec-lia-sans-risque",
+      "destination": "/blog/optimiser-ses-origines-douanieres-avec-l-ia-sans-risque",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-gestion-des-litiges-douaniers-anticiper-les-contrles",
+      "destination": "/blog/ia-et-gestion-des-litiges-douaniers-anticiper-les-controles",
+      "permanent": true
+    },
+    {
+      "source": "/blog/prvoir-les-dlais-de-ddouanement-par-ia",
+      "destination": "/blog/prevoir-les-delais-de-dedouanement-par-ia",
+      "permanent": true
+    },
+    {
+      "source": "/blog/crer-son-acadmie-ia-interne-supply-chain",
+      "destination": "/blog/creer-son-academie-ia-interne-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/certifications-ia-pour-professionnels-supply-chain-lesquelle",
+      "destination": "/blog/certifications-ia-pour-professionnels-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/former-ses-acheteurs-lia-gnrative-le-programme-en-5-modules",
+      "destination": "/blog/former-ses-acheteurs-a-l-ia-generative-le-programme-en-5",
+      "permanent": true
+    },
+    {
+      "source": "/blog/former-ses-quipes-entrept-et-transport-lia-sans-les-effrayer",
+      "destination": "/blog/former-ses-equipes-entrepot-et-transport-a-l-ia-sans-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-ou-consulting---quelle-approche-",
+      "destination": "/blog/formation-ou-consulting-quelle-approche",
+      "permanent": true
+    },
+    {
+      "source": "/blog/le-champion-ia-interne-ce-rle-qui-fait-russir-ladoption",
+      "destination": "/blog/le-champion-ia-interne-ce-role-qui-fait-reussir-l-adoption",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mesurer-limpact-dune-formation-ia-supply-chain",
+      "destination": "/blog/mesurer-l-impact-d-une-formation-ia-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-gnrative-et-nouveaux-modles-conomiques-logistiques",
+      "destination": "/blog/ia-generative-et-nouveaux-modeles-economiques-logistiques",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-as-a-service-ce-que-lia-rend-possible-pour-les-",
+      "destination": "/blog/supply-chain-as-a-service-ce-que-l-ia-rend-possible-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-et-souverainet-conomique-marocaine-enjeu-ou-effet-de-mode",
+      "destination": "/blog/ia-et-souverainete-economique-marocaine-enjeu-ou-effet-de",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ia-gnrative-en-2027-ce-qui-va-rellement-changer",
+      "destination": "/blog/ia-generative-en-2027-ce-qui-va-reellement-changer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/quel-est-votre-taux-de-succs-rel-",
+      "destination": "/blog/quel-est-votre-taux-de-succes-reel",
+      "permanent": true
+    },
+    {
+      "source": "/blog/combien-de-temps-transformation-supply-chain-",
+      "destination": "/blog/combien-de-temps-transformation-supply-chain",
+      "permanent": true
+    },
+    {
+      "source": "/blog/travaillez-vous-avec-petites-entreprises-",
+      "destination": "/blog/travaillez-vous-avec-petites-entreprises",
+      "permanent": true
+    },
+    {
+      "source": "/blog/pouvez-vous-garantir-roi-",
+      "destination": "/blog/pouvez-vous-garantir-roi",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comment-dbuter-premire-tape-",
+      "destination": "/blog/comment-debuter-premiere-etape",
+      "permanent": true
+    },
+    {
+      "source": "/blog/consultants-indpendants-ou-quipe-",
+      "destination": "/blog/consultants-independants-ou-equipe",
+      "permanent": true
+    },
+    {
+      "source": "/blog/alternatives-moins-chres-o-chercher-",
+      "destination": "/blog/alternatives-moins-cheres-ou-chercher",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-e-commerce-au-maroc-le-dernier-kilomtre-vrai-df",
+      "destination": "/blog/supply-chain-e-commerce-au-maroc-le-dernier-kilometre-vrai",
+      "permanent": true
+    },
+    {
+      "source": "/blog/logistique-sant-au-maroc-ce-que-la-task-force-vaccination-a-",
+      "destination": "/blog/logistique-sante-au-maroc-ce-que-la-task-force-vaccination",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-automobile-au-maroc-la-complexit-du-juste--temp",
+      "destination": "/blog/supply-chain-automobile-au-maroc-la-complexite-du-juste-a",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-retail-au-maroc-piloter-une-plateforme-multi-ma",
+      "destination": "/blog/supply-chain-retail-au-maroc-piloter-une-plateforme-multi",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-agro-export-au-maroc-la-chane-du-froid-facteur-",
+      "destination": "/blog/supply-chain-agro-export-au-maroc-la-chaine-du-froid",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-sngal-le-port-de-dakar-verrou-logistique-ouest-",
+      "destination": "/blog/supply-chain-senegal-le-port-de-dakar-verrou-logistique",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-cte-divoire-le-boom-logistique-dabidjan-et-san-",
+      "destination": "/blog/supply-chain-cote-d-ivoire-le-boom-logistique-d-abidjan-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-rdc-la-logistique-minire-du-katanga-et-le-corri",
+      "destination": "/blog/supply-chain-rdc-la-logistique-miniere-du-katanga-et-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-cameroun-le-port-de-douala-hub-logistique-dafri",
+      "destination": "/blog/supply-chain-cameroun-le-port-de-douala-hub-logistique-d",
+      "permanent": true
+    },
+    {
+      "source": "/blog/supply-chain-mali-logistique-dun-pays-enclav-entre-trois-cor",
+      "destination": "/blog/supply-chain-mali-logistique-d-un-pays-enclave-entre-trois",
+      "permanent": true
+    },
+    {
+      "source": "/blog/comment-devenir-responsable-logistique-au-maroc-le-guide-com",
+      "destination": "/blog/comment-devenir-responsable-logistique-au-maroc-le-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/salaire-responsable-logistique-au-maroc-2026-grilles-carts-e",
+      "destination": "/blog/salaire-responsable-logistique-au-maroc-2026-grilles-ecarts",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-gestion-des-stocks-au-maroc-mthodes-mtier-et-certi",
+      "destination": "/blog/formation-gestion-des-stocks-au-maroc-methodes-metier-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-ddmrp-au-maroc-certification-practitioner-et-rsult",
+      "destination": "/blog/formation-ddmrp-au-maroc-certification-practitioner-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/reconversion-vers-la-supply-chain-au-maroc-le-guide-complet-",
+      "destination": "/blog/reconversion-vers-la-supply-chain-au-maroc-le-guide-complet",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-wms-et-tms-au-maroc-matriser-les-outils-logistique",
+      "destination": "/blog/formation-wms-et-tms-au-maroc-maitriser-les-outils",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-logistique-marrakech-opportunits-et-programme-2026",
+      "destination": "/blog/formation-logistique-a-marrakech-opportunites-et-programme",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-logistique-agadir-supply-chain-export-et-rgion-sou",
+      "destination": "/blog/formation-logistique-a-agadir-supply-chain-export-et-region",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-acheteur-professionnel-au-maroc-comptences-salaire",
+      "destination": "/blog/formation-acheteur-professionnel-au-maroc-competences",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-logistique-tanger-et-knitra-hub-automobile-et-port",
+      "destination": "/blog/formation-logistique-a-tanger-et-kenitra-hub-automobile-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roi-dune-formation-supply-chain-au-maroc-comment-le-calculer",
+      "destination": "/blog/roi-d-une-formation-supply-chain-au-maroc-comment-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-lean-supply-chain-au-maroc-liminer-les-gaspillages",
+      "destination": "/blog/formation-lean-supply-chain-au-maroc-eliminer-les",
+      "permanent": true
+    },
+    {
+      "source": "/blog/audit-supply-chain-au-maroc-diagnostiquer-et-transformer-en-",
+      "destination": "/blog/audit-supply-chain-au-maroc-diagnostiquer-et-transformer-en",
+      "permanent": true
+    },
+    {
+      "source": "/blog/auto-diagnostic-logistique-pme-au-maroc-20-questions-pour-va",
+      "destination": "/blog/auto-diagnostic-logistique-pme-au-maroc-20-questions-pour",
+      "permanent": true
+    },
+    {
+      "source": "/blog/benchmark-cots-logistiques-au-maroc-2026-ratios-normes-et-co",
+      "destination": "/blog/benchmark-couts-logistiques-au-maroc-2026-ratios-normes-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/externalisation-logistique-au-maroc-quand-et-comment-choisir",
+      "destination": "/blog/externalisation-logistique-au-maroc-quand-et-comment",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kpis-supply-chain-au-maroc-tableau-de-bord-et-indicateurs-de",
+      "destination": "/blog/kpis-supply-chain-au-maroc-tableau-de-bord-et-indicateurs",
+      "permanent": true
+    },
+    {
+      "source": "/blog/conseil-logistique-au-maroc-ce-qui-diffrencie-une-mission-pm",
+      "destination": "/blog/conseil-logistique-au-maroc-ce-qui-differencie-une-mission",
+      "permanent": true
+    },
+    {
+      "source": "/blog/schma-directeur-logistique-au-maroc-mthode-et-livrables-2026",
+      "destination": "/blog/schema-directeur-logistique-au-maroc-methode-et-livrables",
+      "permanent": true
+    },
+    {
+      "source": "/blog/schma-directeur-logistique-pour-pme-au-maroc-mthode-adapte-2",
+      "destination": "/blog/schema-directeur-logistique-pour-pme-au-maroc-methode",
+      "permanent": true
+    },
+    {
+      "source": "/blog/schma-directeur-distribution-multi-rgions-au-maroc-stratgie-",
+      "destination": "/blog/schema-directeur-distribution-multi-regions-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/schma-directeur-logistique-agroalimentaire-au-maroc-mthode-e",
+      "destination": "/blog/schema-directeur-logistique-agroalimentaire-au-maroc",
+      "permanent": true
+    },
+    {
+      "source": "/blog/implantation-dun-entrept-au-maroc-guide-complet-de-a-z",
+      "destination": "/blog/implantation-d-un-entrepot-au-maroc-guide-complet-de-a-a-z",
+      "permanent": true
+    },
+    {
+      "source": "/blog/layout-entrept-les-5-principes-dune-conception-efficace-au-m",
+      "destination": "/blog/layout-entrepot-les-5-principes-d-une-conception-efficace",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entrept-frigorifique-au-maroc-concevoir-et-grer-la-logistiqu",
+      "destination": "/blog/entrepot-frigorifique-au-maroc-concevoir-et-gerer-la",
+      "permanent": true
+    },
+    {
+      "source": "/blog/automatisation-dentrept-au-maroc-solutions-cots-et-roi-2026",
+      "destination": "/blog/automatisation-d-entrepot-au-maroc-solutions-couts-et-roi",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entrept-e-commerce-au-maroc-fulfillment-last-mile-et-organis",
+      "destination": "/blog/entrepot-e-commerce-au-maroc-fulfillment-last-mile-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/entrept-multi-clients-au-maroc-mutualisation-logistique-et-p",
+      "destination": "/blog/entrepot-multi-clients-au-maroc-mutualisation-logistique-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dploiement-wms-au-maroc-mthode-dlais-et-facteurs-de-succs-20",
+      "destination": "/blog/deploiement-wms-au-maroc-methode-delais-et-facteurs-de",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-et-optimisation-tms-au-maroc-logiciel-de-gestion-d",
+      "destination": "/blog/formation-et-optimisation-tms-au-maroc-logiciel-de-gestion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/optimisation-du-rseau-logistique-au-maroc-stratgie-multi-sit",
+      "destination": "/blog/optimisation-du-reseau-logistique-au-maroc-strategie-multi",
+      "permanent": true
+    },
+    {
+      "source": "/blog/logistique-industrielle-au-maroc-organisation-flux-et-perfor",
+      "destination": "/blog/logistique-industrielle-au-maroc-organisation-flux-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digitalisation-de-la-supply-chain-au-maroc-iot-ia-et-outils-",
+      "destination": "/blog/digitalisation-de-la-supply-chain-au-maroc-iot-ia-et-outils",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ingnierie-logistique-au-maroc-conception-flux-et-optimisatio",
+      "destination": "/blog/ingenierie-logistique-au-maroc-conception-flux-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-chef-dentrept-au-maroc-comptences-programme-et-cer",
+      "destination": "/blog/formation-chef-d-entrepot-au-maroc-competences-programme-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lean-logistique-au-maroc-mthodes-outils-et-rsultats-terrain-",
+      "destination": "/blog/lean-logistique-au-maroc-methodes-outils-et-resultats",
+      "permanent": true
+    },
+    {
+      "source": "/blog/programme-de-formation-supply-chain-management-pour-cadres-a",
+      "destination": "/blog/programme-de-formation-supply-chain-management-pour-cadres",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-gestionnaire-de-stocks-au-maroc-mtier-comptences-e",
+      "destination": "/blog/formation-gestionnaire-de-stocks-au-maroc-metier",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-acheteur-supply-chain-au-maroc-ngociation-sourcing",
+      "destination": "/blog/formation-acheteur-supply-chain-au-maroc-negociation",
+      "permanent": true
+    },
+    {
+      "source": "/blog/webinaire-gratuit-transformation-supply-chain-en-90-jours",
+      "destination": "/evenements/transformation-supply-chain-en-90-jours",
+      "permanent": true
+    },
+    {
+      "source": "/blog/webinaire-gratuit-formation-ou-consulting-quelle-approche",
+      "destination": "/evenements/formation-ou-consulting-quelle-approche",
+      "permanent": true
+    },
+    {
+      "source": "/blog/webinaire-gratuit-formation-ou-consulting-quelle-approche-pour-vous",
+      "destination": "/evenements/formation-ou-consulting-quelle-approche",
+      "permanent": true
     }
   ]
 }

@@ -5,6 +5,14 @@ const LOGOS = [
   { name: 'Safari Groupe', file: '/images/logos/safari-groupe.webp', height: 40, natW: 227, natH: 81 },
   { name: 'Maghreb Steel', file: '/images/logos/maghreb-steel.svg', height: 26, natW: 162, natH: 22 },
   { name: 'Casanet', file: '/images/logos/casanet.webp', height: 46, natW: 146, natH: 95 },
+  { name: 'Stellantis', file: '/images/logos/stellantis.svg', height: 28, natW: 1181, natH: 250 },
+  { name: 'GIZ', file: '/images/logos/giz.svg', height: 30, natW: 105, natH: 29 },
+  { name: 'Fondation Mohammed V', file: '/images/logos/fondation-mohammed-v.svg', height: 44, natW: 89, natH: 89 },
+  { name: 'ECU Worldwide', file: '/images/logos/ecu-worldwide.png', height: 42, natW: 1028, natH: 481 },
+  { name: 'Logiphar', file: '/images/logos/logiphar.jpg', height: 40, natW: 200, natH: 200 },
+  { name: 'Nigerian Ports Authority', file: '/images/logos/nigerian-ports-authority.png', height: 36, natW: 304, natH: 136 },
+  { name: 'Sapress', file: '/images/logos/sapress.png', height: 26, natW: 350, natH: 100 },
+  { name: 'Tirso', file: '/images/logos/tirso.png', height: 32, natW: 1080, natH: 360 },
 ]
 
 const REFS = [
@@ -179,7 +187,7 @@ function LogoWall() {
       </div>
       <div className="logo-wall-grid" style={{
         display: 'grid',
-        gridTemplateColumns: `repeat(${LOGOS.length}, 1fr)`,
+        gridTemplateColumns: 'repeat(6, 1fr)',
         gap: '2px',
         background: 'var(--dark-border)',
       }}>

@@ -37,8 +37,8 @@ export default function Blog() {
           '11-supply-chain-fes-meknes',
           '12-supply-chain-marrakech-agadir',
           '13-supply-chain-afrique-francophone',
-          '14-webinaire-transformation-90j',
-          '15-webinaire-formation-vs-consulting',
+          // 14 et 15 (webinaires) déplacés vers /evenements/ — ce ne sont pas
+          // des articles éditoriaux mais des pages d'inscription à un événement.
           // Mini FAQ
           '40-faq-combien-economiser-achats',
           '41-mini-wms-oui-ou-non-pour-ma-pme',

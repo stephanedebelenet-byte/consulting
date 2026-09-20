@@ -21,7 +21,11 @@ export const prestationsFAQ = [
   },
   {
     q: 'Qui réalise les projets IT, RFID ou ERP présentés dans cette offre ?',
-    a: "Le développement, l'intégration ERP et le déploiement RFID/Track & Trace sont réalisés par l'équipe technique de notre partenaire. Nextinotech intervient en amont sur le cadrage et l'AMOA du projet, et assure la coordination entre votre besoin métier et la réalisation technique.",
+    a: "Nextinotech réalise elle-même le cadrage, l'intégration ERP et le déploiement RFID/Track & Trace, de bout en bout, sans sous-traitance — la même équipe qui a mené le diagnostic pilote la réalisation technique.",
+  },
+  {
+    q: 'Le Pack Inventaire peut-il servir à la certification des comptes en fin d\'exercice ?',
+    a: "Oui. Au-delà du comptage pour les entreprises, le Pack Inventaire est utilisé par des experts comptables comme appui indépendant à la certification de l'inventaire physique de fin d'exercice : méthode tracée, écarts documentés poste par poste, et un procès-verbal d'inventaire signé remis à l'expert comptable. Nextinotech agit ici comme tiers de comptage indépendant, sans lien avec la valorisation comptable elle-même.",
   },
 ]
 
@@ -162,7 +166,7 @@ function ServicesValeurAjoutee() {
 const PACK_INVENTAIRE = {
   title: 'Pack Inventaire',
   tagline: 'Comptage physique + ressources incluses.',
-  desc: "Le dimensionnement réel — nombre de personnes, jours, matériel — dépend de la complexité du site, pas seulement du nombre d'emplacements. Chaque palier ci-dessous est un point de départ, affiné avec vous avant devis.",
+  desc: "Le dimensionnement réel — nombre de personnes, jours, matériel — dépend de la complexité du site, pas seulement du nombre d'emplacements. Chaque palier ci-dessous est un point de départ, affiné avec vous avant devis. Deux publics : les entreprises qui pilotent leur propre inventaire, et les experts comptables qui ont besoin d'un tiers de comptage indépendant pour certifier l'inventaire physique de fin d'exercice.",
   tiers: [
     {
       name: 'Palier 1 — Petit site',
@@ -377,169 +381,65 @@ function PackInventaire() {
           </div>
         ))}
       </div>
-    </div>
-  )
-}
-
-const LEIBINGER = {
-  positioning: "Conseil et fourniture d'imprimantes industrielles de marquage et codage Leibinger — solutions professionnelles pour l'agroalimentaire, la pharmacie et l'industrie.",
-  features: [
-    "Imprimantes à jet d'encre continu, de l'entrée de gamme aux modèles haute vitesse",
-    'Technologie Sealtronic : démarrage rapide, moins d\'arrêts de production pour nettoyage',
-    'Modèles avec protection IP65 disponibles, adaptés aux exigences d\'hygiène strictes de l\'agroalimentaire et de la pharmaceutique',
-    'Applications : dates de péremption, numéros de lot, codes-barres, marquage réglementaire et traçabilité',
-  ],
-  includes: [
-    'Conseil sur le choix du modèle adapté à votre secteur, votre cadence de production et vos contraintes d\'hygiène/environnement',
-    'Fourniture et installation',
-  ],
-}
-
-function LeibingerOffer() {
-  return (
-    <div style={{ marginTop: '6rem' }}>
-      <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
-        <div
-          style={{
-            fontFamily: 'DM Mono, monospace',
-            fontSize: '0.6rem',
-            letterSpacing: '0.2em',
-            color: 'rgba(47,111,181,0.55)',
-            textTransform: 'uppercase',
-            marginBottom: '1.25rem',
-          }}
-        >
-          Partenaire officiel · Produit & conseil technique
-        </div>
-        <h3
-          style={{
-            fontFamily: 'Manrope, sans-serif',
-            fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)',
-            fontWeight: 800,
-            lineHeight: 1.05,
-            letterSpacing: '-0.02em',
-            color: 'var(--ink)',
-            margin: '0 0 0.75rem',
-          }}
-        >
-          Imprimantes Industrielles Leibinger
-        </h3>
-        <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
-          Nextinotech est distributeur/partenaire officiel Leibinger — fabricant allemand reconnu à l&apos;international dans le marquage et le codage industriel — au Maroc.
-        </p>
-      </div>
 
       <div
         style={{
-          background: '#fff',
+          marginTop: '2rem',
+          maxWidth: 1100,
+          background: 'var(--paper)',
           border: '1px solid rgba(27,53,84,0.1)',
-          padding: 'clamp(2rem, 4vw, 3rem)',
-          position: 'relative',
-          overflow: 'hidden',
-          maxWidth: 960,
-          boxShadow: '0 4px 20px rgba(0,0,0,0.05)',
+          padding: 'clamp(1.75rem, 3vw, 2.5rem)',
+          display: 'flex',
+          gap: '2rem',
+          flexWrap: 'wrap',
+          alignItems: 'center',
+          justifyContent: 'space-between',
         }}
       >
-        <div style={{ position: 'absolute', top: 0, left: 0, bottom: 0, width: 3, background: 'var(--blue-bright)' }} />
-
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
-          <img src="/images/logos/leibinger.svg" alt="Leibinger" style={{ height: 32, width: 'auto' }} />
-        </div>
-
-        <p style={{ fontSize: '1.02rem', color: 'var(--ink)', lineHeight: 1.75, fontWeight: 300, marginBottom: '2.25rem', maxWidth: 720 }}>
-          {LEIBINGER.positioning}
-        </p>
-
-        <div className="leibinger-grid" style={{ display: 'grid', gridTemplateColumns: '1.3fr 1fr', gap: '3rem' }}>
-          <div>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.9rem' }}>
-              Caractéristiques
-            </div>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              {LEIBINGER.features.map((item) => (
-                <li
-                  key={item}
-                  style={{
-                    fontSize: '0.85rem',
-                    padding: '0.5rem 0',
-                    borderBottom: '1px solid rgba(27,53,84,0.06)',
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '0.6rem',
-                    color: 'var(--mid)',
-                    lineHeight: 1.5,
-                    fontWeight: 300,
-                  }}
-                >
-                  <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
+        <div style={{ maxWidth: 640 }}>
+          <div
+            style={{
+              fontFamily: 'DM Mono, monospace',
+              fontSize: '0.58rem',
+              letterSpacing: '0.16em',
+              textTransform: 'uppercase',
+              color: 'rgba(47,111,181,0.65)',
+              marginBottom: '0.6rem',
+            }}
+          >
+            Vous êtes expert comptable ?
           </div>
-
-          <div>
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.9rem' }}>
-              Ce qui est inclus
-            </div>
-            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1.75rem' }}>
-              {LEIBINGER.includes.map((item) => (
-                <li
-                  key={item}
-                  style={{
-                    fontSize: '0.85rem',
-                    padding: '0.5rem 0',
-                    borderBottom: '1px solid rgba(27,53,84,0.06)',
-                    display: 'flex',
-                    alignItems: 'flex-start',
-                    gap: '0.6rem',
-                    color: 'var(--mid)',
-                    lineHeight: 1.5,
-                    fontWeight: 300,
-                  }}
-                >
-                  <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-
-            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.45)', marginBottom: '0.35rem' }}>
-              Prix
-            </div>
-            <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--ink)', marginBottom: '1.75rem' }}>
-              Sur devis — dépend du modèle et du volume
-            </div>
-
-            <a
-              href="/contact"
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '0.5rem',
-                fontSize: '0.72rem',
-                fontWeight: 600,
-                letterSpacing: '0.1em',
-                textTransform: 'uppercase',
-                textDecoration: 'none',
-                color: 'var(--ink)',
-                fontFamily: 'DM Mono, monospace',
-                transition: 'opacity 0.2s',
-              }}
-              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
-              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
-            >
-              Demander une démonstration →
-            </a>
-          </div>
+          <p style={{ fontSize: '0.92rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
+            Le Pack Inventaire sert aussi de tiers de comptage indépendant pour la certification de l'inventaire physique de fin d'exercice de vos clients : méthode tracée, écarts documentés, procès-verbal d'inventaire signé — sans lien avec la valorisation comptable.
+          </p>
         </div>
+        <a
+          href="/contact"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            fontSize: '0.72rem',
+            fontWeight: 600,
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase',
+            textDecoration: 'none',
+            color: 'var(--ink)',
+            fontFamily: 'DM Mono, monospace',
+            whiteSpace: 'nowrap',
+            borderBottom: '1px solid rgba(27,53,84,0.3)',
+            paddingBottom: '2px',
+          }}
+        >
+          Nous consulter pour un exercice comptable →
+        </a>
       </div>
     </div>
   )
 }
 
 const PARTENAIRE_IT = {
-  positioning: "Nextinotech s'appuie sur un partenaire technique marocain — éditeur, intégrateur et déployeur de solutions digitales pour la Supply Chain. Ce partenaire conçoit des applications métier, connecte les équipements et systèmes existants (ERP, IoT, capteurs), puis exploite la donnée pour piloter la décision. Il intervient sur les missions qui exigent du développement logiciel, de l'intégration ERP, un déploiement RFID/IoT sur le terrain ou de la data intelligence — en complément de notre propre rôle d'AMOA indépendant.",
+  positioning: "Nextinotech conçoit et intègre elle-même les solutions digitales de la Supply Chain, de bout en bout — applications métier, connexion des équipements et systèmes existants (ERP, IoT, capteurs), puis exploitation de la donnée pour piloter la décision. Nous intervenons sans sous-traitance sur les missions qui exigent du développement logiciel, de l'intégration ERP, un déploiement RFID/IoT sur le terrain ou de la data intelligence — avec la même équipe qui a mené le diagnostic.",
   pillars: [
     {
       label: 'Solutions métier',
@@ -857,8 +757,6 @@ export default function Prestations() {
         <ServicesValeurAjoutee />
 
         <PackInventaire />
-
-        <LeibingerOffer />
 
         <PartenaireITOffer />
 

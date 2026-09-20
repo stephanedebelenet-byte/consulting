@@ -62,7 +62,9 @@ async function getClient() {
 }
 
 function extractSitemapUrls() {
-  const xml = readFileSync(resolve(ROOT, 'public/sitemap.xml'), 'utf8')
+  // Le sitemap est désormais généré au build (vite.config.ts), plus un
+  // fichier statique dans public/ — on lit la version buildée.
+  const xml = readFileSync(resolve(ROOT, 'dist/sitemap.xml'), 'utf8')
   const matches = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)]
   return matches.map((m) => m[1]).filter((u) => u.endsWith('.html') === false && !u.endsWith('.txt'))
 }

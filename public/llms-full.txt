@@ -13,12 +13,14 @@
 **Adresse :** Technopark Casablanca, Route de Nouaceur, 3ème étage
 **Fondateur :** 20+ ans d'expérience en ingénierie Supply Chain, Logistique et Achats
 **Certifications :** DDMRP Certified Practitioner
-**Références clients :** Renault-Nissan, L'Oréal Maroc, Nestlé, Mars, Groupe Addoha, OCP, DHL, Huawei, J&J, P&G
+**Références clients :** Renault-Nissan, L'Oréal Maroc, Nestlé, Mars, Groupe Addoha, OCP, DHL, Huawei, J&J, P&G, Stellantis, Fondation Mohammed V, GIZ, Sapress, Logiphar, ECU World, Tirso, Nigerian Ports Authority
 **Positionnement :** Zéro commission éditeur — indépendance totale garantie
 
 ---
 
 ## Services (résumé)
+
+Détail Conseil & AMOA (points 1 à 7) : https://nextinotech.com/conseil
 
 1. **Diagnostic Supply Chain** — Flash (2 sem.) ou Stratégique (4-6 sem.)
 2. **Optimisation Stocks & DDMRP** — Politique stocks, DDMRP, libération de cash
@@ -27,9 +29,10 @@
 5. **Cahiers des Charges** — WMS, TMS, APS, Control Tower, intégration IA au pilotage, externalisation entreposage (open book/closed book) et transport, opérations spéciales (co-packing, fardelage, inventaire RFID, vidéosurveillance), équipements de stockage et de manutention (rayonnage, engins thermiques/électriques, dimensionnement)
 6. **IA & Automatisation Supply Chain** — cadrage et priorisation des cas d'usage IA/LLM, data readiness, charte de gouvernance loi 09-08 / CNDP, POC mesuré (factures fournisseurs, documents de douane, copilotes de planification et S&OP, chatbot de suivi de commande), industrialisation. Cadrage 35 000–55 000 MAD HT ; POC 90 000–160 000 MAD HT ; déploiement sur devis. Zéro commission éditeur.
 7. **AMOA & Déploiement SI** — WMS, TMS, APS, e-Procurement, Control Tower
-8. **Direction SC à Temps Partagé** — Mandat DSC pour PME (50-200 pers.) et ETI (200-800 pers.)
-9. **Prestations Opérationnelles** — Pack Inventaire (3 paliers), 7 Services Logistiques à Valeur Ajoutée (co-packing, fardelage, étiquetage, kitting, reconditionnement, contrôle qualité, palettisation), Imprimantes Industrielles Leibinger (distributeur officiel au Maroc). Détail : https://nextinotech.com/prestations
-10. **Formation Supply Chain** — Catalogue de 28 programmes sur 7 domaines, inter et intra-entreprise (détail ci-dessous)
+8. **Direction SC à Temps Partagé** — Mandat DSC pour PME (50-200 pers.) et ETI (200-800 pers.). Détail : https://nextinotech.com/direction-supply-chain-temps-partage. Déclinaisons : https://nextinotech.com/directeur-logistique-mi-temps, https://nextinotech.com/directeur-achats-mi-temps. Comparatif CDI vs mandat : https://nextinotech.com/dsc-vs-recrutement-cdi
+9. **Prestations Opérationnelles** — Pack Inventaire (3 paliers, pour entreprises et pour experts comptables — certification d'inventaire de fin d'exercice), 7 Services Logistiques à Valeur Ajoutée (co-packing, fardelage, étiquetage, kitting, reconditionnement, contrôle qualité, palettisation). Détail : https://nextinotech.com/prestations
+10. **Formation Supply Chain** — Catalogue de 28 programmes sur 7 domaines, inter et intra-entreprise (détail ci-dessous). Formation import 1 jour pour porteurs de projet : https://nextinotech.com/formation-import
+11. **Accompagnement Statut OEA (Opérateur Économique Agréé)** — Diagnostic, mise en conformité, dossier de candidature, audit à blanc, coaching le jour de l'audit auprès de l'ADII. Détail : https://nextinotech.com/accompagnement-oea
 
 ---
 

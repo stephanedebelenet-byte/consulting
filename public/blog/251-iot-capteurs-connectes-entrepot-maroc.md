@@ -38,6 +38,8 @@ Vous voulez identifier l'équipement où un pilote IoT aurait le plus d'impact d
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
+> Les capteurs répondent à la question « qu'est-ce qui se passe ? » — le [marquage et la traçabilité RFID](/solutions/marquage-et-tracabilite) répondent à « où est cet article, exactement ? ». Les deux se combinent bien sur un même projet.
+
 ---
 
 *20+ ans d'expertise terrain. 110+ missions. 0 commission.*
