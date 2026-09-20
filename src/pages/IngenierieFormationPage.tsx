@@ -1,5 +1,6 @@
 import PageMeta from '../components/PageMeta'
 import PageHero from '../components/PageHero'
+import HeroCarousel from '../components/HeroCarousel'
 import IngenierieFormation from '../components/IngenierieFormation'
 
 export default function IngenierieFormationPage() {
@@ -17,6 +18,7 @@ export default function IngenierieFormationPage() {
         subtitle="Un diagnostic terrain pour transformer votre budget de formation en plan d'action chiffré, financé et mesurable."
         tag="CONSEIL RH · PLAN DE FORMATION"
         bg="var(--paper)"
+        backgroundLayer={<HeroCarousel />}
       />
       <IngenierieFormation />
     </>

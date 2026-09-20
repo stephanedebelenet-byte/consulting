@@ -2,8 +2,53 @@ import { useState, useRef } from 'react'
 import type { ReactNode, CSSProperties } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
+import { IconBrandWhatsapp, IconPhoneCall } from '@tabler/icons-react'
 import SchemaScript from './SchemaHelper'
+import LogoMarquee from './LogoMarquee'
 import { METIERS_CATALOGUE } from '../data/catalogueMetiers'
+import { trackConversion } from '../utils/analytics'
+
+const WA_LINK = `https://wa.me/212663449200?text=${encodeURIComponent(
+  "Bonjour Nextinotech, je souhaite un diagnostic pour l'ingénierie de formation de mon entreprise.",
+)}`
+const TEL_LINK = 'tel:+212663449200'
+
+function CallToActionBar() {
+  return (
+    <div style={{ background: 'var(--dark-2)', padding: '2rem var(--sp-x)' }}>
+      <div
+        className="section-inner"
+        style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', alignItems: 'center', justifyContent: 'center' }}
+      >
+        <a
+          href={WA_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: '0.6rem',
+            padding: '0.9rem 1.75rem', background: '#25d366', color: '#fff', textDecoration: 'none',
+            fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 700,
+          }}
+        >
+          <IconBrandWhatsapp size={20} stroke={2} />
+          Discuter sur WhatsApp
+        </a>
+        <a
+          href={TEL_LINK}
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: '0.6rem',
+            padding: '0.9rem 1.75rem', background: 'transparent', color: '#f0ede8',
+            border: '1px solid rgba(255,255,255,0.25)', textDecoration: 'none',
+            fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 700,
+          }}
+        >
+          <IconPhoneCall size={20} stroke={2} />
+          +212 06 63 44 92 00
+        </a>
+      </div>
+    </div>
+  )
+}
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -105,6 +150,14 @@ const FAQS = [
     q: 'Faut-il ensuite passer par Nextinotech pour les formations ?',
     a: "Non. Le plan de formation vous appartient. Vous êtes libre de le déployer avec l'organisme de formation de votre choix. Notre seule obligation contractuelle porte sur le diagnostic et le plan — c'est aussi pour cela que nous ne touchons aucune commission éditeur sur les formations recommandées.",
   },
+  {
+    q: 'Que se passe-t-il si le dossier de financement est refusé ?',
+    a: "À ce jour, 100% des dossiers de financement que nous avons accompagnés ont été acceptés — parce que nous vérifions votre éligibilité réelle (adhésion GIAC, situation TFP/CNSS) dès le premier échange, avant tout engagement, et que nous ne montons pas de dossier qui n'a pas de chances raisonnables d'aboutir.",
+  },
+  {
+    q: 'Mes données RH et financières sont-elles protégées ?',
+    a: "Oui. Le diagnostic implique des données sensibles (masse salariale, organisation, pyramide des âges). Elles sont traitées de façon confidentielle, conformément à la loi 09-08 sur la protection des données personnelles, et l'accès à votre dossier sur NextiSuivi est réservé à votre équipe et à votre consultant.",
+  },
 ]
 
 const schema = {
@@ -154,6 +207,7 @@ function LeadForm() {
         }),
       })
       setStatus(res.ok ? 'success' : 'error')
+      if (res.ok) trackConversion()
     } catch {
       setStatus('error')
     }
@@ -308,6 +362,8 @@ export default function IngenierieFormation() {
         </div>
       </div>
 
+      <CallToActionBar />
+
       {/* ── CALLOUT ── */}
       <div style={{ background: 'var(--paper)', paddingBottom: 'var(--sp-y-sm)' }}>
         <div className="section-inner" style={{ padding: '0 var(--sp-x)' }}>
@@ -416,6 +472,71 @@ export default function IngenierieFormation() {
         </div>
       </div>
 
+      {/* ── NEXTISUIVI ── */}
+      <div style={{ background: 'var(--dark)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
+        <div className="frl-comp section-inner" style={{ alignItems: 'center' }}>
+          <FadeUp>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.7)', marginBottom: '1rem' }}>
+              Votre espace de suivi
+            </div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.8rem, 3vw, 2.6rem)', fontWeight: 800, letterSpacing: '-0.02em', color: '#f0ede8', marginBottom: '1.5rem' }}>
+              NextiSuivi — votre dossier, en temps réel.
+            </h3>
+            <p style={{ fontSize: '0.95rem', color: 'rgba(235,232,225,0.75)', lineHeight: 1.8, fontWeight: 300, marginBottom: '1.75rem' }}>
+              Chaque mission est pilotée sur NextiSuivi, notre plateforme conçue exclusivement pour le suivi des dossiers de financement GIAC et OFPPT — pas un outil générique détourné de son usage. Vous suivez l&apos;avancement de votre dossier étape par étape, du diagnostic au remboursement, et vous échangez directement avec votre consultant sans jongler entre emails et appels.
+            </p>
+            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1.5rem' }}>
+              {[
+                'Avancement du dossier visible à tout moment, étape par étape',
+                'Messagerie directe avec votre consultant Nextinotech',
+                'Documents et échéances de votre dossier centralisés au même endroit',
+              ].map((item) => (
+                <li key={item} style={{ fontSize: '0.9rem', padding: '0.6rem 0', borderBottom: '1px solid rgba(255,255,255,0.08)', display: 'flex', alignItems: 'flex-start', gap: '0.7rem', color: 'rgba(235,232,225,0.75)', lineHeight: 1.6, fontWeight: 300 }}>
+                  <span style={{ color: 'var(--blue-bright)', flexShrink: 0 }}>→</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p style={{ fontSize: '0.8rem', color: 'rgba(235,232,225,0.45)', lineHeight: 1.6, fontWeight: 300, margin: 0 }}>
+              Vos données restent confidentielles, conformément à la loi 09-08 sur la protection des données personnelles — accès réservé à votre équipe et à votre consultant.
+            </p>
+          </FadeUp>
+          <FadeUp delay={0.1}>
+            <div
+              style={{
+                background: 'var(--ink)',
+                border: '1px solid rgba(255,255,255,0.08)',
+                padding: '2.5rem',
+                aspectRatio: '4 / 3',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                gap: '1.25rem',
+              }}
+            >
+              {[
+                { label: 'Diagnostic', status: 'Terminé', pct: 100 },
+                { label: 'Plan de formation', status: 'En cours', pct: 60 },
+                { label: 'Dossier GIAC / OFPPT', status: 'À venir', pct: 0 },
+              ].map((row) => (
+                <div key={row.label}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.78rem', color: 'rgba(235,232,225,0.7)', marginBottom: '0.5rem' }}>
+                    <span>{row.label}</span>
+                    <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', color: 'var(--blue-bright)' }}>{row.status}</span>
+                  </div>
+                  <div style={{ height: 4, background: 'rgba(255,255,255,0.1)' }}>
+                    <div style={{ height: '100%', width: `${row.pct}%`, background: 'var(--blue-bright)' }} />
+                  </div>
+                </div>
+              ))}
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(235,232,225,0.3)', marginTop: '0.5rem' }}>
+                Aperçu illustratif — NextiSuivi
+              </div>
+            </div>
+          </FadeUp>
+        </div>
+      </div>
+
       {/* ── LIVRABLES + OFFRE ── */}
       <div style={{ background: 'var(--paper)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="frl-comp section-inner" style={{ alignItems: 'start' }}>
@@ -465,24 +586,101 @@ export default function IngenierieFormation() {
         </div>
       </div>
 
-      {/* ── POURQUOI NEXTINOTECH ── */}
+      {/* ── CE QUE VOUS LAISSEZ SUR LA TABLE ── */}
       <div style={{ background: 'var(--dark-2)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
         <div className="section-inner">
           <FadeUp>
-            <div style={{ maxWidth: 720 }}>
-              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.7)', marginBottom: '1.5rem' }}>
-                Pourquoi Nextinotech
-              </div>
-              <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, marginBottom: '1.5rem' }}>
-                La plupart des cabinets d&apos;ingénierie de formation touchent une commission sur les formations qu&apos;ils recommandent — un conflit d&apos;intérêt qui biaise le diagnostic. Chez Nextinotech, 0 commission éditeur : notre seule allégeance est votre business case. Et parce que nous sommes des consultants terrain en Supply Chain depuis plus de 20 ans, nous savons distinguer un vrai déficit de compétence d&apos;un simple problème d&apos;organisation ou de process.
-              </p>
-              <Link
-                to="/formation"
-                style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.7rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)', paddingBottom: '2px' }}
-              >
-                Voir le catalogue de formations Nextinotech →
-              </Link>
+            <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.7)', marginBottom: '1.5rem' }}>
+              Le financement, concrètement
             </div>
+            <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.8rem, 3.2vw, 2.8rem)', fontWeight: 800, letterSpacing: '-0.02em', color: '#f0ede8', marginBottom: '1.75rem', maxWidth: 760 }}>
+              Vous payez déjà la taxe de formation. La question, c&apos;est si vous la récupérez.
+            </h3>
+          </FadeUp>
+          <FadeUp delay={0.02}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '2rem' }}>
+              {['100% de dossiers de financement acceptés à ce jour', 'Statut tiers payant auprès des organismes financeurs'].map((badge) => (
+                <div
+                  key={badge}
+                  style={{
+                    display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
+                    padding: '0.55rem 1.1rem', background: 'rgba(47,111,181,0.12)',
+                    border: '1px solid rgba(47,111,181,0.35)',
+                    fontFamily: 'DM Mono, monospace', fontSize: '0.68rem', letterSpacing: '0.04em',
+                    color: 'var(--blue-bright)',
+                  }}
+                >
+                  {badge}
+                </div>
+              ))}
+            </div>
+          </FadeUp>
+          <FadeUp delay={0.05}>
+            <p style={{ fontSize: '1rem', color: 'rgba(235,232,225,0.75)', lineHeight: 1.85, fontWeight: 300, maxWidth: 780, marginBottom: '2.5rem' }}>
+              Chaque entreprise marocaine verse une Taxe de Formation Professionnelle (1,6% de la masse salariale), que le budget formation soit utilisé ou non. Sans dossier structuré et déposé à temps, cet argent reste une charge sèche — il ne revient jamais.
+            </p>
+          </FadeUp>
+          <div className="frl-comp" style={{ gridTemplateColumns: 'repeat(3, 1fr)', gap: '1px', background: 'rgba(255,255,255,0.08)', marginBottom: '2.5rem' }}>
+            <FadeUp delay={0.08}>
+              <div style={{ background: 'var(--ink)', padding: '2.25rem', height: '100%' }}>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '2.4rem', fontWeight: 800, color: 'var(--blue-bright)', marginBottom: '0.5rem' }}>
+                  Jusqu&apos;à 80%
+                </div>
+                <div style={{ fontSize: '0.9rem', color: 'rgba(235,232,225,0.7)', lineHeight: 1.6, fontWeight: 300 }}>
+                  du coût de l&apos;ingénierie de formation elle-même pris en charge par le GIAC de votre secteur, lorsqu&apos;elle fait suite à un diagnostic — <strong>exactement la structure de notre mission en 4 phases</strong>. 70% si l&apos;ingénierie n&apos;est pas précédée d&apos;une étude, plafond 100 000 MAD HT, renouvelable chaque année.
+                </div>
+              </div>
+            </FadeUp>
+            <FadeUp delay={0.12}>
+              <div style={{ background: 'var(--ink)', padding: '2.25rem', height: '100%' }}>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '2.4rem', fontWeight: 800, color: 'var(--blue-bright)', marginBottom: '0.5rem' }}>
+                  Jusqu&apos;à 70%
+                </div>
+                <div style={{ fontSize: '0.9rem', color: 'rgba(235,232,225,0.7)', lineHeight: 1.6, fontWeight: 300 }}>
+                  des coûts pédagogiques du plan de formation qui découle du diagnostic, remboursés via le Contrat Spécial de Formation (CSF) de l&apos;OFPPT — dans la limite de votre TFP déclarée.
+                </div>
+              </div>
+            </FadeUp>
+            <FadeUp delay={0.16}>
+              <div style={{ background: 'var(--ink)', padding: '2.25rem', height: '100%' }}>
+                <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.5rem', fontWeight: 800, color: 'var(--blue-bright)', marginBottom: '0.5rem', lineHeight: 1.15 }}>
+                  Tiers payant
+                </div>
+                <div style={{ fontSize: '0.9rem', color: 'rgba(235,232,225,0.7)', lineHeight: 1.6, fontWeight: 300 }}>
+                  Nextinotech est reconnu tiers payant auprès des organismes financeurs (GIAC / OFPPT) : la part prise en charge peut être réglée directement par l&apos;organisme, sans que vous ayez à avancer l&apos;intégralité de la facture en attendant un remboursement.
+                </div>
+              </div>
+            </FadeUp>
+          </div>
+          <FadeUp delay={0.15}>
+            <div style={{ borderLeft: '3px solid var(--blue-bright)', padding: '0.5rem 0 0.5rem 1.75rem', maxWidth: 780, marginBottom: '2.5rem' }}>
+              <p style={{ fontSize: '0.95rem', color: 'rgba(235,232,225,0.65)', lineHeight: 1.75, fontStyle: 'italic', margin: 0 }}>
+                Ces taux dépendent de votre adhésion au GIAC de votre secteur (ex. GIAC TRANSLOG pour le transport et la logistique) et de votre situation vis-à-vis de la TFP et de la CNSS — nous vérifions votre éligibilité exacte dès le premier échange, avant tout engagement.
+              </p>
+            </div>
+          </FadeUp>
+          <FadeUp delay={0.2}>
+            <p style={{ fontSize: '1rem', color: 'rgba(235,232,225,0.75)', lineHeight: 1.85, fontWeight: 300, maxWidth: 780, marginBottom: '1.5rem' }}>
+              Nous montons ce dossier avec vous du premier entretien jusqu&apos;à la présentation des justificatifs de remboursement — pas seulement la rédaction du plan de formation. C&apos;est un travail administratif exigeant, avec des délais de dépôt à respecter : la plupart des PME marocaines qui perdent ce financement ne le perdent pas faute d&apos;éligibilité, mais faute de dossier monté et déposé dans les règles et dans les temps.
+            </p>
+          </FadeUp>
+          <FadeUp delay={0.22}>
+            <p style={{ fontSize: '0.9rem', color: 'rgba(235,232,225,0.55)', lineHeight: 1.8, fontWeight: 300, maxWidth: 780, marginBottom: '1.5rem' }}>
+              Les fenêtres de dépôt GIAC sont annuelles et varient selon votre secteur — nous vérifions le calendrier exact de votre GIAC dès le premier échange, pour ne pas rater la fenêtre de l&apos;année en cours. Comptez ensuite généralement quelques mois entre le dépôt d&apos;un dossier complet et le remboursement effectif ; nous vous donnons un calendrier prévisionnel personnalisé dès le diagnostic.
+            </p>
+          </FadeUp>
+          <FadeUp delay={0.24}>
+            <p style={{ fontSize: '1rem', color: 'rgba(235,232,225,0.75)', lineHeight: 1.85, fontWeight: 300, maxWidth: 780, marginBottom: '1.5rem' }}>
+              La plupart des cabinets d&apos;ingénierie de formation touchent par ailleurs une commission sur les formations qu&apos;ils recommandent — un conflit d&apos;intérêt qui biaise le diagnostic. Chez Nextinotech, 0 commission éditeur : notre seule allégeance est votre business case. Et parce que nous sommes des consultants terrain en Supply Chain depuis plus de 20 ans, nous savons distinguer un vrai déficit de compétence d&apos;un simple problème d&apos;organisation ou de process.
+            </p>
+          </FadeUp>
+          <FadeUp delay={0.28}>
+            <Link
+              to="/formation"
+              style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.7rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)', paddingBottom: '2px' }}
+            >
+              Voir le catalogue de formations Nextinotech →
+            </Link>
           </FadeUp>
         </div>
       </div>
@@ -507,6 +705,8 @@ export default function IngenierieFormation() {
           </div>
         </div>
       </div>
+
+      <LogoMarquee />
 
       {/* ── FORMULAIRE / CTA FINAL ── */}
       <section id="diagnostic" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>

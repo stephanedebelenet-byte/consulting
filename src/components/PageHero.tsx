@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -10,6 +11,11 @@ interface PageHeroProps {
   bg?: string
   textColor?: string
   breadcrumb?: { label: string; to: string }
+  /** Couche décorative (ex. <HeroCarousel />) affichée derrière le contenu.
+   *  Quand elle est fournie, `bg` n'est plus appliqué en fond de section —
+   *  c'est la couche elle-même qui gère le fondu vers une couleur unie
+   *  (voir HeroCarousel, qui se fond en blanc en bas). */
+  backgroundLayer?: ReactNode
 }
 
 const ease = [0.16, 1, 0.3, 1] as const
@@ -23,6 +29,7 @@ export default function PageHero({
   bg = 'var(--navy)',
   textColor,
   breadcrumb,
+  backgroundLayer,
 }: PageHeroProps) {
   const words = title.split(' ')
   const isLight = bg === 'var(--paper)'
@@ -32,7 +39,7 @@ export default function PageHero({
   return (
     <section
       style={{
-        background: bg,
+        background: backgroundLayer ? 'transparent' : bg,
         paddingTop: 'calc(88px + var(--sp-y-sm))',
         paddingBottom: 'var(--sp-y-sm)',
         paddingLeft: 'var(--sp-x)',
@@ -41,6 +48,7 @@ export default function PageHero({
         position: 'relative',
       }}
     >
+      {backgroundLayer}
       {/* Large faded number */}
       <motion.div
         initial={{ opacity: 0, x: 60 }}
