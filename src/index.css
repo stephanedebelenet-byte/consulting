@@ -516,10 +516,13 @@ html.lenis { height: auto; }
   .frl-logistics { grid-template-columns: 1fr 1fr !important; padding: 2rem !important; }
   .frl-hero-stats { gap: 2rem; }
   .frl-photos { grid-template-columns: repeat(2, 1fr) !important; }
+  /* Ingénierie de formation : bande de chiffres 4 → 2 colonnes */
+  .ing-experience-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 1.75rem !important; }
 }
 @media (max-width: 640px) {
   .frl-logistics { grid-template-columns: 1fr !important; }
   .frl-sticky { padding: 0.75rem 1.25rem; }
+  .ing-experience-grid { grid-template-columns: 1fr !important; }
 }
 
 /* ── Blog styling ── */

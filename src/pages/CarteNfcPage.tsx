@@ -76,14 +76,14 @@ export default function CarteNfcPage() {
                 fontSize: 'clamp(1.5rem, 2.8vw, 2.8rem)',
                 fontWeight: 700,
                 fontStyle: 'italic',
-                color: '#f0ede8',
+                color: 'var(--ink)',
                 lineHeight: 1.15,
                 marginBottom: '0.5rem',
               }}
             >
               Envie d'essayer ?
             </div>
-            <div style={{ fontSize: '0.9rem', color: 'rgba(235,232,225,0.55)', fontWeight: 300 }}>
+            <div style={{ fontSize: '0.9rem', color: 'var(--mid)', fontWeight: 300 }}>
               Pour vous-même ou pour toute une équipe — sur devis.
             </div>
           </div>
