@@ -29,6 +29,15 @@ export interface PrerenderRoute {
   isOffer?: boolean
   /** Page volontairement hors navigation et hors llms.txt — exclue du contrôle isOffer. */
   hidden?: boolean
+  /**
+   * HTML de contenu à injecter dans <div id="root"> lors du prérendu (voir
+   * renderRoute dans vite.config.ts). Actuellement utilisé uniquement pour
+   * les articles de blog (corps Markdown converti via parseMarkdown) — les
+   * pages "app" n'ont pas encore d'équivalent, voir chantier 2 (rendu React
+   * complet). Sans ce champ, la page prérendue garde un <body> vide : c'est
+   * la cause du blocage d'indexation identifié le 22/09/2026.
+   */
+  bodyHtml?: string
 }
 
 const SUFFIX = ' | Nextinotech'

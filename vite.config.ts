@@ -6,6 +6,7 @@ import { getPrerenderRoutes, type PrerenderRoute } from './src/data/routeMeta'
 import { slugify } from './src/utils/slugify'
 import { EVENEMENTS } from './src/data/evenements'
 import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides'
+import { parseMarkdown } from './src/utils/markdownParser'
 
 const SITE = 'https://nextinotech.com'
 
@@ -49,8 +50,16 @@ export function getBlogRoutes(): PrerenderRoute[] {
   for (const file of readdirSync(dir)) {
     if (!file.endsWith('.md') || file.startsWith('_')) continue
     if (EVENEMENT_FILES.has(file.replace(/\.md$/, ''))) continue
-    const fm = parseFrontmatter(readFileSync(join(dir, file), 'utf-8'))
+    const raw = readFileSync(join(dir, file), 'utf-8')
+    const fm = parseFrontmatter(raw)
     if (!fm.title) continue
+    // Corps de l'article converti en HTML au build (même parseur que celui
+    // utilisé côté client dans Blog.tsx), pour l'injecter dans le <body> de
+    // la page prérendue — voir bodyHtml sur PrerenderRoute. Sans ça, la page
+    // prérendue de l'article n'a aucun texte, seulement son <head> : c'est la
+    // cause du blocage d'indexation Google identifié le 22/09/2026 (359+
+    // pages en "Détectée, actuellement non indexée").
+    const { htmlContent } = parseMarkdown(raw)
     const slug = blogSlug(fm.title)
     const url = `${SITE}/blog/${slug}`
     const image = fm.image ? (fm.image.startsWith('http') ? fm.image : SITE + fm.image) : `${SITE}/logo-full.png`
@@ -89,6 +98,7 @@ export function getBlogRoutes(): PrerenderRoute[] {
       priority: BLOG_PRIORITY_OVERRIDES[slug] ?? 0.7,
       changefreq: 'yearly',
       lastmod: fm.date || undefined,
+      bodyHtml: htmlContent,
     })
   }
   return out
@@ -140,6 +150,23 @@ function renderRoute(shell: string, route: PrerenderRoute): string {
       .map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`)
       .join('\n')
     html = html.replace('</head>', `${blocks}\n</head>`)
+  }
+  if (route.bodyHtml) {
+    // Contenu statique pour les crawlers qui ne rendent pas le JS (GPTBot,
+    // ClaudeBot, PerplexityBot, Bytespider — explicitement autorisés dans
+    // robots.txt — et Googlebot en première passe). Sans risque de mismatch
+    // d'hydratation : src/main.tsx utilise createRoot (pas hydrateRoot), qui
+    // remplace intégralement ce contenu dès que le bundle React s'exécute.
+    // Classe "blog-content" alignée sur celle utilisée par Blog.tsx (rendu
+    // client réel) — stylée dans src/index.css — pour un rendu correct avant
+    // hydratation, et non un simple mur de texte non stylé. Le H1 de
+    // l'article vient de bodyHtml lui-même (chaque .md du blog commence par
+    // "# Titre" dans son corps, converti en <h1 class="blog-h1"> par
+    // parseMarkdown) : ne pas ajouter de second H1 ici.
+    html = html.replace(
+      '<div id="root"></div>',
+      `<div id="root"><article><div class="blog-content">${route.bodyHtml}</div></article></div>`
+    )
   }
   return html
 }
