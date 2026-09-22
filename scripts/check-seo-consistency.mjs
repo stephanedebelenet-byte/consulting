@@ -55,6 +55,25 @@ function extractRobotsMeta(html) {
   return m ? m[1] : null
 }
 
+// Détecte la régression du 22/09/2026 : une page prérendue dont le <body>
+// est vide (seulement <div id="root"></div>), lisible par <head> correct
+// mais aucun contenu réel — cause directe du blocage d'indexation Google
+// et de l'invisibilité totale pour les crawlers IA qui ne rendent pas le JS
+// (GPTBot, ClaudeBot, PerplexityBot...). Seules les pages /blog/* sont
+// vérifiées ici (chantier 1) ; les pages "app" restent vides pour l'instant
+// (chantier 2, pas encore fait).
+const MIN_BODY_TEXT_LENGTH = 200
+
+function extractBodyText(html) {
+  const m = html.match(/<body[^>]*>([\s\S]*)<\/body>/i)
+  if (!m) return ''
+  return m[1].replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+function hasH1(html) {
+  return /<h1[\s>]/i.test(html)
+}
+
 const problems = []
 
 if (!existsSync(SITEMAP_PATH)) {
@@ -112,6 +131,20 @@ for (const loc of locs) {
   const robots = extractRobotsMeta(html)
   if (robots && /noindex/i.test(robots)) {
     fail(`Balise noindex trouvée sur une page listée dans le sitemap : ${loc}`)
+  }
+
+  // Règle 5 (chantier 1, 22/09/2026) : les pages /blog/* doivent avoir un
+  // <body> non vide, avec au moins un H1 et un texte réel — pas seulement
+  // un <div id="root"></div>. C'est le garde-fou qui aurait empêché la
+  // régression actuelle de passer inaperçue.
+  if (urlPath.startsWith('/blog/')) {
+    const bodyText = extractBodyText(html)
+    if (!hasH1(html)) {
+      fail(`Page blog sans <h1> dans le <body> prérendu : ${loc}`)
+    }
+    if (bodyText.length < MIN_BODY_TEXT_LENGTH) {
+      fail(`Page blog avec un <body> quasi vide (${bodyText.length} caractères de texte, minimum ${MIN_BODY_TEXT_LENGTH}) : ${loc}`)
+    }
   }
 }
 
