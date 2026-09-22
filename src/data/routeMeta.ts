@@ -12,7 +12,9 @@
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
 import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta, FAQ as formationFAQ } from './formations'
+import { servicesFAQ } from './conseilFaq'
+import { generateFAQSchema } from '../utils/seoData'
 
 export interface PrerenderRoute {
   path: string
@@ -132,6 +134,13 @@ const STATIC: PrerenderRoute[] = [
     title: 'FAQ — Conseil & Formation Supply Chain au Maroc' + SUFFIX,
     description:
       "Réponses aux questions fréquentes sur le conseil Supply Chain, les formations, les tarifs, le financement (CSF / GIAC), les délais et les résultats attendus.",
+    // FAQPage JSON-LD statique au build (même contenu et même générateur que
+    // src/components/Faq.tsx côté client — generateFAQSchema, servicesFAQ,
+    // formationFAQ). Avant ce champ, ce schéma n'existait qu'injecté par le
+    // composant React au montage, donc absent du HTML prérendu : invisible
+    // pour Google au premier passage et pour les crawlers IA qui n'exécutent
+    // pas de JS. Voir audit du 22/09/2026.
+    jsonLd: [generateFAQSchema([...servicesFAQ, ...formationFAQ])],
     priority: 0.75,
     changefreq: 'monthly',
     lastmod: '2026-08-24',

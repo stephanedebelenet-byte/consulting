@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
-import { servicesFAQ } from './Conseil'
+import { servicesFAQ } from '../data/conseilFaq'
 import { FAQ as formationFAQ } from '../data/formations'
 import { SchemaScript } from './SchemaHelper'
 import { generateFAQSchema } from '../utils/seoData'
