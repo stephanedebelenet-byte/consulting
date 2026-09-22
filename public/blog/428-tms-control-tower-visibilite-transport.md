@@ -30,7 +30,7 @@ Sans données de géolocalisation en temps réel, le TMS ne peut alimenter le co
 
 Le TMS reste l'outil de planification transport ; le control tower en consomme les écarts pour décider en temps réel. Notre article sur le [suivi de flotte et la géolocalisation](/blog/suivi-de-flotte-et-geolocalisation-les-outils-qui-reduisent) détaille les outils télématiques qui rendent cette intégration possible ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous pilotez une flotte multi-sites et voulez évaluer votre visibilité transport actuelle ? [Découvrez nos missions de conseil supply chain](/conseil) ou [contactez-nous](/contact).
+Vous pilotez une flotte multi-sites et voulez évaluer votre visibilité transport actuelle ? [Découvrez nos missions de conseil supply chain](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { IconPackage, IconStack2, IconTags, IconPuzzle, IconBoxSeam, IconEyeCheck, IconLayersIntersect } from '@tabler/icons-react'
 import { SchemaScript } from './SchemaHelper'
@@ -99,7 +100,7 @@ const VALEUR_AJOUTEE = [
 
 function ServicesValeurAjoutee() {
   return (
-    <div>
+    <div id="services-valeur-ajoutee">
       <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
         <div
           style={{
@@ -205,7 +206,7 @@ const PACK_INVENTAIRE = {
 
 function PackInventaire() {
   return (
-    <div style={{ marginTop: '6rem' }}>
+    <div id="pack-inventaire" style={{ marginTop: '6rem' }}>
       <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
         <div
           style={{
@@ -529,6 +530,22 @@ function PartenaireITOffer() {
           nécessitant du développement logiciel, de l&apos;intégration ERP, du déploiement RFID/Track &amp; Trace
           ou de la data intelligence.
         </p>
+        <Link
+          to="/control-tower"
+          style={{
+            display: 'inline-block',
+            marginTop: '1.25rem',
+            fontFamily: 'DM Mono, monospace',
+            fontSize: '0.68rem',
+            letterSpacing: '0.08em',
+            textTransform: 'uppercase',
+            color: 'var(--blue-bright)',
+            textDecoration: 'none',
+            borderBottom: '1px solid var(--blue-bright)',
+          }}
+        >
+          Voir l&apos;offre Control Tower complète (WMS, TMS, IMS, AMS, IoT, IA) →
+        </Link>
       </div>
 
       <div

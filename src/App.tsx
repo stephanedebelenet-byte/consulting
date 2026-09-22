@@ -34,6 +34,7 @@ import DscVsRecrutementCdiPage from './pages/DscVsRecrutementCdiPage'
 import AccompagnementOeaPage from './pages/AccompagnementOeaPage'
 import IngenierieFormationPage from './pages/IngenierieFormationPage'
 import CatalogueMetiersPage from './pages/CatalogueMetiersPage'
+import ControlTowerPage from './pages/ControlTowerPage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -63,6 +64,7 @@ function AnimatedRoutes() {
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
+        <Route path="/control-tower" element={<PageTransition><ControlTowerPage /></PageTransition>} />
         <Route path="/services" element={<ServicesRedirect />} />
         <Route path="/references" element={<PageTransition><ReferencesPage /></PageTransition>} />
         <Route path="/formation" element={<PageTransition><FormationPage /></PageTransition>} />

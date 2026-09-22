@@ -30,7 +30,7 @@ Au-delà de l'OTIF : le taux de service par site (pas seulement au global, qui m
 
 Le bon nombre de KPIs dans un control tower se mesure à leur capacité d'action, pas à leur exhaustivité analytique. Notre article sur la [gestion des exceptions dans un control tower](/blog/gestion-des-exceptions-dans-un-control-tower-au-dela-de-l) détaille ce qui se passe une fois qu'un indicateur déclenche une alerte ; notre comparatif [control tower vs tableau de bord BI](/blog/control-tower-vs-tableau-de-bord-bi-la-difference-qui) explicite cette distinction plus largement.
 
-Vous voulez auditer les indicateurs réellement utiles à votre pilotage ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
+Vous voulez auditer les indicateurs réellement utiles à votre pilotage ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

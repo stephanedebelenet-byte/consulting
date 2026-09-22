@@ -30,7 +30,7 @@ Trois leviers, par ordre de facilité de mise en œuvre : demander à ses fourni
 
 Un control tower qui n'intègre que le Tier 1 laisse un angle mort exactement là où se forment la majorité des ruptures imprévues. Notre article sur l'[interopérabilité ERP-WMS-TMS](/blog/interoperabilite-erp-wms-tms-connecter-ses-systemes-sans) détaille les référentiels à aligner avant d'étendre la visibilité aux fournisseurs ; notre article sur la [qualité des données dans un control tower](/blog/qualite-des-donnees-le-prerequis-que-tout-control-tower) complète cette démarche côté fiabilité des données partagées.
 
-Votre visibilité fournisseurs s'arrête-t-elle au Tier 1 ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
+Votre visibilité fournisseurs s'arrête-t-elle au Tier 1 ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

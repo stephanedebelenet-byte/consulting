@@ -64,6 +64,16 @@ const STATIC: PrerenderRoute[] = [
     isOffer: true,
   },
   {
+    path: '/control-tower',
+    title: 'Control Tower Supply Chain — WMS, TMS, IMS, AMS, IoT, IA' + SUFFIX,
+    description:
+      "Piloter votre supply chain en temps réel en intégrant WMS, TMS, IMS, AMS, IoT et IA dans une seule tour de contrôle. Offre en 3 paliers, formation des équipes et accompagnement conseil.",
+    priority: 0.85,
+    changefreq: 'weekly',
+    lastmod: '2026-09-22',
+    isOffer: true,
+  },
+  {
     path: '/references',
     title: 'Références & Missions — Renault, L’Oréal, Nestlé, OCP, DHL' + SUFFIX,
     description:

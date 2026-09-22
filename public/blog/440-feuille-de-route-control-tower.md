@@ -34,7 +34,7 @@ Un même seuil d'alerte appliqué uniformément à tous les sites ignore leurs d
 
 Un déploiement en trois phases — pilote ciblé, gouvernance rodée, extension multi-sites avec seuils adaptés — évite l'écueil du big bang qui fait échouer la majorité des projets control tower. Notre article sur [comment choisir son éditeur](/blog/choisir-son-editeur-control-tower-la-grille-de-selection) aide à sécuriser ce choix dès la phase pilote ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous voulez cadrer le pilote de votre futur control tower ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
+Vous voulez cadrer le pilote de votre futur control tower ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

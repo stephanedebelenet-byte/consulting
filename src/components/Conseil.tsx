@@ -59,6 +59,7 @@ const services = [
       { name: 'Cahier des Charges Multi-lots', price: '45 000 – 80 000 MAD HT', duration: '4 à 6 semaines', featured: true },
       { name: 'Cahier des Charges Multi-sites', price: 'Sur devis', duration: '6 à 10 semaines' },
     ],
+    moreLink: { label: 'Voir l\'offre Control Tower complète (WMS, TMS, IMS, AMS, IoT, IA) →', href: '/control-tower' },
   },
   {
     num: '06',
@@ -405,6 +406,25 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
               }}>
                 {s.desc}
               </p>
+
+              {'moreLink' in s && s.moreLink && (
+                <a
+                  href={s.moreLink.href}
+                  style={{
+                    display: 'inline-block',
+                    marginBottom: '2.5rem',
+                    fontFamily: 'DM Mono, monospace',
+                    fontSize: '0.68rem',
+                    letterSpacing: '0.08em',
+                    textTransform: 'uppercase',
+                    color: 'var(--blue-bright)',
+                    textDecoration: 'none',
+                    borderBottom: '1px solid var(--blue-bright)',
+                  }}
+                >
+                  {s.moreLink.label}
+                </a>
+              )}
 
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
                 {s.tiers.map((tier) => (

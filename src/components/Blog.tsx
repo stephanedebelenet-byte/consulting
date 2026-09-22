@@ -437,7 +437,7 @@ export default function Blog() {
           '427-wms-control-tower-donnees-entrepot',
           '428-tms-control-tower-visibilite-transport',
           '429-ims-inventory-management-system-control-tower',
-          '430-ams-automation-management-system-control-tower',
+          '430-ams-asset-management-system-control-tower',
           '431-iot-control-tower-capteurs',
           '432-ia-control-tower-decision-assistee',
           '433-control-tower-vs-tableau-de-bord-bi',

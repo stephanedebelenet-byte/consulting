@@ -30,7 +30,7 @@ Un stock synchronisé toutes les 24 heures rend le control tower aveugle aux rup
 
 Un WMS bien intégré à un control tower ne transmet pas tout, il transmet ce qui déclenche une décision : ruptures, retards, écarts. Notre [comparatif WMS vs ERP intégré](/blog/wms-vs-erp-integre-faut-il-un-systeme-dedie-pour-son) détaille à partir de quel seuil un WMS dédié devient nécessaire avant même de penser control tower ; notre [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous voulez évaluer quelles données de votre WMS méritent de remonter en temps réel ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
+Vous voulez évaluer quelles données de votre WMS méritent de remonter en temps réel ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

@@ -36,7 +36,7 @@ Le passage du Niveau 0 au Niveau 1 se fait généralement sans investissement lo
 
 Situer honnêtement son niveau de maturité évite d'investir dans un control tower trop sophistiqué pour l'organisation qui doit l'exploiter au quotidien. Le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) détaille la mécanique d'ensemble ; notre article sur le [control tower agentique](/blog/control-tower-agentique-quand-l-ia-agit-sans-attendre-l) présente le niveau de maturité le plus avancé, pour les organisations qui ont déjà stabilisé les niveaux précédents.
 
-Vous voulez un diagnostic honnête de votre niveau de maturité actuel ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
+Vous voulez un diagnostic honnête de votre niveau de maturité actuel ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

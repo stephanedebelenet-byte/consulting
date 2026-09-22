@@ -65,6 +65,7 @@ const systems = [
       { name: 'Control Tower Pro', price: 'À partir de 280 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · AI/ML · portail mobile dirigeant' },
     ],
     results: ['Détection anomalies ÷5 à 10', 'Économies 2–5% marge SC', 'Zéro reporting manuel'],
+    moreLink: '/control-tower',
   },
 ]
 
@@ -276,6 +277,25 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                     }}
                   >
                     Voir une démo →
+                  </Link>
+                )}
+                {'moreLink' in s && s.moreLink && (
+                  <Link
+                    to={s.moreLink}
+                    style={{
+                      fontFamily: 'DM Mono, monospace',
+                      fontSize: '0.68rem',
+                      letterSpacing: '0.08em',
+                      textTransform: 'uppercase',
+                      color: '#fff',
+                      background: 'var(--blue-bright)',
+                      padding: '0.65rem 1.1rem',
+                      textDecoration: 'none',
+                      whiteSpace: 'nowrap',
+                      flexShrink: 0,
+                    }}
+                  >
+                    Voir l'offre complète →
                   </Link>
                 )}
               </div>
