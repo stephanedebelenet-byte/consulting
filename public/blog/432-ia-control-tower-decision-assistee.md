@@ -30,7 +30,7 @@ L'IA améliore la détection et la recommandation, mais ne résout pas la questi
 
 L'IA transforme un control tower de tableau de bord consolidé en outil de décision assistée, à condition que la gouvernance de décision suive le même rythme. Notre article sur ce que [la DSI doit valider avant un projet IA supply chain](/blog/ia-et-dsi-supply-chain-ce-que-l-informatique-doit-valider) détaille les points de contrôle technique ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous voulez évaluer où l'IA apporterait le plus de valeur dans votre pilotage supply chain ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
+Vous voulez évaluer où l'IA apporterait le plus de valeur dans votre pilotage supply chain ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

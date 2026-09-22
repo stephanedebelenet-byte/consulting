@@ -30,7 +30,7 @@ Un tableau de questions techniques précises évite les mauvaises surprises docu
 
 Le bon éditeur control tower se choisit sur les connecteurs, le modèle tarifaire réel et les références comparables — pas sur la liste de fonctionnalités affichée en démonstration. Notre article sur les [pièges techniques de l'intégration IA-ERP-WMS-TMS](/blog/api-et-integration-ia-erp-wms-tms-les-pieges-techniques) détaille les questions techniques à poser avant signature ; notre article sur [combien coûte un control tower](/blog/combien-coute-un-control-tower-budget-realiste-pour-une-eti) précise le budget associé à ce choix.
 
-Vous comparez plusieurs éditeurs et voulez un avis indépendant ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
+Vous comparez plusieurs éditeurs et voulez un avis indépendant ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

@@ -30,7 +30,7 @@ Une question suffit généralement à trancher : si un indicateur franchit un se
 
 La différence entre un control tower et un tableau de bord BI ne tient pas à la technologie mais à la présence d'une alerte automatique et d'une décision associée. Notre article sur les [KPIs à suivre dans un control tower](/blog/les-kpis-a-suivre-dans-un-control-tower-lesquels-comptent) détaille quels indicateurs méritent ce traitement ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous n'êtes pas sûr de ce que vous avez réellement en place ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
+Vous n'êtes pas sûr de ce que vous avez réellement en place ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

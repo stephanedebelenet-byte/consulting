@@ -28,7 +28,7 @@ const CONSEIL_ITEMS: SimpleItem[] = [
 ]
 
 const PRESTATIONS_ITEMS: SimpleItem[] = [
-  { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/prestations#control-tower' },
+  { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/control-tower' },
   { label: 'Intégrateur de Systèmes', href: '/prestations#solutions-it' },
   { label: 'Pack Inventaire', href: '/prestations#pack-inventaire' },
   { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations#services-valeur-ajoutee' },

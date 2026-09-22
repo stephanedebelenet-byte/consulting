@@ -30,7 +30,7 @@ Avant même de définir qui a le droit d'agir sur une alerte, il faut définir q
 
 La sécurité et la gouvernance des données d'un control tower se décident avant l'ouverture des accès, pas après un incident. Notre article sur la [qualité des données](/blog/qualite-des-donnees-le-prerequis-que-tout-control-tower) précède logiquement cette réflexion sur les accès ; notre article sur ce que [la DSI doit valider avant un projet IA supply chain](/blog/ia-et-dsi-supply-chain-ce-que-l-informatique-doit-valider) détaille les points de contrôle technique associés.
 
-Votre gouvernance des accès est-elle définie avant l'ouverture de votre control tower ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
+Votre gouvernance des accès est-elle définie avant l'ouverture de votre control tower ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

@@ -30,7 +30,7 @@ Beaucoup de projets budgètent un nettoyage de données en amont du lancement, p
 
 Aucune sophistication technologique ne compense des référentiels de données incohérents — la qualité des données est un prérequis, pas une option, avant tout control tower. Notre article sur l'[interopérabilité ERP-WMS-TMS](/blog/interoperabilite-erp-wms-tms-connecter-ses-systemes-sans) détaille comment aligner ces référentiels ; notre article sur la [sécurité et la gouvernance des données](/blog/securite-et-gouvernance-des-donnees-dans-un-control-tower) complète cette démarche.
 
-Vos référentiels article, fournisseur et site sont-ils alignés entre vos systèmes ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
+Vos référentiels article, fournisseur et site sont-ils alignés entre vos systèmes ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

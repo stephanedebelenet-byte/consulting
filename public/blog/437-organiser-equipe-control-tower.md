@@ -30,7 +30,7 @@ Pour chaque type d'exception, trois éléments doivent être définis avant la m
 
 La réussite d'un control tower dépend davantage de la gouvernance de décision que de la sophistication technique de l'outil. Notre article sur la [gestion des exceptions dans un control tower](/blog/gestion-des-exceptions-dans-un-control-tower-au-dela-de-l) détaille le traitement opérationnel au quotidien ; notre article sur la [sécurité et la gouvernance des données](/blog/securite-et-gouvernance-des-donnees-dans-un-control-tower) complète cette organisation côté données.
 
-Vous voulez structurer la gouvernance de votre futur control tower ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
+Vous voulez structurer la gouvernance de votre futur control tower ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

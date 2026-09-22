@@ -65,7 +65,7 @@ const systems = [
       { name: 'Control Tower Pro', price: 'À partir de 840 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · AI/ML · portail mobile dirigeant' },
     ],
     results: ['Détection anomalies ÷5 à 10', 'Économies 2–5% marge SC', 'Zéro reporting manuel'],
-    moreLink: '/prestations#control-tower',
+    moreLink: '/control-tower',
   },
 ]
 

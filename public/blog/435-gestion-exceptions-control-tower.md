@@ -30,7 +30,7 @@ La méthode qui fonctionne : définir une priorisation pondérée par l'impact a
 
 Un control tower se juge à sa capacité à réduire le bruit et à faire remonter la vraie priorité business, pas au volume d'alertes qu'il génère. Notre article sur les [seuils et règles d'alerte](/blog/seuils-et-regles-d-alerte-dans-un-control-tower-comment-les) détaille comment les calibrer précisément ; notre article sur les [KPIs à suivre dans un control tower](/blog/les-kpis-a-suivre-dans-un-control-tower-lesquels-comptent) explicite quels indicateurs méritent de déclencher une exception.
 
-Vos équipes reçoivent-elles trop d'alertes pour les traiter sérieusement ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
+Vos équipes reçoivent-elles trop d'alertes pour les traiter sérieusement ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
