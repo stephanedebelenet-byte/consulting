@@ -60,12 +60,12 @@ const systems = [
     fullName: 'BI Supply Chain',
     tagline: "Décisions Comex basées sur données. Plus de reportings manuels.",
     tiers: [
-      { name: 'Control Tower Mini', price: '45 000 – 75 000 MAD HT', duration: '4 à 6 semaines', desc: '3–5 dashboards Power BI clés · OTIF, stocks, cash' },
-      { name: 'Control Tower Pilote', price: '110 000 – 180 000 MAD HT', duration: '2 à 3 mois', desc: '8–12 dashboards + alertes + rituel COPIL', featured: true },
-      { name: 'Control Tower Pro', price: 'À partir de 280 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · AI/ML · portail mobile dirigeant' },
+      { name: 'Control Tower Mini', price: 'À partir de 135 000 MAD HT', duration: '4 à 6 semaines', desc: '3–5 dashboards Power BI clés · OTIF, stocks, cash' },
+      { name: 'Control Tower Pilote', price: 'À partir de 330 000 MAD HT', duration: '2 à 3 mois', desc: '8–12 dashboards + alertes + rituel COPIL', featured: true },
+      { name: 'Control Tower Pro', price: 'À partir de 840 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · AI/ML · portail mobile dirigeant' },
     ],
     results: ['Détection anomalies ÷5 à 10', 'Économies 2–5% marge SC', 'Zéro reporting manuel'],
-    moreLink: '/control-tower',
+    moreLink: '/prestations#control-tower',
   },
 ]
 

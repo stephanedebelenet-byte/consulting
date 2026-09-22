@@ -30,7 +30,7 @@ Les seuils fixés au lancement d'un control tower sont, par construction, des hy
 
 Des seuils pondérés par l'impact réel, révisés régulièrement dans les premiers mois, transforment un flux d'alertes en un outil de priorisation exploitable. Notre article sur la [gestion des exceptions dans un control tower](/blog/gestion-des-exceptions-dans-un-control-tower-au-dela-de-l) détaille ce qui doit se passer une fois l'alerte déclenchée ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vos seuils d'alerte reflètent-ils encore vos priorités business réelles ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
+Vos seuils d'alerte reflètent-ils encore vos priorités business réelles ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

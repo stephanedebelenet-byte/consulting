@@ -30,7 +30,7 @@ Certaines données restent mieux protégées sur une infrastructure interne : in
 
 Le cloud domine désormais largement les nouveaux déploiements de control tower, l'on-premise se justifiant surtout par des contraintes réglementaires précises plutôt que par défaut. Notre article sur [comment choisir son éditeur control tower](/blog/choisir-son-editeur-control-tower-la-grille-de-selection) intègre ce critère de déploiement dans la grille de sélection ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous hésitez entre cloud et on-premise pour votre projet ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
+Vous hésitez entre cloud et on-premise pour votre projet ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

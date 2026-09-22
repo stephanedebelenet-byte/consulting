@@ -57,7 +57,7 @@ Détail : https://nextinotech.com/conseil
 - Control Tower / BI Supply Chain
 
 ### Control Tower — WMS, TMS, IMS, AMS, IoT, IA
-Détail : https://nextinotech.com/control-tower — piloter la supply chain en temps réel en intégrant six systèmes (WMS, TMS, IMS, AMS, IoT, IA) dans une seule tour de contrôle. Offre en 3 paliers (Mini 45-75k MAD, Pilote 110-180k MAD, Pro à partir de 280k MAD), formation des équipes et accompagnement conseil (cahiers des charges, intégration, direction supply chain à temps partagé).
+Détail : https://nextinotech.com/prestations#control-tower — piloter la supply chain en temps réel en intégrant six systèmes (WMS, TMS, IMS, AMS, IoT, IA) dans une seule tour de contrôle. Intégrée à l'offre Prestations (pas de page dédiée). Offre en 3 paliers à partir de 135k MAD (Mini), 330k MAD (Pilote), 840k MAD (Pro), formation des équipes et accompagnement conseil (cahiers des charges, intégration, direction supply chain à temps partagé).
 
 ### Direction Supply Chain à Temps Partagé
 Détail : https://nextinotech.com/direction-supply-chain-temps-partage

@@ -28,7 +28,8 @@ const CONSEIL_ITEMS: SimpleItem[] = [
 ]
 
 const PRESTATIONS_ITEMS: SimpleItem[] = [
-  { label: 'Intégrateur de Systèmes (WMS · TMS · AMS · IoT)', href: '/prestations#solutions-it' },
+  { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/prestations#control-tower' },
+  { label: 'Intégrateur de Systèmes', href: '/prestations#solutions-it' },
   { label: 'Pack Inventaire', href: '/prestations#pack-inventaire' },
   { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations#services-valeur-ajoutee' },
 ]
@@ -61,13 +62,14 @@ type GroupId = 'cabinet' | 'conseil' | 'prestations' | 'formation' | 'outils'
 // restent des accès secondaires.
 type NavEntry =
   | { kind: 'dropdown'; id: GroupId; label: string }
-  | { kind: 'link'; id: 'carriere' | 'ressources' | 'control-tower'; label: string; href: string }
+  | { kind: 'link'; id: 'carriere' | 'ressources'; label: string; href: string }
 
+// Ordre des 3 piliers Nextinotech : Formation, Conseil, Prestations (Control
+// Tower est intégré dans Prestations — pas d'onglet dédié).
 const NAV_ENTRIES: NavEntry[] = [
+  { kind: 'dropdown', id: 'formation', label: 'Formation' },
   { kind: 'dropdown', id: 'conseil', label: 'Conseil' },
   { kind: 'dropdown', id: 'prestations', label: 'Prestations' },
-  { kind: 'link', id: 'control-tower', label: 'Control Tower', href: '/control-tower' },
-  { kind: 'dropdown', id: 'formation', label: 'Formation' },
   { kind: 'dropdown', id: 'cabinet', label: 'Cabinet' },
   { kind: 'dropdown', id: 'outils', label: 'Outils gratuits' },
   { kind: 'link', id: 'carriere', label: 'Carrière', href: '/carriere' },
@@ -300,10 +302,9 @@ export default function Nav() {
     return false
   }
 
-  const linkActive = (id: 'carriere' | 'ressources' | 'control-tower') => {
+  const linkActive = (id: 'carriere' | 'ressources') => {
     if (id === 'carriere') return pathname === '/carriere'
     if (id === 'ressources') return pathname === '/blog'
-    if (id === 'control-tower') return pathname === '/control-tower'
     return false
   }
 
@@ -425,15 +426,6 @@ export default function Nav() {
                 style={{ display: 'block', textDecoration: 'none', color: 'var(--blue-bright)', marginBottom: '2.5rem' }}
               >
                 Contact →
-              </Link>
-
-              <Link
-                to="/control-tower"
-                className="mobile-nav-item"
-                onClick={() => setMenuOpen(false)}
-                style={{ display: 'block', textDecoration: 'none', color: 'var(--navy)', marginBottom: '2rem' }}
-              >
-                Control Tower →
               </Link>
 
               {/* Formation et Prestations sont les piliers 2 et 3 de l'offre : ils ont

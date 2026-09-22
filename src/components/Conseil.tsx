@@ -59,7 +59,7 @@ const services = [
       { name: 'Cahier des Charges Multi-lots', price: '45 000 – 80 000 MAD HT', duration: '4 à 6 semaines', featured: true },
       { name: 'Cahier des Charges Multi-sites', price: 'Sur devis', duration: '6 à 10 semaines' },
     ],
-    moreLink: { label: 'Voir l\'offre Control Tower complète (WMS, TMS, IMS, AMS, IoT, IA) →', href: '/control-tower' },
+    moreLink: { label: 'Voir l\'offre Control Tower complète (WMS, TMS, IMS, AMS, IoT, IA) →', href: '/prestations#control-tower' },
   },
   {
     num: '06',

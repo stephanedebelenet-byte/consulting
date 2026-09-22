@@ -30,7 +30,7 @@ Les solutions cloud-natives avec connecteurs API préconfigurés atteignent une 
 
 Un control tower se budgète sur trois postes — abonnement, intégration, coûts cachés — et se rentabilise généralement en moins de 18 mois grâce aux premières économies de transport. Notre article sur [comment choisir son éditeur control tower](/blog/choisir-son-editeur-control-tower-la-grille-de-selection) détaille les critères qui influencent directement ce budget ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous voulez estimer le budget réaliste d'un control tower pour votre organisation ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
+Vous voulez estimer le budget réaliste d'un control tower pour votre organisation ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

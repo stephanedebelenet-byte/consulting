@@ -30,7 +30,7 @@ Un IMS statique affiche un stock. Un IMS utile pour un control tower recalcule e
 
 L'IMS n'est pas un simple compteur de stock : c'est le calculateur de seuils qui détermine si un control tower alerte à temps ou trop tard. Notre article sur la [qualité des données dans un control tower](/blog/qualite-des-donnees-le-prerequis-que-tout-control-tower) détaille comment fiabiliser ces seuils avant tout déploiement ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vos seuils de stock sont-ils encore fiables ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
+Vos seuils de stock sont-ils encore fiables ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

@@ -30,7 +30,7 @@ Gartner identifie la gouvernance de décision — la capacité à auditer et à 
 
 Le control tower agentique ne remplace pas la gouvernance de décision humaine, il en déplace une partie vers des règles auditées et un périmètre d'autonomie qui s'élargit progressivement. Notre article sur la [gouvernance de l'IA en supply chain](/blog/gouvernance-de-l-ia-en-supply-chain-la-charte-avant-les) détaille comment formaliser cette charte avant les outils ; notre article sur la [maturité control tower d'une PME/ETI marocaine](/blog/maturite-control-tower-ou-se-situe-une-pme-eti-marocaine-en) aide à situer où commencer.
 
-Vous voulez évaluer votre préparation à l'IA agentique dans votre pilotage supply chain ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
+Vous voulez évaluer votre préparation à l'IA agentique dans votre pilotage supply chain ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

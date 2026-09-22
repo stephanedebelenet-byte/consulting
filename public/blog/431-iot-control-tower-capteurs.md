@@ -30,7 +30,7 @@ Un capteur qui remonte une donnée en continu sans seuil d'alerte défini ne fai
 
 L'IoT n'apporte de la valeur à un control tower que sur un périmètre ciblé, associé à des seuils d'action clairs — pas par une instrumentation généralisée. Notre article sur les [seuils et règles d'alerte dans un control tower](/blog/seuils-et-regles-d-alerte-dans-un-control-tower-comment-les) détaille comment calibrer ces règles ; notre article sur l'[IA et le control tower](/blog/ia-et-control-tower-de-la-visibilite-passive-a-la-decision) montre comment ces flux capteurs deviennent ensuite exploitables par des modèles prédictifs.
 
-Vous vous demandez quels capteurs installer en priorité sur votre réseau logistique ? [Découvrez notre offre de conseil](/control-tower) ou [contactez-nous](/contact).
+Vous vous demandez quels capteurs installer en priorité sur votre réseau logistique ? [Découvrez notre offre de conseil](/prestations#control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 

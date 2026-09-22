@@ -57,17 +57,7 @@ const STATIC: PrerenderRoute[] = [
     path: '/prestations',
     title: 'Prestations Logistiques Opérationnelles au Maroc' + SUFFIX,
     description:
-      "Pack Inventaire (entreprises et experts comptables — certification d'inventaire de fin d'exercice), services logistiques à valeur ajoutée (co-packing, fardelage, étiquetage, kitting, contrôle qualité, palettisation). Prestations opérationnelles pour entrepôts au Maroc.",
-    priority: 0.85,
-    changefreq: 'monthly',
-    lastmod: '2026-08-24',
-    isOffer: true,
-  },
-  {
-    path: '/control-tower',
-    title: 'Control Tower Supply Chain — WMS, TMS, IMS, AMS, IoT, IA' + SUFFIX,
-    description:
-      "Piloter votre supply chain en temps réel en intégrant WMS, TMS, IMS, AMS, IoT et IA dans une seule tour de contrôle. Offre en 3 paliers, formation des équipes et accompagnement conseil.",
+      "Pack Inventaire (entreprises et experts comptables — certification d'inventaire de fin d'exercice), services logistiques à valeur ajoutée (co-packing, fardelage, étiquetage, kitting, contrôle qualité, palettisation), et offre Control Tower (WMS, TMS, IMS, AMS, IoT, IA) pour piloter la supply chain en temps réel. Prestations opérationnelles pour entrepôts au Maroc.",
     priority: 0.85,
     changefreq: 'weekly',
     lastmod: '2026-09-22',

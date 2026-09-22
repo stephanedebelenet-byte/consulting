@@ -30,7 +30,7 @@ Un AMS utile pour un control tower remonte trois informations : le statut opéra
 
 L'AMS transforme la gestion des actifs logistiques d'un suivi administratif en donnée pilotable, à condition que son statut remonte au control tower plutôt que de rester confiné à son propre registre. Notre article sur l'[IoT et le control tower](/blog/iot-et-control-tower-quels-capteurs-apportent-une-vraie) détaille les capteurs qui alimentent concrètement ce suivi ; le [guide complet du control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps) présente la mécanique d'ensemble.
 
-Vous voulez évaluer la visibilité actuelle sur votre parc d'équipements logistiques ? [Découvrez notre offre Control Tower](/control-tower) ou [contactez-nous](/contact).
+Vous voulez évaluer la visibilité actuelle sur votre parc d'équipements logistiques ? [Découvrez notre offre Control Tower](/prestations#control-tower) ou [contactez-nous](/contact).
 
 **Contact :** contact@nextinotech.com | +212 06 63 44 92 00
 
