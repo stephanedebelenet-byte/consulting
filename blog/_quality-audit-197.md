@@ -94,10 +94,10 @@ Contenu individuellement bien écrit (700-1200+ mots, prose complète, pas de th
 
 ### 3.1 — 🔴 URGENT : le nom du fondateur reste exposé publiquement sur 177 articles
 
-Le commit `9f9da6a` ("remove: nom Bahaida et postes occupes supprimes partout", 3 août 2026) avait pour objectif explicite de retirer le nom du fondateur de la surface publique du site. Il a modifié 46 fichiers dans le dossier `blog/` à la racine — **mais ce dossier n'est jamais servi par le site** (voir 3.6). Le dossier réellement servi, `public/blog/`, n'a pas été touché par ce commit :
+Le commit `9f9da6a` ("remove: nom B et postes occupes supprimes partout", 3 août 2026) avait pour objectif explicite de retirer le nom du fondateur de la surface publique du site. Il a modifié 46 fichiers dans le dossier `blog/` à la racine — **mais ce dossier n'est jamais servi par le site** (voir 3.6). Le dossier réellement servi, `public/blog/`, n'a pas été touché par ce commit :
 
 - **175 articles** ont `author: "Youssef"` dans leur frontmatter — affiché publiquement dans la liste du blog et sur chaque article (`Blog.tsx:403` et `:616`).
-- **2 articles** (#209, #210 — les plus récents, du 6 août) ont carrément `author: "Youssef BAHAIDA"`, nom complet.
+- **2 articles** (#209, #210 — les plus récents, du 6 août) ont carrément `author: "Youssef B"`, nom complet.
 - Seuls 20 articles (un sous-ensemble de 14-59) ont été corrigés en `"Essor Consulting"`, probablement via une copie manuelle partielle jamais généralisée.
 
 **C'est l'inverse de l'intention documentée** : une décision de confidentialité explicite existe, mais n'a jamais atteint le contenu réellement en ligne.
@@ -109,7 +109,7 @@ Le commit `9f9da6a` ("remove: nom Bahaida et postes occupes supprimes partout", 
 | Adresse | Nb d'articles | Statut |
 |---|---|---|
 | `essor.consulting.maroc@gmail.com` | 110 | Correspond à `Contact.tsx` et `Footer.tsx` (email réellement actif sur le site) |
-| `bahaidayoussef@gmail.com` | 35 | Email personnel nominatif — incohérent avec 3.1, contredit l'intention de confidentialité |
+| `contact@nextinotech.com` | 35 | Email personnel nominatif — incohérent avec 3.1, contredit l'intention de confidentialité |
 | `b.youssef@essor.ma` | 28 | Ne correspond à aucun composant actif du site actuel |
 
 Trois adresses différentes selon l'article sur lequel on tombe = confusion pour le prospect, risque de message perdu (boîte non relevée), et incohérence de marque. Le plan des 100 articles et `CLAUDE.md` documentent `b.youssef@essor.ma` comme email officiel — **qui n'est ni celui utilisé majoritairement dans le blog, ni celui branché sur le formulaire de contact réel du site.** Il y a une décision à trancher côté produit avant correction (quelle adresse est la bonne aujourd'hui ?), puis à harmoniser partout : blog, `CLAUDE.md`, composants React.

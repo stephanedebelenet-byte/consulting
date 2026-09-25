@@ -25,5 +25,5 @@ Write a complete, publication-ready blog article for the Essor Consulting site.
 - [ ] At least 800 words
 - [ ] At least 1 image, 1 ::stat::, 1 > callout
 - [ ] CTA with contact info
-- [ ] Author: "Youssef BAHAIDA"
+- [ ] Author: "Youssef B"
 - [ ] Date: today's date

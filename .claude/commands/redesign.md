@@ -25,7 +25,7 @@ $ARGUMENTS — the component name to redesign (e.g., "Conseil", "Methode", "Form
    - Proper padding: `8rem 4rem`
    - `className="section-inner"` for 1300px max-width
    - `useInView` animations, stagger on children
-   - Real Essor data: b.youssef@essor.ma / +212 06 63 44 92 00 / Youssef BAHAIDA
+   - Real Essor data: b.youssef@essor.ma / +212 06 63 44 92 00 / Youssef B
    - `.btn-primary` / `.btn-ghost` / `.btn-outline` for all CTAs
    - Dark/light background per alternation table
 4. **Verify** TypeScript compiles — no `any`, no missing props

@@ -68,7 +68,7 @@ Rabat/Salé, Maroc · 18 ans expérience · 40+ cadres formés
 
 ## Contact Rabat
 
-📧 **Email :** bahaidayoussef@gmail.com  
+📧 **Email :** contact@nextinotech.com  
 📞 **Téléphone :** +212 663 449 200  
 📍 **Coverage :** Rabat, Salé, Kenitra, région
 

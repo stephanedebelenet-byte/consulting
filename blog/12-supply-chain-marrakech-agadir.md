@@ -44,7 +44,7 @@ Marrakech/Agadir region, Maroc
 
 ## Contact Marrakech/Agadir
 
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200
 
 **Coverage :** Marrakech, Agadir, régions sud
 

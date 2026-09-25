@@ -12,7 +12,7 @@
 
 ### Structured Data (Schema.org)
 - ✅ Organization schema — ProfessionalService with full details
-- ✅ Person schema — Founder (Youssef Bahaida) with credentials
+- ✅ Person schema — Founder (Youssef B) with credentials
 - ✅ BreadcrumbList schema — Navigation structure
 - ✅ LocalBusiness schema — Address, geo, hours, phone
 - ✅ ContactPoint schema — Multi-channel contact

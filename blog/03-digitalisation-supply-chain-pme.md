@@ -395,4 +395,4 @@ Contactez-nous. 18 ans d'expérience, 12+ implémentations réussies.
 **Essor Consulting**  
 Directeur des Achats | Expert Supply Chain & Transformation Digitale  
 Essor Consulting — Casablanca, Maroc  
-📧 bahaidayoussef@gmail.com | 📞 +212 663 449 200
+📧 contact@nextinotech.com | 📞 +212 663 449 200

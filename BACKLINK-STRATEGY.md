@@ -223,7 +223,7 @@ Description: Expert supply chain audit, formation, WMS/TMS implementation for PM
 Would you like more info to list us?
 
 Best regards,
-Youssef Bahaida
+Youssef B
 ```
 
 ### Template 2: Guest Article Pitch
@@ -232,7 +232,7 @@ Subject: Guest Article Pitch: "10 Supply Chain Mistakes PME Maroc Make"
 
 Hi [Editor Name],
 
-I'm Youssef Bahaida, supply chain expert with 18 years experience (OCP, DHL, Renault).
+I'm Youssef B, supply chain expert with 18 years experience (OCP, DHL, Renault).
 
 I'd like to contribute a guest article to [Publication]:
 
@@ -246,7 +246,7 @@ This article would provide value + link to our site (full transparency).
 Do you accept guest contributions?
 
 Best regards,
-Youssef Bahaida
+Youssef B
 ```
 
 ### Template 3: Partnership Request (Education)
@@ -270,7 +270,7 @@ Your institution would receive:
 Interest?
 
 Best regards,
-Youssef Bahaida
+Youssef B
 ```
 
 ---
