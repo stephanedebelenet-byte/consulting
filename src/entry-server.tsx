@@ -16,6 +16,8 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { StaticRouter } from 'react-router-dom/server'
 import { AppRoutes } from './App'
 
+export { primeMarkdown } from './data/markdownPreload'
+
 export function render(url: string): string {
   return renderToStaticMarkup(
     <StaticRouter location={url}>

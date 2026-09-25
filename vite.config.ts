@@ -95,6 +95,20 @@ export function getBlogRoutes(): PrerenderRoute[] {
             { '@type': 'ListItem', position: 3, name: fm.title, item: url },
           ],
         },
+        // Articles question/réponse (frontmatter schema: "FAQPage") : même
+        // FAQPage que celui construit côté client par Blog.tsx
+        // (buildArticleSchema), jusqu'ici absent du HTML prérendu.
+        ...(fm.schema === 'FAQPage'
+          ? [{
+              '@type': 'FAQPage',
+              '@id': `${url}#faq`,
+              mainEntity: [{
+                '@type': 'Question',
+                name: fm.title,
+                acceptedAnswer: { '@type': 'Answer', text: fm.quickAnswer || fm.description || fm.title },
+              }],
+            }]
+          : []),
       ],
     }
     out.push({

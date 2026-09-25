@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
 import SchemaScript from './SchemaHelper'
+import { getPrimedMarkdown } from '../data/markdownPreload'
 
 interface EvenementProps {
   file: string
@@ -8,7 +9,12 @@ interface EvenementProps {
 }
 
 export default function Evenement({ file, canonical }: EvenementProps) {
-  const [post, setPost] = useState<BlogPost | null>(null)
+  // Au build, le markdown est fourni d'avance (voir markdownPreload.ts) pour
+  // que la page prérendue contienne le programme et le schéma Event.
+  const [post, setPost] = useState<BlogPost | null>(() => {
+    const raw = getPrimedMarkdown(file)
+    return raw ? parseMarkdown(raw) : null
+  })
 
   useEffect(() => {
     let cancelled = false

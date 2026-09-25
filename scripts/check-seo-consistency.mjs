@@ -166,6 +166,29 @@ for (const loc of locs) {
     fail(`Page avec un <body> quasi vide (${bodyText.length} caractères de texte, minimum ${MIN_BODY_TEXT_LENGTH}) : ${loc}`)
   }
 
+  // Règle 8 (25/09/2026) : données structurées valides et sans doublon. Le
+  // JSON-LD est désormais écrit dans le HTML par le rendu serveur
+  // (SchemaScript) en plus du <head> (routeMeta.ts) ; prerender-app-bodies.mjs
+  // retire les copies redondantes. On vérifie que le résultat est propre.
+  const ldBlocks = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+  const pageTypes = {}
+  for (const [, json] of ldBlocks) {
+    let parsed
+    try {
+      parsed = JSON.parse(json.replace(/\\u003c/g, '<'))
+    } catch {
+      fail(`JSON-LD invalide sur ${loc}`)
+      continue
+    }
+    const nodes = Array.isArray(parsed) ? parsed : parsed['@graph'] || [parsed]
+    const isSiteGraph = nodes.some((n) => n['@id'] === `${SITE}/#organization` && n['@type'] === 'ProfessionalService')
+    if (isSiteGraph) continue
+    for (const t of nodes.map((n) => n['@type']).flat().filter(Boolean)) pageTypes[t] = (pageTypes[t] || 0) + 1
+  }
+  for (const t of ['FAQPage', 'Course', 'Event', 'Article', 'Service', 'ItemList']) {
+    if (pageTypes[t] > 1) fail(`JSON-LD "${t}" déclaré ${pageTypes[t]} fois sur ${loc} (doublon)`)
+  }
+
   // Règle 6 : longueurs title / description (hors blog, voir plus haut).
   if (!urlPath.startsWith('/blog/')) {
     const title = extractTitle(html)
