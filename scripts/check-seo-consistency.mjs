@@ -181,6 +181,25 @@ for (const loc of locs) {
 
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
 
+// ── Règle 7 : vraie page 404 (25/09/2026) ─────────────────────────────────
+// vercel.json ne réécrit plus toute adresse vers index.html : Vercel sert
+// dist/404.html avec un statut 404. Elle doit exister, porter noindex, ne
+// déclarer aucune canonical, et avoir un contenu lisible.
+const NOT_FOUND = join(DIST_DIR, '404.html')
+if (!existsSync(NOT_FOUND)) {
+  fail('dist/404.html absent : les adresses inexistantes renverraient la page 404 générique de Vercel')
+} else {
+  const html = readFileSync(NOT_FOUND, 'utf-8')
+  const robots = extractRobotsMeta(html)
+  if (!robots || !/noindex/i.test(robots)) fail('dist/404.html sans meta robots noindex')
+  if (extractCanonical(html)) fail('dist/404.html déclare une canonical : elle serait prise pour une vraie page')
+  if (!hasH1(html) || extractBodyText(html).length < MIN_BODY_TEXT_LENGTH) fail('dist/404.html sans H1 ou sans contenu')
+  const vercel = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf-8'))
+  if ((vercel.rewrites || []).some((r) => r.destination === '/index.html')) {
+    fail('vercel.json réécrit des adresses vers /index.html : les pages inexistantes redeviendraient des "soft 404" en 200')
+  }
+}
+
 // ── Complétude llms.txt / llms-full.txt ────────────────────────────────────
 if (!existsSync(OFFERS_MANIFEST_PATH)) {
   fail(`Manifeste des offres introuvable : ${OFFERS_MANIFEST_PATH} (relance "npm run build" pour le régénérer)`)

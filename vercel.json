@@ -8,12 +8,6 @@
     "VITE_GADS_CONVERSION_ID": "",
     "VITE_GADS_CONVERSION_LABEL": ""
   },
-  "rewrites": [
-    {
-      "source": "/((?!api/|assets/).*)",
-      "destination": "/index.html"
-    }
-  ],
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -48,6 +42,11 @@
       "source": "/:path*",
       "has": [{ "type": "host", "value": "www.nextinotech.com" }],
       "destination": "https://nextinotech.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/conseil",
       "permanent": true
     },
     {

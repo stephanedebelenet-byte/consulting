@@ -6,8 +6,19 @@ import DimensionnementCTA from '../components/DimensionnementCTA'
 import Systemes from '../components/Systemes'
 import DSCTeaser from '../components/DSCTeaser'
 import Methode from '../components/Methode'
+import { useEffect } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
+import { PRESTATIONS_ANCHORS } from '../components/ServicesRedirect'
 
 export default function ConseilPage() {
+  // Anciens liens /services#pack-inventaire etc. : le 301 serveur
+  // /services -> /conseil conserve l'ancre, on la renvoie vers /prestations.
+  const { hash } = useLocation()
+  const navigate = useNavigate()
+  useEffect(() => {
+    if (PRESTATIONS_ANCHORS.includes(hash)) navigate(`/prestations${hash}`, { replace: true })
+  }, [hash, navigate])
+
   return (
     <>
       <PageHero

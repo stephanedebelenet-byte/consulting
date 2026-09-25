@@ -182,6 +182,17 @@ function renderRoute(shell: string, route: PrerenderRoute): string {
   return html
 }
 
+function render404(shell: string): string {
+  let html = shell
+  html = html.replace(/<title>[\s\S]*?<\/title>/i, '<title>Page introuvable | Nextinotech</title>')
+  html = setMetaTag(html, 'name', 'description', "Cette adresse n'existe pas ou n'existe plus sur nextinotech.com.")
+  html = setMetaTag(html, 'name', 'robots', 'noindex, follow')
+  html = html.replace(/\s*<link rel="canonical"[^>]*>/gi, '')
+  html = html.replace(/\s*<link rel="alternate" hreflang="[^"]*"[^>]*>/gi, '')
+  html = html.replace(/\s*<meta property="og:url"[^>]*>/gi, '')
+  return html
+}
+
 /* ── Sitemap : généré depuis la même liste de routes que le prérendu, pour
    qu'aucune page réelle ne puisse manquer au sitemap (voir audit UI/UX —
    avant ce changement, public/sitemap.xml était un fichier statique
@@ -251,6 +262,13 @@ function prerenderHeads(): Plugin {
           this.warn(`prerender-heads: échec sur ${route.path} — ${(e as Error).message}`)
         }
       }
+      // Page d'erreur servie par Vercel avec un vrai statut 404 pour toute
+      // adresse inexistante (plus de réécriture "tout vers index.html" dans
+      // vercel.json). noindex, et ni canonical ni hreflang : elle ne doit
+      // jamais être prise pour une page du site. Son <body> est rempli par
+      // scripts/prerender-app-bodies.mjs (rendu de NotFoundPage).
+      writeFileSync(join(dist, '404.html'), render404(shell), 'utf-8')
+
       this.info?.(`prerender-heads: ${count} pages générées`)
       // eslint-disable-next-line no-console
       console.log(`\n[prerender-heads] ${count} pages HTML générées avec <head> statique`)
