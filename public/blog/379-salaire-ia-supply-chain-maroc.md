@@ -12,13 +12,9 @@ description: "L'IA fait-elle bouger la grille salariale supply chain au Maroc ? 
 
 ![Réunion professionnelle avec documents et échanges](/images/business.webp)
 
-**Un candidat qui affiche une maîtrise avancée des outils IA sur son CV attire déjà l'attention des recruteurs marocains — mais transforme-t-elle réellement les grilles salariales, ou reste-t-elle un critère de préférence sans impact chiffré ? Les deux réponses coexistent selon le niveau de poste et le secteur.** Voici ce qui se dessine concrètement sur le marché marocain.
+**Un candidat qui affiche une maîtrise avancée des outils IA sur son CV attire déjà l'attention des recruteurs marocains.** Mais transforme-t-elle réellement les grilles salariales, ou reste-t-elle un simple critère de préférence sans impact chiffré à l'embauche ? Les deux réponses coexistent en réalité, selon le niveau de poste et le secteur concerné. Voici ce qui se dessine concrètement sur le marché marocain à ce jour.
 
-## Ce qui bouge, et ce qui ne bouge pas encore
-
-- **Les postes hybrides nouveaux** (référent IA, analyste augmenté) apparaissent avec des fourchettes légèrement supérieures aux postes classiques équivalents.
-- **Les postes classiques** (acheteur, planificateur) ne voient pas encore de prime salariale généralisée liée à la seule compétence IA — la compétence métier reste prépondérante.
-- **Les grands groupes internationaux** au Maroc valorisent davantage cette compétence que les PME locales, où elle reste secondaire dans la grille.
+Les postes hybrides nouveaux — référent IA, analyste augmenté — apparaissent avec des fourchettes légèrement supérieures aux postes classiques équivalents. Les postes classiques, eux, acheteur ou planificateur, ne voient pas encore de prime salariale généralisée liée à la seule compétence IA ; la compétence métier reste largement prépondérante dans la négociation. Et les grands groupes internationaux présents au Maroc valorisent davantage cette compétence que les PME locales, où elle demeure secondaire dans la grille de rémunération.
 
 ::stat:: 5 à 10% — prime salariale observée pour un profil hybride IA-métier chez les grands groupes internationaux au Maroc, contre un impact encore marginal en PME
 
@@ -34,7 +30,7 @@ description: "L'IA fait-elle bouger la grille salariale supply chain au Maroc ? 
 
 ## Ce qu'il faut retenir
 
-L'IA fait émerger une prime salariale mesurable pour les postes hybrides nouveaux, surtout dans les grands groupes internationaux, mais n'a pas encore transformé la grille salariale des postes supply chain classiques au Maroc. Elle devient en revanche un critère de sélection à l'embauche de plus en plus déterminant.
+L'IA fait émerger une prime salariale mesurable pour les postes hybrides nouveaux, surtout dans les grands groupes internationaux, mais n'a pas encore transformé la grille salariale des postes supply chain classiques au Maroc. Elle devient en revanche, et cela semble s'accentuer, un critère de sélection à l'embauche de plus en plus déterminant entre deux candidats par ailleurs équivalents.
 
 Vous voulez évaluer l'impact de l'IA sur votre politique salariale supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 

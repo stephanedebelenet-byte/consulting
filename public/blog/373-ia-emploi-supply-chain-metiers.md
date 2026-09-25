@@ -12,7 +12,7 @@ description: "Quels métiers de la supply chain se transforment réellement avec
 
 ![Réunion professionnelle avec documents et échanges](/images/business.webp)
 
-**Ni « l'IA va tout remplacer » ni « l'IA ne change rien pour nous » ne résistent à l'observation du terrain. La réalité est plus précise : certaines tâches à faible valeur ajoutée disparaissent réellement, certains métiers se recentrent sur le jugement et la relation, et de nouveaux rôles hybrides apparaissent. Traiter cette transformation avec des faits plutôt que des peurs ou des promesses est ce qui permet de la préparer.** Voici ce qui change vraiment.
+**Ni « l'IA va tout remplacer » ni « l'IA ne change rien pour nous » ne résistent longtemps à l'observation du terrain.** La réalité est plus précise, et moins spectaculaire dans les deux sens. Certaines tâches à faible valeur ajoutée disparaissent réellement. Certains métiers se recentrent sur le jugement et la relation. De nouveaux rôles hybrides apparaissent, sans qu'on les ait toujours vus venir. Traiter cette transformation avec des faits plutôt qu'avec des peurs ou des promesses commerciales est ce qui permet de réellement la préparer.
 
 ## Ce qui disparaît réellement
 
@@ -36,7 +36,7 @@ De nouveaux rôles hybrides émergent : référent IA au sein d'une équipe mét
 
 ## Ce qu'il faut retenir
 
-L'IA transforme les métiers supply chain en réduisant le temps consacré aux tâches répétitives et en recentrant le travail humain sur le jugement, la négociation et l'analyse d'anomalies. Les postes disparaissent rarement en totalité — ils se recomposent, avec de nouveaux rôles hybrides à la clé.
+L'IA réduit le temps consacré aux tâches répétitives et recentre le travail humain sur le jugement, la négociation et l'analyse d'anomalies. Les postes disparaissent rarement en totalité dans ce qu'on observe en mission — ils se recomposent plutôt, avec de nouveaux rôles hybrides qui émergent en contrepartie.
 
 Vous voulez préparer vos équipes à cette transformation ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Nos [formations](/formation) accompagnent cette montée en compétence.
 

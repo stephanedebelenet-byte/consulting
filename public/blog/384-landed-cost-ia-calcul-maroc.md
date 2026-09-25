@@ -12,14 +12,9 @@ description: "Comment l'IA calcule automatiquement le coût logistique complet (
 
 ![Tableaux de données et graphiques analytiques](/images/analytics.webp)
 
-**Le prix d'achat affiché par un fournisseur n'est presque jamais le coût réel d'un produit importé. Transport, droits de douane, assurance, frais de manutention portuaire, coût de stockage jusqu'à la vente — le landed cost complet peut dépasser de 20 à 40% le prix d'achat initial, et pourtant, beaucoup de décisions d'achat continuent de se prendre sur le seul prix fournisseur.** Voici comment l'IA automatise ce calcul, catégorie par catégorie.
+**Le prix d'achat affiché par un fournisseur n'est presque jamais le coût réel d'un produit importé.** Transport, droits de douane, assurance, frais de manutention portuaire, coût de stockage jusqu'à la vente : le landed cost complet peut dépasser de 20 à 40% le prix d'achat initial. Et pourtant, beaucoup de décisions d'achat continuent de se prendre sur le seul prix fournisseur affiché en bas de la facture proforma. Voici comment l'IA automatise ce calcul, poste par poste.
 
-## Les composants du coût logistique complet
-
-- **Transport international** : maritime, aérien ou routier selon l'origine.
-- **Droits de douane et taxes** : variables selon la classification tarifaire et l'origine — voir notre article sur la [classification tarifaire par IA](/blog/classification-tarifaire-douanire-par-ia-rduire-les-erreurs).
-- **Frais portuaires et de manutention** : souvent oubliés dans les calculs manuels rapides.
-- **Coût de stockage** jusqu'à la vente effective, fonction de la rotation réelle du stock.
+Le transport international vient en premier — maritime, aérien ou routier selon l'origine, avec des écarts de coût considérables selon le mode choisi. Les droits de douane et taxes suivent, variables selon la classification tarifaire et l'origine du produit ; voir notre article sur la [classification tarifaire par IA](/blog/classification-tarifaire-douanire-par-ia-rduire-les-erreurs) pour approfondir ce point précis. Les frais portuaires et de manutention, souvent oubliés dans les calculs manuels rapides, pèsent plus lourd qu'on ne le pense. Et le coût de stockage jusqu'à la vente effective, fonction de la rotation réelle du stock, referme la liste.
 
 ::stat:: 20 à 40% — écart typique entre le prix d'achat affiché et le coût logistique complet réel d'un produit importé au Maroc
 
@@ -34,7 +29,7 @@ description: "Comment l'IA calcule automatiquement le coût logistique complet (
 
 ## Ce qu'il faut retenir
 
-Le landed cost — coût logistique complet d'un produit importé — dépasse souvent largement le prix d'achat affiché. L'IA automatise ce calcul par référence et révèle des écarts de compétitivité fournisseur invisibles en ne regardant que le prix d'achat seul.
+Le landed cost — coût logistique complet d'un produit importé — dépasse souvent largement le prix d'achat affiché sur la facture initiale. L'IA automatise ce calcul par référence et révèle des écarts de compétitivité fournisseur qui restent invisibles tant qu'on ne regarde que le prix d'achat seul.
 
 Vous voulez calculer le coût logistique complet de vos catégories importées ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 

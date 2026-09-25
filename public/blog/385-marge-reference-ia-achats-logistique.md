@@ -12,13 +12,9 @@ description: "Comment l'IA calcule la marge réelle par référence en croisant 
 
 ![Graphiques et tableaux de planification](/images/charts.webp)
 
-**La marge affichée en comptabilité analytique classique répartit souvent les coûts logistiques de façon forfaitaire entre toutes les références — ce qui masque le fait qu'une référence volumineuse et lente à vendre coûte bien plus cher à stocker et transporter qu'une référence compacte et rapide. L'IA permet de croiser achats, coûts logistiques réels et prix de vente pour révéler la marge réelle, référence par référence.** Voici ce que cette vue révèle typiquement.
+**La marge affichée en comptabilité analytique classique répartit souvent les coûts logistiques de façon forfaitaire entre toutes les références.** Ce qui masque un problème simple : une référence volumineuse et lente à vendre coûte bien plus cher à stocker et à transporter qu'une référence compacte et rapide, sans que la comptabilité analytique classique ne le fasse jamais apparaître. L'IA permet de croiser achats, coûts logistiques réels et prix de vente pour révéler la marge réelle, référence par référence. Voici ce que cette vue révèle, la plupart du temps.
 
-## Ce que la marge réelle révèle
-
-- **Des références jugées rentables qui ne le sont plus** une fois le coût de stockage et de transport réel imputé.
-- **Des références à faible marge affichée mais réellement profitables** parce qu'elles tournent vite et coûtent peu à stocker.
-- **Des décisions d'assortiment biaisées** par une comptabilité analytique qui ne reflète pas la réalité opérationnelle.
+Des références jugées rentables cessent parfois de l'être une fois le coût de stockage et de transport réel correctement imputé. À l'inverse, des références à faible marge affichée s'avèrent réellement profitables, simplement parce qu'elles tournent vite et coûtent peu à stocker. Le troisième constat, plus structurel, concerne des décisions d'assortiment entières biaisées par une comptabilité analytique qui ne reflète tout simplement pas la réalité opérationnelle du terrain.
 
 ::stat:: 15 à 20% des références d'un catalogue typiquement mal classées en rentabilité, une fois le coût logistique réel imputé par référence
 
@@ -33,7 +29,7 @@ description: "Comment l'IA calcule la marge réelle par référence en croisant 
 
 ## Ce qu'il faut retenir
 
-Croiser achats, coûts logistiques réels et prix de vente par IA révèle une marge réelle souvent très différente de la marge affichée en comptabilité analytique classique. C'est un levier direct pour revoir les priorités d'assortiment et de négociation fournisseur.
+Croiser achats, coûts logistiques réels et prix de vente par IA révèle une marge réelle souvent très différente de la marge affichée en comptabilité analytique classique. C'est un levier direct, et immédiatement actionnable, pour revoir les priorités d'assortiment et de négociation fournisseur.
 
 Vous voulez calculer la marge réelle de votre catalogue par référence ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
