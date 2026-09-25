@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { IS_SERVER } from '../utils/ssr'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
 import { servicesFAQ } from '../data/conseilFaq'
@@ -310,7 +311,7 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }
 }
 
 function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
 
   return (
     <div style={{ borderBottom: '1px solid var(--border)' }}>
@@ -532,7 +533,7 @@ const servicesSchema = {
 }
 
 function FAQItem({ item }: { item: { q: string; a: string } }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
 

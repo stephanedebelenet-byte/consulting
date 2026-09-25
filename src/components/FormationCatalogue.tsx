@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { IS_SERVER } from '../utils/ssr'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import SchemaScript from './SchemaHelper'
@@ -51,7 +52,7 @@ function Reveal({ children, delay = 0, style = {} }: { children: React.ReactNode
 
 /* ─── FAQ Item ────────────────────────────────────────────── */
 function FAQItem({ item }: { item: { q: string; a: string } }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
 
@@ -110,7 +111,7 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
 
 /* ─── Programme Card ──────────────────────────────────────── */
 function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
   const isExternal = p.cta.startsWith('http') || p.cta.startsWith('mailto')
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })

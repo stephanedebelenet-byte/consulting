@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import { IS_SERVER } from '../utils/ssr'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 
@@ -224,7 +225,7 @@ const CONTROL_TOWER_FAQ = [
 ]
 
 function FAQItem({ item }: { item: { q: string; a: string } }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
 

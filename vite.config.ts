@@ -175,6 +175,10 @@ function renderRoute(shell: string, route: PrerenderRoute): string {
       `<div id="root"><article><div class="blog-content">${route.bodyHtml}</div></article></div>`
     )
   }
+  // Les pages "app" (sans bodyHtml) gardent ici un <div id="root"></div> vide :
+  // leur body est rempli après coup par scripts/prerender-app-bodies.mjs, à
+  // partir du bundle SSR (vite build --ssr src/entry-server.tsx). Voir
+  // package.json → "build".
   return html
 }
 
@@ -221,7 +225,9 @@ export function getOfferRoutes(): PrerenderRoute[] {
 function prerenderHeads(): Plugin {
   return {
     name: 'nxt-prerender-heads',
-    apply: 'build',
+    // Build client uniquement : le build SSR (src/entry-server.tsx, voir
+    // package.json) ne doit pas relancer le prérendu ni régénérer le sitemap.
+    apply: (_config, env) => env.command === 'build' && !env.isSsrBuild,
     closeBundle() {
       const dist = resolve('dist')
       let shell: string

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { IS_SERVER } from '../utils/ssr'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -70,7 +71,7 @@ const systems = [
 ]
 
 function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
 
   return (
     <div style={{ borderBottom: '1px solid rgba(27,53,84,0.1)' }}>
