@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender-app-bodies.mjs",
     "postbuild": "node scripts/check-seo-consistency.mjs",
     "build:prerender": "npm run build",
     "seo:check": "node scripts/check-seo-consistency.mjs",

@@ -1,4 +1,6 @@
-import './index.css'
+// index.css est importé par src/main.tsx (point d'entrée client). Ne pas le
+// réimporter ici : App est aussi chargé par vite.config.ts pour le rendu SSR
+// statique, et le chargeur de config Vite ne sait pas lire un import CSS.
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Layout from './components/Layout'
@@ -105,12 +107,23 @@ function AnimatedRoutes() {
   )
 }
 
+// Arbre de composants indépendant du routeur, réutilisé côté client
+// (BrowserRouter, ci-dessous) et côté build pour le rendu SSR statique des
+// pages "app" (StaticRouter, voir renderAppRoute dans vite.config.ts — le
+// chantier qui corrige le <body> vide de ces pages pour les crawlers qui
+// n'exécutent pas de JS, voir audit GEO du 25/09/2026).
+export function AppRoutes() {
+  return (
+    <Layout>
+      <AnimatedRoutes />
+    </Layout>
+  )
+}
+
 export default function App() {
   return (
     <BrowserRouter>
-      <Layout>
-        <AnimatedRoutes />
-      </Layout>
+      <AppRoutes />
     </BrowserRouter>
   )
 }

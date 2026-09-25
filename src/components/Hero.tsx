@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
+// Guard SSR : ce module est importé par le rendu statique build-time
+// (renderAppRoute, vite.config.ts) qui exécute App en Node, sans window/DOM.
+if (typeof window !== 'undefined') {
+  gsap.registerPlugin(ScrollTrigger)
+}
 
 const LINES = [
   { text: 'Transformez', italic: false },
