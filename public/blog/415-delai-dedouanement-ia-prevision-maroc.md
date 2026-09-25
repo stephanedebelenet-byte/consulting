@@ -12,15 +12,7 @@ description: "Comment l'IA prévoit le délai de dédouanement probable d'une op
 
 ![Camion de transport et logistique routière](/images/transport.webp)
 
-**Promettre un délai de livraison export sans intégrer une estimation réaliste du temps de dédouanement expose l'entreprise à des engagements non tenus, avec les conséquences commerciales que cela implique. Le délai de dédouanement varie significativement selon le produit, le port d'entrée ou de sortie, et la période de l'année — des variations que l'historique de données permet désormais de prévoir plutôt que de subir.** Voici comment.
-
-## Ce que l'IA prévoit à partir de l'historique
-
-- **Délai moyen et variabilité** par type de produit et par point de passage douanier.
-- **Effet de saisonnalité** : certaines périodes de l'année connaissent des délais systématiquement plus longs.
-- **Impact d'un changement récent de procédure** sur les délais observés depuis sa mise en application.
-
-::stat:: 30 à 40% — variabilité observée sur les délais de dédouanement selon la période et le port, un écart trop souvent absent des engagements commerciaux
+Promettre un délai de livraison export sans intégrer une estimation réaliste du temps de dédouanement expose l'entreprise à des engagements non tenus, avec les conséquences commerciales que cela implique. Le délai de dédouanement varie significativement selon le produit, le port d'entrée ou de sortie, et la période de l'année — des variations que l'historique de données permet désormais de prévoir plutôt que de subir. **Voici comment l'IA transforme cet historique en fourchette réaliste.**
 
 ## Le tableau des facteurs de variation
 
@@ -30,11 +22,15 @@ description: "Comment l'IA prévoit le délai de dédouanement probable d'une op
 | Port ou point de passage | Variabilité selon la charge du poste douanier |
 | Période de l'année | Pics saisonniers identifiables dans l'historique |
 
+L'IA prévoit trois choses à partir de cet historique : le délai moyen et sa variabilité par type de produit et par point de passage douanier, l'effet de saisonnalité — certaines périodes de l'année connaissent des délais systématiquement plus longs — et l'impact d'un changement récent de procédure sur les délais observés depuis sa mise en application.
+
+::stat:: 30 à 40% — variabilité observée sur les délais de dédouanement selon la période et le port, un écart trop souvent absent des engagements commerciaux
+
 > **Un engagement de délai export qui ignore la variabilité du dédouanement n'est pas un engagement fiable, c'est un pari optimiste.** La prévision par historique permet de communiquer une fourchette réaliste au client plutôt qu'un chiffre unique qui déçoit une fois sur trois. Complète notre article sur le [Guide PORTNET et BADR](/blog/guide-portnet-et-badr-2026-matriser-les-plateformes-douanire).
 
 ## Ce qu'il faut retenir
 
-Prévoir le délai de dédouanement par IA, à partir de l'historique par produit, port et période, permet de fiabiliser les engagements clients à l'export avec une fourchette réaliste plutôt qu'une estimation optimiste. C'est un levier direct de crédibilité commerciale pour les exportateurs marocains.
+Prévoir le délai de dédouanement à partir de l'historique par produit, port et période fiabilise les engagements clients à l'export. C'est une fourchette réaliste, pas une estimation optimiste, qui protège la crédibilité commerciale d'un exportateur marocain.
 
 Vous voulez fiabiliser vos délais d'engagement export ? [Découvrez notre offre de conseil](/conseil) ou notre [accompagnement OEA](/accompagnement-oea). [Contactez-nous](/contact).
 
