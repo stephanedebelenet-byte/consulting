@@ -1,7 +1,7 @@
 ---
 title: "Analyse de Contrats Fournisseurs par LLM : Repérer les Clauses à Risque"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "analyse contrat fournisseur ia, revue contrat llm achats, clauses à risque contrat ia, ia juridique achats maroc, analyse pénalités contrat fournisseur"
@@ -46,4 +46,4 @@ Vous voulez outiller votre équipe achats pour l'analyse de contrats ? [Découvr
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

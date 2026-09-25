@@ -1,7 +1,7 @@
 ---
 title: "Chaîne d'Approvisionnement des Dispositifs Médicaux : un Secteur Distinct du Médicament"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/pharma.webp"
 keywords: "supply chain dispositifs médicaux maroc, import dispositif médical maroc réglementation, IMANOR dispositifs médicaux"

@@ -1,7 +1,7 @@
 ---
 title: "Paiement à la Livraison (COD) : Optimiser sa Logistique quand la Majorité des Commandes Restent Cash"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "paiement livraison COD maroc, cash on delivery e-commerce maroc, gestion trésorerie livraison cash"

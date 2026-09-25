@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Tanger Med — Expert Logistique Hub Port"
 date: "2026-06-21"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/transport.webp"
 keywords: "consultant supply chain Tanger, conseil Tanger Med, logistique port Tanger, optimisation export Maroc"
 description: "Expert supply chain pour Tanger Med et zone franche. Focus export, ports, logistique internationale. Audit, formation, digitalisation."
@@ -51,5 +51,5 @@ Tanger, Maroc · Spécialisé Logistique Portuaire & Export
 
 ---
 
-**Youssef B.**
+**Youssef B**
 

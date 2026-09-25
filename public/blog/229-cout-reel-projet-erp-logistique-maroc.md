@@ -1,7 +1,7 @@
 ---
 title: "Coût Réel d'un Projet ERP Logistique : Budget, Délais et Pièges à Éviter"
 date: "2026-08-25"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "coût projet ERP maroc, budget ERP PME maroc, prix implémentation ERP maroc, subvention MOWAKABA ERP"

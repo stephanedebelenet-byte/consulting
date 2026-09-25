@@ -1,7 +1,7 @@
 ---
 title: "Loi 09-08 et CNDP : Utiliser un LLM sans Exposer ses Données Fournisseurs"
 date: "2026-09-12"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "loi 09-08 ia maroc, cndp llm données personnelles, confidentialité chatgpt entreprise maroc, protection données ia supply chain, rgpd maroc ia achats"

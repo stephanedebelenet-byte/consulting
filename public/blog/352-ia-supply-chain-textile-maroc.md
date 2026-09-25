@@ -1,7 +1,7 @@
 ---
 title: "IA et Textile-Habillement : Collections, Sourcing et Nearshoring"
 date: "2026-09-14"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "ia supply chain textile maroc, prévision collection ia textile, sourcing tissu ia, arbitrage nearshoring ia, réassort rapide textile maroc"

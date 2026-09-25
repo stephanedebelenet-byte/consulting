@@ -182,10 +182,10 @@ for (const loc of locs) {
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
 
 // ── Règle 9 : nom public du fondateur (26/09/2026) ─────────────────────────
-// Le site présente le fondateur sous le nom "Youssef B." (décision du
+// Le site présente le fondateur sous le nom "Youssef B" (décision du
 // 26/09/2026). Le nom de famille complet ne doit apparaître dans aucune page
 // publiée ni dans llms.txt / llms-full.txt. Les articles écrits ailleurs
-// (autres branches, anciens scripts) doivent utiliser author: "Youssef B.".
+// (autres branches, anciens scripts) doivent utiliser author: "Youssef B".
 {
   const FULL_NAME = /bahaida/i
   const offenders = []
@@ -198,7 +198,7 @@ console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap 
   }
   walk(DIST_DIR)
   if (offenders.length) {
-    fail(`Nom de famille complet du fondateur publié dans ${offenders.length} fichier(s), utiliser "Youssef B." : ${offenders.slice(0, 5).join(', ')}${offenders.length > 5 ? '…' : ''}`)
+    fail(`Nom de famille complet du fondateur publié dans ${offenders.length} fichier(s), utiliser "Youssef B" : ${offenders.slice(0, 5).join(', ')}${offenders.length > 5 ? '…' : ''}`)
   }
 }
 

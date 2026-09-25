@@ -1,7 +1,7 @@
 ---
 title: "Assistant IA et Voix pour le Cariste : Préparation et Formation"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "assistant ia entrepôt cariste, voice picking nouvelle génération, aide au contrôle cariste ia, formation terrain cariste ia, ia préparation commande entrepôt"
@@ -40,4 +40,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

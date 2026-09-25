@@ -1,7 +1,7 @@
 ---
 title: "IA et Avantage Compétitif : ce qu'un Directeur Supply Chain Présente au Comex"
 date: "2026-09-14"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "ia avantage compétitif supply chain comex, présenter projet ia comex, argumentaire ia direction générale, business case ia comité de direction, ia positionnement stratégique"
@@ -40,4 +40,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

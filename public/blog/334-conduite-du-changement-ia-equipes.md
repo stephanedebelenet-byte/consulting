@@ -1,7 +1,7 @@
 ---
 title: "Acculturation et Conduite du Changement : Embarquer les Équipes dans l'IA"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "conduite du changement ia équipes, acculturation ia entreprise maroc, adoption ia collaborateurs, résistance ia salariés, plan acculturation ia 90 jours"

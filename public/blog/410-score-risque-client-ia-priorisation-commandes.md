@@ -1,7 +1,7 @@
 ---
 title: "Score de Risque Client et Priorisation des Commandes par IA"
 date: "2026-09-17"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "score risque client ia priorisation commandes, ia priorisation commande tension, score client fiabilité livraison, ia allocation stock tendu client, priorisation client rupture"

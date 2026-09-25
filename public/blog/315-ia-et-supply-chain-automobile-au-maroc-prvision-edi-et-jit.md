@@ -1,7 +1,7 @@
 ---
 title: "IA et Supply Chain Automobile au Maroc : Prévision, EDI et JIT"
 date: "2026-09-07"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "ia supply chain automobile maroc, prévision cadencée edi jit, équipementiers renault stellantis ia, industrie automobile maroc digitalisation, ia logistique automobile"

@@ -1,7 +1,7 @@
 ---
 title: "Retours E-commerce : le Coût Caché que les Marchands Marocains Sous-Estiment"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "coût retours e-commerce maroc, gestion retours e-commerce, taux de retour e-commerce coût caché"

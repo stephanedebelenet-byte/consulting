@@ -1,7 +1,7 @@
 ---
 title: "Achats Durables et RSE Fournisseurs : la Grille d'Audit pour PME Marocaines"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "achats responsables maroc, audit rse fournisseurs, grille audit fournisseurs pme, csrd fournisseurs maroc, ecovadis maroc"
@@ -56,7 +56,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Décision Achats — Achats durables : les articles incontournables](https://www.decision-achats.fr/strategie-achats-1236/rse-achats-durables-2258/best-of-achats-durables-52180)

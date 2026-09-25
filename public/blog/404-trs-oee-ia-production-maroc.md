@@ -1,7 +1,7 @@
 ---
 title: "IA et TRS/OEE : Identifier les Pertes Cachées en 48 Heures"
 date: "2026-09-16"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "trs oee ia production maroc, identifier pertes cachées trs, ia taux de rendement synthétique, oee automatisé ia maroc, analyse trs par ia"
@@ -42,4 +42,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

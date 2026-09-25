@@ -1,7 +1,7 @@
 ---
 title: "Réseaux et Mentorat pour Femmes en Logistique : ce qui Existe (et Manque) au Maroc"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "réseau femmes logistique maroc, mentorat femmes maroc, association femmes leadership maroc"
@@ -40,7 +40,7 @@ Vous voulez structurer un mentorat interne pour les femmes de vos équipes suppl
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Fondation des Femmes de l'Euro-Méditerranée — Réseau de Femmes pour le Mentoring/Networking (RFMN)](https://www.euromedwomen.foundation/pg/fr/profile/nadiaelfassi)

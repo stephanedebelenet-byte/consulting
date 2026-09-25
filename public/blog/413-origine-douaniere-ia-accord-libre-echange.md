@@ -1,7 +1,7 @@
 ---
 title: "Optimiser ses Origines Douanières avec l'IA sans Risque"
 date: "2026-09-17"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "origine douanière ia accord libre échange, optimiser origine douanière ia, ia règles d'origine maroc, exploiter accords libre-échange ia, ia droits préférentiels export"
@@ -38,4 +38,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

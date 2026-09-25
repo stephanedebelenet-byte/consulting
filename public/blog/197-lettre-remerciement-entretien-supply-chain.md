@@ -1,7 +1,7 @@
 ﻿---
 title: "La Lettre de Remerciement après Entretien Supply Chain : Modèles et Conseils"
 date: "2026-08-05"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/office.webp"
 keywords: "lettre remerciement entretien supply chain Maroc, email remerciement entretien logistique, suivre entretien supply chain, message après entretien recrutement"
 description: "Comment rédiger un email de remerciement après un entretien supply chain au Maroc ? Modèles complets, conseils de rédaction, et quand l'envoyer."

@@ -1,7 +1,7 @@
 ---
 title: "Dark Stores et Micro-Fulfillment : le Futur de la Livraison Rapide en Ville"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "dark store maroc, micro-fulfillment center, livraison rapide q-commerce, entrepôt urbain livraison"

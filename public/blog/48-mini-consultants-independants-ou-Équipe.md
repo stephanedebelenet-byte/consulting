@@ -1,7 +1,7 @@
 ---
 title: "Consultants Indépendants ou Équipe ?"
 date: "2026-08-19"
-author: "Youssef B."
+author: "Youssef B"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Une équipe structurée — Nextinotech compte environ 5 consultants organisés en trois profils : consultants seniors certifiés DDMRP, consultants juniors formés en interne, et une équipe administrative dédiée au suivi de chaque mission."
@@ -37,4 +37,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

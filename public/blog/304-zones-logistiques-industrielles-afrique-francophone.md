@@ -1,7 +1,7 @@
 ---
 title: "Zones Logistiques Industrielles d'Afrique Francophone : Comparatif des Hubs Émergents"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "zones logistiques afrique francophone, zones industrielles Bénin Togo Gabon, Arise IIP zones économiques"

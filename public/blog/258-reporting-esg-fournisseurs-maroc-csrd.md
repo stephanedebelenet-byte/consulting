@@ -1,7 +1,7 @@
 ---
 title: "Reporting ESG : ce que les Nouvelles Normes Imposent aux Fournisseurs Marocains"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "reporting ESG fournisseurs maroc, CSRD impact maroc, norme durabilité sous-traitant maroc"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Forvis Mazars Maroc — CSRD : quel impact sur les entreprises marocaines ?](https://www.forvismazars.com/ma/fr/insights/nos-contributions/csrd-impact-sur-les-entreprises-marocaines)

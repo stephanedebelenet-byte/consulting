@@ -1,7 +1,7 @@
 ---
 title: "SRM Augmenté : Scoring, Relances et Revues de Performance par IA"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "srm ia scoring fournisseurs, business review fournisseur ia, alerte dérive performance fournisseur, plan de progrès fournisseur ia, notation fournisseur automatisée"

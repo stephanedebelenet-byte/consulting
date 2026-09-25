@@ -1,7 +1,7 @@
 ---
 title: "Assistant de Négociation IA : Préparer ses Scénarios et son BATNA"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "préparation négociation achats ia, batna ia négociation, jeu de rôle négociation ia, préparer négociation fournisseur, argumentaire négociation ia achats"

@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation ou Consulting : Quelle Approche Choisir?"
 date: "2026-06-21"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/business.webp"
 keywords: "formation supply chain, conseil consulting, formation vs consulting, comment choisir, transformation supply chain"
 description: "Formation seule vs Consulting seul vs Formation + Consulting : guide de décision avec data réelle."
@@ -368,7 +368,7 @@ No pressure. We tell you honnêtement what makes sense pour vous.
 
 👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
-**Youssef B.**  
+**Youssef B**  
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
 Casablanca, Maroc  
 📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

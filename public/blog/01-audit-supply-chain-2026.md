@@ -1,7 +1,7 @@
 ﻿---
 title: "Audit Supply Chain 2026 : Les 10 Erreurs Critiques que les PME/ME Marocaines Commettent"
 date: "2026-06-21"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/conseil.webp"
 keywords: "audit supply chain Maroc, diagnostic logistique, transformation supply chain, optimisation chaîne approvisionnement"
 description: "Découvrez les 10 erreurs critiques en supply chain que les PME marocaines commettent et comment les corriger. Basé sur 20+ ans d'expertise et 110+ missions."
@@ -242,7 +242,7 @@ Ces 10 erreurs ne sont pas génétiques. Elles se corrigent. Et chaque correctio
 
 ---
 
-**Youssef B.**  
+**Youssef B**  
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
 Casablanca, Maroc  
 📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

@@ -1,7 +1,7 @@
 ---
 title: "TCO (Coût Total de Possession) : la Méthode que les Acheteurs Marocains Sous-Utilisent"
 date: "2026-08-28"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "TCO achats méthode, coût total de possession achats maroc, coûts cachés achats, calcul TCO"
@@ -40,7 +40,7 @@ Vous voulez intégrer le TCO dans vos décisions d'achat sur vos catégories les
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Décision Achats — Tout savoir sur le TCO (Coût Total d'Acquisition)](https://www.decision-achats.fr/Thematique/strategie-achats-1236/breve/tout-savoir-sur-le-tco-cout-total-dacquisition-342558.htm)

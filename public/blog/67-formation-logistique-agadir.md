@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Logistique à Agadir : Supply Chain Export et Région Souss-Massa 2026"
 date: "2026-08-01"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/transport.webp"
 keywords: "formation logistique agadir, supply chain agadir, formation responsable logistique agadir, export logistique souss massa, formation transport agadir"
 description: "Formation logistique et supply chain pour les professionnels d'Agadir et de la région Souss-Massa : export, pêche, agrumes, BTP. Nextinotech."

@@ -1,7 +1,7 @@
 ---
 title: "L'IA Change-t-elle la Grille Salariale Supply Chain Marocaine"
 date: "2026-09-15"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "salaire ia supply chain maroc, grille salariale ia logistique, prime compétence ia salarié, rémunération compétence ia maroc, impact ia salaire achats"

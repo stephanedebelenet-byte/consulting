@@ -1,7 +1,7 @@
 ---
 title: "Due Diligence IA Fournisseur : les Questions Avant de Signer"
 date: "2026-09-16"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "due diligence éditeur ia fournisseur, questions avant signer éditeur ia, vérifier éditeur ia sérieux, due diligence ia entreprise maroc, checklist éditeur ia"
@@ -43,4 +43,4 @@ Vous voulez sécuriser le choix de votre éditeur IA ? [Découvrez notre offre d
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

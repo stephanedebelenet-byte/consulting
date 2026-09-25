@@ -1,7 +1,7 @@
 ---
 title: "Mesurer le ROI de l'IA en Supply Chain : les KPI qui Comptent"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "roi ia supply chain kpi, mesurer retour sur investissement ia, business case ia logistique, kpi ia achats maroc, calcul rentabilité ia entreprise"

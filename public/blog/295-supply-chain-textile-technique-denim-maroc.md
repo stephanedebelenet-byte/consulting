@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Textile Technique et Denim : ce qui Différencie le Maroc de l'Asie"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "supply chain textile technique maroc, denim maroc export, sourcing textile maroc vs asie"

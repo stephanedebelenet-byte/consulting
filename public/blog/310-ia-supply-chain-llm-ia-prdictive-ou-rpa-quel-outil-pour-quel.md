@@ -1,7 +1,7 @@
 ---
 title: "IA Supply Chain : LLM, IA Prédictive ou RPA — Quel Outil pour Quel Problème"
 date: "2026-09-02"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "ia générative vs prédictive supply chain, llm rpa supply chain, choisir outil ia logistique maroc, automatisation supply chain, ia achats maroc"

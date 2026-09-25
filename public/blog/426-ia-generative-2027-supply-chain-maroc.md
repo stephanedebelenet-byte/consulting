@@ -1,7 +1,7 @@
 ---
 title: "IA Générative en 2027 : ce qui va Réellement Changer"
 date: "2026-09-17"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "ia générative 2027 supply chain maroc, tendances ia 2027 logistique, avenir ia supply chain maroc, prévision ia 2027 achats, ia générative futur supply chain"

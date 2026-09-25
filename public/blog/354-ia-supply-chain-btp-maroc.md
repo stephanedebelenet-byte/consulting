@@ -1,7 +1,7 @@
 ---
 title: "IA et BTP : Prévision de Chantier et Volatilité des Prix"
 date: "2026-09-14"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia supply chain btp maroc, prévision besoin chantier ia, indexation prix acier ciment ia, ia planning matériel chantier, pénurie matériel construction ia"

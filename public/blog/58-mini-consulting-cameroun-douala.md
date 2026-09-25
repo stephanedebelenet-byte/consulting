@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Cameroun : le Port de Douala, hub logistique d'Afrique centrale"
 date: "2026-08-18"
-author: "Youssef B."
+author: "Youssef B"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Cameroun, Port de Douala, logistique Afrique centrale, corridor Tchad"

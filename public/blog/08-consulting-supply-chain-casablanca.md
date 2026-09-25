@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain à Casablanca — Expert Logistique Maroc"
 date: "2026-06-21"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/conseil.webp"
 keywords: "consultant supply chain Casablanca, conseil logistique Maroc, audit supply chain Casablanca, optimisation chaîne approvisionnement Casa"
 description: "Expert supply chain basé à Casablanca. 20+ ans expérience, 110+ missions. Audit, formation, digitalisation WMS/TMS. PME/ME/GE tous secteurs."
@@ -142,7 +142,7 @@ Casablanca, Maroc · 20+ ans expérience · 110+ missions réussies
 
 ---
 
-**Youssef B.**
+**Youssef B**
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
-Youssef B. — Casablanca, Maroc
+Youssef B — Casablanca, Maroc
 

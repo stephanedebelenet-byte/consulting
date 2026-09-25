@@ -1,7 +1,7 @@
 ---
 title: "Digitalisation Logistique en Afrique de l'Ouest : les ERP qui s'Adaptent aux Réalités Locales"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "digitalisation logistique afrique ouest, ERP adapté afrique, connectivité logistique afrique de l'ouest"

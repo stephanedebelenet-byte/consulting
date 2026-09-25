@@ -1,7 +1,7 @@
 ---
 title: "Formation Interne vs Recrutement Externe : Arbitrer la Montée en Compétence Supply Chain"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "formation interne vs recrutement maroc, montée en compétence supply chain, upskilling vs recrutement externe"

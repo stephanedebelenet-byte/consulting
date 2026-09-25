@@ -1,7 +1,7 @@
 ---
 title: "Clauses IA dans les Contrats Fournisseurs et Prestataires Logistiques"
 date: "2026-09-16"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "clauses contrat ia fournisseur logistique, négocier clause ia contrat, clause ia prestataire logistique, contrat fournisseur usage ia, clause information ia contrat"

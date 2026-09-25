@@ -1,7 +1,7 @@
 ---
 title: "Comptes Rendus et Plans d'Action S&OP Automatisés par l'IA"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "compte rendu réunion sop ia, plan action sop automatisé, ia rédaction compte rendu réunion, suivi décisions s&op ia, gain de cycle sop"

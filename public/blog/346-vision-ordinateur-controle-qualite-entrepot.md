@@ -1,7 +1,7 @@
 ---
 title: "Vision par Ordinateur en Réception et Contrôle Qualité : où en est le Maroc"
 date: "2026-09-14"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "vision par ordinateur contrôle qualité entrepôt, computer vision entrepôt maroc, comptage automatique réception, détection casse ia entrepôt, lecture étiquette ia"

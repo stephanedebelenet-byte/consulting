@@ -1,7 +1,7 @@
 ---
 title: "Prévision Budgétaire Supply Chain par IA : Sortir du Tableur Figé"
 date: "2026-09-15"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "prévision budgétaire ia supply chain, budget supply chain ia maroc, sortir du tableur annuel figé, ia budget logistique achats, prévision budgétaire dynamique"

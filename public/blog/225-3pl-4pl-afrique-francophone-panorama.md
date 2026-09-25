@@ -1,7 +1,7 @@
 ---
 title: "3PL et 4PL en Afrique Francophone : qui sont les Acteurs et Comment les Choisir"
 date: "2026-08-24"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "3PL 4PL afrique francophone, prestataire logistique afrique, AGL Africa Global Logistics, CEVA Logistics afrique"
@@ -42,7 +42,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Wikipédia — Africa Global Logistics](https://fr.wikipedia.org/wiki/Africa_Global_Logistics)

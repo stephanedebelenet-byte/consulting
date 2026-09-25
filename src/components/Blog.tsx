@@ -723,7 +723,7 @@ function buildArticleSchema(post: BlogPost) {
     headline: post.title,
     description: post.description || post.quickAnswer,
     datePublished: post.date,
-    author: { '@type': 'Person', name: post.author || 'Youssef B.', jobTitle: 'Fondateur', worksFor: { '@type': 'Organization', name: 'Nextinotech' } },
+    author: { '@type': 'Person', name: post.author || 'Youssef B', jobTitle: 'Fondateur', worksFor: { '@type': 'Organization', name: 'Nextinotech' } },
     publisher: { '@type': 'Organization', name: 'Nextinotech' },
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: "Robots et Automatisation d'Entrepôt : où en est Réellement le Maroc"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "robot entrepôt automatisation maroc, AGV logistique maroc, robotique entrepôt, automatisation intralogistique"

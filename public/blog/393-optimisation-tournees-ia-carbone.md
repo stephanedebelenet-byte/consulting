@@ -1,7 +1,7 @@
 ---
 title: "Optimisation des Tournées par IA : le Double Gain Coût-Carbone"
 date: "2026-09-16"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "optimisation tournées ia carbone, double gain coût carbone transport, ia réduction émissions tournée, optimisation transport ia maroc, ia carbone livraison"

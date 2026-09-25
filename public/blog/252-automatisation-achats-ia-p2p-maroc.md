@@ -1,7 +1,7 @@
 ---
 title: "Automatisation des Achats par l'IA : du Bon de Commande au Paiement sans Intervention"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "automatisation achats IA, procure to pay automatisation, P2P automatisation maroc, IA achats"

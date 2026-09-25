@@ -1,7 +1,7 @@
 ---
 title: "Control Tower Logistique : Piloter sa Supply Chain en Temps Réel, Mode d'Emploi"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "control tower logistique, tour de contrôle supply chain, pilotage temps réel logistique maroc, visibilité supply chain"
@@ -42,7 +42,7 @@ Vous pilotez un réseau logistique multi-sites et voulez évaluer votre besoin e
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [IBM — What is a Supply Chain Control Tower?](https://www.ibm.com/think/topics/control-towers)

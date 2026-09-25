@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: PME Textile — 18% Sourcing Cost Reduction en 3 Mois"
 date: "2026-06-21"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/business.webp"
 type: "case-study"
 keywords: "case study supply chain, sourcing optimization, cost reduction, textile Maroc"
@@ -149,7 +149,7 @@ PME textile a transformé supply chain en 3 mois sans massive investment. Clé: 
 
 ---
 
-**Youssef B.**
+**Youssef B**
 Expert Supply Chain & Transformation Digitale  
 20+ ans expérience, 110+ missions réussies
 

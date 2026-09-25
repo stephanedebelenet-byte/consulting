@@ -1,7 +1,7 @@
 ---
 title: "WMS vs ERP Intégré : Faut-il un Système Dédié pour son Entrepôt"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "WMS vs ERP entrepôt, système dédié entrepôt maroc, module WMS ERP intégré"

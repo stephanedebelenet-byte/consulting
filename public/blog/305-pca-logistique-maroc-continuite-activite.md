@@ -1,7 +1,7 @@
 ---
 title: "Plan de Continuité d'Activité (PCA) Logistique : se Préparer aux Ruptures"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "PCA logistique maroc, plan continuité activité supply chain, ISO 22301 logistique"

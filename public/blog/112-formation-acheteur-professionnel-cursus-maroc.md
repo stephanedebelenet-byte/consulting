@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Acheteur Professionnel au Maroc : Cursus, Compétences et Salaires"
 date: "2026-08-05"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/business.webp"
 keywords: "formation acheteur professionnel Maroc, cursus acheteur Maroc, devenir acheteur professionnel, négociation achats formation Maroc"
 description: "Formation acheteur professionnel au Maroc : programme complet, compétences en négociation, certifications, salaires et débouchés. Guide 2026 par Nextinotech."

@@ -1,7 +1,7 @@
 ---
 title: "IA et Gestion des Retours : Trier, Router et Rembourser Plus Vite"
 date: "2026-09-17"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "ia retours logistique inverse maroc, ia gestion retours ecommerce, trier router rembourser ia, coût retours e-commerce ia, ia logistique inverse rapide"
@@ -42,4 +42,4 @@ Vous voulez accélérer le traitement de vos retours ? [Découvrez notre offre d
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

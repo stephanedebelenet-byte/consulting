@@ -1,7 +1,7 @@
 ---
 title: "Copilot Excel et Power BI pour l'Analyste Supply Chain"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "copilot excel supply chain, ia power bi analyste logistique, gagner du temps excel ia, automatiser reporting supply chain, copilot microsoft achats"
@@ -46,4 +46,4 @@ Vous voulez faire monter votre équipe analytique en compétence sur ces outils 
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

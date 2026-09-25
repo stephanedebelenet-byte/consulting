@@ -1,7 +1,7 @@
 ---
 title: "Recruter un Profil IA Appliquée à la Supply Chain"
 date: "2026-09-15"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "recrutement ia supply chain profil, poste ia supply chain maroc, fiche de poste ia logistique, recruter référent ia achats, profil hybride ia supply chain"
@@ -38,4 +38,4 @@ Vous voulez identifier ou former ce profil dans votre équipe ? [Découvrez notr
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

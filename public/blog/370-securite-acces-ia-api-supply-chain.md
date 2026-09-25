@@ -1,7 +1,7 @@
 ---
 title: "Sécuriser ses Accès IA : Gouvernance des Clés API en Supply Chain"
 date: "2026-09-15"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "sécurité accès ia api supply chain, gouvernance clé api ia, compte partagé ia risque, sécuriser accès ia entreprise maroc, gestion des accès ia"
@@ -38,4 +38,4 @@ Vous voulez auditer la gouvernance de vos accès IA ? [Découvrez notre offre de
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

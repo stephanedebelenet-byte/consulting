@@ -1,7 +1,7 @@
 ---
 title: "Logistique Verte au Maroc : Pourquoi la Transition Reste Freinée"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "logistique verte maroc, transport durable maroc, transition écologique logistique, véhicules électriques transport maroc"

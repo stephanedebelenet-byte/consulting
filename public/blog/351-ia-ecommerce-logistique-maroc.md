@@ -1,7 +1,7 @@
 ---
 title: "IA et E-commerce / Last-Mile : Prévision COD et Gestion des Retours"
 date: "2026-09-14"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "ia ecommerce logistique maroc, prévision cod ia, optimisation livraison last mile ia, gestion des retours ia ecommerce, ia adresse livraison maroc"

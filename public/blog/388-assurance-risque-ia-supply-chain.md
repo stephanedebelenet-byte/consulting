@@ -1,7 +1,7 @@
 ---
 title: "Assurance et IA en Supply Chain : les Risques Non Couverts"
 date: "2026-09-16"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "assurance risque ia supply chain, police assurance ia entreprise, risque non couvert ia, cyber-assurance ia maroc, assurance décision automatisée"

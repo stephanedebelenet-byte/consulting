@@ -1,7 +1,7 @@
 ---
 title: "Gouvernance de l'IA en Supply Chain : la Charte Avant les Outils"
 date: "2026-09-10"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "gouvernance ia supply chain, charte ia entreprise maroc, comité ia cas usage, data readiness supply chain, gouvernance ia achats logistique"
@@ -56,4 +56,4 @@ Vous voulez poser ce cadre et prioriser vos cas d'usage IA ? [Découvrez nos ser
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

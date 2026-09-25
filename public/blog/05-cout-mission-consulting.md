@@ -1,7 +1,7 @@
 ﻿---
 title: "Combien Coûte une Mission de Consulting Supply Chain?"
 date: "2026-06-21"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/conseil.webp"
 keywords: "coût consulting supply chain, devis mission, budget conseil logistique, ROI conseil"
 description: "Transparent : les coûts réels d'une mission de consulting supply chain. Modèles pricing, facteurs, et ROI."
@@ -371,7 +371,7 @@ No commitment. Transparent. Honnête.
 
 ---
 
-**Youssef B.**  
+**Youssef B**  
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
 Casablanca, Maroc  
 📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

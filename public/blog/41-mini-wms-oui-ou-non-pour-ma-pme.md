@@ -1,7 +1,7 @@
 ---
 title: "WMS Oui ou Non pour Ma PME ?"
 date: "2026-08-19"
-author: "Youssef B."
+author: "Youssef B"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Un WMS se justifie dès que la gestion manuelle des stocks génère des erreurs coûteuses ou freine la croissance. La version la plus légère chez Nextinotech démarre à 80 000 MAD HT, déployée en 6 à 10 semaines."

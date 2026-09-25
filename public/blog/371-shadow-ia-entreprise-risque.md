@@ -1,7 +1,7 @@
 ---
 title: "Shadow IA en Entreprise : le Risque des Outils Non Validés"
 date: "2026-09-15"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "shadow ia entreprise risque, outils ia non validés, ia clandestine entreprise maroc, risque shadow it ia, usage ia non déclaré"
@@ -38,4 +38,4 @@ Vous voulez évaluer et cadrer les usages IA réels dans votre entreprise ? [Dé
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

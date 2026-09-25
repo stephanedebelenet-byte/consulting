@@ -1,7 +1,7 @@
 ---
 title: "Qualité des Données : Pourquoi les Projets IA Supply Chain Échouent Avant de Commencer"
 date: "2026-09-13"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "data readiness supply chain ia, qualité des données ia maroc, référentiel article ia, prérequis projet ia entreprise, données historiques prévision ia"

@@ -1,7 +1,7 @@
 ---
 title: "Agile Appliqué à la Supply Chain : ce que l'Industriel Peut Emprunter au Digital"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "agile supply chain maroc, scrum kanban logistique, méthode agile industrielle"

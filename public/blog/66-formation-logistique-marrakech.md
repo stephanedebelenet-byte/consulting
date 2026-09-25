@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Logistique à Marrakech : Opportunités et Programme 2026"
 date: "2026-07-30"
-author: "Youssef B."
+author: "Youssef B"
 image: "/images/hero-supply-chain.webp"
 keywords: "formation logistique marrakech, supply chain marrakech, formation responsable logistique marrakech, cours logistique marrakech, emploi logistique marrakech"
 description: "Formation en logistique et supply chain pour les professionnels de Marrakech. Secteurs clés, débouchés locaux et programme de formation Nextinotech."

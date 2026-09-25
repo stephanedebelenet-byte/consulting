@@ -1,7 +1,7 @@
 ---
 title: "Grille Salariale Logistique et Supply Chain Maroc 2026 : Benchmark Employeur"
 date: "2026-08-19"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "grille salariale logistique maroc 2026, salaire supply chain maroc employeur, coût recrutement logistique maroc, charges patronales maroc"

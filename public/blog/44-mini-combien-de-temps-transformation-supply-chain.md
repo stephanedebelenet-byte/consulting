@@ -1,7 +1,7 @@
 ---
 title: "Combien de Temps Transformation Supply Chain ?"
 date: "2026-08-19"
-author: "Youssef B."
+author: "Youssef B"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "De 2 semaines pour un diagnostic flash à 12-18 mois pour une transformation multi-sites complète — la durée dépend du périmètre de la mission, pas d'une règle générale."

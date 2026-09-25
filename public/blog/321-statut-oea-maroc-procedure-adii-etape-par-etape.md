@@ -1,7 +1,7 @@
 ---
 title: "Statut OEA Maroc : la Procédure ADII, Étape par Étape"
 date: "2026-09-17"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "procédure statut OEA maroc, comment obtenir OEA maroc, demande OEA ADII étapes, Diw@nati OEA, dossier candidature OEA maroc"

@@ -1,7 +1,7 @@
 ---
 title: "IA et Gaspillage Alimentaire dans la Chaîne du Froid"
 date: "2026-09-16"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "ia gaspillage alimentaire chaîne du froid, détection perte chaîne froid ia, réduction gaspillage agroalimentaire ia, ia excursion température prévention, chaîne froid maroc ia"
@@ -42,4 +42,4 @@ Vous voulez sécuriser votre chaîne du froid export ? [Découvrez notre offre d
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

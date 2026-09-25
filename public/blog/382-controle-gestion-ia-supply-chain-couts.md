@@ -1,7 +1,7 @@
 ---
 title: "Contrôle de Gestion Supply Chain Augmenté par IA"
 date: "2026-09-15"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "contrôle gestion ia supply chain coûts, dérive coûts détection ia, contrôle de gestion logistique ia, ia analyse écart coûts, pilotage coûts supply chain ia"

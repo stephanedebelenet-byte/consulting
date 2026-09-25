@@ -1,7 +1,7 @@
 ---
 title: "Le Maroc peut-il Devenir le Leader Africain de la Logistique Durable ?"
 date: "2026-08-21"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "logistique durable afrique maroc, leader logistique verte afrique, maroc énergie renouvelable logistique"

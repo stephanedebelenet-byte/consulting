@@ -1,7 +1,7 @@
 ---
 title: "Hydrogène Vert et Ammoniac : la Nouvelle Chaîne Logistique que l'OCP Construit"
 date: "2026-08-22"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "hydrogène vert OCP, ammoniac vert maroc, OCP Fortescue, logistique énergie verte maroc"

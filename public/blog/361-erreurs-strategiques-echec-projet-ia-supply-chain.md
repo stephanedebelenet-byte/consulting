@@ -1,7 +1,7 @@
 ---
 title: "Les 7 Erreurs Stratégiques qui Font Échouer un Projet IA Supply Chain"
 date: "2026-09-14"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "échec projet ia supply chain erreurs, pourquoi projet ia échoue, erreurs fréquentes ia entreprise, pièges projet ia logistique, causes échec transformation ia"

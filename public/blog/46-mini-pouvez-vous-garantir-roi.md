@@ -1,7 +1,7 @@
 ---
 title: "Pouvez-vous Garantir ROI ?"
 date: "2026-08-19"
-author: "Youssef B."
+author: "Youssef B"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Non, aucune garantie de ROI n'est promise avant diagnostic — c'est un choix délibéré. Ce que nous engageons, ce sont des résultats chiffrés une fois le diagnostic réalisé : par exemple 3 à 11% d'économies achats déjà mesurées, jamais promises à l'avance."
@@ -37,4 +37,4 @@ La garantie de ROI a priori est un argument commercial, pas une pratique de cons
 
 ---
 
-*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

@@ -1,7 +1,7 @@
 ---
 title: "Manager une Équipe Hybride Humains-IA en Entrepôt"
 date: "2026-09-15"
-author: "Youssef B."
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "management équipe ia entrepôt planification, manager équipe hybride ia, encadrement caristes ia entrepôt, management planification augmentée ia, leadership ia terrain"
