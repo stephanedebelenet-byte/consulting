@@ -71,6 +71,21 @@ for (const path of paths) {
   }
 }
 
+// Page 404 (dist/404.html, générée par vite.config.ts) : rendue via une
+// adresse volontairement inexistante, qui tombe sur la route "*" → NotFoundPage.
+const notFoundFile = join(DIST_DIR, '404.html')
+if (existsSync(notFoundFile)) {
+  try {
+    const html = readFileSync(notFoundFile, 'utf-8')
+    if (html.includes(EMPTY_ROOT)) {
+      writeFileSync(notFoundFile, html.replace(EMPTY_ROOT, `<div id="root">${render('/__page-introuvable__')}</div>`), 'utf-8')
+      filled++
+    }
+  } catch (e) {
+    failures.push(`/404.html — ${e.message}`)
+  }
+}
+
 console.log(`\n[prerender-app-bodies] ${filled} page(s) app remplie(s) par rendu SSR`)
 console.log(`[prerender-app-bodies] ${alreadyFilled} page(s) déjà remplie(s) (blog)`)
 if (failures.length) {

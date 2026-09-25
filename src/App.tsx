@@ -37,6 +37,7 @@ import AccompagnementOeaPage from './pages/AccompagnementOeaPage'
 import IngenierieFormationPage from './pages/IngenierieFormationPage'
 import CatalogueMetiersPage from './pages/CatalogueMetiersPage'
 import ControlTowerPage from './pages/ControlTowerPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -101,7 +102,7 @@ function AnimatedRoutes() {
         <Route path="/accompagnement-oea" element={<PageTransition><AccompagnementOeaPage /></PageTransition>} />
         <Route path="/ingenierie-formation" element={<PageTransition><IngenierieFormationPage /></PageTransition>} />
         <Route path="/ingenierie-formation/catalogue" element={<PageTransition><CatalogueMetiersPage /></PageTransition>} />
-        <Route path="*" element={<PageTransition><HomePage /></PageTransition>} />
+        <Route path="*" element={<PageTransition><NotFoundPage /></PageTransition>} />
       </Routes>
     </AnimatePresence>
   )

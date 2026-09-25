@@ -6,7 +6,10 @@ import { Navigate } from 'react-router-dom'
 // Expertise reste sur /conseil). Les ancres Prestations connues (aucune en usage
 // interne actuellement, gardé pour compatibilité de liens externes éventuels)
 // -> /prestations.
-const PRESTATIONS_ANCHORS = ['#prestations', '#valeur-ajoutee', '#pack-inventaire', '#leibinger', '#solutions-it']
+// Exporté pour ConseilPage : depuis que /services est redirigé en 301 vers
+// /conseil côté serveur (vercel.json), c'est /conseil qui reçoit l'ancre et
+// renvoie les ancres Prestations vers /prestations.
+export const PRESTATIONS_ANCHORS = ['#prestations', '#valeur-ajoutee', '#pack-inventaire', '#leibinger', '#solutions-it']
 
 function resolveServicesRedirect(): string {
   const hash = typeof window !== 'undefined' ? window.location.hash : ''
