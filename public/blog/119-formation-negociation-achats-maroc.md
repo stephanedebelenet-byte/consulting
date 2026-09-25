@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Négociation Achats au Maroc : Techniques et Cas Pratiques"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/business.webp"
 keywords: "formation négociation achats Maroc, techniques négociation fournisseurs, négociation achats professionnelle, BATNA négociation Maroc"
 description: "Formation négociation achats au Maroc : BATNA, coût total, tactiques avancées. Les techniques qui permettent de gagner 8 à 15% sur les achats. Guide pratique 2026."
@@ -77,7 +77,7 @@ Les fournisseurs ont leurs propres tactiques. Les connaître permet de ne pas y 
 
 2 jours de formation intensive avec simulations filmées et feedback individuel. Groupes de 6 à 12 participants maximum pour garantir la qualité des simulations.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

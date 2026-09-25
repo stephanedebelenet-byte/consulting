@@ -1,7 +1,7 @@
 ---
 title: "Due Diligence IA Fournisseur : les Questions Avant de Signer"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "due diligence éditeur ia fournisseur, questions avant signer éditeur ia, vérifier éditeur ia sérieux, due diligence ia entreprise maroc, checklist éditeur ia"
@@ -39,8 +39,8 @@ Avant de signer avec un éditeur IA, vérifiez sa pérennité financière, ses r
 
 Vous voulez sécuriser le choix de votre éditeur IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

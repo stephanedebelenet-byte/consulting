@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation TMS au Maroc : Optimiser le Transport avec un Logiciel"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/transport.webp"
 keywords: "formation TMS Maroc, Transport Management System formation, optimisation transport Maroc, logiciel transport formation, TMS déploiement Maroc"
 description: "Formation TMS au Maroc : comment choisir, déployer et maîtriser un système de gestion du transport. Programme, outils disponibles et résultats attendus."
@@ -54,7 +54,7 @@ Paramétrage de base, création des tournées, suivi temps réel, génération d
 
 2 jours de formation avec simulation sur logiciel TMS. Accompagnement disponible pour le déploiement complet.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

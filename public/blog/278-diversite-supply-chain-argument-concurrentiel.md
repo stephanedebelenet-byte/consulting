@@ -1,7 +1,7 @@
 ---
 title: "Diversité en Supply Chain : un Argument Concurrentiel pour Attirer les Talents"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "diversité supply chain recrutement, diversité avantage concurrentiel logistique, attractivité talents supply chain"
@@ -36,11 +36,11 @@ La diversité en supply chain devient un critère de performance mesurable, pas 
 
 Vous voulez élargir votre vivier de recrutement supply chain au-delà des canaux traditionnels ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Décision Achats — Diversité Supply Chain 2025 : la supply accélère mais les écarts persistent](https://www.decision-achats.fr/talents-1298/salaires-profils-2281/diversite-la-supply-accelere-mais-les-ecarts-persistent-49689)

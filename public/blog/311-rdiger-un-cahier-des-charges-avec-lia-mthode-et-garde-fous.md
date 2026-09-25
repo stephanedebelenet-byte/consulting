@@ -1,7 +1,7 @@
 ---
 title: "Rédiger un Cahier des Charges avec l'IA : Méthode et Garde-Fous"
 date: "2026-09-03"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "rédiger cahier des charges ia, cahier des charges wms tms ia, appel d'offres ia achats maroc, cahier des charges logistique, rédaction cdc supply chain"
@@ -50,8 +50,8 @@ L'IA fait gagner du temps sur la forme et l'exhaustivité d'un cahier des charge
 
 Nous rédigeons des cahiers des charges Supply Chain & Logistique sans commission fournisseur ni intégrateur : [découvrez l'offre Cahiers des Charges](/conseil). Besoin d'en parler ? [Contactez-nous](/contact) ou consultez notre [catalogue de formations](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

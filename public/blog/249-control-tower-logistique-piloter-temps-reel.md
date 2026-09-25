@@ -1,7 +1,7 @@
 ---
 title: "Control Tower Logistique : Piloter sa Supply Chain en Temps Réel, Mode d'Emploi"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "control tower logistique, tour de contrôle supply chain, pilotage temps réel logistique maroc, visibilité supply chain"
@@ -38,11 +38,11 @@ Pour aller plus loin sur la mécanique du control tower : le rôle exact du [WMS
 
 Vous pilotez un réseau logistique multi-sites et voulez évaluer votre besoin en visibilité temps réel ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [IBM — What is a Supply Chain Control Tower?](https://www.ibm.com/think/topics/control-towers)

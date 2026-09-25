@@ -1,7 +1,7 @@
 ---
 title: "Cahier des Charges Technique pour un Projet IA Supply Chain"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "cahier charges technique ia dsi, exigences techniques éditeur ia, cahier des charges ia entreprise, dsi exigences ia fournisseur, spécifications techniques projet ia"
@@ -40,8 +40,8 @@ Un cahier des charges technique IA doit imposer cinq clauses non négociables �
 
 Vous préparez un cahier des charges pour un projet IA ? [Découvrez notre offre Étude de Faisabilité SI](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

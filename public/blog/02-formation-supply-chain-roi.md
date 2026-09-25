@@ -1,7 +1,7 @@
 ﻿---
 title: "ROI Formation Supply Chain : Transformation Mesurable en 90 Jours"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "formation supply chain Maroc, certification APICS, formation logistique, ROI formation, montée en compétence"
 description: "Comment une formation supply chain génère ROI en 90 jours. Données réelles de 40+ cadres formés : adoption tech +40%, économies 8-15%."
@@ -278,13 +278,13 @@ Une formation supply chain n'est pas dépense. C'est investissement qu'on mesure
 2. Recommandation formation
 3. ROI projection
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous. On regarde votre situation, on vous dit honnêtement si formation a sense pour vous.
 
 ---
 
-**Nextinotech**  
-Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Nextinotech — Casablanca, Maroc  
-📧 contact@nextinotech.com | 📞 +212 663 449 200
+**Youssef Bahaida**  
+Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
+Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

@@ -1,7 +1,7 @@
 ---
 title: "Évaluer la Maturité IA de ses Collaborateurs Supply Chain"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "maturité ia compétences supply chain, grille évaluation compétences ia, plan montée en compétence ia, auto-évaluation ia collaborateur, niveau compétence ia équipe"
@@ -40,8 +40,8 @@ description: "Une grille simple pour évaluer la maturité IA de vos collaborate
 
 Vous voulez évaluer la maturité IA de vos équipes avant de former ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Nos [formations](/formation) s'adaptent à chaque niveau.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

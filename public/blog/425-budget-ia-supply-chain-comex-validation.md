@@ -1,7 +1,7 @@
 ---
 title: "Ce que le Comex Doit Exiger Avant de Valider un Budget IA"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "budget ia supply chain comex validation, comex exiger avant budget ia, questions comex projet ia, validation budget ia comité direction, checklist comex ia"
@@ -42,8 +42,8 @@ Un comex qui valide un budget IA doit exiger cinq réponses précises — baseli
 
 Vous préparez la présentation d'un projet IA à votre comex ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

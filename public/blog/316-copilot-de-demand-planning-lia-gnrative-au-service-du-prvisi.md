@@ -1,7 +1,7 @@
 ---
 title: "Copilot de Demand Planning : l'IA Générative au Service du Prévisionniste"
 date: "2026-09-08"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "copilot demand planning ia, ia générative prévision demande, prévisionniste ia maroc, demand planner assistant ia, s&op ia maroc"
@@ -47,8 +47,8 @@ Le copilot de demand planning accélère l'explication, la documentation et la p
 
 Vous voulez structurer votre processus de prévision et votre S&OP ? [Découvrez nos services de conseil](/conseil), ou formez vos planificateurs via notre [catalogue de formations](/formation). [Contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

@@ -1,7 +1,7 @@
 ---
 title: "Recruter la Génération Z en Logistique : ce qui a Changé, ce qu'il Faut Arrêter de Faire"
 date: "2026-08-23"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "recruter génération Z logistique, génération Z entrepôt maroc, attentes jeunes travail logistique, fidélisation gen z supply chain"
@@ -36,11 +36,11 @@ La génération Z n'a pas une aversion pour la logistique — elle a des critèr
 
 Votre entreprise peine à attirer ou à retenir les jeunes talents en logistique ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour repenser votre approche recrutement.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Heppner — Baromètre "Les jeunes et les métiers du transport et de la logistique" (Harris Interactive, référence française)](https://www.heppner-group.com/presse/heppner-presente-les-resultats-de-son-premier-barometre-les-jeunes-et-les-metiers-du-transport-et-de-la-logistique/)

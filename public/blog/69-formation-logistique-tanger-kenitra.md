@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Logistique à Tanger et Kénitra : Hub Automobile et Port Med 2026"
 date: "2026-08-02"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/transport.webp"
 keywords: "formation logistique tanger, supply chain tanger med, formation logistique kenitra, supply chain automobile maroc nord, formation jit tanger, logistique port tanger"
 description: "Formation supply chain et logistique pour les professionnels de Tanger, Tanger Med et Kénitra : secteur automobile, port, logistique industrielle JIT."
@@ -155,8 +155,8 @@ Pour les professionnels du secteur automobile au Nord, nous proposons un program
 
 Le Nord du Maroc est aujourd'hui l'une des zones de développement logistique les plus actives du continent. Les professionnels qui maîtrisent les standards automobile (JIT, EDI, DDMRP) et portuaires (gestion des conteneurs, douane, freight forwarding) ont des perspectives de carrière excellentes.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
-Pour structurer les fondamentaux avant de se spécialiser automobile ou portuaire, notre programme **[Devenir Responsable Logistique](/formation-rl/)** (1 journée, 1 500 MAD TTC) reste le point d'entrée le plus rapide.
+Pour structurer les fondamentaux avant de se spécialiser automobile ou portuaire, notre programme **[Devenir Responsable Logistique](/formation-rl)** (1 journée, 1 500 MAD TTC) reste le point d'entrée le plus rapide.
 
 **Nextinotech intervient régulièrement à Tanger, Kénitra et Tanger Med** pour des missions de conseil et de formation. Contactez-nous pour organiser une session pour votre équipe.

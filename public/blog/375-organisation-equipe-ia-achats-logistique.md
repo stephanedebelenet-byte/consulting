@@ -1,7 +1,7 @@
 ---
 title: "Réorganiser une Équipe Achats ou Logistique Autour de l'IA"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "organisation équipe ia achats logistique, réorganiser équipe autour de l'ia, fiche de poste ia achats, nouveaux rôles équipe logistique ia, organigramme ia supply chain"
@@ -38,8 +38,8 @@ Réorganiser une équipe achats ou logistique autour de l'IA ne nécessite pas d
 
 Vous voulez ajuster l'organisation de votre équipe autour de l'IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

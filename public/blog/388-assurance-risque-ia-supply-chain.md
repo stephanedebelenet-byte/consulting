@@ -1,7 +1,7 @@
 ---
 title: "Assurance et IA en Supply Chain : les Risques Non Couverts"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "assurance risque ia supply chain, police assurance ia entreprise, risque non couvert ia, cyber-assurance ia maroc, assurance décision automatisée"
@@ -38,8 +38,8 @@ Les polices d'assurance classiques ne couvrent pas toujours explicitement les ri
 
 Vous voulez faire le point sur votre couverture face aux risques IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

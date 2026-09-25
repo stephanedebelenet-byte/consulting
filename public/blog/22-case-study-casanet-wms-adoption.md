@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Casanet Warehouse — WMS Adoption 88% + Efficiency +40%"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 type: "case-study"
 keywords: "WMS implementation, warehouse management, adoption, efficiency"

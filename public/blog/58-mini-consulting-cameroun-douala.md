@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Cameroun : le Port de Douala, hub logistique d'Afrique centrale"
 date: "2026-08-18"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Cameroun, Port de Douala, logistique Afrique centrale, corridor Tchad"
@@ -36,8 +36,8 @@ Le Cameroun n'est pas seulement un marché national : c'est l'infrastructure log
 
 Vous pilotez des flux logistiques exposés à l'Afrique centrale ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

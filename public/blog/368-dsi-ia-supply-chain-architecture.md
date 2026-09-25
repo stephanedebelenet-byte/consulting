@@ -1,7 +1,7 @@
 ---
 title: "IA et DSI Supply Chain : ce que l'Informatique Doit Valider"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "dsi ia supply chain architecture, validation informatique projet ia, checklist dsi ia entreprise, dsi architecture ia sécurité, ia projet informatique validation"
@@ -39,8 +39,8 @@ La validation DSI d'un projet IA supply chain tient en quatre questions simples 
 
 Vous voulez structurer la validation technique de vos projets IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

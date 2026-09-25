@@ -1,7 +1,7 @@
 ---
 title: "Détection de Défauts en Ligne de Production par Vision IA"
 date: "2026-09-16"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "détection défauts vision ia production, contrôle qualité ligne production ia, vision par ordinateur défaut production, roi vision production maroc, ia inspection production"
@@ -37,8 +37,8 @@ La vision par ordinateur en ligne de production détecte efficacement les défau
 
 Vous voulez évaluer la vision par ordinateur pour votre ligne de production ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

@@ -1,7 +1,7 @@
 ---
 title: "IA et Souveraineté Économique Marocaine : Enjeu ou Effet de Mode"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "souveraineté ia économie maroc, ia souveraineté économique pme, ia enjeu stratégique maroc, dépendance technologique ia maroc, ia effet de mode ou enjeu réel"
@@ -38,8 +38,8 @@ L'enjeu de souveraineté IA se joue différemment selon l'échelle : structurel 
 
 Vous voulez évaluer votre exposition à la dépendance technologique IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

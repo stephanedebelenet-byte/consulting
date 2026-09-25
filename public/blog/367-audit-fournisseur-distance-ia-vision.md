@@ -1,7 +1,7 @@
 ---
 title: "Contrôle Qualité Fournisseur à Distance : ce que Change la Vision IA"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "audit fournisseur distance ia vision, audit qualité à distance ia, vision par ordinateur audit fournisseur, ia contrôle qualité usine distante, audit vidéo fournisseur"
@@ -38,8 +38,8 @@ La vision par ordinateur permet un premier niveau de contrôle qualité fourniss
 
 Vous voulez structurer votre programme d'audit fournisseur ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

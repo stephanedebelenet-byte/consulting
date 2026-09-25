@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi une Demande de Statut OEA Échoue au Maroc"
 date: "2026-09-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "échec demande OEA maroc, rejet statut OEA, préparer audit OEA, erreurs dossier OEA maroc, traçabilité stock OEA"
@@ -52,11 +52,11 @@ C'est précisément l'angle sur lequel Nextinotech intervient : diagnostic d'él
 
 La traçabilité des stocks, pas le contentieux douanier, est le premier obstacle à l'obtention du statut OEA au Maroc. Un diagnostic préalable permet de le mesurer avant d'engager un audit coûteux et de risquer un premier rejet. [Contactez-nous](/contact) pour évaluer la solidité de votre dossier.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [ADII — Arrêté n°690-11 du 22 juillet 2011 fixant les catégories et la procédure d'octroi du statut OEA](https://www.douane.gov.ma/code/AMF_690_F.htm)

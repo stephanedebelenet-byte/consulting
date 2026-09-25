@@ -1,7 +1,7 @@
 ---
 title: "Autoroute de la Mer Tanger-Europe : une Alternative au Tout-Routier"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "autoroute de la mer maroc europe, ferry ro-ro tanger med, alternative maritime transport routier maroc"
@@ -36,11 +36,11 @@ L'autoroute de la mer entre le Maroc et l'Europe, portée par la forte fréquenc
 
 Vous exportez régulièrement vers l'Europe et voulez évaluer une alternative maritime au tout-routier ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Direct Ferries — Réservez un ferry de Tanger Med](https://www.directferries.fr/ferry_de_tanger_med.htm)

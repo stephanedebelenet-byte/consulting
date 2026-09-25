@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Responsable Logistique au Maroc : Devenir Opérationnel en 3 Mois"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-warehouse.webp"
 keywords: "formation responsable logistique Maroc, devenir responsable logistique, cursus logistique Maroc, formation chef logistique Maroc"
 description: "La formation Responsable Logistique au Maroc : compétences clés, programme recommandé, salaires et comment être opérationnel en 3 mois. Guide 2026."
@@ -87,7 +87,7 @@ La clé : ne pas attendre d'avoir "tout appris" pour commencer à pratiquer. Les
 
 Programme intensif de 3 jours pour les responsables en poste, ou accompagnement individuel sur 3 mois pour les juniors en prise de poste. Contenu basé sur 20 ans de missions terrain au Maroc.
 
-👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl/)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
+👉 **[Voir le programme complet « Devenir Responsable Logistique »](/formation-rl)** — 1 journée, 1 500 MAD TTC, prochaines sessions 2026.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

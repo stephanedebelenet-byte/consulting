@@ -1,7 +1,7 @@
 ---
 title: "Change Management dans un Projet WMS ou ERP : Pourquoi les Projets Échouent"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "change management ERP WMS, conduite du changement projet ERP maroc, échec projet ERP raisons"
@@ -36,11 +36,11 @@ L'échec d'un projet ERP ou WMS se joue rarement sur la qualité du logiciel —
 
 Vous préparez un déploiement ERP ou WMS et voulez sécuriser son adoption réelle ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [MeltingSpot — Déploiement ERP : pourquoi 70% des projets échouent](https://meltingspot.io/fr/blog/echec-deploiement-erp-pourquoi-70-pourcent-des-projets-echouent)

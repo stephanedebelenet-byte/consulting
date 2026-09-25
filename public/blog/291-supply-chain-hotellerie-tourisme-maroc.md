@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain du Secteur Hôtelier et Tourisme : Approvisionner sans Rupture en Haute Saison"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "supply chain hôtellerie tourisme maroc, approvisionnement hôtel maroc, achats CHR maroc"
@@ -36,11 +36,11 @@ L'approvisionnement hôtelier en haute saison se joue sur un équilibre fin entr
 
 Vous gérez un établissement hôtelier et voulez optimiser votre approvisionnement en haute saison ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Generali — Gaspillage alimentaire : pour une meilleure gestion des stocks dans la restauration](https://www.generali.fr/entreprise/actu/gaspillage-alimentaire-meilleure-gestion-stock/)

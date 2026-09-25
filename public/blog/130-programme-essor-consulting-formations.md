@@ -1,7 +1,7 @@
 ﻿---
 title: "Programmes de Formation Nextinotech : Catalogue Complet 2026"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/conseil.webp"
 keywords: "formation Nextinotech Maroc, catalogue formation supply chain Maroc, programme formation logistique Nextinotech"
 description: "Catalogue complet des formations Nextinotech au Maroc : supply chain, achats, entrepôt, planification, DDMRP. Programmes inter et intra-entreprises, certification incluse."
@@ -86,9 +86,9 @@ Nextinotech propose des formations supply chain conçues par des praticiens, pou
 
 **Délai d'inscription :** Minimum 2 semaines avant la session.
 
-Pour un premier pas rapide dans le catalogue, notre programme phare reste **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
+Pour un premier pas rapide dans le catalogue, notre programme phare reste **[Devenir Responsable Logistique](/formation-rl)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 ## Contactez-nous
 

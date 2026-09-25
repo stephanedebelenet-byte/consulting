@@ -1,7 +1,7 @@
 ---
 title: "IA Générative et Nouveaux Modèles Économiques Logistiques"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "ia nouveaux modèles économiques logistique, ia modèle économique supply chain, au-delà réduction coûts ia, ia offre logistique nouvelle, transformation modèle économique ia"
@@ -38,8 +38,8 @@ Au-delà de la réduction de coûts, l'IA générative rend viables de nouveaux 
 
 Vous voulez explorer de nouveaux modèles économiques pour votre offre logistique ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

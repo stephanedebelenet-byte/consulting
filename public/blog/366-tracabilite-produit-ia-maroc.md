@@ -1,7 +1,7 @@
 ---
 title: "Traçabilité Produit Augmentée par IA : au-delà du Code-Barres"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "traçabilité produit ia maroc, ia traçabilité lot numéro série, traçabilité au-delà du code-barres, ia historique produit entreprise, traçabilité chaîne approvisionnement ia"
@@ -38,8 +38,8 @@ La traçabilité produit augmentée par IA reconstitue en quelques minutes un hi
 
 Vous voulez renforcer la traçabilité de vos produits ou lots critiques ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

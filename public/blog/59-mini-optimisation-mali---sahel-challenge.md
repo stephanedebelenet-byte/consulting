@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Mali : logistique d'un pays enclavé entre trois corridors"
 date: "2026-08-18"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Mali, pays enclavé, corridor Dakar Bamako, corridor Abidjan Bamako, logistique Sahel"
@@ -36,8 +36,8 @@ La supply chain malienne illustre un cas d'école : celui d'une économie qui do
 
 Vous pilotez des flux logistiques exposés au Sahel ou à l'Afrique de l'Ouest ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

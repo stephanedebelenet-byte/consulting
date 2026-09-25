@@ -1,7 +1,7 @@
 ---
 title: "WMS vs ERP Intégré : Faut-il un Système Dédié pour son Entrepôt"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "WMS vs ERP entrepôt, système dédié entrepôt maroc, module WMS ERP intégré"
@@ -36,11 +36,11 @@ Le choix entre WMS dédié et module ERP intégré se décide par le volume et l
 
 Vous voulez évaluer si votre entrepôt justifie un WMS dédié ou un module ERP suffit ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Acumatica — Guide sur les systèmes ERP et les systèmes de gestion d'entrepôt](https://fr.acumatica.com/blog/wms-erp-difference/)

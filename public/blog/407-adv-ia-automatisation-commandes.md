@@ -1,7 +1,7 @@
 ---
 title: "Service ADV Augmenté par IA : Traiter Plus de Commandes sans Recruter"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "adv ia automatisation commandes, service adv augmenté ia, ia traitement commande maroc, automatiser adv sans recruter, ia gestion des commandes clients"
@@ -38,8 +38,8 @@ Un service ADV augmenté par IA absorbe une croissance de volume sans recrutemen
 
 Vous voulez faire évoluer votre service ADV face à la croissance de volume ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

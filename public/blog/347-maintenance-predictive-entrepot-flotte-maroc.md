@@ -1,7 +1,7 @@
 ---
 title: "Maintenance Prédictive des Équipements d'Entrepôt et de la Flotte"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "maintenance prédictive entrepôt flotte maroc, ia maintenance chariot élévateur, prédiction panne poids lourd, capteurs maintenance entrepôt, ia groupe froid entrepôt"
@@ -39,8 +39,8 @@ La maintenance prédictive réduit significativement les pannes non planifiées,
 
 Vous voulez identifier les équipements prioritaires pour une maintenance prédictive ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

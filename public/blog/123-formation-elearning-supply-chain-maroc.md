@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation E-learning Supply Chain au Maroc : Apprendre à Son Rythme"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "formation en ligne supply chain Maroc, e-learning logistique Maroc, formation à distance supply chain, MOOC supply chain Maroc"
 description: "Formations e-learning supply chain disponibles au Maroc : MOOC gratuits, plateformes payantes, certifications en ligne. Que valent-elles vraiment ?"
@@ -83,7 +83,7 @@ Cette combinaison donne le meilleur ROI formation tout en s'adaptant aux contrai
 
 Nextinotech propose un format hybride : fondamentaux en e-learning (accessible 24/7), sessions présentielles de pratique, et suivi individuel.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

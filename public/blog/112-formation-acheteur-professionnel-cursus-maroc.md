@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Acheteur Professionnel au Maroc : Cursus, Compétences et Salaires"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/business.webp"
 keywords: "formation acheteur professionnel Maroc, cursus acheteur Maroc, devenir acheteur professionnel, négociation achats formation Maroc"
 description: "Formation acheteur professionnel au Maroc : programme complet, compétences en négociation, certifications, salaires et débouchés. Guide 2026 par Nextinotech."
@@ -87,7 +87,7 @@ La différence entre un acheteur opérationnel et un acheteur stratégique : le 
 
 4 jours de formation intensive avec simulation de négociation en conditions réelles, basée sur des cas d'achats au Maroc (secteurs industrie, agroalimentaire, services).
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

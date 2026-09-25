@@ -1,7 +1,7 @@
 ---
 title: "Le Maroc peut-il Devenir le Leader Africain de la Logistique Durable ?"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "logistique durable afrique maroc, leader logistique verte afrique, maroc énergie renouvelable logistique"
@@ -36,11 +36,11 @@ Le Maroc réunit des conditions structurelles rares en Afrique (infrastructure p
 
 Vous voulez intégrer cette dynamique de durabilité dans votre stratégie logistique ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Fédération de l'Energie — Énergies renouvelables : le Maroc se positionne en leader mondial](https://www.fedenerg.ma/2023/01/13/energies-renouvelables-le-maroc-se-positionne-en-leader-mondial/)

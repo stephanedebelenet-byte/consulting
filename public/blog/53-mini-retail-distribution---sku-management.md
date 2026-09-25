@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Retail au Maroc : piloter une plateforme multi-marques à grande échelle"
 date: "2026-08-19"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain retail Maroc, plateforme logistique 3PL, distribution FMCG Maroc, Marjane"
@@ -32,8 +32,8 @@ La distribution retail et FMCG au Maroc repose sur des plateformes logistiques d
 
 Vous pilotez une plateforme logistique multi-marques ou multi-clients ? Parlons-en.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

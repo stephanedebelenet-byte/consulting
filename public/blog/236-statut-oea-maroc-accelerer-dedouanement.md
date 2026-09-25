@@ -1,7 +1,7 @@
 ---
 title: "Statut d'Opérateur Économique Agréé (OEA) : Accélérer son Dédouanement"
 date: "2026-08-27"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "opérateur économique agréé maroc OEA, statut OEA maroc ADII, certification OEA douane maroc"
@@ -38,11 +38,11 @@ Pour aller plus loin, notre dossier complet sur le statut OEA détaille [la proc
 
 Votre entreprise souhaite évaluer son éligibilité au statut OEA ou structurer sa traçabilité de stock en amont d'une demande ? [Découvrez notre accompagnement dédié au statut OEA](/accompagnement-oea), un mandat de résultat jusqu'à la notification d'agrément, ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Maritime News — Statut OEA : de plus en plus d'entreprises séduites par les avantages de la Douane](https://maritimenews.ma/commerce-exterieur/14196-statut-oea-de-plus-en-plus-d-entreprises-seduites-par-les-avantages-de-la-douane)

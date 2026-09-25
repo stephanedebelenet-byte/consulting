@@ -1,7 +1,7 @@
 ---
 title: "Transport Multimodal au Maroc : Rail, Route, Mer, quelle Combinaison pour Réduire ses Coûts"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "transport multimodal maroc, combinaison rail route mer, réduction coût transport multimodal"
@@ -36,11 +36,11 @@ Le transport multimodal réduit le coût global (10-25%) et l'exposition à la f
 
 Vous voulez évaluer si une stratégie multimodale réduirait vos coûts de transport ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [AGL Group — Transport multimodal : la réduction des coûts et émissions](https://www.aglgroup.com/Insights/Transport-multimodal)

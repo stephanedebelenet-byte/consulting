@@ -1,7 +1,7 @@
 ---
 title: "Score de Risque Client et Priorisation des Commandes par IA"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "score risque client ia priorisation commandes, ia priorisation commande tension, score client fiabilité livraison, ia allocation stock tendu client, priorisation client rupture"
@@ -39,8 +39,8 @@ Un score de risque et de priorisation client par IA rend les décisions d'alloca
 
 Vous voulez structurer votre priorisation client en période de tension ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

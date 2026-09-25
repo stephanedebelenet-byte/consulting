@@ -1,7 +1,7 @@
 ---
 title: "TCO (Coût Total de Possession) : la Méthode que les Acheteurs Marocains Sous-Utilisent"
 date: "2026-08-28"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "TCO achats méthode, coût total de possession achats maroc, coûts cachés achats, calcul TCO"
@@ -36,11 +36,11 @@ Le TCO reste une méthode sous-exploitée par de nombreuses directions achats, a
 
 Vous voulez intégrer le TCO dans vos décisions d'achat sur vos catégories les plus stratégiques ? [Découvrez nos formations achats](/formation), ou [contactez-nous](/contact) pour un accompagnement.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Décision Achats — Tout savoir sur le TCO (Coût Total d'Acquisition)](https://www.decision-achats.fr/Thematique/strategie-achats-1236/breve/tout-savoir-sur-le-tco-cout-total-dacquisition-342558.htm)

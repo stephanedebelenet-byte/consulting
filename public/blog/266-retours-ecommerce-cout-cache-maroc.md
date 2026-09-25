@@ -1,7 +1,7 @@
 ---
 title: "Retours E-commerce : le Coût Caché que les Marchands Marocains Sous-Estiment"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "coût retours e-commerce maroc, gestion retours e-commerce, taux de retour e-commerce coût caché"
@@ -36,11 +36,11 @@ Le coût réel d'un retour e-commerce dépasse largement le transport — dépr�
 
 Vous voulez évaluer le coût réel de vos retours et les leviers pour les réduire à la source ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Mecalux — Coûts cachés de la gestion des retours clients](https://www.mecalux.fr/blog/gestion-retour-client-couts)
