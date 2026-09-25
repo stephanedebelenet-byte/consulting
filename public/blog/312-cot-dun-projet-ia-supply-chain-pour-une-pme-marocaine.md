@@ -1,7 +1,7 @@
 ---
 title: "Coût d'un Projet IA Supply Chain pour une PME Marocaine"
 date: "2026-09-04"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "coût projet ia supply chain maroc, budget ia logistique, roi ia supply chain, prix projet ia achats maroc, projet ia pme maroc"
@@ -47,8 +47,8 @@ Trois niveaux de coût, de quelques centaines de dirhams par mois à plusieurs c
 
 Nous cadrons le besoin, la donnée et le business case avant tout achat, sans commission éditeur : offres [IA & Automatisation Supply Chain](/conseil) et [Étude de Faisabilité SI](/conseil). [Contactez-nous](/contact) pour un premier échange, ou formez vos équipes via la formation [IA Générative pour les Métiers Supply Chain & Achats](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

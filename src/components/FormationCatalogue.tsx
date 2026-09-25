@@ -1,68 +1,16 @@
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useState } from 'react'
+import { IS_SERVER } from '../utils/ssr'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import SchemaScript from './SchemaHelper'
 import PageMeta from './PageMeta'
+import HeroCarousel from './HeroCarousel'
 import { VILLES } from '../data/villesFormation'
 import { PROGRAMMES, FAQ, SESSIONS, programmesSchema } from '../data/formations'
 
 /* ─── Brand constants ─────────────────────────────────────── */
 const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Nextinotech, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
 const EMAIL = 'mailto:contact@nextinotech.com?subject=Catalogue%20Formations%20Nextinotech'
-
-/* ─── Hero carousel — decorative only, images as CSS backgrounds ── */
-const CAROUSEL_IMAGES = [
-  '/images/formation-carousel/formation-1.webp',
-  '/images/formation-carousel/formation-2.webp',
-  '/images/formation-carousel/formation-3.webp',
-  '/images/formation-carousel/formation-4.webp',
-  '/images/formation-carousel/formation-5.webp',
-  '/images/formation-carousel/formation-6.webp',
-  '/images/formation-carousel/formation-7.webp',
-  '/images/formation-carousel/formation-8.webp',
-]
-
-function HeroCarousel() {
-  const [active, setActive] = useState(0)
-  useEffect(() => {
-    const id = setInterval(() => setActive((a) => (a + 1) % CAROUSEL_IMAGES.length), 5500)
-    return () => clearInterval(id)
-  }, [])
-
-  return (
-    <div
-      onContextMenu={(e) => e.preventDefault()}
-      aria-hidden="true"
-      style={{ position: 'absolute', inset: 0, zIndex: 0, overflow: 'hidden' }}
-    >
-      <div style={{ position: 'absolute', inset: 0, opacity: 0.9 }}>
-        {CAROUSEL_IMAGES.map((src, i) => (
-          <div
-            key={src}
-            style={{
-              position: 'absolute', inset: 0,
-              backgroundImage: `url(${src})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              filter: 'blur(1px)',
-              opacity: i === active ? 1 : 0,
-              transition: 'opacity 1s ease',
-            }}
-          />
-        ))}
-      </div>
-      {/* Brand-colored veil — blue/white, not a flat black scrim */}
-      <div style={{
-        position: 'absolute', inset: 0,
-        background: 'linear-gradient(125deg, rgba(27,53,84,0.2) 0%, rgba(255,255,255,0.14) 45%, rgba(47,111,181,0.08) 100%)',
-      }} />
-      <div style={{
-        position: 'absolute', inset: 0,
-        background: 'linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, #ffffff 100%)',
-      }} />
-    </div>
-  )
-}
 
 /* ─── Helpers ─────────────────────────────────────────────── */
 function Tag({ label, format }: { label: string; format: string }) {
@@ -104,7 +52,7 @@ function Reveal({ children, delay = 0, style = {} }: { children: React.ReactNode
 
 /* ─── FAQ Item ────────────────────────────────────────────── */
 function FAQItem({ item }: { item: { q: string; a: string } }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
 
@@ -163,7 +111,7 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
 
 /* ─── Programme Card ──────────────────────────────────────── */
 function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
   const isExternal = p.cta.startsWith('http') || p.cta.startsWith('mailto')
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
@@ -369,7 +317,7 @@ export default function FormationCatalogue() {
     <>
       <PageMeta
         title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech"
-        description="28 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
+        description="30 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
         canonical="https://nextinotech.com/formation"
       />
       <SchemaScript schema={programmesSchema} />
@@ -403,10 +351,19 @@ export default function FormationCatalogue() {
           <Reveal delay={0.09}>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 660, margin: '0 0 2rem' }}>
               Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
-              28 programmes sur 7 domaines, du{' '}
+              30 programmes sur 7 domaines, du{' '}
               <Link to="/formation-rl" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
               à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
               Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.11}>
+            <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', color: 'var(--mid)', fontWeight: 300 }}>
+              Ce catalogue couvre nos formations Supply Chain. Besoin de formations pour d&apos;autres métiers de votre entreprise (RH, Finance, Marketing, Production, Qualité…) ?{' '}
+              <Link to="/ingenierie-formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)' }}>
+                Découvrir notre ingénierie de formation et le catalogue par métier →
+              </Link>
             </p>
           </Reveal>
 
@@ -429,7 +386,7 @@ export default function FormationCatalogue() {
             }}
           >
             {[
-              { val: '28', label: 'programmes disponibles' },
+              { val: '30', label: 'programmes disponibles' },
               { val: '7', label: 'domaines de formation' },
               { val: '20+', label: 'ans de terrain formateur' },
             ].map((s, i) => (
@@ -461,7 +418,7 @@ export default function FormationCatalogue() {
                   02 / Catalogue & calendrier
                 </div>
                 <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
-                  28 programmes.<br />
+                  30 programmes.<br />
                   <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>7 domaines d'expertise.</span>
                 </h2>
               </div>

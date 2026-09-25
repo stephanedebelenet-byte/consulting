@@ -1,7 +1,7 @@
 ---
 title: "IA et BTP : Prévision de Chantier et Volatilité des Prix"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia supply chain btp maroc, prévision besoin chantier ia, indexation prix acier ciment ia, ia planning matériel chantier, pénurie matériel construction ia"
@@ -36,8 +36,8 @@ Dans le BTP marocain, l'IA aide à prévoir les besoins matériels par phase de 
 
 Vous opérez dans le BTP et voulez sécuriser vos marges de chantier ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

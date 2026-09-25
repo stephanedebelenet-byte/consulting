@@ -1,7 +1,7 @@
 ---
 title: "Control Tower Logistique : Piloter sa Supply Chain en Temps Réel, Mode d'Emploi"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "control tower logistique, tour de contrôle supply chain, pilotage temps réel logistique maroc, visibilité supply chain"
@@ -32,15 +32,17 @@ Pour une ETI marocaine, la version réaliste d'un control tower démarre souvent
 
 ## Ce qu'il faut retenir
 
-Un control tower logistique n'a de valeur que combiné à une gouvernance de décision claire — la visibilité seule, sans droit d'action associé, ne change rien à la vitesse de réponse face aux aléas. Notre article sur le [jumeau numérique supply chain](/blog/jumeau-numrique-digital-twin-supply-chain-quoi-a-sert-vraime) présente l'outil complémentaire pour simuler des scénarios en amont, avant que le control tower ne les pilote en temps réel ; notre article sur le [conseil logistique pour une PME/ETI marocaine](/blog/conseil-logistique-au-maroc-ce-qui-diffrencie-une-mission-pm) détaille ce qui change quand la complexité multi-sites impose ce type d'outil.
+Un control tower logistique n'a de valeur que combiné à une gouvernance de décision claire — la visibilité seule, sans droit d'action associé, ne change rien à la vitesse de réponse face aux aléas. Notre article sur le [jumeau numérique supply chain](/blog/jumeau-numerique-digital-twin-supply-chain-a-quoi-ca-sert) présente l'outil complémentaire pour simuler des scénarios en amont, avant que le control tower ne les pilote en temps réel ; notre article sur le [conseil logistique pour une PME/ETI marocaine](/blog/conseil-logistique-au-maroc-ce-qui-diffrencie-une-mission-pm) détaille ce qui change quand la complexité multi-sites impose ce type d'outil.
+
+Pour aller plus loin sur la mécanique du control tower : le rôle exact du [WMS](/blog/wms-et-control-tower-quelles-donnees-d-entrepot-remontent) et du [TMS](/blog/tms-et-control-tower-la-visibilite-transport-qui-alimente) dans la tour de contrôle, [les KPIs qui méritent vraiment d'y figurer](/blog/les-kpis-a-suivre-dans-un-control-tower-lesquels-comptent), [le budget réaliste à prévoir](/blog/combien-coute-un-control-tower-budget-realiste-pour-une-eti), et [un test en 4 niveaux pour situer votre propre maturité](/blog/maturite-control-tower-ou-se-situe-une-pme-eti-marocaine-en).
 
 Vous pilotez un réseau logistique multi-sites et voulez évaluer votre besoin en visibilité temps réel ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [IBM — What is a Supply Chain Control Tower?](https://www.ibm.com/think/topics/control-towers)

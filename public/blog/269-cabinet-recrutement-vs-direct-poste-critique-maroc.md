@@ -1,7 +1,7 @@
 ---
 title: "Cabinet de Recrutement vs Recrutement Direct : quelle Stratégie pour un Poste Critique"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "recrutement cabinet vs direct maroc, cabinet recrutement logistique maroc, coût recrutement supply chain"
@@ -36,11 +36,11 @@ Le choix entre cabinet et recrutement direct dépend moins du coût direct affic
 
 Vous voulez arbitrer entre cabinet et sourcing direct pour votre prochain recrutement critique ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Agisti — Recrutement direct ou via un cabinet : quel choix faire ?](https://agisti.fr/blog/recrutement-direct-ou-via-un-cabinet-quel-choix-faire/)

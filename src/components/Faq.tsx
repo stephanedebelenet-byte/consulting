@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
+import { IS_SERVER } from '../utils/ssr'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
-import { servicesFAQ } from './Conseil'
+import { servicesFAQ } from '../data/conseilFaq'
 import { FAQ as formationFAQ } from '../data/formations'
 import { SchemaScript } from './SchemaHelper'
 import { generateFAQSchema } from '../utils/seoData'
@@ -8,7 +9,7 @@ import { generateFAQSchema } from '../utils/seoData'
 const ease = [0.16, 1, 0.3, 1] as const
 
 function FAQItem({ item }: { item: { q: string; a: string } }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(IS_SERVER)
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
 

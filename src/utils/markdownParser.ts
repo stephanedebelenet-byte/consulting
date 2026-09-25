@@ -1,3 +1,5 @@
+import { slugify } from './slugify'
+
 export interface BlogPost {
   slug: string
   title: string
@@ -48,11 +50,7 @@ export function parseMarkdown(content: string): BlogPost {
 
   const mdContent = lines.slice(frontMatterEnd + 1).join('\n').trim()
 
-  const slug = (frontMatter.title || 'untitled')
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .substring(0, 60)
+  const slug = slugify(frontMatter.title || 'untitled')
 
   const htmlContent = markdownToHtml(mdContent)
 

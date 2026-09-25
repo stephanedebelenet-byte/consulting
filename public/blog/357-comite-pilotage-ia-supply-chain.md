@@ -1,7 +1,7 @@
 ---
 title: "Le Comité de Pilotage IA Supply Chain : qui doit y Siéger"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "comité pilotage ia supply chain, gouvernance projet ia entreprise, composition comité ia, comité de pilotage transformation ia, rôle comex ia supply chain"
@@ -37,8 +37,8 @@ Un comité de pilotage IA supply chain efficace reste restreint : sponsor métie
 
 Vous voulez structurer la gouvernance de votre projet IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

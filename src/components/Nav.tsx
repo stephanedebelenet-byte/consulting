@@ -28,10 +28,16 @@ const CONSEIL_ITEMS: SimpleItem[] = [
 ]
 
 const PRESTATIONS_ITEMS: SimpleItem[] = [
-  { label: 'Pack Inventaire', href: '/prestations' },
-  { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations' },
-  { label: 'Imprimantes Leibinger', href: '/prestations' },
-  { label: 'Solutions IT & RFID', href: '/prestations' },
+  { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/control-tower' },
+  { label: 'Intégrateur de Systèmes', href: '/prestations#solutions-it' },
+  { label: 'Pack Inventaire', href: '/prestations#pack-inventaire' },
+  { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations#services-valeur-ajoutee' },
+]
+
+const FORMATION_ITEMS: SimpleItem[] = [
+  { label: 'Ingénierie de Formation', href: '/ingenierie-formation' },
+  { label: 'Catalogue par métier', href: '/ingenierie-formation/catalogue' },
+  { label: 'Nos formations', href: '/formation' },
 ]
 
 const TOOLS_ITEMS = [
@@ -48,20 +54,23 @@ const CABINET_ITEMS: SimpleItem[] = [
   { label: 'Références', href: '/references' },
 ]
 
-type GroupId = 'cabinet' | 'conseil' | 'prestations' | 'outils'
+type GroupId = 'cabinet' | 'conseil' | 'prestations' | 'formation' | 'outils'
 
-// Ordre voulu : Formation en tête, puis Cabinet, Conseil, Prestations, Outils
-// gratuits, Carrière et Ressources en liens directs (chacun n'a plus qu'une
-// seule destination, un menu déroulant serait superflu).
+// Structure alignée sur les 3 piliers Nextinotech : Conseil pointu, Intégrateur
+// de systèmes bout-en-bout (Prestations), Cabinet de formation + Ingénierie de
+// Formation (Formation). Cabinet, Outils gratuits, Carrière et Ressources
+// restent des accès secondaires.
 type NavEntry =
   | { kind: 'dropdown'; id: GroupId; label: string }
-  | { kind: 'link'; id: 'formation' | 'carriere' | 'ressources'; label: string; href: string }
+  | { kind: 'link'; id: 'carriere' | 'ressources'; label: string; href: string }
 
+// Ordre des 3 piliers Nextinotech : Formation, Conseil, Prestations (Control
+// Tower est intégré dans Prestations — pas d'onglet dédié).
 const NAV_ENTRIES: NavEntry[] = [
-  { kind: 'link', id: 'formation', label: 'Formation', href: '/formation' },
-  { kind: 'dropdown', id: 'cabinet', label: 'Cabinet' },
+  { kind: 'dropdown', id: 'formation', label: 'Formation' },
   { kind: 'dropdown', id: 'conseil', label: 'Conseil' },
   { kind: 'dropdown', id: 'prestations', label: 'Prestations' },
+  { kind: 'dropdown', id: 'cabinet', label: 'Cabinet' },
   { kind: 'dropdown', id: 'outils', label: 'Outils gratuits' },
   { kind: 'link', id: 'carriere', label: 'Carrière', href: '/carriere' },
   { kind: 'link', id: 'ressources', label: 'Ressources', href: '/blog' },
@@ -212,6 +221,7 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
                 items={
                   id === 'conseil' ? CONSEIL_ITEMS
                     : id === 'prestations' ? PRESTATIONS_ITEMS
+                    : id === 'formation' ? FORMATION_ITEMS
                     : CABINET_ITEMS
                 }
                 onNavigate={() => setOpenId(null)}
@@ -286,13 +296,13 @@ export default function Nav() {
   const groupActive = (id: GroupId) => {
     if (id === 'conseil') return pathname === '/conseil' || pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi' || pathname === '/accompagnement-oea'
     if (id === 'prestations') return pathname === '/prestations'
+    if (id === 'formation') return pathname === '/formation' || pathname.startsWith('/formation-') || pathname.startsWith('/formation/') || pathname.startsWith('/ingenierie-formation')
     if (id === 'outils') return pathname.startsWith('/outils') || pathname.startsWith('/demo')
     if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references'
     return false
   }
 
-  const linkActive = (id: 'formation' | 'carriere' | 'ressources') => {
-    if (id === 'formation') return pathname === '/formation'
+  const linkActive = (id: 'carriere' | 'ressources') => {
     if (id === 'carriere') return pathname === '/carriere'
     if (id === 'ressources') return pathname === '/blog'
     return false
@@ -418,6 +428,45 @@ export default function Nav() {
                 Contact →
               </Link>
 
+              {/* Formation et Prestations sont les piliers 2 et 3 de l'offre : ils ont
+                  chacun leur propre section ici pour rester atteignables depuis le menu
+                  mobile, au même titre que Cabinet. */}
+              <div style={{ marginBottom: '2rem' }}>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
+                  Formation
+                </div>
+                {FORMATION_ITEMS.map(({ label, href }, i) => (
+                  <motion.div
+                    key={label}
+                    initial={{ opacity: 0, x: 32 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
+                  >
+                    <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                      {label}
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
+
+              <div style={{ marginBottom: '2rem' }}>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
+                  Prestations
+                </div>
+                {PRESTATIONS_ITEMS.map(({ label, href }, i) => (
+                  <motion.div
+                    key={label}
+                    initial={{ opacity: 0, x: 32 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
+                  >
+                    <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                      {label}
+                    </Link>
+                  </motion.div>
+                ))}
+              </div>
+
               <div style={{ marginBottom: '2rem' }}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
                   Cabinet
@@ -436,13 +485,10 @@ export default function Nav() {
                 ))}
               </div>
 
-              {/* Carrière, Prestations, Ressources et FAQ : liens directs, plus de
-                  destination propre pour justifier un sous-groupe (Prestations est
-                  ajouté ici pour rester atteignable depuis le menu mobile, comme
-                  Conseil ; auparavant seul Conseil l'était). */}
+              {/* Carrière, Ressources et FAQ : liens directs, plus de destination
+                  propre pour justifier un sous-groupe. */}
               {[
                 { label: 'Carrière', href: '/carriere' },
-                { label: 'Prestations', href: '/prestations' },
                 { label: 'Ressources', href: '/blog' },
                 { label: 'FAQ', href: '/faq' },
               ].map(({ label, href }, i) => (

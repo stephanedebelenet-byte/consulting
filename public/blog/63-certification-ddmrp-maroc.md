@@ -1,7 +1,7 @@
 ---
 title: "Formation DDMRP au Maroc : Certification Practitioner et Résultats Terrain"
 date: "2026-08-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/charts.webp"
 keywords: "certification ddmrp maroc, formation ddmrp maroc, formation ddmrp casablanca, demand driven mrp maroc, ddmrp practitioner maroc, planification supply chain maroc"
 description: "Guide complet formation et certification DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, programme de formation 2 jours, comment se certifier Practitioner, résultats terrain."
@@ -160,6 +160,6 @@ Pour les entreprises sans ERP compatible, Nextinotech propose une approche table
 
 Le DDMRP n'est pas une mode. C'est une réponse concrète aux limitations du MRP dans un monde volatil, incertain et complexe. Les entreprises marocaines qui l'adoptent gagnent un avantage compétitif réel : moins de capital immobilisé, plus de clients servis, moins de stress pour les équipes.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Nextinotech est certifié DDMRP et accompagne les entreprises marocaines dans leur transition depuis 2015.** Contactez-nous pour un diagnostic de votre situation et une proposition personnalisée : **contact@nextinotech.com** · **+212 06 63 44 92 00**

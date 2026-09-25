@@ -1,7 +1,7 @@
 ---
 title: "Blockchain et Traçabilité Agroalimentaire : un Vrai Levier Export pour les Coopératives Marocaines"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "blockchain traçabilité agroalimentaire maroc, traçabilité export coopérative maroc, blockchain agriculture souss-massa"
@@ -36,11 +36,11 @@ La blockchain appliquée à l'export agroalimentaire marocain répond à un prob
 
 Vous êtes une coopérative ou un exportateur agroalimentaire qui veut structurer sa traçabilité pour l'export ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [African Scientific Journal — Contribution de la technologie blockchain au système de traçabilité dans la chaîne d'approvisionnement agroalimentaire des coopératives agricoles de la région Souss-Massa](https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/1153)

@@ -1,7 +1,7 @@
 ---
 title: "IA et E-commerce / Last-Mile : Prévision COD et Gestion des Retours"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "ia ecommerce logistique maroc, prévision cod ia, optimisation livraison last mile ia, gestion des retours ia ecommerce, ia adresse livraison maroc"
@@ -38,8 +38,8 @@ Pour le commerce en ligne et le dernier kilomètre, l'IA se concentre sur trois 
 
 Vous opérez en e-commerce ou en dernier kilomètre ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

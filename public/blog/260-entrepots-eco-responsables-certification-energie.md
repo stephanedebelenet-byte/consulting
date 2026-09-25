@@ -1,7 +1,7 @@
 ---
 title: "Entrepôts Éco-Responsables : Certification et Bonnes Pratiques Énergétiques"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "entrepôt éco-responsable maroc, réduction facture énergétique entrepôt, entrepôt économe énergie"
@@ -36,11 +36,11 @@ Un entrepôt éco-responsable réduit sa facture énergétique via des leviers a
 
 Vous voulez un audit énergétique de votre entrepôt pour identifier les postes de consommation à corriger en priorité ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Acieb Énergie — Énergie logistique entrepôt : optimiser les coûts 2026](https://www.aciebenergie.fr/guides/energie-logistique-entrepot-optimiser-couts-2026/)

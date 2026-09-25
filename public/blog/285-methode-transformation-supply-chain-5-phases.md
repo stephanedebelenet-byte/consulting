@@ -1,7 +1,7 @@
 ---
 title: "Piloter un Projet de Transformation Supply Chain : la Méthode en 5 Phases"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "méthode transformation supply chain, piloter projet transformation logistique, phases projet supply chain"
@@ -36,11 +36,11 @@ Une méthode structurée en 5 phases (diagnostic, conception, pilote, déploieme
 
 Vous pilotez un projet de transformation supply chain et voulez structurer votre approche ? [Découvrez nos formations et notre accompagnement conseil](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Beyond Digital One — Transformation digitale : pourquoi 70% des projets échouent](https://www.beyond-digital-one.com/blogs/transformation-digitale-pourquoi-70-des-projets-echouent-et-comment-faire-partie-des-30)

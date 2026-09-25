@@ -1,7 +1,7 @@
 ---
 title: "Loi 09-08 et CNDP : Utiliser un LLM sans Exposer ses Données Fournisseurs"
 date: "2026-09-12"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "loi 09-08 ia maroc, cndp llm données personnelles, confidentialité chatgpt entreprise maroc, protection données ia supply chain, rgpd maroc ia achats"
@@ -53,10 +53,10 @@ Sous la loi 09-08 et le contrôle de la CNDP, l'envoi de données personnelles o
 
 Vous voulez sécuriser l'usage de l'IA dans vos processus supply chain et achats ? [Découvrez nos services de conseil](/conseil) ou notre [Étude de Faisabilité SI](/conseil). [Contactez-nous](/contact) ou formez vos équipes via notre [catalogue de formations](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Pour aller plus loin :** [CNDP — Commission Nationale de contrôle de la protection des Données à caractère Personnel](https://www.cndp.ma)

@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Digitalisation Supply Chain : WMS, TMS, ERP pour PME"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "implémentation WMS, conseil ERP supply chain, TMS logistique, digitalisation PME, automatisation logistique"
 description: "Guide complet : comment choisir et implémenter WMS/TMS/ERP pour PME. 20+ ans d'expérience, 12+ projets tech réussis. Timeline et budget réaliste."
@@ -393,7 +393,7 @@ Contactez-nous. 20+ ans d'expérience, 12+ implémentations réussies.
 
 ---
 
-**Nextinotech**  
-Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Nextinotech — Casablanca, Maroc  
-📧 contact@nextinotech.com | 📞 +212 663 449 200
+**Youssef Bahaida**  
+Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
+Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

@@ -1,7 +1,7 @@
 ---
 title: "Contrôle Qualité Fournisseur à Distance : ce que Change la Vision IA"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "audit fournisseur distance ia vision, audit qualité à distance ia, vision par ordinateur audit fournisseur, ia contrôle qualité usine distante, audit vidéo fournisseur"
@@ -12,13 +12,11 @@ description: "Ce que la vision par ordinateur change pour l'audit qualité fourn
 
 ![Réunion professionnelle avec documents et échanges](/images/business.webp)
 
-**Auditer un fournisseur situé à l'étranger, ou un sous-traitant secondaire rarement visité, coûte en temps de déplacement ce que beaucoup d'entreprises marocaines préfèrent économiser — au prix d'un contrôle qualité amont plus faible. La vision par ordinateur, couplée à un audit vidéo structuré, permet un premier niveau de contrôle à distance fiable, sans remplacer entièrement la visite physique périodique.** Voici où se situe la frontière.
+**Auditer un fournisseur situé à l'étranger, ou un sous-traitant secondaire rarement visité, coûte en temps de déplacement ce que beaucoup d'entreprises marocaines préfèrent économiser.** Le prix à payer est souvent un contrôle qualité amont plus faible, faute de visites régulières. La vision par ordinateur, couplée à un audit vidéo structuré, change la donne sans la résoudre entièrement : elle permet un premier niveau de contrôle à distance fiable, mais ne remplace pas la visite physique périodique. Voici où se situe la frontière, telle qu'on l'observe généralement sur le terrain.
 
 ## Ce que la vision par ordinateur permet à distance
 
-- **Vérification visuelle de conformité** : état des installations, respect des zones de stockage, conditions d'hygiène visibles.
-- **Contrôle d'échantillon en direct** : demander une vérification visuelle immédiate d'un lot, sans attendre un déplacement.
-- **Documentation systématique** : chaque contrôle à distance génère une preuve horodatée, plus fiable qu'un rapport écrit seul.
+Trois usages reviennent le plus souvent. La vérification visuelle de conformité d'abord — état des installations, respect des zones de stockage, conditions d'hygiène visibles à l'écran. Le contrôle d'échantillon en direct ensuite : demander une vérification immédiate d'un lot sans attendre qu'un auditeur se déplace physiquement change le rythme de suivi. Et la documentation systématique, enfin, qui reste sans doute le gain le plus sous-estimé : chaque contrôle à distance génère une preuve horodatée, plus difficile à contester qu'un simple rapport écrit rédigé après coup.
 
 ::stat:: 3 à 4 déplacements évités par an et par fournisseur secondaire, grâce à un premier niveau de contrôle à distance bien structuré
 
@@ -34,12 +32,12 @@ description: "Ce que la vision par ordinateur change pour l'audit qualité fourn
 
 ## Ce qu'il faut retenir
 
-La vision par ordinateur permet un premier niveau de contrôle qualité fournisseur à distance, plus fréquent et documenté, sans remplacer la visite physique périodique qui reste nécessaire pour évaluer la capacité réelle et la relation de confiance.
+On nous demande régulièrement, en mission, comment arbitrer entre fréquence de contrôle et budget déplacement. La réponse tient en une phrase : la vision par ordinateur donne un premier niveau de contrôle qualité fournisseur à distance, plus fréquent et mieux documenté qu'avant, mais elle ne dispense jamais de la visite physique périodique — seule capable d'évaluer la capacité de production réelle et la relation de confiance construite sur place.
 
 Vous voulez structurer votre programme d'audit fournisseur ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

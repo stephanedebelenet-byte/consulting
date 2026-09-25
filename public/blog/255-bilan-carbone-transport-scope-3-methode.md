@@ -1,7 +1,7 @@
 ---
 title: "Bilan Carbone Transport : Calculer et Réduire ses Émissions Scope 3"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "bilan carbone transport scope 3, émissions scope 3 logistique, calcul empreinte carbone transport maroc"
@@ -36,11 +36,11 @@ Le calcul du scope 3 transport, même approximatif, devient un argument commerci
 
 Vous voulez estimer l'empreinte carbone de votre transport pour répondre aux attentes de vos clients européens ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Hellio — Scope 3 du bilan carbone : périmètre et méthode de calcul](https://www.hellio.com/actualites/conseils/scope-3-bilan-carbone)

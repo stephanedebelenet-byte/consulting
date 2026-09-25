@@ -1,7 +1,7 @@
 ---
 title: "IA Générative en Supply Chain : 25 Cas d'Usage Concrets au Maroc"
 date: "2026-09-01"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "ia générative supply chain maroc, cas usage llm logistique, chatgpt supply chain, ia achats logistique maroc, automatisation supply chain maroc"
@@ -50,8 +50,8 @@ L'IA générative crée de la valeur en supply chain par accumulation de petits 
 
 Vous voulez identifier les cas d'usage IA à ROI rapide dans votre organisation ? Notre offre [IA & Automatisation Supply Chain](/conseil) cadre les priorités, la gouvernance et un POC mesuré ; la formation [IA Générative pour les Métiers Supply Chain & Achats](/formation) outille vos équipes en une journée. [Contactez-nous](/contact) pour un premier échange.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

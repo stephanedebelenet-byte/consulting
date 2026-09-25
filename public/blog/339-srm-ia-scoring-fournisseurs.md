@@ -1,7 +1,7 @@
 ---
 title: "SRM Augmenté : Scoring, Relances et Revues de Performance par IA"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "srm ia scoring fournisseurs, business review fournisseur ia, alerte dérive performance fournisseur, plan de progrès fournisseur ia, notation fournisseur automatisée"
@@ -36,8 +36,8 @@ Le SRM augmenté par IA permet de suivre un panel fournisseurs bien plus large q
 
 Vous voulez étendre votre suivi fournisseurs à l'ensemble de votre panel ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Découvrez aussi notre [Direction Achats à temps partagé](/directeur-achats-mi-temps).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

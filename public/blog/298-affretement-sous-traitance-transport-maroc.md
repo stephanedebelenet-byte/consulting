@@ -1,7 +1,7 @@
 ---
 title: "Affrètement et Sous-Traitance Transport : Sécuriser sa Capacité en Période de Tension"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "affrètement transport maroc, sous-traitance transport routier, capacité transport tension maroc"
@@ -36,11 +36,11 @@ L'affrètement sécurise une capacité de transport flexible pour un chargeur, m
 
 Vous voulez sécuriser votre capacité de transport via l'affrètement sans risque de sous-traitance non maîtrisée ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Le Roy Logistique — Organisation de l'affrètement routier](https://www.leroylogistique.com/blog/transport/affretement-organisation-du-transport-routier-de-marchandises/)

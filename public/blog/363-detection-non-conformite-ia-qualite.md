@@ -1,7 +1,7 @@
 ---
 title: "Détection Automatique des Non-Conformités par IA"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "détection non conformité ia qualité, ia réclamation plan d'action, détection automatique défaut qualité, ia traitement non-conformité maroc, non-conformité fournisseur ia"
@@ -38,8 +38,8 @@ La détection automatique des non-conformités par IA croise des sources dispers
 
 Vous voulez structurer la détection de vos non-conformités récurrentes ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

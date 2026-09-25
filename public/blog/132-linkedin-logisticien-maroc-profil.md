@@ -1,7 +1,7 @@
 ﻿---
 title: "LinkedIn pour les Logisticiens au Maroc : Profil qui Attire les Recruteurs"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "LinkedIn supply chain Maroc, profil LinkedIn logisticien, LinkedIn recrutement logistique Maroc, optimiser LinkedIn supply chain"
 description: "Comment optimiser son profil LinkedIn pour être recruté en supply chain au Maroc ? Photo, titre, résumé, expériences, recommandations — le guide complet."
@@ -85,3 +85,5 @@ Session de 90 minutes pour auditer et optimiser votre profil LinkedIn : titre, r
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200
+
+> Un profil LinkedIn soigné mérite une prise de contact à la hauteur en salon ou en rendez-vous — beaucoup de nos consultants sont passés à la [carte de visite digitale NFC](/solutions/carte-visite-digitale-nfc) pour ça.

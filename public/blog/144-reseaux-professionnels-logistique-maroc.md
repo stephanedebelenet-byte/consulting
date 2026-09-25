@@ -1,7 +1,7 @@
 ﻿---
 title: "Réseaux Professionnels Logistique au Maroc : Comment les Utiliser"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "réseau professionnel logistique Maroc, networking supply chain Maroc, AMLOG, associations logistique Maroc, réseau logisticien Maroc"
 description: "Les réseaux professionnels supply chain au Maroc : quelles associations rejoindre, comment utiliser LinkedIn, et comment construire un réseau qui ouvre des opportunités."
@@ -84,3 +84,5 @@ Nextinotech coache les professionnels supply chain dans la construction et l'act
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200
+
+> Pour activer ce réseau efficacement en événement ou en salon, une [carte de visite digitale NFC](/solutions/carte-visite-digitale-nfc) évite l'écueil classique du stock de cartes papier épuisé au pire moment.

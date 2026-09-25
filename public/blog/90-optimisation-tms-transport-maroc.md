@@ -1,7 +1,7 @@
 ---
 title: "Formation et Optimisation TMS au Maroc : Logiciel de Gestion du Transport 2026"
 date: "2026-08-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "TMS maroc, formation TMS maroc, logiciel gestion transport maroc, optimisation transport maroc, transport management system maroc, réduction coûts transport maroc"
 description: "Comment un TMS réduit vos coûts de transport au Maroc : fonctionnalités, TMS disponibles, sélection, budget, ROI et programme de formation. Retours terrain de 12+ projets."
@@ -164,7 +164,7 @@ Un TMS génère 3 types de gains : **gains directs transport** (kilométrage −
 - **Optimisation des tournées** : même sans TMS — analyse des tournées existantes et recommandations
 - **Renégociation transporteurs** : benchmarking tarifaire + préparation des négociations
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous pour un premier bilan de votre situation transport : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

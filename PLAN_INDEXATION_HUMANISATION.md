@@ -16,27 +16,56 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 - [x] Script réutilisable `scripts/humanize-authorship.mjs` ajouté au dépôt pour les prochains lots.
 - [x] Build vérifié (467 pages prérendues) et garde-fou `scripts/check-seo-consistency.mjs` passé sans erreur.
 - [x] Pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/3** — preview Vercel au vert, en attente d'un merge (voir "Bloqué" ci-dessous).
-- [x] Premier lot de 20 articles du cluster "100 articles IA" (`327-*` à `346-*`) humanisé en profondeur (structure réordonnée, rythme de phrase varié, anecdotes de mission vagues sans invention de fait) — build vérifié (467 pages, garde-fou 0 incohérence). **PR #4 mergée dans `main` le 17/09 23:34.**
-- [ ] Lot 2 (articles `347-*` à `366-*`) envoyé en humanisation — traitement en cours par un agent en arrière-plan, PR séparée à venir.
+- [x] Premier lot de 20 articles du cluster "100 articles IA" (`327-*` à `346-*`) humanisé en profondeur — **PR #4 mergée dans `main` le 17/09 23:34.**
+- [x] Deuxième lot (`347-*` à `366-*`, 20 fichiers) humanisé selon la même méthode — build vérifié (467 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/6** (non mergée). Note : cette PR contient aussi un commit de mise à jour de ce journal, arrivé là par un mix-up de branche pendant la session — contenu correct, juste mal placé dans l'historique.
+- [x] Troisième lot (`367-*` à `386-*`, 20 fichiers) humanisé selon la même méthode, exécuté sans interruption cette fois — build vérifié (469 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/8** (preview Vercel au vert, non mergée).
+- [x] Quatrième lot (`387-*` à `406-*`, 20 fichiers) humanisé selon la même méthode — build vérifié (469 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/9** (preview Vercel au vert, non mergée).
+- [x] Cinquième et dernier lot du cluster IA (`407-*` à `426-*`, 20 fichiers) humanisé — build vérifié (469 pages, garde-fou 0 incohérence), pull request ouverte : **https://github.com/stephanedebelenet-byte/consulting/pull/10** (preview Vercel au vert, non mergée).
+
+**Les 100 articles du cluster IA (327-426) sont désormais intégralement couverts par la passe d'humanisation**, répartis sur 5 pull requests (#4 mergée, #6/#8/#9/#10 ouvertes). Reste la PR #3 (auteur/footers/liens sur les 411 articles, y compris les 311 hors cluster IA), toujours ouverte et la plus structurante.
 
 ## Bloqué — nécessite une action humaine (pas un manque d'outillage, une garde de sécurité volontaire)
 
-- [ ] **Merger la PR #3** (bylines/footers/liens, 411 fichiers) — **toujours ouverte au 18/09**, pas encore mergée malgré la PR #4. Le garde-fou de la session refuse le merge automatique ("Merge Without Review") — un merge de code vers `main` sans relecture humaine n'est délibérément pas quelque chose qu'un agent peut faire seul, même avec autorisation explicite d'exécuter le reste du plan. Une fois mergée, Vercel redéploie automatiquement en production (quelques minutes). Important : tant qu'elle reste ouverte, tous les articles hors des lots déjà humanisés (327-346) gardent l'ancien auteur "Nextinotech" et les footers dupliqués.
+- [ ] **Merger la PR #3** (bylines/footers/liens, 411 fichiers) — **toujours ouverte**, pas encore mergée malgré les lots suivants. Le garde-fou de la session refuse le merge automatique ("Merge Without Review") — un merge de code vers `main` sans relecture humaine n'est délibérément pas quelque chose qu'un agent peut faire seul, même avec autorisation explicite d'exécuter le reste du plan. Une fois mergée, Vercel redéploie automatiquement en production (quelques minutes). Tant qu'elle reste ouverte, tous les articles hors des lots déjà humanisés (327-366) gardent l'ancien auteur "Nextinotech" et les footers dupliqués.
   → Action : ouvrir https://github.com/stephanedebelenet-byte/consulting/pull/3, relire le diff (surtout 2-3 articles au hasard), cliquer "Squash and merge".
 - [x] ~~Merger la PR #4~~ — fait, mergée le 17/09 23:34.
-- [ ] Merger la PR du lot 2 (à venir).
+- [ ] **Merger la PR #6** (lot 2 d'humanisation, articles `347-366`) : https://github.com/stephanedebelenet-byte/consulting/pull/6
+- [ ] **Merger la PR #8** (lot 3 d'humanisation, articles `367-386`) : https://github.com/stephanedebelenet-byte/consulting/pull/8
+- [ ] **Merger la PR #9** (lot 4 d'humanisation, articles `387-406`) : https://github.com/stephanedebelenet-byte/consulting/pull/9
+- [ ] **Merger la PR #10** (lot 5, dernier, articles `407-426`) : https://github.com/stephanedebelenet-byte/consulting/pull/10
 
-## Nécessite votre accès Google Search Console (aucune API/service account configurée dans ce projet — impossible à automatiser sans que vous créiez et partagiez des identifiants Google Cloud, ce qui n'est pas fait ici)
+**Ordre de merge conseillé** : PR #3 d'abord (fondations auteur/footer/liens sur les 411 fichiers), puis #6, #8, #9, #10 dans n'importe quel ordre — elles touchent des fichiers disjoints entre elles, mais chacune peut recouper les zones frontmatter/footer que PR #3 modifie sur les mêmes fichiers. En cas de conflit de merge sur un fichier, Git le signalera clairement ; les zones touchées ne se chevauchent normalement pas (PR #3 = frontmatter + footer, lots = corps de l'article).
 
-1. **Resoumettre le sitemap.** Search Console → Sitemaps → coller `https://nextinotech.com/sitemap.xml` → Envoyer (même s'il est déjà déclaré, ça force un re-crawl prioritaire après le déploiement de la PR #3).
-2. **Demander l'indexation manuelle**, une par une, dans cet ordre de priorité (outil "Inspection de l'URL", plafonné à un usage quotidien limité — ne pas essayer de tout soumettre le même jour) :
+## Connexion Search Console — ce qui devient automatisable, et ce qui ne l'est jamais
+
+Un outillage (`scripts/gsc.mjs`) a été ajouté au dépôt pour se connecter à l'API Search Console. **Important, à savoir avant de faire quoi que ce soit :** Google n'expose aucune API publique pour reproduire le bouton "Demander une indexation" de l'interface, sur du contenu classique (articles, pages de service). Cette action reste réservée à l'humain dans l'interface web, et Google la plafonne lui-même à un usage quotidien limité par propriété — automatiser un navigateur pour cliquer à la place d'un humain violerait les conditions d'utilisation de Google et risquerait la propriété elle-même ; ce n'est pas fait ici et ne sera pas fait. Ce qui EST légitimement automatisable via l'API officielle :
+
+- **Resoumission du sitemap** (`npm run gsc:submit-sitemap`) — équivalent exact du bouton "Envoyer" dans Search Console → Sitemaps.
+- **Rapport de couverture automatisé** (`npm run gsc:coverage-report`) — interroge le statut d'indexation réel de chaque URL du sitemap via l'API d'inspection d'URL, et écrit un `gsc-coverage-report.json` local. Ça remplace l'export manuel CSV que vous avez fourni au départ de ce chantier : je pourrai le relancer moi-même à intervalles réguliers pour suivre la progression sans attendre que vous exportiez un nouveau rapport.
+
+### Procédure de connexion (à faire une seule fois, ~10 minutes, uniquement vous — aucun accès dont je dispose ne permet de le faire à votre place)
+
+1. Aller sur [console.cloud.google.com](https://console.cloud.google.com), créer un projet (ou en choisir un existant).
+2. Dans ce projet, activer l'**API Search Console** (« Search Console API » dans la bibliothèque d'API).
+3. **IAM et administration → Comptes de service → Créer un compte de service.** Aucun rôle particulier à lui donner au niveau du projet — l'accès se fait via Search Console, pas via IAM.
+4. Ouvrir ce compte de service → onglet **Clés → Ajouter une clé → Créer une clé → JSON**. Le téléchargement démarre automatiquement — c'est ce fichier qu'il me faut.
+5. Copier l'adresse e-mail du compte de service (elle ressemble à `xxxx@nom-du-projet.iam.gserviceaccount.com`, visible sur la page du compte de service).
+6. Aller sur [search.google.com/search-console](https://search.google.com/search-console) → propriété `nextinotech.com` → **Paramètres → Utilisateurs et autorisations → Ajouter un utilisateur** → coller l'adresse e-mail du compte de service → autorisation **Propriétaire** (obligatoire pour la resoumission de sitemap).
+7. Placer le fichier JSON téléchargé **hors du dépôt Git**, ou dans le dépôt sous un nom contenant `service-account` (déjà exclu par `.gitignore` — vérifié). Ne jamais le committer : il donne un accès complet en lecture/écriture à la propriété Search Console.
+8. Créer (ou compléter) `.env.local` à la racine du dépôt avec `GSC_SERVICE_ACCOUNT_KEY_PATH=/chemin/vers/le/fichier.json` (voir `.env.example`).
+9. Me dire que c'est fait — je lance `npm run gsc:submit-sitemap` puis `npm run gsc:coverage-report` pour établir la première mesure automatisée, et je peux ensuite répéter le rapport de couverture à intervalles réguliers sans repasser par vous.
+
+## En attendant la connexion — ce qui reste à faire manuellement dans Search Console
+
+1. **Resoumettre le sitemap.** Search Console → Sitemaps → coller `https://nextinotech.com/sitemap.xml` → Envoyer (même s'il est déjà déclaré, ça force un re-crawl prioritaire après le déploiement des PR).
+2. **Demander l'indexation manuelle**, une par une, dans cet ordre de priorité (outil "Inspection de l'URL", plafonné à un usage quotidien limité par Google lui-même — ne pas essayer de tout soumettre le même jour, et ce plafond restera même une fois la connexion API en place) :
    1. `https://nextinotech.com/` (déjà indexée, à sauter si déjà verte)
    2. `https://nextinotech.com/conseil`
    3. `https://nextinotech.com/formation`
    4. `https://nextinotech.com/prestations`
    5. `https://nextinotech.com/formation-rl`
    6. Les 5-10 articles de blog à plus fort potentiel commercial (ROI IA, plateforme IA comparatif, audit supply chain 2026)
-3. **Revenir sur le rapport Couverture dans 2 semaines** (2 octobre) puis **4 semaines** (16 octobre) pour mesurer la progression du nombre de pages indexées.
+3. **Revenir sur le rapport Couverture dans 2 semaines** (2 octobre) puis **4 semaines** (16 octobre) pour mesurer la progression du nombre de pages indexées — ou laisser le rapport automatisé (`gsc:coverage-report`) s'en charger une fois la connexion établie.
 
 ## Calendrier complet
 
@@ -45,10 +74,12 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 | **S0 — 18/09 (aujourd'hui)** | Correctifs auteur/footer/liens + 1er lot de 20 articles humanisés — fait | Agent |
 | **S0** | Merge PR #3 + PR lot 1 → déploiement production | **Vous** (1 clic chacune) |
 | **S0** | Resoumission sitemap + inspection d'URL sur les 5-10 pages prioritaires | **Vous** (~15 min, GSC) |
-| **S1 (semaine du 22/09)** | Lot 2 : 20 articles suivants du cluster IA (347-366) humanisés en profondeur | Agent, sur demande |
-| **S1** | Lot 3 : 20 articles suivants (367-386) | Agent, sur demande |
-| **S2 (semaine du 29/09)** | Lots 4-5 : fin du cluster IA (387-426), soit les 40 derniers | Agent, sur demande |
-| **S2** | Vérifier dans GSC : nombre de pages passées en "Indexée" | **Vous** |
+| **S0** | Lot 2 : articles 347-366 humanisés, PR #6 ouverte — fait | Agent |
+| **S0** | Lot 3 : articles 367-386 humanisés, PR #8 ouverte — fait | Agent |
+| **S0** | Lot 4 : articles 387-406 humanisés, PR #9 ouverte — fait | Agent |
+| **S0** | Lot 5 (dernier) : articles 407-426 humanisés, PR #10 ouverte — fait. Cluster IA 327-426 intégralement couvert. | Agent |
+| **S0** | Merger les PR #3, #6, #8, #9, #10 → déploiement production | **Vous** |
+| **S2 (semaine du 29/09)** | Vérifier dans GSC : nombre de pages passées en "Indexée" | **Vous** |
 | **S3 (semaine du 06/10)** | Étendre l'humanisation aux 235 articles plus anciens (hors cluster IA) si le cluster IA montre une amélioration mesurable | Agent, sur demande |
 | **S3** | Ajouter des signaux humains supplémentaires qui ne peuvent pas être générés artificiellement : vraies photos de missions, témoignages clients réels (avec accord), vidéos courtes, section commentaires — voir "Signaux humains réels" ci-dessous | **Vous** |
 | **S4 (16/10)** | Nouveau rapport Coverage GSC → comparer au rapport du 18/09, ajuster le plan | **Vous + Agent** |

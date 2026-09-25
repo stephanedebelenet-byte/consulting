@@ -1,7 +1,7 @@
 ---
 title: "Gouvernance de l'IA en Supply Chain : la Charte Avant les Outils"
 date: "2026-09-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "gouvernance ia supply chain, charte ia entreprise maroc, comité ia cas usage, data readiness supply chain, gouvernance ia achats logistique"
@@ -52,8 +52,8 @@ Quatre briques : charte d'usage d'une page, registre des cas d'usage, comité l�
 
 Vous voulez poser ce cadre et prioriser vos cas d'usage IA ? [Découvrez nos services de conseil supply chain](/conseil) ou notre [Étude de Faisabilité SI](/conseil). [Contactez-nous](/contact) ou formez vos équipes via notre [catalogue](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

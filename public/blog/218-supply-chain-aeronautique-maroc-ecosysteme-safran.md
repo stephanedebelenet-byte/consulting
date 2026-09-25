@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Aéronautique au Maroc : l'Écosystème Safran et ses 150+ Entreprises"
 date: "2026-08-22"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "supply chain aéronautique maroc, écosystème Safran maroc, GIMAS maroc, aéropole Casablanca Nouaceur"
@@ -40,11 +40,11 @@ L'écosystème aéronautique marocain a changé d'échelle, porté par un cycle 
 
 Vous êtes fournisseur ou sous-traitant industriel et vous voulez structurer votre supply chain pour répondre aux exigences d'un donneur d'ordre aéronautique ou automobile ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Le360 — Aéronautique. 155 entreprises, 3 milliards de dollars à l'export, 27 000 emplois](https://fr.le360.ma/economie/aeronautique-155-entreprises-3-milliards-de-dollars-a-lexport-27000-emplois-ce-que-le-maroc-a-reussi_MNBOFRB7SRDTXH6L5CFB2JETTM/)

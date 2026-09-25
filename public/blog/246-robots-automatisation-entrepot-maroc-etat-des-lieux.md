@@ -1,7 +1,7 @@
 ---
 title: "Robots et Automatisation d'Entrepôt : où en est Réellement le Maroc"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "robot entrepôt automatisation maroc, AGV logistique maroc, robotique entrepôt, automatisation intralogistique"
@@ -36,11 +36,13 @@ L'automatisation d'entrepôt (AMR, AGV, tri robotisé) répond d'abord à un pro
 
 Vous voulez évaluer si votre volume justifie un investissement en automatisation d'entrepôt ? [Découvrez nos formations logistique](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
+
+> À côté du tri robotisé, beaucoup de sites gagnent d'abord en fiabilité avec une base de [traçabilité RFID bien posée](/solutions/marquage-et-tracabilite) — un préalable souvent sous-estimé avant tout projet d'automatisation.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Precision Reports — Analyse globale du marché de l'automatisation des entrepôts](https://www.precisionreports.co/fr/market-reports/warehouse-automation-market-608736)

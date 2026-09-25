@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain en Afrique Francophone : Maroc, Sénégal, Côte d'Ivoire"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-supply-chain.webp"
 keywords: "formation supply chain Afrique francophone, formation logistique Afrique, supply chain manager Afrique, formation logistique Sénégal Côte d'Ivoire"
 description: "Les formations supply chain en Afrique francophone : Maroc, Sénégal, Côte d'Ivoire, Cameroun. Ce qui est disponible, ce qui manque, et comment se former à distance."
@@ -74,7 +74,7 @@ Des organismes comme Nextinotech proposent des formations à distance en visio, 
 
 Nextinotech propose des formations en présentiel au Maroc et à distance pour toute l'Afrique francophone. Programmes adaptés aux réalités terrain africaines.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour un programme personnalisé :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

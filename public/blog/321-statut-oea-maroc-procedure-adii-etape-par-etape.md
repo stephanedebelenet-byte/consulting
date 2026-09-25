@@ -1,7 +1,7 @@
 ---
 title: "Statut OEA Maroc : la Procédure ADII, Étape par Étape"
 date: "2026-09-17"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "procédure statut OEA maroc, comment obtenir OEA maroc, demande OEA ADII étapes, Diw@nati OEA, dossier candidature OEA maroc"
@@ -60,11 +60,11 @@ Nextinotech accompagne les entreprises marocaines sur l'ensemble de cette procé
 
 La procédure OEA au Maroc tient en huit étapes et un principe simple : plus votre gestion des stocks et vos écritures commerciales sont traçables avant le dépôt, plus l'audit — l'étape la plus longue — sera rapide. [Contactez-nous](/contact) pour un diagnostic d'éligibilité avant de vous engager dans la démarche.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [ADII — Devenir opérateur économique agréé (OEA), procédure officielle](https://www.douane.gov.ma/c/journal/view_article_content?groupId=16&articleId=54549&version=1.0&iframe=true&width=900&height=550)

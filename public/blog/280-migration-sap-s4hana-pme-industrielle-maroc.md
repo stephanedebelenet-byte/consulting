@@ -1,7 +1,7 @@
 ---
 title: "Migrer vers SAP S/4HANA : le Guide pour une PME Industrielle Marocaine"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "SAP S/4HANA maroc PME, migration S/4HANA industrielle, fin de vie SAP ECC 2027"
@@ -36,11 +36,11 @@ La migration S/4HANA devient incontournable avant fin 2027, avec un projet réal
 
 Vous préparez une migration S/4HANA et voulez évaluer votre calendrier réaliste ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [WEVAL Consulting — Migration SAP S/4HANA : Deadline 2027](https://weval-consulting.com/blog/migration-sap-s4hana-2027.html)

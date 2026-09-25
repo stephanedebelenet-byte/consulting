@@ -1,7 +1,7 @@
 ﻿---
 title: "Financer sa Formation Logistique au Maroc : Toutes les Options en 2026"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "financement formation logistique Maroc, OFPPT formation supply chain, financer formation professionnelle Maroc, bourse formation logistique"
 description: "Comment financer sa formation supply chain au Maroc en 2026 ? OFPPT, plan de formation entreprise, GIAC, financement personnel — toutes les options expliquées."
@@ -31,16 +31,34 @@ Toute entreprise marocaine de plus de 10 salariés cotise à un fonds de formati
 
 ## Option 2 : Les GIAC (Groupements Interprofessionnels d'Aide au Conseil)
 
-Les GIAC financent les formations professionnelles selon les secteurs d'activité. Les principaux GIAC qui couvrent la supply chain et la logistique :
+Les GIAC financent les formations professionnelles selon les secteurs d'activité. Le réseau national (FedGiac) compte 8 groupements :
 
-- **GIAC Industries** : industrie manufacturière, automobile, chimie
-- **GIAC Commerce et Services** : distribution, logistique, transport
-- **GIAC BTP** : construction, immobilier
-- **GIAC Agro** : agroalimentaire, agriculture
+- **GIAC Transport & Logistique** : le GIAC de référence pour la Supply Chain
+- **GIAC 1 (IMME)** : industrie, métallurgie, mécanique, électrique, automobile, chimie
+- **GIAC Tertiaire** : services
+- **GIAC BTP** : construction, travaux publics
+- **GIAC Textile & Cuir, GIAC Agroalimentaire, GIAC Tourisme & Hôtellerie, GIAC Technologies** : autres secteurs
 
 **Montants remboursables :** de 3 000 à 30 000 MAD par salarié selon le programme et le GIAC.
 
 **Délai :** 1 à 3 mois pour l'accord, 2 à 4 mois pour le remboursement.
+
+### Le détail de la procédure pour l'ingénierie de formation
+
+Au-delà de la formation elle-même, le GIAC finance aussi la phase amont : le diagnostic stratégique et l'ingénierie de formation qui construisent le plan.
+
+**Ce qui est finançable et à quel taux :**
+- Diagnostic stratégique : remboursé à 70%, mobilisable une fois tous les deux ans
+- Ingénierie de formation : 70% du coût HT, porté à 80% si elle fait suite à un diagnostic stratégique validé — plafonnée à 100 000 DH HT par an
+- Actions de formation planifiées : 70% du coût pédagogique ; non planifiées : 40%
+
+Le dossier technique repose sur trois formulaires normalisés — **F2** (fiche d'identification de chaque action), **F3** (déclaration de l'organisme formateur), **M1** (pièce du dossier de plan annuel) — à valider par votre GIAC avant le **10 juin** de l'année en cours. Le dossier de remboursement se dépose ensuite auprès de l'Unité de Gestion CSF de l'OFPPT.
+
+::stat:: 80% — taux de remboursement de l'ingénierie de formation quand elle suit un diagnostic stratégique validé
+
+> **Les GIAC sont organisés par secteur, pas par taille d'entreprise.** Pour la Supply Chain, la Logistique et les Achats, c'est le GIAC Transport & Logistique qui instruit le dossier — un rattachement que les entreprises passant par un GIAC généraliste par défaut ignorent souvent, au prix d'un accompagnement moins spécialisé.
+
+Nextinotech pilote ce montage de bout en bout — diagnostic, ingénierie, formulaires F2/F3/M1, suivi du dossier. Voir notre **[accompagnement ingénierie de formation OFPPT/GIAC](/ingenierie-formation)**.
 
 ## Option 3 : L'OFPPT — Pour les Demandeurs d'Emploi
 
@@ -98,7 +116,7 @@ Je peux préparer le dossier GIAC si vous le souhaitez."
 
 Nextinotech est référencé auprès des principaux GIAC marocains. Nous vous accompagnons dans le montage du dossier de financement.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -1,7 +1,7 @@
 ﻿---
 title: "Automatisation d'Entrepôt au Maroc : Solutions, Coûts et ROI 2026"
 date: "2026-08-04"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-warehouse.webp"
 keywords: "automatisation entrepôt maroc, robotisation logistique maroc, AGV maroc, entrepôt automatisé maroc, convoyeur entrepôt maroc"
 description: "Automatisation d'entrepôt au Maroc en 2026 : convoyeurs, AGV, tri automatique, cobots. Quand investir, quel ROI, et quelles solutions sont accessibles aux PME et ETI marocaines."
@@ -201,6 +201,8 @@ Nextinotech accompagne les entreprises marocaines dans leurs projets d'automatis
 - **Formation des équipes** aux nouveaux équipements et processus
 
 Contactez-nous pour une analyse préliminaire de votre potentiel d'automatisation : **contact@nextinotech.com** · **+212 06 63 44 92 00**
+
+> Un projet d'automatisation s'accompagne souvent d'un chantier de [marquage industriel et de traçabilité RFID](/solutions/marquage-et-tracabilite) — les deux sujets sont liés dès que les flux s'accélèrent.
 
 ---
 

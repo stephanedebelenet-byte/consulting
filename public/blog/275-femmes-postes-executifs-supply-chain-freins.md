@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi les Femmes Disparaissent des Postes Exécutifs Supply Chain"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "femmes postes exécutifs supply chain, plafond de verre supply chain, barreau cassé carrière femmes logistique"
@@ -36,11 +36,11 @@ La sous-représentation des femmes aux postes de direction supply chain se joue 
 
 Vous voulez structurer un parcours de progression qui limite l'effet du barreau cassé dans vos équipes ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [The Conversation / Université Grenoble Alpes — Supply chain management : la lente progression de carrière des femmes](https://theconversation.com/supply-chain-management-la-lente-progression-de-carriere-des-femmes-157994)

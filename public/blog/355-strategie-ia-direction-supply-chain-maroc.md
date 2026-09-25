@@ -1,7 +1,7 @@
 ---
 title: "IA et Direction Supply Chain : Construire sa Feuille de Route 2026-2028"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "stratégie ia direction supply chain maroc, feuille de route ia supply chain, roadmap ia dsc maroc, priorisation projets ia direction, ia supply chain moyen terme"
@@ -38,8 +38,8 @@ Une feuille de route IA supply chain efficace se construit en trois horizons sé
 
 Vous voulez construire votre feuille de route IA supply chain ? [Découvrez notre offre de conseil](/conseil) ou notre [Direction Supply Chain à temps partagé](/direction-supply-chain-temps-partage). [Contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

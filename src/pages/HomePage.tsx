@@ -42,8 +42,8 @@ const ACCOMPAGNEMENTS = [
     num: '02',
     eyebrow: 'Vous savez quoi faire, il faut l’exécuter',
     title: 'Prestations Opérationnelles.',
-    tagline: "Pack Inventaire, services logistiques à valeur ajoutée, imprimantes industrielles Leibinger, solutions IT & RFID avec notre partenaire technique. Nos propres équipes, notre propre matériel, sur devis.",
-    points: ['Pack Inventaire', '7 services à valeur ajoutée', 'Imprimantes Leibinger', 'IT & RFID'],
+    tagline: "Pack Inventaire, services logistiques à valeur ajoutée, solutions IT & RFID intégrées en interne. Nos propres équipes, notre propre matériel, sur devis.",
+    points: ['Pack Inventaire', '7 services à valeur ajoutée', 'IT & RFID'],
     href: '/prestations',
     cta: 'Découvrir les Prestations →',
   },
@@ -290,7 +290,7 @@ export default function HomePage() {
             <FadeUp delay={0.1}>
               <div style={{ display: 'flex', gap: '2.5rem' }}>
                 <div>
-                  <div className="stat-value">26</div>
+                  <div className="stat-value">30</div>
                   <div className="stat-label">Programmes</div>
                 </div>
                 <div>

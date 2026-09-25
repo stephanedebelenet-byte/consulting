@@ -1,7 +1,7 @@
 ---
 title: "Coût Réel d'un Projet ERP Logistique : Budget, Délais et Pièges à Éviter"
 date: "2026-08-25"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "coût projet ERP maroc, budget ERP PME maroc, prix implémentation ERP maroc, subvention MOWAKABA ERP"
@@ -40,11 +40,11 @@ Un projet ERP pour une PME marocaine coûte typiquement entre 150 000 et 500 000
 
 Vous préparez un projet ERP et voulez sécuriser votre budget et votre calendrier ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un accompagnement à la définition de votre cahier des charges.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [RMG Solutions — Coût Total Odoo Maroc 2026 : Budget Complet](https://rmgsolutions.ma/fr/ressources/combien-coute-odoo-maroc-2026)

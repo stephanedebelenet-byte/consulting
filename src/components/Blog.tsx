@@ -37,8 +37,8 @@ export default function Blog() {
           '11-supply-chain-fes-meknes',
           '12-supply-chain-marrakech-agadir',
           '13-supply-chain-afrique-francophone',
-          '14-webinaire-transformation-90j',
-          '15-webinaire-formation-vs-consulting',
+          // 14 et 15 (webinaires) déplacés vers /evenements/ — ce ne sont pas
+          // des articles éditoriaux mais des pages d'inscription à un événement.
           // Mini FAQ
           '40-faq-combien-economiser-achats',
           '41-mini-wms-oui-ou-non-pour-ma-pme',
@@ -433,6 +433,27 @@ export default function Blog() {
           '424-souverainete-ia-economie-maroc',
           '425-budget-ia-supply-chain-comex-validation',
           '426-ia-generative-2027-supply-chain-maroc',
+          // Cluster Control Tower (WMS/TMS/AMS/IMS/IoT/IA)
+          '427-wms-control-tower-donnees-entrepot',
+          '428-tms-control-tower-visibilite-transport',
+          '429-ims-inventory-management-system-control-tower',
+          '430-ams-asset-management-system-control-tower',
+          '431-iot-control-tower-capteurs',
+          '432-ia-control-tower-decision-assistee',
+          '433-control-tower-vs-tableau-de-bord-bi',
+          '434-kpis-control-tower',
+          '435-gestion-exceptions-control-tower',
+          '436-seuils-alertes-control-tower',
+          '437-organiser-equipe-control-tower',
+          '438-cout-budget-control-tower-eti-maroc',
+          '439-choisir-editeur-control-tower',
+          '440-feuille-de-route-control-tower',
+          '441-control-tower-visibilite-fournisseurs-tier1',
+          '442-qualite-donnees-control-tower',
+          '443-securite-gouvernance-donnees-control-tower',
+          '444-control-tower-cloud-on-premise',
+          '445-control-tower-agentique-ia',
+          '446-maturite-control-tower-pme-eti-maroc',
         ]
 
         const fetched = await Promise.all(
@@ -702,7 +723,7 @@ function buildArticleSchema(post: BlogPost) {
     headline: post.title,
     description: post.description || post.quickAnswer,
     datePublished: post.date,
-    author: { '@type': 'Organization', name: post.author || 'Nextinotech' },
+    author: { '@type': 'Person', name: post.author || 'Youssef Bahaida', jobTitle: 'Fondateur', worksFor: { '@type': 'Organization', name: 'Nextinotech' } },
     publisher: { '@type': 'Organization', name: 'Nextinotech' },
   }
 }

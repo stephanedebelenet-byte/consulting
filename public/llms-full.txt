@@ -1,7 +1,7 @@
 ﻿# Nextinotech — Catalogue Complet des Ressources | Supply Chain & Logistique Maroc
 
 > Version complète pour indexation LLM. Dernière mise à jour : 2026-08-31.
-> Contact : contact@nextinotech.com | +212 663 449 200 | Casablanca, Maroc
+> Contact : contact@nextinotech.com | +212 663 449 200 | Technopark Casablanca, 3ème étage, Casablanca, Maroc
 
 ---
 
@@ -10,14 +10,17 @@
 **Nom :** Nextinotech
 **Type :** Cabinet de conseil indépendant — Supply Chain & Logistique
 **Pays :** Maroc (Casablanca)
+**Adresse :** Technopark Casablanca, Route de Nouaceur, 3ème étage
 **Fondateur :** 20+ ans d'expérience en ingénierie Supply Chain, Logistique et Achats
 **Certifications :** DDMRP Certified Practitioner
-**Références clients :** Renault-Nissan, L'Oréal Maroc, Nestlé, Mars, Groupe Addoha, OCP, DHL, Huawei, J&J, P&G
+**Références clients :** Renault-Nissan, L'Oréal Maroc, Nestlé, Mars, Groupe Addoha, OCP, DHL, Huawei, J&J, P&G, Stellantis, Fondation Mohammed V, GIZ, Sapress, Logiphar, ECU World, Tirso, Nigerian Ports Authority
 **Positionnement :** Zéro commission éditeur — indépendance totale garantie
 
 ---
 
 ## Services (résumé)
+
+Détail Conseil & AMOA (points 1 à 7) : https://nextinotech.com/conseil
 
 1. **Diagnostic Supply Chain** — Flash (2 sem.) ou Stratégique (4-6 sem.)
 2. **Optimisation Stocks & DDMRP** — Politique stocks, DDMRP, libération de cash
@@ -26,9 +29,12 @@
 5. **Cahiers des Charges** — WMS, TMS, APS, Control Tower, intégration IA au pilotage, externalisation entreposage (open book/closed book) et transport, opérations spéciales (co-packing, fardelage, inventaire RFID, vidéosurveillance), équipements de stockage et de manutention (rayonnage, engins thermiques/électriques, dimensionnement)
 6. **IA & Automatisation Supply Chain** — cadrage et priorisation des cas d'usage IA/LLM, data readiness, charte de gouvernance loi 09-08 / CNDP, POC mesuré (factures fournisseurs, documents de douane, copilotes de planification et S&OP, chatbot de suivi de commande), industrialisation. Cadrage 35 000–55 000 MAD HT ; POC 90 000–160 000 MAD HT ; déploiement sur devis. Zéro commission éditeur.
 7. **AMOA & Déploiement SI** — WMS, TMS, APS, e-Procurement, Control Tower
-8. **Direction SC à Temps Partagé** — Mandat DSC pour PME (50-200 pers.) et ETI (200-800 pers.)
-9. **Prestations Opérationnelles** — Pack Inventaire (3 paliers), 7 Services Logistiques à Valeur Ajoutée (co-packing, fardelage, étiquetage, kitting, reconditionnement, contrôle qualité, palettisation), Imprimantes Industrielles Leibinger (distributeur officiel au Maroc). Détail : https://nextinotech.com/prestations
-10. **Formation Supply Chain** — Catalogue de 28 programmes sur 7 domaines, inter et intra-entreprise (détail ci-dessous)
+8. **Direction SC à Temps Partagé** — Mandat DSC pour PME (50-200 pers.) et ETI (200-800 pers.). Détail : https://nextinotech.com/direction-supply-chain-temps-partage. Déclinaisons : https://nextinotech.com/directeur-logistique-mi-temps, https://nextinotech.com/directeur-achats-mi-temps. Comparatif CDI vs mandat : https://nextinotech.com/dsc-vs-recrutement-cdi
+9. **Prestations Opérationnelles** — Pack Inventaire (3 paliers, pour entreprises et pour experts comptables — certification d'inventaire de fin d'exercice), 7 Services Logistiques à Valeur Ajoutée (co-packing, fardelage, étiquetage, kitting, reconditionnement, contrôle qualité, palettisation). Détail : https://nextinotech.com/prestations
+10. **Formation Supply Chain** — Catalogue de 28 programmes sur 7 domaines, inter et intra-entreprise (détail ci-dessous). Formation import 1 jour pour porteurs de projet : https://nextinotech.com/formation-import
+11. **Accompagnement Statut OEA (Opérateur Économique Agréé)** — Diagnostic, mise en conformité, dossier de candidature, audit à blanc, coaching le jour de l'audit auprès de l'ADII. Détail : https://nextinotech.com/accompagnement-oea
+12. **Ingénierie de Formation** — Diagnostic des besoins en compétences, plan de formation chiffré, dossier de financement GIAC/OFPPT. Détail : https://nextinotech.com/ingenierie-formation. Catalogue par métier (Supply Chain, Management, Finance, RH, Marketing, Production, Qualité, IA) : https://nextinotech.com/ingenierie-formation/catalogue
+13. **Control Tower** — Piloter la supply chain en temps réel en intégrant six systèmes (WMS, TMS, IMS, AMS, IoT, IA) dans une seule tour de contrôle. Accessible depuis le menu Prestations. Offre en 3 paliers : Mini à partir de 135 000 MAD HT (4-6 sem., 3-5 dashboards), Pilote à partir de 330 000 MAD HT (2-3 mois, 8-12 dashboards + alertes), Pro à partir de 840 000 MAD HT (ETI multi-sites, IA/ML, portail mobile dirigeant). Formation et accompagnement conseil liés. Détail : https://nextinotech.com/control-tower
 
 ---
 
@@ -37,7 +43,7 @@
 **Page catalogue :** https://nextinotech.com/formation — filtrable par domaine, calendrier de sessions 2026 inclus.
 
 ### Supply Chain (8 programmes)
-1. **Devenir Responsable Logistique** — programme phare, 1 jour, inter-entreprise, 1 500 MAD TTC/participant, Hôtel 5★ Casablanca. Page dédiée : https://nextinotech.com/formation-rl/
+1. **Devenir Responsable Logistique** — programme phare, 1 jour, inter-entreprise, 1 500 MAD TTC/participant, Hôtel 5★ Casablanca. Page dédiée : https://nextinotech.com/formation-rl
 2. **Supply Chain Fondamentaux** — 1 à 2 jours, intra-entreprise, 18 000–28 000 MAD HT/groupe
 3. **S&OP & Planification Avancée** — 2 jours, intra-entreprise, 28 000–42 000 MAD HT/groupe
 4. **DDMRP — Certification Practitioner** — 2 jours, inter-entreprise, 5 500 MAD TTC/participant, Casablanca (examen officiel DDI en supplément, ~3 000 MAD)

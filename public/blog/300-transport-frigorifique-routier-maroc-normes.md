@@ -1,7 +1,7 @@
 ---
 title: "Transport Frigorifique Routier : Normes et Coûts Spécifiques au Marché Marocain"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "transport frigorifique routier maroc, normes camion frigorifique maroc, arrêté 1196-03 transport froid"
@@ -36,11 +36,11 @@ Le transport frigorifique routier marocain répond à une réglementation préci
 
 Vous transportez des produits sous température dirigée et voulez sécuriser votre chaîne du froid ? [Découvrez nos formations supply chain](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [MarocTL — Les engins de transport isothermes, réfrigérants ou frigorifiques (arrêté n°1196-03)](https://maroctl.com/routier/transport-de-marchandises/arrete-n-1196-03-les-engins-de-transport-isothermes-refrigerants-ou-frigorifiques/)

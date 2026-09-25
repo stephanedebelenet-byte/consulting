@@ -1,7 +1,7 @@
 ---
 title: "Zones Franches Marocaines Comparées : Tanger Med, TFZ, TAC et Midparc"
 date: "2026-08-23"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "zones franches maroc comparatif, Tanger Free Zone, Tanger Automotive City, Midparc, zone d'accélération industrielle maroc"
@@ -39,11 +39,11 @@ Le paysage des zones franches marocaines s'est standardisé fiscalement depuis 2
 
 Vous étudiez une implantation industrielle ou logistique dans une zone franche marocaine ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un accompagnement à l'implantation.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [Médias24 — Ce que dit la circulaire de la DGI sur la réforme de l'IS](https://medias24.com/2023/02/26/ce-que-dit-la-circulaire-de-la-dgi-sur-la-reforme-de-lis/)

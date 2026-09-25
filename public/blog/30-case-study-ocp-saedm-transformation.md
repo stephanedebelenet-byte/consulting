@@ -1,7 +1,7 @@
 ---
 title: "Case Study: OCP Group SAEDM — Gouvernance Transformation & Digitalization"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/charts.webp"
 type: "case-study"
 keywords: "case study OCP, SAEDM, transformation achats, digitalisation gouvernance"

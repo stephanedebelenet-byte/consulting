@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Lean Supply Chain au Maroc : Éliminer les Gaspillages et Créer de la Valeur"
 date: "2026-08-02"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-warehouse.webp"
 keywords: "formation lean supply chain maroc, lean logistique maroc, lean six sigma maroc, formation lean manufacturing maroc, kaizen supply chain maroc"
 description: "Formation Lean Supply Chain au Maroc : principes lean appliqués à la logistique, outils VSM, 5S entrepôt, Kaizen et réduction des gaspillages. Nextinotech."
@@ -166,6 +166,6 @@ Notre programme de formation intègre les outils Lean appliqués au contexte mar
 
 Le Lean Supply Chain n'est pas une philosophie réservée aux grandes usines japonaises. C'est une boîte à outils pratique, applicable dès demain dans n'importe quel entrepôt ou département supply chain marocain. Les résultats sont rapides, mesurables et durables quand l'approche est bien conduite.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Nextinotech accompagne les entreprises marocaines dans leurs transformations Lean depuis plus de 20 ans.** Contactez-nous pour un diagnostic et un plan d'action.

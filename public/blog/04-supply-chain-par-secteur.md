@@ -1,7 +1,7 @@
 ﻿---
 title: "Supply Chain Optimisée par Secteur : Textile, Agro, Industrie"
 date: "2026-06-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/hero-supply-chain.webp"
 keywords: "supply chain textile Maroc, logistique agroalimentaire, supply chain industrielle, optimisation secteur"
 description: "Chaque secteur a des enjeux différents. Textile ≠ Agro ≠ Industrie. Guide par secteur avec cas réels et solutions."
@@ -322,7 +322,7 @@ On identifie vos pain points spécifiques au secteur, et on vous donne roadmap p
 
 ---
 
-**Nextinotech**  
-Directeur des Achats | Expert Supply Chain & Transformation Digitale  
-Nextinotech — Casablanca, Maroc  
-📧 contact@nextinotech.com | 📞 +212 663 449 200
+**Youssef Bahaida**  
+Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
+Casablanca, Maroc  
+📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

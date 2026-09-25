@@ -1,7 +1,7 @@
 ---
 title: "Féminiser les Métiers d'Entrepôt et de Transport : Lever les Freins Culturels au Maroc"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "féminisation métiers logistiques maroc, femmes entrepôt transport, femmes caristes conductrices maroc"
@@ -36,11 +36,11 @@ La sous-représentation des femmes dans les métiers d'entrepôt et de transport
 
 Vous voulez rendre vos métiers opérationnels plus accessibles aux candidatures féminines ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour en discuter.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*
 
 **Sources consultées pour cet article :**
 - [Itinéraire égalité (AFT) — Les enjeux de la mixité et de l'égalité dans le transport](https://egalite.aft-dev.com/itineraire-egalite-en-bref/les-enjeux-de-la-mixite-et-de-legalite-dans-le-transport)

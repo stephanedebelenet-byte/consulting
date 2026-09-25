@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain Intra-Entreprise au Maroc : Former Toute une Équipe"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "formation intra-entreprise supply chain Maroc, formation sur mesure logistique Maroc, formation équipe supply chain, formation corporate logistique Maroc"
 description: "La formation supply chain intra-entreprise au Maroc : comment former toute une équipe sur vos processus réels, les avantages vs inter-entreprises et le coût par personne."
@@ -74,7 +74,7 @@ Pour 8 personnes formées simultanément, le coût par personne d'une intra-entr
 
 Nextinotech réalise des formations sur mesure pour les équipes supply chain marocaines. Chaque programme est conçu après une phase de cadrage pour coller à vos réalités terrain.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour une proposition personnalisée :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

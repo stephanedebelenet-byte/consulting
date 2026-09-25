@@ -1,7 +1,7 @@
 ---
 title: "Programme de Formation Supply Chain Management pour Cadres au Maroc 2026"
 date: "2026-08-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/conseil.webp"
 keywords: "formation supply chain management cadres maroc, formation continue supply chain maroc, programme supply chain manager maroc, formation directeur supply chain maroc, certification supply chain maroc, executive supply chain formation"
 description: "Programme de formation supply chain management pour cadres au Maroc : compétences stratégiques, S&OP, pilotage par les données, formation continue et certifications APICS. Par Nextinotech."
@@ -128,7 +128,7 @@ Nextinotech propose des programmes de formation supply chain pour cadres et diri
 
 **Notre différence :** animateurs ayant occupé des postes de direction supply chain avant de devenir consultants, cas d'étude issus du marché marocain et africain (pas des exemples européens transposés), suivi post-formation avec débriefing 60 jours après pour ancrer les apprentissages.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous pour construire votre programme sur mesure : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

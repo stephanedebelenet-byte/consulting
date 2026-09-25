@@ -1,7 +1,7 @@
 ---
 title: "Générer ses Scénarios S&OP avec l'IA : Simuler Ruptures et Arbitrages"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "scénarios sop ia simulation, générer scénarios s&op ia, simulation rupture stock ia, arbitrage capacité ia sop, ia planification promotion s&op"
@@ -35,8 +35,8 @@ Générer des scénarios S&OP avec l'IA multiplie le nombre d'options testées a
 
 Vous voulez enrichir votre cycle S&OP de scénarios simulés ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

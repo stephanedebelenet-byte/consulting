@@ -3,11 +3,12 @@ import { Link, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { getFlag, setFlag, isRecent } from '../utils/localFlags'
 
-const KEY = 'nxt_frl_bar'
+const KEY = 'nxt_ingf_bar'
 const REDISPLAY_DAYS = 12
 
-// Pages où la barre n'a pas de sens (déjà des pages formation / conversion).
-const HIDE_PREFIXES = ['/formation', '/contact', '/confidentialite']
+// Pages où la barre n'a pas de sens (déjà des pages formation / conversion,
+// ou la page Ingénierie de Formation elle-même puisque la barre en fait la promotion).
+const HIDE_PREFIXES = ['/formation', '/contact', '/confidentialite', '/ingenierie-formation']
 
 function isHidden(pathname: string): boolean {
   return HIDE_PREFIXES.some((p) => pathname === p || pathname.startsWith(p + '-') || pathname.startsWith(p + '/'))
@@ -87,19 +88,19 @@ export default function FormationStickyBar() {
                 color: 'var(--blue-bright)',
               }}
             >
-              Programme phare
+              Dossier GIAC / OFPPT 2026
             </span>
             <span style={{ fontFamily: 'Manrope, sans-serif', fontSize: '0.98rem', fontWeight: 700, color: 'var(--navy)' }}>
-              Formation Responsable Logistique
+              Ingénierie de Formation
             </span>
             <span style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.85rem', color: 'var(--mid)', fontWeight: 300 }}>
-              1 jour · 1 500 MAD · Casablanca
+              Dernier délai pour démarrer : 30 septembre (dépôt GIAC/OFPPT au 31 octobre).
             </span>
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
             <Link
-              to="/formation-rl"
+              to="/ingenierie-formation"
               onClick={dismiss}
               style={{
                 background: 'var(--blue-bright)',

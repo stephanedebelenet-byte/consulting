@@ -1,7 +1,7 @@
 ---
 title: "Achats Publics au Maroc : ce qui Change Réellement pour les Fournisseurs en 2026"
 date: "2026-08-25"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "achats publics maroc 2026 seuils, marchés publics maroc PME, décret 2-22-431, enregistrement marchés publics 2026"
@@ -36,11 +36,11 @@ Le cadre structurant des marchés publics marocains — seuils, quota PME, princ
 
 Votre entreprise répond à des appels d'offres publics et veut sécuriser sa conformité réglementaire ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour un accompagnement.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Le360 — Marchés publics : la fin du moins-disant](https://fr.le360.ma/economie/marches-publics-la-fin-du-moins-disant-273382/)

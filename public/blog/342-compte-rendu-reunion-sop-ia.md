@@ -1,7 +1,7 @@
 ---
 title: "Comptes Rendus et Plans d'Action S&OP Automatisés par l'IA"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "compte rendu réunion sop ia, plan action sop automatisé, ia rédaction compte rendu réunion, suivi décisions s&op ia, gain de cycle sop"
@@ -36,8 +36,8 @@ Automatiser les comptes rendus et plans d'action S&OP par IA raccourcit le déla
 
 Vous voulez fluidifier votre cycle S&OP ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

@@ -1,7 +1,7 @@
 ---
 title: "Chatbot de Suivi de Commande par IA : Désengorger le Service Client Logistique"
 date: "2026-09-11"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "chatbot suivi commande ia, wismo ia logistique maroc, service client logistique automatisation, ia adv suivi livraison, chatbot logistique maroc"
@@ -50,8 +50,8 @@ Un assistant IA de suivi de commande absorbe la moitié des contacts d'un servic
 
 Vous voulez fiabiliser votre suivi et votre service client logistique ? [Découvrez nos services de conseil](/conseil), ou [contactez-nous](/contact) pour un diagnostic. Formations ADV et logistique sur notre [catalogue](/formation).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

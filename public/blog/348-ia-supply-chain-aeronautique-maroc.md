@@ -1,7 +1,7 @@
 ---
 title: "IA et Supply Chain Aéronautique au Maroc : Traçabilité et Conformité"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "ia supply chain aéronautique maroc, traçabilité pièce aéronautique ia, as9100 ia conformité, safran maroc supply chain ia, sérialisation aéronautique ia"
@@ -36,8 +36,8 @@ Dans l'aéronautique marocaine, l'IA se concentre sur trois terrains : la traça
 
 Vous êtes fournisseur aéronautique et voulez structurer votre pilotage qualité ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*

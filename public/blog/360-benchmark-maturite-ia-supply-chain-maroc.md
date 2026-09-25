@@ -1,7 +1,7 @@
 ---
 title: "Benchmark IA Supply Chain : où se Situe une PME Marocaine"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "benchmark maturité ia supply chain maroc, où en est le maroc ia logistique, comparaison maturité ia pme eti, niveau maturité ia supply chain, benchmark international ia logistique"
@@ -42,8 +42,8 @@ La majorité des PME et ETI marocaines se situent au niveau 1-2 de maturité IA 
 
 Vous voulez situer votre maturité IA supply chain ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact) pour un diagnostic express.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*

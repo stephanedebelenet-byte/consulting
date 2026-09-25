@@ -13,6 +13,13 @@
  *      la racine "/").
  *   4. Aucune balise noindex n'est présente.
  *
+ * Vérifie aussi la complétude de public/llms.txt et public/llms-full.txt :
+ * toute page marquée `isOffer` (et non `hidden`) dans src/data/routeMeta.ts
+ * doit être référencée par son URL dans les deux fichiers — voir
+ * .offers-manifest.json, généré par le plugin de prérendu (vite.config.ts).
+ * Objectif : qu'une offre ajoutée au site ne puisse plus être oubliée de ces
+ * fichiers en silence (audit UI/UX, question "comment ne rater aucune offre").
+ *
  * Usage : node scripts/check-seo-consistency.mjs   (après `npm run build`)
  * Code de sortie : 1 si une incohérence est trouvée, 0 sinon.
  */
@@ -21,8 +28,11 @@ import { join, resolve } from 'node:path'
 
 const SITE = 'https://nextinotech.com'
 const ROOT = resolve(import.meta.dirname, '..')
-const SITEMAP_PATH = join(ROOT, 'public', 'sitemap.xml')
 const DIST_DIR = join(ROOT, 'dist')
+const SITEMAP_PATH = join(DIST_DIR, 'sitemap.xml')
+const OFFERS_MANIFEST_PATH = join(ROOT, '.offers-manifest.json')
+const LLMS_PATH = join(ROOT, 'public', 'llms.txt')
+const LLMS_FULL_PATH = join(ROOT, 'public', 'llms-full.txt')
 
 function fail(msg) {
   problems.push(msg)
@@ -43,6 +53,24 @@ function extractCanonical(html) {
 function extractRobotsMeta(html) {
   const m = html.match(/<meta name="robots" content="([^"]*)"/i)
   return m ? m[1] : null
+}
+
+// Détecte la régression du 22/09/2026 : une page prérendue dont le <body>
+// est vide (seulement <div id="root"></div>), lisible par <head> correct
+// mais aucun contenu réel — cause directe du blocage d'indexation Google
+// et de l'invisibilité totale pour les crawlers IA qui ne rendent pas le JS
+// (GPTBot, ClaudeBot, PerplexityBot...). Appliqué à toutes les pages du
+// sitemap (blog et pages "app").
+const MIN_BODY_TEXT_LENGTH = 200
+
+function extractBodyText(html) {
+  const m = html.match(/<body[^>]*>([\s\S]*)<\/body>/i)
+  if (!m) return ''
+  return m[1].replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+function hasH1(html) {
+  return /<h1[\s>]/i.test(html)
 }
 
 const problems = []
@@ -103,9 +131,42 @@ for (const loc of locs) {
   if (robots && /noindex/i.test(robots)) {
     fail(`Balise noindex trouvée sur une page listée dans le sitemap : ${loc}`)
   }
+
+  // Règle 5 : toute page du sitemap doit avoir un <body> non vide, avec au
+  // moins un H1 et un texte réel — pas seulement un <div id="root"></div>.
+  // Blog : rempli par vite.config.ts (bodyHtml, 22/09/2026). Pages "app" :
+  // remplies par scripts/prerender-app-bodies.mjs (rendu SSR, 25/09/2026).
+  // C'est le garde-fou qui aurait empêché la régression de passer inaperçue.
+  const bodyText = extractBodyText(html)
+  if (!hasH1(html)) {
+    fail(`Page sans <h1> dans le <body> prérendu : ${loc}`)
+  }
+  if (bodyText.length < MIN_BODY_TEXT_LENGTH) {
+    fail(`Page avec un <body> quasi vide (${bodyText.length} caractères de texte, minimum ${MIN_BODY_TEXT_LENGTH}) : ${loc}`)
+  }
 }
 
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
+
+// ── Complétude llms.txt / llms-full.txt ────────────────────────────────────
+if (!existsSync(OFFERS_MANIFEST_PATH)) {
+  fail(`Manifeste des offres introuvable : ${OFFERS_MANIFEST_PATH} (relance "npm run build" pour le régénérer)`)
+} else {
+  const offerPaths = JSON.parse(readFileSync(OFFERS_MANIFEST_PATH, 'utf-8'))
+  const llmsTxt = existsSync(LLMS_PATH) ? readFileSync(LLMS_PATH, 'utf-8') : ''
+  const llmsFullTxt = existsSync(LLMS_FULL_PATH) ? readFileSync(LLMS_FULL_PATH, 'utf-8') : ''
+
+  let offersChecked = 0
+  for (const path of offerPaths) {
+    const url = SITE + path
+    offersChecked++
+    const inLlms = llmsTxt.includes(url) || llmsTxt.includes(path)
+    const inLlmsFull = llmsFullTxt.includes(url) || llmsFullTxt.includes(path)
+    if (!inLlms) fail(`Offre absente de llms.txt : ${path} (ajoute son URL, ou marque la route "hidden: true" dans routeMeta.ts si c'est volontaire)`)
+    if (!inLlmsFull) fail(`Offre absente de llms-full.txt : ${path} (ajoute son URL, ou marque la route "hidden: true" dans routeMeta.ts si c'est volontaire)`)
+  }
+  console.log(`[check-seo-consistency] ${offersChecked} offre(s) vérifiée(s) dans llms.txt / llms-full.txt.\n`)
+}
 
 if (problems.length > 0) {
   console.error(`❌ ${problems.length} incohérence(s) détectée(s) :\n`)

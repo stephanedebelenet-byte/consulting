@@ -1,7 +1,7 @@
 ---
 title: "Hydrogène Vert et Ammoniac : la Nouvelle Chaîne Logistique que l'OCP Construit"
 date: "2026-08-22"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "hydrogène vert OCP, ammoniac vert maroc, OCP Fortescue, logistique énergie verte maroc"
@@ -40,11 +40,11 @@ L'OCP construit, avec Fortescue, l'une des plus grandes chaînes logistiques ind
 
 Votre entreprise vise ce type de méga-projet industriel comme donneur d'ordre ou sous-traitant ? [Découvrez nos formations](/formation), ou [contactez-nous](/contact) pour structurer votre positionnement logistique.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Nextinotech** — contact@nextinotech.com | +212 06 63 44 92 00
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*
 
 **Sources consultées pour cet article :**
 - [OCP Group — OCP & Fortescue Partner in Green Energy, Hydrogen and Ammonia](https://www.ocpgroup.ma/press-release-article/ocp-fortescue-partner-green-energy-hydrogen-and-ammonia-morocco)

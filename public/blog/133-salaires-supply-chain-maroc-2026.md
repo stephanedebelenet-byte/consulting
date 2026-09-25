@@ -1,7 +1,7 @@
 ﻿---
 title: "Salaires Supply Chain au Maroc 2026 : Guide Complet par Poste et Secteur"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/business.webp"
 keywords: "salaires supply chain Maroc 2026, salaire logisticien Maroc, salaire responsable logistique Maroc, salaire supply chain manager Maroc"
 description: "Salaires supply chain au Maroc en 2026 : fourchettes par poste, par secteur et par ville. Ce que vous valez vraiment et comment négocier une augmentation."
@@ -98,7 +98,7 @@ Le changement est le moyen le plus rapide d'augmenter significativement son sala
 
 Accompagnement individuel pour préparer votre négociation salariale : benchmark personnalisé, simulation d'entretien, stratégie de communication.
 
-Pour monter en compétences avant de négocier, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl/)** — 1 journée, 1 500 MAD TTC.
+Pour monter en compétences avant de négocier, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl)** — 1 journée, 1 500 MAD TTC.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

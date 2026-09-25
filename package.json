@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender-app-bodies.mjs",
     "postbuild": "node scripts/check-seo-consistency.mjs",
     "build:prerender": "npm run build",
     "seo:check": "node scripts/check-seo-consistency.mjs",
@@ -14,13 +14,16 @@
     "video:studio": "remotion studio remotion/index.ts",
     "video:render:network": "remotion render remotion/index.ts NetworkAnimation public/videos/network-loop.mp4",
     "video:render:formation": "remotion render remotion/index.ts FormationPromo public/videos/formation-promo.mp4",
-    "video:render:stats": "remotion render remotion/index.ts StatsReveal public/videos/stats-reveal.mp4"
+    "video:render:stats": "remotion render remotion/index.ts StatsReveal public/videos/stats-reveal.mp4",
+    "gsc:submit-sitemap": "node scripts/gsc.mjs submit-sitemap",
+    "gsc:coverage-report": "node scripts/gsc.mjs coverage-report"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
     "@tabler/icons-react": "^3.46.0",
     "framer-motion": "^12.38.0",
     "gsap": "^3.15.0",
+    "jspdf": "^4.2.1",
     "lenis": "^1.3.23",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
@@ -39,6 +42,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "googleapis": "^149.0.0",
     "playwright": "^1.49.0",
     "remotion": "^4.0.272",
     "typescript": "~6.0.2",

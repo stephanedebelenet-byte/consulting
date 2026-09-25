@@ -1,7 +1,7 @@
 ---
 title: "Recruter un Profil IA Appliquée à la Supply Chain"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "recrutement ia supply chain profil, poste ia supply chain maroc, fiche de poste ia logistique, recruter référent ia achats, profil hybride ia supply chain"
@@ -12,13 +12,9 @@ description: "Le poste de référent IA appliquée à la supply chain n'existait
 
 ![Bureau avec ordinateur, notes et documents professionnels](/images/office.webp)
 
-**« Nous cherchons un data scientist » est souvent la mauvaise fiche de poste. La majorité des entreprises marocaines qui veulent structurer leur usage de l'IA en supply chain n'ont pas besoin d'un profil de recherche en apprentissage automatique, mais d'un référent hybride : connaissance métier solide, appétence outils, capacité à former ses pairs.** Voici comment définir ce poste qui n'existait pas il y a trois ans.
+**« Nous cherchons un data scientist » est souvent la mauvaise fiche de poste.** La majorité des entreprises marocaines qui veulent structurer leur usage de l'IA en supply chain n'ont pas besoin d'un profil de recherche en apprentissage automatique. Elles ont besoin d'un référent hybride : connaissance métier solide, appétence pour les outils, capacité à former ses pairs plutôt qu'à écrire du code de production. Ce poste n'existait pas il y a trois ans — voici comment le définir correctement.
 
-## Le profil qui fonctionne réellement
-
-- **Connaissance métier supply chain** avant tout : ce référent doit comprendre les enjeux achats, planification ou logistique de l'intérieur.
-- **Appétence pour les outils IA**, pas nécessairement une formation technique poussée.
-- **Capacité pédagogique** : ce rôle forme et embarque les collègues, plus qu'il ne développe des modèles.
+Le profil qui fonctionne réellement place la connaissance métier supply chain avant tout le reste : ce référent doit comprendre les enjeux achats, planification ou logistique de l'intérieur, pas les découvrir en même temps que l'outil. L'appétence pour les outils IA compte davantage qu'une formation technique poussée — on peut apprendre le reste. Et la capacité pédagogique, enfin, est peut-être la plus sous-estimée à l'embauche : ce rôle forme et embarque des collègues bien plus souvent qu'il ne développe des modèles.
 
 ::stat:: 80% — part des entreprises marocaines qui trouvent ce profil en interne, en formant un collaborateur métier existant, plutôt qu'en recrutant à l'extérieur
 
@@ -34,12 +30,12 @@ description: "Le poste de référent IA appliquée à la supply chain n'existait
 
 ## Ce qu'il faut retenir
 
-Le poste de référent IA appliquée à la supply chain privilégie la connaissance métier et la capacité pédagogique sur l'expertise technique pure. La majorité des entreprises marocaines gagnent à former ce profil en interne plutôt qu'à le recruter à l'extérieur.
+Le poste de référent IA appliquée à la supply chain privilégie la connaissance métier et la capacité pédagogique sur l'expertise technique pure — et dans la majorité des cas rencontrés sur le terrain marocain, former ce profil en interne coûte moins cher et fonctionne mieux que de le recruter à l'extérieur.
 
 Vous voulez identifier ou former ce profil dans votre équipe ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

@@ -431,8 +431,6 @@ html.lenis { height: auto; }
   .dsc-declinaisons-grid { grid-template-columns: 1fr !important; }
   /* References / Conseil : teaser DSC 2 colonnes → 1 */
   .dsc-teaser-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
-  /* Prestations : offre Leibinger 2 colonnes → 1 */
-  .leibinger-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
   /* Prestations : offre Solutions IT — 3 piliers → 1 */
   .partenaire-pillars-grid { grid-template-columns: 1fr !important; gap: 2rem !important; }
   /* Prestations : offre Solutions IT — mur de références 5 colonnes → 3 */
@@ -518,10 +516,13 @@ html.lenis { height: auto; }
   .frl-logistics { grid-template-columns: 1fr 1fr !important; padding: 2rem !important; }
   .frl-hero-stats { gap: 2rem; }
   .frl-photos { grid-template-columns: repeat(2, 1fr) !important; }
+  /* Ingénierie de formation : bande de chiffres 4 → 2 colonnes */
+  .ing-experience-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 1.75rem !important; }
 }
 @media (max-width: 640px) {
   .frl-logistics { grid-template-columns: 1fr !important; }
   .frl-sticky { padding: 0.75rem 1.25rem; }
+  .ing-experience-grid { grid-template-columns: 1fr !important; }
 }
 
 /* ── Blog styling ── */

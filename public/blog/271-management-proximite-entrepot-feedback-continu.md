@@ -1,7 +1,7 @@
 ---
 title: "Management de Proximité en Entrepôt : Pourquoi le Feedback Annuel ne Marche Plus"
 date: "2026-08-21"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "management entrepôt proximité, feedback continu vs évaluation annuelle, management de proximité logistique"
@@ -36,11 +36,11 @@ Le management de proximité, basé sur un feedback régulier et proche du moment
 
 Vous voulez former vos chefs d'équipe au feedback continu ? [Découvrez nos formations RH et management](/formation), ou [contactez-nous](/contact) pour un diagnostic.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*
 
 **Sources consultées pour cet article :**
 - [Décideurs Magazine — Entretien annuel ou feedback permanent ?](https://www.decideurs-magazine.com/ressources-humaines/33719-entretien-annuel-ou-feedback-permanent.html)

@@ -1,7 +1,7 @@
 ---
 title: "Copilot Excel et Power BI pour l'Analyste Supply Chain"
 date: "2026-09-13"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "copilot excel supply chain, ia power bi analyste logistique, gagner du temps excel ia, automatiser reporting supply chain, copilot microsoft achats"
@@ -42,8 +42,8 @@ Les copilots Excel et Power BI libèrent l'analyste supply chain de la mécaniqu
 
 Vous voulez faire monter votre équipe analytique en compétence sur ces outils ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact). Nos [formations](/formation) incluent un module dédié aux copilots bureautiques.
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Une question sur votre situation ?** Écrivez-moi directement : contact@nextinotech.com ou +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

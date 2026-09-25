@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Continue Supply Chain pour Cadres au Maroc : Rester Compétitif"
 date: "2026-08-05"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/analytics.webp"
 keywords: "formation continue supply chain Maroc, formation cadres logistique Maroc, développement professionnel supply chain, mise à niveau supply chain cadres"
 description: "Formation continue supply chain pour cadres et managers au Maroc : quelles compétences mettre à jour, comment rester compétitif face aux nouvelles technologies et méthodes."
@@ -79,7 +79,7 @@ SITL, Supply Chain Event (Paris), forums logistique Casablanca. Veille sur les t
 
 Programmes modulaires pour cadres et managers en poste : séminaires thématiques, coaching individuel, et accompagnement de projets de transformation. Financement GIAC possible.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl/)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

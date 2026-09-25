@@ -1,7 +1,7 @@
 ---
 title: "Résistance au Changement Face à l'IA : ce que Craignent les Équipes"
 date: "2026-09-15"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "résistance changement ia équipes terrain, peur ia salariés logistique, gérer résistance ia entreprise, craintes ia équipes achats, résistance adoption ia maroc"
@@ -12,14 +12,9 @@ description: "Ce que les équipes terrain craignent vraiment face à l'IA — au
 
 ![Réunion de conseil et accompagnement stratégique](/images/conseil.webp)
 
-**« Ils ont peur d'être remplacés » est l'explication la plus répétée pour la résistance à l'IA en entreprise — et souvent la moins précise. Sur le terrain, les craintes réelles sont plus variées : peur de perdre en expertise reconnue, peur du contrôle permanent, peur de l'échec public devant les collègues en apprenant un nouvel outil. Traiter la mauvaise crainte ne résout rien.** Voici les craintes réelles observées, et les réponses qui fonctionnent pour chacune.
+**« Ils ont peur d'être remplacés » est l'explication la plus répétée pour la résistance à l'IA en entreprise — et souvent la moins précise.** Sur le terrain, les craintes réelles sont plus variées, et un client nous a un jour résumé la sienne en une phrase qui vaut plus que bien des études : « ce n'est pas l'outil qui m'inquiète, c'est de ne plus savoir si mon avis compte encore ». Traiter la mauvaise crainte ne résout rien, même avec la meilleure conduite du changement du monde. Voici quatre craintes réelles, distinctes du simple remplacement, et ce qui fonctionne pour chacune.
 
-## Les 4 craintes réelles, distinctes du remplacement
-
-- **Perte d'expertise reconnue** : « si l'IA fait mon analyse, à quoi sert mon expérience ? »
-- **Sentiment de surveillance** : « est-ce que cet outil sert aussi à évaluer ma performance ? »
-- **Peur de l'échec devant les pairs** : apprendre un outil en public expose à paraître moins compétent.
-- **Fatigue du changement** : la nième initiative de transformation après plusieurs autres qui n'ont pas tenu leurs promesses.
+La perte d'expertise reconnue vient en premier : « si l'IA fait mon analyse, à quoi sert mon expérience ? » Le sentiment de surveillance suit de près — « est-ce que cet outil sert aussi à évaluer ma performance ? » — une question rarement posée à voix haute mais toujours présente. La peur de l'échec devant les pairs compte aussi : apprendre un outil en public expose à paraître moins compétent que d'habitude, ce qui freine plus que l'outil lui-même. Et il y a enfin la fatigue du changement, la nième initiative de transformation après plusieurs autres qui n'ont pas tenu leurs promesses.
 
 ::stat:: 3 fois — le taux d'adhésion observé quand la conduite du changement traite la crainte réelle exprimée plutôt qu'une crainte supposée générique
 
@@ -35,12 +30,12 @@ description: "Ce que les équipes terrain craignent vraiment face à l'IA — au
 
 ## Ce qu'il faut retenir
 
-La résistance à l'IA sur le terrain ne se résume pas à la peur du remplacement — perte d'expertise, sentiment de surveillance, peur de l'échec public sont des craintes distinctes qui appellent des réponses différentes. Diagnostiquer la crainte réelle avant de déployer change radicalement le taux d'adhésion.
+La résistance à l'IA sur le terrain ne se résume pas à la peur du remplacement. Perte d'expertise, sentiment de surveillance, peur de l'échec public : ce sont des craintes distinctes, qui appellent des réponses différentes les unes des autres. Diagnostiquer la crainte réelle avant de déployer change radicalement le taux d'adhésion final de l'équipe.
 
 Vous voulez diagnostiquer les freins réels de vos équipes avant un déploiement IA ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

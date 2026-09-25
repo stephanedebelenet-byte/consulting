@@ -1,7 +1,7 @@
 ---
 title: "IA et Textile-Habillement : Collections, Sourcing et Nearshoring"
 date: "2026-09-14"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "ia supply chain textile maroc, prévision collection ia textile, sourcing tissu ia, arbitrage nearshoring ia, réassort rapide textile maroc"
@@ -40,8 +40,8 @@ Dans le textile-habillement marocain, l'IA accélère trois décisions où la vi
 
 Vous opérez dans le textile et voulez accélérer vos décisions de réassort ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 
-**Contact :** contact@nextinotech.com | +212 06 63 44 92 00
+**Un besoin précis ?** Le premier échange est gratuit et sans engagement : contact@nextinotech.com — +212 06 63 44 92 00.
 
 ---
 
-*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
+*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*

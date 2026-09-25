@@ -1,7 +1,7 @@
 ---
 title: "Reconversion vers la Supply Chain au Maroc : Le Guide Complet 2026"
 date: "2026-08-10"
-author: "Nextinotech"
+author: "Youssef Bahaida"
 image: "/images/office.webp"
 keywords: "reconversion logistique maroc, reconversion supply chain maroc, changer de carrière supply chain, formation reconversion logistique, emploi logistique sans diplôme maroc, devenir logisticien reconversion"
 description: "Guide complet reconversion vers la supply chain au Maroc : profils qui réussissent, compétences transférables, étapes, formations et délais réalistes. Par Nextinotech."
@@ -131,7 +131,7 @@ Votre CV doit raconter une histoire cohérente : compétences transversales (ges
 
 ## L'Accompagnement Nextinotech pour les Profils en Reconversion
 
-Notre formation **[Devenir Responsable Logistique](/formation-rl/)** est conçue aussi pour les profils en reconversion. En une journée intensive : fondamentaux opérationnels de la logistique, méthodes de gestion des stocks, KPIs et tableaux de bord, management terrain des équipes, outils digitaux (WMS, ERP).
+Notre formation **[Devenir Responsable Logistique](/formation-rl)** est conçue aussi pour les profils en reconversion. En une journée intensive : fondamentaux opérationnels de la logistique, méthodes de gestion des stocks, KPIs et tableaux de bord, management terrain des équipes, outils digitaux (WMS, ERP).
 
 **Ce n'est pas une conférence.** C'est une journée de travail pratique, avec des cas réels, des outils concrets et un réseau de praticiens.
 **Tarif :** 1 500 MAD · Hôtel 5★ · Casablanca · Certification remise à l'issue.
