@@ -1,7 +1,7 @@
 ---
 title: "Automatiser le Traitement des Factures Fournisseurs avec l'IA (OCR + LLM)"
 date: "2026-09-06"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "automatisation factures fournisseurs ocr ia, traitement facture ia maroc, rapprochement 3 way match ia, comptabilité fournisseurs automatisation, p2p automatisation maroc"

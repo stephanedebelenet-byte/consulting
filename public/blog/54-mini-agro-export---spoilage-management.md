@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Agro-Export au Maroc : la chaîne du froid, facteur de compétitivité"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain agro-export Maroc, chaîne du froid Agadir, export agrumes Maroc, logistique agroalimentaire"
@@ -40,4 +40,4 @@ Vous pilotez une chaîne logistique périssable ou sous température dirigée ? 
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

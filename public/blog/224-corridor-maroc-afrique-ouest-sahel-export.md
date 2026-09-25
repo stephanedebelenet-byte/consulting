@@ -1,7 +1,7 @@
 ---
 title: "Corridor Maroc-Afrique de l'Ouest : Comment les Entreprises Marocaines Exportent vers le Sahel"
 date: "2026-08-24"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "corridor maroc afrique de l'ouest export, initiative atlantique sahel, port Dakhla Atlantique, Guerguerat corridor logistique"

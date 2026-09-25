@@ -1,7 +1,7 @@
 ---
 title: "Le Comité de Pilotage IA Supply Chain : qui doit y Siéger"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "comité pilotage ia supply chain, gouvernance projet ia entreprise, composition comité ia, comité de pilotage transformation ia, rôle comex ia supply chain"

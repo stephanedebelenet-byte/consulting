@@ -1,7 +1,7 @@
 ---
 title: "Évaluer la Maturité IA de ses Collaborateurs Supply Chain"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "maturité ia compétences supply chain, grille évaluation compétences ia, plan montée en compétence ia, auto-évaluation ia collaborateur, niveau compétence ia équipe"

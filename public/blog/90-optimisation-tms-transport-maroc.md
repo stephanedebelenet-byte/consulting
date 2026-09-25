@@ -1,7 +1,7 @@
 ---
 title: "Formation et Optimisation TMS au Maroc : Logiciel de Gestion du Transport 2026"
 date: "2026-08-10"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/analytics.webp"
 keywords: "TMS maroc, formation TMS maroc, logiciel gestion transport maroc, optimisation transport maroc, transport management system maroc, réduction coûts transport maroc"
 description: "Comment un TMS réduit vos coûts de transport au Maroc : fonctionnalités, TMS disponibles, sélection, budget, ROI et programme de formation. Retours terrain de 12+ projets."

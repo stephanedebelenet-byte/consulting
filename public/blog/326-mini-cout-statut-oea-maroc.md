@@ -1,7 +1,7 @@
 ---
 title: "Le Statut OEA Coûte-t-il Cher au Maroc ?"
 date: "2026-09-22"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Aucun frais, taxe ou redevance n'est exigible auprès de l'ADII pour l'octroi du statut OEA. Le seul coût réel est celui du cabinet d'audit externe, engagé et rémunéré par l'entreprise candidate pour produire le rapport d'audit exigé dans le dossier."
@@ -33,4 +33,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

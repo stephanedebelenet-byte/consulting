@@ -1,7 +1,7 @@
 ---
 title: "IA Générative en Supply Chain : 25 Cas d'Usage Concrets au Maroc"
 date: "2026-09-01"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "ia générative supply chain maroc, cas usage llm logistique, chatgpt supply chain, ia achats logistique maroc, automatisation supply chain maroc"

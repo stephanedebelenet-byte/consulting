@@ -1,7 +1,7 @@
 ---
 title: "IA et Supply Chain Aéronautique au Maroc : Traçabilité et Conformité"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "ia supply chain aéronautique maroc, traçabilité pièce aéronautique ia, as9100 ia conformité, safran maroc supply chain ia, sérialisation aéronautique ia"

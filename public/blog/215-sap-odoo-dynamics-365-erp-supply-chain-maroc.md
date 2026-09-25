@@ -1,7 +1,7 @@
 ---
 title: "SAP vs Odoo vs Dynamics 365 : Quel ERP pour la Supply Chain d'une PME Marocaine ?"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "erp supply chain maroc comparatif, sap vs odoo vs dynamics 365, choisir erp pme maroc, sap business one maroc"

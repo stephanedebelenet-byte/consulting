@@ -11,7 +11,7 @@
  * lecteur humain détectent facilement.
  *
  * Ce script :
- *   1. Remplace `author: "Nextinotech"` par `author: "Youssef Bahaida"`
+ *   1. Remplace `author: "Nextinotech"` par `author: "Youssef B."`
  *      (le vrai fondateur, cf. CLAUDE.md) dans le frontmatter YAML.
  *   2. Remplace le sign-off "Directeur des Achats" (titre inventé, jamais
  *      utilisé ailleurs sur le site) par un signature exacte et cohérente
@@ -41,7 +41,7 @@ const PATTERN_A = new RegExp(
 
 function patternAReplacement() {
   return [
-    '**Youssef Bahaida**',
+    '**Youssef B.**',
     'Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale',
     'Casablanca, Maroc',
     `📧 ${EMAIL} | 📞 ${PHONE}`,
@@ -57,10 +57,10 @@ function crlf(s) {
 }
 
 const FOOTER_VARIANTS = [
-  crlf(`**Une question sur votre situation ?** Écrivez-moi directement : ${EMAIL} ou ${PHONE}.\n\n---\n\n*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*`),
+  crlf(`**Une question sur votre situation ?** Écrivez-moi directement : ${EMAIL} ou ${PHONE}.\n\n---\n\n*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*`),
   crlf(`Pour en discuter concrètement, contactez Nextinotech : ${EMAIL} | ${PHONE}.\n\n---\n\n*Nextinotech accompagne les entreprises marocaines en supply chain depuis plus de 20 ans, sans commission sur les outils recommandés.*`),
   crlf(`**Un besoin précis ?** Le premier échange est gratuit et sans engagement : ${EMAIL} — ${PHONE}.\n\n---\n\n*110+ missions menées sur le terrain marocain. 0 commission éditeur, uniquement l'intérêt du client.*`),
-  crlf(`Contactez-moi pour en parler : ${EMAIL} | ${PHONE}.\n\n---\n\n*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*`),
+  crlf(`Contactez-moi pour en parler : ${EMAIL} | ${PHONE}.\n\n---\n\n*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*`),
   crlf(`**Nextinotech** — ${EMAIL} | ${PHONE}\n\n---\n\n*20+ ans de missions terrain, 110+ références, 0 commission sur les solutions recommandées.*`),
 ]
 
@@ -76,7 +76,7 @@ function processFile(filename) {
 
   // 1. Author frontmatter
   if (content.includes('author: "Nextinotech"')) {
-    content = content.replace('author: "Nextinotech"', 'author: "Youssef Bahaida"')
+    content = content.replace('author: "Nextinotech"', 'author: "Youssef B."')
     changed = true
   }
 
@@ -102,12 +102,12 @@ function processFile(filename) {
   }
   const brandCityLine = /Nextinotech — Casablanca, Maroc/g
   if (brandCityLine.test(content)) {
-    content = content.replace(brandCityLine, 'Youssef Bahaida — Casablanca, Maroc')
+    content = content.replace(brandCityLine, 'Youssef B. — Casablanca, Maroc')
     changed = true
   }
   const standaloneBrandSignoff = /^\*\*Nextinotech\*\*[ \t]*$/gm
   if (standaloneBrandSignoff.test(content)) {
-    content = content.replace(standaloneBrandSignoff, '**Youssef Bahaida**')
+    content = content.replace(standaloneBrandSignoff, '**Youssef B.**')
     changed = true
   }
 
@@ -144,7 +144,7 @@ function main() {
   }
 
   console.log(`[humanize-authorship] ${files.length} articles scannés.`)
-  console.log(`[humanize-authorship] ${authorFixed} bylines corrigés (Nextinotech -> Youssef Bahaida).`)
+  console.log(`[humanize-authorship] ${authorFixed} bylines corrigés (Nextinotech -> Youssef B.).`)
   console.log(`[humanize-authorship] ${footerRotated} footers dé-dupliqués / signature corrigée.`)
   console.log(`[humanize-authorship] ${touched} fichiers modifiés au total.`)
 }

@@ -1,7 +1,7 @@
 ---
 title: "Certifications ISO 9001 et IATF 16949 : ce que l'IA Change"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "ia certification iso iatf supply chain, ia iso 9001 conformité, iatf 16949 ia audit, ia préparation audit certification, référentiel qualité ia entreprise"
@@ -40,4 +40,4 @@ Vous préparez une certification ou un renouvellement IATF/ISO ? [Découvrez not
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

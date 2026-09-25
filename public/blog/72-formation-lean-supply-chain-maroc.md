@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Lean Supply Chain au Maroc : Éliminer les Gaspillages et Créer de la Valeur"
 date: "2026-08-02"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/hero-warehouse.webp"
 keywords: "formation lean supply chain maroc, lean logistique maroc, lean six sigma maroc, formation lean manufacturing maroc, kaizen supply chain maroc"
 description: "Formation Lean Supply Chain au Maroc : principes lean appliqués à la logistique, outils VSM, 5S entrepôt, Kaizen et réduction des gaspillages. Nextinotech."

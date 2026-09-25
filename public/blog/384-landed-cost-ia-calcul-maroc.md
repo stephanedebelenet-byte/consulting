@@ -1,7 +1,7 @@
 ---
 title: "IA et Coût Logistique Complet : ce qu'un Produit Coûte Vraiment"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "landed cost ia calcul maroc, coût logistique complet ia, calcul coût total produit importé, ia landed cost achats maroc, coût réel produit importé"

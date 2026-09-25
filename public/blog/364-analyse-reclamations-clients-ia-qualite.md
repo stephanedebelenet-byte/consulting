@@ -1,7 +1,7 @@
 ---
 title: "Analyse des Réclamations Clients par IA : Trouver le Signal"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "analyse réclamations clients ia qualité, ia signal réclamations, catégorisation automatique réclamation, analyse verbatim client ia, ia insight qualité client"
@@ -40,4 +40,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

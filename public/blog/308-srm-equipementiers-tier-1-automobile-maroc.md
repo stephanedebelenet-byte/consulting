@@ -1,7 +1,7 @@
 ---
 title: "SRM Fournisseurs Stratégiques : Gérer la Relation avec les Équipementiers Tier 1 Automobile"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "gestion relation fournisseurs automobile maroc, SRM Tier 1 automobile, équipementiers Renault Stellantis Maroc"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Journal Auto — La filière automobile se consolide au Maroc](https://journalauto.com/industrie/la-filiere-automobile-se-consolide-au-maroc/)

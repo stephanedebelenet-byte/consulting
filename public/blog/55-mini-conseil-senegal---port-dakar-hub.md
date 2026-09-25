@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Sénégal : le Port de Dakar, verrou logistique ouest-africain"
 date: "2026-08-18"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Sénégal, Port de Dakar, corridor Dakar Bamako, logistique Afrique de l'Ouest"

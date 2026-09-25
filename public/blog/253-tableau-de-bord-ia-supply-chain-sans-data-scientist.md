@@ -1,7 +1,7 @@
 ---
 title: "Construire son Premier Tableau de Bord IA Supply Chain sans Data Scientist"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "tableau de bord IA supply chain, no-code BI logistique, dashboard supply chain PME maroc, self-service BI"

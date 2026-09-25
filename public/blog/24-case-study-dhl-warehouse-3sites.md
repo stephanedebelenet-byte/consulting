@@ -1,7 +1,7 @@
 ---
 title: "Case Study: DHL Supply Chain — 3-Site Warehouse Consolidation & Efficiency +25%"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/hero-warehouse.webp"
 type: "case-study"
 keywords: "case study DHL, consolidation entrepôts, WMS, logistique 3PL Maroc"

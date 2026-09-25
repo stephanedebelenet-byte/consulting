@@ -1,7 +1,7 @@
 ---
 title: "OEA dans l'Automobile et l'Aéronautique au Maroc"
 date: "2026-09-20"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "OEA automobile maroc, OEA aéronautique maroc, dédouanement just-in-time Tanger Med, statut OEA équipementier maroc"

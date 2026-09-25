@@ -1,7 +1,7 @@
 ---
 title: "Module SAP MM pour les Achats : ce qu'il Faut Savoir avant de se Lancer"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "SAP MM achats maroc, module SAP materials management, SAP achats guide maroc"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [LinkQuest — Comprendre SAP MM : guide complet 2026](https://linkquest.fr/blog/sap-mm)

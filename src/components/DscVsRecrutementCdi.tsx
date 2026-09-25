@@ -43,7 +43,7 @@ const schema = {
   '@type': 'Article',
   headline: 'DSC en CDI ou Mandat Nextinotech ? Le Comparatif Complet',
   description: "Coût réel, délai de démarrage, engagement et résultat en sortie : le comparatif chiffré entre recruter un Directeur Supply Chain en CDI et confier un mandat à temps partagé.",
-  author: { '@type': 'Person', name: 'Youssef Bahaida', jobTitle: 'Fondateur', worksFor: { '@type': 'Organization', name: 'Nextinotech' } },
+  author: { '@type': 'Person', name: 'Youssef B.', jobTitle: 'Fondateur', worksFor: { '@type': 'Organization', name: 'Nextinotech' } },
   publisher: { '@type': 'Organization', name: 'Nextinotech' },
 }
 

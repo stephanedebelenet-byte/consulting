@@ -1,7 +1,7 @@
 ---
 title: "Litiges Douaniers et Contentieux Import-Export : Éviter les Pièges Coûteux"
 date: "2026-08-27"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "litige douanier maroc import export, contentieux douanier maroc, recours douane maroc, offre transactionnelle douane"
@@ -40,7 +40,7 @@ Votre entreprise fait face à une notification ou un contrôle douanier, ou souh
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Douane.gov.ma — Section 02 : la nature du contentieux en douane](https://www.douane.gov.ma/dms/loadDocument?documentId=30860&application=rdii)

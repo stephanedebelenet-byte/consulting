@@ -1,7 +1,7 @@
 ---
 title: "Hausse des Prix du Carburant : Comment les Transporteurs Marocains Absorbent le Choc en 2026"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "hausse carburant transporteurs maroc 2026, prix gasoil maroc 2026, aide transport routier maroc, coût carburant transport"
@@ -46,7 +46,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Le Petit Journal Marocain — Maroc : les prix des carburants repartent à la hausse](https://www.lepetitjournalmarocain.com/2026/08/03/maroc-les-prix-des-carburants-repartent-a-la-hausse/)

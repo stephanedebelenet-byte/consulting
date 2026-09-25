@@ -1,7 +1,7 @@
 ﻿---
 title: "Compétences Supply Chain les Plus Recherchées au Maroc en 2026"
 date: "2026-08-05"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/analytics.webp"
 keywords: "compétences supply chain Maroc, compétences logistique recherchées, hard skills supply chain Maroc, soft skills logisticien Maroc 2026"
 description: "Quelles compétences supply chain les recruteurs marocains cherchent le plus en 2026 ? Hard skills techniques, soft skills et compétences digitales — le classement complet."

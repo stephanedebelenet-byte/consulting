@@ -1,7 +1,7 @@
 ---
 title: "Buffer Stock au Maroc : pourquoi les Marques E-commerce Stockent Désormais Localement"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "buffer stock e-commerce maroc, stock tampon e-commerce, stockage local livraison rapide maroc"

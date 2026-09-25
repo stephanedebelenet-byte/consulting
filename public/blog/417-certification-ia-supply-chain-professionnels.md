@@ -1,7 +1,7 @@
 ---
 title: "Certifications IA pour Professionnels Supply Chain : Lesquelles Valent l'Investissement"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "certification ia supply chain professionnels, quelle certification ia choisir, certification ia maroc valeur, meilleure certification ia logistique, certification ia carrière supply chain"

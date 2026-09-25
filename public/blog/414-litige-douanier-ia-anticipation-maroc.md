@@ -1,7 +1,7 @@
 ---
 title: "IA et Gestion des Litiges Douaniers : Anticiper les Contrôles"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "litige douanier ia anticipation maroc, ia anticiper contrôle douanier, prévenir litige douanier ia, ia audit risque douanier, anticipation redressement douanier"

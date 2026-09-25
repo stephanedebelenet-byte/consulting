@@ -1,7 +1,7 @@
 ---
 title: "LLM Cloud, API Privée ou Modèle Local : Arbitrer l'Hébergement de l'IA"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "hébergement llm souveraineté maroc, llm local vs cloud entreprise, api privée ia maroc, choisir hébergement ia sensible, ia souveraine maroc secteur pharma"

@@ -1,7 +1,7 @@
 ---
 title: "Bilan Carbone Transport : Calculer et Réduire ses Émissions Scope 3"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "bilan carbone transport scope 3, émissions scope 3 logistique, calcul empreinte carbone transport maroc"

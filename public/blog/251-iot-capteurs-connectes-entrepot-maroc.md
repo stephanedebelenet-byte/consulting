@@ -1,7 +1,7 @@
 ---
 title: "IoT et Capteurs Connectés en Entrepôt : ce qu'ils Changent Vraiment"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "IoT entrepôt maroc, capteurs connectés logistique, maintenance prédictive entrepôt, internet des objets logistique"

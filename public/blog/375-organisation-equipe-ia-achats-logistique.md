@@ -1,7 +1,7 @@
 ---
 title: "Réorganiser une Équipe Achats ou Logistique Autour de l'IA"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "organisation équipe ia achats logistique, réorganiser équipe autour de l'ia, fiche de poste ia achats, nouveaux rôles équipe logistique ia, organigramme ia supply chain"
@@ -38,4 +38,4 @@ Vous voulez ajuster l'organisation de votre équipe autour de l'IA ? [Découvrez
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

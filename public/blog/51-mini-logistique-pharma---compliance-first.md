@@ -1,7 +1,7 @@
 ---
 title: "Logistique Santé au Maroc : ce que la Task Force Vaccination a montré sur la chaîne du froid"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "mini-article"
 schema: "Article"
 keywords: "logistique santé Maroc, chaîne du froid Maroc, cold chain vaccination, DDMRP santé"
@@ -36,4 +36,4 @@ Vous pilotez une chaîne logistique sensible à la température ou aux délais ?
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

@@ -1,7 +1,7 @@
 ---
 title: "Sourcing Assisté par IA : Identifier et Comparer les Fournisseurs Plus Vite"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "sourcing fournisseurs ia maroc, recherche fournisseurs ia, rfi généré par ia, comparaison fournisseurs automatisée, ia identification nouveaux fournisseurs"

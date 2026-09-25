@@ -1,7 +1,7 @@
 ---
 title: "Choisir un Logiciel de Prévision de la Demande : les Critères pour une PME Marocaine"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "logiciel prévision demande maroc, choisir outil forecast PME, MAPE prévision supply chain"

@@ -1,7 +1,7 @@
 ---
 title: "Formation ou Consulting - Quelle Approche ?"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "La formation monte en compétence une équipe qui reste en poste ; le consulting résout un problème précis avec un livrable et un délai engagés. Les deux se combinent souvent : diagnostic en conseil, puis formation des équipes pour ancrer le changement."
@@ -37,4 +37,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

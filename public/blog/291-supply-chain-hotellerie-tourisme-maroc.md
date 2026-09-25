@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain du Secteur Hôtelier et Tourisme : Approvisionner sans Rupture en Haute Saison"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "supply chain hôtellerie tourisme maroc, approvisionnement hôtel maroc, achats CHR maroc"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Generali — Gaspillage alimentaire : pour une meilleure gestion des stocks dans la restauration](https://www.generali.fr/entreprise/actu/gaspillage-alimentaire-meilleure-gestion-stock/)

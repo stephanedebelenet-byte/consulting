@@ -1,7 +1,7 @@
 ---
 title: "Nouvelle Loi sur la Livraison de Colis au Maroc 2026 : ce que change le projet de loi 36-25"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "loi livraison colis maroc 2026, projet de loi 36-25, agrément livraison Maroc, réglementation e-commerce Maroc"
@@ -52,7 +52,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Le Matin.ma — Livraison de colis : prison, amendes et agréments](https://lematin.ma/economie/livraison-de-colisle-maroc-prepare-un-cadre-legal-pour-assainir-le-secteur/345448)

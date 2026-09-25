@@ -1,7 +1,7 @@
 ---
 title: "E-Sourcing : les Plateformes qui Digitalisent les Achats au Maroc"
 date: "2026-08-28"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "e-sourcing maroc, digitalisation achats maroc, plateforme achats maroc, SAP Ariba Odoo Purchase Ivalua"
@@ -40,7 +40,7 @@ Vous voulez évaluer la maturité de votre processus achats avant de choisir une
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Oasis Techno Cloud — Digitalisation des Entreprises au Maroc 2026](https://oasistechnocloud.com/blog/digitalisation-pme-maroc/)

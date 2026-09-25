@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi une Demande de Statut OEA Échoue au Maroc"
 date: "2026-09-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "échec demande OEA maroc, rejet statut OEA, préparer audit OEA, erreurs dossier OEA maroc, traçabilité stock OEA"

@@ -1,7 +1,7 @@
 ---
 title: "Turnover en Entrepôt : Comprendre les Causes Réelles et les Solutions qui Fonctionnent"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "turnover entrepôt maroc, rotation personnel logistique, rétention magasiniers caristes maroc"

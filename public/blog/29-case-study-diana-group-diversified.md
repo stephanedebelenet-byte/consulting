@@ -1,7 +1,7 @@
 ---
 title: "Case Study: Diana Holding — Multi-Filiale S&OP: Stock -20%, Cash -12 Days"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/agro.webp"
 type: "case-study"
 keywords: "case study Diana Holding, S&OP multi-filiales, besoin en fonds de roulement"

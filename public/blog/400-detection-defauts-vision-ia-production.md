@@ -1,7 +1,7 @@
 ---
 title: "Détection de Défauts en Ligne de Production par Vision IA"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "détection défauts vision ia production, contrôle qualité ligne production ia, vision par ordinateur défaut production, roi vision production maroc, ia inspection production"

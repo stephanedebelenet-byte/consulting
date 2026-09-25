@@ -1,7 +1,7 @@
 ---
 title: "Piloter la Transformation IA de sa Supply Chain sans CDO"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "transformation ia supply chain pme maroc, piloter ia sans data scientist, transformation ia sans cdo, gouvernance transformation ia pme, ia pme maroc pilotage"

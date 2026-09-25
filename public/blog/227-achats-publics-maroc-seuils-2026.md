@@ -1,7 +1,7 @@
 ---
 title: "Achats Publics au Maroc : ce qui Change Réellement pour les Fournisseurs en 2026"
 date: "2026-08-25"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "achats publics maroc 2026 seuils, marchés publics maroc PME, décret 2-22-431, enregistrement marchés publics 2026"

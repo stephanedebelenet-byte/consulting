@@ -1,7 +1,7 @@
 ---
 title: "Former ses Acheteurs à l'IA Générative : le Programme en 5 Modules"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "formation ia acheteurs générative, programme formation ia achats, former équipe achats ia, module formation ia acheteur maroc, formation ia générative achats"
@@ -44,4 +44,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

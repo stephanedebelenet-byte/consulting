@@ -1,7 +1,7 @@
 ---
 title: "Commerce Triangulaire Maroc-Afrique-Europe : Structurer ses Flux via les Zones Franches"
 date: "2026-08-27"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "commerce triangulaire maroc afrique, hub logistique maroc afrique europe, zone franche réexportation maroc, Maroc Logistique 2030"

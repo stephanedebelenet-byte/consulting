@@ -1,7 +1,7 @@
 ---
 title: "ISO 9001 pour une PME Logistique Marocaine : par où Commencer"
 date: "2026-08-26"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "ISO 9001 PME maroc, certification ISO 9001 maroc logistique, IMANOR ISO 9001, démarche qualité PME maroc"
@@ -44,7 +44,7 @@ Vous envisagez une démarche ISO 9001 pour votre PME logistique et voulez un dia
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Maroc1000.net — Les certifiés ISO parmi les 1000 premières entreprises au Maroc](https://www.maroc1000.net/Certifi%C3%A9s-ISO)

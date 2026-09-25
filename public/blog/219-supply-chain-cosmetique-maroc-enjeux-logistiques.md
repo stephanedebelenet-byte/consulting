@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Cosmétique au Maroc : les Enjeux Logistiques du Secteur Beauté"
 date: "2026-08-22"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "supply chain cosmétique maroc, industrie cosmétique maroc logistique, distribution cosmétique maroc, filière chimie parachimie maroc"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Infomédiaire — Cosmétique : un secteur à 2 000 entreprises et 45 000 emplois au Maroc](https://www.infomediaire.net/cosmetique-un-secteur-a-2-000-entreprises-et-45-000-emplois-au-maroc/)

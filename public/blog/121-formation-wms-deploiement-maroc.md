@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation WMS au Maroc : Choisir, Déployer et Maîtriser son Système"
 date: "2026-08-05"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/analytics.webp"
 keywords: "formation WMS Maroc, déploiement WMS Maroc, Warehouse Management System formation, formation logiciel entrepôt Maroc"
 description: "Formation WMS au Maroc : comment choisir son logiciel entrepôt, le déployer sans erreur et former ses équipes. Guide pratique par un expert ayant déployé 10+ WMS."

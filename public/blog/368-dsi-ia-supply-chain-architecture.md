@@ -1,7 +1,7 @@
 ---
 title: "IA et DSI Supply Chain : ce que l'Informatique Doit Valider"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "dsi ia supply chain architecture, validation informatique projet ia, checklist dsi ia entreprise, dsi architecture ia sécurité, ia projet informatique validation"

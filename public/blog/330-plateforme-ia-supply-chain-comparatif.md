@@ -1,7 +1,7 @@
 ---
 title: "Build, Buy ou Embedded : Quelle Plateforme IA pour votre Supply Chain"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "plateforme ia supply chain comparatif, build vs buy ia entreprise, ia native erp sap odoo, choisir outil ia supply chain maroc, o9 kinaxis blue yonder"
@@ -45,4 +45,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

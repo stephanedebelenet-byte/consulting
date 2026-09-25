@@ -1,7 +1,7 @@
 ---
 title: "Féminiser les Métiers d'Entrepôt et de Transport : Lever les Freins Culturels au Maroc"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "féminisation métiers logistiques maroc, femmes entrepôt transport, femmes caristes conductrices maroc"

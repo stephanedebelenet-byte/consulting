@@ -1,7 +1,7 @@
 ---
 title: "Classification Tarifaire Douanière par IA : Réduire les Erreurs"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "classification tarifaire ia douane maroc, code sh erreur ia, ia classification douanière, réduire redressement douanier ia, ia code tarifaire import export"

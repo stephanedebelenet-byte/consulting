@@ -1,7 +1,7 @@
 ---
 title: "IA et Gestion des Litiges Clients Logistiques"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "gestion litiges clients ia logistique, ia traitement litige client, accélérer litige logistique ia, ia relation client litige, résolution litige transport ia"
@@ -42,4 +42,4 @@ Vous voulez accélérer le traitement de vos litiges clients ? [Découvrez notre
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

@@ -1,7 +1,7 @@
 ---
 title: "Transit Douanier en Afrique de l'Ouest : les Corridors qui Fonctionnent (et Ceux à Éviter)"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "transit douanier afrique de l'ouest, corridor Abidjan Ouagadougou, SIGMAT transit marchandises"
@@ -40,7 +40,7 @@ Vous exportez régulièrement vers l'Afrique de l'Ouest et voulez sécuriser vos
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Les Afriques — Corridors commerciaux en Afrique de l'Ouest 2026](https://lesafriques.com/2026/08/corridors-commerce-regional-afrique-de-louest-pme-tarifs-douaniers/)

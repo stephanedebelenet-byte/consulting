@@ -1,7 +1,7 @@
 ---
 title: "Business Case IA : le Modèle Financier pour Convaincre la Finance"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "business case ia supply chain modèle financier, convaincre direction financière ia, modèle financier projet ia, template business case ia, argumentaire financier ia entreprise"

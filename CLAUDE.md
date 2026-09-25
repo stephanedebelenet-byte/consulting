@@ -36,7 +36,7 @@ Section inner max-width: 1300px
 ```
 
 ## Real company data
-- Founder: Youssef BAHAIDA
+- Founder: Youssef B. — nom public sur tout le site (articles : `author: "Youssef B."`, signatures, JSON-LD). Ne jamais publier le nom de famille complet : `npm run build` échoue s'il apparaît dans dist/.
 - Email: contact@nextinotech.com
 - Phone: +212 06 63 44 92 00
 - Location: Casablanca, Maroc

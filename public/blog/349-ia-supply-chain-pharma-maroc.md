@@ -1,7 +1,7 @@
 ---
 title: "IA et Pharma : Sérialisation, Conformité et Prévision Réglementée"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/pharma.webp"
 keywords: "ia supply chain pharma maroc, sérialisation ia pharmaceutique, chaîne du froid pharma ia, pénurie médicament ia prévision, bpd ia conformité maroc"
@@ -40,4 +40,4 @@ Vous opérez dans la filière pharma ou dispositifs médicaux ? [Découvrez nos 
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

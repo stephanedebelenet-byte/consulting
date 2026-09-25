@@ -1,7 +1,7 @@
 ---
 title: "Reporting ESG Augmenté par IA : Automatiser la Collecte Fournisseurs"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "reporting esg ia fournisseurs maroc, collecte données esg automatisée, ia reporting csrd fournisseurs, esg supply chain maroc ia, automatisation reporting rse"

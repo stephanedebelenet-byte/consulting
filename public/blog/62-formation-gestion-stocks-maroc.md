@@ -1,7 +1,7 @@
 ---
 title: "Formation Gestion des Stocks au Maroc : Méthodes, Métier et Certifications 2026"
 date: "2026-08-10"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/analytics.webp"
 keywords: "formation gestion des stocks maroc, formation gestionnaire de stocks maroc, gestion des stocks casablanca, gestionnaire stocks compétences maroc, formation approvisionnement maroc, optimisation stocks pme maroc, DDMRP formation maroc"
 description: "Guide complet formation gestion et gestionnaire des stocks au Maroc : méthodes ABC-XYZ, DDMRP, outils (Excel à APS), compétences clés, salaires, programme 4 jours. Par Nextinotech."

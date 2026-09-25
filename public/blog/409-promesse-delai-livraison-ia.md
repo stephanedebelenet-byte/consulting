@@ -1,7 +1,7 @@
 ---
 title: "Personnalisation des Délais de Livraison par IA : Promettre Juste"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "promesse délai livraison ia, personnalisation délai livraison ia, ia prédiction délai livraison maroc, promesse client livraison fiable, ia estimation délai transport"

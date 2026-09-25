@@ -1,7 +1,7 @@
 ---
 title: "Autoroute de la Mer Tanger-Europe : une Alternative au Tout-Routier"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "autoroute de la mer maroc europe, ferry ro-ro tanger med, alternative maritime transport routier maroc"

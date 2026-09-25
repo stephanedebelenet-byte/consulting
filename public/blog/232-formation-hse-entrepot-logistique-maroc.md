@@ -1,7 +1,7 @@
 ---
 title: "Formation HSE Entrepôt & Logistique : ce qu'elle Couvre Concrètement"
 date: "2026-08-26"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "formation HSE entrepôt maroc, formation HSE logistique maroc, formation sécurité entrepôt maroc, audit HSE flash"

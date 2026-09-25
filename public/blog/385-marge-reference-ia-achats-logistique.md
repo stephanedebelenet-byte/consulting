@@ -1,7 +1,7 @@
 ---
 title: "Piloter la Marge par Référence Grâce à l'IA"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "marge référence ia achats logistique, marge produit croisée ia, ia rentabilité par référence, croiser achats logistique vente ia, marge réelle produit ia"

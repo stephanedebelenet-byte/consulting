@@ -1,7 +1,7 @@
 ﻿---
 title: "Entrepôt Frigorifique au Maroc : Concevoir et Gérer la Logistique du Froid 2026"
 date: "2026-08-04"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/conseil.webp"
 keywords: "entrepôt frigorifique maroc, logistique du froid maroc, chambre froide entrepôt maroc, cold chain maroc, logistique agroalimentaire froid maroc"
 description: "Entrepôt frigorifique au Maroc : conception, réglementation, gestion opérationnelle et coûts. Guide complet pour la logistique du froid dans les secteurs agroalimentaire et pharmaceutique."

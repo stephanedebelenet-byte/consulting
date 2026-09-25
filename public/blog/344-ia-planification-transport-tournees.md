@@ -1,7 +1,7 @@
 ---
 title: "Planifier ses Tournées et son Plan Transport avec l'IA"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "ia planification transport tournées, ia plan transport au-delà tms, optimisation tournées ia maroc, arbitrage exception transport ia, ia explication tournée"
@@ -40,4 +40,4 @@ Vous voulez enrichir votre planification transport existante ? [Découvrez notre
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

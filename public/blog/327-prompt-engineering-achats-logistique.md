@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering pour les Métiers Achats et Supply Chain"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "prompt engineering achats logistique, prompts ia supply chain maroc, méthode prompt chatgpt achats, écrire un bon prompt supply chain, ia générative acheteur"

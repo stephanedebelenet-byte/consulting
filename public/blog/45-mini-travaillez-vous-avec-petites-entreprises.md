@@ -1,7 +1,7 @@
 ---
 title: "Travaillez-vous Avec Petites Entreprises ?"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Oui — Nextinotech est positionné spécifiquement PME et ETI marocaines, avec une entrée accessible dès 35 000 MAD HT pour un diagnostic flash de 2 semaines."

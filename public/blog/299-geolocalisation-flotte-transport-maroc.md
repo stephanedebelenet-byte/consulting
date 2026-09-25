@@ -1,7 +1,7 @@
 ---
 title: "Suivi de Flotte et Géolocalisation : les Outils qui Réduisent Réellement les Coûts"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "géolocalisation flotte transport maroc, télématique flotte, réduction coût carburant flotte"

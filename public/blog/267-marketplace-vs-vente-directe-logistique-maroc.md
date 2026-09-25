@@ -1,7 +1,7 @@
 ---
 title: "Marketplace vs Vente Directe : quelles Implications Logistiques pour les Vendeurs Marocains"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "marketplace logistique maroc, vente directe vs marketplace, site e-commerce propre logistique"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B., fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Ecommerce Nation — Marketplace : quel modèle logistique choisir ?](https://www.ecommerce-nation.fr/modele-logistique-marketplace/)

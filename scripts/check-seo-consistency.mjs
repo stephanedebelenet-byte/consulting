@@ -23,7 +23,7 @@
  * Usage : node scripts/check-seo-consistency.mjs   (après `npm run build`)
  * Code de sortie : 1 si une incohérence est trouvée, 0 sinon.
  */
-import { readFileSync, existsSync } from 'node:fs'
+import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 
 const SITE = 'https://nextinotech.com'
@@ -180,6 +180,27 @@ for (const loc of locs) {
 }
 
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
+
+// ── Règle 9 : nom public du fondateur (26/09/2026) ─────────────────────────
+// Le site présente le fondateur sous le nom "Youssef B." (décision du
+// 26/09/2026). Le nom de famille complet ne doit apparaître dans aucune page
+// publiée ni dans llms.txt / llms-full.txt. Les articles écrits ailleurs
+// (autres branches, anciens scripts) doivent utiliser author: "Youssef B.".
+{
+  const FULL_NAME = /bahaida/i
+  const offenders = []
+  const walk = (dir) => {
+    for (const e of readdirSync(dir, { withFileTypes: true })) {
+      const p = join(dir, e.name)
+      if (e.isDirectory()) walk(p)
+      else if (/\.(html|txt|xml)$/.test(e.name) && FULL_NAME.test(readFileSync(p, 'utf-8'))) offenders.push(p.slice(DIST_DIR.length))
+    }
+  }
+  walk(DIST_DIR)
+  if (offenders.length) {
+    fail(`Nom de famille complet du fondateur publié dans ${offenders.length} fichier(s), utiliser "Youssef B." : ${offenders.slice(0, 5).join(', ')}${offenders.length > 5 ? '…' : ''}`)
+  }
+}
 
 // ── Règle 7 : vraie page 404 (25/09/2026) ─────────────────────────────────
 // vercel.json ne réécrit plus toute adresse vers index.html : Vercel sert

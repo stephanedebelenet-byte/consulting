@@ -1,7 +1,7 @@
 ---
 title: "Détection d'Anomalies et Alertes Intelligentes sur Stocks et Commandes"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "détection anomalies stock ia, alerte intelligente commande, rupture larvée détection ia, commande aberrante ia, dérive couverture stock ia"

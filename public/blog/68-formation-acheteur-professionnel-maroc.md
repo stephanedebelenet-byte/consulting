@@ -1,7 +1,7 @@
 ---
 title: "Formation Acheteur Professionnel au Maroc : Compétences, Salaires et Débouchés 2026"
 date: "2026-08-10"
-author: "Youssef Bahaida"
+author: "Youssef B."
 image: "/images/business.webp"
 keywords: "formation acheteur professionnel maroc, cursus acheteur maroc, acheteur supply chain maroc, formation achats casablanca, certification acheteur maroc, négociation achats formation maroc, responsable achats maroc"
 description: "Guide complet formation Acheteur Professionnel au Maroc : ce que fait vraiment un acheteur, compétences, programme 3 modules, certifications, salaires et débouchés 2026."

@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Mali : logistique d'un pays enclavé entre trois corridors"
 date: "2026-08-18"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Mali, pays enclavé, corridor Dakar Bamako, corridor Abidjan Bamako, logistique Sahel"

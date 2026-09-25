@@ -1,7 +1,7 @@
 ---
 title: "Multi-Sourcing et Stocks Stratégiques : les Leçons de Résilience Post-Covid Encore Valables"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "multi-sourcing résilience supply chain, stocks stratégiques 2026, leçons covid supply chain"
@@ -40,7 +40,7 @@ Vous voulez réévaluer votre exposition aux ruptures fournisseur cinq ans aprè
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Industrie Magazine — Risques supply chain 2026 : plans de résilience efficaces](https://industrie-magazine.fr/chaines-d-approvisionnement-les-risques-2026-et-plans-de-resilience/)

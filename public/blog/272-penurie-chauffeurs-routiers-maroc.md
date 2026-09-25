@@ -1,7 +1,7 @@
 ---
 title: "Pénurie de Chauffeurs Routiers : Comment les Entreprises Marocaines s'Adaptent"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "pénurie chauffeurs routiers maroc, recrutement chauffeur poids lourd maroc, transport routier marchandises maroc"

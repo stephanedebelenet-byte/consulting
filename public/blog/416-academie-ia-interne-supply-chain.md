@@ -1,7 +1,7 @@
 ---
 title: "Créer son Académie IA Interne Supply Chain"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/office.webp"
 keywords: "académie ia interne supply chain, académie ia entreprise maroc, former en interne ia supply chain, structurer académie ia, méthode académie ia entreprise"

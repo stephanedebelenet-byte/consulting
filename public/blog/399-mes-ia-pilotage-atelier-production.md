@@ -1,7 +1,7 @@
 ---
 title: "MES et IA : ce que l'Intelligence Artificielle Ajoute à l'Atelier"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "mes ia pilotage atelier production, ia mes usine maroc, intégration ia mes production, mes augmenté ia, ia suivi production temps réel"

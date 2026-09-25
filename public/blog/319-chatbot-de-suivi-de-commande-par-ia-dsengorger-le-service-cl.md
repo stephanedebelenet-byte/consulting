@@ -1,7 +1,7 @@
 ---
 title: "Chatbot de Suivi de Commande par IA : Désengorger le Service Client Logistique"
 date: "2026-09-11"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/business.webp"
 keywords: "chatbot suivi commande ia, wismo ia logistique maroc, service client logistique automatisation, ia adv suivi livraison, chatbot logistique maroc"

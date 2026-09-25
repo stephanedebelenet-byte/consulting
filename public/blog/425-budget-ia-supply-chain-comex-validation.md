@@ -1,7 +1,7 @@
 ---
 title: "Ce que le Comex Doit Exiger Avant de Valider un Budget IA"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "budget ia supply chain comex validation, comex exiger avant budget ia, questions comex projet ia, validation budget ia comité direction, checklist comex ia"

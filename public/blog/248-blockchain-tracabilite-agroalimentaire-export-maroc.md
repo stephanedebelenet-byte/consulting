@@ -1,7 +1,7 @@
 ---
 title: "Blockchain et Traçabilité Agroalimentaire : un Vrai Levier Export pour les Coopératives Marocaines"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "blockchain traçabilité agroalimentaire maroc, traçabilité export coopérative maroc, blockchain agriculture souss-massa"
@@ -40,7 +40,7 @@ Vous êtes une coopérative ou un exportateur agroalimentaire qui veut structure
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B. — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [African Scientific Journal — Contribution de la technologie blockchain au système de traçabilité dans la chaîne d'approvisionnement agroalimentaire des coopératives agricoles de la région Souss-Massa](https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/1153)

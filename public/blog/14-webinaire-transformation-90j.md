@@ -1,7 +1,7 @@
 ﻿---
 title: "Webinaire GRATUIT : Transformation Supply Chain en 90 Jours"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B."
 type: "webinaire"
 keywords: "webinaire supply chain, formation gratuite, transformation supply chain, consultant"
 description: "Webinaire gratuit 45min : Transformation supply chain réaliste en 90 jours. Roadmap détaillée, risques mitigés, ROI calculé. Inscription gratuite."
@@ -52,7 +52,7 @@ description: "Webinaire gratuit 45min : Transformation supply chain réaliste en
 
 ## Speaker
 
-**Youssef Bahaida**
+**Youssef B.**
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
 - 20+ ans expérience (OCP, DHL, Renault, Douja)
 - 110+ missions réussies
@@ -96,4 +96,4 @@ Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale
 
 ---
 
-**Youssef Bahaida**
+**Youssef B.**
