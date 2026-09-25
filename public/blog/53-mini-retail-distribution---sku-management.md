@@ -26,6 +26,8 @@ L'ingénierie des solutions logistiques pour ces marques a permis d'atteindre un
 
 > **Une plateforme multi-marques ne se pilote pas comme un entrepôt mono-client.** Chaque marque garde son cahier des charges propre — la performance globale de la plateforme se construit dans l'arbitrage entre ces exigences, pas dans leur uniformisation.
 
+**À lire aussi :** [Distribution au Maroc : du Fabricant à l'Épicerie de Quartier](/blog/distribution-au-maroc-du-fabricant-a-l-epicerie-de-quartier) · [Promotions Commerciales : Maîtriser leur Impact Logistique](/blog/promotions-commerciales-maitriser-leur-impact-logistique)
+
 ## Ce qu'il faut retenir
 
 La distribution retail et FMCG au Maroc repose sur des plateformes logistiques de plus en plus mutualisées, où plusieurs marques partagent une même infrastructure. La vraie compétence recherchée n'est pas la gestion d'un entrepôt, c'est l'arbitrage permanent entre les besoins de plusieurs clients sur une même surface.
