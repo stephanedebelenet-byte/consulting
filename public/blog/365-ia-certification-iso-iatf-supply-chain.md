@@ -12,13 +12,7 @@ description: "Ce que l'IA change réellement pour la préparation et le maintien
 
 ![Bureau avec ordinateur, notes et documents professionnels](/images/office.webp)
 
-**Un système qualité certifié ISO 9001 ou IATF 16949 repose sur une documentation exhaustive et une traçabilité sans faille — exactement le type de charge que l'IA excelle à alléger. Mais les référentiels eux-mêmes n'ont pas encore statué clairement sur la place de l'IA générative dans les processus décisionnels qualité, ce qui impose une prudence particulière.** Voici ce qui est déjà pertinent, et ce qui reste à valider avec votre organisme certificateur.
-
-## Ce que l'IA fait déjà utilement
-
-- **Pré-vérification de complétude documentaire** avant un audit, sur l'ensemble des dossiers plutôt qu'un échantillon.
-- **Synthèse des écarts** entre deux versions de procédures pour préparer une revue de conformité.
-- **Rédaction assistée** de rapports de non-conformité et de plans d'actions correctives, à valider par le responsable qualité.
+**Un système qualité certifié ISO 9001 ou IATF 16949 repose sur une documentation exhaustive et une traçabilité sans faille.** C'est exactement le type de charge que l'IA excelle à alléger. Mais les référentiels eux-mêmes n'ont pas encore statué clairement sur la place de l'IA générative dans les processus décisionnels qualité, ce qui impose une prudence particulière — voici ce qui est déjà pertinent, et ce qui reste à valider avec votre organisme certificateur.
 
 ## Ce que les référentiels n'autorisent pas sans validation humaine
 
@@ -28,13 +22,17 @@ description: "Ce que l'IA change réellement pour la préparation et le maintien
 | Rédaction assistée de rapports | Autorisé, validation humaine obligatoire |
 | Décision finale de conformité | Reste et doit rester une décision humaine qualifiée |
 
+## Ce que l'IA fait déjà utilement
+
+La pré-vérification de complétude documentaire avant un audit vient en tête, appliquée à l'ensemble des dossiers plutôt qu'à un simple échantillon. La synthèse des écarts entre deux versions de procédures facilite ensuite la préparation d'une revue de conformité, un exercice qui prenait auparavant des heures de relecture croisée. La rédaction assistée de rapports de non-conformité et de plans d'actions correctives complète ce trio utile — toujours à valider par le responsable qualité avant diffusion.
+
 ::stat:: 100% — part des décisions de conformité qui doivent rester validées par un responsable qualité habilité, quel que soit le niveau d'assistance IA en amont
 
 > **L'IA prépare le dossier de certification, elle ne se substitue jamais au jugement du responsable qualité habilité.** Les auditeurs IATF et ISO restent attentifs à la traçabilité de la décision — un usage d'IA non documenté dans le système qualité peut lui-même devenir un point de non-conformité.
 
 ## Ce qu'il faut retenir
 
-L'IA allège efficacement la préparation documentaire des certifications ISO 9001 et IATF 16949, mais la décision finale de conformité reste une prérogative humaine. Tout usage de l'IA dans le processus qualité doit être documenté dans le système lui-même, pour rester audit-proof.
+L'IA allège efficacement la préparation documentaire des certifications ISO 9001 et IATF 16949, mais la décision finale de conformité reste, et doit rester, une prérogative humaine. Tout usage de l'IA dans le processus qualité gagne à être documenté dans le système lui-même — c'est ce qui le garde audit-proof.
 
 Vous préparez une certification ou un renouvellement IATF/ISO ? [Découvrez notre offre de conseil](/conseil) ou [contactez-nous](/contact).
 

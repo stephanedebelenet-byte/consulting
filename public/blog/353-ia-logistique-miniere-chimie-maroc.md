@@ -12,13 +12,9 @@ description: "Playbook IA pour la logistique minière et chimique marocaine : pl
 
 ![Chantier BTP et industrie lourde](/images/construction.webp)
 
-**La logistique du vrac minier et chimique marocain — au premier rang, l'écosystème OCP — fonctionne à une échelle qui rend chaque point de pourcentage d'efficacité train-port immédiatement significatif en volume. C'est un terrain où l'IA de planification et de maintenance prédictive a le plus d'histoire et le ROI le plus documenté au niveau mondial, encore sous-exploité au-delà des plus grands acteurs marocains.** Voici les trois priorités du secteur.
+**La logistique du vrac minier et chimique marocain — au premier rang, l'écosystème OCP — fonctionne à une échelle qui rend chaque point de pourcentage d'efficacité train-port immédiatement significatif en volume.** C'est un terrain où l'IA de planification et de maintenance prédictive a le plus d'histoire au niveau mondial, et le ROI le mieux documenté — pourtant encore sous-exploité au-delà des plus grands acteurs marocains.
 
-## Trois cas d'usage à échelle industrielle
-
-- **Planification intégrée vrac** : synchroniser extraction, transport ferroviaire et chargement portuaire pour réduire les temps d'attente à chaque interface.
-- **Maintenance prédictive lourde** : anticiper les pannes sur les équipements à cycle de remplacement long et coûteux (convoyeurs, wagons, équipements portuaires).
-- **Optimisation des cadences train/port** : réduire les temps d'immobilisation portuaire, un poste de coût majeur dans l'économie du vrac.
+> **Dans le vrac minier, un gain d'efficacité de 2% sur une interface se traduit en volumes considérables sur une année.** C'est ce qui justifie des investissements IA que d'autres secteurs ne pourraient pas amortir aussi vite. Complète notre article sur la [maintenance prédictive des équipements](/blog/maintenance-prdictive-des-quipements-dentrept-et-de-la-flott).
 
 ::stat:: 13 milliards de dollars — l'investissement OCP-Fortescue annoncé dans l'hydrogène vert, qui va exiger une chaîne logistique entièrement nouvelle à construire
 
@@ -30,11 +26,13 @@ description: "Playbook IA pour la logistique minière et chimique marocaine : pl
 | Transport → chargement portuaire | Temps d'attente | Optimisation des créneaux de chargement |
 | Équipements lourds | Disponibilité | Maintenance prédictive |
 
-> **Dans le vrac minier, un gain d'efficacité de 2% sur une interface se traduit en volumes considérables sur une année — c'est ce qui justifie des investissements IA que d'autres secteurs ne pourraient pas amortir aussi vite.** Complète notre article sur la [maintenance prédictive des équipements](/blog/maintenance-prdictive-des-quipements-dentrept-et-de-la-flott).
+## Trois cas d'usage à échelle industrielle
+
+La planification intégrée du vrac consiste à synchroniser extraction, transport ferroviaire et chargement portuaire, pour réduire les temps d'attente à chaque interface plutôt que de les subir comme une fatalité opérationnelle. La maintenance prédictive lourde, elle, anticipe les pannes sur des équipements à cycle de remplacement long et coûteux — convoyeurs, wagons, équipements portuaires — là où un arrêt non planifié se chiffre vite en semaines de production perdue. Enfin, l'optimisation des cadences train-port cible directement les temps d'immobilisation portuaire, un poste de coût majeur dans toute l'économie du vrac.
 
 ## Ce qu'il faut retenir
 
-Dans les mines et la chimie marocaines, l'IA porte sur la planification intégrée du vrac, la maintenance prédictive des équipements lourds et l'optimisation des cadences train-port — des cas d'usage à échelle industrielle où chaque gain de pourcentage compte fortement en volume.
+Dans les mines et la chimie marocaines, l'IA porte sur trois cas d'usage à échelle industrielle — planification intégrée du vrac, maintenance prédictive des équipements lourds, optimisation des cadences train-port — où chaque gain de pourcentage compte fortement en volume, bien plus que dans la majorité des autres secteurs.
 
 Vous opérez dans la logistique minière ou chimique ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 

@@ -12,15 +12,13 @@ description: "Ce que la transformation IA change pour la Direction Supply Chain 
 
 ![Réunion de conseil et accompagnement stratégique](/images/conseil.webp)
 
-**Une PME ou ETI qui n'a pas les moyens ou le besoin d'un directeur supply chain à temps plein a longtemps eu un choix limité : recruter à temps plein malgré tout, ou se priver de pilotage stratégique. La Direction Supply Chain à temps partagé répond à ce dilemme — et l'IA change désormais la nature de ce que ce rôle peut couvrir en un temps limité.** Voici ce qui évolue concrètement.
+**Une PME ou ETI qui n'a pas les moyens ou le besoin d'un directeur supply chain à temps plein a longtemps eu un choix limité.** Recruter à temps plein malgré tout, ou se priver de pilotage stratégique. La Direction Supply Chain à temps partagé répond à ce dilemme depuis des années — et l'IA change désormais la nature de ce que ce rôle peut couvrir en un temps de présence limité.
+
+::stat:: 1 à 2 jours/semaine — présence typique d'une Direction Supply Chain à temps partagé, rendue plus efficace par le suivi continu outillé par l'IA
 
 ## Ce que l'IA change pour un DSC à temps partagé
 
-- **Visibilité continue malgré la présence partielle** : tableaux de bord et alertes IA permettent un suivi entre les jours de présence physique.
-- **Préparation accélérée des comités de pilotage** : synthèses et scénarios générés avant chaque intervention, pour maximiser le temps de présence sur la décision.
-- **Transfert de compétence facilité** : les outils IA laissés en place continuent de structurer le pilotage même en dehors des jours de présence du DSC.
-
-::stat:: 1 à 2 jours/semaine — présence typique d'une Direction Supply Chain à temps partagé, rendue plus efficace par le suivi continu outillé par l'IA
+La visibilité continue est le premier changement, malgré une présence partielle : tableaux de bord et alertes permettent un suivi réel entre les jours de présence physique, plutôt qu'un trou noir jusqu'à la prochaine visite. La préparation des comités de pilotage s'accélère aussi — synthèses et scénarios générés avant chaque intervention, pour que le temps de présence serve la décision, pas la mise à jour des chiffres. Enfin, le transfert de compétence devient plus naturel : les outils laissés en place continuent de structurer le pilotage même en dehors des jours où le DSC est physiquement là.
 
 ## Le tableau comparatif
 
@@ -34,7 +32,7 @@ description: "Ce que la transformation IA change pour la Direction Supply Chain 
 
 ## Ce qu'il faut retenir
 
-L'IA rend la Direction Supply Chain à temps partagé plus efficace en assurant une visibilité continue entre les jours de présence physique, sans en changer le modèle économique. C'est un renforcement du modèle, pas une remise en cause.
+L'IA rend la Direction Supply Chain à temps partagé plus efficace en assurant une visibilité continue entre les jours de présence physique, sans en changer le modèle économique sous-jacent. C'est un renforcement du modèle existant, pas une remise en cause.
 
 Vous voulez évaluer la Direction Supply Chain à Temps Partagé pour votre entreprise ? [Découvrez notre offre](/direction-supply-chain-temps-partage) ou [contactez-nous](/contact).
 

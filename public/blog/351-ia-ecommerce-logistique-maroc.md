@@ -12,15 +12,17 @@ description: "Playbook IA pour l'e-commerce et le last-mile marocain : prévisio
 
 ![Camion de transport et logistique routière](/images/transport.webp)
 
-**Le paiement à la livraison (COD) reste dominant dans l'e-commerce marocain, et son principal problème logistique — le taux d'échec de livraison — se prévoit désormais avec une précision suffisante pour agir avant l'échec, pas seulement le constater après. C'est le premier cas d'usage IA à traiter pour tout acteur e-commerce ou dernier kilomètre marocain.** Voici les trois priorités du secteur.
+**Le paiement à la livraison reste dominant dans le commerce en ligne marocain, et son principal problème logistique — le taux d'échec de livraison — se prévoit désormais avec une précision suffisante pour agir avant l'échec, pas seulement le constater après.** C'est le premier cas d'usage IA à traiter pour tout acteur e-commerce ou dernier kilomètre du royaume.
 
-## Trois cas d'usage e-commerce prioritaires
+::stat:: 30 à 40% — taux d'échec de livraison COD typique sans scoring prédictif, contre 15 à 20% avec un scoring de risque bien calibré
+
+> **Un taux d'échec de livraison de 30% n'est pas une fatalité du marché marocain, c'est un problème de scoring qui se résout avec de la donnée historique bien exploitée.** C'est l'un des cas d'usage IA au ROI le plus rapide et le plus direct pour un marchand en ligne. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl).
+
+## Trois cas d'usage prioritaires
 
 - **Prévision du risque d'échec COD** : scorer chaque commande selon l'historique de l'adresse, du client et du créneau, pour prioriser les appels de confirmation.
 - **Optimisation des créneaux de livraison** : proposer les créneaux à plus forte probabilité de succès plutôt qu'un créneau générique.
-- **Tri et routage des retours** : accélérer le traitement des retours, qui représentent un coût caché largement sous-estimé par les marchands marocains.
-
-::stat:: 30 à 40% — taux d'échec de livraison COD typique sans scoring prédictif, contre 15 à 20% avec un scoring de risque bien calibré
+- **Tri et routage des retours** : accélérer le traitement des retours, un coût caché largement sous-estimé par les marchands.
 
 ## Le tableau des leviers d'action
 
@@ -30,11 +32,9 @@ description: "Playbook IA pour l'e-commerce et le last-mile marocain : prévisio
 | Optimisation créneaux | Proposition du créneau à plus forte probabilité de succès |
 | Tri des retours | Priorisation du traitement selon la valeur et l'état du colis |
 
-> **Un taux d'échec de livraison de 30% n'est pas une fatalité du marché marocain, c'est un problème de scoring qui se résout avec de la donnée historique bien exploitée.** C'est l'un des cas d'usage IA au ROI le plus rapide et le plus direct pour un marchand e-commerce. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl).
-
 ## Ce qu'il faut retenir
 
-Pour l'e-commerce et le last-mile marocain, l'IA se concentre sur le scoring du risque d'échec COD, l'optimisation des créneaux de livraison et le tri des retours — trois leviers directs sur les coûts logistiques les plus visibles du secteur.
+Pour le commerce en ligne et le dernier kilomètre, l'IA se concentre sur trois leviers directs : le scoring du risque d'échec COD, l'optimisation des créneaux de livraison et le tri des retours. Ce sont, dans notre expérience terrain, les postes de coûts logistiques les plus visibles — et parmi les plus vite corrigés une fois qu'on les regarde avec la bonne donnée.
 
 Vous opérez en e-commerce ou en dernier kilomètre ? [Découvrez nos services de conseil](/conseil) ou [contactez-nous](/contact).
 

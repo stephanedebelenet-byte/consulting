@@ -12,15 +12,9 @@ description: "Comment un directeur supply chain construit une feuille de route I
 
 ![Réunion de conseil et accompagnement stratégique](/images/conseil.webp)
 
-**La majorité des directions supply chain marocaines que nous accompagnons n'ont pas de problème d'accès à l'IA — elles ont un problème de dispersion. Cinq initiatives lancées en parallèle, aucune menée à maturité, un budget consommé sur des pilotes qui ne débouchent jamais sur un déploiement à l'échelle. Une feuille de route IA n'est pas une liste de projets, c'est un séquençage.** Voici la méthode pour la construire.
+**La majorité des directions supply chain marocaines que nous accompagnons n'ont pas de problème d'accès à l'IA.** Elles ont un problème de dispersion : cinq initiatives lancées en parallèle, aucune menée à maturité, un budget consommé sur des pilotes qui ne débouchent jamais sur un déploiement à l'échelle. Une feuille de route IA n'est pas une liste de projets, c'est un séquençage.
 
-## La méthode de séquençage en 3 horizons
-
-1. **Horizon 1 (0-6 mois)** : cas d'usage à ROI rapide et faible risque — chatbot, copilot bureautique, analyse documentaire. L'objectif est de prouver la valeur et de construire l'adhésion.
-2. **Horizon 2 (6-18 mois)** : cas d'usage nécessitant une donnée structurée — prévision, S&OP augmenté, SRM. Nécessite le travail de fond sur la [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue).
-3. **Horizon 3 (18-36 mois)** : transformation structurelle — control tower, planification intégrée bout-en-bout.
-
-::stat:: 3 initiatives — le nombre maximal de projets IA qu'une direction supply chain de taille PME/ETI peut mener en parallèle sans diluer les résultats
+> **Une feuille de route IA qui tient sur une seule page a plus de chances d'être exécutée qu'un plan de transformation de 40 slides.** La discipline de la priorisation compte plus que l'exhaustivité de la vision. Voir aussi notre article sur les [7 erreurs stratégiques qui font échouer un projet IA](/blog/les-7-erreurs-stratgiques-qui-font-chouer-un-projet-ia-suppl).
 
 ## Le tableau de priorisation
 
@@ -30,11 +24,17 @@ description: "Comment un directeur supply chain construit une feuille de route I
 | Faisabilité data | La donnée nécessaire existe-t-elle déjà, propre ? |
 | Adhésion équipe | L'équipe concernée est-elle volontaire ou récalcitrante ? |
 
-> **Une feuille de route IA qui tient sur une seule page a plus de chances d'être exécutée qu'un plan de transformation de 40 slides.** La discipline de la priorisation compte plus que l'exhaustivité de la vision. Voir aussi notre article sur les [7 erreurs stratégiques qui font échouer un projet IA](/blog/les-7-erreurs-stratgiques-qui-font-chouer-un-projet-ia-suppl).
+## La méthode de séquençage en 3 horizons
+
+1. **Horizon 1 (0-6 mois)** : cas d'usage à ROI rapide et faible risque — chatbot, copilot bureautique, analyse documentaire. L'objectif ici n'est pas la performance maximale, c'est de prouver la valeur et de construire l'adhésion.
+2. **Horizon 2 (6-18 mois)** : cas d'usage nécessitant une donnée structurée — prévision, S&OP augmenté, SRM. Ce palier suppose d'avoir déjà fait le travail de fond sur la [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue), sans quoi il échoue presque toujours.
+3. **Horizon 3 (18-36 mois)** : la transformation structurelle proprement dite — control tower, planification intégrée bout-en-bout.
+
+::stat:: 3 initiatives — le nombre maximal de projets IA qu'une direction supply chain de taille PME/ETI peut mener en parallèle sans diluer les résultats
 
 ## Ce qu'il faut retenir
 
-Une feuille de route IA supply chain efficace se construit en trois horizons séquencés — valeur rapide, structuration de la donnée, transformation profonde — avec un maximum de trois initiatives menées en parallèle. La dispersion est le principal facteur d'échec observé sur le terrain.
+Une feuille de route IA supply chain efficace se construit en trois horizons séquencés — valeur rapide, structuration de la donnée, transformation profonde —, avec un maximum de trois initiatives menées en parallèle à tout moment. Sur le terrain, la dispersion reste de loin le premier facteur d'échec, bien avant la technologie elle-même.
 
 Vous voulez construire votre feuille de route IA supply chain ? [Découvrez notre offre de conseil](/conseil) ou notre [Direction Supply Chain à temps partagé](/direction-supply-chain-temps-partage). [Contactez-nous](/contact).
 
