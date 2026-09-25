@@ -1,7 +1,7 @@
 ---
 title: "Coupe du Monde 2030 : les Enjeux Logistiques du Maroc"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "Coupe du Monde 2030 logistique, Mondial 2030 Maroc infrastructures, logistique événementielle, BTP 2030 approvisionnement, supply chain Mondial 2030"

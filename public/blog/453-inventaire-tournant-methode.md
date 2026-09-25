@@ -1,7 +1,7 @@
 ---
 title: "Inventaire Tournant : en Finir avec l'Inventaire Annuel"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "inventaire tournant, inventaire permanent, comptage cyclique, fiabilité des stocks, taux d'exactitude inventaire"

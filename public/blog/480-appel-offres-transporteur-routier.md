@@ -1,7 +1,7 @@
 ---
 title: "Choisir un Transporteur Routier : la Grille d'Appel d'Offres"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "appel d'offres transport, choisir transporteur routier, cahier des charges transport, sélection transporteur Maroc, contrat transport"

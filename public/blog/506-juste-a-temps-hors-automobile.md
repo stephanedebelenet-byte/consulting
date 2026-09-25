@@ -1,7 +1,7 @@
 ---
 title: "Juste-à-Temps hors Automobile : Applicable ou Illusion ?"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "juste-à-temps, JIT hors automobile, flux tendu PME, juste à temps agroalimentaire, zéro stock"
@@ -70,4 +70,4 @@ Vous voulez réduire vos stocks sans multiplier les ruptures ? [Découvrez notre
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

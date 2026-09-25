@@ -1,7 +1,7 @@
 ---
 title: "Évaluation des Fournisseurs : Construire sa Grille de Notation"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "évaluation des fournisseurs, grille de notation fournisseur, performance fournisseur, scorecard fournisseur, homologation fournisseur"
@@ -83,4 +83,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

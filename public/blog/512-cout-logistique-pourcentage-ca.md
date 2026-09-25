@@ -1,7 +1,7 @@
 ---
 title: "Coût Logistique en Pourcentage du CA : Calculer le Sien"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "coût logistique pourcentage chiffre d'affaires, calcul coût logistique, coût logistique complet, ratio coût logistique, benchmark coût logistique Maroc"

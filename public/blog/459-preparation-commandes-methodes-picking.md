@@ -1,7 +1,7 @@
 ---
 title: "Préparation de Commandes : les Méthodes de Picking Comparées"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "préparation de commandes, méthodes de picking, picking entrepôt, order picking, organisation préparation commandes"
@@ -78,7 +78,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [De Koster, Le-Duc, Roodbergen — Design and control of warehouse order picking: A literature review (European Journal of Operational Research)](https://www.sciencedirect.com/science/article/abs/pii/S0377221706006473)

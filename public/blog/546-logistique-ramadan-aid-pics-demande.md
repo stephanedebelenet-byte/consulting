@@ -1,7 +1,7 @@
 ---
 title: "Logistique du Ramadan et de l'Aïd : Anticiper les Pics"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "logistique Ramadan, supply chain Ramadan Maroc, pic de demande Ramadan, logistique Aïd, planification saisonnière Maroc"

@@ -1,7 +1,7 @@
 ---
 title: "Importer pour la Première Fois au Maroc : la Checklist"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "importer au Maroc, première importation Maroc, checklist importation, démarches import Maroc, importer marchandises PME"

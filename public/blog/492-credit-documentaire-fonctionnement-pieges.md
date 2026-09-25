@@ -1,7 +1,7 @@
 ---
 title: "Crédit Documentaire : Fonctionnement et Pièges à Éviter"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "crédit documentaire, crédoc, lettre de crédit import Maroc, RUU 600, réserves documentaires"

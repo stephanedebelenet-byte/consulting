@@ -1,7 +1,7 @@
 ---
 title: "Goulot d'Étranglement : la Théorie des Contraintes Appliquée"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "goulot d'étranglement, théorie des contraintes, TOC, identifier goulot production, drum buffer rope"

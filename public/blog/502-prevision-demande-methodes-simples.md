@@ -1,7 +1,7 @@
 ---
 title: "Prévision de la Demande : 4 Méthodes Simples qui Marchent"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "prévision de la demande, méthodes de prévision, moyenne mobile, lissage exponentiel, prévision des ventes Excel"

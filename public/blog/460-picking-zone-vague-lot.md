@@ -1,7 +1,7 @@
 ---
 title: "Picking par Zone, par Vague ou par Lot : Lequel Choisir"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "picking par zone, picking par vague, batch picking, wave picking, picking par lot entrepôt"

@@ -1,7 +1,7 @@
 ---
 title: "Fret Aérien depuis Casablanca : Quand le Choisir Vraiment"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "fret aérien Casablanca, transport aérien marchandises Maroc, fret aérien vs maritime, poids taxable aérien, aéroport Mohammed V fret"
@@ -73,7 +73,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Agence Ecofin — Coupe du monde 2030 : le Maroc accélère les projets d'infrastructures de mobilité](https://www.agenceecofin.com/transports/0810-122245-coupe-du-monde-2030-le-maroc-accelere-les-projets-d-infrastructures-de-mobilite)

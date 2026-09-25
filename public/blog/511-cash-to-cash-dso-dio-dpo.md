@@ -1,7 +1,7 @@
 ---
 title: "Cycle Cash-to-Cash : DSO, DIO et DPO pour la Supply Chain"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "cycle cash-to-cash, DSO DIO DPO, besoin en fonds de roulement supply chain, cycle de conversion de trésorerie, BFR stock"
@@ -82,4 +82,4 @@ Vous voulez libérer de la trésorerie dans votre supply chain ? [Découvrez not
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

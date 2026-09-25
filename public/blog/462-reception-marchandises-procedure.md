@@ -1,7 +1,7 @@
 ---
 title: "Réception des Marchandises : la Procédure en 7 Étapes"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "réception des marchandises, procédure de réception, contrôle réception fournisseur, réserves transporteur, litige livraison"

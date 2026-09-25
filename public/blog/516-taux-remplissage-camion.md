@@ -1,7 +1,7 @@
 ---
 title: "Taux de Remplissage Camion : le KPI Transport Oublié"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "taux de remplissage camion, optimisation chargement camion, KPI transport, remplissage véhicule, mutualisation transport"
@@ -74,4 +74,4 @@ Vous voulez réduire votre facture transport ? [Découvrez notre offre de consei
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

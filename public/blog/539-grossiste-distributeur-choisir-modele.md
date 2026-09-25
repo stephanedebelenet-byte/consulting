@@ -1,7 +1,7 @@
 ---
 title: "Grossiste ou Distributeur Exclusif : Choisir son Modèle"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "grossiste ou distributeur exclusif, modèle de distribution, choisir distributeur Maroc, réseau de distribution, distribution indirecte"

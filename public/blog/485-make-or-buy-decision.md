@@ -1,7 +1,7 @@
 ---
 title: "Make or Buy : la Méthode pour Décider sans se Tromper"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "make or buy, faire ou faire faire, externalisation production, décision sous-traitance, analyse make or buy"

@@ -1,7 +1,7 @@
 ---
 title: "Méthode ABC : Classer ses Stocks en une Après-Midi"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "méthode ABC, classification ABC stocks, analyse ABC Pareto, méthode ABC gestion des stocks, loi 80/20 stock"
@@ -83,4 +83,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

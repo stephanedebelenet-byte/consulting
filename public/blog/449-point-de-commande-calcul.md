@@ -1,7 +1,7 @@
 ---
 title: "Point de Commande : le Calculer sans se Tromper"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "point de commande, calcul point de commande, seuil de réapprovisionnement, point de commande formule, réapprovisionnement stock"

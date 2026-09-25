@@ -1,7 +1,7 @@
 ---
 title: "Nador West Med : ce que le Nouveau Port Change"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "Nador West Med, port Nador West Med 2026, port Méditerranée Maroc, chargeurs Nador, Oriental logistique"

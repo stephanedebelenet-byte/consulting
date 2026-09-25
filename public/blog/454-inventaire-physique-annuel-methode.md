@@ -1,7 +1,7 @@
 ---
 title: "Inventaire Physique Annuel : la Méthode d'un Comptage Fiable"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "inventaire physique annuel, procédure inventaire, organiser inventaire entrepôt, inventaire de fin d'année, écarts d'inventaire"

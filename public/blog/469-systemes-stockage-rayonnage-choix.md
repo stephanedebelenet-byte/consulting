@@ -1,7 +1,7 @@
 ---
 title: "Rayonnage, Accumulation ou Mezzanine : Choisir son Stockage"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "systèmes de stockage, rayonnage à palettes, stockage par accumulation, mezzanine entrepôt, choisir rayonnage"
@@ -70,4 +70,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

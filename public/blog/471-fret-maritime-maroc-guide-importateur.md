@@ -1,7 +1,7 @@
 ---
 title: "Fret Maritime au Maroc : le Guide Pratique de l'Importateur"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "fret maritime Maroc, importation maritime, transport maritime conteneur, importer par bateau Maroc, fret maritime Casablanca Tanger Med"
@@ -80,7 +80,7 @@ Vous voulez former vos équipes aux opérations d'import ? Voir notre [formation
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Médias24 — Tanger Med dépasse la barre des 11 millions de conteneurs en 2025](https://medias24.com/2026/02/02/tanger-med-depasse-la-barre-des-11-millions-de-conteneurs-en-2025-1620840/)

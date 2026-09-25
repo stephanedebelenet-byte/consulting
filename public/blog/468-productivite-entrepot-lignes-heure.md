@@ -1,7 +1,7 @@
 ---
 title: "Productivité en Entrepôt : Mesurer sans Démotiver les Équipes"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "productivité entrepôt, lignes par heure, indicateurs productivité logistique, performance préparateurs, mesure productivité"

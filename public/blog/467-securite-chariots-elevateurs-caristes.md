@@ -1,7 +1,7 @@
 ---
 title: "Sécurité des Chariots Élévateurs : les Règles qui Sauvent"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "sécurité chariot élévateur, prévention accidents cariste, règles de circulation entrepôt, formation cariste, sécurité entrepôt"

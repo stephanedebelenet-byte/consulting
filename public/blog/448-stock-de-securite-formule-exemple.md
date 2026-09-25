@@ -1,7 +1,7 @@
 ---
 title: "Stock de Sécurité : Formule, Exemple Chiffré et Pièges"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "stock de sécurité, formule stock de sécurité, calcul stock de sécurité, stock de sécurité exemple, écart-type demande, taux de service"

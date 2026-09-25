@@ -1,7 +1,7 @@
 ---
 title: "Formule de Wilson : la Quantité Économique Est-elle Dépassée ?"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "formule de Wilson, quantité économique de commande, EOQ, calcul Wilson stock, coût de passation commande"
@@ -81,4 +81,4 @@ Vous voulez revoir vos politiques de commande ? [Découvrez notre accompagnement
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

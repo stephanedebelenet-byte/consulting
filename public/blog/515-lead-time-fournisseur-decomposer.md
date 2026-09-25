@@ -1,7 +1,7 @@
 ---
 title: "Lead Time Fournisseur : Décomposer le Délai pour le Réduire"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "lead time fournisseur, délai d'approvisionnement, réduire délai fournisseur, délai de réapprovisionnement, variabilité délai"

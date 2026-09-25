@@ -1,7 +1,7 @@
 ---
 title: "Prévente ou Vente-Livraison : Quel Modèle de Distribution"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "prévente, vente-livraison, van selling, distribution FMCG Maroc, modèle de distribution commerce traditionnel"

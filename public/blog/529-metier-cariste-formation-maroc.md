@@ -1,7 +1,7 @@
 ---
 title: "Métier de Cariste au Maroc : Formation, Sécurité, Évolution"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "métier cariste Maroc, formation cariste, conducteur chariot élévateur, autorisation de conduite chariot, cariste évolution"

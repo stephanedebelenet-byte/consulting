@@ -1,7 +1,7 @@
 ---
 title: "Cahier des Charges Achat : la Structure qui Évite les Litiges"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "cahier des charges achat, cahier des charges fonctionnel, rédiger cahier des charges fournisseur, spécifications achat, modèle cahier des charges"

@@ -1,7 +1,7 @@
 ---
 title: "Sourcing en Chine depuis le Maroc : Méthode et Risques"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "sourcing Chine Maroc, importer de Chine, trouver fournisseur chinois, contrôle qualité Chine, importation Chine PME"
@@ -75,4 +75,4 @@ Vous voulez sécuriser vos approvisionnements en Asie ? [Contactez-nous](/contac
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

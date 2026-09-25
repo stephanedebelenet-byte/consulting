@@ -1,7 +1,7 @@
 ---
 title: "Slotting : Placer le Bon Article au Bon Emplacement"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "slotting entrepôt, affectation des emplacements, implantation produits entrepôt, classe de rotation, optimisation emplacements"
@@ -75,4 +75,4 @@ Besoin d'aide pour réimplanter votre entrepôt ? [Découvrez nos prestations](/
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

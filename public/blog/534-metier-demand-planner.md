@@ -1,7 +1,7 @@
 ---
 title: "Métier de Demand Planner : Prévoir pour que Tout Suive"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "demand planner, métier prévisionniste, fiche métier demand planning, prévision des ventes métier, planificateur de la demande"

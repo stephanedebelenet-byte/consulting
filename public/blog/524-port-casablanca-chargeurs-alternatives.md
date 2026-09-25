@@ -1,7 +1,7 @@
 ---
 title: "Port de Casablanca : ce que les Chargeurs Doivent Anticiper"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "port de Casablanca, congestion port Casablanca, importer par Casablanca, Marsa Maroc Casablanca, alternatives portuaires Maroc"
@@ -70,7 +70,7 @@ Vous voulez sécuriser vos flux d'importation ? [Contactez-nous](/contact).
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [La Vérité — Le port de Casablanca retrouve sa fluidité opérationnelle](https://www.laverite.ma/flux-tendus-et-meteo-capricieuse-le-port-de-casablanca-retrouve-sa-fluidite-operationnelle/)

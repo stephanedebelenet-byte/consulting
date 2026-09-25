@@ -1,7 +1,7 @@
 ---
 title: "TPM en PME : la Maintenance Productive Totale sans Jargon"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "TPM maintenance productive totale, TPM PME, maintenance autonome, TRS, maintenance préventive production"

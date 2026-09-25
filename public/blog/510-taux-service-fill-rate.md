@@ -1,7 +1,7 @@
 ---
 title: "Taux de Service ou Fill Rate : Deux Mesures à ne pas Confondre"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "taux de service, fill rate, taux de remplissage commande, cycle service level, niveau de service logistique"

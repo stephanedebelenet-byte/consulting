@@ -1,7 +1,7 @@
 ---
 title: "Logistique de l'Oriental : Oujda, Nador et le Nouveau Potentiel"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "logistique Oriental Maroc, logistique Oujda, Nador logistique, supply chain région de l'Oriental, implantation Oujda Nador"

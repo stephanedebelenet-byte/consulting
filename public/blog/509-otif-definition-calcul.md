@@ -1,7 +1,7 @@
 ---
 title: "OTIF : Définition, Calcul et Pièges de l'Indicateur Roi"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "OTIF, on time in full, calcul OTIF, indicateur OTIF logistique, taux de service client"
@@ -76,7 +76,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [McKinsey — Defining 'on-time, in-full' in the consumer sector](https://www.mckinsey.com/capabilities/operations/our-insights/defining-on-time-in-full-in-the-consumer-sector)

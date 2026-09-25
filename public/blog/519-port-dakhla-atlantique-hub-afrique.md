@@ -1,7 +1,7 @@
 ---
 title: "Port Dakhla Atlantique : Futur Hub vers l'Afrique de l'Ouest"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "port Dakhla Atlantique, Dakhla Atlantique 2028, hub logistique Afrique de l'Ouest, port Sud Maroc, logistique Dakhla"
@@ -71,7 +71,7 @@ Vous étudiez une implantation ou des flux vers le Sud ? [Parlons-en](/contact).
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Médias24 — Port Dakhla Atlantique : les travaux franchissent le cap des 60 % d'avancement](https://medias24.com/2026/06/04/port-dakhla-atlantique-les-travaux-franchissent-le-cap-des-60-davancement-1691915/)

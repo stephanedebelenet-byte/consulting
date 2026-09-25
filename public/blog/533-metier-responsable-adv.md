@@ -1,7 +1,7 @@
 ---
 title: "Métier de Responsable ADV : à la Charnière Vente-Logistique"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "responsable ADV, administration des ventes, métier ADV, fiche métier ADV, service client logistique"
@@ -82,4 +82,4 @@ Vous voulez renforcer votre ADV ? [Découvrez nos formations](/formation).
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

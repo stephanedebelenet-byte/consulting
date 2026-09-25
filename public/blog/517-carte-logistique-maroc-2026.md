@@ -1,7 +1,7 @@
 ---
 title: "Carte Logistique du Maroc 2026 : Ports, Zones et Corridors"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "carte logistique Maroc, infrastructures logistiques Maroc 2026, ports Maroc, zones logistiques Maroc, corridors logistiques"
@@ -71,7 +71,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Médias24 — Tanger Med dépasse la barre des 11 millions de conteneurs en 2025](https://medias24.com/2026/02/02/tanger-med-depasse-la-barre-des-11-millions-de-conteneurs-en-2025-1620840/)

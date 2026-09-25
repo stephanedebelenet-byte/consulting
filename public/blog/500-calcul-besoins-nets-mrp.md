@@ -1,7 +1,7 @@
 ---
 title: "Calcul des Besoins Nets (MRP) : Expliqué Simplement"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "calcul des besoins nets, MRP, nomenclature, besoins bruts besoins nets, planification des matières"

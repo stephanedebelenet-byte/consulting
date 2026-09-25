@@ -1,7 +1,7 @@
 ---
 title: "Remise Documentaire ou Crédit Documentaire : Lequel Choisir"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "remise documentaire, encaissement documentaire, crédit documentaire vs remise documentaire, paiement import export, documents contre paiement"

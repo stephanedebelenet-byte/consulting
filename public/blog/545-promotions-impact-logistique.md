@@ -1,7 +1,7 @@
 ---
 title: "Promotions Commerciales : Maîtriser leur Impact Logistique"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "promotions impact logistique, gestion des promotions supply chain, prévision promotion, rupture promotion, cannibalisation promotion"
@@ -73,4 +73,4 @@ Vous voulez fiabiliser la gestion de vos promotions ? [Contactez-nous](/contact)
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

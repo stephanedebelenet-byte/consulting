@@ -1,7 +1,7 @@
 ---
 title: "Assurance Transport de Marchandises : ce qui Est Couvert"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "assurance transport marchandises, assurance ad valorem, responsabilité transporteur limitée, assurance facultés, assurance import Maroc"
@@ -71,7 +71,7 @@ Vous voulez sécuriser vos flux internationaux ? [Contactez-nous](/contact).
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [MarocTL — Convention CMR : transport international de marchandises](https://maroctl.com/routier/transport-de-marchandises/convention-cmr-transport-international-de-marchandises/)

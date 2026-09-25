@@ -1,7 +1,7 @@
 ---
 title: "Métier d'Approvisionneur : le Poste le Plus Sous-Estimé"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "métier approvisionneur, fiche métier approvisionneur, approvisionneur missions compétences, gestionnaire approvisionnement, approvisionneur Maroc"

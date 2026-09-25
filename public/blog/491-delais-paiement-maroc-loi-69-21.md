@@ -1,7 +1,7 @@
 ---
 title: "Délais de Paiement au Maroc (Loi 69-21) : le Guide Pratique"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "délais de paiement Maroc, loi 69-21, délai de paiement 60 jours, amende retard de paiement, déclaration délais de paiement"
@@ -68,7 +68,7 @@ Vous voulez adapter vos processus achats et vos stocks à la loi 69-21 ? [Décou
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Konta — Loi 69.21 sur les délais de paiement : ce qu'il faut retenir](https://getkonta.tech/loi-69-21-memo/)

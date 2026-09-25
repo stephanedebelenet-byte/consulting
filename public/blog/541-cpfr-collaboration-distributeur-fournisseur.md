@@ -1,7 +1,7 @@
 ---
 title: "CPFR : Planifier avec ses Clients Distributeurs"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "CPFR, planification collaborative, collaboration fournisseur distributeur, prévisions partagées, collaborative planning forecasting replenishment"

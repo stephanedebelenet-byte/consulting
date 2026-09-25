@@ -1,7 +1,7 @@
 ---
 title: "Sourcing en Turquie ou en Égypte : les Alternatives Proches"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "sourcing Turquie Maroc, importer de Turquie, accord libre-échange Maroc Turquie, sourcing Égypte, accord d'Agadir"

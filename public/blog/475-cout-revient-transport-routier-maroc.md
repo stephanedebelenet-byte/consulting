@@ -1,7 +1,7 @@
 ---
 title: "Coût de Revient du Transport Routier au Maroc : le Calcul"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "coût de revient transport routier, prix au kilomètre camion Maroc, calcul coût transport, coût kilométrique poids lourd, tarif transport routier"

@@ -1,7 +1,7 @@
 ---
 title: "Logistique des Provinces du Sud : Laâyoune et Dakhla"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "logistique provinces du Sud, logistique Laâyoune, logistique Dakhla, voie express Tiznit Dakhla, transport Sud Maroc"

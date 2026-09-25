@@ -1,7 +1,7 @@
 ---
 title: "Dédouanement à l'Import au Maroc : les Étapes Pas à Pas"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "dédouanement import Maroc, déclaration en douane BADR, DUM douane Maroc, procédure dédouanement, droits et taxes importation"

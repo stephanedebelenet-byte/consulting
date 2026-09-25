@@ -1,7 +1,7 @@
 ---
 title: "Tournées vers le Commerce de Proximité : les Organiser"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "tournées de livraison, organisation tournées commerce de proximité, livraison épiceries, optimisation tournées, distribution urbaine Maroc"

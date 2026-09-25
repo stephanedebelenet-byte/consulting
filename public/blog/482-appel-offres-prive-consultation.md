@@ -1,7 +1,7 @@
 ---
 title: "Appel d'Offres Privé : Rédiger et Piloter une Consultation"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "appel d'offres privé, consultation fournisseurs, RFQ, dossier de consultation achat, dépouillement des offres"

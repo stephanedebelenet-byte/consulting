@@ -1,7 +1,7 @@
 ---
 title: "Codes-Barres GS1 et Étiquette Logistique : l'Essentiel"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "codes-barres GS1, étiquette logistique GS1, SSCC, GS1-128, GTIN, GS1 Maroc"

@@ -1,7 +1,7 @@
 ---
 title: "Click & Collect au Maroc : la Logistique Derrière le Retrait"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "click and collect Maroc, retrait en magasin, commande en ligne retrait, drive Maroc, logistique retrait magasin"

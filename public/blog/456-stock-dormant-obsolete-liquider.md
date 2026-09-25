@@ -1,7 +1,7 @@
 ---
 title: "Stock Dormant et Obsolète : le Détecter et s'en Libérer"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "stock dormant, stock obsolète, déstockage, liquider stock invendu, provision pour dépréciation stock"

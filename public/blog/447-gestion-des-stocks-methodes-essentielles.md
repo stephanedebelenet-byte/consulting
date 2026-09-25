@@ -1,7 +1,7 @@
 ---
 title: "Gestion des Stocks : les 12 Méthodes Essentielles Expliquées"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "gestion des stocks, méthodes gestion des stocks, gestion de stock PME Maroc, stock de sécurité, méthode ABC, point de commande"
@@ -84,7 +84,7 @@ Vous voulez former vos équipes à ces méthodes, sur vos propres données ? Con
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Fishbowl — Inventory Carrying Costs (repère ISM 20-30%)](https://www.fishbowlinventory.com/blog/what-is-carrying-cost)

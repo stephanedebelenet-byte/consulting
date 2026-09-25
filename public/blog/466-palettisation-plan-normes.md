@@ -1,7 +1,7 @@
 ---
 title: "Palettisation : Normes, Plan de Chargement et Erreurs Courantes"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "palettisation, plan de palettisation, palette europe dimensions, stabilité palette, filmage palette"
@@ -77,4 +77,4 @@ Vous voulez réduire la casse et optimiser vos chargements ? [Découvrez nos pre
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

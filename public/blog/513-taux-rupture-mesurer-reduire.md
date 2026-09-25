@@ -1,7 +1,7 @@
 ---
 title: "Taux de Rupture : le Mesurer Juste et le Faire Baisser"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "taux de rupture, rupture de stock, mesurer ruptures, réduire ruptures de stock, disponibilité produit"

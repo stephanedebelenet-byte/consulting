@@ -1,7 +1,7 @@
 ---
 title: "Métier de Chef de Quai : le Chef d'Orchestre des Flux"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "métier chef de quai, fiche métier chef de quai, responsable quai entrepôt, chef d'équipe logistique, encadrement entrepôt"

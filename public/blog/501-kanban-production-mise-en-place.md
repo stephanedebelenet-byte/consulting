@@ -1,7 +1,7 @@
 ---
 title: "Kanban en Production : la Mise en Place Pas à Pas"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "Kanban production, mise en place Kanban, calcul nombre de cartes Kanban, flux tiré, Lean production PME"
@@ -78,4 +78,4 @@ Vous voulez déployer un Kanban dans votre atelier ? [Découvrez nos formations]
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

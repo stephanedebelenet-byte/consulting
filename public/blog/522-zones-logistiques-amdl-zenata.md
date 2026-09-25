@@ -1,7 +1,7 @@
 ---
 title: "Zones Logistiques AMDL et Zenata : l'Offre Foncière Logistique"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "zones logistiques Maroc, AMDL, Zenata logistique, foncier logistique Casablanca, entrepôt zone logistique"
@@ -73,7 +73,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [LesEco.ma — AMDL : 500 hectares de zones logistiques en cours de développement](https://leseco.ma/maroc/amdl-500-hectares-de-zones-logistiques-sont-en-cours-de-developpement.html)

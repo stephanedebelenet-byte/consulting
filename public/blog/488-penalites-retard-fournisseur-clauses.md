@@ -1,7 +1,7 @@
 ---
 title: "Pénalités de Retard Fournisseur : des Clauses qui S'Appliquent"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "pénalités de retard fournisseur, clause pénale achat, pénalité retard livraison, contrat fournisseur Maroc, clause de pénalité"

@@ -1,7 +1,7 @@
 ---
 title: "Taux de Rotation des Stocks : Calcul et Lecture par Secteur"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "taux de rotation des stocks, rotation stock calcul, couverture de stock jours, DIO, rotation stock par secteur"
@@ -69,4 +69,4 @@ Besoin d'un diagnostic de vos stocks ? [Découvrez notre offre de conseil](/cons
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

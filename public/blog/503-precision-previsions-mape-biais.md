@@ -1,7 +1,7 @@
 ---
 title: "Précision des Prévisions : Mesurer le MAPE et le Biais"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "précision des prévisions, MAPE, biais de prévision, erreur de prévision, forecast accuracy, FVA"

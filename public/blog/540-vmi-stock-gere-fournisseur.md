@@ -1,7 +1,7 @@
 ---
 title: "VMI : Confier son Stock au Fournisseur, Bonne ou Mauvaise Idée"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "VMI, vendor managed inventory, stock géré par le fournisseur, GPA gestion partagée des approvisionnements, réapprovisionnement fournisseur"
@@ -67,4 +67,4 @@ Vous étudiez un partenariat VMI ? [Découvrez notre offre de conseil](/conseil)
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

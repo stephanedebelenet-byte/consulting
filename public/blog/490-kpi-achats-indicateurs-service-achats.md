@@ -1,7 +1,7 @@
 ---
 title: "Indicateurs Achats : les KPI qui Pilotent un Service Achats"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "KPI achats, indicateurs achats, tableau de bord achats, performance service achats, gains achats"

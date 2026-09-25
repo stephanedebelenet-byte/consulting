@@ -1,7 +1,7 @@
 ---
 title: "Distribution au Maroc : du Fabricant à l'Épicerie de Quartier"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "distribution Maroc, circuits de distribution Maroc, commerce traditionnel épicerie, moul hanout distribution, distribution FMCG Maroc"
@@ -70,7 +70,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [BNP Paribas Trade Solutions — Les circuits de distribution au Maroc](https://www.tradesolutions.bnpparibas.com/fr/importer-exporter/maroc/distribuer-un-produit)

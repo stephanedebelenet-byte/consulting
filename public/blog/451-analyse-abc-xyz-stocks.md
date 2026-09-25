@@ -1,7 +1,7 @@
 ---
 title: "Analyse ABC-XYZ : Croiser Valeur et Régularité de la Demande"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "analyse ABC XYZ, matrice ABC XYZ, classification XYZ, coefficient de variation demande, segmentation stocks"

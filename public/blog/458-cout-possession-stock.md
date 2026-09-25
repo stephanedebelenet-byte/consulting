@@ -1,7 +1,7 @@
 ---
 title: "Coût de Possession du Stock : ce que Coûte Vraiment un Article"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "coût de possession du stock, coût de stockage, taux de possession, carrying cost, coût du stock immobilisé"

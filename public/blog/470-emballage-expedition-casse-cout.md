@@ -1,7 +1,7 @@
 ---
 title: "Emballage d'Expédition : Réduire la Casse et le Coût"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "emballage d'expédition, réduire casse transport, emballage e-commerce, calage colis, coût emballage logistique"

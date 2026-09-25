@@ -1,7 +1,7 @@
 ---
 title: "Valeur en Douane au Maroc : Comment Elle Est Calculée"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "valeur en douane Maroc, calcul valeur en douane, valeur transactionnelle, valeur CIF douane, redressement valeur douane"
@@ -65,7 +65,7 @@ Vous voulez sécuriser vos déclarations en douane ? [Contactez-nous](/contact).
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [ADII — Section 06 : Estimation de la valeur en douane des marchandises](https://www.douane.gov.ma/dms/loadDocument?documentId=30443)

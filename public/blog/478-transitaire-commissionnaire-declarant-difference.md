@@ -1,7 +1,7 @@
 ---
 title: "Transitaire, Commissionnaire, Déclarant : Qui Fait Quoi"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "transitaire, commissionnaire en douane, déclarant en douane Maroc, différence transitaire commissionnaire, freight forwarder"

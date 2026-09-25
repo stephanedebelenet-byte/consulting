@@ -1,7 +1,7 @@
 ---
 title: "Conteneur 20 ou 40 Pieds : Choisir et Calculer son Chargement"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "conteneur 20 pieds, conteneur 40 pieds, dimensions conteneur, capacité conteneur palettes, chargement conteneur"

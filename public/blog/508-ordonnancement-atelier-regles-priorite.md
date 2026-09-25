@@ -1,7 +1,7 @@
 ---
 title: "Ordonnancement d'Atelier : les Règles de Priorité Simples"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "ordonnancement atelier, règles de priorité production, planning atelier, séquencement commandes, diagramme de Gantt production"

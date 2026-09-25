@@ -1,7 +1,7 @@
 ---
 title: "Fret Ferroviaire au Maroc : Où en Est le Rail Marchandises"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "fret ferroviaire Maroc, ONCF fret, transport ferroviaire marchandises, rail marchandises Maroc, report modal"

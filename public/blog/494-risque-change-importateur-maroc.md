@@ -1,7 +1,7 @@
 ---
 title: "Risque de Change pour Importateurs Marocains : se Couvrir"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "risque de change importateur Maroc, couverture de change, achat à terme devises, dirham euro dollar, gestion risque change PME"
@@ -70,4 +70,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

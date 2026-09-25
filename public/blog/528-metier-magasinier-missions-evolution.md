@@ -1,7 +1,7 @@
 ---
 title: "Métier de Magasinier : Missions, Compétences et Évolution"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "métier magasinier, fiche métier magasinier, magasinier missions compétences, magasinier Maroc, évolution magasinier"

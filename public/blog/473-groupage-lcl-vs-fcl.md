@@ -1,7 +1,7 @@
 ---
 title: "Groupage LCL ou Conteneur Complet FCL : le Point de Bascule"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "groupage maritime, LCL FCL, groupage conteneur Maroc, fret LCL coût, conteneur complet ou groupage"

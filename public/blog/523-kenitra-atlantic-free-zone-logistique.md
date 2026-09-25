@@ -1,7 +1,7 @@
 ---
 title: "Kénitra Atlantic Free Zone : la Logistique d'un Pôle Auto"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "Kénitra Atlantic Free Zone, Stellantis Kénitra, logistique automobile Kénitra, zone franche Kénitra, fournisseurs automobile Maroc"

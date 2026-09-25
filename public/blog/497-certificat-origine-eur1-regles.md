@@ -1,7 +1,7 @@
 ---
 title: "Certificat d'Origine EUR.1 : les Règles Pratiques"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "certificat d'origine EUR.1, EUR.1 Maroc Union européenne, règles d'origine, origine préférentielle, cumul d'origine"

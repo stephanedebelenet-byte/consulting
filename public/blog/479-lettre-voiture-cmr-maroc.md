@@ -1,7 +1,7 @@
 ---
 title: "Lettre de Voiture CMR : Transport Routier Maroc-Europe"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "lettre de voiture CMR, CMR Maroc, transport routier international, convention CMR, transport Maroc Europe camion"
@@ -77,7 +77,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Wikipedia — CMR Convention](https://en.wikipedia.org/wiki/CMR_Convention)

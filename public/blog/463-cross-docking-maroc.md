@@ -1,7 +1,7 @@
 ---
 title: "Cross-Docking : Quand Il a Vraiment du Sens au Maroc"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "cross-docking, cross docking Maroc, plateforme de transbordement, éclatement flux logistique, distribution sans stock"

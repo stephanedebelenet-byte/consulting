@@ -1,7 +1,7 @@
 ---
 title: "Surestaries et Frais de Magasinage au Port : les Éviter"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "surestaries, frais de magasinage port, détention conteneur, demurrage detention, franchise conteneur Maroc"

@@ -1,7 +1,7 @@
 ---
 title: "Processus Achats en PME : de la Demande d'Achat au Paiement"
 date: "2026-09-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "processus achats PME, procédure achat, demande d'achat bon de commande, purchase to pay Maroc, circuit achat entreprise"
@@ -80,4 +80,4 @@ Vous voulez structurer votre fonction achats ? Voir notre [formation acheteur](/
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
