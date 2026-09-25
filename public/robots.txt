@@ -42,3 +42,33 @@ Allow: /
 
 User-agent: Bytespider
 Allow: /
+
+# Robots de recherche et d'assistant qui alimentent les réponses en direct
+# des moteurs IA (citations avec lien). Déjà couverts par "User-agent: *",
+# nommés ici pour rendre l'autorisation explicite (audit GEO du 25/09/2026).
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /

@@ -19,7 +19,6 @@
     "gsc:coverage-report": "node scripts/gsc.mjs coverage-report"
   },
   "dependencies": {
-    "@studio-freight/lenis": "^1.0.42",
     "@tabler/icons-react": "^3.46.0",
     "framer-motion": "^12.38.0",
     "gsap": "^3.15.0",

@@ -10,7 +10,7 @@
   },
   "rewrites": [
     {
-      "source": "/((?!api/).*)",
+      "source": "/((?!api/|assets/).*)",
       "destination": "/index.html"
     }
   ],
@@ -44,6 +44,12 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.nextinotech.com" }],
+      "destination": "https://nextinotech.com/:path*",
+      "permanent": true
+    },
     {
       "source": "/blog/audit-supply-chain-2026-les-10-erreurs-critiques-que-les-pme",
       "destination": "/blog/audit-supply-chain-2026-les-10-erreurs-critiques-que-les",
