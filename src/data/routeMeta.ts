@@ -44,6 +44,96 @@ export interface PrerenderRoute {
 
 const SUFFIX = ' | Nextinotech'
 
+// Longueurs maximales affichées sans troncature dans les résultats Google
+// (audit SEO du 25/09/2026). Vérifiées au build par check-seo-consistency.mjs.
+export const MAX_TITLE = 60
+export const MAX_DESCRIPTION = 160
+
+// Le suffixe de marque n'est gardé que s'il tient dans MAX_TITLE : la marque
+// figure déjà dans og:site_name et le JSON-LD, inutile de faire tronquer le
+// titre pour elle.
+// Réécritures ciblées des <title> / meta description qui dépassaient les
+// limites même sans suffixe (audit SEO du 25/09/2026). N'affecte que les
+// balises <head> : les textes visibles des pages (villesFormation.ts,
+// formations.ts...) restent inchangés.
+const SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = {
+  '/': {
+    title: 'Conseil & Formation Supply Chain au Maroc | Nextinotech',
+    description: 'Cabinet indépendant de conseil et formation Supply Chain, Logistique et Achats au Maroc : diagnostic, stocks et DDMRP, schéma logistique, AMOA WMS/TMS.',
+  },
+  '/conseil': {
+    title: 'Conseil Supply Chain au Maroc : Diagnostic, Stocks, Achats',
+    description: 'Conseil Supply Chain pour PME et ETI marocaines : diagnostic, stocks et DDMRP, performance achats, schéma logistique, cahiers des charges, IA, AMOA.',
+  },
+  '/prestations': {
+    description: "Prestations logistiques au Maroc : inventaires d'entrepôt, co-packing, étiquetage, kitting, palettisation et Control Tower (WMS, TMS, IoT, IA).",
+  },
+  '/control-tower': {
+    description: 'Pilotez votre supply chain en temps réel : WMS, TMS, IMS, AMS, IoT et IA réunis dans une tour de contrôle. Offre en 3 paliers, formation et conseil.',
+  },
+  '/blog': {
+    description: 'Articles Supply Chain, Logistique et Achats au Maroc : métiers et salaires, DDMRP, S&OP, Lean, douane, IA, e-commerce et secteurs clés.',
+  },
+  '/contact': { title: 'Contact — Conseil & Formation Supply Chain, Casablanca' },
+  '/carriere': {
+    title: 'Carrière Supply Chain au Maroc : Métiers et Compétences',
+    description: 'Construire sa carrière Supply Chain, Logistique et Achats au Maroc : métiers, compétences recherchées, salaires, plan de développement et formations.',
+  },
+  '/formation': {
+    title: 'Formations Supply Chain, Lean & Management au Maroc',
+    description: '30 programmes de formation sur 7 domaines : Supply Chain, Lean, Management, Finance, Projet, Carrière. Inter et intra-entreprise, calendrier 2026.',
+  },
+  '/formation-rl': {
+    description: 'Formation Responsable Logistique à Casablanca : 1 journée intensive, 1 500 MAD tout inclus. Stocks, transport, KPI, WMS/TMS. Financement CSF / GIAC.',
+  },
+  '/dsc-vs-recrutement-cdi': {
+    description: 'Coût réel, délai, engagement, résultat : le comparatif chiffré entre recruter un Directeur Supply Chain en CDI et un mandat à temps partagé.',
+  },
+  '/accompagnement-oea': {
+    title: 'Accompagnement Statut OEA au Maroc | Nextinotech',
+    description: "Obtenez le statut OEA auprès de l'ADII : diagnostic, mise en conformité, dossier de candidature, audit à blanc et coaching le jour de l'audit.",
+  },
+  '/evenements/formation-ou-consulting-quelle-approche': {
+    title: 'Webinaire — Formation ou Consulting, Quelle Approche ?',
+  },
+  '/ingenierie-formation': {
+    title: 'Ingénierie de Formation au Maroc — Plan & Financement',
+    description: 'Diagnostic des compétences, plan de formation chiffré et dossier de financement GIAC/OFPPT pour les entreprises logistique et supply chain au Maroc.',
+  },
+  '/ingenierie-formation/catalogue': {
+    description: 'Catalogue des formations par métier : Supply Chain, Management, Finance, RH, Marketing, Production, Qualité, IA. Sans commission éditeur.',
+  },
+  '/formation-logistique-casablanca': {
+    description: 'Formations logistique et supply chain à Casablanca : responsable logistique, WMS/TMS, achats, DDMRP. Présentiel et intra-entreprise, financement CSF/GIAC.',
+  },
+  '/formation-logistique-rabat': {
+    description: 'Formations logistique et supply chain à Rabat et Kénitra : responsable logistique, S&OP, DDMRP, achats. Présentiel et intra, financement CSF/GIAC.',
+  },
+  '/formation-logistique-tanger': {
+    description: 'Formations logistique et supply chain à Tanger : DDMRP, WMS/TMS, Lean, écosystème Tanger Med et automobile. Présentiel et intra, financement CSF/GIAC.',
+  },
+  '/formation-logistique-marrakech': {
+    description: 'Formations logistique et supply chain à Marrakech : responsable logistique, fondamentaux, préparation de commandes. Présentiel et intra, CSF/GIAC.',
+  },
+  '/formation-logistique-agadir': {
+    description: 'Formations logistique et supply chain à Agadir : S&OP, DDMRP, chaîne du froid, export et pêche du Souss-Massa. Présentiel et intra, CSF/GIAC.',
+  },
+  '/formation-logistique-fes': {
+    description: 'Formations logistique et supply chain à Fès et Meknès : responsable logistique, Lean, fondamentaux, agro-industrie. Présentiel et intra, CSF/GIAC.',
+  },
+  '/formation/ia-supply-chain': { title: 'Formation IA Générative Supply Chain & Achats au Maroc' },
+  '/formation/negociation-achats': { title: 'Formation Négociation Achats & Supply Chain au Maroc' },
+  '/formation/maturite-logistique': { title: 'Formation Maturité Logistique au Maroc | Nextinotech' },
+  '/formation/cursus-sc-distance': { title: 'Cursus Supply Chain Management 100% à Distance' },
+}
+
+function fitTitle(title: string): string {
+  for (const s of [SUFFIX, ' — Nextinotech']) {
+    if (title.length > MAX_TITLE && title.endsWith(s)) return title.slice(0, -s.length)
+  }
+  return title
+}
+
 const STATIC: PrerenderRoute[] = [
   {
     path: '/',
@@ -371,7 +461,9 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
 
   const programmes: PrerenderRoute[] = PROGRAMMES.filter((p) => p.id !== 'rl' && p.id !== 'import').map((p) => ({
     path: `/formation/${p.id}`,
-    title: `Formation ${p.title} au Maroc${SUFFIX}`,
+    // Certains programmes s'appellent déjà "Formation …" : ne pas produire
+    // "Formation Formation …".
+    title: `${/^formation\b/i.test(p.title) ? '' : 'Formation '}${p.title} au Maroc${SUFFIX}`,
     description: programmeDescription(p.subtitle, p.price, p.unit),
     jsonLd: [buildProgrammeSchema(p)],
     priority: 0.8,
@@ -381,5 +473,8 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
     // /formation/<id> dans llms.txt.
   }))
 
-  return [...STATIC, ...villes, ...programmes]
+  return [...STATIC, ...villes, ...programmes].map((r) => {
+    const o = SEO_OVERRIDES[r.path] ?? {}
+    return { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
+  })
 }

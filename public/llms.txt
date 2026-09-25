@@ -8,7 +8,7 @@ Nextinotech est un cabinet de conseil spécialisé en Supply Chain et Logistique
 
 ## Fondateur
 
-**Fondateur & Directeur**
+**Youssef Bahaida — Fondateur & Directeur**
 - 20+ ans d'expérience en ingénierie Supply Chain, Logistique et Achats au Maroc et en Europe
 - DDMRP Certified Practitioner
 - Expert national Supply Chain — Task Force Vaccination nationale COVID-19
@@ -17,7 +17,7 @@ Nextinotech est un cabinet de conseil spécialisé en Supply Chain et Logistique
 
 ## Formation — Catalogue complet
 
-Catalogue : https://nextinotech.com/formation — 28 programmes sur 7 domaines, inter-entreprise et intra-entreprise, calendrier 2026 en ligne.
+Catalogue : https://nextinotech.com/formation — 30 programmes sur 7 domaines, inter-entreprise et intra-entreprise, calendrier 2026 en ligne.
 
 - **Supply Chain** (8 programmes) — Devenir Responsable Logistique (1 jour, 1 500 MAD TTC, programme phare : https://nextinotech.com/formation-rl), Supply Chain Fondamentaux, S&OP & Planification Avancée, DDMRP Certification Practitioner (5 500 MAD TTC, examen officiel DDI en supplément), Supply Chain pour Décideurs, WMS/TMS/ERP, Coaching DSC individuel, IA Générative pour les Métiers Supply Chain & Achats (1 jour, inter-entreprise, 2 900 MAD TTC : cas d'usage LLM, prompts métier, gouvernance 09-08/CNDP)
 - **Lean & Amélioration Continue** (3 programmes) — Lean Management & 5S, Lean Six Sigma Green Belt (5 jours, 9 500 MAD TTC), Amélioration Continue & PDCA
@@ -92,9 +92,9 @@ Catalogue : https://nextinotech.com/prestations
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (307 articles)
+## Blog — Ressources Supply Chain (429 articles)
 
-Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 307 articles organisés en thèmes :
+Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 429 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
 Audit supply chain, diagnostic logistique, études de cas (Renault, DHL, OCP, Addoha), FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
@@ -161,6 +161,33 @@ Plan de continuité d'activité (PCA) logistique, multi-sourcing et résilience 
 
 ### IA Générative, LLM & Automatisation (articles 309-320)
 IA générative en supply chain : 25 cas d'usage concrets au Maroc ; LLM vs IA prédictive vs RPA (quel outil pour quel problème) ; rédiger un cahier des charges avec l'IA (méthode et garde-fous) ; coût d'un projet IA supply chain pour une PME marocaine ; automatiser les documents de douane (DUM, BL, packing list) par l'IA ; automatiser le traitement des factures fournisseurs (OCR + LLM) ; playbook IA supply chain automobile (prévision cadencée, EDI, JIT) ; copilot de demand planning ; playbook IA agro-industrie et agro-export (prévision de récolte, chaîne du froid, tri par vision) ; gouvernance de l'IA en supply chain (charte, registre, comité, data readiness) ; chatbot de suivi de commande (WISMO) par LLM ; loi 09-08 et CNDP (utiliser un LLM sans exposer ses données fournisseurs).
+
+### Statut OEA — Opérateur Économique Agréé (articles 321-326)
+Procédure ADII étape par étape, différences entre catégories A et B, causes d'échec d'une demande OEA, OEA dans l'automobile et l'aéronautique, délai et coût d'obtention du statut au Maroc.
+
+### IA par métier et par fonction Supply Chain (articles 327-426)
+Cluster de 100 articles sur l'IA appliquée à chaque métier de la supply chain au Maroc :
+- **Outils et méthodes** (327-334) : prompt engineering achats/logistique, RAG et base de connaissance, Copilot Excel, comparatif des plateformes IA, ROI et KPI, data readiness, hébergement des LLM et souveraineté, conduite du changement.
+- **Achats** (335-340) : analyse de contrats fournisseurs, spend analysis, sourcing, préparation de négociation, scoring SRM, veille prix matières premières.
+- **Planification, entrepôt, transport** (341-347) : scénarios S&OP, comptes rendus S&OP, anomalies de stock, tournées de transport, assistant cariste, vision pour le contrôle qualité, maintenance prédictive.
+- **Par secteur** (348-354) : aéronautique, pharma, retail, e-commerce, textile, mines et chimie, BTP.
+- **Stratégie et direction** (355-361) : stratégie IA de la direction supply chain, transformation des PME, comité de pilotage, avantage compétitif, DSC à temps partagé, benchmark de maturité, erreurs d'échec.
+- **Qualité** (362-367) : audit fournisseurs, non-conformités, réclamations clients, certification ISO/IATF, traçabilité, audit fournisseur à distance.
+- **DSI, intégration, sécurité** (368-372) : architecture, API ERP/WMS/TMS, sécurité des accès, shadow IA, cahier des charges technique.
+- **RH et compétences** (373-379) : impact sur les métiers, recrutement, organisation des équipes, résistance au changement, maturité des compétences, management, salaires.
+- **Finance** (380-385) : BFR et stocks, prévision budgétaire, contrôle de gestion, business case, landed cost, marge par référence.
+- **Juridique et risques** (386-390) : responsabilité juridique, clauses contractuelles, assurance, propriété intellectuelle, due diligence éditeur.
+- **RSE** (391-397) : bilan carbone transport scope 3, économie circulaire, tournées bas carbone, reporting ESG, gaspillage en chaîne du froid, éco-conception, empreinte de l'IA.
+- **Production** (398-404) : ordonnancement, MES, détection de défauts, SMED, maintenance prédictive, capacité, TRS/OEE.
+- **Commercial et ADV** (405-410) : prévision commerciale, litiges clients, automatisation des commandes, retours, promesse de délai, score de risque client.
+- **Douane** (411-415) : classification tarifaire, veille réglementaire, origine et accords de libre-échange, litiges douaniers, délais de dédouanement.
+- **Formation et adoption** (416-421) : académie IA interne, certifications, formation des acheteurs et des équipes terrain, champions IA, mesure d'impact.
+- **Prospective** (422-426) : nouveaux modèles économiques, supply chain as a service, souveraineté IA au Maroc, budget COMEX, IA générative en 2027.
+
+### Control Tower Supply Chain (articles 427-446)
+WMS, TMS, IMS et AMS dans la tour de contrôle, IoT et capteurs, IA et décision assistée, Control Tower vs tableau de bord BI, KPIs, gestion des exceptions, seuils d'alerte, organisation de l'équipe, coût pour une ETI marocaine, choix de l'éditeur, feuille de route, visibilité fournisseurs Tier 1, qualité et gouvernance des données, cloud vs on-premise, Control Tower agentique, maturité PME/ETI. Offre associée : https://nextinotech.com/control-tower
+
+La liste exhaustive des URLs d'articles figure dans https://nextinotech.com/sitemap.xml.
 
 ## Contact
 

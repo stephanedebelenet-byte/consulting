@@ -73,6 +73,27 @@ function hasH1(html) {
   return /<h1[\s>]/i.test(html)
 }
 
+// Règle 6 (25/09/2026) : longueurs affichées sans troncature dans Google.
+// Mêmes seuils que MAX_TITLE / MAX_DESCRIPTION dans src/data/routeMeta.ts.
+// Non appliquée aux articles de blog : leur <title> est leur titre éditorial,
+// dont dérive aussi l'URL (slugify) — le raccourcir changerait leurs URLs.
+const MAX_TITLE = 60
+const MAX_DESCRIPTION = 160
+
+function decodeEntities(s) {
+  return s.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
+}
+
+function extractTitle(html) {
+  const m = html.match(/<title>([\s\S]*?)<\/title>/i)
+  return m ? decodeEntities(m[1].trim()) : ''
+}
+
+function extractDescription(html) {
+  const m = html.match(/<meta name="description" content="([^"]*)"/i)
+  return m ? decodeEntities(m[1]) : ''
+}
+
 const problems = []
 
 if (!existsSync(SITEMAP_PATH)) {
@@ -143,6 +164,18 @@ for (const loc of locs) {
   }
   if (bodyText.length < MIN_BODY_TEXT_LENGTH) {
     fail(`Page avec un <body> quasi vide (${bodyText.length} caractères de texte, minimum ${MIN_BODY_TEXT_LENGTH}) : ${loc}`)
+  }
+
+  // Règle 6 : longueurs title / description (hors blog, voir plus haut).
+  if (!urlPath.startsWith('/blog/')) {
+    const title = extractTitle(html)
+    const description = extractDescription(html)
+    if (title.length > MAX_TITLE) {
+      fail(`<title> trop long (${title.length} > ${MAX_TITLE}, tronqué dans Google) : ${loc} — ajuste SEO_OVERRIDES dans src/data/routeMeta.ts`)
+    }
+    if (description.length > MAX_DESCRIPTION) {
+      fail(`Meta description trop longue (${description.length} > ${MAX_DESCRIPTION}) : ${loc} — ajuste SEO_OVERRIDES dans src/data/routeMeta.ts`)
+    }
   }
 }
 

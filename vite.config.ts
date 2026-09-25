@@ -272,7 +272,25 @@ function prerenderHeads(): Plugin {
   }
 }
 
+// Bibliothèques stables isolées dans leurs propres fichiers (build client
+// uniquement). Le site est redéployé plusieurs fois par jour : sans ce
+// découpage, chaque déploiement changeait le hash de l'unique bundle de
+// 1,2 Mo et forçait les visiteurs à tout retélécharger. Désormais seul le
+// code applicatif change de hash ; ces fichiers restent en cache navigateur
+// (Cache-Control immutable sur /assets/, voir vercel.json).
+// Les dépendances chargées à la demande (jspdf, html2canvas) ne sont pas
+// listées ici, pour ne pas les faire entrer dans le chargement initial.
+const VENDOR_GROUPS = [
+  { name: 'vendor-react', test: /[\\/]node_modules[\\/](react|react-dom|react-router|react-router-dom|scheduler)[\\/]/ },
+  { name: 'vendor-motion', test: /[\\/]node_modules[\\/](framer-motion|motion-dom|motion-utils)[\\/]/ },
+  { name: 'vendor-gsap', test: /[\\/]node_modules[\\/](gsap|lenis)[\\/]/ },
+  { name: 'vendor-icons', test: /[\\/]node_modules[\\/]@tabler[\\/]/ },
+]
+
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins: [react(), prerenderHeads()],
-})
+  build: isSsrBuild
+    ? {}
+    : { rolldownOptions: { output: { codeSplitting: { groups: VENDOR_GROUPS } } } },
+}))
