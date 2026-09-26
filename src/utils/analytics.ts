@@ -1,15 +1,13 @@
-// Google Analytics 4 + Google Ads — activés uniquement si les identifiants
-// correspondants sont définis (build Vite : variables injectées à la
-// compilation, voir vercel.json "env"). Sans identifiant réel, ce module ne
-// fait rien — pas de tag cassé, pas d'ID inventé.
+// Google Analytics 4 + Google Ads — identifiants publics (visibles côté client
+// de toute façon), donc écrits en dur ci-dessous comme valeurs par défaut.
 //
-// Google Ads (conversions) : à remplir dans vercel.json → "env" une fois la
-// première campagne créée :
-//   VITE_GADS_CONVERSION_ID    ex. "AW-123456789"   (Outils > Conversions > Détails du compte)
-//   VITE_GADS_CONVERSION_LABEL ex. "AbC-D3fGhIjKlMnO" (fourni à la création de l'action
-//                                                       de conversion "Demande de diagnostic")
-// Les deux valeurs sont publiques (visibles côté client de toute façon), pas
-// besoin d'un .env séparé — même convention que VITE_GA_MEASUREMENT_ID.
+// Attention : le bloc "env" de vercel.json n'est PAS injecté au build Vite
+// (constaté en prod le 26/09/2026 : aucune balise Google dans le bundle).
+// Une variable VITE_* définie dans Vercel → Project Settings → Environment
+// Variables reste possible et prend le pas sur la valeur par défaut.
+//
+// Google Ads : action de conversion "Demande ingénierie formation"
+// (Objectifs > Conversions > Détails > Utiliser Google Tag Manager).
 //
 // Convention UTM pour tout lien partagé hors du site (LinkedIn, WhatsApp, email) :
 //   utm_source=<canal>        ex. linkedin, whatsapp, email, newsletter
@@ -19,9 +17,10 @@
 // Exemple pour l'annonce de la session du 23 octobre sur LinkedIn :
 //   https://nextinotech.com/formation-rl?utm_source=linkedin&utm_medium=social&utm_campaign=rl-session-oct2026
 
-const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID as string | undefined
-const GADS_ID = import.meta.env.VITE_GADS_CONVERSION_ID as string | undefined
-const GADS_CONVERSION_LABEL = import.meta.env.VITE_GADS_CONVERSION_LABEL as string | undefined
+const GA_ID = (import.meta.env.VITE_GA_MEASUREMENT_ID as string | undefined) || 'G-TFF7N0G2P0'
+const GADS_ID = (import.meta.env.VITE_GADS_CONVERSION_ID as string | undefined) || 'AW-809033146'
+const GADS_CONVERSION_LABEL =
+  (import.meta.env.VITE_GADS_CONVERSION_LABEL as string | undefined) || 'N0s8CKWi0YYdELq744ED'
 
 declare global {
   interface Window {
