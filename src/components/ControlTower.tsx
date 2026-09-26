@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import { IS_SERVER } from '../utils/ssr'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
-import { OFFER_TIERS, CONTROL_TOWER_FAQ } from '../data/controlTower'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS } from '../data/controlTower'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -251,12 +251,70 @@ const BLOG_LINKS = [
   { title: 'Maturité Control Tower : où se Situer', to: '/blog/maturite-control-tower-ou-se-situe-une-pme-eti-marocaine-en' },
 ]
 
+/* ─── En exploitation : vidéo + captures de la plateforme ────────── */
+
+const labelStyle = { fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(47,111,181,0.55)', textTransform: 'uppercase', marginBottom: '1.25rem' } as const
+
+function Showcase() {
+  const v = CONTROL_TOWER_VIDEO
+  return (
+    <div style={{ marginBottom: '8rem' }}>
+      <div style={{ maxWidth: 760, marginBottom: '3rem' }}>
+        <div style={labelStyle}>En exploitation · Nextinotech Digital</div>
+        <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 4vw, 5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.02em', color: 'var(--ink)', margin: '0 0 1.5rem' }}>
+          La tour de contrôle, écran par écran.
+        </h2>
+        <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, margin: 0 }}>
+          Une flotte de transport de matériaux suivie en temps réel : position et statut de chaque porteur,
+          trajets et rotations, carburant, maintenance, planification. Captures de démonstration, noms et
+          données clients retirés.
+        </p>
+      </div>
+
+      <figure style={{ margin: '0 0 1.5rem', border: '1px solid rgba(27,53,84,0.12)', background: '#fff' }}>
+        <video
+          src={v.src}
+          poster={v.poster}
+          width={v.width}
+          height={v.height}
+          autoPlay
+          muted
+          loop
+          playsInline
+          controls
+          preload="metadata"
+          aria-label={v.name}
+          style={{ display: 'block', width: '100%', height: 'auto' }}
+        />
+        <figcaption style={{ fontSize: '0.85rem', color: 'var(--mid)', lineHeight: 1.6, fontWeight: 300, padding: '1rem 1.25rem' }}>
+          {v.description}
+        </figcaption>
+      </figure>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gap: '1.5rem' }}>
+        {CONTROL_TOWER_SCREENS.map((s) => (
+          <figure key={s.src} style={{ margin: 0, border: '1px solid rgba(27,53,84,0.12)', background: '#fff' }}>
+            <a href={s.src} target="_blank" rel="noopener" style={{ display: 'block' }}>
+              <img src={s.src} alt={s.alt} width={s.w} height={s.h} loading="lazy" decoding="async" style={{ display: 'block', width: '100%', height: 'auto' }} />
+            </a>
+            <figcaption style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--navy)', padding: '1rem 1.25rem' }}>
+              {s.title}
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 /* ─── Composant principal ────────────────────────────────────── */
 
 export default function ControlTower() {
   return (
     <section id="control-tower" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
       <div className="section-inner">
+
+        <Showcase />
 
         {/* Intro */}
         <div className="systemes-header-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'end', marginBottom: '6rem' }}>

@@ -15,7 +15,7 @@ import { VILLES, buildVilleSchema } from './villesFormation'
 import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta, FAQ as formationFAQ } from './formations'
 import { servicesFAQ } from './conseilFaq'
 import { generateFAQSchema } from '../utils/seoData'
-import { OFFER_TIERS, CONTROL_TOWER_FAQ } from './controlTower'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS } from './controlTower'
 
 export interface PrerenderRoute {
   path: string
@@ -535,6 +535,15 @@ function pageSchemas(route: PrerenderRoute): unknown[] {
         url,
         provider: DIGITAL_REF,
         areaServed: { '@type': 'Country', name: 'Maroc' },
+        image: CONTROL_TOWER_SCREENS.map((s) => ({
+          '@type': 'ImageObject',
+          contentUrl: SITE_URL + s.src,
+          name: s.title,
+          description: s.alt,
+          width: s.w,
+          height: s.h,
+        })),
+        subjectOf: { '@id': `${url}#video` },
         hasOfferCatalog: {
           '@type': 'OfferCatalog',
           name: 'Paliers Control Tower',
@@ -545,6 +554,21 @@ function pageSchemas(route: PrerenderRoute): unknown[] {
             priceSpecification: { '@type': 'PriceSpecification', minPrice: minPrice(t.price), priceCurrency: 'MAD', valueAddedTaxIncluded: false },
           })),
         },
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        '@id': `${url}#video`,
+        name: CONTROL_TOWER_VIDEO.name,
+        description: CONTROL_TOWER_VIDEO.description,
+        thumbnailUrl: SITE_URL + CONTROL_TOWER_VIDEO.poster,
+        contentUrl: SITE_URL + CONTROL_TOWER_VIDEO.src,
+        uploadDate: CONTROL_TOWER_VIDEO.uploadDate,
+        duration: CONTROL_TOWER_VIDEO.duration,
+        width: CONTROL_TOWER_VIDEO.width,
+        height: CONTROL_TOWER_VIDEO.height,
+        inLanguage: 'fr-MA',
+        publisher: ORG_REF,
       },
       { ...generateFAQSchema(CONTROL_TOWER_FAQ), '@id': `${url}#faq` },
     ]
