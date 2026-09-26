@@ -62,13 +62,14 @@ const SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = 
     description: 'Cabinet indépendant de conseil et formation Supply Chain, Logistique et Achats au Maroc : diagnostic, stocks et DDMRP, schéma logistique, AMOA WMS/TMS.',
   },
   '/conseil': {
-    title: 'Conseil Supply Chain au Maroc : Diagnostic, Stocks, Achats',
+    title: 'Nextinotech Conseil : Supply Chain, Stocks, Achats au Maroc',
     description: 'Conseil Supply Chain pour PME et ETI marocaines : diagnostic, stocks et DDMRP, performance achats, schéma logistique, cahiers des charges, IA, AMOA.',
   },
   '/prestations': {
     description: "Prestations logistiques au Maroc : inventaires d'entrepôt, co-packing, étiquetage, kitting, palettisation et Control Tower (WMS, TMS, IoT, IA).",
   },
   '/control-tower': {
+    title: 'Nextinotech Digital : Control Tower WMS, TMS, IoT, IA',
     description: 'Pilotez votre supply chain en temps réel : WMS, TMS, IMS, AMS, IoT et IA réunis dans une tour de contrôle. Offre en 3 paliers, formation et conseil.',
   },
   '/blog': {
@@ -80,7 +81,7 @@ const SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = 
     description: 'Construire sa carrière Supply Chain, Logistique et Achats au Maroc : métiers, compétences recherchées, salaires, plan de développement et formations.',
   },
   '/formation': {
-    title: 'Formations Supply Chain, Lean & Management au Maroc',
+    title: 'Nextinotech Académie : Formations Supply Chain au Maroc',
     description: '30 programmes de formation sur 7 domaines : Supply Chain, Lean, Management, Finance, Projet, Carrière. Inter et intra-entreprise, calendrier 2026.',
   },
   '/formation-rl': {
@@ -486,8 +487,19 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
 // en contient déjà un (formations, villes, programmes) sont laissées telles
 // quelles. Pas de niveau intermédiaire vers /outils, /demo, /solutions ou
 // /evenements : ces adresses n'existent pas (404).
-const BREADCRUMB_PARENTS: Record<string, { path: string; name: string }> = {
-  '/ingenierie-formation/catalogue': { path: '/ingenierie-formation', name: 'Ingénierie de formation' },
+// Unités métier (26/09/2026) : chaque page d'offre a son unité comme niveau
+// intermédiaire du fil d'Ariane. Les pages d'accueil d'unité (/conseil,
+// /formation, /control-tower) prennent le nom de l'unité via leur title.
+const CONSEIL = { path: '/conseil', name: 'Nextinotech Conseil' }
+const ACADEMIE = { path: '/formation', name: 'Nextinotech Académie' }
+const DIGITAL = { path: '/control-tower', name: 'Nextinotech Digital' }
+
+function breadcrumbParents(path: string): { path: string; name: string }[] {
+  if (['/direction-supply-chain-temps-partage', '/directeur-logistique-mi-temps', '/directeur-achats-mi-temps', '/dsc-vs-recrutement-cdi', '/accompagnement-oea', '/prestations'].includes(path)) return [CONSEIL]
+  if (path === '/ingenierie-formation/catalogue') return [ACADEMIE, { path: '/ingenierie-formation', name: 'Ingénierie de formation' }]
+  if (['/formation-rl', '/formation-import', '/ingenierie-formation'].includes(path) || path.startsWith('/evenements/')) return [ACADEMIE]
+  if (path.startsWith('/outils/') || path.startsWith('/demo/') || path.startsWith('/solutions/')) return [DIGITAL]
+  return []
 }
 
 function hasBreadcrumb(jsonLd: unknown[] | undefined): boolean {
@@ -501,10 +513,9 @@ function breadcrumbName(title: string): string {
 function withBreadcrumb(route: PrerenderRoute): PrerenderRoute {
   if (route.path === '/' || hasBreadcrumb(route.jsonLd)) return route
   const url = `https://nextinotech.com${route.path}`
-  const parent = BREADCRUMB_PARENTS[route.path]
   const items = [
     { name: 'Accueil', item: 'https://nextinotech.com/' },
-    ...(parent ? [{ name: parent.name, item: `https://nextinotech.com${parent.path}` }] : []),
+    ...breadcrumbParents(route.path).map((p) => ({ name: p.name, item: `https://nextinotech.com${p.path}` })),
     { name: breadcrumbName(route.title), item: url },
   ]
   const breadcrumb = {

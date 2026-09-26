@@ -16,7 +16,7 @@ export default function ControlTowerPage() {
         title="Control"
         titleItalic="Tower."
         subtitle="WMS, TMS, IMS, AMS, IoT, IA : six systèmes, un seul pilotage temps réel de votre supply chain."
-        tag="PRESTATIONS · SYSTÈMES · DONNÉES"
+        tag="NEXTINOTECH DIGITAL · SYSTÈMES · DONNÉES"
         bg="var(--navy)"
         backgroundLayer={<HeroCarousel />}
       />

@@ -15,7 +15,13 @@ Nextinotech est un cabinet de conseil spécialisé en Supply Chain et Logistique
 - Enseignant : TBS, ISCAE, HEM, ENCG, EMI
 - Formation : ENSA Agadir, KEDGE Business School, UM6P
 
-## Formation — Catalogue complet
+## Organisation — 3 unités métier
+
+- **Nextinotech Académie** — https://nextinotech.com/formation — formations inter et intra-entreprise (Supply Chain, Lean, Management, Finance, Gestion de projet, Carrière, Douane & import-export), ingénierie de formation, catalogue par métier, financement CSF / GIAC.
+- **Nextinotech Conseil** — https://nextinotech.com/conseil — conseil et AMOA (diagnostic, stocks et DDMRP, achats, schéma logistique, cahiers des charges), direction supply chain à temps partagé, accompagnement statut OEA et régimes douaniers, prestations opérationnelles (inventaires, services à valeur ajoutée).
+- **Nextinotech Digital** — https://nextinotech.com/control-tower — Control Tower (WMS, TMS, IMS, AMS, IoT, IA), intégration de systèmes, simulateurs et démos gratuits.
+
+## Nextinotech Académie — Formation (catalogue complet)
 
 Catalogue : https://nextinotech.com/formation — 30 programmes sur 7 domaines, inter-entreprise et intra-entreprise, calendrier 2026 en ligne.
 
@@ -35,7 +41,7 @@ Détail : https://nextinotech.com/ingenierie-formation — diagnostic des besoin
 
 Fiche détaillée par programme (objectifs, public, modules, tarif, financement, FAQ) : https://nextinotech.com/formation/<id> — ids : fondamentaux, sop, ddmrp, decideurs, wms, coaching, ia-supply-chain, lean-5s, six-sigma, amelioration-continue, management-equipes, conduite-changement, leadership, finance-chiffres, business-case, controle-gestion, chef-projet, agile-scrum, amoa-si, developpement-carriere, negociation-achats, prevenir-burnout, caces-cariste, preparateur-commandes, hse-entrepot, maturite-logistique. Le programme phare a sa page dédiée : https://nextinotech.com/formation-rl. Formation dédiée aux porteurs de projet d'import : https://nextinotech.com/formation-import (prix de revient, fournisseurs, transport, douane, nomenclature, stockage).
 
-## Services
+## Nextinotech Conseil
 
 ### Conseil & AMOA
 Détail : https://nextinotech.com/conseil
@@ -49,16 +55,6 @@ Détail : https://nextinotech.com/conseil
 - AMOA & Pilotage Projet
 - IA & Automatisation Supply Chain — cadrage des cas d'usage IA/LLM, data readiness, charte de gouvernance 09-08/CNDP, POC mesuré (factures, documents de douane, copilotes de planification, chatbot de suivi), industrialisation. Zéro commission éditeur.
 
-### Déploiement Systèmes SCM
-- WMS (Gestion d'entrepôt)
-- TMS (Gestion du transport)
-- APS / S&OP (Demand Planning)
-- e-Procurement (Source-to-Pay)
-- Control Tower / BI Supply Chain
-
-### Control Tower — WMS, TMS, IMS, AMS, IoT, IA
-Détail : https://nextinotech.com/control-tower — piloter la supply chain en temps réel en intégrant six systèmes (WMS, TMS, IMS, AMS, IoT, IA) dans une seule tour de contrôle. Accessible depuis le menu Prestations. Offre en 3 paliers à partir de 135k MAD (Mini), 330k MAD (Pilote), 840k MAD (Pro), formation des équipes et accompagnement conseil (cahiers des charges, intégration, direction supply chain à temps partagé).
-
 ### Direction Supply Chain à Temps Partagé
 Détail : https://nextinotech.com/direction-supply-chain-temps-partage
 
@@ -67,13 +63,25 @@ Mandat DSC en 3 phases : État des lieux → Pilotage & Fondations → Passation
 ### Accompagnement Statut OEA (Opérateur Économique Agréé)
 Détail : https://nextinotech.com/accompagnement-oea
 
-Cabinet d'accompagnement pour l'obtention du statut OEA auprès de l'ADII (Administration des Douanes) : diagnostic, mise en conformité, dossier de candidature, audit à blanc, coaching le jour de l'audit — simplifications douanières pour PME et ETI exportatrices/importatrices.
+Cabinet d'accompagnement pour l'obtention du statut OEA auprès de l'ADII (Administration des Douanes) et pour la mise en place des régimes douaniers suspensifs : diagnostic, mise en conformité, dossier de candidature, audit à blanc, coaching le jour de l'audit — simplifications douanières pour PME et ETI exportatrices/importatrices.
 
 ### Prestations Opérationnelles
 Catalogue : https://nextinotech.com/prestations
 
 - **Pack Inventaire** — inventaires physiques d'entrepôt en 3 paliers (petit/moyen/grand site), équipe et matériel dimensionnés selon la complexité du site. Deux publics : entreprises, et experts comptables recherchant un tiers de comptage indépendant pour certifier l'inventaire physique de fin d'exercice de leurs clients.
 - **7 Services Logistiques à Valeur Ajoutée** — Co-packing, Fardelage, Étiquetage/Marquage, Kitting, Mise en carton/Reconditionnement, Contrôle Qualité Visuel, Palettisation sur Mesure
+
+## Nextinotech Digital
+
+### Déploiement Systèmes SCM
+- WMS (Gestion d'entrepôt)
+- TMS (Gestion du transport)
+- APS / S&OP (Demand Planning)
+- e-Procurement (Source-to-Pay)
+- Control Tower / BI Supply Chain
+
+### Control Tower — WMS, TMS, IMS, AMS, IoT, IA
+Détail : https://nextinotech.com/control-tower — piloter la supply chain en temps réel en intégrant six systèmes (WMS, TMS, IMS, AMS, IoT, IA) dans une seule tour de contrôle. Accessible depuis le menu Digital. Offre en 3 paliers à partir de 135k MAD (Mini), 330k MAD (Pilote), 840k MAD (Pro), formation des équipes et accompagnement conseil (cahiers des charges, intégration, direction supply chain à temps partagé).
 
 ## Références clients
 

@@ -909,6 +909,7 @@ export const SESSIONS = [
 
 /* ─── Schema.org — construit à partir des données ci-dessus ── */
 export const ORG_ID = 'https://nextinotech.com/#organization'
+export const ACADEMIE_ID = 'https://nextinotech.com/#academie' // Nextinotech Académie, prestataire des formations (index.html)
 const MONTHS_2026: Record<string, string> = { Sep: '09', Oct: '10', Nov: '11', 'Déc': '12' }
 
 function sessionToDates(date: string): { startDate: string; endDate: string } | null {
@@ -991,7 +992,7 @@ export const programmesSchema = {
             '@type': 'Course',
             name: p.title,
             description: p.subtitle,
-            provider: { '@id': ORG_ID },
+            provider: { '@id': ACADEMIE_ID },
             inLanguage: 'fr',
             educationalCredentialAwarded: 'Attestation de formation Nextinotech',
             courseWorkload: workload(p.duration),
@@ -1006,7 +1007,7 @@ export const programmesSchema = {
       '@id': 'https://nextinotech.com/formation#breadcrumb',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+        { '@type': 'ListItem', position: 2, name: 'Nextinotech Académie', item: 'https://nextinotech.com/formation' },
       ],
     },
     {
@@ -1101,7 +1102,7 @@ export function buildProgrammeSchema(p: Programme) {
         '@id': `https://nextinotech.com/formation/${p.id}#course`,
         name: p.title,
         description: p.subtitle,
-        provider: { '@id': ORG_ID },
+        provider: { '@id': ACADEMIE_ID },
         inLanguage: 'fr',
         educationalCredentialAwarded: 'Attestation de formation Nextinotech',
         courseWorkload: workload(p.duration),
@@ -1114,7 +1115,7 @@ export function buildProgrammeSchema(p: Programme) {
         '@id': `https://nextinotech.com/formation/${p.id}#breadcrumb`,
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+          { '@type': 'ListItem', position: 2, name: 'Nextinotech Académie', item: 'https://nextinotech.com/formation' },
           { '@type': 'ListItem', position: 3, name: p.title, item: `https://nextinotech.com/formation/${p.id}` },
         ],
       },
@@ -1152,7 +1153,7 @@ export const rlCourseSchema = {
       '@id': 'https://nextinotech.com/formation-rl#course',
       name: 'Devenir Responsable Logistique',
       description: "Formation intensive d’une journée pour maîtriser les méthodes, les outils et les réflexes du pilotage logistique : fondamentaux, gestion des stocks, transport, pilotage de la performance, systèmes WMS/TMS/ERP.",
-      provider: { '@id': ORG_ID },
+      provider: { '@id': ACADEMIE_ID },
       inLanguage: 'fr',
       educationalCredentialAwarded: 'Attestation de formation Nextinotech',
       courseWorkload: 'P1D',
@@ -1169,7 +1170,7 @@ export const rlCourseSchema = {
       '@id': 'https://nextinotech.com/formation-rl#breadcrumb',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+        { '@type': 'ListItem', position: 2, name: 'Nextinotech Académie', item: 'https://nextinotech.com/formation' },
         { '@type': 'ListItem', position: 3, name: 'Devenir Responsable Logistique', item: 'https://nextinotech.com/formation-rl' },
       ],
     },
@@ -1209,7 +1210,7 @@ export const importCourseSchema = {
       '@id': 'https://nextinotech.com/formation-import#course',
       name: 'Réussir sa Première Importation',
       description: "Formation intensive d'une journée pour maîtriser le processus complet d'importation : identification du besoin, prix de revient, fournisseurs, transport, douane, réception et stockage.",
-      provider: { '@id': ORG_ID },
+      provider: { '@id': ACADEMIE_ID },
       inLanguage: 'fr',
       educationalCredentialAwarded: 'Attestation de formation Nextinotech',
       courseWorkload: 'P1D',
@@ -1226,7 +1227,7 @@ export const importCourseSchema = {
       '@id': 'https://nextinotech.com/formation-import#breadcrumb',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+        { '@type': 'ListItem', position: 2, name: 'Nextinotech Académie', item: 'https://nextinotech.com/formation' },
         { '@type': 'ListItem', position: 3, name: 'Réussir sa Première Importation', item: 'https://nextinotech.com/formation-import' },
       ],
     },

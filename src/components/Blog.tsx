@@ -398,7 +398,9 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
     const prevTwT    = twTitle?.content
     const prevTwD    = twDesc?.content
 
-    const articleTitle = `${post.title} | Nextinotech`
+    // Même règle que le <title> prérendu (getBlogRoutes, vite.config.ts) : le
+    // suffixe de marque seulement s'il ne fait pas dépasser ~60 caractères.
+    const articleTitle = post.title.length <= 52 ? `${post.title} | Nextinotech` : post.title
     document.title = articleTitle
     if (descMeta && post.description)  descMeta.content = post.description
     if (ogTitle)                        ogTitle.content  = articleTitle

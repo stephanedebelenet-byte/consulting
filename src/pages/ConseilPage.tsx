@@ -26,7 +26,7 @@ export default function ConseilPage() {
         title="Conseil &"
         titleItalic="Expertise."
         subtitle="Diagnostic, DDMRP, sélection et déploiement de systèmes, direction supply chain à temps partagé — sans allégeance à aucun éditeur."
-        tag="EXPERTISE · TERRAIN"
+        tag="NEXTINOTECH CONSEIL · TERRAIN"
       />
       <Pourquoi />
       <Statement text="Le bon logiciel ne vaut rien sans la bonne méthode." bg="var(--paper)" />

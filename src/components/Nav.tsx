@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from 'react'
+import { useEffect, useRef, useState, useCallback, type Dispatch, type SetStateAction } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link, useLocation } from 'react-router-dom'
 import {
@@ -18,27 +18,37 @@ interface SimpleItem {
   disabled?: boolean
 }
 
+// Organisation par unité métier (26/09/2026) : Nextinotech Académie,
+// Nextinotech Conseil, Nextinotech Digital. Aucune adresse ne change : chaque
+// unité a pour page d'accueil une page existante (/formation, /conseil,
+// /control-tower). Voir aussi MobileTabBar.tsx et Footer.tsx.
+const ACADEMIE_ITEMS: SimpleItem[] = [
+  { label: 'Nos formations', href: '/formation' },
+  { label: 'Ingénierie de Formation', href: '/ingenierie-formation' },
+  { label: 'Catalogue par métier', href: '/ingenierie-formation/catalogue' },
+  { label: 'Formation Douane & Import-Export', href: '/formation/douane-import-export' },
+]
+
 const CONSEIL_ITEMS: SimpleItem[] = [
   { label: 'Diagnostic & Conseil', href: '/conseil' },
   { label: 'DDMRP', href: '/conseil' },
-  { label: 'Systèmes SI & IA', href: '/conseil' },
   { label: 'Direction SC à Temps Partagé', href: '/direction-supply-chain-temps-partage' },
-  { label: 'Accompagnement Statut OEA', href: '/accompagnement-oea' },
-  { label: 'FAQ', href: '/faq' },
-]
-
-const PRESTATIONS_ITEMS: SimpleItem[] = [
-  { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/control-tower' },
-  { label: 'Intégrateur de Systèmes', href: '/prestations#solutions-it' },
+  { label: 'Statut OEA & Régimes Douaniers', href: '/accompagnement-oea' },
   { label: 'Pack Inventaire', href: '/prestations#pack-inventaire' },
   { label: 'Services Logistiques à Valeur Ajoutée', href: '/prestations#services-valeur-ajoutee' },
 ]
 
-const FORMATION_ITEMS: SimpleItem[] = [
-  { label: 'Ingénierie de Formation', href: '/ingenierie-formation' },
-  { label: 'Catalogue par métier', href: '/ingenierie-formation/catalogue' },
-  { label: 'Nos formations', href: '/formation' },
+// Nextinotech Digital : offres en liste, puis simulateurs et démos en grille.
+const DIGITAL_ITEMS: SimpleItem[] = [
+  { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/control-tower' },
+  { label: 'Intégrateur de Systèmes', href: '/prestations#solutions-it' },
 ]
+
+const UNIT_NAMES: Partial<Record<GroupId, string>> = {
+  academie: 'Nextinotech Académie',
+  conseil: 'Nextinotech Conseil',
+  digital: 'Nextinotech Digital',
+}
 
 const TOOLS_ITEMS = [
   { label: 'Dimensionnement entrepôt', href: '/outils/dimensionnement-entrepot', icon: IconRuler2 },
@@ -52,26 +62,22 @@ const TOOLS_ITEMS = [
 const CABINET_ITEMS: SimpleItem[] = [
   { label: 'À propos', href: '/a-propos' },
   { label: 'Références', href: '/references' },
+  { label: 'FAQ', href: '/faq' },
 ]
 
-type GroupId = 'cabinet' | 'conseil' | 'prestations' | 'formation' | 'outils'
+type GroupId = 'academie' | 'conseil' | 'digital' | 'cabinet'
 
-// Structure alignée sur les 3 piliers Nextinotech : Conseil pointu, Intégrateur
-// de systèmes bout-en-bout (Prestations), Cabinet de formation + Ingénierie de
-// Formation (Formation). Cabinet, Outils gratuits, Carrière et Ressources
-// restent des accès secondaires.
+// Les 3 unités métier en tête, dans l'ordre historique du site (la formation
+// d'abord), puis Cabinet, Carrière et Ressources en accès secondaires.
 type NavEntry =
   | { kind: 'dropdown'; id: GroupId; label: string }
   | { kind: 'link'; id: 'carriere' | 'ressources'; label: string; href: string }
 
-// Ordre des 3 piliers Nextinotech : Formation, Conseil, Prestations (Control
-// Tower est intégré dans Prestations — pas d'onglet dédié).
 const NAV_ENTRIES: NavEntry[] = [
-  { kind: 'dropdown', id: 'formation', label: 'Formation' },
+  { kind: 'dropdown', id: 'academie', label: 'Académie' },
   { kind: 'dropdown', id: 'conseil', label: 'Conseil' },
-  { kind: 'dropdown', id: 'prestations', label: 'Prestations' },
+  { kind: 'dropdown', id: 'digital', label: 'Digital' },
   { kind: 'dropdown', id: 'cabinet', label: 'Cabinet' },
-  { kind: 'dropdown', id: 'outils', label: 'Outils gratuits' },
   { kind: 'link', id: 'carriere', label: 'Carrière', href: '/carriere' },
   { kind: 'link', id: 'ressources', label: 'Ressources', href: '/blog' },
 ]
@@ -157,7 +163,7 @@ function ToolsGrid({ onNavigate }: { onNavigate: () => void }) {
   )
 }
 
-function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label: string; active: boolean; openId: GroupId | null; setOpenId: (id: GroupId | null) => void }) {
+function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label: string; active: boolean; openId: GroupId | null; setOpenId: Dispatch<SetStateAction<GroupId | null>> }) {
   const isOpen = openId === id
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -166,7 +172,9 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
   }
   const scheduleClose = () => {
     cancelClose()
-    closeTimer.current = setTimeout(() => setOpenId(null), 160)
+    // Ne ferme que si ce menu est toujours celui ouvert : en passant d'un menu
+    // au suivant, le minuteur du précédent refermait le nouveau.
+    closeTimer.current = setTimeout(() => setOpenId((cur) => (cur === id ? null : cur)), 160)
   }
 
   return (
@@ -214,18 +222,27 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
               zIndex: 120,
             }}
           >
-            {id === 'outils' ? (
-              <ToolsGrid onNavigate={() => setOpenId(null)} />
-            ) : (
-              <SimpleList
-                items={
-                  id === 'conseil' ? CONSEIL_ITEMS
-                    : id === 'prestations' ? PRESTATIONS_ITEMS
-                    : id === 'formation' ? FORMATION_ITEMS
-                    : CABINET_ITEMS
-                }
-                onNavigate={() => setOpenId(null)}
-              />
+            {UNIT_NAMES[id] && (
+              <div style={{ padding: '1rem 1.25rem 0.25rem', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--mid)' }}>
+                {UNIT_NAMES[id]}
+              </div>
+            )}
+            <SimpleList
+              items={
+                id === 'academie' ? ACADEMIE_ITEMS
+                  : id === 'conseil' ? CONSEIL_ITEMS
+                  : id === 'digital' ? DIGITAL_ITEMS
+                  : CABINET_ITEMS
+              }
+              onNavigate={() => setOpenId(null)}
+            />
+            {id === 'digital' && (
+              <>
+                <div style={{ padding: '0.75rem 1.25rem 0', fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.45)' }}>
+                  Simulateurs & démos gratuits
+                </div>
+                <ToolsGrid onNavigate={() => setOpenId(null)} />
+              </>
             )}
           </motion.div>
         )}
@@ -294,11 +311,10 @@ export default function Nav() {
   }, [])
 
   const groupActive = (id: GroupId) => {
-    if (id === 'conseil') return pathname === '/conseil' || pathname === '/services' || pathname === '/faq' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi' || pathname === '/accompagnement-oea'
-    if (id === 'prestations') return pathname === '/prestations'
-    if (id === 'formation') return pathname === '/formation' || pathname.startsWith('/formation-') || pathname.startsWith('/formation/') || pathname.startsWith('/ingenierie-formation')
-    if (id === 'outils') return pathname.startsWith('/outils') || pathname.startsWith('/demo')
-    if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references'
+    if (id === 'academie') return pathname === '/formation' || pathname.startsWith('/formation-') || pathname.startsWith('/formation/') || pathname.startsWith('/ingenierie-formation') || pathname.startsWith('/evenements/')
+    if (id === 'conseil') return pathname === '/conseil' || pathname === '/services' || pathname === '/prestations' || pathname === '/direction-supply-chain-temps-partage' || pathname === '/directeur-logistique-mi-temps' || pathname === '/directeur-achats-mi-temps' || pathname === '/dsc-vs-recrutement-cdi' || pathname === '/accompagnement-oea'
+    if (id === 'digital') return pathname === '/control-tower' || pathname.startsWith('/outils') || pathname.startsWith('/demo') || pathname.startsWith('/solutions/')
+    if (id === 'cabinet') return pathname === '/a-propos' || pathname === '/references' || pathname === '/faq'
     return false
   }
 
@@ -396,9 +412,10 @@ export default function Nav() {
         </ul>
       </motion.nav>
 
-      {/* Mobile overlay — groupe Cabinet + liens directs Carrière / Prestations /
-          Ressources / FAQ / Contact (Formation, Conseil et Outils ont leur propre
-          accès direct depuis la barre de navigation mobile) */}
+      {/* Mobile overlay — les 3 unités métier, Cabinet, puis liens directs
+          Carrière / Ressources / Contact. La barre d'onglets mobile
+          (MobileTabBar.tsx) donne en plus un accès direct à l'Académie, au
+          Conseil et aux outils de Nextinotech Digital. */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -413,12 +430,12 @@ export default function Nav() {
               zIndex: 190,
               display: 'flex',
               flexDirection: 'column',
-              justifyContent: 'center',
+              justifyContent: 'flex-start', // centrage par marges auto ci-dessous : un contenu plus haut que l'écran reste accessible en défilant
               padding: '2rem 3rem',
               overflowY: 'auto',
             }}
           >
-            <nav style={{ marginBottom: '2.5rem' }}>
+            <nav style={{ marginBottom: '2.5rem', marginTop: 'auto' }}>
               <Link
                 to="/contact"
                 className="mobile-nav-item"
@@ -428,44 +445,32 @@ export default function Nav() {
                 Contact →
               </Link>
 
-              {/* Formation et Prestations sont les piliers 2 et 3 de l'offre : ils ont
-                  chacun leur propre section ici pour rester atteignables depuis le menu
-                  mobile, au même titre que Cabinet. */}
-              <div style={{ marginBottom: '2rem' }}>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
-                  Formation
+              {/* Les 3 unités métier, chacune avec sa section, puis Cabinet.
+                  Les simulateurs et démos de Nextinotech Digital restent
+                  accessibles par l'onglet "Digital" de la barre mobile. */}
+              {([
+                ['Nextinotech Académie', ACADEMIE_ITEMS],
+                ['Nextinotech Conseil', CONSEIL_ITEMS],
+                ['Nextinotech Digital', DIGITAL_ITEMS],
+              ] as const).map(([unit, items]) => (
+                <div key={unit} style={{ marginBottom: '2rem' }}>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
+                    {unit}
+                  </div>
+                  {items.map(({ label, href }, i) => (
+                    <motion.div
+                      key={label}
+                      initial={{ opacity: 0, x: 32 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
+                    >
+                      <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                        {label}
+                      </Link>
+                    </motion.div>
+                  ))}
                 </div>
-                {FORMATION_ITEMS.map(({ label, href }, i) => (
-                  <motion.div
-                    key={label}
-                    initial={{ opacity: 0, x: 32 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
-                  >
-                    <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
-                      {label}
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
-
-              <div style={{ marginBottom: '2rem' }}>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
-                  Prestations
-                </div>
-                {PRESTATIONS_ITEMS.map(({ label, href }, i) => (
-                  <motion.div
-                    key={label}
-                    initial={{ opacity: 0, x: 32 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
-                  >
-                    <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
-                      {label}
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
+              ))}
 
               <div style={{ marginBottom: '2rem' }}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
@@ -485,12 +490,10 @@ export default function Nav() {
                 ))}
               </div>
 
-              {/* Carrière, Ressources et FAQ : liens directs, plus de destination
-                  propre pour justifier un sous-groupe. */}
+              {/* Carrière et Ressources : liens directs (la FAQ est dans Cabinet). */}
               {[
                 { label: 'Carrière', href: '/carriere' },
                 { label: 'Ressources', href: '/blog' },
-                { label: 'FAQ', href: '/faq' },
               ].map(({ label, href }, i) => (
                 <motion.div
                   key={label}
@@ -514,7 +517,7 @@ export default function Nav() {
                 letterSpacing: '0.12em',
                 textTransform: 'uppercase',
                 color: 'rgba(27,53,84,0.35)',
-                display: 'flex', gap: '1.5rem', flexWrap: 'wrap',
+                display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginBottom: 'auto',
               }}
             >
               <span>Nextinotech</span>

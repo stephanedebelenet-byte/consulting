@@ -33,9 +33,10 @@ export default function MobileTabBar() {
 
   const tabs = [
     { label: 'Accueil', href: '/', icon: IconHome, match: (p: string) => p === '/' },
-    { label: 'Formation', href: '/formation', icon: IconSchool, match: (p: string) => p === '/formation' },
-    { label: 'Conseil', href: '/conseil', icon: IconBriefcase, match: (p: string) => p === '/conseil' || p === '/prestations' },
-    { label: 'Outils', icon: IconTools, action: () => setToolsOpen(!toolsOpen), match: (p: string) => p.startsWith('/outils') || p.startsWith('/demo') },
+    // Unités métier (voir Nav.tsx) : Académie, Conseil, Digital.
+    { label: 'Académie', href: '/formation', icon: IconSchool, match: (p: string) => p === '/formation' || p.startsWith('/formation') || p.startsWith('/ingenierie-formation') },
+    { label: 'Conseil', href: '/conseil', icon: IconBriefcase, match: (p: string) => ['/conseil', '/prestations', '/direction-supply-chain-temps-partage', '/directeur-logistique-mi-temps', '/directeur-achats-mi-temps', '/dsc-vs-recrutement-cdi', '/accompagnement-oea'].includes(p) },
+    { label: 'Digital', icon: IconTools, action: () => setToolsOpen(!toolsOpen), match: (p: string) => p === '/control-tower' || p.startsWith('/outils') || p.startsWith('/demo') },
     { label: 'Menu', icon: menuOpen ? IconX : IconMenu2, action: () => setMenuOpen(!menuOpen), match: () => false },
   ]
 
@@ -121,11 +122,27 @@ export default function MobileTabBar() {
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
                 <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.6)' }}>
-                  Outils gratuits
+                  Nextinotech Digital
                 </span>
                 <button onClick={() => setToolsOpen(false)} aria-label="Fermer" style={{ background: 'none', border: 'none', padding: 0 }}>
                   <IconX size={20} color="var(--mid)" />
                 </button>
+              </div>
+              {[
+                { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/control-tower' },
+                { label: 'Intégrateur de Systèmes', href: '/prestations#solutions-it' },
+              ].map(({ label, href }) => (
+                <Link
+                  key={label}
+                  to={href}
+                  onClick={() => setToolsOpen(false)}
+                  style={{ display: 'block', padding: '0.85rem 0', borderBottom: '1px solid rgba(27,53,84,0.08)', fontSize: '0.85rem', color: 'var(--navy)', textDecoration: 'none' }}
+                >
+                  {label}
+                </Link>
+              ))}
+              <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.45)', margin: '1.25rem 0 0.75rem' }}>
+                Simulateurs & démos gratuits
               </div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
                 {TOOLS_ITEMS.map(({ label, href, icon: Icon }) => (

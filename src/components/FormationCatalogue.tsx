@@ -328,7 +328,7 @@ export default function FormationCatalogue() {
         <div className="section-inner" style={{ position: 'relative', zIndex: 1 }}>
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '2.5rem' }}>
-              01 / Académie · Terrain · Résultats
+              01 / Nextinotech Académie · Terrain · Résultats
             </div>
           </Reveal>
 

@@ -269,7 +269,7 @@ export function buildVilleSchema(v: VilleFormation) {
         '@id': `https://nextinotech.com/formation-logistique-${v.slug}#breadcrumb`,
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Formations', item: 'https://nextinotech.com/formation' },
+          { '@type': 'ListItem', position: 2, name: 'Nextinotech Académie', item: 'https://nextinotech.com/formation' },
           { '@type': 'ListItem', position: 3, name: `Formation logistique à ${v.nom}`, item: `https://nextinotech.com/formation-logistique-${v.slug}` },
         ],
       },
@@ -278,7 +278,7 @@ export function buildVilleSchema(v: VilleFormation) {
         '@id': `https://nextinotech.com/formation-logistique-${v.slug}#course`,
         name: `Formation Logistique & Supply Chain à ${v.nom}`,
         description: v.metaDescription,
-        provider: { '@id': 'https://nextinotech.com/#organization' },
+        provider: { '@id': 'https://nextinotech.com/#academie' },
         inLanguage: 'fr',
         educationalCredentialAwarded: 'Attestation de formation Nextinotech',
         areaServed: { '@type': 'City', name: v.nom },

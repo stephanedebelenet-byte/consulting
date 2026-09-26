@@ -264,6 +264,26 @@ console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap 
   }
 }
 
+// ── Règle 12 : llms-full.txt ne cite que des articles publiés (26/09/2026) ──
+// Le catalogue de llms-full.txt liste les articles par numéro ("- 447 : …").
+// Le 26/09, il citait encore les 11 études de cas dépubliées pour risque
+// juridique (Bosch, Casanet, Renault, OCP…) et 6 articles fusionnés. Chaque
+// numéro cité doit correspondre à un article du registre src/data/blogFiles.ts.
+{
+  const registrySrc = readFileSync(join(ROOT, 'src', 'data', 'blogFiles.ts'), 'utf-8')
+  const published = new Set(
+    new Function('return ' + registrySrc.slice(registrySrc.indexOf('= [') + 2))().map((f) => parseInt(f, 10))
+  )
+  // Les webinaires (src/data/evenements.ts) sont publiés en pages /evenements/.
+  for (const m of readFileSync(join(ROOT, 'src', 'data', 'evenements.ts'), 'utf-8').matchAll(/file: '(\d+)-/g)) published.add(parseInt(m[1], 10))
+  const full = existsSync(LLMS_FULL_PATH) ? readFileSync(LLMS_FULL_PATH, 'utf-8') : ''
+  const cited = [...full.matchAll(/^- (\d{1,3}) :/gm)].map((m) => parseInt(m[1], 10))
+  const ghosts = [...new Set(cited.filter((n) => !published.has(n)))]
+  if (ghosts.length) {
+    fail(`llms-full.txt cite ${ghosts.length} article(s) non publié(s) : n° ${ghosts.slice(0, 10).join(', ')} — les retirer du catalogue`)
+  }
+}
+
 // ── Règle 7 : vraie page 404 (25/09/2026) ─────────────────────────────────
 // vercel.json ne réécrit plus toute adresse vers index.html : Vercel sert
 // dist/404.html avec un statut 404. Elle doit exister, porter noindex, ne

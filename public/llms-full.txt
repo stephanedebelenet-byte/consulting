@@ -18,6 +18,12 @@
 
 ---
 
+## Organisation — 3 unités métier
+
+- **Nextinotech Académie** — https://nextinotech.com/formation — formations inter et intra-entreprise (Supply Chain, Lean, Management, Finance, Gestion de projet, Carrière, Douane & import-export), ingénierie de formation, catalogue par métier, financement CSF / GIAC.
+- **Nextinotech Conseil** — https://nextinotech.com/conseil — conseil et AMOA (diagnostic, stocks et DDMRP, achats, schéma logistique, cahiers des charges), direction supply chain à temps partagé, accompagnement statut OEA et régimes douaniers, prestations opérationnelles (inventaires, services à valeur ajoutée).
+- **Nextinotech Digital** — https://nextinotech.com/control-tower — Control Tower (WMS, TMS, IMS, AMS, IoT, IA), intégration de systèmes, simulateurs et démos gratuits.
+
 ## Services (résumé)
 
 Détail Conseil & AMOA (points 1 à 7) : https://nextinotech.com/conseil
@@ -38,7 +44,7 @@ Détail Conseil & AMOA (points 1 à 7) : https://nextinotech.com/conseil
 
 ---
 
-## Catalogue Formations — 27 Programmes, 7 Domaines
+## Nextinotech Académie — Catalogue Formations — 30 Programmes, 7 Domaines
 
 **Page catalogue :** https://nextinotech.com/formation — filtrable par domaine, calendrier de sessions 2026 inclus.
 
@@ -104,19 +110,6 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 - 14 : Webinaire transformation supply chain 90 jours
 - 15 : Webinaire formation vs consulting
 
-#### Études de cas (20-30)
-- 20 : PME textile Casablanca — optimisation sourcing
-- 21 : ME procurement — déploiement Bosch style
-- 22 : Casanet — adoption WMS
-- 23 : Oland — S&OP et cash
-- 24 : DHL — optimisation entrepôt 3 sites
-- 25 : Renault Tanger — ramp-up logistique greenfield
-- 26 : Douja Promotion — expansion supply chain
-- 27 : Autoroutes du Maroc — externalisation logistique
-- 28 : SOMACA — automatisation entrepôt
-- 29 : Diana Group — supply chain diversifiée
-- 30 : OCP/SAEDM — transformation supply chain
-
 #### Mini FAQ (40-59)
 - 40 à 59 : Réponses aux questions fréquentes sur les coûts, WMS, ROI, délais, PME, certifications, e-commerce, pharma, automobile, retail, FMCG, Afrique
 
@@ -161,7 +154,6 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 - 95 : Formation chef entrepôt Maroc
 - 96 : Lean logistique Maroc
 - 97 : Programme formation supply chain cadres Maroc
-- 98 : Formation gestionnaire stocks Maroc
 - 99 : Formation acheteur supply chain Maroc
 - 100 : Formation transport douanes Maroc
 
@@ -183,23 +175,16 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 ### PARTIE 3 : Formations Supply Chain Maroc (109–130)
 
 - 109 : Comment choisir sa formation supply chain au Maroc — guide complet (cursus, accréditations, ROI)
-- 110 : Formation supply chain manager — programme détaillé et débouchés
 - 111 : Formation responsable logistique Maroc — parcours et certifications
-- 112 : Formation acheteur professionnel — cursus complet Maroc
 - 113 : Formation gestionnaire entrepôt Maroc
 - 114 : Formation planificateur supply chain Maroc
 - 115 : Financement formation logistique Maroc — OFPPT, CPF, bourses
 - 116 : Certification APICS CPIM au Maroc — guide candidat
 - 117 : Formation lean logistique et entrepôt Maroc
-- 118 : Reconversion supply chain Maroc — guide complet
 - 119 : Formation négociation achats Maroc
-- 120 : Formation continue supply chain cadres Maroc
 - 121 : Formation WMS — déploiement et prise en main Maroc
-- 122 : Formation DDMRP — certification Maroc
 - 123 : Formation e-learning supply chain Maroc
-- 124 : ROI formation supply chain — comment le calculer
 - 125 : Formation directeur supply chain Maroc
-- 126 : Formation TMS transport Maroc
 - 127 : Formation supply chain intra-entreprise Maroc
 - 128 : Formation supply chain Afrique francophone
 - 129 : MBA supply chain Maroc — guide et comparatif
