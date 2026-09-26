@@ -92,12 +92,12 @@ Catalogue : https://nextinotech.com/prestations
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (529 articles)
+## Blog — Ressources Supply Chain (512 articles)
 
-Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 529 articles organisés en thèmes :
+Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 512 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
-Audit supply chain, diagnostic logistique, études de cas (Renault, DHL, OCP, Addoha), FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
+Audit supply chain, diagnostic logistique, FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
 
 ### Tendances Supply Chain 2026 (articles 101-108)
 Nearshoring Maroc, IA en supply chain, supply chain durable/RSE, logistique inverse, S&OP, e-commerce, SRM fournisseurs, last mile.

@@ -7,6 +7,10 @@ import { slugify } from './src/utils/slugify'
 import { EVENEMENTS } from './src/data/evenements'
 import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides'
 import { parseMarkdown } from './src/utils/markdownParser'
+import { BLOG_FILES } from './src/data/blogFiles'
+
+// Registre des articles publiés (source unique, voir src/data/blogFiles.ts).
+const PUBLISHED_BLOG_FILES = new Set(BLOG_FILES)
 
 const SITE = 'https://nextinotech.com'
 
@@ -50,6 +54,10 @@ export function getBlogRoutes(): PrerenderRoute[] {
   for (const file of readdirSync(dir)) {
     if (!file.endsWith('.md') || file.startsWith('_')) continue
     if (EVENEMENT_FILES.has(file.replace(/\.md$/, ''))) continue
+    // Article absent du registre = dépublié : ni page, ni sitemap, ni contenu
+    // statique. Sans ce filtre, les 11 études de cas retirées le 21/08/2026
+    // pour risque juridique restaient servies en texte intégral.
+    if (!PUBLISHED_BLOG_FILES.has(file.replace(/\.md$/, ''))) continue
     const raw = readFileSync(join(dir, file), 'utf-8')
     const fm = parseFrontmatter(raw)
     if (!fm.title) continue
