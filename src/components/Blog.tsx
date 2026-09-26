@@ -1,9 +1,23 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
-import { useSearchParams, useParams, useNavigate } from 'react-router-dom'
+import { useSearchParams, useParams, useNavigate, useLocation, Link } from 'react-router-dom'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
 import { BLOG_FILES } from '../data/blogFiles'
+import { getPrimedMarkdown } from '../data/markdownPreload'
 import SchemaScript from './SchemaHelper'
+
+// Au build, le markdown des articles est fourni d'avance (voir
+// src/data/markdownPreload.ts) : la page /blog prérendue contient alors la
+// liste complète des articles et leurs liens, lisibles par Google et les
+// crawlers IA. Dans le navigateur, le cache est vide : la liste est chargée
+// par fetch() comme avant.
+function primedPosts(): BlogPost[] {
+  const posts = BLOG_FILES.map((f) => getPrimedMarkdown(f))
+    .filter((raw): raw is string => !!raw)
+    .map((raw) => parseMarkdown(raw))
+  posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  return posts
+}
 
 function readingTime(content: string): number {
   const words = content.trim().split(/\s+/).length
@@ -11,12 +25,13 @@ function readingTime(content: string): number {
 }
 
 export default function Blog() {
-  const [posts, setPosts] = useState<BlogPost[]>([])
+  const [posts, setPosts] = useState<BlogPost[]>(primedPosts)
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(() => posts.length === 0)
   const [searchParams, setSearchParams] = useSearchParams()
   const params = useParams<{ slug?: string }>()
   const navigate = useNavigate()
+  const location = useLocation()
 
   useEffect(() => {
     const loadPosts = async () => {
@@ -51,15 +66,24 @@ export default function Blog() {
   }, [])
 
   // Deep-link : /blog/<slug> (canonique) ou /blog?post=<slug> (rétro-compat) ouvre l'article visé
+  // L'adresse est la référence : ouvrir un article depuis la liste fait passer
+  // l'URL à /blog/<slug>, le bouton Retour la ramène à /blog et referme l'article.
   useEffect(() => {
     const slug = params.slug || searchParams.get('post')
-    if (!slug || posts.length === 0) return
+    if (!slug) {
+      setSelectedPost(null)
+      return
+    }
+    if (posts.length === 0) return
     const match = posts.find((p) => p.slug === slug)
     if (match) setSelectedPost(match)
   }, [posts, params.slug, searchParams])
 
   return (
     <>
+      {/* Liste rendue uniquement sur /blog : sur /blog/<slug>, seul l'article
+          est rendu (voir BlogPage.tsx). */}
+      {!params.slug && (
       <section style={{ background: 'var(--dark)', padding: 'var(--sp)', overflow: 'hidden' }}>
         <div className="section-inner">
           <motion.div
@@ -118,7 +142,9 @@ export default function Blog() {
                     delay: (idx % 3) * 0.12,
                   }}
                   whileHover="hover"
-                  onClick={() => setSelectedPost(post)}
+                  // L'URL passe à /blog/<slug> : partages, favoris et statistiques
+                  // pointent vers l'article lu, pas vers la liste.
+                  onClick={() => navigate(`/blog/${post.slug}`, { state: { fromList: true } })}
                   style={{
                     border: '1px solid var(--dark-border)',
                     cursor: 'pointer',
@@ -192,7 +218,23 @@ export default function Blog() {
                           color: 'var(--navy)',
                         }}
                       >
-                        {post.title}
+                        {/* Vrai lien (href) vers l'article : sans lui, aucune page du
+                            site ne liait les articles, que Google ne découvrait que
+                            par le sitemap. Le clic simple garde le comportement
+                            d'origine (ouverture sur place, via onClick de la carte). */}
+                        <Link
+                          to={`/blog/${post.slug}`}
+                          onClick={(e) => {
+                            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) {
+                              e.stopPropagation()
+                              return
+                            }
+                            e.preventDefault()
+                          }}
+                          style={{ color: 'inherit', textDecoration: 'none' }}
+                        >
+                          {post.title}
+                        </Link>
                       </h3>
 
                       <div
@@ -248,13 +290,18 @@ export default function Blog() {
           )}
         </div>
       </section>
+      )}
 
       {selectedPost && (
         <BlogDetail
           post={selectedPost}
           onClose={() => {
             setSelectedPost(null)
-            if (params.slug) navigate('/blog', { replace: true })
+            // Ouvert depuis la liste : on revient à l'entrée /blog de l'historique
+            // (même effet que le bouton Retour). Arrivée directe sur l'URL de
+            // l'article : on remplace par /blog, sans quitter le site.
+            if (params.slug && location.state?.fromList) navigate(-1)
+            else if (params.slug) navigate('/blog', { replace: true })
             else if (searchParams.get('post')) setSearchParams({}, { replace: true })
           }}
         />
@@ -512,7 +559,11 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             fontSize: '1.0625rem',
             color: 'var(--navy)',
           }}
-          dangerouslySetInnerHTML={{ __html: post.htmlContent }}
+          // Le titre est déjà affiché en <h1> ci-dessus : on retire le "# Titre"
+          // du markdown (converti en <h1 class="blog-h1">) pour n'avoir qu'un H1.
+          // La page prérendue (vite.config.ts), qui n'a pas ce <h1> séparé,
+          // garde celui du markdown.
+          dangerouslySetInnerHTML={{ __html: post.htmlContent.replace(/<h1 class="blog-h1">[\s\S]*?<\/h1>\s*/, '') }}
         />
       </motion.article>
     </motion.div>

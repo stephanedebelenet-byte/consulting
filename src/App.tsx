@@ -61,9 +61,13 @@ function PageTransition({ children }: { children: React.ReactNode }) {
 
 function AnimatedRoutes() {
   const location = useLocation()
+  // /blog et /blog/<slug> partagent une clé : ouvrir ou fermer un article
+  // change l'URL sans remonter la page (pas de transition, pas de rechargement
+  // des 512 articles). Les autres pages gardent une clé par adresse.
+  const routeKey = location.pathname.startsWith('/blog') ? '/blog' : location.pathname
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={location.pathname}>
+      <Routes location={location} key={routeKey}>
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
