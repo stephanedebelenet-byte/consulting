@@ -244,6 +244,26 @@ console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap 
   }
 }
 
+// ── Règle 11 : aucune redirection vers une page inexistante (26/09/2026) ───
+// Chaque redirection interne de vercel.json doit mener à une page publiée
+// (présente au sitemap), et non à une 404 ni à une autre redirection. Le
+// 26/09, la dépublication de 17 articles a laissé 6 anciennes variantes
+// d'URLs rediriger vers des pages disparues.
+{
+  const vercel = JSON.parse(readFileSync(join(ROOT, 'vercel.json'), 'utf-8'))
+  const published = new Set(locs.map((l) => l.slice(SITE.length) || '/'))
+  const sources = new Set((vercel.redirects || []).map((r) => r.source))
+  for (const r of vercel.redirects || []) {
+    const d = r.destination
+    if (/^https?:/.test(d) || d.includes(':')) continue // externe ou paramétrée
+    const p = d.split(/[?#]/)[0] || '/'
+    if (published.has(p)) continue
+    fail(sources.has(p)
+      ? `Redirection en chaîne : ${r.source} → ${p}, elle-même redirigée — pointer directement vers la destination finale`
+      : `Redirection vers une page inexistante : ${r.source} → ${p} (404)`)
+  }
+}
+
 // ── Règle 7 : vraie page 404 (25/09/2026) ─────────────────────────────────
 // vercel.json ne réécrit plus toute adresse vers index.html : Vercel sert
 // dist/404.html avec un statut 404. Elle doit exister, porter noindex, ne
