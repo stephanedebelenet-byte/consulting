@@ -81,6 +81,9 @@ export default function Blog() {
 
   return (
     <>
+      {/* Liste rendue uniquement sur /blog : sur /blog/<slug>, seul l'article
+          est rendu (voir BlogPage.tsx). */}
+      {!params.slug && (
       <section style={{ background: 'var(--dark)', padding: 'var(--sp)', overflow: 'hidden' }}>
         <div className="section-inner">
           <motion.div
@@ -287,6 +290,7 @@ export default function Blog() {
           )}
         </div>
       </section>
+      )}
 
       {selectedPost && (
         <BlogDetail
@@ -555,7 +559,11 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
             fontSize: '1.0625rem',
             color: 'var(--navy)',
           }}
-          dangerouslySetInnerHTML={{ __html: post.htmlContent }}
+          // Le titre est déjà affiché en <h1> ci-dessus : on retire le "# Titre"
+          // du markdown (converti en <h1 class="blog-h1">) pour n'avoir qu'un H1.
+          // La page prérendue (vite.config.ts), qui n'a pas ce <h1> séparé,
+          // garde celui du markdown.
+          dangerouslySetInnerHTML={{ __html: post.htmlContent.replace(/<h1 class="blog-h1">[\s\S]*?<\/h1>\s*/, '') }}
         />
       </motion.article>
     </motion.div>
