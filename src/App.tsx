@@ -13,6 +13,7 @@ import FormationPage from './pages/FormationPage'
 import FormationRLPage from './pages/FormationRLPage'
 import FormationImportPage from './pages/FormationImportPage'
 import FormationVillePage from './pages/FormationVillePage'
+import { VILLES } from './data/villesFormation'
 import FormationProgrammePage from './pages/FormationProgrammePage'
 import AProposPage from './pages/AProposPage'
 import BlogPage from './pages/BlogPage'
@@ -81,7 +82,12 @@ function AnimatedRoutes() {
         <Route path="/formation-rl/" element={<PageTransition><FormationRLPage /></PageTransition>} />
         <Route path="/formation-import" element={<PageTransition><FormationImportPage /></PageTransition>} />
         <Route path="/formation-import/" element={<PageTransition><FormationImportPage /></PageTransition>} />
-        <Route path="/formation-logistique-:ville" element={<PageTransition><FormationVillePage /></PageTransition>} />
+        {/* Une route par ville : React Router 6 ne sait pas lire un paramètre
+            collé à du texte (« /formation-logistique-:ville » ne correspondait
+            à rien et servait la page 404, en SSR comme dans le navigateur). */}
+        {VILLES.map((v) => (
+          <Route key={v.slug} path={`/formation-logistique-${v.slug}`} element={<PageTransition><FormationVillePage slug={v.slug} /></PageTransition>} />
+        ))}
         <Route path="/formation/:programme" element={<PageTransition><FormationProgrammePage /></PageTransition>} />
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />

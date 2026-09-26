@@ -162,6 +162,12 @@ for (const loc of locs) {
   if (!hasH1(html)) {
     fail(`Page sans <h1> dans le <body> prérendu : ${loc}`)
   }
+  // Règle 5 bis (27/09/2026) : une page du sitemap ne doit jamais rendre la
+  // page 404. Les 6 pages villes le faisaient (route React Router invalide)
+  // tout en passant les règles ci-dessus, puisque la 404 a un H1 et du texte.
+  if (loc !== '/404' && /ERREUR · 404|Page introuvable/.test(bodyText)) {
+    fail(`Page du sitemap rendue comme une 404 (route non reconnue par l'application) : ${loc}`)
+  }
   if (bodyText.length < MIN_BODY_TEXT_LENGTH) {
     fail(`Page avec un <body> quasi vide (${bodyText.length} caractères de texte, minimum ${MIN_BODY_TEXT_LENGTH}) : ${loc}`)
   }
