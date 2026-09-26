@@ -40,13 +40,48 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.nextinotech.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.nextinotech.com"
+        }
+      ],
       "destination": "https://nextinotech.com/:path*",
       "permanent": true
     },
     {
       "source": "/services",
       "destination": "/conseil",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-gestionnaire-de-stocks-au-maroc-metier",
+      "destination": "/blog/formation-gestion-des-stocks-au-maroc-methodes-metier-et",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-acheteur-professionnel-au-maroc-cursus",
+      "destination": "/blog/formation-acheteur-professionnel-au-maroc-competences",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roi-d-une-formation-supply-chain-comment-le-calculer-et-le",
+      "destination": "/blog/roi-d-une-formation-supply-chain-au-maroc-comment-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-supply-chain-manager-au-maroc-programme-contenu",
+      "destination": "/blog/formation-supply-chain-manager-au-maroc-devenir-scm-en-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-tms-au-maroc-optimiser-le-transport-avec-un",
+      "destination": "/blog/formation-et-optimisation-tms-au-maroc-logiciel-de-gestion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-continue-supply-chain-pour-cadres-au-maroc-rester",
+      "destination": "/blog/programme-de-formation-supply-chain-management-pour-cadres",
       "permanent": true
     },
     {
@@ -136,7 +171,7 @@
     },
     {
       "source": "/blog/formation-supply-chain-manager-au-maroc-programme-contenu-et",
-      "destination": "/blog/formation-supply-chain-manager-au-maroc-programme-contenu",
+      "destination": "/blog/formation-supply-chain-manager-au-maroc-devenir-scm-en-2026",
       "permanent": true
     },
     {
@@ -146,7 +181,7 @@
     },
     {
       "source": "/blog/formation-acheteur-professionnel-au-maroc-cursus-comptences-",
-      "destination": "/blog/formation-acheteur-professionnel-au-maroc-cursus",
+      "destination": "/blog/formation-acheteur-professionnel-au-maroc-competences",
       "permanent": true
     },
     {
@@ -186,7 +221,7 @@
     },
     {
       "source": "/blog/formation-continue-supply-chain-pour-cadres-au-maroc-rester-",
-      "destination": "/blog/formation-continue-supply-chain-pour-cadres-au-maroc-rester",
+      "destination": "/blog/programme-de-formation-supply-chain-management-pour-cadres",
       "permanent": true
     },
     {
@@ -201,7 +236,7 @@
     },
     {
       "source": "/blog/roi-dune-formation-supply-chain-comment-le-calculer-et-le-ju",
-      "destination": "/blog/roi-d-une-formation-supply-chain-comment-le-calculer-et-le",
+      "destination": "/blog/roi-d-une-formation-supply-chain-au-maroc-comment-le",
       "permanent": true
     },
     {
@@ -211,7 +246,7 @@
     },
     {
       "source": "/blog/formation-tms-au-maroc-optimiser-le-transport-avec-un-logici",
-      "destination": "/blog/formation-tms-au-maroc-optimiser-le-transport-avec-un",
+      "destination": "/blog/formation-et-optimisation-tms-au-maroc-logiciel-de-gestion",
       "permanent": true
     },
     {
@@ -600,11 +635,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/case-study-bosch-maroc-8-saving-via-formation-sourcing-strat",
-      "destination": "/blog/case-study-bosch-maroc-8-saving-via-formation-sourcing",
-      "permanent": true
-    },
-    {
       "source": "/blog/dvelopper-sa-carrire-en-supply-chain-achats-et-logistique",
       "destination": "/blog/developper-sa-carriere-en-supply-chain-achats-et-logistique",
       "permanent": true
@@ -705,11 +735,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/case-study-oland-group-sop-implementation-cash-cycle--12-day",
-      "destination": "/blog/case-study-oland-group-sop-implementation-cash-cycle-12",
-      "permanent": true
-    },
-    {
       "source": "/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-",
       "destination": "/blog/ia-predictive-et-prevision-de-la-demande-reduire-ses-stocks",
       "permanent": true
@@ -757,11 +782,6 @@
     {
       "source": "/blog/commerce-triangulaire-maroc-afrique-europe-structurer-ses-fl",
       "destination": "/blog/commerce-triangulaire-maroc-afrique-europe-structurer-ses",
-      "permanent": true
-    },
-    {
-      "source": "/blog/case-study-dhl-supply-chain-3-site-warehouse-consolidation-e",
-      "destination": "/blog/case-study-dhl-supply-chain-3-site-warehouse-consolidation",
       "permanent": true
     },
     {
@@ -815,11 +835,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/case-study-renault-tanger-production-ramp-0400-unitsday-18-m",
-      "destination": "/blog/case-study-renault-tanger-production-ramp-0400-unitsday-18",
-      "permanent": true
-    },
-    {
       "source": "/blog/cyberscurit-de-la-supply-chain-le-maillon-faible-que-les-ent",
       "destination": "/blog/cybersecurite-de-la-supply-chain-le-maillon-faible-que-les",
       "permanent": true
@@ -867,11 +882,6 @@
     {
       "source": "/blog/emballages-durables-rduire-ses-cots-logistiques-en-verdissan",
       "destination": "/blog/emballages-durables-reduire-ses-couts-logistiques-en",
-      "permanent": true
-    },
-    {
-      "source": "/blog/case-study-douja-promotion-11-saving-across-31-chantiers-710",
-      "destination": "/blog/case-study-douja-promotion-11-saving-across-31-chantiers",
       "permanent": true
     },
     {
@@ -925,11 +935,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/case-study-autoroutes-du-maroc-externalisation-pilotage-12-m",
-      "destination": "/blog/case-study-autoroutes-du-maroc-externalisation-pilotage-12",
-      "permanent": true
-    },
-    {
       "source": "/blog/onboarding-des-caristes-et-magasiniers-rduire-lattrition-ds-",
       "destination": "/blog/onboarding-des-caristes-et-magasiniers-reduire-l-attrition",
       "permanent": true
@@ -977,11 +982,6 @@
     {
       "source": "/blog/module-sap-mm-pour-les-achats-ce-quil-faut-savoir-avant-de-s",
       "destination": "/blog/module-sap-mm-pour-les-achats-ce-qu-il-faut-savoir-avant-de",
-      "permanent": true
-    },
-    {
-      "source": "/blog/case-study-somaca-premier-projet-ifa-integrated-factory-auto",
-      "destination": "/blog/case-study-somaca-premier-projet-ifa-integrated-factory",
       "permanent": true
     },
     {
@@ -1035,11 +1035,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/case-study-diana-holding-multi-filiale-sop-stock--20-cash--1",
-      "destination": "/blog/case-study-diana-holding-multi-filiale-sop-stock-20-cash-12",
-      "permanent": true
-    },
-    {
       "source": "/blog/supply-chain-btp-grer-la-pnurie-et-la-volatilit-des-prix-du-",
       "destination": "/blog/supply-chain-btp-gerer-la-penurie-et-la-volatilite-des-prix",
       "permanent": true
@@ -1087,11 +1082,6 @@
     {
       "source": "/blog/suivi-de-flotte-et-golocalisation-les-outils-qui-rduisent-re",
       "destination": "/blog/suivi-de-flotte-et-geolocalisation-les-outils-qui-reduisent",
-      "permanent": true
-    },
-    {
-      "source": "/blog/case-study-ocp-group-saedm-gouvernance-transformation-digita",
-      "destination": "/blog/case-study-ocp-group-saedm-gouvernance-transformation",
       "permanent": true
     },
     {
@@ -1981,7 +1971,7 @@
     },
     {
       "source": "/blog/formation-gestionnaire-de-stocks-au-maroc-mtier-comptences-e",
-      "destination": "/blog/formation-gestionnaire-de-stocks-au-maroc-metier",
+      "destination": "/blog/formation-gestion-des-stocks-au-maroc-methodes-metier-et",
       "permanent": true
     },
     {
