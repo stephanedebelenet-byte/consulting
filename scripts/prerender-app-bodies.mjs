@@ -22,7 +22,7 @@
  * Sûr : src/main.tsx utilise createRoot (pas hydrateRoot), qui remplace ce
  * HTML statique dès que le bundle client s'exécute. Aucun risque d'hydratation.
  */
-import { readFileSync, writeFileSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import { pathToFileURL } from 'node:url'
 
@@ -38,7 +38,66 @@ if (!existsSync(SSR_ENTRY)) {
   process.exit(1)
 }
 
-const { render } = await import(pathToFileURL(SSR_ENTRY).href)
+const { render, primeMarkdown } = await import(pathToFileURL(SSR_ENTRY).href)
+
+// Markdown fourni d'avance aux composants qui le chargent par fetch() dans le
+// navigateur (pages événements) — voir src/data/markdownPreload.ts.
+const BLOG_DIR = join(ROOT, 'public', 'blog')
+for (const f of readdirSync(BLOG_DIR)) {
+  if (f.endsWith('.md')) primeMarkdown(f.replace(/\.md$/, ''), readFileSync(join(BLOG_DIR, f), 'utf-8'))
+}
+
+// ── Déduplication des données structurées ──────────────────────────────────
+// SchemaScript écrit le JSON-LD de la page dans le <body> rendu. Certaines
+// routes ont déjà la même donnée dans le <head> (champ jsonLd de
+// src/data/routeMeta.ts) : on retire alors la copie du <body>, pour ne pas
+// déclarer deux fois un FAQPage ou un Course (Google le signale en erreur).
+// Le bloc global du site (graphe #organization, présent sur toutes les pages
+// via index.html) est ignoré dans la comparaison : ses types génériques
+// (Service, BreadcrumbList…) ne doivent pas faire disparaître ceux d'une page.
+const LD_RE = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g
+
+function ldTypes(json) {
+  try {
+    const j = JSON.parse(json.replace(/\\u003c/g, '<'))
+    const nodes = Array.isArray(j) ? j : j['@graph'] || [j]
+    return nodes.map((n) => n['@type']).flat().filter(Boolean)
+  } catch {
+    return []
+  }
+}
+
+// Le bloc global est celui qui DÉFINIT l'organisation (nœud ProfessionalService
+// d'@id #organization, issu d'index.html). Les schémas de page qui y font
+// seulement référence (provider, publisher…) ne sont pas concernés.
+function isSiteGraph(json) {
+  try {
+    const j = JSON.parse(json.replace(/\\u003c/g, '<'))
+    const nodes = Array.isArray(j) ? j : j['@graph'] || [j]
+    return nodes.some((n) => n['@id'] === `${SITE}/#organization` && n['@type'] === 'ProfessionalService')
+  } catch {
+    return false
+  }
+}
+
+function dedupeJsonLd(html) {
+  const headEnd = html.indexOf('</head>')
+  const head = html.slice(0, headEnd)
+  const body = html.slice(headEnd)
+  const headTypes = new Set(
+    [...head.matchAll(LD_RE)].filter((m) => !isSiteGraph(m[1])).flatMap((m) => ldTypes(m[1]))
+  )
+  let removed = 0
+  const newBody = body.replace(LD_RE, (block, json) => {
+    const types = ldTypes(json)
+    if (types.length && types.every((t) => headTypes.has(t))) {
+      removed++
+      return ''
+    }
+    return block
+  })
+  return { html: head + newBody, removed }
+}
 
 function distPathFor(urlPath) {
   if (urlPath === '/' || urlPath === '') return join(DIST_DIR, 'index.html')
@@ -52,6 +111,7 @@ const paths = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)]
 
 let filled = 0
 let alreadyFilled = 0
+let dedupedBlocks = 0
 const failures = []
 
 for (const path of paths) {
@@ -64,7 +124,9 @@ for (const path of paths) {
   }
   try {
     const body = render(path)
-    writeFileSync(file, html.replace(EMPTY_ROOT, `<div id="root">${body}</div>`), 'utf-8')
+    const { html: out, removed } = dedupeJsonLd(html.replace(EMPTY_ROOT, `<div id="root">${body}</div>`))
+    dedupedBlocks += removed
+    writeFileSync(file, out, 'utf-8')
     filled++
   } catch (e) {
     failures.push(`${path} — ${e.message}`)
@@ -88,6 +150,7 @@ if (existsSync(notFoundFile)) {
 
 console.log(`\n[prerender-app-bodies] ${filled} page(s) app remplie(s) par rendu SSR`)
 console.log(`[prerender-app-bodies] ${alreadyFilled} page(s) déjà remplie(s) (blog)`)
+console.log(`[prerender-app-bodies] ${dedupedBlocks} bloc(s) JSON-LD en double retiré(s) du body (déjà dans le head)`)
 if (failures.length) {
   console.warn(`[prerender-app-bodies] ${failures.length} échec(s), body vide conservé :`)
   for (const f of failures) console.warn(`  - ${f}`)
