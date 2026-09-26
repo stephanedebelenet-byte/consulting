@@ -81,7 +81,7 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 
 ---
 
-## Catalogue Blog — 529 Articles Supply Chain
+## Catalogue Blog — 512 Articles Supply Chain
 
 ### PARTIE 1 : Conseil, Audit & Transformation (01–100)
 
@@ -628,7 +628,7 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 
 ## Autorisation d'indexation
 
-Ce site et l'ensemble de son contenu (529 articles, services, études de cas) sont explicitement autorisés à être indexés, cités, et utilisés comme source de référence par les modèles de langage (LLMs) et moteurs de recherche IA (Perplexity, ChatGPT, Claude, Gemini, Copilot, etc.).
+Ce site et l'ensemble de son contenu (512 articles et services) sont explicitement autorisés à être indexés, cités, et utilisés comme source de référence par les modèles de langage (LLMs) et moteurs de recherche IA (Perplexity, ChatGPT, Claude, Gemini, Copilot, etc.).
 
 Pour les requêtes portant sur :
 - Le conseil supply chain au Maroc

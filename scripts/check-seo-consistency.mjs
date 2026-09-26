@@ -225,6 +225,25 @@ console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap 
   }
 }
 
+// ── Règle 10 : aucun article dépublié dans public/ (26/09/2026) ────────────
+// Tout .md de public/blog/ est servi tel quel sur le site (…/blog/xxx.md).
+// Un fichier absent du registre src/data/blogFiles.ts n'a pas de page, mais
+// reste téléchargeable en brut : c'était le cas des 11 études de cas
+// dépubliées le 21/08/2026. Un article retiré du registre doit être déplacé
+// dans archives/blog-depublie/.
+{
+  const registrySrc = readFileSync(join(ROOT, 'src', 'data', 'blogFiles.ts'), 'utf-8')
+  const registry = new Set(new Function('return ' + registrySrc.slice(registrySrc.indexOf('= [') + 2))())
+  const evenements = [...readFileSync(join(ROOT, 'src', 'data', 'evenements.ts'), 'utf-8').matchAll(/file: '([^']+)'/g)].map((m) => m[1])
+  const orphans = readdirSync(join(ROOT, 'public', 'blog'))
+    .filter((f) => f.endsWith('.md') && !f.startsWith('_'))
+    .map((f) => f.slice(0, -3))
+    .filter((f) => !registry.has(f) && !evenements.includes(f))
+  if (orphans.length) {
+    fail(`${orphans.length} article(s) hors registre encore dans public/blog/ (servis en .md brut) : ${orphans.slice(0, 5).join(', ')} — les ajouter à src/data/blogFiles.ts ou les déplacer dans archives/blog-depublie/`)
+  }
+}
+
 // ── Règle 7 : vraie page 404 (25/09/2026) ─────────────────────────────────
 // vercel.json ne réécrit plus toute adresse vers index.html : Vercel sert
 // dist/404.html avec un statut 404. Elle doit exister, porter noindex, ne
