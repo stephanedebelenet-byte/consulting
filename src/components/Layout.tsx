@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import type { ReactNode } from 'react'
 import { useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
@@ -16,8 +16,14 @@ import { MobileMenuProvider } from '../contexts/MobileMenuContext'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
+  const previous = useRef(pathname)
   useEffect(() => {
-    window.scrollTo(0, 0)
+    // Ouvrir ou fermer un article du blog (/blog <-> /blog/<slug>) ne remonte
+    // pas en haut : l'article s'affiche en surimpression et, à sa fermeture,
+    // le lecteur retrouve la liste là où il l'avait laissée.
+    const withinBlog = previous.current.startsWith('/blog') && pathname.startsWith('/blog')
+    previous.current = pathname
+    if (!withinBlog) window.scrollTo(0, 0)
   }, [pathname])
   return null
 }
