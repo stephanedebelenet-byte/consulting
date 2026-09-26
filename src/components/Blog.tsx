@@ -5,6 +5,7 @@ import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
 import { BLOG_FILES } from '../data/blogFiles'
 import { getPrimedMarkdown } from '../data/markdownPreload'
 import SchemaScript from './SchemaHelper'
+import { getLenis } from '../hooks/useLenis'
 
 // Au build, le markdown des articles est fourni d'avance (voir
 // src/data/markdownPreload.ts) : la page /blog prérendue contient alors la
@@ -32,6 +33,26 @@ export default function Blog() {
   const params = useParams<{ slug?: string }>()
   const navigate = useNavigate()
   const location = useLocation()
+  // Position dans la liste au moment d'ouvrir un article. La liste n'est pas
+  // rendue pendant la lecture (voir BlogPage.tsx) ; à la fermeture, on y
+  // revient via Lenis, qui écraserait sinon un simple window.scrollTo.
+  const listScrollY = useRef<number | null>(null)
+
+  useEffect(() => {
+    if (params.slug || listScrollY.current === null) return
+    const y = listScrollY.current
+    listScrollY.current = null
+    // Deux frames : la liste doit être remontée et mesurée avant de défiler.
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      const lenis = getLenis()
+      if (lenis) {
+        lenis.resize()
+        lenis.scrollTo(y, { immediate: true, force: true })
+      } else {
+        window.scrollTo(0, y)
+      }
+    }))
+  }, [params.slug])
 
   useEffect(() => {
     const loadPosts = async () => {
@@ -144,7 +165,10 @@ export default function Blog() {
                   whileHover="hover"
                   // L'URL passe à /blog/<slug> : partages, favoris et statistiques
                   // pointent vers l'article lu, pas vers la liste.
-                  onClick={() => navigate(`/blog/${post.slug}`, { state: { fromList: true } })}
+                  onClick={() => {
+                    listScrollY.current = window.scrollY
+                    navigate(`/blog/${post.slug}`, { state: { fromList: true } })
+                  }}
                   style={{
                     border: '1px solid var(--dark-border)',
                     cursor: 'pointer',
