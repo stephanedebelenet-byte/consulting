@@ -16,7 +16,8 @@
     "video:render:formation": "remotion render remotion/index.ts FormationPromo public/videos/formation-promo.mp4",
     "video:render:stats": "remotion render remotion/index.ts StatsReveal public/videos/stats-reveal.mp4",
     "gsc:submit-sitemap": "node scripts/gsc.mjs submit-sitemap",
-    "gsc:coverage-report": "node scripts/gsc.mjs coverage-report"
+    "gsc:coverage-report": "node scripts/gsc.mjs coverage-report",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.46.0",

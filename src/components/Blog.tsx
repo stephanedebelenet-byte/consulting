@@ -1,8 +1,22 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
-import { useSearchParams, useParams, useNavigate } from 'react-router-dom'
+import { useSearchParams, useParams, useNavigate, Link } from 'react-router-dom'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
 import { BLOG_FILES } from '../data/blogFiles'
+import { getPrimedMarkdown } from '../data/markdownPreload'
+
+// Au build, le markdown des articles est fourni d'avance (voir
+// src/data/markdownPreload.ts) : la page /blog prérendue contient alors la
+// liste complète des articles et leurs liens, lisibles par Google et les
+// crawlers IA. Dans le navigateur, le cache est vide : la liste est chargée
+// par fetch() comme avant.
+function primedPosts(): BlogPost[] {
+  const posts = BLOG_FILES.map((f) => getPrimedMarkdown(f))
+    .filter((raw): raw is string => !!raw)
+    .map((raw) => parseMarkdown(raw))
+  posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  return posts
+}
 import SchemaScript from './SchemaHelper'
 
 function readingTime(content: string): number {
@@ -11,9 +25,9 @@ function readingTime(content: string): number {
 }
 
 export default function Blog() {
-  const [posts, setPosts] = useState<BlogPost[]>([])
+  const [posts, setPosts] = useState<BlogPost[]>(primedPosts)
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(() => posts.length === 0)
   const [searchParams, setSearchParams] = useSearchParams()
   const params = useParams<{ slug?: string }>()
   const navigate = useNavigate()
@@ -192,7 +206,23 @@ export default function Blog() {
                           color: 'var(--navy)',
                         }}
                       >
-                        {post.title}
+                        {/* Vrai lien (href) vers l'article : sans lui, aucune page du
+                            site ne liait les articles, que Google ne découvrait que
+                            par le sitemap. Le clic simple garde le comportement
+                            d'origine (ouverture sur place, via onClick de la carte). */}
+                        <Link
+                          to={`/blog/${post.slug}`}
+                          onClick={(e) => {
+                            if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) {
+                              e.stopPropagation()
+                              return
+                            }
+                            e.preventDefault()
+                          }}
+                          style={{ color: 'inherit', textDecoration: 'none' }}
+                        >
+                          {post.title}
+                        </Link>
                       </h3>
 
                       <div
