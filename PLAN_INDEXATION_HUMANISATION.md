@@ -10,7 +10,7 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 
 ## Ce qui est déjà fait (18/09, cette session)
 
-- [x] **Auteur réel au lieu d'une marque** — les 411 articles déclaraient `author: "Nextinotech"` (une entreprise, pas une personne), et le JSON-LD schema.org le typait `Organization`. Corrigé sur les 411 fichiers vers `Youssef Bahaida` (le vrai fondateur), et le schéma passé en `Person` avec `jobTitle: Fondateur` et `worksFor` l'organisation, dans les 3 générateurs JSON-LD du site (prérendu, composant Blog, page DSC vs CDI).
+- [x] **Auteur réel au lieu d'une marque** — les 411 articles déclaraient `author: "Nextinotech"` (une entreprise, pas une personne), et le JSON-LD schema.org le typait `Organization`. Corrigé sur les 411 fichiers vers `Youssef B` (le vrai fondateur), et le schéma passé en `Person` avec `jobTitle: Fondateur` et `worksFor` l'organisation, dans les 3 générateurs JSON-LD du site (prérendu, composant Blog, page DSC vs CDI).
 - [x] **250 footers identiques dé-dupliqués** — un paragraphe de clôture strictement identique au caractère près sur 235 articles, plus un titre inventé ("Directeur des Achats" signé "Nextinotech", jamais utilisé ailleurs sur le site) sur 15 autres. Remplacés par 5 variantes qui gardent exactement les mêmes faits (20+ ans, 110+ missions, 0 commission, contact réel) avec une formulation différente.
 - [x] **46 liens internes cassés vers `/formation-rl/`** (slash final oublié dans le corps des articles) — même classe de bug redirection déjà corrigée dans le code fin de mois dernier, mais oubliée dans 46 articles. Corrigé.
 - [x] Script réutilisable `scripts/humanize-authorship.mjs` ajouté au dépôt pour les prochains lots.
@@ -88,10 +88,10 @@ Un outillage (`scripts/gsc.mjs`) a été ajouté au dépôt pour se connecter à
 
 Réécrire le texte aide, mais Google et les lecteurs distinguent aussi des signaux qui ne se simulent pas honnêtement. Ce qui reste de votre ressort, quand vous aurez le temps :
 
-- **Vraie photo de Youssef Bahaida** sur la page profil et en avatar d'auteur (actuellement le site utilise des visuels stock génériques comme image d'article).
+- **Vraie photo de Youssef B** sur la page profil et en avatar d'auteur (actuellement le site utilise des visuels stock génériques comme image d'article).
 - **Témoignages clients vérifiables** (nom, entreprise, citation réelle, avec accord écrit) plutôt que des chiffres agrégés seuls.
 - **Mise à jour périodique visible** : republier/retoucher un article existant avec une date `dateModified` change change réellement (pas juste cosmétique) tous les 3-4 mois signale un contenu vivant.
-- **Lien LinkedIn réel de Youssef Bahaida** dans le schema.org `Person` (`sameAs`) — à fournir pour que l'agent l'ajoute au code.
+- **Lien LinkedIn réel de Youssef B** dans le schema.org `Person` (`sameAs`) — à fournir pour que l'agent l'ajoute au code.
 - **Backlinks externes réels** (annuaires professionnels marocains, presse spécialisée, partenaires cités dans `BACKLINK-STRATEGY.md`) — accélèrent la confiance de Google sur un nom de domaine jeune bien plus que n'importe quelle action interne.
 
 ## Ce qui n'a délibérément pas été touché

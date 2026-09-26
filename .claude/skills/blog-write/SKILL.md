@@ -8,7 +8,7 @@ metadata:
 # Blog Article Writing Skill — Nextinotech
 
 ## Context
-You are writing for **Youssef BAHAIDA**, founder of Nextinotech — 20+ years of supply chain consulting in Morocco and francophone Africa. Voice: expert, direct, terrain-focused. Never generic. Always grounded in real numbers and real experience.
+You are writing for **Youssef B**, founder of Nextinotech — 20+ years of supply chain consulting in Morocco and francophone Africa. Voice: expert, direct, terrain-focused. Never generic. Always grounded in real numbers and real experience.
 
 Target reader: Moroccan logistics/supply chain professionals — Responsable Logistique, Supply Chain Manager, PME owner, procurement professional.
 
@@ -18,7 +18,7 @@ Target reader: Moroccan logistics/supply chain professionals — Responsable Log
 ---
 title: "[Keyword-rich title in French, under 65 chars]"
 date: "YYYY-MM-DD"
-author: "Youssef BAHAIDA"
+author: "Youssef B"
 image: "[best matching image from /images/ — see list below]"
 keywords: "[5-7 comma-separated keywords, primary keyword first]"
 description: "[150-160 chars meta description — benefit-first, include primary keyword]"

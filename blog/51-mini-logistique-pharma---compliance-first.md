@@ -24,7 +24,7 @@ Cas anonymisé avec ROI, timeline, et méthodologie applicable à votre situatio
 
 Vous reconnaissez votre situation? Audit gratuit 2-3 jours.
 
-**Contact:** bahaidayoussef@gmail.com | +212 663 449 200
+**Contact:** contact@nextinotech.com | +212 663 449 200
 
 ---
 

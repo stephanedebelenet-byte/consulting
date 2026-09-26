@@ -228,7 +228,7 @@ These are the "big idea" lines in 6–8vw italic gold, placed between sections:
 ## Real Nextinotech Data (always use — never placeholder)
 
 **Company:** Nextinotech
-**Founder:** Youssef BAHAIDA
+**Founder:** Youssef B
 **Location:** Casablanca, Maroc
 **Email:** contact@nextinotech.com
 **Phone:** +212 06 63 44 92 00

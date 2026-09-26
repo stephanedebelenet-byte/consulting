@@ -112,7 +112,7 @@ Directeur des Achats | Expert Supply Chain & Transformation Digitale
 
 ---
 
-**Contact:** bahaidayoussef@gmail.com | +212 663 449 200
+**Contact:** contact@nextinotech.com | +212 663 449 200
 
 ---
 

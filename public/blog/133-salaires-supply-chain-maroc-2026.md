@@ -100,5 +100,7 @@ Accompagnement individuel pour préparer votre négociation salariale : benchmar
 
 Pour monter en compétences avant de négocier, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl)** — 1 journée, 1 500 MAD TTC.
 
+**À lire aussi :** [Métiers de la Logistique au Maroc : le Panorama Complet](/blog/metiers-de-la-logistique-au-maroc-le-panorama-complet)
+
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

@@ -263,6 +263,8 @@ Contactez-nous : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 
 ---
 
+**À lire aussi :** [OTIF : Définition, Calcul et Pièges de l'Indicateur Roi](/blog/otif-definition-calcul-et-pieges-de-l-indicateur-roi) · [Coût Logistique en Pourcentage du CA : Calculer le Sien](/blog/cout-logistique-en-pourcentage-du-ca-calculer-le-sien)
+
 ## Conclusion
 
 Un tableau de bord supply chain n'est pas un outil de reporting — c'est un outil de management. Sa valeur n'est pas dans les chiffres qu'il affiche, mais dans les décisions qu'il déclenche.

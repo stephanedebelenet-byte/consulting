@@ -92,9 +92,9 @@ Catalogue : https://nextinotech.com/prestations
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (429 articles)
+## Blog — Ressources Supply Chain (529 articles)
 
-Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 429 articles organisés en thèmes :
+Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 529 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
 Audit supply chain, diagnostic logistique, études de cas (Renault, DHL, OCP, Addoha), FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
@@ -186,6 +186,19 @@ Cluster de 100 articles sur l'IA appliquée à chaque métier de la supply chain
 
 ### Control Tower Supply Chain (articles 427-446)
 WMS, TMS, IMS et AMS dans la tour de contrôle, IoT et capteurs, IA et décision assistée, Control Tower vs tableau de bord BI, KPIs, gestion des exceptions, seuils d'alerte, organisation de l'équipe, coût pour une ETI marocaine, choix de l'éditeur, feuille de route, visibilité fournisseurs Tier 1, qualité et gouvernance des données, cloud vs on-premise, Control Tower agentique, maturité PME/ETI. Offre associée : https://nextinotech.com/control-tower
+
+### Fondamentaux Supply Chain (articles 447-546)
+Série de 100 articles de référence sur les méthodes et le contexte opérationnel, organisée en 10 dossiers dont le premier article est le pilier :
+- **Gestion des stocks** (447-458) : stock de sécurité, point de commande, ABC et ABC-XYZ, formule de Wilson, inventaire tournant et annuel, FIFO/FEFO/LIFO, stock dormant, taux de rotation, coût de possession.
+- **Opérations d'entrepôt** (459-470) : méthodes de picking, picking par zone/vague/lot, slotting, réception des marchandises, cross-docking, adressage, codes-barres GS1 et SSCC, palettisation, sécurité des chariots élévateurs, productivité, systèmes de stockage, emballage.
+- **Transport & fret international** (471-480) : fret maritime pour importateurs, conteneur 20 ou 40 pieds, groupage LCL vs FCL, fret aérien depuis Casablanca, coût de revient du transport routier, assurance marchandises, surestaries, transitaire/commissionnaire/déclarant, lettre de voiture CMR, appel d'offres transport.
+- **Achats opérationnels** (481-490) : processus achats en PME, appel d'offres privé, cahier des charges, évaluation des fournisseurs, make or buy, sourcing en Chine, en Turquie et en Égypte, pénalités de retard, contrat-cadre, KPI achats.
+- **Commerce international & financement** (491-498) : délais de paiement et loi 69-21, crédit documentaire, remise documentaire, risque de change, dédouanement à l'import dans BADR, valeur en douane, certificat d'origine EUR.1, checklist du premier import.
+- **Planification & production** (499-508) : plan directeur de production (PDP), calcul des besoins nets (MRP), Kanban, méthodes de prévision, précision des prévisions (WMAPE, biais), capacité et charge, TPM, juste-à-temps, théorie des contraintes, ordonnancement.
+- **KPI & finance supply chain** (509-516) : OTIF, taux de service et fill rate, cycle cash-to-cash, coût logistique en % du CA, taux de rupture, coût d'une rupture, lead time fournisseur, taux de remplissage camion.
+- **Infrastructures logistiques du Maroc** (517-526) : carte logistique 2026, Nador West Med, port Dakhla Atlantique, Coupe du Monde 2030, fret ferroviaire ONCF, zones logistiques AMDL et Zenata, Kénitra Atlantic Free Zone, port de Casablanca, Oriental, provinces du Sud.
+- **Métiers de la logistique** (527-536) : panorama des métiers, magasinier, cariste, approvisionneur, déclarant en douane, affréteur, responsable ADV, demand planner, responsable achats, chef de quai.
+- **Distribution & commerce** (537-546) : distribution vers le commerce traditionnel, tournées de proximité, grossiste ou distributeur exclusif, VMI, CPFR, omnicanal, click & collect, prévente vs vente-livraison, promotions, logistique du Ramadan et de l'Aïd.
 
 La liste exhaustive des URLs d'articles figure dans https://nextinotech.com/sitemap.xml.
 
