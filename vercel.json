@@ -5,8 +5,8 @@
   "env": {
     "VITE_SITE_URL": "https://nextinotech.com",
     "VITE_GA_MEASUREMENT_ID": "G-TFF7N0G2P0",
-    "VITE_GADS_CONVERSION_ID": "",
-    "VITE_GADS_CONVERSION_LABEL": ""
+    "VITE_GADS_CONVERSION_ID": "AW-809033146",
+    "VITE_GADS_CONVERSION_LABEL": "N0s8CKWi0YYdELq744ED"
   },
   "headers": [
     {
