@@ -15,6 +15,7 @@ import { VILLES, buildVilleSchema } from './villesFormation'
 import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta, FAQ as formationFAQ } from './formations'
 import { servicesFAQ } from './conseilFaq'
 import { generateFAQSchema } from '../utils/seoData'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ } from './controlTower'
 
 export interface PrerenderRoute {
   path: string
@@ -477,7 +478,8 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
   return [...STATIC, ...villes, ...programmes].map((r) => {
     const o = SEO_OVERRIDES[r.path] ?? {}
     const route = { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
-    return withBreadcrumb(route)
+    const extra = pageSchemas(route)
+    return withBreadcrumb(extra.length ? { ...route, jsonLd: [...(route.jsonLd ?? []), ...extra] } : route)
   })
 }
 
@@ -499,6 +501,68 @@ function breadcrumbParents(path: string): { path: string; name: string }[] {
   if (path === '/ingenierie-formation/catalogue') return [ACADEMIE, { path: '/ingenierie-formation', name: 'Ingénierie de formation' }]
   if (['/formation-rl', '/formation-import', '/ingenierie-formation'].includes(path) || path.startsWith('/evenements/')) return [ACADEMIE]
   if (path.startsWith('/outils/') || path.startsWith('/demo/') || path.startsWith('/solutions/')) return [DIGITAL]
+  return []
+}
+
+// Données structurées propres aux pages qui n'en avaient pas (audit du
+// 27/09/2026) : accueil, contact, Control Tower, simulateurs et démos.
+// Construites à partir du title/description de la route et des données
+// affichées (src/data/controlTower.ts), jamais saisies en double.
+const SITE_URL = 'https://nextinotech.com'
+const ORG_REF = { '@id': `${SITE_URL}/#organization` }
+const DIGITAL_REF = { '@id': `${SITE_URL}/#digital` }
+
+function pageSchemas(route: PrerenderRoute): unknown[] {
+  const url = SITE_URL + (route.path === '/' ? '/' : route.path)
+  const name = breadcrumbName(route.title)
+  const base = { '@context': 'https://schema.org', url, inLanguage: 'fr-MA', isPartOf: { '@id': `${SITE_URL}/#website` } }
+  if (route.path === '/') {
+    return [{ ...base, '@type': 'WebPage', '@id': `${url}#webpage`, name: route.title, description: route.description, about: ORG_REF, mainEntity: ORG_REF }]
+  }
+  if (route.path === '/contact') {
+    return [{ ...base, '@type': 'ContactPage', '@id': `${url}#webpage`, name: route.title, description: route.description, mainEntity: ORG_REF }]
+  }
+  if (route.path === '/control-tower') {
+    const minPrice = (price: string) => Number(price.replace(/\D/g, '')) || undefined
+    return [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        '@id': `${url}#service`,
+        name: 'Control Tower Supply Chain',
+        serviceType: 'Pilotage supply chain en temps réel (WMS, TMS, IMS, AMS, IoT, IA)',
+        description: route.description,
+        url,
+        provider: DIGITAL_REF,
+        areaServed: { '@type': 'Country', name: 'Maroc' },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Paliers Control Tower',
+          itemListElement: OFFER_TIERS.map((t) => ({
+            '@type': 'Offer',
+            name: t.name,
+            description: `${t.desc} · ${t.duration}`,
+            priceSpecification: { '@type': 'PriceSpecification', minPrice: minPrice(t.price), priceCurrency: 'MAD', valueAddedTaxIncluded: false },
+          })),
+        },
+      },
+      { ...generateFAQSchema(CONTROL_TOWER_FAQ), '@id': `${url}#faq` },
+    ]
+  }
+  if (route.path.startsWith('/outils/') || route.path.startsWith('/demo/')) {
+    return [{
+      ...base,
+      '@type': 'WebApplication',
+      '@id': `${url}#app`,
+      name,
+      description: route.description,
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'MAD' },
+      provider: DIGITAL_REF,
+    }]
+  }
   return []
 }
 
