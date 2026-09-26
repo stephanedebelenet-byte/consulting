@@ -1,7 +1,7 @@
 ---
 title: "Zones Franches Marocaines Comparées : Tanger Med, TFZ, TAC et Midparc"
 date: "2026-08-23"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "zones franches maroc comparatif, Tanger Free Zone, Tanger Automotive City, Midparc, zone d'accélération industrielle maroc"

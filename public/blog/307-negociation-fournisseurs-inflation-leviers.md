@@ -1,7 +1,7 @@
 ---
 title: "Négociation Fournisseurs en Période d'Inflation : les Leviers qui Marchent Encore"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "négociation achats inflation maroc, hausse matières premières négociation fournisseur, tactiques négociation achats"

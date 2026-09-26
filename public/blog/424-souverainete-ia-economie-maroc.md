@@ -1,7 +1,7 @@
 ---
 title: "IA et Souveraineté Économique Marocaine : Enjeu ou Effet de Mode"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "souveraineté ia économie maroc, ia souveraineté économique pme, ia enjeu stratégique maroc, dépendance technologique ia maroc, ia effet de mode ou enjeu réel"

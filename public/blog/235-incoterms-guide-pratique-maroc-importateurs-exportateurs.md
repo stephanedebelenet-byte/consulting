@@ -1,7 +1,7 @@
 ---
 title: "Incoterms au Maroc : le Guide Pratique pour Importateurs et Exportateurs"
 date: "2026-08-27"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "incoterms maroc, incoterms 2020 maroc, FOB CIF maroc, valeur en douane maroc incoterms"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Nexco Expertise — Guide Complet des Incoterms 2026 : Règles et Changements Majeurs](https://www.nexco-expertise.com/incoterms-2026)

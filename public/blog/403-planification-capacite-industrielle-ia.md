@@ -1,7 +1,7 @@
 ---
 title: "Planifier sa Capacité Industrielle avec l'IA"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "planification capacité industrielle ia, arbitrage heures supplémentaires ia, sous-traitance vs stock ia, ia capacité production arbitrage, planification usine ia maroc"
@@ -42,4 +42,4 @@ Vous voulez structurer vos arbitrages de capacité industrielle ? [Découvrez no
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

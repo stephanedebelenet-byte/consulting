@@ -1,7 +1,7 @@
 ---
 title: "OEA Catégorie A ou B au Maroc : les Différences Clés"
 date: "2026-09-18"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "OEA catégorie A B maroc, différence OEA A B, OEA sécurité et sûreté maroc, statut opérateur économique agréé catégorie"

@@ -1,7 +1,7 @@
 ---
 title: "Économie Circulaire en Supply Chain : Réintégrer les Déchets Industriels au Maroc"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "économie circulaire supply chain maroc, réintégration déchets industriels, recyclage industriel maroc"

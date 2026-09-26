@@ -1,7 +1,7 @@
 ---
 title: "Benchmark IA Supply Chain : où se Situe une PME Marocaine"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "benchmark maturité ia supply chain maroc, où en est le maroc ia logistique, comparaison maturité ia pme eti, niveau maturité ia supply chain, benchmark international ia logistique"

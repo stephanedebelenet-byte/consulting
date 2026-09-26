@@ -1,7 +1,7 @@
 ---
 title: "Marque Employeur Logistique : Pourquoi les Entrepôts Marocains Peinent à Attirer les Jeunes"
 date: "2026-08-23"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "marque employeur logistique maroc, attractivité entrepôt maroc, recrutement logistique maroc, image métiers logistiques"
@@ -44,7 +44,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [AMDL — Chiffres clés du secteur logistique marocain](https://www.amdl.gov.ma/amdl/chiffres-cles/)

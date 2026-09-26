@@ -1,7 +1,7 @@
 ---
 title: "Emballages Durables : Réduire ses Coûts Logistiques en Verdissant sa Chaîne"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "emballage durable logistique, réduction coût emballage transport, éco-conception emballage maroc"

@@ -1,7 +1,7 @@
 ---
 title: "Management de Proximité en Entrepôt : Pourquoi le Feedback Annuel ne Marche Plus"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "management entrepôt proximité, feedback continu vs évaluation annuelle, management de proximité logistique"

@@ -1,7 +1,7 @@
 ---
 title: "IA Prédictive et Prévision de la Demande : Réduire ses Stocks de Sécurité"
 date: "2026-08-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "prévision de la demande IA, IA prédictive stock sécurité, forecast IA supply chain, réduction stock IA maroc"

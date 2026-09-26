@@ -1,7 +1,7 @@
 ---
 title: "Case Study: Renault Tanger — Production Ramp 0→400 Units/Day (18 months)"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/transport.webp"
 type: "case-study"
 keywords: "case study Renault Tanger, montée en cadence, ramp-up automobile, logistique usine"

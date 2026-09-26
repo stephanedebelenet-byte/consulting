@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Afrique Francophone — Expert Logistique Régionale"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/hero-supply-chain.webp"
 keywords: "conseil supply chain Afrique, logistique Sénégal Côte d'Ivoire Congo, expert supply chain francophone"
 description: "Expert supply chain pour Afrique francophone. Sénégal, Côte d'Ivoire, Congo, Cameroun. Audit, formation, digitalisation."
@@ -84,7 +84,7 @@ Afrique Francophone · 20+ ans expérience · Multi-région expertise
 
 ---
 
-**Youssef Bahaida**
+**Youssef B**
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
-Youssef Bahaida — Casablanca, Maroc
+Youssef B — Casablanca, Maroc
 

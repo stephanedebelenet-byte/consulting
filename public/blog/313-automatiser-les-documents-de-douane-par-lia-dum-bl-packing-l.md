@@ -1,7 +1,7 @@
 ---
 title: "Automatiser les Documents de Douane par l'IA : DUM, BL, Packing List"
 date: "2026-09-05"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "automatisation documents douane ia maroc, dum bl packing list ia, dédouanement ia maroc, ocr douane import export, portnet badr automatisation"

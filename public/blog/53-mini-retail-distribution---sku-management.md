@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Retail au Maroc : piloter une plateforme multi-marques à grande échelle"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain retail Maroc, plateforme logistique 3PL, distribution FMCG Maroc, Marjane"
@@ -36,4 +36,4 @@ Vous pilotez une plateforme logistique multi-marques ou multi-clients ? Parlons-
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

@@ -1,7 +1,7 @@
 ---
 title: "Détection Automatique des Non-Conformités par IA"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "détection non conformité ia qualité, ia réclamation plan d'action, détection automatique défaut qualité, ia traitement non-conformité maroc, non-conformité fournisseur ia"

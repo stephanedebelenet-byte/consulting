@@ -1,7 +1,7 @@
 ﻿---
 title: "Programmes de Formation Nextinotech : Catalogue Complet 2026"
 date: "2026-08-05"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/conseil.webp"
 keywords: "formation Nextinotech Maroc, catalogue formation supply chain Maroc, programme formation logistique Nextinotech"
 description: "Catalogue complet des formations Nextinotech au Maroc : supply chain, achats, entrepôt, planification, DDMRP. Programmes inter et intra-entreprises, certification incluse."

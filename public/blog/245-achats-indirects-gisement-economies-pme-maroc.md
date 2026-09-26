@@ -1,7 +1,7 @@
 ---
 title: "Achats Indirects : le Gisement d'Économies que les PME Marocaines Ignorent"
 date: "2026-08-28"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "optimisation achats indirects, achats indirects maroc, achats hors production, gisement économies achats"
@@ -44,7 +44,7 @@ Vous voulez cartographier vos achats indirects et identifier votre potentiel d'�
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [RS Online — Achats Indirects : Comprendre les enjeux et définition](https://fr.rs-online.com/web/content/blog-discovery/achat/achats-indirects)

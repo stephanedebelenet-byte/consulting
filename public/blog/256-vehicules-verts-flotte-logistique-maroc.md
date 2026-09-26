@@ -1,7 +1,7 @@
 ---
 title: "Véhicules Verts pour sa Flotte Logistique : Électrique ou Hybride au Maroc"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "flotte véhicules verts logistique maroc, véhicule électrique flotte maroc, hybride flotte transport maroc"

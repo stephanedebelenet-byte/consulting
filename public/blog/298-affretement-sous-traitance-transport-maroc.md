@@ -1,7 +1,7 @@
 ---
 title: "Affrètement et Sous-Traitance Transport : Sécuriser sa Capacité en Période de Tension"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "affrètement transport maroc, sous-traitance transport routier, capacité transport tension maroc"
@@ -40,7 +40,7 @@ Vous voulez sécuriser votre capacité de transport via l'affrètement sans risq
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Le Roy Logistique — Organisation de l'affrètement routier](https://www.leroylogistique.com/blog/transport/affretement-organisation-du-transport-routier-de-marchandises/)

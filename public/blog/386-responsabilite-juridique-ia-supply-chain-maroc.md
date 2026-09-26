@@ -1,7 +1,7 @@
 ---
 title: "Qui est Responsable Quand l'IA se Trompe : le Droit des Contrats"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "responsabilité juridique ia supply chain maroc, qui est responsable erreur ia, droit marocain contrats ia, responsabilité décision ia entreprise, ia erreur qui paie"

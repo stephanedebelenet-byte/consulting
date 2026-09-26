@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi les Femmes Disparaissent des Postes Exécutifs Supply Chain"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "femmes postes exécutifs supply chain, plafond de verre supply chain, barreau cassé carrière femmes logistique"
@@ -40,7 +40,7 @@ Vous voulez structurer un parcours de progression qui limite l'effet du barreau 
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [The Conversation / Université Grenoble Alpes — Supply chain management : la lente progression de carrière des femmes](https://theconversation.com/supply-chain-management-la-lente-progression-de-carriere-des-femmes-157994)

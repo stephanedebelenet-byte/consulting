@@ -1,7 +1,7 @@
 ---
 title: "Entrepôts Éco-Responsables : Certification et Bonnes Pratiques Énergétiques"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "entrepôt éco-responsable maroc, réduction facture énergétique entrepôt, entrepôt économe énergie"

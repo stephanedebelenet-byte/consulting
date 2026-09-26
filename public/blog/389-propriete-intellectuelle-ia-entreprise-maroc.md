@@ -1,7 +1,7 @@
 ---
 title: "IA et Propriété Intellectuelle : à qui Appartient un Plan Généré par IA"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "propriété intellectuelle ia entreprise maroc, à qui appartient contenu ia, droit d'auteur plan généré ia, propriété ia entreprise, ia contenu généré propriété"

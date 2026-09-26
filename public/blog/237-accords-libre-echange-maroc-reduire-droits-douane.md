@@ -1,7 +1,7 @@
 ---
 title: "Accords de Libre-Échange du Maroc : Comment Réduire ses Droits de Douane"
 date: "2026-08-27"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "accords libre échange maroc douane, certificat EUR.1 maroc, préférence tarifaire maroc, accord d'agadir maroc"
@@ -40,7 +40,7 @@ Votre entreprise exporte vers l'UE, la zone Agadir ou un pays sous accord bilat�
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [AMDIE — Accords de Libre-Échange du Maroc](https://www.amdie.gov.ma/accords-libre-echange/)

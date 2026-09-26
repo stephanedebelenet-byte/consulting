@@ -1,7 +1,7 @@
 ---
 title: "Prévoir les Pannes Machines Avant l'Arrêt de Ligne"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "maintenance prédictive production ia maroc, prévoir panne machine ia, ia arrêt de ligne prévention, maintenance prédictive usine maroc, ia disponibilité équipement production"
@@ -42,4 +42,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

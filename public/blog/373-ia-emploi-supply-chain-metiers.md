@@ -1,7 +1,7 @@
 ---
 title: "IA et Emploi en Supply Chain : quels Métiers se Transforment"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "ia emploi supply chain maroc métiers, métiers qui disparaissent ia logistique, transformation métiers supply chain ia, ia impact emploi achats maroc, avenir métiers logistique ia"

@@ -1,7 +1,7 @@
 ---
 title: "Transport Multimodal au Maroc : Rail, Route, Mer, quelle Combinaison pour Réduire ses Coûts"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "transport multimodal maroc, combinaison rail route mer, réduction coût transport multimodal"

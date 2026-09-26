@@ -1,7 +1,7 @@
 ---
 title: "IA et Économie Circulaire : Optimiser les Flux Retour"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "ia économie circulaire logistique inverse, optimisation flux retour ia, reconditionnement ia logistique, économie circulaire supply chain maroc, ia tri retours matières"

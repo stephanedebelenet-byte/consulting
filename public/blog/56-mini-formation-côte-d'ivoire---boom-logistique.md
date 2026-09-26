@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain Côte d'Ivoire : le boom logistique d'Abidjan et San Pedro"
 date: "2026-08-18"
-author: "Youssef Bahaida"
+author: "Youssef B"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain Côte d'Ivoire, Port d'Abidjan, Port San Pedro, logistique Afrique de l'Ouest"

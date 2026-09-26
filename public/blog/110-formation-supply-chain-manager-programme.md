@@ -1,7 +1,7 @@
 ﻿---
 title: "Formation Supply Chain Manager au Maroc : Programme, Contenu et Débouchés"
 date: "2026-08-05"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/analytics.webp"
 keywords: "formation supply chain manager Maroc, programme supply chain manager, devenir supply chain manager Maroc, formation SCM Maroc"
 description: "Tout sur la formation Supply Chain Manager au Maroc : programme détaillé, compétences acquises, débouchés, salaires et organismes recommandés en 2026."

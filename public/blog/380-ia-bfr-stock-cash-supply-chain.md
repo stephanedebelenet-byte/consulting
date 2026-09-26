@@ -1,7 +1,7 @@
 ---
 title: "IA et Besoin en Fonds de Roulement : Libérer du Cash Caché"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "ia bfr stock cash supply chain, libérer cash stock ia, réduire bfr ia maroc, ia trésorerie supply chain, optimisation cash caché stock"

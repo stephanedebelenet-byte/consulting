@@ -1,7 +1,7 @@
 ﻿---
 title: "Case Study: Oland Group — S&OP Implementation: Cash Cycle -12 Days, Stock -20%"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/charts.webp"
 type: "case-study"
 keywords: "S&OP, demand planning, cash cycle, working capital"

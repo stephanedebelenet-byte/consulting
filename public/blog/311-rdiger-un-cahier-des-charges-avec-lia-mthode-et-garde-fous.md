@@ -1,7 +1,7 @@
 ---
 title: "Rédiger un Cahier des Charges avec l'IA : Méthode et Garde-Fous"
 date: "2026-09-03"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "rédiger cahier des charges ia, cahier des charges wms tms ia, appel d'offres ia achats maroc, cahier des charges logistique, rédaction cdc supply chain"
@@ -54,4 +54,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

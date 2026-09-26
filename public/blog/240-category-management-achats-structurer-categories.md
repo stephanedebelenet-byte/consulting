@@ -1,7 +1,7 @@
 ---
 title: "Category Management Achats : Structurer ses Catégories pour Plus de Valeur"
 date: "2026-08-28"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "category management achats maroc, matrice kraljic achats, segmentation achats stratégie, gestion catégories achats"

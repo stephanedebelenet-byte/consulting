@@ -1,7 +1,7 @@
 ---
 title: "Former ses Équipes Entrepôt et Transport à l'IA sans les Effrayer"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "formation ia entrepôt transport équipes, former caristes ia sans effrayer, formation terrain ia logistique, pédagogie ia équipes opérationnelles, formation ia opérateurs entrepôt"
@@ -38,4 +38,4 @@ Vous voulez former vos équipes terrain à l'IA ? [Découvrez notre catalogue de
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

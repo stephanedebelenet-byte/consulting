@@ -1,7 +1,7 @@
 ---
 title: "Gouvernance de Projet Logistique Multi-Sites : Coordonner sans Tout Centraliser"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "gouvernance projet logistique multi-sites, coordination multi-sites maroc, centralisation décentralisation logistique"

@@ -1,7 +1,7 @@
 ---
 title: "Veille Prix et Matières Premières par IA : Anticiper la Volatilité"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "veille prix matières premières ia, anticiper hausse carburant ia, veille prix acier ciment ia, alerte indexation prix ia, ia volatilité matières premières maroc"

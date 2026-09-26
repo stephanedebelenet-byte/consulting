@@ -1,7 +1,7 @@
 ---
 title: "Direction Supply Chain à Temps Partagé à l'Ère de l'IA"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "dsc temps partagé ia maroc, direction supply chain temps partagé, dsc externalisée ia, directeur supply chain externe ia, dsc vs recrutement cdi ia"

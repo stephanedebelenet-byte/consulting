@@ -1,7 +1,7 @@
 ---
 title: "Mesurer l'Impact d'une Formation IA Supply Chain"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "mesurer impact formation ia entreprise, indicateur formation ia efficace, évaluer formation ia au-delà satisfaction, roi formation ia supply chain, kpi formation ia"

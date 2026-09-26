@@ -1,7 +1,7 @@
 ---
 title: "Copilot de Demand Planning : l'IA Générative au Service du Prévisionniste"
 date: "2026-09-08"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "copilot demand planning ia, ia générative prévision demande, prévisionniste ia maroc, demand planner assistant ia, s&op ia maroc"
@@ -51,4 +51,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

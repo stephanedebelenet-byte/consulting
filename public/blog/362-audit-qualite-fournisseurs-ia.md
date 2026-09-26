@@ -1,7 +1,7 @@
 ---
 title: "IA et Audit Qualité Fournisseurs : Automatiser la Notation"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "audit qualité fournisseurs ia, notation automatique fournisseur, ia audit qualité maroc, scoring qualité fournisseur, automatisation notation fournisseur"

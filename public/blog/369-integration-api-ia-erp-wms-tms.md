@@ -1,7 +1,7 @@
 ---
 title: "API et Intégration IA-ERP-WMS-TMS : les Pièges Techniques"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "intégration api ia erp wms tms, piège technique intégration ia, connecter ia erp maroc, api ia wms tms erreurs, intégration systèmes ia entreprise"

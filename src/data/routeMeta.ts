@@ -475,6 +475,43 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
 
   return [...STATIC, ...villes, ...programmes].map((r) => {
     const o = SEO_OVERRIDES[r.path] ?? {}
-    return { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
+    const route = { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
+    return withBreadcrumb(route)
   })
+}
+
+// Fil d'Ariane propre à chaque page (audit du 26/09/2026). Auparavant, un
+// unique BreadcrumbList "Accueil > Conseil > Contact", copié depuis
+// index.html, était déclaré sur toutes les pages. Les pages dont le jsonLd
+// en contient déjà un (formations, villes, programmes) sont laissées telles
+// quelles. Pas de niveau intermédiaire vers /outils, /demo, /solutions ou
+// /evenements : ces adresses n'existent pas (404).
+const BREADCRUMB_PARENTS: Record<string, { path: string; name: string }> = {
+  '/ingenierie-formation/catalogue': { path: '/ingenierie-formation', name: 'Ingénierie de formation' },
+}
+
+function hasBreadcrumb(jsonLd: unknown[] | undefined): boolean {
+  return JSON.stringify(jsonLd ?? []).includes('"BreadcrumbList"')
+}
+
+function breadcrumbName(title: string): string {
+  return title.replace(/ \| Nextinotech$/, '').split(/ — | : /)[0].trim()
+}
+
+function withBreadcrumb(route: PrerenderRoute): PrerenderRoute {
+  if (route.path === '/' || hasBreadcrumb(route.jsonLd)) return route
+  const url = `https://nextinotech.com${route.path}`
+  const parent = BREADCRUMB_PARENTS[route.path]
+  const items = [
+    { name: 'Accueil', item: 'https://nextinotech.com/' },
+    ...(parent ? [{ name: parent.name, item: `https://nextinotech.com${parent.path}` }] : []),
+    { name: breadcrumbName(route.title), item: url },
+  ]
+  const breadcrumb = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    '@id': `${url}#breadcrumb`,
+    itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, ...it })),
+  }
+  return { ...route, jsonLd: [...(route.jsonLd ?? []), breadcrumb] }
 }

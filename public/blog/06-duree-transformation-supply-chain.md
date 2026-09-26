@@ -1,7 +1,7 @@
 ﻿---
 title: "Combien de Temps pour une Transformation Supply Chain?"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/conseil.webp"
 keywords: "durée transformation supply chain, timeline réaliste, implémentation supply chain, changement supply chain"
 description: "Timeline réaliste pour transformer votre supply chain. Audit à stabilisation : 3-6 mois si rapide, 12+ mois complet."
@@ -428,7 +428,7 @@ No pressure. Transparent. Honnête.
 
 ---
 
-**Youssef Bahaida**  
+**Youssef B**  
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
 Casablanca, Maroc  
 📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00

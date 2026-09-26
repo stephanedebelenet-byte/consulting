@@ -1,7 +1,7 @@
 ---
 title: "Programme de Formation Supply Chain Management pour Cadres au Maroc 2026"
 date: "2026-08-10"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/conseil.webp"
 keywords: "formation supply chain management cadres maroc, formation continue supply chain maroc, programme supply chain manager maroc, formation directeur supply chain maroc, certification supply chain maroc, executive supply chain formation"
 description: "Programme de formation supply chain management pour cadres au Maroc : compétences stratégiques, S&OP, pilotage par les données, formation continue et certifications APICS. Par Nextinotech."

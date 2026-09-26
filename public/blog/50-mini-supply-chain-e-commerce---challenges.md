@@ -1,7 +1,7 @@
 ---
 title: "Supply Chain E-Commerce au Maroc : le dernier kilomètre, vrai défi du secteur"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B"
 type: "mini-article"
 schema: "Article"
 keywords: "supply chain e-commerce Maroc, last mile Maroc, logistique livraison Maroc, paiement à la livraison"

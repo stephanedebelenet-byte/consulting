@@ -1,7 +1,7 @@
 ---
 title: "Spend Analysis par l'IA : Catégoriser 100% de ses Dépenses"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "spend analysis ia achats, catégorisation dépenses ia maroc, maverick buying détection ia, analyse des dépenses achats pme, gisement d'économies achats ia"
@@ -44,4 +44,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

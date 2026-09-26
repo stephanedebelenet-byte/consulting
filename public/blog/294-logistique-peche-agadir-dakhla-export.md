@@ -1,7 +1,7 @@
 ---
 title: "Logistique du Secteur de la Pêche : Agadir, Dakhla et l'Export Halieutique"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "logistique pêche maroc export, export halieutique maroc, Agadir Dakhla pêche"
@@ -40,7 +40,7 @@ Vous opérez dans le secteur halieutique marocain et voulez structurer votre cha
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Le360 — Captures, volumes, exportations... Ce qu'il faut savoir sur le secteur halieutique au Maroc](https://fr.le360.ma/economie/captures-volumes-exportations-ce-quil-faut-savoir-sur-le-secteur-halieutique-au-maroc_H5LAO3ZCO5HO7A6F4UU77BVUFM/)

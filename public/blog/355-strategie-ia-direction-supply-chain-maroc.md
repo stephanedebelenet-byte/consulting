@@ -1,7 +1,7 @@
 ---
 title: "IA et Direction Supply Chain : Construire sa Feuille de Route 2026-2028"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "stratégie ia direction supply chain maroc, feuille de route ia supply chain, roadmap ia dsc maroc, priorisation projets ia direction, ia supply chain moyen terme"

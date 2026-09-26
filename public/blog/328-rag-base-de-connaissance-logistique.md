@@ -1,7 +1,7 @@
 ---
 title: "RAG et Base de Connaissance Interne : l'Assistant qui Connaît vos Procédures"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "rag base de connaissance logistique, assistant ia procédures wms, chatbot interne entreprise maroc, rag entreprise supply chain, ia procédures qualité"

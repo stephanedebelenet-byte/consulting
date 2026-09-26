@@ -1,7 +1,7 @@
 ---
 title: "Cahier des Charges Technique pour un Projet IA Supply Chain"
 date: "2026-09-15"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "cahier charges technique ia dsi, exigences techniques éditeur ia, cahier des charges ia entreprise, dsi exigences ia fournisseur, spécifications techniques projet ia"
@@ -38,4 +38,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

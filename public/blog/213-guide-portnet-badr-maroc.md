@@ -1,7 +1,7 @@
 ---
 title: "Guide PORTNET et BADR 2026 : Maîtriser les Plateformes Douanières Marocaines"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "portnet badr guide maroc, guichet unique commerce extérieur maroc, système badr douane maroc, déclaration douanière maroc"
@@ -44,7 +44,7 @@ Vous voulez fiabiliser votre chaîne import-export face à ces évolutions régl
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Le Matin.ma — Le Maroc lance son portail national unique du commerce extérieur](https://lematin.ma/economie/le-maroc-lance-son-portail-national-unique-du-commerce-exterieur/346391)

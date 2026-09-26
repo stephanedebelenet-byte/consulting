@@ -1,7 +1,7 @@
 ---
 title: "IA et Ordonnancement de Production : Arbitrer les Priorités"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia ordonnancement production maroc, arbitrage priorité production ia, ia planning atelier maroc, ordonnancement fabrication ia, ia urgence production arbitrage"

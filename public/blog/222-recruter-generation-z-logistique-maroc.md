@@ -1,7 +1,7 @@
 ---
 title: "Recruter la Génération Z en Logistique : ce qui a Changé, ce qu'il Faut Arrêter de Faire"
 date: "2026-08-23"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "recruter génération Z logistique, génération Z entrepôt maroc, attentes jeunes travail logistique, fidélisation gen z supply chain"

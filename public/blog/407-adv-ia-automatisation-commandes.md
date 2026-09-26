@@ -1,7 +1,7 @@
 ---
 title: "Service ADV Augmenté par IA : Traiter Plus de Commandes sans Recruter"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "adv ia automatisation commandes, service adv augmenté ia, ia traitement commande maroc, automatiser adv sans recruter, ia gestion des commandes clients"
@@ -40,4 +40,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

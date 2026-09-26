@@ -1,7 +1,7 @@
 ---
 title: "L'IA a Elle-Même une Empreinte Carbone : ce qu'il Faut Savoir"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "empreinte carbone ia entreprise, ia consommation énergétique data center, impact environnemental ia générative, ia écologique entreprise maroc, coût carbone modèle ia"
@@ -41,4 +41,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

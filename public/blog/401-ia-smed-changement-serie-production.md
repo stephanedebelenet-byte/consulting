@@ -1,7 +1,7 @@
 ---
 title: "IA et Changements de Série (SMED) : Réduire les Temps de Changeover"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia smed changement série production, réduire temps changeover ia, ia optimisation smed maroc, temps de changement de série ia, smed augmenté par ia"

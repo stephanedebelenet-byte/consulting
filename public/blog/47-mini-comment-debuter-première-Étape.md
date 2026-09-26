@@ -1,7 +1,7 @@
 ---
 title: "Comment Débuter ? Première Étape ?"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "La première étape est toujours un Diagnostic Express de 2 à 6 semaines pour cartographier l'existant et identifier des leviers chiffrés — jamais un engagement de transformation complète dès le premier contact."

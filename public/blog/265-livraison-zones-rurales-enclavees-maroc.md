@@ -1,7 +1,7 @@
 ---
 title: "Livraison en Zones Rurales et Enclavées : le Dernier Kilomètre le Plus Cher"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "livraison zone rurale maroc, dernier kilomètre zones enclavées, logistique atlas montagne maroc"
@@ -40,7 +40,7 @@ Vous livrez vers des zones rurales ou enclavées et voulez réduire votre coût 
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
 - [Drive to Home — Les défis de la livraison du dernier kilomètre en zone rurale](https://drivetohome.fr/le-blog-drive-to-home/les-defis-de-la-livraison-dernier-kilometre-en-zone-rurale/)

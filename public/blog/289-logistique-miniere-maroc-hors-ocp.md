@@ -1,7 +1,7 @@
 ---
 title: "Logistique Minière au Maroc : au-delà de l'OCP"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "logistique minière maroc, mines maroc hors phosphate, exploitation minière maroc barytine cobalt"

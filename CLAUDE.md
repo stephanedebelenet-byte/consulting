@@ -36,7 +36,7 @@ Section inner max-width: 1300px
 ```
 
 ## Real company data
-- Founder: Youssef BAHAIDA
+- Founder: Youssef B
 - Email: contact@nextinotech.com
 - Phone: +212 06 63 44 92 00
 - Location: Casablanca, Maroc

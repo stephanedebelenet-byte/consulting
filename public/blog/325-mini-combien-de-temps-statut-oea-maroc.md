@@ -1,7 +1,7 @@
 ---
 title: "Combien de Temps pour Obtenir le Statut OEA au Maroc ?"
 date: "2026-09-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Comptez 9 à 18 mois entre le dépôt de la demande et la signature de la convention : jusqu'à 6 mois pour le rapport d'audit après notification d'éligibilité, 3 mois pour sa validation, puis l'examen par la commission d'agrément. Une entreprise déjà bien préparée (stocks traçables, normes ISO en place) se situe dans la fourchette basse."
@@ -33,4 +33,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

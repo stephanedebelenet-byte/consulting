@@ -1,7 +1,7 @@
 ---
 title: "IA Générative et Nouveaux Modèles Économiques Logistiques"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/hero-supply-chain.webp"
 keywords: "ia nouveaux modèles économiques logistique, ia modèle économique supply chain, au-delà réduction coûts ia, ia offre logistique nouvelle, transformation modèle économique ia"

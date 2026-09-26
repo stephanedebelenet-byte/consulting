@@ -1,7 +1,7 @@
 ---
 title: "Femmes dans la Supply Chain Marocaine : où en est-on Vraiment"
 date: "2026-08-25"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "femmes supply chain maroc chiffres, diversité logistique maroc, femmes logistique maroc, parité supply chain"

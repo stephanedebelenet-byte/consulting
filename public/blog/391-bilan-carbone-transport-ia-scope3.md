@@ -1,7 +1,7 @@
 ---
 title: "Calculer son Bilan Carbone Transport par IA : le Scope 3 Automatisé"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "bilan carbone transport ia scope 3, calcul émissions transport ia, scope 3 logistique maroc, ia empreinte carbone transport, automatiser bilan carbone entreprise"
@@ -42,4 +42,4 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

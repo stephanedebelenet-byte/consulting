@@ -1,7 +1,7 @@
 ---
 title: "Traçabilité Produit Augmentée par IA : au-delà du Code-Barres"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "traçabilité produit ia maroc, ia traçabilité lot numéro série, traçabilité au-delà du code-barres, ia historique produit entreprise, traçabilité chaîne approvisionnement ia"

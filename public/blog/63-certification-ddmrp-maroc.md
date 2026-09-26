@@ -1,7 +1,7 @@
 ---
 title: "Formation DDMRP au Maroc : Certification Practitioner et Résultats Terrain"
 date: "2026-08-10"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/charts.webp"
 keywords: "certification ddmrp maroc, formation ddmrp maroc, formation ddmrp casablanca, demand driven mrp maroc, ddmrp practitioner maroc, planification supply chain maroc"
 description: "Guide complet formation et certification DDMRP au Maroc : qu'est-ce que le Demand Driven MRP, programme de formation 2 jours, comment se certifier Practitioner, résultats terrain."

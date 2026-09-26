@@ -1,7 +1,7 @@
 ---
 title: "Le Champion IA Interne : ce Rôle qui Fait Réussir l'Adoption"
 date: "2026-09-17"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "champion ia interne adoption entreprise, rôle champion ia maroc, ambassadeur ia interne, identifier champion ia équipe, adoption ia champion informel"

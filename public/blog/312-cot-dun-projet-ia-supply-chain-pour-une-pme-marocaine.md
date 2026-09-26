@@ -1,7 +1,7 @@
 ---
 title: "Coût d'un Projet IA Supply Chain pour une PME Marocaine"
 date: "2026-09-04"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "coût projet ia supply chain maroc, budget ia logistique, roi ia supply chain, prix projet ia achats maroc, projet ia pme maroc"

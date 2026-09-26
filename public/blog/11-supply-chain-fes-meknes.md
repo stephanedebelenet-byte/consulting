@@ -1,7 +1,7 @@
 ﻿---
 title: "Conseil Supply Chain Fès/Meknès — Expert Logistique Centre Maroc"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/hero-supply-chain.webp"
 keywords: "consultant supply chain Fès Meknès, audit logistique centre Maroc, optimisation supply chain régional"
 description: "Expert supply chain pour Fès, Meknès, région centre. Audit, formation, sourcing, logistique. Support PME/ME manufacturière."
@@ -51,5 +51,5 @@ Fès/Meknès region, Maroc · 20+ ans expérience
 
 ---
 
-**Youssef Bahaida**
+**Youssef B**
 

@@ -1,7 +1,7 @@
 ---
 title: "Générer ses Scénarios S&OP avec l'IA : Simuler Ruptures et Arbitrages"
 date: "2026-09-13"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "scénarios sop ia simulation, générer scénarios s&op ia, simulation rupture stock ia, arbitrage capacité ia sop, ia planification promotion s&op"
@@ -39,4 +39,4 @@ Vous voulez enrichir votre cycle S&OP de scénarios simulés ? [Découvrez notre
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

@@ -1,7 +1,7 @@
 ---
 title: "Certification PMP au Maroc : Vaut-elle l'Investissement pour un Profil Supply Chain"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/office.webp"
 keywords: "certification PMP maroc supply chain, coût PMP maroc, valeur certification gestion de projet maroc"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [HRM Co — Certification PMP au Maroc, Réussite et carrière](https://hrmco.ma/blog/certification-pmp/)

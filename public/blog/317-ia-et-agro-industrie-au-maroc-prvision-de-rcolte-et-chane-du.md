@@ -1,7 +1,7 @@
 ---
 title: "IA et Agro-Industrie au Maroc : Prévision de Récolte et Chaîne du Froid"
 date: "2026-09-09"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/agro.webp"
 keywords: "ia agro-industrie supply chain maroc, prévision récolte ia, chaîne du froid ia maroc, tri qualité vision agroalimentaire, ia agro-export maroc"
@@ -55,4 +55,4 @@ Vous voulez structurer votre supply chain agro-export ? [Découvrez nos services
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

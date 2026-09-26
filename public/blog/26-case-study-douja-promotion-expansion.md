@@ -1,7 +1,7 @@
 ---
 title: "Case Study: Douja Promotion — 11% Saving Across 31 Chantiers (710 MMAD Volume)"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/construction.webp"
 type: "case-study"
 keywords: "case study Douja Promotion, Addoha, sourcing BTP, optimisation achats chantiers"

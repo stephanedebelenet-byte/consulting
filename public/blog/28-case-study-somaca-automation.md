@@ -1,7 +1,7 @@
 ---
 title: "Case Study: SOMACA — Premier Projet iFA (Integrated Factory Automation) au Maroc"
 date: "2026-06-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 image: "/images/hero-warehouse.webp"
 type: "case-study"
 keywords: "case study SOMACA, iFA, automatisation industrielle, kitting Maroc"

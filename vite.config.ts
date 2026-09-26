@@ -75,8 +75,8 @@ export function getBlogRoutes(): PrerenderRoute[] {
           dateModified: fm.date || undefined,
           author: {
             '@type': 'Person',
-            '@id': `${SITE}/#youssef-bahaida`,
-            name: fm.author || 'Youssef Bahaida',
+            '@id': `${SITE}/#youssef-b`,
+            name: fm.author || 'Youssef B',
             jobTitle: 'Fondateur',
             worksFor: { '@id': `${SITE}/#organization` },
             url: `${SITE}/#profil`,

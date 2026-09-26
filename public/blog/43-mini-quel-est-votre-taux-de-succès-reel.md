@@ -1,7 +1,7 @@
 ---
 title: "Quel Est Votre Taux de Succès Réel ?"
 date: "2026-08-19"
-author: "Youssef Bahaida"
+author: "Youssef B"
 type: "mini-article"
 schema: "FAQPage"
 quickAnswer: "Nextinotech ne publie pas de taux de succès agrégé — ce chiffre unique masquerait plus qu'il ne révélerait. Chaque mission a un résultat chiffré et vérifiable publié individuellement dans nos références : productivité, taux de service, réduction des ruptures."

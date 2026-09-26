@@ -1,7 +1,7 @@
 ---
 title: "Jumeau Numérique (Digital Twin) Supply Chain : à quoi ça Sert Vraiment"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "digital twin supply chain, jumeau numérique logistique, simulation supply chain maroc, digital supply chain twin"

@@ -1,7 +1,7 @@
 ---
 title: "Prévision Commerciale Augmentée par IA : Aligner Ventes et Supply Chain"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "prévision commerciale ia s&op, aligner ventes supply chain ia, ia prévision ventes maroc, désalignement commercial supply chain, ia collaboration commercial logistique"
@@ -42,4 +42,4 @@ Vous voulez aligner vos prévisions commerciales et supply chain ? [Découvrez n
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

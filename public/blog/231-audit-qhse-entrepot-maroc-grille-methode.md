@@ -1,7 +1,7 @@
 ---
 title: "Audit QHSE Entrepôt au Maroc : la Grille et la Méthode"
 date: "2026-08-26"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "audit QHSE entrepôt maroc, audit QHSE maroc, comité sécurité hygiène maroc, DUER maroc entrepôt"

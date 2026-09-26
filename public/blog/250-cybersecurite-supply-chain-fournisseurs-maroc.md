@@ -1,7 +1,7 @@
 ---
 title: "Cybersécurité de la Supply Chain : le Maillon Faible que les Entreprises Marocaines Négligent"
 date: "2026-08-21"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "cybersécurité supply chain maroc, cyberattaque fournisseur, risque tiers numérique, sécurité chaîne approvisionnement"
@@ -40,7 +40,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
 ---
 
-*Youssef Bahaida, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
 - [Cyberdesserts — Gartner's 2025 Supply Chain Attack Prediction Vs Reality](https://blog.cyberdesserts.com/gartners-2025-supply-chain-prediction-a-retrospective-look-at-what-actually-happened/)

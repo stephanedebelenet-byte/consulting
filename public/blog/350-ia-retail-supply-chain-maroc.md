@@ -1,7 +1,7 @@
 ---
 title: "IA et Grande Distribution : Réassort, Promotion et Démarque"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/charts.webp"
 keywords: "ia retail supply chain maroc, réassort magasin ia, prévision promotionnelle ia, démarque inconnue ia, planogramme ia grande distribution maroc"

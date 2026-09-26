@@ -1,7 +1,7 @@
 ---
 title: "IA, Mines et Chimie : Planification Vrac et Logistique Portuaire"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "ia logistique minière chimie maroc, planification vrac ia, cadence train port ia, maintenance prédictive minière maroc, ia logistique portuaire maroc"

@@ -1,7 +1,7 @@
 ---
 title: "Maintenance Prédictive des Équipements d'Entrepôt et de la Flotte"
 date: "2026-09-14"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "maintenance prédictive entrepôt flotte maroc, ia maintenance chariot élévateur, prédiction panne poids lourd, capteurs maintenance entrepôt, ia groupe froid entrepôt"
@@ -43,4 +43,4 @@ Vous voulez identifier les équipements prioritaires pour une maintenance prédi
 
 ---
 
-*Youssef Bahaida — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
+*Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*

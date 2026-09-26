@@ -1,7 +1,7 @@
 ---
 title: "Éco-conception Assistée par IA : Réduire l'Empreinte dès le Produit"
 date: "2026-09-16"
-author: "Youssef Bahaida"
+author: "Youssef B"
 schema: "Article"
 image: "/images/construction.webp"
 keywords: "éco-conception ia logistique produit, réduire empreinte logistique conception, ia emballage éco-conception, éco-conception supply chain maroc, ia dimensionnement emballage"
