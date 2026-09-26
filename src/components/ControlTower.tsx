@@ -266,8 +266,8 @@ function Showcase() {
         </h2>
         <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, margin: 0 }}>
           Une flotte de transport de matériaux suivie en temps réel : position et statut de chaque porteur,
-          trajets et rotations, carburant, maintenance, planification. Captures de démonstration, noms et
-          données clients retirés.
+          trajets et rotations, carburant, maintenance, planification, conformité des conducteurs.
+          Démonstration pédagogique, données fictives.
         </p>
       </div>
 
@@ -291,9 +291,10 @@ function Showcase() {
         </figcaption>
       </figure>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gap: '1.5rem' }}>
+      {/* La capture verticale (tableau direction) occupe deux rangées : 1 + 6 captures = grille pleine sur 2 colonnes. */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gridAutoFlow: 'dense', alignItems: 'start', gap: '1.5rem' }}>
         {CONTROL_TOWER_SCREENS.map((s) => (
-          <figure key={s.src} style={{ margin: 0, border: '1px solid rgba(27,53,84,0.12)', background: '#fff' }}>
+          <figure key={s.src} style={{ margin: 0, border: '1px solid rgba(27,53,84,0.12)', background: '#fff', gridRow: s.h > s.w ? 'span 2' : undefined }}>
             <a href={s.src} target="_blank" rel="noopener" style={{ display: 'block' }}>
               <img src={s.src} alt={s.alt} width={s.w} height={s.h} loading="lazy" decoding="async" style={{ display: 'block', width: '100%', height: 'auto' }} />
             </a>
