@@ -80,6 +80,7 @@ function AnimatedRoutes() {
         <Route path="/services" element={<ServicesRedirect />} />
         <Route path="/references" element={<PageTransition><ReferencesPage /></PageTransition>} />
         <Route path="/formation" element={<PageTransition><FormationPage /></PageTransition>} />
+        <Route path="/en/training" element={<PageTransition><FormationPage /></PageTransition>} />
         {/* Le canon (sitemap.xml, llms.txt, liens internes) utilise l'URL avec
             slash final ; on enregistre les deux formes pour ne rien casser. */}
         <Route path="/formation-rl" element={<PageTransition><FormationRLPage /></PageTransition>} />

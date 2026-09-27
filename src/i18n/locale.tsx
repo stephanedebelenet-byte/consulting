@@ -27,6 +27,7 @@ const FR_TO_EN: Record<string, string> = {
   '/a-propos': '/en/about',
   '/control-tower': '/en/control-tower',
   '/prestations': '/en/services',
+  '/formation': '/en/training',
 }
 
 // Table inverse, construite une fois : chemin anglais → chemin français

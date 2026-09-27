@@ -12,7 +12,8 @@
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
 import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, buildProgrammesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
+import { PROGRAMMES_EN, FAQ_EN } from './formationsEn'
 import { generateFAQSchema } from '../utils/seoData'
 import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq'
 import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS, OFFER_TIERS_EN, CONTROL_TOWER_FAQ_EN, CONTROL_TOWER_VIDEO_EN, CONTROL_TOWER_SCREENS_EN } from './controlTower'
@@ -263,6 +264,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-08-06',
     isOffer: true,
+    altPath: '/en/training',
   },
   {
     path: '/formation-rl',
@@ -681,6 +683,28 @@ const EN_ROUTES: PrerenderRoute[] = [
         ],
       },
     ],
+  },
+  {
+    path: '/en/training',
+    title: 'Nextinotech Academy: Supply Chain Training in Morocco',
+    description:
+      '30 training programs across 7 domains: Supply Chain, Lean, Management, Finance, Project, Career. Public and in-house sessions, 2026 calendar.',
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/formation',
+    jsonLd: [buildProgrammesSchema(PROGRAMMES_EN, FAQ_EN, {
+      lang: 'en',
+      url: `${SITE_URL}/en/training`,
+      itemListName: 'Nextinotech Training Catalogue',
+      academieName: 'Nextinotech Academy',
+      credential: 'Nextinotech Training Certificate',
+      category: 'Professional Training',
+      hotelLocation: '5-star hotel, Casablanca',
+      clientLocation: "Client company's premises",
+      breadcrumb: { home: 'Home', academie: 'Nextinotech Academy' },
+    })],
   },
   {
     path: '/en',
