@@ -153,7 +153,7 @@ export default function DirecteurAchatsMiTemps() {
                 Recruter en CDI vs mandat
               </div>
               <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, marginBottom: '1.5rem' }}>
-                Un directeur achats en CDI coûte entre 600 000 et 900 000 MAD par an, charges sociales incluses, avec 4 à 6 mois de recrutement avant la prise de poste. Un mandat Nextinotech démarre en 2 semaines, sans charges ni risque RH, avec un exit propre inclus dès la signature.
+                Un directeur achats en CDI coûte entre 600 000 et 900 000 MAD brut par an, auxquels s&apos;ajoutent environ 21 % de charges patronales, avec 4 à 6 mois de recrutement avant la prise de poste. Un mandat Nextinotech démarre en 2 semaines, sans charges ni risque RH, avec un exit propre inclus dès la signature.
               </p>
               <Link
                 to="/dsc-vs-recrutement-cdi"

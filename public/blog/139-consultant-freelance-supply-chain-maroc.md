@@ -52,7 +52,7 @@ Les tarifs journaliers consultants supply chain au Maroc :
 | Junior consultant (3-5 ans exp.) | 2 000-3 500 MAD/jour |
 | Consultant confirmé (5-10 ans) | 3 500-6 000 MAD/jour |
 | Senior consultant / Expert (10+ ans) | 6 000-12 000 MAD/jour |
-| DSC à temps partagé | 15 000-25 000 MAD/jour |
+| DSC à temps partagé | Au forfait : 180 000-550 000 MAD HT le mandat de 4 à 10 mois ([détail](/direction-supply-chain-temps-partage)) |
 
 **Comment calculer votre tarif de départ :**
 Salaire mensuel visé × 1,5 (charges) / 15 jours facturables = TJM minimum.

@@ -93,7 +93,6 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 
 #### Articles long-form (01-07)
 - 01 : Audit supply chain 2026 — pourquoi et comment
-- 02 : Formation supply chain — calcul du ROI
 - 03 : Digitalisation supply chain PME marocaine
 - 04 : Supply chain par secteur — comparatif
 - 05 : Coût d'une mission de consulting SC

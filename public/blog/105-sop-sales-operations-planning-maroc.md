@@ -11,7 +11,7 @@ description: "Le S&OP (Sales & Operations Planning) réduit les stocks de 20% et
 
 Le S&OP est le processus le plus sous-utilisé dans les entreprises marocaines. Et pourtant, c'est celui qui génère les gains les plus rapides — sans investissement technologique.
 
-J'ai accompagné des groupes comme Diana Holding, Oland Group, et plusieurs ETI marocaines dans la mise en place du S&OP. Le résultat moyen sur les 12 premiers mois : stocks -20%, ruptures -30%, cash cycle +10 à 15 jours.
+J'ai accompagné des groupes comme Diana Holding et plusieurs ETI marocaines dans la mise en place du S&OP. Les effets attendus portent sur trois indicateurs : le niveau de stock, le taux de rupture et le cycle de trésorerie — à mesurer avant de commencer pour pouvoir chiffrer le gain.
 
 Voici comment ça fonctionne.
 
@@ -103,9 +103,9 @@ Chaque S&OP produit un compte-rendu avec les décisions prises. Le S&OP suivant 
 
 ## Le S&OP dans les PME Marocaines : Ce que J'Ai Vu
 
-**Diana Holding (2010) :** Groupe diversifié (ABC/Coca-Cola, Ebertec, Celliers de Meknès, SNV). Filiales qui planifiaient indépendamment, surstock chronique, ruptures fréquentes. Mise en place S&OP Groupe. Résultat en 12 mois : stocks -20%, ruptures -15%, cash cycle +2 semaines.
+**Diana Holding (2010) :** Groupe diversifié (ABC/Coca-Cola, Ebertec, Celliers de Meknès, SNV). Filiales qui planifiaient indépendamment, surstock chronique, ruptures fréquentes. Mise en place d'un S&OP Groupe, pour que les filiales planifient à partir d'une même vision de la demande.
 
-**Oland Group (2014-2015) :** Distribution multi-catégories. Commerciaux promettant des délais non tenables. S&OP simplifié (format PME, 3 étapes au lieu de 5). Résultat : alignement équipes Commercial/Supply Chain, disputes internes -70%, taux de service +8 points.
+**Un distributeur multi-catégories :** des commerciaux qui promettaient des délais non tenables. Un S&OP simplifié (format PME, 3 étapes au lieu de 5) a aligné les équipes commerciales et supply chain sur des engagements réalistes.
 
 La leçon commune : le S&OP n'est pas réservé aux grands groupes. Une PME de 30 personnes peut tirer autant de valeur d'un S&OP simplifié.
 

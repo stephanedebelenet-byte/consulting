@@ -100,7 +100,7 @@ export default function Contact() {
             Prêt à transformer votre Supply Chain en avantage compétitif&nbsp;?
           </h2>
           <p style={{ fontSize: '1.05rem', color: 'var(--dark-muted)', lineHeight: 1.8, maxWidth: 460 }}>
-            Le premier échange est gratuit, dure 45 minutes, et n&apos;engage à rien.
+            Le premier échange est gratuit, dure 30 minutes, et n&apos;engage à rien.
             Nous venons préparés. Vous repartez avec des actions concrètes.
           </p>
 

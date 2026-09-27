@@ -2,9 +2,7 @@
 // Snapshot capturé au moment du passage à la génération automatique du sitemap
 // (voir vite.config.ts, generateSitemapXML) — à ajuster manuellement si besoin
 // pour de nouveaux articles jugés prioritaires.
-export const BLOG_PRIORITY_OVERRIDES: Record<string, number> = {
-  'roi-formation-supply-chain-transformation-mesurable-en-90': 0.8,
-  'combien-coute-une-mission-de-consulting-supply-chain': 0.8,
+export const BLOG_PRIORITY_OVERRIDES: Record<string, number> = {  'combien-coute-une-mission-de-consulting-supply-chain': 0.8,
   'combien-de-temps-pour-une-transformation-supply-chain': 0.8,
   'formation-ou-consulting-quelle-approche-choisir': 0.8,
   'conseil-supply-chain-a-casablanca-expert-logistique-maroc': 0.8,

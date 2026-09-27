@@ -356,7 +356,7 @@ export default function Pourquoi() {
                   lineHeight: 1.75,
                   fontWeight: 300,
                 }}>
-                  Un premier échange de 45 minutes, sans engagement, pour qualifier votre situation.
+                  Un premier échange de 30 minutes, sans engagement, pour qualifier votre situation.
                 </p>
                 <a href="/contact" className="btn-primary-gold" style={{ width: 'fit-content' }}>
                   Réserver un échange gratuit →

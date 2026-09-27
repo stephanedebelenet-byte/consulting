@@ -42,16 +42,14 @@ Voici comment choisir.
 - Urgence (transformation rapide besoin)
 - Pas de champion interne qui guide adoption
 
-**Cas réel — Bosch Maroc (Formation Sourcing):**
-- Baseline: Équipe achat compétente, juste pas formation formelle sourcing
-- Decision: Formation 5 jours + 6 semaines coaching
-- Result: +95% adoption, saving 8%, ROI 3.5x
-- **Pourquoi ça marche:** Équipe stable, problème = skills gap seulement
+**Situation type — une équipe achats sans méthode de sourcing :**
+- Point de départ : équipe compétente, mais sans formation formelle au sourcing
+- Choix : formation intensive, puis coaching de quelques semaines
+- **Pourquoi ça marche :** équipe stable, le problème est seulement un manque de compétences
 
-**Cas contre-exemple — Casanet Premier WMS (Formation Seule essayé):**
-- WMS implémenté, training 2 jours proposé
-- Résultat: 40% adoption (vs 85%+ expected)
-- Pourquoi ça a échoué: Processus ancien à révolutionner (pas juste formation), équipe pas coaching intensif
+**Contre-exemple type — un WMS déployé avec 2 jours de formation seulement :**
+- L'outil est en place, mais une grande partie de l'équipe continue de le contourner
+- Pourquoi ça échoue : c'est le processus qu'il fallait revoir, pas seulement les compétences, et l'équipe n'a pas été accompagnée
 
 ---
 
@@ -77,9 +75,9 @@ Voici comment choisir.
 - Continuité manque (qui pilote après?)
 
 **Cas réel — Douja Promotion Addoha (Consulting Sourcing Strategy):**
-- Baseline: 710 MMAD volume, no strategy, saving 11% possible
-- Decision: Consulting 3 mois (audit + strategy + pilotage)
-- Result: 11% saving (78 MMAD), 3-month ROI
+- Point de départ : 710 millions MAD d'achats annuels, 31 chantiers, pas de stratégie achats formalisée
+- Choix : mission de conseil (audit, stratégie, pilotage)
+- Résultat : 11 % d'économies réalisées sur le spend achats
 - **Pourquoi ça marche:** Problème complexe (strategy), Consultant + équipe together design, équipe propriétaire
 
 **Cas contre-exemple — Client A (Consulting WMS sans formation):**
@@ -104,17 +102,15 @@ Voici comment choisir.
 - Timeline urgent (parallel audit + formation)
 - Long-term sustainability important
 
-**Cas réel — Casanet (Formation + Consulting WMS):**
-- Baseline: WMS exists, adoption 42%, underutilized
-- Decision: Formation bootcamp (WMS deep-dive 3 jours) + Consulting (coaching 8 semaines)
-- Result: Adoption 88%, efficiency +40%, ROI 3.2x
-- **Pourquoi ça marche:** Consultant design process + training. Équipe upskilled + confident + propriétaire solution.
+**Situation type — un WMS sous-utilisé :**
+- Point de départ : le système existe, mais l'équipe ne s'en sert qu'en partie
+- Choix : formation approfondie à l'outil, puis accompagnement de quelques semaines
+- **Pourquoi ça marche :** le consultant revoit le processus, la formation rend l'équipe autonome et propriétaire de la solution.
 
-**Cas réel — Oland Group (Formation + Consulting S&OP):**
-- Baseline: Demand/Supply désalignés, stock volatile
-- Decision: Formation S&OP process (2 jours théorie) + Consulting design + coaching (6 semaines)
-- Result: Forecast accuracy +15 points, cash cycle -12 days, cash freed 2.1 MMAD
-- **Pourquoi ça marche:** Formation = grounded in your business. Consulting = accelerate implementation.
+**Situation type — pas de processus S&OP :**
+- Point de départ : prévisions commerciales et approvisionnements décidés séparément, stocks instables
+- Choix : formation S&OP de 2 jours, puis conception et accompagnement du processus
+- **Pourquoi ça marche :** la formation part de votre activité, le conseil accélère la mise en place.
 
 ---
 
