@@ -31,7 +31,7 @@ export const CONTROL_TOWER_SCREENS = [
   { src: '/images/control-tower/tableau-direction.webp', w: 1263, h: 1600, title: 'Tableau de bord direction', alt: "Tableau de bord direction : tonnage livré, rotations, disponibilité du parc, production sur 7 jours, alertes à traiter, attente par site, niveaux des citernes, classement éco-conduite et véhicules immobilisés" },
   { src: '/images/control-tower/gmao-3d-maintenance.webp', w: 1600, h: 774, title: 'GMAO 3D : organes à maintenir', alt: "GMAO 3D d'un camion : batterie, pneus, filtres et circuit hydraulique signalés selon le kilométrage restant avant maintenance" },
   { src: '/images/control-tower/citernes-gasoil.webp', w: 1600, h: 774, title: 'Citernes de gasoil sur sites', alt: "Suivi des citernes de gasoil par site : stock total, taux de remplissage, consommation sur 30 jours, autonomie et écarts entre consommation théorique et sonde" },
-  { src: '/images/control-tower/dispatch-board-gantt.webp', w: 1360, h: 772, title: 'Dispatch board : planification par glisser-déposer', alt: "Dispatch board : ordres de transport à servir, Gantt camions par heure et flotte disponible, affectation par glisser-déposer" },
+  { src: '/images/control-tower/dispatch-board-gantt.webp', w: 1600, h: 773, title: 'Dispatch board : planification par glisser-déposer', alt: "Dispatch board : ordres de transport à servir, Gantt camions par heure et flotte disponible, affectation par glisser-déposer" },
   { src: '/images/control-tower/document-radar-conformite.webp', w: 1360, h: 772, title: 'Document radar : conformité conducteurs', alt: "Document radar : suivi de conformité des permis et documents de la flotte, documents en vigueur, valides et proches de l'expiration, fiche détaillée par conducteur" },
 ]
 

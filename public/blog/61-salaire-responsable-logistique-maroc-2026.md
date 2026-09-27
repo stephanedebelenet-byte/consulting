@@ -153,6 +153,20 @@ Après avoir accompagné des dizaines d'entreprises marocaines dans leurs recrut
 
 ---
 
+## Questions fréquentes
+
+#### Quel salaire pour un Responsable Logistique confirmé au Maroc ?
+
+Entre 10 000 et 18 000 MAD brut par mois pour un profil de 3 à 7 ans d'expérience gérant un entrepôt ou un service logistique de taille moyenne, selon les grilles observées par Nextinotech sur plus de 110 missions terrain.
+
+#### Quel secteur paie le mieux un Responsable Logistique au Maroc ?
+
+L'industrie pharmaceutique, avec une prime de 25 à 40 % par rapport à la moyenne (un profil de 5 ans d'expérience peut atteindre 22 000 à 28 000 MAD), devant l'industrie automobile (+15 à 30 %) et la grande distribution (+10 à 20 %).
+
+#### Une certification augmente-t-elle vraiment le salaire ?
+
+Oui : un professionnel certifié DDMRP, CPIM (APICS) ou Green Belt Lean Six Sigma négocie en moyenne 15 à 25 % de plus qu'un profil non certifié à expérience égale, ces certifications signalant une compétence vérifiable et transférable.
+
 ## Conclusion
 
 Le salaire d'un Responsable Logistique au Maroc reflète avant tout la valeur ajoutée que vous apportez à l'entreprise — et cette valeur est directement liée à votre niveau de compétences, vos certifications et votre capacité à produire des résultats mesurables.

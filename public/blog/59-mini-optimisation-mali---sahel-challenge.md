@@ -30,6 +30,20 @@ En avril 2026, un nouveau corridor multimodal Abidjan–Bobo-Dioulasso–Bamako 
 
 La dégradation de la situation sécuritaire dans le centre et l'ouest du Mali complique concrètement l'axe Dakar-Bamako, historiquement dominant. Cette instabilité est l'un des moteurs directs du basculement observé vers les corridors ivoirien et, dans une moindre mesure, guinéen.
 
+## Questions fréquentes
+
+#### Pourquoi le Mali dépend-il des ports voisins pour son commerce extérieur ?
+
+Le Mali est un pays enclavé, sans façade maritime : tout son commerce extérieur transite par des ports voisins, principalement Dakar (Sénégal) et San Pedro/Abidjan (Côte d'Ivoire), avec Conakry, Lomé, Tema et Nouakchott en options secondaires.
+
+#### Quel corridor domine aujourd'hui le commerce malien, Dakar ou Abidjan ?
+
+L'axe ivoirien gagne rapidement du terrain : le trafic malien transitant par la Côte d'Ivoire est passé de 835 000 à 1,47 million de tonnes entre 2024 et 2025, soit une hausse de 76 %, tandis que le corridor Dakar-Bamako, historiquement dominant, est freiné par la dégradation de la situation sécuritaire.
+
+#### Qu'est-ce que le corridor Abidjan–Bobo-Dioulasso–Bamako ?
+
+Un nouveau corridor multimodal lancé en avril 2026, qui combine le rail jusqu'au Burkina Faso puis la route vers le Mali — une diversification qui répond au risque de dépendre d'un seul axe pour l'approvisionnement du pays.
+
 ## Ce qu'il faut retenir
 
 La supply chain malienne illustre un cas d'école : celui d'une économie qui doit piloter sa logistique sans aucun accès direct à la mer, en arbitrant en permanence entre plusieurs corridors dont la fiabilité relative évolue vite. Pour toute entreprise exposée à ce marché, suivre cette recomposition des corridors n'est pas optionnel — c'est une condition de continuité d'approvisionnement.

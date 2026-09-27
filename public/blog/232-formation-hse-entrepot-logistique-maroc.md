@@ -30,6 +30,20 @@ Le programme, dispensé en une journée dans les locaux de l'entreprise, couvre 
 
 Le programme cible quatre profils qui, sur le terrain, ont rarement l'occasion de se former ensemble alors qu'ils partagent le même risque au quotidien : les responsables HSE/QHSE, les chefs d'équipe entrepôt, les caristes et agents de manutention, et les responsables logistique. Réunir ces profils dans une même session, plutôt que de former chaque niveau séparément, crée un langage commun sur le risque — un chef d'équipe et un cariste qui ont suivi la même grille d'audit repèrent les mêmes écarts, avec la même méthode.
 
+## Questions fréquentes
+
+#### Une formation HSE générique suffit-elle pour un entrepôt ?
+
+Non. Les risques d'un entrepôt — manutention, chariots élévateurs, stockage en hauteur, flux de circulation — sont différents de ceux d'un bureau ou d'un atelier de production ; une formation HSE entrepôt les traite spécifiquement, avec un cas pratique mené sur le site réel de l'entreprise.
+
+#### Combien de temps dure la formation HSE Entrepôt & Logistique de Nextinotech ?
+
+Une journée, dans les locaux de l'entreprise, avec un cas pratique d'audit HSE flash mené directement sur le site et une grille d'audit fournie aux participants.
+
+#### À qui s'adresse cette formation ?
+
+À quatre profils réunis dans une même session : responsables HSE/QHSE, chefs d'équipe entrepôt, caristes et agents de manutention, et responsables logistique — pour créer un langage commun sur le risque entre des niveaux qui se croisent au quotidien sans se former ensemble.
+
 ## Ce qu'il faut retenir
 
 Une formation HSE entrepôt efficace n'est pas une déclinaison d'une formation sécurité générique : elle traite les risques propres à la manutention, au stockage et à la circulation d'un site logistique, avec un cas pratique mené sur le terrain réel de l'entreprise plutôt qu'un cas d'école. Notre article sur l'[audit QHSE entrepôt au Maroc](/blog/audit-qhse-entrepot-au-maroc-la-grille-et-la-methode) détaille la grille et la méthode que ce type de formation permet ensuite d'appliquer en autonomie ; notre article sur la [formation Chef d'Entrepôt au Maroc](/blog/formation-chef-d-entrepot-au-maroc-competences-programme-et) complète la vue sur les compétences terrain attendues d'un encadrant d'entrepôt.

@@ -92,6 +92,20 @@ Supply chain + Finance, Supply chain + Digital, Ingénieur + MBA Supply Chain �
 
 > **Le diplôme ouvre des portes. Ce que vous faites pendant et après votre formation les garde ouvertes. Un diplôme solide dans une école reconnue + un bon stage + un réseau actif = les meilleures chances d'une belle carrière supply chain.**
 
+## Questions fréquentes
+
+#### Faut-il choisir une école publique ou privée pour étudier la supply chain au Maroc ?
+
+Si vous avez les notes pour une grande école publique (ENCG, ENSA), c'est le choix recommandé pour son coût très faible et sa réputation dans les grandes entreprises ; sinon, une école privée sérieuse avec de bons partenariats vaut mieux qu'une grande école publique où l'on serait mal à l'aise.
+
+#### Quel niveau d'études pour quel débouché en supply chain ?
+
+Un Bac+2 (BTS) mène à des postes opérationnels (agent logistique, technicien transport) autour de 4 000-7 000 MAD débutant ; un Bac+3 à des postes de coordination (5 000-10 000 MAD) ; un Bac+5 (ENCG, EMI, ISCAE...) ouvre l'accès aux postes d'analyste ou de junior buyer, autour de 10 000-20 000 MAD débutant.
+
+#### Le nom de l'école compte-t-il vraiment pour un premier emploi ?
+
+Oui, en grande partie : 78 % des recruteurs supply chain marocains déclarent regarder le nom de l'école avant le contenu du CV pour les profils juniors — un critère à intégrer, en plus des partenariats entreprises et du réseau alumni.
+
 ## Nextinotech — Orientation et Formation
 
 Nextinotech accompagne les étudiants dans leur orientation formation et les entreprises dans le développement des compétences de leurs équipes supply chain.

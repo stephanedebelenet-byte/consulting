@@ -42,6 +42,20 @@ Le secteur logistique pèse plus de 14% du PIB marocain et représente plus de 7
 
 Trois réflexes pratiques pour un employeur : intégrer systématiquement les charges patronales dans le budget avant de fixer une fourchette d'offre, pas après ; ajuster le positionnement salarial selon la zone géographique plutôt que d'appliquer un barème national uniforme, surtout sur l'axe Tanger-Kénitra ; et arbitrer consciemment entre payer en dessous du marché — avec le risque de turnover que cela implique — et payer au-dessus sans différenciation, qui érode la marge sans garantir la fidélisation. Notre [guide des salaires supply chain au Maroc](/blog/salaires-supply-chain-au-maroc-2026-guide-complet-par-poste) détaille ces mêmes fourchettes côté candidat, utile pour anticiper les attentes en entretien ; notre analyse du [salaire Responsable Logistique](/blog/salaire-responsable-logistique-au-maroc-2026-grilles-ecarts) creuse spécifiquement les écarts et leviers de négociation sur ce poste.
 
+## Questions fréquentes
+
+#### Quel est le vrai coût d'un salarié au Maroc, au-delà du salaire brut ?
+
+Les charges patronales représentent un taux nominal d'environ 21,09 % du salaire brut — CNSS (8,98 %, plafonnée à 6 000 MAD), prestations familiales (6,40 %), AMO (4,11 %) et taxe de formation professionnelle (1,60 %) ; ce taux diminue progressivement pour les hauts salaires, vers environ 12 % sur la tranche supérieure.
+
+#### Pourquoi les salaires logistiques sont-ils plus élevés à Tanger ?
+
+Le secteur logistique pèse plus de 14 % du PIB marocain, et Tanger Med est devenu le premier port africain ; cette dynamique, portée par l'automobile et l'aéronautique, crée une tension salariale spécifique sur l'axe Tanger-Kénitra, au-dessus de la moyenne nationale.
+
+#### Combien coûte un Directeur Supply Chain au Maroc ?
+
+Entre 30 000 et 65 000 MAD brut par mois selon la grille 2026 (guides Michael Page Maroc et Diorh), charges patronales non comprises — à intégrer dans le budget avant de fixer une offre, pas après.
+
 ## Ce qu'il faut retenir
 
 Une grille salariale n'est utile à un employeur que si elle intègre le coût réel — charges comprises — et la réalité géographique du marché, pas seulement une moyenne nationale de salaire brut. Les entreprises qui budgétisent sur cette base évitent les deux écueils classiques : sous-payer et perdre leurs recrues en quelques mois, ou surpayer sans levier de rétention réel.

@@ -94,6 +94,20 @@ La certification APICS est éligible aux financements GIAC dans certains secteur
 - L'impact attendu sur votre poste
 - Le coût total
 
+## Questions fréquentes
+
+#### CPIM ou CSCP : quelle certification choisir ?
+
+Le CPIM cible la planification, les stocks et l'ordonnancement — recommandé pour les planificateurs et responsables supply chain opérationnels. Le CSCP couvre la chaîne de bout en bout (sourcing, fabrication, distribution, retours) et vise plutôt les Supply Chain Managers et directeurs. Pour viser les deux, commencer par le CPIM.
+
+#### Combien coûte la certification APICS au Maroc ?
+
+Entre 12 000 et 25 000 MAD au total : frais d'examen (environ 4 000 à 5 500 MAD), adhésion annuelle (environ 1 500 MAD), matériel de préparation (3 000 à 6 000 MAD) et, en option, une formation de préparation (5 000 à 15 000 MAD).
+
+#### La certification APICS est-elle reconnue par toutes les entreprises au Maroc ?
+
+Non. Elle est très valorisée dans les multinationales, les grandes entreprises marocaines à vocation internationale et les cabinets de conseil ; elle reste peu connue dans les PME locales et le secteur informel — un critère à vérifier selon le type d'employeur visé avant d'investir.
+
 ## Nextinotech — Préparation APICS
 
 Nextinotech propose un accompagnement de préparation APICS : sessions de révision en groupe, exercices pratiques, et simulation d'examens.

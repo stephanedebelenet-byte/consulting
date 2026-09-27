@@ -198,6 +198,20 @@ Le Maroc a signé des accords de libre-échange (ALE) qui permettent d'importer 
 
 ---
 
+## Questions fréquentes
+
+#### Quelle est l'erreur la plus fréquente des importateurs marocains sur les Incoterms ?
+
+Accepter systématiquement le CIF sans vérifier le niveau d'assurance ni comparer avec un FCA, où l'acheteur choisit son propre assureur et son transitaire — sur des volumes importants, ce choix peut représenter 2 à 5 % de différence de coût.
+
+#### Qu'est-ce que l'admission temporaire en douane marocaine ?
+
+Un régime qui permet l'import temporaire de marchandises pour transformation puis réexport, sans paiement des droits et taxes — utilisé par l'industrie exportatrice, à distinguer de la mise à la consommation (import définitif avec paiement des droits) ou de l'entrepôt sous douane (stockage en suspension de droits).
+
+#### Combien de temps dure la formation Transport et Douanes ?
+
+3 jours, en 5 modules : Incoterms 2020 (6h), douanes marocaines (6h), documents de transport (4h), accords de libre-échange (2h) et cas pratiques (6h) — en présentiel à Casablanca ou en intra-entreprise.
+
 ## Former vos Équipes avec Nextinotech
 
 Nextinotech forme les équipes achats, logistique et commerce international au Maroc sur les compétences transport et douanes. Nos formateurs ont une expérience terrain des procédures ADII et des négociations d'Incoterms avec des fournisseurs asiatiques, européens et africains.
