@@ -74,6 +74,7 @@ function AnimatedRoutes() {
         <Route path="/en" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
+        <Route path="/en/services" element={<PageTransition><PrestationsPage /></PageTransition>} />
         <Route path="/control-tower" element={<PageTransition><ControlTowerPage /></PageTransition>} />
         <Route path="/en/control-tower" element={<PageTransition><ControlTowerPage /></PageTransition>} />
         <Route path="/services" element={<ServicesRedirect />} />

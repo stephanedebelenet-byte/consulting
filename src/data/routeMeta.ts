@@ -172,6 +172,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-09-22',
     isOffer: true,
+    altPath: '/en/services',
   },
   {
     path: '/control-tower',
@@ -643,6 +644,40 @@ const EN_ROUTES: PrerenderRoute[] = [
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
           { '@type': 'ListItem', position: 2, name: 'Control Tower', item: `${SITE_URL}/en/control-tower` },
+        ],
+      },
+    ],
+  },
+  {
+    path: '/en/services',
+    title: 'Operational Logistics Services in Morocco' + SUFFIX,
+    description:
+      'Inventory counting, value-added logistics (co-packing, labeling, kitting, palletizing) and Control Tower integration — run by our own teams in Morocco.',
+    priority: 0.85,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/prestations',
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/en/services#webpage`,
+        url: `${SITE_URL}/en/services`,
+        name: 'Operational Logistics Services in Morocco',
+        description:
+          'Inventory counting, value-added logistics (co-packing, labeling, kitting, palletizing) and Control Tower integration — run by our own teams in Morocco.',
+        inLanguage: 'en',
+        isPartOf: { '@id': `${SITE_URL}/#website` },
+        about: ORG_REF,
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/en/services#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
+          { '@type': 'ListItem', position: 2, name: 'Services', item: `${SITE_URL}/en/services` },
         ],
       },
     ],
