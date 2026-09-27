@@ -2,7 +2,8 @@ import { useRef, useState } from 'react'
 import { IS_SERVER } from '../utils/ssr'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
-import { servicesFAQ } from '../data/conseilFaq'
+import { servicesFAQ, servicesFAQ_EN } from '../data/conseilFaq'
+import { useLocale } from '../i18n/locale'
 
 const faqEase = [0.16, 1, 0.3, 1] as const
 
@@ -98,6 +99,98 @@ const services = [
   },
 ]
 
+const services_en = [
+  {
+    num: '01',
+    title: 'Express Diagnosis',
+    tagline: 'An outside view in 2 to 6 weeks.',
+    desc: "Mapping the current state, identifying real root causes, measuring the gap between potential and reality on the ground. Summary report + costed levers + executive debrief session.",
+    tiers: [
+      { name: 'Flash Diagnosis', price: '35,000 – 55,000 MAD excl. VAT', duration: '2 weeks' },
+      { name: 'Strategic Diagnosis', price: '80,000 – 130,000 MAD excl. VAT', duration: '4 to 6 weeks', featured: true },
+      { name: 'Multi-site Diagnosis', price: 'On quote', duration: '6 to 12 weeks' },
+    ],
+  },
+  {
+    num: '02',
+    title: 'Inventory Optimization',
+    tagline: 'Free up cash. Eliminate stockouts.',
+    desc: "ABC/XYZ analysis, dormant stock identified, ERP parameterization, structured inventory policy. From a quick audit to certified DDMRP deployment on complex cases.",
+    tiers: [
+      { name: 'Stock Quick Win', price: '45,000 – 75,000 MAD excl. VAT', duration: '4 to 6 weeks' },
+      { name: 'Inventory Policy Overhaul', price: '100,000 – 180,000 MAD excl. VAT', duration: '3 to 4 months', featured: true },
+      { name: 'DDMRP / IBP', price: 'On quote', duration: '5 to 9 months' },
+    ],
+  },
+  {
+    num: '03',
+    title: 'Procurement Performance',
+    tagline: '3 to 11% savings delivered. Costed, not promised.',
+    desc: "Spend analysis, Kraljic matrix, framework contracts, supplier panel, procurement KPIs. Reference: 710M MAD of spend managed, 11% savings delivered — Addoha Group.",
+    tiers: [
+      { name: 'Procurement Quick Wins', price: '50,000 – 80,000 MAD excl. VAT', duration: '4 to 6 weeks' },
+      { name: 'Procurement Structuring', price: '120,000 – 200,000 MAD excl. VAT', duration: '3 to 5 months', featured: true },
+      { name: 'Mid-cap Procurement Performance', price: 'On quote', duration: '6 to 12 months' },
+    ],
+  },
+  {
+    num: '04',
+    title: 'Logistics Network Design',
+    tagline: 'Reference: Renault-Nissan Tangier greenfield.',
+    desc: "Mapping physical and information flows, network modeling, make/buy simulations, costed business case, transition management. From a simple audit to a full greenfield project.",
+    tiers: [
+      { name: 'Logistics Audit', price: '60,000 – 90,000 MAD excl. VAT', duration: '4 to 6 weeks' },
+      { name: 'Network Redesign', price: '150,000 – 250,000 MAD excl. VAT', duration: '3 to 5 months', featured: true },
+      { name: 'Greenfield / Expansion', price: 'On quote', duration: '6 to 12 months' },
+    ],
+  },
+  {
+    num: '05',
+    title: 'Specifications',
+    tagline: 'Formalize the need, before approaching the market.',
+    desc: "Writing technical specifications for any Supply Chain & Logistics tender: systems (WMS, TMS, APS, Control Tower, AI integration into logistics/transport/supply chain steering), outsourcing (open-book or closed-book warehousing, transport), special operations (co-packing, bundling, RFID inventory management, video surveillance) and equipment (conventional or accumulation racking, thermal and electric handling equipment — sizing included). A formalized, costed document, ready to circulate to vendors. Complements the IT Feasibility Study below for those who also want vendor scoring and selection.",
+    tiers: [
+      { name: 'Simple Specification', price: '25,000 – 40,000 MAD excl. VAT', duration: '2 to 3 weeks' },
+      { name: 'Multi-lot Specification', price: '45,000 – 80,000 MAD excl. VAT', duration: '4 to 6 weeks', featured: true },
+      { name: 'Multi-site Specification', price: 'On quote', duration: '6 to 10 weeks' },
+    ],
+    moreLink: { label: 'See the full Control Tower offer (WMS, TMS, IMS, AMS, IoT, AI) →', href: '/control-tower' },
+  },
+  {
+    num: '06',
+    title: 'IT Feasibility Study',
+    tagline: 'Before buying software, understand what you actually need.',
+    desc: "Needs expression, current IT system mapping, formalized RFP, vendor scoring, 5-year ROI business case. Our only allegiance is to your business case.",
+    tiers: [
+      { name: 'IT Scoping', price: '40,000 – 65,000 MAD excl. VAT', duration: '3 to 5 weeks' },
+      { name: 'Feasibility Study', price: '90,000 – 160,000 MAD excl. VAT', duration: '5 to 8 weeks', featured: true },
+      { name: 'IT Due Diligence', price: 'On quote', duration: '8 to 16 weeks' },
+    ],
+  },
+  {
+    num: '07',
+    title: 'Project Management Assistance & Steering',
+    tagline: 'We represent your interests against the integrator.',
+    desc: "Integrator oversight on your behalf, amendment management, steering committee, team change management, post go-live stabilization. From light support to multi-project program management.",
+    tiers: [
+      { name: 'Light PMA', price: '70,000 – 120,000 MAD excl. VAT', duration: '2 to 4 months' },
+      { name: 'Full PMA', price: '180,000 – 350,000 MAD excl. VAT', duration: '3 to 8 months', featured: true },
+      { name: 'Multi-project PMA', price: 'On quote', duration: '6 to 18 months' },
+    ],
+  },
+  {
+    num: '08',
+    title: 'AI & Supply Chain Automation',
+    tagline: 'Use cases with measured ROI — no hype, no vendor lock-in.',
+    desc: "Identifying fast-payback AI and automation use cases across your Supply Chain, Logistics and Procurement processes: augmented forecasting, document automation (supplier invoices, customs documents), planning and S&OP copilots, knowledge assistants (procedures, SOPs), order-tracking chatbots. Scoping and prioritizing use cases, data readiness preparation, a governance charter compliant with law 09-08 / CNDP, then a measured POC with a costed go/no-go decision before industrialization.",
+    tiers: [
+      { name: 'AI Use-Case Scoping', price: '35,000 – 55,000 MAD excl. VAT', duration: '3 to 4 weeks' },
+      { name: 'Targeted Automation POC', price: '90,000 – 160,000 MAD excl. VAT', duration: '2 to 4 months', featured: true },
+      { name: 'Deployment & Industrialization', price: 'On quote', duration: '4 to 9 months' },
+    ],
+  },
+]
+
 interface SingleOffer {
   tag: string
   name: string
@@ -177,7 +270,75 @@ const OEA: { eyebrow: string; title: string; desc: string; offer: SingleOffer; c
   learnMore: { label: 'Voir le détail des 3 phases →', href: '/accompagnement-oea' },
 }
 
+const COACHING_EN: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string } = {
+  eyebrow: 'Individual support',
+  title: 'Premium Executive & Director Coaching',
+  desc: "Distinct from training (collective skill, transferred to a team) and from a part-time SC director mandate (operational involvement): individual support for the executive themself — strategic step-back, decision support on complex issues, structuring the Supply Chain or Procurement vision at company scale.",
+  offer: {
+    tag: '1 executive · Procurement, Logistics, Supply Chain & support functions',
+    name: 'Individual Coaching',
+    specs: [
+      { label: 'Price', value: 'On quote' },
+      { label: 'Duration', value: '6 to 12 months' },
+      { label: 'Cadence', value: 'Bi-monthly or monthly' },
+    ],
+    includes: [
+      'Individual sessions with a senior DDMRP-certified consultant',
+      'Strategic step-back on your Supply Chain / Procurement issues',
+      'Decision support on complex topics',
+      'Structuring the vision at company scale',
+    ],
+  },
+  ctaLabel: 'Request a first conversation',
+}
+
+const DOUANE_EN: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string } = {
+  eyebrow: 'Customs compliance',
+  title: 'Suspensive Customs Regime Support',
+  desc: "The stock seen by customs isn't always the stock seen by logistics. For companies under Temporary Admission, Free Industrial Warehouse or a similar suspensive regime — notably in automotive and aerospace — this gap becomes a reassessment risk if not addressed upstream. A specific blind spot, directly tied to our DDMRP and inventory management expertise.",
+  offer: {
+    tag: 'Temporary Admission · Free Industrial Warehouse',
+    name: 'TA Audit & Regularization',
+    specs: [
+      { label: 'Price', value: 'On quote' },
+      { label: 'Duration', value: 'Defined by scope' },
+    ],
+    includes: [
+      'Audit and reconciliation of theoretical (customs) vs actual stock',
+      'Identifying and addressing gaps before reassessment',
+      'Support regularizing TA accounts (clearance)',
+      'Preventive diagnosis before a customs inspection',
+      'Setting up ongoing monitoring to prevent recurring gaps',
+    ],
+  },
+  ctaLabel: 'Discuss your situation',
+}
+
+const OEA_EN: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string; learnMore: LearnMore } = {
+  eyebrow: 'Customs compliance',
+  title: 'AEO Status Support',
+  desc: "Obtaining the Authorized Economic Operator (AEO) accreditation notification issued by the ADII — Customs Simplifications category A or B — isn't a declarative formality: it's a results-based mandate in 3 phases, from an eligibility diagnosis through to on-site audit-day coaching. Same angle as our Suspensive Customs Regime support: reconciling theoretical vs actual stock, at the heart of the ADII framework.",
+  offer: {
+    tag: 'All categories A / B · All eligible sectors',
+    name: 'AEO Status Support',
+    specs: [
+      { label: 'Price', value: 'On quote' },
+      { label: 'Duration', value: '8 to 15 months depending on gaps' },
+    ],
+    includes: [
+      'Eligibility diagnosis and gap analysis against the ADII framework',
+      'Documentary compliance and team awareness',
+      'Building the complete application file',
+      'Mock audit and coaching during the ADII audit',
+      'Assistance through to signing the AEO agreement',
+    ],
+  },
+  ctaLabel: 'Discuss your AEO project',
+  learnMore: { label: 'See the 3 phases in detail →', href: '/accompagnement-oea' },
+}
+
 function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }: { eyebrow: string; title: string; desc: string; offer: SingleOffer; ctaLabel: string; learnMore?: LearnMore }) {
+  const { tr, href } = useLocale()
   return (
     <div style={{ marginTop: '6rem' }}>
       <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
@@ -235,7 +396,7 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.45)', marginBottom: '0.35rem' }}>
                 {spec.label}
               </div>
-              <div style={{ fontSize: '1rem', fontWeight: spec.label === 'Prix' ? 700 : 500, color: 'var(--ink)' }}>
+              <div style={{ fontSize: '1rem', fontWeight: (spec.label === 'Prix' || spec.label === 'Price') ? 700 : 500, color: 'var(--ink)' }}>
                 {spec.value}
               </div>
             </div>
@@ -243,7 +404,7 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }
         </div>
 
         <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '0.75rem' }}>
-          Inclus
+          {tr('Inclus', 'Included')}
         </div>
         <ul style={{ listStyle: 'none', padding: 0, marginBottom: '2rem' }}>
           {offer.includes.map((item) => (
@@ -268,7 +429,7 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }
         </ul>
 
         <a
-          href="/contact"
+          href={href('/contact')}
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -290,7 +451,7 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }
 
         {learnMore && (
           <a
-            href={learnMore.href}
+            href={href(learnMore.href)}
             style={{
               display: 'block',
               marginTop: '1.25rem',
@@ -312,6 +473,7 @@ function SingleOfferSection({ eyebrow, title, desc, offer, ctaLabel, learnMore }
 
 function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   const [open, setOpen] = useState(IS_SERVER)
+  const { tr, href } = useLocale()
 
   return (
     <div style={{ borderBottom: '1px solid var(--border)' }}>
@@ -411,7 +573,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
 
               {'moreLink' in s && s.moreLink && (
                 <a
-                  href={s.moreLink.href}
+                  href={href(s.moreLink.href)}
                   style={{
                     display: 'inline-block',
                     marginBottom: '2.5rem',
@@ -489,7 +651,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                     </div>
 
                     <a
-                      href="/contact"
+                      href={href('/contact')}
                       style={{
                         display: 'inline-flex',
                         alignItems: 'center',
@@ -506,7 +668,7 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
                       onMouseEnter={e => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
                       onMouseLeave={e => ((e.currentTarget as HTMLElement).style.opacity = '1')}
                     >
-                      Réserver un échange →
+                      {tr('Réserver un échange →', 'Book a conversation →')}
                     </a>
                   </div>
                 ))}
@@ -519,17 +681,19 @@ function ServiceRow({ s, index }: { s: typeof services[0]; index: number }) {
   )
 }
 
-const servicesSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: servicesFAQ.map(faq => ({
-    '@type': 'Question',
-    name: faq.q,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.a,
-    },
-  })),
+function buildServicesSchema(faq: typeof servicesFAQ) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(f => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.a,
+      },
+    })),
+  }
 }
 
 function FAQItem({ item }: { item: { q: string; a: string } }) {
@@ -591,12 +755,18 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
 }
 
 export default function Conseil() {
+  const { locale, tr, href } = useLocale()
+  const displayServices = locale === 'en' ? services_en : services
+  const faq = locale === 'en' ? servicesFAQ_EN : servicesFAQ
+  const coaching = locale === 'en' ? COACHING_EN : COACHING
+  const douane = locale === 'en' ? DOUANE_EN : DOUANE
+  const oea = locale === 'en' ? OEA_EN : OEA
   return (
     <>
-      <SchemaScript schema={servicesSchema} />
+      <SchemaScript schema={buildServicesSchema(faq)} />
       <section id="conseil" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
         <div className="section-inner">
-        <div style={{
+        <div className="conseil-header-grid" style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
           gap: '4rem',
@@ -612,7 +782,7 @@ export default function Conseil() {
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
-              04 / Conseil & AMOA
+              {tr('04 / Conseil & AMOA', '04 / Consulting & PMA')}
             </div>
             <h2
               style={{
@@ -625,7 +795,7 @@ export default function Conseil() {
                 color: 'var(--ink)',
               }}
             >
-              Nos offres Conseil.
+              {tr('Nos offres Conseil.', 'Our Consulting offers.')}
             </h2>
           </div>
           <p style={{
@@ -635,43 +805,45 @@ export default function Conseil() {
             fontWeight: 300,
             maxWidth: 440,
           }}>
-            Chaque mission est cadrée en livrables fermes, délai engagé et résultat cible chiffré.
-            Pas de régie sans fin. Pas de jargon qui rassure plus le consultant que le client.
+            {tr(
+              'Chaque mission est cadrée en livrables fermes, délai engagé et résultat cible chiffré. Pas de régie sans fin. Pas de jargon qui rassure plus le consultant que le client.',
+              'Every engagement is scoped with firm deliverables, a committed timeline and a costed target outcome. No open-ended staffing. No jargon that reassures the consultant more than the client.'
+            )}
           </p>
         </div>
 
         <div>
           <div style={{ borderTop: '1px solid var(--border)' }} />
-          {services.map((s, i) => (
+          {displayServices.map((s, i) => (
             <ServiceRow key={s.num} s={s} index={i} />
           ))}
         </div>
 
-        <SingleOfferSection eyebrow={COACHING.eyebrow} title={COACHING.title} desc={COACHING.desc} offer={COACHING.offer} ctaLabel={COACHING.ctaLabel} />
+        <SingleOfferSection eyebrow={coaching.eyebrow} title={coaching.title} desc={coaching.desc} offer={coaching.offer} ctaLabel={coaching.ctaLabel} />
 
-        <SingleOfferSection eyebrow={DOUANE.eyebrow} title={DOUANE.title} desc={DOUANE.desc} offer={DOUANE.offer} ctaLabel={DOUANE.ctaLabel} />
+        <SingleOfferSection eyebrow={douane.eyebrow} title={douane.title} desc={douane.desc} offer={douane.offer} ctaLabel={douane.ctaLabel} />
 
-        <SingleOfferSection eyebrow={OEA.eyebrow} title={OEA.title} desc={OEA.desc} offer={OEA.offer} ctaLabel={OEA.ctaLabel} learnMore={OEA.learnMore} />
+        <SingleOfferSection eyebrow={oea.eyebrow} title={oea.title} desc={oea.desc} offer={oea.offer} ctaLabel={oea.ctaLabel} learnMore={oea.learnMore} />
 
         <div style={{ marginTop: '6rem' }}>
           <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(47,111,181,0.55)', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
-              Questions fréquentes
+              {tr('Questions fréquentes', 'Frequently Asked Questions')}
             </div>
             <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)', fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.02em', color: 'var(--ink)', margin: 0 }}>
-              Vos questions, nos réponses.
+              {tr('Vos questions, nos réponses.', 'Your questions, our answers.')}
             </h3>
           </div>
           <div style={{ maxWidth: 900 }}>
-            {servicesFAQ.map((item, i) => (
+            {faq.map((item, i) => (
               <FAQItem key={i} item={item} />
             ))}
           </div>
         </div>
 
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
-          <a href="/contact" className="btn-primary">Réserver un échange gratuit →</a>
-          <a href="/a-propos" className="btn-outline">Notre approche</a>
+          <a href={href('/contact')} className="btn-primary">{tr('Réserver un échange gratuit →', 'Book a free conversation →')}</a>
+          <a href={href('/a-propos')} className="btn-outline">{tr('Notre approche', 'Our approach')}</a>
         </div>
         </div>
       </section>

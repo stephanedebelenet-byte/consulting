@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { IS_SERVER } from '../utils/ssr'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useLocale } from '../i18n/locale'
 
 const systems = [
   {
@@ -70,8 +71,76 @@ const systems = [
   },
 ]
 
+const systems_en = [
+  {
+    num: '01',
+    name: 'WMS',
+    fullName: 'Warehouse Management',
+    tagline: 'Real-time steering of physical flows and inventory.',
+    tiers: [
+      { name: 'WMS Mini', price: '80,000 – 130,000 MAD excl. VAT', duration: '6 to 10 weeks', desc: '1 warehouse · 5 users · turnkey SaaS' },
+      { name: 'WMS Pilote', price: '180,000 – 320,000 MAD excl. VAT', duration: '3 to 5 months', desc: '1-2 warehouses · PMA + RFP + change management', featured: true },
+      { name: 'WMS Pro', price: 'From 450,000 MAD excl. VAT', duration: '6 to 10 months', desc: 'Multi-site mid-cap · audit + RFP + PMA + ERP integration' },
+    ],
+    results: ['Inventory discrepancies cut 80–95%', 'Picking productivity +25–40%', 'Shipping errors −70–90%'],
+    demoLink: '/demo/wms',
+  },
+  {
+    num: '02',
+    name: 'TMS',
+    fullName: 'Transport Management',
+    tagline: 'Optimized transport flows and reduced costs.',
+    tiers: [
+      { name: 'TMS Mini', price: '70,000 – 120,000 MAD excl. VAT', duration: '6 to 10 weeks', desc: 'Under 10 vehicles · light SaaS + setup' },
+      { name: 'TMS Pilote', price: '160,000 – 280,000 MAD excl. VAT', duration: '3 to 5 months', desc: 'Mixed fleet · multi-client · full PMA', featured: true },
+      { name: 'TMS Pro', price: 'From 400,000 MAD excl. VAT', duration: '5 to 9 months', desc: 'Mid-cap · large fleet · multi-mode + integrations' },
+    ],
+    results: ['Transport costs cut 8–15%', 'Dispatch productivity +30–50%', 'Transport invoicing ÷3 to 5'],
+    demoLink: '/demo/tms',
+  },
+  {
+    num: '03',
+    name: 'APS / S&OP',
+    fullName: 'Demand Planning & S&OP',
+    tagline: 'Reliable forecasts. Controlled inventory. Operational S&OP.',
+    tiers: [
+      { name: 'Planning Mini', price: '60,000 – 100,000 MAD excl. VAT', duration: '6 to 8 weeks', desc: 'Single-product SME · under 500 SKUs' },
+      { name: 'Planning Pilote', price: '150,000 – 260,000 MAD excl. VAT', duration: '3 to 5 months', desc: 'Multi-channel SME · 500–3,000 SKUs · full S&OP', featured: true },
+      { name: 'Planning Pro (DDMRP)', price: 'From 380,000 MAD excl. VAT', duration: '6 to 9 months', desc: 'Multi-site mid-cap · IBP + PMA + S&OP steering committee' },
+    ],
+    results: ['Stockouts cut 40–60%', 'Overstocks cut 20–30%', 'Working capital freed 15–30% of stock'],
+    demoLink: '/demo/aps',
+  },
+  {
+    num: '04',
+    name: 'e-Procurement',
+    fullName: 'Source-to-Pay',
+    tagline: '100% spend visibility. Procurement cycle ÷2 to 4.',
+    tiers: [
+      { name: 'Procurement Mini', price: '55,000 – 95,000 MAD excl. VAT', duration: '6 to 8 weeks', desc: 'Small business · under 50 active suppliers' },
+      { name: 'Procurement Pilote', price: '140,000 – 240,000 MAD excl. VAT', duration: '3 to 5 months', desc: 'SME · e-RFx + contract management + reporting', featured: true },
+      { name: 'Procurement Pro (S2P)', price: 'From 350,000 MAD excl. VAT', duration: '5 to 9 months', desc: 'Mid-cap · multi-entity · full S2P + ERP' },
+    ],
+    results: ['100% spend visibility', 'Procurement cycle ÷2 to 4', '3–8% savings on managed spend'],
+  },
+  {
+    num: '05',
+    name: 'Control Tower',
+    fullName: 'Supply Chain BI',
+    tagline: 'Data-driven exec decisions. No more manual reporting.',
+    tiers: [
+      { name: 'Control Tower Mini', price: 'From 135,000 MAD excl. VAT', duration: '4 to 6 weeks', desc: '3–5 key Power BI dashboards · OTIF, inventory, cash' },
+      { name: 'Control Tower Pilote', price: 'From 330,000 MAD excl. VAT', duration: '2 to 3 months', desc: '8–12 dashboards + alerts + steering committee cadence', featured: true },
+      { name: 'Control Tower Pro', price: 'From 840,000 MAD excl. VAT', duration: '4 to 6 months', desc: 'Mid-cap · multi-site · AI/ML · executive mobile portal' },
+    ],
+    results: ['Anomaly detection ÷5 to 10', '2–5% SC margin savings', 'Zero manual reporting'],
+    moreLink: '/control-tower',
+  },
+]
+
 function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
   const [open, setOpen] = useState(IS_SERVER)
+  const { tr, href } = useLocale()
 
   return (
     <div style={{ borderBottom: '1px solid rgba(27,53,84,0.1)' }}>
@@ -277,12 +346,12 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                       flexShrink: 0,
                     }}
                   >
-                    Voir une démo →
+                    {tr('Voir une démo →', 'See a demo →')}
                   </Link>
                 )}
                 {'moreLink' in s && s.moreLink && (
                   <Link
-                    to={s.moreLink}
+                    to={href(s.moreLink)}
                     style={{
                       fontFamily: 'DM Mono, monospace',
                       fontSize: '0.68rem',
@@ -296,7 +365,7 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
                       flexShrink: 0,
                     }}
                   >
-                    Voir l'offre complète →
+                    {tr("Voir l'offre complète →", 'See the full offer →')}
                   </Link>
                 )}
               </div>
@@ -309,6 +378,8 @@ function SystemRow({ s, index }: { s: typeof systems[0]; index: number }) {
 }
 
 export default function Systemes() {
+  const { locale, tr, href } = useLocale()
+  const displaySystems = locale === 'en' ? systems_en : systems
   return (
     <section id="systemes" style={{ background: 'var(--dark)', padding: 'var(--sp)' }}>
       <div className="section-inner">
@@ -328,7 +399,7 @@ export default function Systemes() {
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
-              05 / Systèmes & Digital
+              {tr('05 / Systèmes & Digital', '05 / Systems & Digital')}
             </div>
             <h2 style={{
               fontFamily: 'Manrope, sans-serif',
@@ -339,7 +410,7 @@ export default function Systemes() {
               color: 'var(--navy)',
               margin: 0,
             }}>
-              Déploiement de solutions SCM.
+              {tr('Déploiement de solutions SCM.', 'SCM solution deployment.')}
             </h2>
           </div>
           <p style={{
@@ -349,20 +420,22 @@ export default function Systemes() {
             fontWeight: 300,
             maxWidth: 440,
           }}>
-            Sélection indépendante et déploiement AMOA de solutions WMS, TMS et APS — adaptées à votre taille
-            et secteur.
+            {tr(
+              'Sélection indépendante et déploiement AMOA de solutions WMS, TMS et APS — adaptées à votre taille et secteur.',
+              'Independent selection and project management assistance for deploying WMS, TMS and APS solutions — matched to your size and industry.'
+            )}
           </p>
         </div>
 
         <div>
           <div style={{ borderTop: '1px solid rgba(27,53,84,0.1)' }} />
-          {systems.map((s, i) => (
+          {displaySystems.map((s, i) => (
             <SystemRow key={s.num} s={s} index={i} />
           ))}
         </div>
 
         <div style={{ marginTop: '4rem' }}>
-          <a href="/contact" className="btn-primary">Discuter de votre projet →</a>
+          <a href={href('/contact')} className="btn-primary">{tr('Discuter de votre projet →', 'Discuss your project →')}</a>
         </div>
       </div>
     </section>

@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
+import { useLocale } from '../i18n/locale'
 
 export default function DimensionnementCTA() {
+  const { tr, href } = useLocale()
   return (
     <section style={{ background: 'var(--dark-2)', padding: '4rem 4rem' }}>
       <div className="section-inner">
@@ -30,22 +32,25 @@ export default function DimensionnementCTA() {
               letterSpacing: '0.16em', textTransform: 'uppercase',
               color: 'rgba(47,111,181,0.75)', marginBottom: '1rem',
             }}>
-              Outil gratuit
+              {tr('Outil gratuit', 'Free tool')}
             </div>
             <div style={{
               fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.5rem, 2.6vw, 2.1rem)',
               fontWeight: 800, lineHeight: 1.15, letterSpacing: '-0.02em',
               color: 'var(--ink)', marginBottom: '0.75rem',
             }}>
-              Combien de m² pour votre entrepôt&nbsp;?
+              {tr(<>Combien de m² pour votre entrepôt&nbsp;?</>, <>How many m² does your warehouse need&nbsp;?</>)}
             </div>
             <p style={{ fontSize: '0.92rem', color: 'var(--mid)', lineHeight: 1.7, margin: 0 }}>
-              Simulateur de dimensionnement en 2 minutes : surface, baies de rayonnage, quais recommandés — une estimation directionnelle avant d'aller plus loin.
+              {tr(
+                "Simulateur de dimensionnement en 2 minutes : surface, baies de rayonnage, quais recommandés — une estimation directionnelle avant d'aller plus loin.",
+                'A 2-minute sizing simulator: floor area, racking bays, recommended docks — a directional estimate before you go further.'
+              )}
             </p>
           </div>
 
-          <a href="/outils/dimensionnement-entrepot" className="btn-primary" style={{ whiteSpace: 'nowrap', flexShrink: 0 }}>
-            Estimer gratuitement →
+          <a href={href('/outils/dimensionnement-entrepot')} className="btn-primary" style={{ whiteSpace: 'nowrap', flexShrink: 0 }}>
+            {tr('Estimer gratuitement →', 'Get a free estimate →')}
           </a>
         </motion.div>
       </div>

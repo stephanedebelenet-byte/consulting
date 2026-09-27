@@ -163,6 +163,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-08-31',
     isOffer: true,
+    altPath: '/en/consulting',
   },
   {
     path: '/prestations',
@@ -705,6 +706,40 @@ const EN_ROUTES: PrerenderRoute[] = [
       clientLocation: "Client company's premises",
       breadcrumb: { home: 'Home', academie: 'Nextinotech Academy' },
     })],
+  },
+  {
+    path: '/en/consulting',
+    title: 'Nextinotech Consulting — Supply Chain, Stocks, Procurement',
+    description:
+      "Supply Chain consulting for Moroccan SMEs & mid-caps: diagnosis, inventory & DDMRP, procurement, network design, specifications, AI, PMA.",
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/conseil',
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/en/consulting#webpage`,
+        url: `${SITE_URL}/en/consulting`,
+        name: 'Nextinotech Consulting — Supply Chain, Stocks, Procurement',
+        description:
+          "Supply Chain consulting for Moroccan SMEs & mid-caps: diagnosis, inventory & DDMRP, procurement, network design, specifications, AI, PMA.",
+        inLanguage: 'en',
+        isPartOf: { '@id': `${SITE_URL}/#website` },
+        about: ORG_REF,
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/en/consulting#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
+          { '@type': 'ListItem', position: 2, name: 'Consulting', item: `${SITE_URL}/en/consulting` },
+        ],
+      },
+    ],
   },
   {
     path: '/en',

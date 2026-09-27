@@ -44,7 +44,7 @@ Fiche détaillée par programme (objectifs, public, modules, tarif, financement,
 ## Nextinotech Conseil
 
 ### Conseil & AMOA
-Détail : https://nextinotech.com/conseil
+Détail : https://nextinotech.com/conseil. English version: https://nextinotech.com/en/consulting.
 
 - Diagnostic Express Supply Chain (2 à 6 semaines)
 - Optimisation Stocks & DDMRP

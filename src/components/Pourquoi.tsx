@@ -2,6 +2,7 @@ import { useRef, useEffect } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useLocale } from '../i18n/locale'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -20,6 +21,24 @@ const pilliers = [
     num: '03',
     title: 'La technologie adaptée, jamais surdimensionnée.',
     desc: "Choisir et déployer la techno qui colle au réel, pas l'inverse. Pour une PME marocaine, Tier 1 ou Tier 2 dans 95% des cas. Jamais SAP quand Odoo suffit.",
+  },
+]
+
+const pilliers_en = [
+  {
+    num: '01',
+    title: 'The business first.',
+    desc: "Understanding what your supply chain actually does before transforming it. No 48-hour diagnosis, no generic template applied in a rush.",
+  },
+  {
+    num: '02',
+    title: 'Process before tools.',
+    desc: "Deciding what needs to change BEFORE buying a tool. Too many companies have invested in software that amplified their dysfunctions.",
+  },
+  {
+    num: '03',
+    title: 'Technology that fits, never oversized.',
+    desc: "Choosing and deploying tech that matches reality, not the other way round. For a Moroccan SME, Tier 1 or Tier 2 in 95% of cases. Never SAP when Odoo is enough.",
   },
 ]
 
@@ -56,6 +75,39 @@ const steps = [
   },
 ]
 
+const steps_en = [
+  {
+    num: '01',
+    title: 'Assess',
+    sub: 'Diagnose with facts',
+    desc: "Mapping the current state, identifying real root causes, measuring the gap between potential and reality on the ground.",
+  },
+  {
+    num: '02',
+    title: 'Design',
+    sub: 'Design the target',
+    desc: "Defining the target process, organization and IS blueprint — before choosing tools. The target first, technology second.",
+  },
+  {
+    num: '03',
+    title: 'Digitize',
+    sub: 'Select the technology',
+    desc: "Drafting the specification, running the RFPs, recommending with full independence. Our only allegiance is to the business case.",
+  },
+  {
+    num: '04',
+    title: 'Transform',
+    sub: 'Bring teams on board',
+    desc: "Project management assistance, change management, integrator oversight, acceptance testing, controlled go-live. We represent your interests at every step.",
+  },
+  {
+    num: '05',
+    title: 'Optimize',
+    sub: 'Measure and sustain',
+    desc: "KPIs, S&OP reviews, continuous adjustments — because transformation doesn't stop at go-live. That's really where it begins.",
+  },
+]
+
 function FadeUp({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
@@ -74,6 +126,9 @@ function FadeUp({ children, delay = 0 }: { children: React.ReactNode; delay?: nu
 export default function Pourquoi() {
   const methodRef = useRef<HTMLDivElement>(null)
   const trackRef = useRef<HTMLDivElement>(null)
+  const { locale, tr, href } = useLocale()
+  const displayPilliers = locale === 'en' ? pilliers_en : pilliers
+  const displaySteps = locale === 'en' ? steps_en : steps
 
   useEffect(() => {
     // Le scroll-jack horizontal pinné est un pattern desktop — sous 640px il
@@ -118,7 +173,7 @@ export default function Pourquoi() {
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
-              01 / Notre approche
+              {tr('01 / Notre approche', '01 / Our approach')}
             </div>
             <h2
               style={{
@@ -131,7 +186,7 @@ export default function Pourquoi() {
                 maxWidth: 16,
               }}
             >
-              La place vide que nous avons décidé d&apos;occuper.
+              {tr("La place vide que nous avons décidé d'occuper.", 'The empty seat we decided to fill.')}
             </h2>
             <p
               style={{
@@ -143,14 +198,15 @@ export default function Pourquoi() {
                 fontWeight: 300,
               }}
             >
-              La majorité des projets Supply Chain dérapent. Pas par manque d&apos;outils — il
-              n&apos;en a jamais autant existé. Mais parce que personne, dans la chaîne, ne représente
-              vraiment le client.
+              {tr(
+                "La majorité des projets Supply Chain dérapent. Pas par manque d'outils — il n'en a jamais autant existé. Mais parce que personne, dans la chaîne, ne représente vraiment le client.",
+                "Most Supply Chain projects go off track. Not for lack of tools — there have never been more of them. But because no one in the chain truly represents the client."
+              )}
             </p>
           </FadeUp>
 
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            {pilliers.map((p, i) => (
+            {displayPilliers.map((p, i) => (
               <FadeUp key={p.num} delay={i * 0.1}>
                 <div
                   className="pilliers-grid"
@@ -225,7 +281,7 @@ export default function Pourquoi() {
               color: 'var(--blue-bright)',
             }}
           >
-            110 missions. Un seul parti pris&nbsp;: votre résultat.
+            {tr(<>110 missions. Un seul parti pris&nbsp;: votre résultat.</>, <>110 missions. One single conviction&nbsp;: your results.</>)}
           </motion.div>
         </div>
       </div>
@@ -252,7 +308,7 @@ export default function Pourquoi() {
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
-              02 / Notre méthode
+              {tr('02 / Notre méthode', '02 / Our method')}
             </div>
             <h2
               style={{
@@ -274,7 +330,7 @@ export default function Pourquoi() {
 
           <div className="method-track-wrap" style={{ overflow: 'visible', flexShrink: 0 }}>
             <div ref={trackRef} className="method-track" style={{ display: 'flex', gap: '1px', width: 'max-content' }}>
-              {steps.map((step, idx) => (
+              {displaySteps.map((step, idx) => (
                 <div
                   key={step.num}
                   style={{
@@ -294,7 +350,7 @@ export default function Pourquoi() {
                     textTransform: 'uppercase',
                     marginBottom: '3rem',
                   }}>
-                    Étape {step.num}
+                    {tr(`Étape ${step.num}`, `Step ${step.num}`)}
                   </div>
                   <h3
                     style={{
@@ -347,7 +403,7 @@ export default function Pourquoi() {
                   marginBottom: '1.5rem',
                   lineHeight: 1.1,
                 }}>
-                  Prêt à diagnostiquer votre supply chain&nbsp;?
+                  {tr(<>Prêt à diagnostiquer votre supply chain&nbsp;?</>, <>Ready to diagnose your supply chain&nbsp;?</>)}
                 </h3>
                 <p style={{
                   fontSize: '0.92rem',
@@ -356,10 +412,13 @@ export default function Pourquoi() {
                   lineHeight: 1.75,
                   fontWeight: 300,
                 }}>
-                  Un premier échange de 30 minutes, sans engagement, pour qualifier votre situation.
+                  {tr(
+                    'Un premier échange de 30 minutes, sans engagement, pour qualifier votre situation.',
+                    'A first 30-minute conversation, no commitment, to assess your situation.'
+                  )}
                 </p>
-                <a href="/contact" className="btn-primary-gold" style={{ width: 'fit-content' }}>
-                  Réserver un échange gratuit →
+                <a href={href('/contact')} className="btn-primary-gold" style={{ width: 'fit-content' }}>
+                  {tr('Réserver un échange gratuit →', 'Book a free conversation →')}
                 </a>
               </div>
             </div>

@@ -41,3 +41,43 @@ export const servicesFAQ = [
     a: "L'Opérateur Économique Agréé (OEA) est un statut délivré par l'ADII qui accorde des simplifications douanières (catégorie A ou B) aux entreprises jugées fiables et conformes. L'accompagnement se déroule en 3 phases — diagnostic et cadrage, mise en conformité documentaire, assistance à l'audit ADII — pour une durée totale de 8 à 15 mois selon les écarts constatés lors du diagnostic initial. L'objectif contractuel est la notification formelle d'agrément par l'ADII.",
   },
 ]
+
+// Anglais (27/09/2026) : mirroir de servicesFAQ, voir src/i18n/locale.tsx.
+export const servicesFAQ_EN = [
+  {
+    q: 'How much does a Supply Chain diagnosis cost?',
+    a: 'Between 35,000 and 130,000 MAD excl. VAT depending on complexity. Flash Diagnosis (35k–55k, 2 weeks) for a quick audit. Strategic Diagnosis (80k–130k, 4–6 weeks) for a full analysis. Deliverable: summary report + costed levers + executive debrief session.',
+  },
+  {
+    q: 'What is DDMRP and why implement it?',
+    a: 'Demand Driven Material Requirements Planning. A modern inventory management method based on actual demand rather than forecasts. Cuts stockouts by 40–60%, overstocks by 20–30%, frees up 15–30% of working capital. Certification is required for proper deployment.',
+  },
+  {
+    q: 'How long does it take to deploy a WMS?',
+    a: 'WMS Mini (SaaS): 6–10 weeks (80k–130k). WMS Pilote with project management assistance: 3–5 months (180k–320k). WMS Pro (mid-cap): 6–10 months (450k+). Duration depends on scope, number of sites and ERP integrations.',
+  },
+  {
+    q: 'Do you have client references?',
+    a: "Yes. 110+ completed missions. Major clients: Renault-Nissan, L'Oréal Morocco, Nestlé, P&G, DHL, Huawei, J&J, Addoha, OCP. Results: 3–11% cost reductions, −70–90% errors, +25–50% productivity.",
+  },
+  {
+    q: 'How long does a Systems (IT & AI) engagement take?',
+    a: "From 4 weeks to 10 months depending on the system and tier. Control Tower Mini: 4 to 6 weeks. APS/S&OP and e-Procurement: 6 to 8 weeks (Mini) up to 9 months (Pro). TMS: 6 to 10 weeks (Mini) up to 9 months (Pro). WMS: see the dedicated question above (6 weeks to 10 months). Duration depends on scope, number of sites and required ERP integrations.",
+  },
+  {
+    q: 'Do you write specifications for anything beyond IT systems (WMS/TMS/APS)?',
+    a: "Yes. Beyond systems (WMS, TMS, APS, Control Tower, AI integration into steering), we write specifications for outsourcing (open-book or closed-book warehousing, transport), special operations (co-packing, bundling, RFID inventory management, video surveillance) and equipment (conventional or accumulation racking, thermal and electric handling equipment with sizing). From 25,000 to 80,000 MAD excl. VAT depending on the number of lots covered, or on quote for a multi-site scope.",
+  },
+  {
+    q: 'Do you offer support after a WMS/TMS/APS deployment?',
+    a: "Yes, through our Project Management Assistance & Steering offer — we represent your interests with the integrator, handling amendments, steering committees, team change management and post go-live stabilization. From light support (2 to 4 months) to multi-project program management (on quote, 6 to 18 months).",
+  },
+  {
+    q: 'What sets your Suspensive Customs Regime support apart from a standard customs broker?',
+    a: "Our angle is reconciling the theoretical stock seen by customs against the real stock seen by logistics, directly tied to our DDMRP and inventory management expertise — not just the declarative formality a standard customs broker handles. Especially relevant in automotive and aerospace, where this gap quickly becomes a reassessment risk if not addressed upstream.",
+  },
+  {
+    q: 'What is AEO status and how long does it take to obtain?',
+    a: "Authorized Economic Operator (AEO) status is granted by the ADII and provides customs simplifications (category A or B) to companies deemed reliable and compliant. Support runs in 3 phases — diagnosis and scoping, documentary compliance, ADII audit assistance — for a total of 8 to 15 months depending on the gaps found during the initial diagnosis. The contractual goal is formal AEO accreditation notification from the ADII.",
+  },
+]
