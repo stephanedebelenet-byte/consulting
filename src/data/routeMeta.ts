@@ -15,7 +15,7 @@ import { VILLES, buildVilleSchema } from './villesFormation'
 import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
 import { generateFAQSchema } from '../utils/seoData'
 import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq'
-import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS } from './controlTower'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS, OFFER_TIERS_EN, CONTROL_TOWER_FAQ_EN, CONTROL_TOWER_VIDEO_EN, CONTROL_TOWER_SCREENS_EN } from './controlTower'
 
 export interface PrerenderRoute {
   path: string
@@ -182,6 +182,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-09-22',
     isOffer: true,
+    altPath: '/en/control-tower',
   },
   {
     path: '/references',
@@ -576,6 +577,75 @@ const EN_ROUTES: PrerenderRoute[] = [
       isPartOf: { '@id': `${SITE_URL}/#website` },
       mainEntity: ORG_REF,
     }],
+  },
+  {
+    path: '/en/control-tower',
+    title: 'Nextinotech Digital: Control Tower WMS, TMS, IoT, AI',
+    description:
+      'Run your supply chain in real time: WMS, TMS, IMS, AMS, IoT and AI in one control tower. Offer in 3 tiers, team training and advisory included.',
+    priority: 0.85,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/control-tower',
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        '@id': `${SITE_URL}/en/control-tower#service`,
+        name: 'Supply Chain Control Tower',
+        serviceType: 'Real-time supply chain steering (WMS, TMS, IMS, AMS, IoT, AI)',
+        description:
+          'Run your supply chain in real time: WMS, TMS, IMS, AMS, IoT and AI in one control tower. Offer in 3 tiers, team training and advisory included.',
+        url: `${SITE_URL}/en/control-tower`,
+        provider: DIGITAL_REF,
+        areaServed: { '@type': 'Country', name: 'Morocco' },
+        image: CONTROL_TOWER_SCREENS_EN.map((s) => ({
+          '@type': 'ImageObject',
+          contentUrl: SITE_URL + s.src,
+          name: s.title,
+          description: s.alt,
+          width: s.w,
+          height: s.h,
+        })),
+        subjectOf: { '@id': `${SITE_URL}/en/control-tower#video` },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Control Tower Tiers',
+          itemListElement: OFFER_TIERS_EN.map((t) => ({
+            '@type': 'Offer',
+            name: t.name,
+            description: `${t.desc} · ${t.duration}`,
+            priceSpecification: { '@type': 'PriceSpecification', minPrice: Number(t.price.replace(/\D/g, '')) || undefined, priceCurrency: 'MAD', valueAddedTaxIncluded: false },
+          })),
+        },
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        '@id': `${SITE_URL}/en/control-tower#video`,
+        name: CONTROL_TOWER_VIDEO_EN.name,
+        description: CONTROL_TOWER_VIDEO_EN.description,
+        thumbnailUrl: SITE_URL + CONTROL_TOWER_VIDEO_EN.poster,
+        contentUrl: SITE_URL + CONTROL_TOWER_VIDEO_EN.src,
+        uploadDate: CONTROL_TOWER_VIDEO_EN.uploadDate,
+        duration: CONTROL_TOWER_VIDEO_EN.duration,
+        width: CONTROL_TOWER_VIDEO_EN.width,
+        height: CONTROL_TOWER_VIDEO_EN.height,
+        inLanguage: 'en',
+        publisher: ORG_REF,
+      },
+      { ...generateFAQSchema(CONTROL_TOWER_FAQ_EN), '@id': `${SITE_URL}/en/control-tower#faq` },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/en/control-tower#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
+          { '@type': 'ListItem', position: 2, name: 'Control Tower', item: `${SITE_URL}/en/control-tower` },
+        ],
+      },
+    ],
   },
   {
     path: '/en',

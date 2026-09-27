@@ -19,7 +19,7 @@ Nextinotech est un cabinet de conseil spécialisé en Supply Chain et Logistique
 
 - **Nextinotech Académie** — https://nextinotech.com/formation — formations inter et intra-entreprise (Supply Chain, Lean, Management, Finance, Gestion de projet, Carrière, Douane & import-export), ingénierie de formation, catalogue par métier, financement CSF / GIAC.
 - **Nextinotech Conseil** — https://nextinotech.com/conseil — conseil et AMOA (diagnostic, stocks et DDMRP, achats, schéma logistique, cahiers des charges), direction supply chain à temps partagé, accompagnement statut OEA et régimes douaniers, prestations opérationnelles (inventaires, services à valeur ajoutée).
-- **Nextinotech Digital** — https://nextinotech.com/control-tower — Control Tower (WMS, TMS, IMS, AMS, IoT, IA), intégration de systèmes, simulateurs et démos gratuits.
+- **Nextinotech Digital** — https://nextinotech.com/control-tower — Control Tower (WMS, TMS, IMS, AMS, IoT, IA), intégration de systèmes, simulateurs et démos gratuits. English version: https://nextinotech.com/en/control-tower.
 
 ## Nextinotech Académie — Formation (catalogue complet)
 
