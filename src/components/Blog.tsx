@@ -6,6 +6,7 @@ import { BLOG_FILES } from '../data/blogFiles'
 import { getPrimedMarkdown } from '../data/markdownPreload'
 import SchemaScript from './SchemaHelper'
 import { getLenis } from '../hooks/useLenis'
+import { offerLinksFor } from '../data/offerLinks'
 
 // Au build, le markdown des articles est fourni d'avance (voir
 // src/data/markdownPreload.ts) : la page /blog prérendue contient alors la
@@ -591,6 +592,17 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
           // garde celui du markdown.
           dangerouslySetInnerHTML={{ __html: post.htmlContent.replace(/<h1 class="blog-h1">[\s\S]*?<\/h1>\s*/, '') }}
         />
+
+        {/* Maillage vers les offres du sujet : même bloc que la page prérendue
+            (vite.config.ts → offerLinksHtml), voir src/data/offerLinks.ts. */}
+        <aside className="blog-content blog-offers" aria-label="Pour aller plus loin" style={{ fontFamily: 'Jost, sans-serif', lineHeight: 1.8, fontSize: '1.0625rem', color: 'var(--navy)' }}>
+          <h2 className="blog-h2">Pour aller plus loin</h2>
+          <ul className="blog-ul">
+            {offerLinksFor(post).map((l) => (
+              <li key={l.to}><Link to={l.to}>{l.label}</Link> — {l.desc}</li>
+            ))}
+          </ul>
+        </aside>
       </motion.article>
     </motion.div>
   )
