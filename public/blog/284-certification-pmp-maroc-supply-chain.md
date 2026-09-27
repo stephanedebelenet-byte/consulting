@@ -30,6 +30,20 @@ Au-delà de l'argument salarial, la reconnaissance internationale de la certific
 
 Le coût de préparation n'est pas le seul poste à budgétiser : l'examen de certification lui-même, l'adhésion au PMI, et le temps d'étude personnel (généralement plusieurs dizaines d'heures en dehors du temps de formation) doivent être intégrés dans le calcul de retour sur investissement avant de s'engager.
 
+## Questions fréquentes
+
+#### Combien coûte la préparation à la certification PMP au Maroc ?
+
+Entre 5 000 et 25 000 MAD selon la ville, le format et le niveau d'accompagnement, certains centres proposant une préparation pour moins de 3 000 MAD — hors frais d'examen et d'adhésion au PMI.
+
+#### La certification PMP vaut-elle l'investissement pour un profil supply chain ?
+
+Surtout pour un profil qui pilote ou vise à piloter des projets transverses — déploiement ERP ou WMS, ouverture d'un nouvel entrepôt, restructuration d'un réseau logistique — moins pour un poste d'exécution opérationnelle pure.
+
+#### Quel est l'impact salarial de la certification PMP ?
+
+Selon la 9e édition de l'enquête sur les salaires du PMI, les professionnels certifiés bénéficient d'une marge salariale d'environ 20 % par rapport à leurs pairs non certifiés — un chiffre mondial, à nuancer selon le contexte marocain.
+
 ## Ce qu'il faut retenir
 
 La certification PMP vaut l'investissement principalement pour un profil supply chain qui pilote ou vise à piloter des projets transverses (transformation, déploiement ERP/WMS, ouverture de site) — moins pour un poste d'exécution opérationnelle pure. Notre article sur le [ROI d'une formation supply chain](/blog/roi-d-une-formation-supply-chain-au-maroc-comment-le) détaille la méthode de calcul à appliquer avant tout investissement en certification ; notre article sur la [certification APICS/CPIM au Maroc](/blog/certification-apics-cpim-au-maroc-valeur-preparation-et-cout) présente une certification alternative plus spécifique à la supply chain.

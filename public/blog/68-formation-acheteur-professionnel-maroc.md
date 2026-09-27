@@ -157,6 +157,20 @@ Dans notre programme **Responsable Logistique et Supply Chain**, le module achat
 
 ---
 
+## Questions fréquentes
+
+#### Combien un bon acheteur peut-il faire économiser à son entreprise ?
+
+3 à 8 fois son salaire en économies annuelles selon les missions Nextinotech, avec 8 à 15 % d'économies moyennes réalisables sur les achats directs grâce à une stratégie d'achat structurée.
+
+#### Quel salaire pour un acheteur au Maroc selon l'expérience ?
+
+De 5 000-8 000 MAD pour un assistant achats débutant à 35 000-80 000 MAD et plus pour un directeur achats avec 12 ans d'expérience et plus ; la certification CIPS ou la maîtrise d'un ERP achats ajoutent 10 à 20 % au package.
+
+#### Quelle est l'erreur la plus fréquente des acheteurs non formés ?
+
+Acheter sur le prix plutôt que sur le coût total : un fournisseur moins cher à l'unité peut revenir plus cher au global si ses délais allongent les stocks ou si sa qualité génère des rebuts — le calcul du TCO (coût total d'acquisition) reste la compétence la plus sous-utilisée.
+
 ## Conclusion
 
 La fonction achats au Maroc offre de très belles perspectives pour les professionnels qui investissent dans leur formation. La pénurie de profils vraiment compétents crée des opportunités réelles de différenciation et de progression rapide.

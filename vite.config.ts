@@ -8,6 +8,7 @@ import { EVENEMENTS } from './src/data/evenements'
 import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides'
 import { parseMarkdown } from './src/utils/markdownParser'
 import { offerLinksFor, offerLinksHtml } from './src/data/offerLinks'
+import { extractArticleFaq } from './src/utils/articleFaq'
 import { BLOG_FILES } from './src/data/blogFiles'
 
 // Registre des articles publiés (source unique, voir src/data/blogFiles.ts).
@@ -68,7 +69,8 @@ export function getBlogRoutes(): PrerenderRoute[] {
     // prérendue de l'article n'a aucun texte, seulement son <head> : c'est la
     // cause du blocage d'indexation Google identifié le 22/09/2026 (359+
     // pages en "Détectée, actuellement non indexée").
-    const { htmlContent } = parseMarkdown(raw)
+    const { htmlContent, rawContent } = parseMarkdown(raw)
+    const articleFaq = extractArticleFaq(rawContent)
     const slug = blogSlug(fm.title)
     const url = `${SITE}/blog/${slug}`
     const image = fm.image ? (fm.image.startsWith('http') ? fm.image : SITE + fm.image) : `${SITE}/logo-full.png`
@@ -117,7 +119,21 @@ export function getBlogRoutes(): PrerenderRoute[] {
                 acceptedAnswer: { '@type': 'Answer', text: fm.quickAnswer || fm.description || fm.title },
               }],
             }]
-          : []),
+          // Section « ## Questions fréquentes » dans le corps de l'article
+          // (pilote du 27/09/2026, voir src/utils/articleFaq.ts) : même
+          // extraction que Blog.tsx, donc jamais de divergence entre le
+          // JSON-LD prérendu et celui injecté au montage React.
+          : articleFaq.length
+            ? [{
+                '@type': 'FAQPage',
+                '@id': `${url}#faq`,
+                mainEntity: articleFaq.map((f) => ({
+                  '@type': 'Question',
+                  name: f.q,
+                  acceptedAnswer: { '@type': 'Answer', text: f.a },
+                })),
+              }]
+            : []),
       ],
     }
     out.push({

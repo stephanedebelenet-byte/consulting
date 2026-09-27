@@ -81,6 +81,20 @@ Salaire mensuel visé × 1,5 (charges) / 15 jours facturables = TJM minimum.
 
 > **Le consulting indépendant récompense ceux qui ont construit une expertise réelle et un réseau solide. C'est une liberté qui se mérite — mais qui, une fois acquise, change profondément la façon d'appréhender son travail.**
 
+## Questions fréquentes
+
+#### Combien d'années d'expérience faut-il pour se lancer en freelance supply chain au Maroc ?
+
+8 à 10 ans minimum : le consulting nécessite une crédibilité terrain, et sans cette expérience dans des postes supply chain opérationnels, les clients doutent de la légitimité du consultant.
+
+#### Quel statut juridique choisir pour démarrer ?
+
+L'auto-entrepreneur (jusqu'à 500 000 MAD de chiffre d'affaires annuel pour les prestations de services), avec un impôt libératoire de 1,5 à 2 % — simple et rapide pour démarrer. La SARL devient pertinente pour des volumes plus importants ou pour facturer des multinationales qui préfèrent une personne morale.
+
+#### D'où viennent les premières missions d'un consultant freelance ?
+
+Majoritairement du réseau : 80 % des missions viennent des anciens employeurs, des anciens collègues et du bouche-à-oreille, surtout au début — une mission réussie génère en moyenne 3 recommandations dans les 12 mois suivants.
+
 ## Nextinotech — Coaching Transition vers le Consulting
 
 Nextinotech accompagne les séniors SC dans leur transition vers le consulting indépendant : structuration de l'offre, pricing, développement commercial, premiers clients.

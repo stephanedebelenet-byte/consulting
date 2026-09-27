@@ -34,6 +34,20 @@ Les deux plateformes convergent plutôt qu'elles ne se concurrencent. Avec la g�
 
 Pour une PME qui importe ou exporte, la refonte de PORTNET change surtout la vitesse à laquelle circulent les autorisations et documents en amont du dédouanement — pas la nécessité de travailler avec un transitaire compétent pour la partie BADR. Trois réflexes restent utiles : vérifier que votre transitaire actuel est bien accrédité et opérationnel sur le nouveau portail, ne pas confondre un compte PORTNET (que votre entreprise peut détenir directement) avec un accès BADR (réservé au transitaire), et profiter de la centralisation des formalités pour réduire les allers-retours documentaires qui ralentissaient historiquement le dédouanement. Notre article sur la [formation transport et douanes au Maroc](/blog/formation-transport-et-douanes-au-maroc-transit-incoterms) détaille les compétences à maîtriser côté transit et incoterms ; notre analyse de la [digitalisation supply chain pour PME](/blog/conseil-digitalisation-supply-chain-wms-tms-erp-pour-pme) montre comment ces plateformes s'articulent avec vos propres systèmes internes (ERP, WMS).
 
+## Questions fréquentes
+
+#### Quelle est la différence entre PORTNET et BADR ?
+
+PORTNET est le guichet unique national du commerce extérieur, qui centralise une vingtaine de formalités pour tous les acteurs (importateurs, exportateurs, banques, transitaires) ; BADR est le système de dédouanement propre à l'ADII, réservé aux transitaires agréés, qui traite spécifiquement la déclaration douanière.
+
+#### Une entreprise peut-elle déposer elle-même sa déclaration sur BADR ?
+
+Non. Seuls les transitaires accrédités par l'ADII, munis d'un accès sécurisé et d'un certificat digital, peuvent déposer la Déclaration Unique de Marchandise (DUM) sur BADR — l'accès direct engage une responsabilité juridique propre au métier de transitaire.
+
+#### Qu'apporte la refonte de PORTNET lancée en 2026 ?
+
+Un point d'accès unique regroupant 22 services, la saisie unique des données pour l'ensemble des formalités, et une capacité de traitement de jusqu'à 40 millions de documents par an — avec une réduction des délais administratifs annoncée de 20 à 50 %.
+
 ## Ce qu'il faut retenir
 
 PORTNET et BADR ne sont pas interchangeables : l'un est un guichet unique multi-acteurs récemment refondu, l'autre un système de dédouanement réservé aux transitaires agréés. La refonte de 2026 accélère la partie PORTNET du parcours, mais la maîtrise du dédouanement via BADR reste un métier — celui du transitaire, pas celui de l'importateur.

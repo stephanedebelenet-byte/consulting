@@ -42,6 +42,20 @@ Dans ce contexte, l'adoption lors de la session parlementaire de septembre, évo
 
 Pour toute entreprise qui gère elle-même sa livraison — marketplace, retailer, plateforme e-commerce — ou qui sous-traite à un prestataire, trois questions deviennent immédiatement pertinentes : le prestataire actuel détient-il, ou est-il en mesure d'obtenir, l'agrément requis ? Le modèle économique actuel (souvent informel, à faible marge) supporte-t-il le coût de mise en conformité ? Et surtout, la chaîne logistique est-elle déjà structurée pour absorber un changement réglementaire sans rupture de service ? Ce sont exactement les questions que révèle [le dernier kilomètre, vrai défi du secteur e-commerce marocain](/blog/supply-chain-e-commerce-au-maroc-le-dernier-kilometre-vrai) — la réglementation ne fait qu'ajouter une contrainte de plus à un problème déjà structurel. Notre analyse du [dernier kilomètre au Maroc](/blog/last-mile-au-maroc-resoudre-le-probleme-du-dernier) détaille les leviers opérationnels pour y répondre.
 
+## Questions fréquentes
+
+#### La loi 36-25 sur la livraison de colis est-elle déjà en vigueur ?
+
+Non. C'est un projet de loi, pas une loi promulguée : il est encore en cours d'examen et activement contesté par la Fédération du Transport et de la Logistique de la CGEM, qui a saisi le Conseil de la concurrence en mai 2026.
+
+#### Quelles sanctions prévoit le projet de loi pour un opérateur sans agrément ?
+
+Une amende de 500 000 à 5 millions de MAD, assortie de peines pouvant atteindre trois ans de prison ferme pour les dirigeants, pour tout exercice sans l'agrément du ministère de l'Industrie et du Commerce.
+
+#### Le monopole de Barid Al-Maghrib sur les colis de moins d'1 kg existe-t-il encore ?
+
+Oui, juridiquement, tant que la loi n'est pas promulguée : en mai 2026, le Tribunal de commerce a rendu plusieurs jugements confirmant ce monopole, condamnant notamment des opérateurs privés comme Jumia ou CTM Messagerie.
+
 ## Ce qu'il faut retenir
 
 Le projet de loi 36-25 n'est pas encore une loi en vigueur, mais sa direction est claire : agrément obligatoire, sanctions lourdes en cas de manquement, fin d'un monopole postal centenaire. Les opérateurs qui anticipent — structuration des processus, vérification de la conformité de leurs prestataires, veille sur le calendrier législatif — seront en position de force le jour où le texte devient exécutoire. Ceux qui attendent prennent un risque opérationnel et juridique évitable.

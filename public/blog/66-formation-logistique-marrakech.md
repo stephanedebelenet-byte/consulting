@@ -144,6 +144,20 @@ Pour y répondre, les entreprises de Marrakech doivent monter en gamme leur fonc
 
 ---
 
+## Questions fréquentes
+
+#### Où se déroule la formation Responsable Logistique pour les professionnels de Marrakech ?
+
+En inter-entreprise, les sessions ont lieu à Casablanca, à 2h30 de route ou de train de Marrakech ; pour une équipe de 3 professionnels ou plus, Nextinotech organise aussi la formation directement sur place, en intra-entreprise.
+
+#### Quels secteurs recrutent le plus de profils logistiques à Marrakech ?
+
+L'agroalimentaire (chaîne du froid, traçabilité export), le tourisme et l'hôtellerie (approvisionnement, gestion des stocks), la construction et la grande distribution — avec des salaires de Responsable Logistique confirmé entre 10 000 et 18 000 MAD.
+
+#### Quelles compétences manquent le plus aux professionnels logistiques de Marrakech ?
+
+Les méthodes de planification (MRP, DDMRP, point de commande), les indicateurs de performance, les outils digitaux (WMS, Excel avancé) et les compétences managériales — des lacunes qui créent un plafond de verre freinant l'accès aux postes de direction.
+
 ## Conclusion
 
 Marrakech offre de vraies opportunités pour les professionnels logistiques qui investissent dans leur formation. La combinaison secteur agroalimentaire + tourisme + grande distribution crée une demande diversifiée et stable.

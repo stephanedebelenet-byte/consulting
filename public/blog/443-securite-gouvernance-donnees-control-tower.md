@@ -26,6 +26,20 @@ Avant même de définir qui a le droit d'agir sur une alerte, il faut définir q
 
 > **La confiance dans un control tower se construit autant sur la gouvernance des accès que sur la fiabilité des alertes.** Un fournisseur qui découvre qu'il pouvait voir les commandes d'un concurrent, même indirectement, ne fera plus confiance au système — ni à l'entreprise qui l'exploite.
 
+## Questions fréquentes
+
+#### Quelles questions trancher avant d'ouvrir les accès à un control tower ?
+
+Trois questions : qui, en dehors de l'équipe supply chain, accède à quelles données — un fournisseur peut-il voir, même indirectement, les commandes d'un autre fournisseur ? Quelles données sortent vers un hébergement cloud, et sous quelle juridiction ? Quelle traçabilité existe pour savoir qui a consulté ou modifié une donnée sensible ?
+
+#### Faut-il donner le même niveau d'accès à tous les utilisateurs d'un control tower ?
+
+Non. Le bon niveau d'accès se définit par rôle et par type de donnée, pas par un accès binaire tout-ou-rien : un accès trop large expose des informations commerciales sensibles, un accès trop restreint empêche les bonnes personnes d'agir à temps.
+
+#### Pourquoi la gouvernance des données précède-t-elle la gouvernance des décisions ?
+
+Parce qu'il faut définir qui a le droit de voir la donnée avant de définir qui a le droit d'agir sur l'alerte qu'elle génère — Gartner identifie d'ailleurs la confiance et la gouvernance comme l'un des trois thèmes majeurs de l'IA en supply chain pour 2026.
+
 ## Ce qu'il faut retenir
 
 La sécurité et la gouvernance des données d'un control tower se décident avant l'ouverture des accès, pas après un incident. Notre article sur la [qualité des données](/blog/qualite-des-donnees-le-prerequis-que-tout-control-tower) précède logiquement cette réflexion sur les accès ; notre article sur ce que [la DSI doit valider avant un projet IA supply chain](/blog/ia-et-dsi-supply-chain-ce-que-l-informatique-doit-valider) détaille les points de contrôle technique associés.

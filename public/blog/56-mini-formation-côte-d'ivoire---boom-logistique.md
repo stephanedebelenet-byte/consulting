@@ -30,6 +30,20 @@ La Côte d'Ivoire ne consolide pas que son propre commerce : elle capte une part
 
 La communauté portuaire ivoirienne accélère aussi sa digitalisation, avec un système à guichet unique (PCS) qui vise le 100% dématérialisé pour les formalités du commerce extérieur. Des projets de hubs logistiques intérieurs, notamment à Bouaké, sont à l'étude pour mieux connecter le port aux corridors régionaux et réduire la congestion.
 
+## Questions fréquentes
+
+#### Quelle est la croissance du trafic au Port d'Abidjan ?
+
++16,1 % en 2025, passant de 40,1 à 46,6 millions de tonnes en un an — porté par un trafic national en hausse de 19,8 % sur la même période.
+
+#### Le Port d'Abidjan est-il le seul point d'entrée logistique de Côte d'Ivoire ?
+
+Non. Le Port de San Pedro, à l'ouest du pays, longtemps limité à l'évacuation de produits agricoles, a franchi en 2025 un record de 7,4 millions de tonnes et se transforme en hub logistique intégré.
+
+#### La Côte d'Ivoire capte-t-elle aussi du trafic destiné à d'autres pays ?
+
+Oui, notamment le trafic de transit vers le Mali, pays enclavé : il est passé de 835 000 à 1,47 million de tonnes entre 2024 et 2025 (+76 %), accéléré par un nouveau corridor multimodal Abidjan–Bobo-Dioulasso–Bamako lancé en avril 2026.
+
 ## Ce qu'il faut retenir
 
 La Côte d'Ivoire consolide sa position de hub logistique ouest-africain sur deux fronts à la fois : son propre commerce extérieur et le trafic de transit régional, en particulier malien. Pour toute entreprise opérant dans la sous-région, c'est un axe à intégrer dans une stratégie de diversification des corridors — pas seulement une option de repli.
