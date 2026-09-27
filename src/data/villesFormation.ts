@@ -62,6 +62,22 @@ export const VILLES: VilleFormation[] = [
         q: 'Proposez-vous des formations intra-entreprise à Casablanca ?',
         a: "Oui. Pour 5 participants ou plus d'une même entreprise, nous intervenons dans vos locaux à Casablanca, avec un contenu adapté à votre secteur (distribution, industrie, 3PL).",
       },
+      {
+        q: "Combien coûte une formation logistique à Casablanca ?",
+        a: "La formation « Devenir Responsable Logistique » coûte 1 500 MAD TTC par participant, tout inclus, en hôtel 5 étoiles à Casablanca. Les autres sessions inter-entreprise vont de 1 800 à 9 500 MAD TTC par participant selon la durée. En intra-entreprise, comptez de 12 000 à 48 000 MAD HT par groupe selon le programme.",
+      },
+      {
+        q: "Quelle formation choisir pour un entrepôt ou une plateforme de distribution à Casablanca ?",
+        a: "Pour le responsable du site, « Devenir Responsable Logistique » (1 jour) ; pour l'équipe qui exploite un WMS ou un TMS, « WMS · TMS · ERP — Maîtriser les Outils » (2 jours en intra) ; pour les opérateurs, la formation Préparateur de Commandes. Les zones d'Aïn Sebaâ, Sidi Bernoussi et Bouskoura sont couvertes en intra.",
+      },
+      {
+        q: "Proposez-vous aussi du conseil supply chain à Casablanca ?",
+        a: "Oui. Le cabinet est installé au Technopark de Casablanca : diagnostic supply chain dès 35 000 MAD HT, projets stocks, achats et schéma logistique, direction supply chain à temps partagé. La formation peut compléter une mission de conseil pour ancrer les nouvelles méthodes.",
+      },
+      {
+        q: "Comment faire financer une formation à Casablanca ?",
+        a: "Par le Contrat Spécial de Formation de l'OFPPT (jusqu'à 70 % des coûts pédagogiques, dans la limite de la taxe de formation professionnelle versée) ou par le GIAC de votre secteur. Une convention de formation est remise à l'inscription et nous accompagnons la DRH dans le montage du dossier.",
+      },
     ],
   },
   {
@@ -99,6 +115,22 @@ export const VILLES: VilleFormation[] = [
       {
         q: 'Avez-vous une offre pour les équipementiers automobiles de Kénitra ?',
         a: "Oui. Les programmes DDMRP et S&OP sont adaptés au pilotage cadencé et aux exigences des donneurs d'ordre. Le contenu intra est ajusté à votre plan de production et à vos flux EDI.",
+      },
+      {
+        q: "Combien coûte une formation supply chain pour une entreprise de Rabat ou Kénitra ?",
+        a: "En inter-entreprise à Casablanca : 1 500 MAD TTC pour « Devenir Responsable Logistique », 5 500 MAD TTC pour le DDMRP Practitioner. En intra-entreprise à Rabat, Salé ou Kénitra : le S&OP & Planification Avancée coûte de 28 000 à 42 000 MAD HT par groupe.",
+      },
+      {
+        q: "Quelle formation pour un équipementier de l'Atlantic Free Zone ?",
+        a: "Le DDMRP Practitioner pour piloter les approvisionnements en flux tendu, et le S&OP pour aligner programme client, production et achats. Pour les ateliers, le Lean Management & 5S cible la performance attendue par les donneurs d'ordre automobiles.",
+      },
+      {
+        q: "Formez-vous les administrations et établissements publics de Rabat ?",
+        a: "Oui, en intra-entreprise : fondamentaux supply chain, achats et gestion des stocks, adaptés aux procédures d'achat public. Le contenu est bâti sur vos processus réels (marchés, magasins, inventaires).",
+      },
+      {
+        q: "Les entreprises agro-industrielles du Gharb sont-elles concernées ?",
+        a: "Oui. Le S&OP aide à arbitrer entre récolte, capacité de transformation et commandes export ; la gestion des stocks et la planification sont adaptées à la saisonnalité de la filière. Formation organisée sur site pour 5 participants ou plus.",
       },
     ],
   },
@@ -138,6 +170,22 @@ export const VILLES: VilleFormation[] = [
         q: 'Le contenu est-il adapté aux exigences automobiles ?',
         a: "Oui. Les modules DDMRP, Lean et pilotage de la performance intègrent les standards de qualité et de cadence attendus par les constructeurs et leurs donneurs d'ordre.",
       },
+      {
+        q: "Combien coûte une formation logistique pour une entreprise de Tanger ?",
+        a: "En inter-entreprise à Casablanca : 1 500 MAD TTC pour « Devenir Responsable Logistique », 5 500 MAD TTC pour le DDMRP Practitioner. En intra-entreprise à Tanger : le Lean Management & 5S coûte de 18 000 à 28 000 MAD HT par groupe, la formation WMS · TMS · ERP de 32 000 à 48 000 MAD HT.",
+      },
+      {
+        q: "Quelle formation pour une plateforme logistique ou un transitaire de Tanger Med ?",
+        a: "La formation WMS · TMS · ERP pour exploiter les systèmes de la plateforme, la formation Douane & Logistique Internationale (2 jours, 3 200 MAD TTC) pour le transit et les incoterms, et « Devenir Responsable Logistique » pour l'encadrement.",
+      },
+      {
+        q: "Avez-vous l'expérience de l'écosystème automobile de Tanger ?",
+        a: "Oui. Le fondateur de Nextinotech a conçu la logistique greenfield du site industriel Renault-Nissan de Tanger — logistique amont, flux d'assemblage, standards du groupe. Les cas pratiques des formations intra s'appuient sur ce type de flux.",
+      },
+      {
+        q: "Accompagnez-vous le statut OEA pour les entreprises de la zone franche ?",
+        a: "Oui. Les entreprises exportatrices de Tanger, souvent sous régime suspensif, ont intérêt au statut d'Opérateur Économique Agréé de l'ADII. Nous les accompagnons du diagnostic d'éligibilité jusqu'à l'audit de l'ADII, en 8 à 15 mois.",
+      },
     ],
   },
   {
@@ -175,6 +223,22 @@ export const VILLES: VilleFormation[] = [
       {
         q: 'Faut-il se déplacer à Casablanca ?',
         a: "Pour les sessions inter-entreprise, oui. Pour un groupe de 5 personnes ou plus, nous venons animer la formation directement à Marrakech.",
+      },
+      {
+        q: "Combien coûte une formation logistique pour une entreprise de Marrakech ?",
+        a: "En intra-entreprise à Marrakech : Supply Chain Fondamentaux de 18 000 à 28 000 MAD HT par groupe, Préparateur de Commandes de 20 000 à 30 000 MAD HT. En inter-entreprise à Casablanca, « Devenir Responsable Logistique » coûte 1 500 MAD TTC par participant.",
+      },
+      {
+        q: "Comment éviter les ruptures d'approvisionnement en haute saison touristique ?",
+        a: "En anticipant : prévision de la demande par saison et par établissement, stocks de sécurité recalculés avant les pics, et contrats fournisseurs avec capacités garanties. Ces méthodes sont au cœur des formations Fondamentaux et S&OP, adaptées au contexte hôtelier.",
+      },
+      {
+        q: "Quelle formation pour les équipes F&B et économat d'un hôtel ?",
+        a: "Supply Chain Fondamentaux, en intra : gestion des stocks (ABC, couverture, point de commande), achats et évaluation des fournisseurs, indicateurs. Le contenu est bâti sur vos références et vos saisons, pour des équipes qui ne sont pas des logisticiens de métier.",
+      },
+      {
+        q: "Intervenez-vous aussi en conseil logistique à Marrakech ?",
+        a: "Oui, sur site : diagnostic supply chain, politique de stocks, organisation d'un entrepôt ou d'une plateforme de distribution régionale. Le premier échange de cadrage est gratuit.",
       },
     ],
   },
@@ -214,6 +278,22 @@ export const VILLES: VilleFormation[] = [
         q: 'Venez-vous former à Agadir ?',
         a: "En intra-entreprise, oui — dans vos locaux à Agadir ou à Aït Melloul. Les sessions inter-entreprise restent à Casablanca.",
       },
+      {
+        q: "Combien coûte une formation logistique pour une entreprise d'Agadir ?",
+        a: "En intra-entreprise à Agadir ou Aït Melloul : le S&OP & Planification Avancée coûte de 28 000 à 42 000 MAD HT par groupe. En inter-entreprise à Casablanca : 1 500 MAD TTC pour « Devenir Responsable Logistique », 5 500 MAD TTC pour le DDMRP Practitioner.",
+      },
+      {
+        q: "Quelle formation pour une station de conditionnement d'agrumes ou de primeurs ?",
+        a: "Le S&OP pour arbitrer entre disponibilité de la récolte et programmes des clients européens, le DDMRP pour dimensionner les stocks d'emballages et d'intrants face à la volatilité, et « Devenir Responsable Logistique » pour l'encadrement du site.",
+      },
+      {
+        q: "Les formations couvrent-elles la logistique des produits de la mer ?",
+        a: "Oui, en intra-entreprise : chaîne du froid, traçabilité des lots, rotation des stocks et coordination avec le transport frigorifique. Les cas pratiques sont bâtis sur vos flux, du débarquement à l'expédition.",
+      },
+      {
+        q: "Faut-il marquer les lots et dates sur les produits exportés depuis Agadir ?",
+        a: "Oui : l'agroalimentaire exige l'identification du lot et une date limite pour permettre le rappel de produits, et les distributeurs européens l'imposent. Nous conseillons et installons des imprimantes de codage industriel adaptées à votre cadence.",
+      },
     ],
   },
   {
@@ -251,6 +331,22 @@ export const VILLES: VilleFormation[] = [
       {
         q: 'Par quel programme commencer pour un site peu structuré ?',
         a: "« Devenir Responsable Logistique » pour le pilotage d'ensemble, puis « Lean Management & 5S » pour l'organisation du terrain. Les deux se complètent bien sur un site en cours de structuration.",
+      },
+      {
+        q: "Combien coûte une formation logistique à Fès ou Meknès ?",
+        a: "En intra-entreprise dans vos locaux : Lean Management & 5S et Supply Chain Fondamentaux de 18 000 à 28 000 MAD HT par groupe. En inter-entreprise à Casablanca, « Devenir Responsable Logistique » coûte 1 500 MAD TTC par participant, tout inclus.",
+      },
+      {
+        q: "Quelle formation pour une entreprise agro-industrielle d'Agropolis ?",
+        a: "Supply Chain Fondamentaux pour donner un langage commun aux équipes, puis le Lean Management & 5S pour organiser les ateliers et entrepôts. Si la production suit une saisonnalité forte, le S&OP aide à planifier récolte, transformation et ventes.",
+      },
+      {
+        q: "Comment structurer un entrepôt encore géré à la main ?",
+        a: "En trois étapes : adressage des emplacements et règles de rangement, fiabilisation du stock par des inventaires tournants, puis indicateurs simples (taux de service, écarts de stock). « Devenir Responsable Logistique » donne la méthode ; un WMS ne vient qu'ensuite.",
+      },
+      {
+        q: "La formation est-elle finançable pour une PME de Fès-Meknès ?",
+        a: "Oui, comme partout au Maroc : Contrat Spécial de Formation de l'OFPPT (jusqu'à 70 % des coûts pédagogiques, dans la limite de la taxe de formation professionnelle versée) ou GIAC de votre secteur. Une convention est remise à l'inscription.",
       },
     ],
   },
