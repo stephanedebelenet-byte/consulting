@@ -37,22 +37,22 @@ Rabat/Salé, Maroc · 20+ ans expérience · 40+ cadres formés
 
 ---
 
-## Cas Formations Réussis
+## Formats de Formation Types
 
-### Bosch Maroc (Formation Sourcing)
-- **Équipe :** 8 acheteurs
-- **Durée :** 5 jours + 6 sem coaching
-- **Résultat :** Coût -8%, adoption 95%, ROI 3.5x
+### Équipe achats (formation sourcing)
+- **Équipe :** une dizaine d'acheteurs
+- **Format :** formation intensive puis coaching à distance de quelques semaines
+- **Objectif :** stratégie par catégorie, consolidation du panel fournisseurs
 
-### Casanet/Maroc Telecom (WMS Bootcamp)
-- **Équipe :** 25 warehouse staff
-- **Durée :** 3 jours + 8 sem coaching
-- **Résultat :** Adoption 88%, efficiency +40%, ROI 3.2x
+### Équipe entrepôt (formation WMS)
+- **Équipe :** opérateurs et chefs d'équipe d'un entrepôt
+- **Format :** 2 à 3 jours sur site, puis accompagnement de l'adoption de l'outil
+- **Objectif :** fiabilité du stock, erreurs de préparation, usage réel du WMS
 
-### Oland Group (Formation S&OP)
-- **Équipe :** 15 planners + operations
-- **Durée :** 2 jours + 6 sem coaching
-- **Résultat :** Forecast accuracy +15pts, cash cycle -12j, ROI 2.8x
+### Équipe planification (formation S&OP)
+- **Équipe :** planificateurs et responsables des opérations
+- **Format :** 2 jours, puis mise en place accompagnée du processus
+- **Objectif :** aligner prévisions, production et approvisionnements
 
 ---
 

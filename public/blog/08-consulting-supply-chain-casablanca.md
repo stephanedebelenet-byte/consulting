@@ -25,9 +25,9 @@ Casablanca, Maroc · 20+ ans expérience · 110+ missions réussies
 
 **Expertise transverse :**
 - 10 ans OCP Group (Directeur Achats SAEDM)
-- DHL Supply Chain (3 plateformes logistiques, 21,000 m²)
-- Renault-Nissan Tanger Melloussa (usine design, ramp production)
-- 40+ cadres formés (Bosch, Casanet, Oland, Mutandis)
+- DHL Supply Chain (plateforme logistique 3PL de 21 000 m²)
+- Renault-Nissan Tanger (conception logistique greenfield du site)
+- 40+ cadres formés
 
 **Approche :**
 - Audit rapide 2-3 jours, ROI réaliste

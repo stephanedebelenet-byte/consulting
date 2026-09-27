@@ -33,15 +33,15 @@ description: "Webinaire gratuit 45min : Transformation supply chain réaliste en
    - Phase 3: Rollout + stabilisation (4-8 sem)
    - Risques courants + mitigation
 
-3. **Cas réel: Douja Promotion** (10 min)
-   - 710 MMAD volume, 31 chantiers
-   - 11% saving en 3 mois
-   - Timeframe réaliste vs expectation
+3. **Référence : Groupe Addoha** (10 min)
+   - 31 chantiers simultanés, 710 millions MAD d'achats annuels
+   - 11 % d'économies réalisées sur le spend achats
+   - Ce qui a été fait dans les premières semaines, et ce qui a pris plus de temps
 
-4. **ROI projection** (5 min)
-   - Saving typique 8-15%
-   - Payback 2-4 mois
-   - Quick wins vs long-term
+4. **Chiffrer le retour sur investissement** (5 min)
+   - Mesurer le point de départ avant d'agir
+   - Gains rapides vs gains structurels
+   - Comment présenter le business case à la direction
 
 5. **Q&A Live** (15 min)
    - Votre situation spécifique
@@ -54,7 +54,7 @@ description: "Webinaire gratuit 45min : Transformation supply chain réaliste en
 
 **Youssef B**
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
-- 20+ ans expérience (OCP, DHL, Renault, Douja)
+- 20+ ans d'expérience terrain (Renault-Nissan, DHL Supply Chain, Groupe Addoha)
 - 110+ missions réussies
 - 40+ cadres formés
 
@@ -74,11 +74,7 @@ Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale
 
 ## Prochaines Sessions
 
-| Date | Heure | Langue | Inscription |
-|------|-------|--------|-------------|
-| 05 juillet 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-90j) |
-| 02 août 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-90j) |
-| 06 septembre 2026 | 14h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-90j) |
+Les sessions sont organisées chaque mois ; la date de la prochaine session est communiquée à l'inscription. [S'inscrire](https://calendly.com/nextinotech/webinaire-90j) ou écrire à contact@nextinotech.com.
 
 ---
 
@@ -90,7 +86,7 @@ Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale
 
 ---
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 30 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contact:** contact@nextinotech.com | +212 663 449 200
 

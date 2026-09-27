@@ -4,7 +4,7 @@ date: "2026-06-21"
 author: "Youssef B"
 type: "webinaire"
 keywords: "webinaire formation supply chain, consulting vs formation, stratégie transformation"
-description: "Webinaire gratuit 50min : Formation seule vs Consulting vs Hybrid. Décision guide, ROI comparison, cas réels. Inscription libre."
+description: "Webinaire gratuit 50 min : formation seule, conseil ou approche hybride. Guide de décision, budgets de référence, situations types. Inscription libre."
 ---
 
 # Webinaire GRATUIT : Formation ou Consulting? Quelle Approche Pour Vous?
@@ -34,31 +34,25 @@ description: "Webinaire gratuit 50min : Formation seule vs Consulting vs Hybrid.
    - Adoption risques par approche
    - ROI timeline comparison
 
-3. **Cas Réels: 3 Histoires** (18 min)
+3. **Trois situations types** (18 min)
 
-   **Cas 1: Bosch Maroc (Formation Seule)**
-   - Problem: 8 acheteurs, skills gap
-   - Approach: 5 jours + 6 sem coaching
-   - Result: 8% saving, 95% adoption, 3.5x ROI
-   - Timeline: 5 mois
-   
-   **Cas 2: Casanet WMS (Consulting + Formation)**
-   - Problem: WMS underutilized, 42% adoption
-   - Approach: Consulting audit + Formation bootcamp + 8 sem coaching
-   - Result: 88% adoption, 40% efficiency, 3.2x ROI
-   - Timeline: 6 mois
-   
-   **Cas 3: Oland Group (Hybrid Optimisé)**
-   - Problem: S&OP missing, demand/supply désaligné
-   - Approach: Formation 2j + Consulting 6 sem
-   - Result: Forecast +15pts, cash -12j, 2.8x ROI
-   - Timeline: 3 mois
+   **Situation 1 : une équipe achats qui manque de méthode — formation seule**
+   - Les processus existent, les compétences manquent
+   - Formation négociation et achats, puis suivi à distance
 
-4. **ROI & Budget Réaliste** (8 min)
-   - Formation seule: 20-80K, 6-12 mois ROI
-   - Consulting seul: 150-500K, 3-4 mois ROI
-   - Hybrid: 100-250K, 60-90 jours ROI
-   - Cost of inaction: -15-25% operationally
+   **Situation 2 : un WMS déployé mais sous-utilisé — conseil + formation**
+   - Le système est en place, les équipes contournent l'outil
+   - Audit des usages, formation ciblée, accompagnement de l'adoption
+
+   **Situation 3 : pas de processus S&OP — approche hybride**
+   - Ventes, production et achats planifient chacun de leur côté
+   - Formation S&OP courte, puis mise en place accompagnée du processus
+
+4. **Budgets de référence** (8 min)
+   - Formation intra-entreprise : 12 000 à 48 000 MAD HT par groupe
+   - Diagnostic : 35 000 à 130 000 MAD HT ; projet stocks, achats ou logistique : 45 000 à 250 000 MAD HT
+   - Comment estimer le retour sur investissement avant de choisir
+   - Le coût de l'inaction
 
 5. **Décision Rapide** (2 min)
    - Flowchart: Quel chemin pour vous?
@@ -75,7 +69,7 @@ description: "Webinaire gratuit 50min : Formation seule vs Consulting vs Hybrid.
 
 **Youssef B**
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
-- 40+ cadres formés (Bosch, Casanet, Oland, Mutandis)
+- 40+ cadres formés
 - 110+ missions consulting
 - Formation + Consulting hybrid specialist
 
@@ -88,7 +82,6 @@ Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale
 *Vous recevrez:*
 - ✓ Lien Zoom 24h avant
 - ✓ Decision Matrix PDF gratuit
-- ✓ 3 cas études détaillées
 - ✓ Enregistrement post-webinaire (2 semaines)
 - ✓ Bonus: ROI calculator template Excel
 
@@ -96,11 +89,7 @@ Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale
 
 ## Prochaines Sessions
 
-| Date | Heure | Langue | Inscription |
-|------|-------|--------|-------------|
-| 12 juillet 2026 | 15h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-formation-consulting) |
-| 09 août 2026 | 15h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-formation-consulting) |
-| 13 septembre 2026 | 15h00 GMT+1 | Français | [Lien](https://calendly.com/nextinotech/webinaire-formation-consulting) |
+Les sessions sont organisées chaque mois ; la date de la prochaine session est communiquée à l'inscription. [S'inscrire](https://calendly.com/nextinotech/webinaire-formation-consulting) ou écrire à contact@nextinotech.com.
 
 ---
 
@@ -112,7 +101,7 @@ Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale
 
 ---
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 30 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contact:** contact@nextinotech.com | +212 663 449 200
 

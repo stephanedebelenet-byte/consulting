@@ -27,8 +27,7 @@ Voici les 10 erreurs critiques — et comment les corriger.
 - Volume annuel : 710 MMAD (finitions construction, 31 chantiers actifs Maroc/Afrique)
 - Audit sourcing initial : Achats désorganisés, fournisseurs multiples sans consolidation
 - Solution implémentée : Stratégie sourcing par catégorie, segmentation fournisseurs, négociation portefeuille
-- **Résultat : Saving global 11%** (dont 9% achats directs + 20% logistique optimisée)
-- ROI : 3 mois
+- **Résultat : 11 % d'économies réalisées sur le spend achats**
 
 **Comment corriger :**
 1. Segmenter vos achats par catégorie (stratégique, critique, convenable, à risque)
@@ -103,11 +102,11 @@ Voici les 10 erreurs critiques — et comment les corriger.
 
 **Le problème réel :** Sans TMS (Transport Management System), vous pilotez chaque livraison manuellement.
 
-**Cas réel — SOMACA/Renault Maroc (2008, Premier iFA au Maroc) :**
-- Projet : Déploiement premier système Integrated Factory Automation (iFA) + Kitting au Maroc
-- Baseline : Flux manually coordinated, ruptures chaîne ~15%
-- Solution : Automatisation + TMS optimization (réduction distribution composants)
-- **Résultat : Ruptures chaîne -30%, efficience montage +25%**
+**Exemple — logistique d'usine automobile :**
+- Projet : automatisation de l'approvisionnement des lignes et du kitting
+- Point de départ : flux coordonnés à la main, ruptures d'alimentation des lignes
+- Solution : automatisation et optimisation de la distribution des composants
+- **Effet recherché : moins de ruptures en ligne, un montage plus régulier**
 
 **Comment corriger :**
 1. Audit flux transport : Consolidation + routage optimal
@@ -200,7 +199,7 @@ Voici les 10 erreurs critiques — et comment les corriger.
 **Le problème réel :** Technologie sans formation = Gâchis de 40-60% du potentiel.
 
 **Cas réel — Formation Corporate (2014-2015, 40+ cadres formés) :**
-- Clients formés : Bosch Maroc, Casanet (Maroc Telecom), Oland Group, Mutandis, Cegelec (Clemessy)
+- Cadres formés dans l'industrie, les télécoms, la distribution et l'ingénierie
 - Problème : Transformation digitale stagnée, adoption tech faible
 - Solution : Programme formation corporate (Supply Chain stratégique, WMS/TMS, change management)
 - **Résultat : Adoption tech +40%, confidence équipes +50%, réduction erreurs -25%**

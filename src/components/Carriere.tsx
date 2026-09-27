@@ -121,7 +121,7 @@ const PROFILS = [
   {
     num: '01',
     title: 'Consultants seniors',
-    desc: 'Certifié DDMRP ou 8+ ans de terrain Supply Chain, vous savez piloter une transformation complexe en autonomie et représenter le cabinet face à un comité de direction. Nous recrutons en continu — parlez-nous de votre parcours.',
+    desc: 'Certifié DDMRP ou 8+ ans de terrain Supply Chain, vous savez piloter une transformation complexe en autonomie et représenter le cabinet face à un comité de direction. Aucun poste senior ouvert actuellement : candidature spontanée bienvenue.',
   },
   {
     num: '02',

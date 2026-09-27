@@ -1,377 +1,63 @@
-﻿---
+---
 title: "Combien Coûte une Mission de Consulting Supply Chain?"
-date: "2026-06-21"
+date: "2026-09-27"
 author: "Youssef B"
 image: "/images/conseil.webp"
-keywords: "coût consulting supply chain, devis mission, budget conseil logistique, ROI conseil"
-description: "Transparent : les coûts réels d'une mission de consulting supply chain. Modèles pricing, facteurs, et ROI."
+keywords: "coût consulting supply chain, prix mission conseil logistique maroc, tarif diagnostic supply chain, budget AMOA WMS, prix direction supply chain temps partagé"
+description: "Les prix réels d'une mission de conseil supply chain au Maroc : diagnostic, stocks, achats, schéma logistique, AMOA, systèmes, temps partagé. Grilles publiques en MAD HT."
 ---
 
 # Combien Coûte une Mission de Consulting Supply Chain?
 
-**"Ça coûte combien, une mission chez vous?"**
+**Au Maroc, une mission de conseil supply chain coûte de 25 000 MAD HT pour un cahier des charges simple à plus de 800 000 MAD HT pour une control tower multi-sites ; un diagnostic complet se situe entre 35 000 et 130 000 MAD HT.** Chez Nextinotech, ces prix sont publics : chaque offre standard affiche sa fourchette et sa durée, avant tout rendez-vous. Voici la grille, ce qui fait varier le montant, et comment le comparer au coût d'un recrutement.
 
-C'est la première question. Et c'est honnête.
+## La grille, offre par offre
 
-Après 20+ ans et 110+ missions, j'aime la transparence. Je vais vous donner les chiffres réels, les modèles pricing, et comment évaluer ROI.
+| Offre | Fourchette (MAD HT) | Durée |
+|-------|--------------------|-------|
+| Diagnostic Flash | 35 000 – 55 000 | 2 semaines |
+| Diagnostic Stratégique | 80 000 – 130 000 | 4 à 6 semaines |
+| Stock Quick Win | 45 000 – 75 000 | 4 à 6 semaines |
+| Refonte de la politique de stocks | 100 000 – 180 000 | 3 à 4 mois |
+| Achats Quick Wins | 50 000 – 80 000 | 4 à 6 semaines |
+| Structuration des achats | 120 000 – 200 000 | 3 à 5 mois |
+| Audit logistique | 60 000 – 90 000 | 4 à 6 semaines |
+| Redéfinition du schéma logistique | 150 000 – 250 000 | 3 à 5 mois |
+| Cahier des charges (simple / multi-lots) | 25 000 – 80 000 | 2 à 6 semaines |
+| AMOA (légère / complète) | 70 000 – 350 000 | 2 à 8 mois |
+| Direction supply chain à temps partagé | 180 000 – 550 000 | 4 à 10 mois |
 
----
+Les projets de systèmes suivent la même logique : un WMS pour un entrepôt démarre à 80 000 MAD HT d'accompagnement, un TMS à 70 000, un outil de planification à 60 000, une control tower à 135 000. Les licences des éditeurs s'y ajoutent selon l'offre retenue — nous n'en revendons aucune et ne touchons aucune commission.
 
-## Modèles Pricing Supply Chain Consulting
+::stat:: 35 000 MAD HT — prix d'entrée d'un diagnostic supply chain chez Nextinotech (Diagnostic Flash, 2 semaines)
 
-### Modèle 1: Audit Court (Time & Material)
+## Ce qui fait varier le prix
 
-**Quand :** Vous avez une question spécifique, pas de transformation complète.
+Quatre facteurs expliquent l'essentiel de l'écart entre le bas et le haut d'une fourchette :
 
-**Scope :** 2-5 jours de consulting intensif.
+- **le périmètre** : un site ou plusieurs, une famille de produits ou toutes, une seule fonction ou toute la chaîne ;
+- **la profondeur** : un diagnostic qui identifie les écarts coûte moins qu'une mission qui les corrige et accompagne la mise en œuvre ;
+- **les systèmes** : sélectionner un WMS ou un TMS ajoute une phase de cahier des charges et de consultation ; le déployer ajoute paramétrage, reprise de données et formation ;
+- **l'accompagnement du changement** : former les équipes et suivre l'adoption dans la durée demande du temps sur site.
 
-**Exemple :**
-- "Audit rapide supply chain — où optimiser?"
-- "Comment améliorer sourcing?" (1 jour d'audit + recommandations)
-- "WMS oui ou non?" (2-3 jours tech assessment)
+> **Le bon réflexe n'est pas de chercher le prix le plus bas, mais de vérifier que le gain attendu est chiffré avant de signer.** Un diagnostic sérieux mesure le point de départ — niveau de stock, coûts d'achat, taux de service — pour que le résultat soit vérifiable à la fin.
 
-**Pricing:**
-- Taux daily rate: 3,000-5,000 MAD/jour (par consultant senior)
-- Total audit court : 6,000-25,000 MAD
+Sur les missions achats et stocks, une part de la rémunération peut être indexée sur le gain réellement mesuré : c'est la façon la plus simple d'aligner les intérêts du cabinet et du client.
 
-**Timeline :** 1-2 semaines
+## Mission ou recrutement : comparer ce qui est comparable
 
-**Livrables:**
-- Diagnostic écrit
-- Top 5 quick wins
-- ROI estimate
-- Roadmap 12 mois (high-level)
+Un directeur supply chain en CDI représente de 600 000 à 900 000 MAD brut par an au Maroc, plus environ 21 % de charges patronales, et 4 à 6 mois de recrutement. Un mandat de direction à temps partagé coûte de 180 000 à 280 000 MAD HT pour une PME (4 à 6 mois) et de 320 000 à 550 000 MAD HT pour une ETI (7 à 10 mois), démarre en 2 semaines et se termine par la passation à une équipe interne. Le premier répond à un besoin permanent, le second à une transformation à mener.
 
-**ROI:** Vous avez réponse à question spécifique. Pas de commitment transformation. Coût minimal, value rapide.
+## Ce qu'il faut retenir
 
----
+Demandez toujours une fourchette publique, une durée et des livrables par phase, et un gain chiffré sur des indicateurs mesurés au départ. Pour aller plus loin : notre [offre de conseil et de diagnostic](/conseil), et le [comparatif CDI ou mandat à temps partagé](/dsc-vs-recrutement-cdi).
 
-### Modèle 2: Conseil Moyen (Fixed Scope Project)
+Un premier échange de 30 minutes, gratuit et sans engagement, suffit pour situer votre besoin dans cette grille : [prenez contact](/contact).
 
-**Quand :** Vous savez le problème, vous besoin help design/implémentation.
+Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 
-**Scope :** 6-12 semaines, problème défini, solution design + pilotage.
-
-**Exemples:**
-- Sourcing strategy optimization (100-150K)
-- WMS implémentation accompagnement (120-180K)
-- S&OP process design & rollout (80-150K)
-- Warehouse redesign (50-100K)
-
-**Pricing:**
-- Fixed price par scope
-- Ou Time & Material avec cap budget
-- Nextinotech moyen : 100-200K MAD par mission 6-12 sem
-
-**Timeline:** 2-3 mois
-
-**Livrables:**
-- Audit détaillé + design
-- Process documenté
-- Team training
-- KPI monitoring initial
-
-**ROI:** Cas réel — Douja Promotion (110-150K mission) → 78 MMAD saving → Payback 6 weeks.
+*20+ ans d'expertise terrain. 110+ missions. 0 commission.*
 
 ---
 
-### Modèle 3: Transformation Complète (Full Engagement)
-
-**Quand :** Vous besoin overhaul supply chain complet. Audit + design + implémentation + training + stabilisation.
-
-**Scope:** 3-6 mois, equipe embedded, full support.
-
-**Exemples:**
-- Supply chain redesign complet (200-500K)
-- Digitalization WMS+TMS (300-600K)
-- S&OP + organizational restructure (400-800K)
-
-**Pricing:**
-- Fixed project fee + success fee (% saving réalisé)
-- Ou Time & Material avec monthly cap
-- Nextinotech transformation : 250-600K MAD
-
-**Timeline:** 4-6 mois
-
-**Livrables:**
-- Full assessment
-- Process redesign complet
-- Tech selection & configuration
-- Team transformation
-- KPI dashboard live
-- 6 months post-support
-
-**ROI:** Cas réel — Casanet WMS (320K mission) → 1.2 MMAD saving → Payback 3 months.
-
----
-
-## Facteurs Qui Affectent le Coût
-
-### Factor 1: Complexity Organisationnelle
-
-**Simple:** 1 site, 1 processus, stable team
-- Coût : -30% vs moyenne
-
-**Complexe:** Multi-site, multi-division, turnovers fréquents
-- Coût : +50-100% vs moyenne
-
-### Factor 2: Size Opération
-
-**PME 50-200 employés:**
-- Audit : 5-10K
-- Conseil moyen : 80-150K
-- Transformation : 200-400K
-
-**ME 200-1000 employés:**
-- Audit : 15-25K
-- Conseil moyen : 150-300K
-- Transformation : 400-800K
-
-**GE 1000+ employés:**
-- Audit : 30-50K
-- Conseil moyen : 300-500K
-- Transformation : 1-3 MMAD
-
-### Factor 3: Scope Profondeur
-
-**Audit seulement** → Moins cher (5-15K)
-
-**Audit + Recommend** → Moyen (15-50K)
-
-**Audit + Design** → Plus cher (50-150K)
-
-**Audit + Design + Pilotage + Training** → Le plus cher (200-600K+)
-
-### Factor 4: Technology Involved
-
-**Pas de tech** (process only) → Moins cher
-
-**Sélection tech** (quoi choisir) → +30-50K
-
-**Implémentation tech** (mettre en place) → +100-300K
-
-**Intégration multi-systèmes** (WMS + TMS + ERP) → +200-500K
-
-### Factor 5: Change Management & Training
-
-**Léger** (documentation, 1-2 training sessions) → Base cost
-
-**Moyen** (3-4 training cycles, steering committee) → +50K-100K
-
-**Intensif** (change management full, coaching on-job) → +100-300K
-
----
-
-## Pricing Détaillé: Exemples Réels
-
-### Exemple 1: Audit Rapide (2-3 jours)
-
-**Cas:** PME veut savoir où optimiser supply chain.
-
-| Élément | Coût |
-|---------|------|
-| Diagnostic terrain (2 jours) | 10K |
-| Analyse data (1 jour) | 4K |
-| Report écrit | 2K |
-| Recommandations (verbal) | Inclus |
-| **Total** | **16K MAD** |
-
-**Timeline:** 1 semaine  
-**ROI:** Vous avez réponses. Puis décidez commit au consulting moyen.
-
----
-
-### Exemple 2: Optimisation Sourcing (8 semaines)
-
-**Cas:** Douja Promotion type — Stratégie sourcing, économies.
-
-| Élément | Coût |
-|---------|------|
-| Audit fournisseurs (2 sem) | 30K |
-| Stratégie design (2 sem) | 30K |
-| Négociation support (2 sem) | 25K |
-| Implémentation pilotage (2 sem) | 25K |
-| Training équipe | 10K |
-| Support 2 mois | 20K |
-| **Total** | **140K MAD** |
-
-**Timeline:** 8-10 semaines  
-**Resultat typique:** 8-12% coût saving (vs 110-150K budget baseline)  
-**ROI:** Saving 710 MMAD × 11% = 78 MMAD gain → Payback 6 weeks
-
----
-
-### Exemple 3: WMS Implémentation (16 semaines)
-
-**Cas:** DHL type — WMS sélection + config + training + support.
-
-| Élément | Coût |
-|---------|------|
-| Audit + design (3 sem) | 30K |
-| Vendor selection & contracting (2 sem) | 15K |
-| WMS configuration (4 sem) | 60K |
-| Pilot zone + go-live (4 sem) | 80K |
-| Training complet | 30K |
-| Change management | 40K |
-| Support 3 mois | 45K |
-| **Total** | **300K MAD** |
-
-**Timeline:** 16 semaines  
-**Resultats typiques:** 
-- Stock accuracy +15 points
-- Picking efficiency +40%
-- Coûts opérationnels -12-15%
-- Adoption +50 points
-**ROI:** 3-4 months
-
----
-
-### Exemple 4: Transformation S&OP (12 semaines)
-
-**Cas:** Oland Group type — S&OP design + coaching + KPI dashboard.
-
-| Élément | Coût |
-|---------|------|
-| Audit process (1 sem) | 10K |
-| S&OP design (2 sem) | 25K |
-| Process documentation (1 sem) | 8K |
-| Training & kickoff (2 sem) | 30K |
-| Coaching on-job (4 sem) | 50K |
-| KPI dashboard setup | 20K |
-| Support 2 mois | 30K |
-| **Total** | **173K MAD** |
-
-**Timeline:** 12 semaines  
-**Resultats typiques:**
-- Forecast accuracy +10-15 points
-- Stock optimization -18%
-- Cash cycle -12 jours
-- Cash freed ~2 MMAD
-**ROI:** 60-90 days
-
----
-
-## Modèles Alternatifs
-
-### Success Fee Model
-
-**Quand:** Vous risk-averse, want aligned incentives.
-
-**Mechanism:**
-- Consulting fee réduit (50-70% de normal)
-- Plus success fee = % du saving réalisé (5-15%)
-
-**Exemple:**
-- Normal WMS mission : 300K
-- Success fee : 200K base + 10% saving
-- Si saving 1.2 MMAD → Total coût 200K + 120K = 320K
-- ROI meilleur si saving > expectation
-
-### Retainer Model
-
-**Quand:** Ongoing support besoin, transformation long-term.
-
-**Mechanism:**
-- Monthly retainer (20-50K/mois)
-- Équipe disponible sous-demand
-- Flexibility ajouter projects
-
-**Exemple:**
-- 12 months retainer : 300K MAD
-- Inclut : 2-3 jours/mois consulting, KPI monitoring, quick improvements
-- Gain : Moins cher vs project-by-project, plus stable
-
----
-
-## Évaluer ROI: Comment Vérifier le Consultant?
-
-### Red Flags (Avoid)
-
-- Consultant dit "Coûtera 30K, saving 500K" sans audit → Faux
-- Pas de timeline clair → Scope creep
-- Pas de KPI defined avant → Can't measure success
-- Tout discount basé "On vous connaît" → Pas professionnel
-
-### Green Flags (Good sign)
-
-- Audit AVANT pricing (understand situation first)
-- Fixed scope WITH defined deliverables
-- KPI baseline measured before, after
-- Success fee option available
-- References de clients similaires fournis
-- Clear exit date + knowledge transfer plan
-
----
-
-## Comparaison : Internal Hire vs Consultant
-
-### Internal Hire Supply Chain Manager
-
-**Coût annuel:** 350-600K MAD (salary + benefits + training)
-
-**Avantages:**
-- Long-term commitment
-- Connaissance interne accumulate
-
-**Désavantages:**
-- Souvent pas assez expert (1-3 ans expérience)
-- Temps ramp-up : 3-6 mois productif
-- Turnover risque
-- Pas d'external benchmarking
-
-### Consultant Externe (3-6 mois mission)
-
-**Coût:** 200-600K MAD (one-time)
-
-**Avantages:**
-- Expérience diverse (18+ ans, 110+ missions)
-- Expert rapid deploiement
-- Benchmarking external
-- Pas d'overhead long-term
-
-**Désavantages:**
-- Pas de continuité après
-- Internal équipe must absorb knowledge
-
-**Hybrid Approach :** 3-6 mois consultant transformation + hire internal manager après → Best of both.
-
----
-
-## FAQ Pricing
-
-**Q: Combien un audit supply chain?**  
-A: 5-30K MAD depending scope (2-5 days).
-
-**Q: Time & Material, taux jour?**  
-A: 3,000-5,000 MAD/day consultant senior.
-
-**Q: Discount possible?**  
-A: Oui. Multi-phase engagement → 10-15% discount typical.
-
-**Q: Payment terms?**  
-A: 50% avant project, 50% upon completion. Ou 3 invoices (start/middle/end).
-
-**Q: ROI guarantee?**  
-A: On peut pas garantir (vous must exécute), mais on peut project avec 80%+ accuracy basé sur 110+ cas.
-
----
-
-## Prochaine Étape
-
-Coût consulting supply chain = Investissement, pas dépense. Mesurable. Prévisible. ROI-positive 90%+ du temps si bien scope.
-
-**Vous avez une mission supply chain?** Parlons :
-1. Situation actuelle (30 min call)
-2. Objectifs (what success looks like)
-3. Budget ballpark
-4. Timeline
-5. Nous propose scope + prix
-
-No commitment. Transparent. Honnête.
-
----
-
-**Youssef B**  
-Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  
-Casablanca, Maroc  
-📧 contact@nextinotech.com | 📞 +212 06 63 44 92 00
+*Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*

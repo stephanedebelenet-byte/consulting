@@ -23,6 +23,6 @@ export const EVENEMENTS: EvenementMeta[] = [
     file: '15-webinaire-formation-vs-consulting',
     title: 'Webinaire Gratuit — Formation ou Consulting, Quelle Approche ? | Nextinotech',
     description:
-      'Webinaire gratuit 50 min : formation seule, consulting ou approche hybride. Guide de décision, comparaison ROI, cas réels.',
+      'Webinaire gratuit 50 min : formation seule, consulting ou approche hybride. Guide de décision, budgets de référence, situations types.',
   },
 ]

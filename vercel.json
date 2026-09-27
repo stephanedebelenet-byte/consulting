@@ -39,6 +39,21 @@
   ],
   "redirects": [
     {
+      "source": "/blog/roi-formation-supply-chain-transformation-mesurable-en-90",
+      "destination": "/blog/roi-d-une-formation-supply-chain-au-maroc-comment-le",
+      "permanent": true
+    },
+    {
+      "source": "/blog/formation-ou-consulting-quelle-approche",
+      "destination": "/blog/formation-ou-consulting-quelle-approche-choisir",
+      "permanent": true
+    },
+    {
+      "source": "/blog/combien-de-temps-transformation-supply-chain",
+      "destination": "/blog/combien-de-temps-pour-une-transformation-supply-chain",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
@@ -91,7 +106,7 @@
     },
     {
       "source": "/blog/roi-formation-supply-chain-transformation-mesurable-en-90-jo",
-      "destination": "/blog/roi-formation-supply-chain-transformation-mesurable-en-90",
+      "destination": "/blog/roi-d-une-formation-supply-chain-au-maroc-comment-le",
       "permanent": true
     },
     {
@@ -1666,7 +1681,7 @@
     },
     {
       "source": "/blog/formation-ou-consulting---quelle-approche-",
-      "destination": "/blog/formation-ou-consulting-quelle-approche",
+      "destination": "/blog/formation-ou-consulting-quelle-approche-choisir",
       "permanent": true
     },
     {
@@ -1706,7 +1721,7 @@
     },
     {
       "source": "/blog/combien-de-temps-transformation-supply-chain-",
-      "destination": "/blog/combien-de-temps-transformation-supply-chain",
+      "destination": "/blog/combien-de-temps-pour-une-transformation-supply-chain",
       "permanent": true
     },
     {

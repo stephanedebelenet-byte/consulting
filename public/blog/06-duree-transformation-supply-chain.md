@@ -42,9 +42,9 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 - Audit complet (multi-site) : 3-4 sem
 
 **Cas réels:**
-- SOMACA : 1-2 jours (site simple, problème clair)
-- Douja Promotion : 2-3 jours (31 chantiers, complex)
-- DHL : 3-4 jours (3 sites, 21,000 m², legacy system)
+- Site industriel simple, problème clair : 1-2 jours
+- Groupe multi-chantiers (31 chantiers) : 2-3 jours
+- Plateforme 3PL de 21 000 m² : 3-4 jours
 
 ---
 
@@ -70,10 +70,10 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 - Design simple (process only) : 2-3 sem
 - Design complet (process + tech) : 4-6 sem
 
-**Cas réels:**
-- Sourcing strategy (Douja) : 2-3 sem (définir stratégie, fournisseurs)
-- WMS design (DHL) : 4-5 sem (schema complet, layout, flows)
-- S&OP design (Oland) : 3-4 sem (process mensuel, decision rules)
+**Durées types :**
+- Sourcing strategy : 2-3 sem (définir stratégie, fournisseurs)
+- WMS design : 4-5 sem (schema complet, layout, flows)
+- S&OP design : 3-4 sem (process mensuel, decision rules)
 
 ---
 
@@ -99,10 +99,10 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 - Pilot simple (1 processus) : 4 sem
 - Pilot complet (multi-zone, tech) : 6-8 sem
 
-**Cas réels:**
-- Sourcing pilot (Bosch) : 3-4 sem (2 catégories sourcing tested)
-- WMS pilot (Casanet) : 5-6 sem (1 zone warehouse, parallel run)
-- iFA pilot (SOMACA) : 4-5 sem (kitting automation tested)
+**Durées types :**
+- Sourcing pilot : 3-4 sem (2 catégories sourcing tested)
+- WMS pilot : 5-6 sem (1 zone warehouse, parallel run)
+- Pilote d'automatisation en usine : 4-5 sem (kitting automation tested)
 
 ---
 
@@ -128,10 +128,10 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 - Rollout simple (1-2 zones) : 4-6 sem
 - Rollout complet (10+ sites, multi-région) : 8-12 sem
 
-**Cas réels:**
-- Sourcing rollout (Douja) : 4-6 sem (roll across all categories)
-- WMS rollout (DHL) : 6-8 sem (3 sites staggered)
-- Transformation Tanger (Renault) : 12+ sem (ramp production graduel)
+**Durées types :**
+- Sourcing rollout : 4-6 sem (roll across all categories)
+- WMS rollout : 6-8 sem (3 sites en décalé)
+- Site industriel greenfield : 12+ sem (montée en cadence progressive)
 
 ---
 
@@ -186,7 +186,7 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 - Stabilisation : 6-8 sem
 - **Total: 4-6 months**
 
-**Cas réel:** Bosch sourcing (5 mois) OU Oland S&OP (4 mois).
+**Durée type :** 4 à 5 mois pour un projet achats ou S&OP sans outil à déployer.
 
 ---
 
@@ -202,7 +202,7 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 - Stabilisation : 10-12 sem
 - **Total: 6-9 months**
 
-**Cas réel:** Casanet WMS (6 mois) OU DHL 3-sites (9 mois).
+**Durée type :** 6 mois pour un WMS sur un site, 9 mois sur plusieurs sites.
 
 ---
 
@@ -218,7 +218,7 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 - Stabilisation : 12-16 sem
 - **Total: 9-12 months**
 
-**Cas réel:** Renault Tanger (18 months, mais aussi ramp production).
+**Durée type :** 12 mois et plus pour un site industriel neuf, montée en cadence comprise.
 
 ---
 
@@ -283,9 +283,9 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 
 ---
 
-## Cas Réels: Timeline Breakdown
+## Exemples Types : Découpage de la Timeline
 
-### Cas 1: Bosch Maroc Sourcing (5 mois)
+### Exemple 1 : projet sourcing achats (5 mois)
 
 | Phase | Duration | Activities |
 |-------|----------|-----------|
@@ -300,7 +300,7 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 
 ---
 
-### Cas 2: Casanet WMS (6 mois)
+### Exemple 2 : déploiement d'un WMS (6 mois)
 
 | Phase | Duration | Activities |
 |-------|----------|-----------|
@@ -315,17 +315,15 @@ Basé sur 20+ ans d'expérience et 110+ missions, voici les timelines réalistes
 
 ---
 
-### Cas 3: Renault Tanger Usine (18 months)
+### Exemple 3 : logistique d'un site industriel neuf (12 mois et plus)
 
-| Phase | Duration | Activities |
+| Phase | Durée | Activités |
 |-------|----------|-----------|
-| Engineering | 4 mon | Site design, automation |
-| Equipment | 6 mon | iFA setup, calibration |
-| Pilot production | 2 mon | Line 1 tested at 50 units/day |
-| Ramp 1 | 1 mon | Line 1 to 200 units/day |
-| Ramp 2 | 1 mon | Lines 2-3 come online |
-| Stabilisation | 4 mon | Full 400 units/day stable |
-| **Total** | **18 months** | |
+| Conception | plusieurs mois | Flux amont, implantation, standards |
+| Équipements | plusieurs mois | Installation, réglages |
+| Démarrage | quelques mois | Première ligne à cadence réduite |
+| Montée en cadence | quelques mois | Lignes suivantes, cadence nominale |
+| **Total** | **12 mois et plus** | |
 
 **Key:** Manufacturing = Long timeline due equipment + production ramp complexity.
 

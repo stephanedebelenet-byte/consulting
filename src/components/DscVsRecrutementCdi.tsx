@@ -58,7 +58,7 @@ export default function DscVsRecrutementCdi() {
           <FadeUp>
             <div className="section-tag"><span>Comparatif · CDI vs Mandat</span></div>
             <p style={{ fontSize: '1.05rem', color: 'var(--ink)', lineHeight: 1.85, fontWeight: 300, maxWidth: 760, marginTop: '2rem' }}>
-              <strong style={{ fontWeight: 600 }}>Un Directeur Supply Chain en CDI coûte 600 000 à 900 000 MAD par an charges comprises, avec 4 à 6 mois entre la décision et la prise de poste.</strong> Un mandat Nextinotech démarre en 2 semaines, sans charges sociales ni risque RH, pour 180 000 à 550 000 MAD selon la taille de l&apos;entreprise et la durée du mandat — avec un exit propre prévu dès la signature. Les deux options répondent à des besoins différents, pas à un même problème avec deux prix.
+              <strong style={{ fontWeight: 600 }}>Un Directeur Supply Chain en CDI coûte 600 000 à 900 000 MAD brut par an, plus environ 21 % de charges patronales, avec 4 à 6 mois entre la décision et la prise de poste.</strong> Un mandat Nextinotech démarre en 2 semaines, sans charges sociales ni risque RH, pour 180 000 à 550 000 MAD selon la taille de l&apos;entreprise et la durée du mandat — avec un exit propre prévu dès la signature. Les deux options répondent à des besoins différents, pas à un même problème avec deux prix.
             </p>
           </FadeUp>
         </div>

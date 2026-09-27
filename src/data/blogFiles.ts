@@ -13,9 +13,7 @@
 // Module pur, sans React : importable depuis vite.config.ts.
 export const BLOG_FILES: string[] = [
     // Articles long-form
-    '01-audit-supply-chain-2026',
-    '02-formation-supply-chain-roi',
-    '03-digitalisation-supply-chain-pme',
+    '01-audit-supply-chain-2026',    '03-digitalisation-supply-chain-pme',
     '04-supply-chain-par-secteur',
     '05-cout-mission-consulting',
     '06-duree-transformation-supply-chain',
@@ -31,11 +29,7 @@ export const BLOG_FILES: string[] = [
     // des articles éditoriaux mais des pages d'inscription à un événement.
     // Mini FAQ
     '40-faq-combien-economiser-achats',
-    '41-mini-wms-oui-ou-non-pour-ma-pme',
-    '42-mini-formation-ou-consulting---quelle-approche',
-    '43-mini-quel-est-votre-taux-de-succès-reel',
-    '44-mini-combien-de-temps-transformation-supply-chain',
-    '45-mini-travaillez-vous-avec-petites-entreprises',
+    '41-mini-wms-oui-ou-non-pour-ma-pme',    '43-mini-quel-est-votre-taux-de-succès-reel',    '45-mini-travaillez-vous-avec-petites-entreprises',
     '46-mini-pouvez-vous-garantir-roi',
     '47-mini-comment-debuter-première-Étape',
     '48-mini-consultants-independants-ou-Équipe',

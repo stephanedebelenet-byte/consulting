@@ -50,11 +50,11 @@ Pour 8 personnes formées simultanément, le coût par personne d'une intra-entr
 
 ## Exemples de Programmes Intra-Entreprise Réalisés
 
-**Bosch Maroc (2014) :** Formation supply chain stratégique pour 15 cadres. Focus : S&OP, SRM, pilotage des KPIs. Durée : 3 jours.
+**Un industriel équipementier :** formation supply chain stratégique pour 15 cadres. Focus : S&OP, SRM, pilotage des KPIs. Durée : 3 jours.
 
-**Casanet/Maroc Telecom (2014) :** Formation WMS et optimisation entrepôt pour 12 personnes. Durée : 2 jours + audit entrepôt préalable.
+**Un opérateur de services avec entrepôt :** formation WMS et optimisation entrepôt pour 12 personnes. Durée : 2 jours + audit entrepôt préalable.
 
-**Oland Group (2015) :** Programme achats et négociation pour l'équipe achats (8 personnes). Durée : 2 jours avec simulation de négociation.
+**Un groupe de distribution :** programme achats et négociation pour l'équipe achats (8 personnes). Durée : 2 jours avec simulation de négociation.
 
 **PME agroalimentaire Casablanca (2024) :** Formation DDMRP et planification pour 6 personnes. Durée : 2 jours. Résultat : stocks -22% en 4 mois.
 

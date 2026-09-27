@@ -13,7 +13,7 @@ description: "Guide complet : comment choisir et implémenter WMS/TMS/ERP pour P
 
 C'est la question. Et c'est aussi le piège.
 
-Après 12+ ans de projets digitaux (DHL, Renault, SOMACA, Diana Holding), je vois le même pattern : PME investissent dans WMS/TMS/ERP, mais sans stratégie. Résultat : Adoption 40-50%, ROI négatif.
+Après des années de projets digitaux (DHL, Renault, Diana Holding), je vois le même pattern : des PME investissent dans un WMS, un TMS ou un ERP sans stratégie, et une partie des équipes n'utilise jamais vraiment l'outil.
 
 **La technologie seule ne change rien.** C'est la stratégie + processus + changement qui crée valeur.
 
@@ -151,9 +151,9 @@ Quand vous m'appelez, voilà ce qu'on fait:
 
 **Cas réel — Douja Promotion Addoha (2013-2014) :**
 - Volume : 710 MMAD annuel, 31 chantiers Maroc/Afrique
-- Transport partners : CMA-CGM, MAERSK, TNT
-- Baseline : Shipments non-consolidé, cost +15% vs optimum
-- Post-TMS (3 mois) : Consolidation 82%, cost -12%, delay reduced
+- Point de départ : expéditions non consolidées vers les chantiers
+- Action : consolidation des envois et pilotage des transporteurs
+- Effet recherché : moins d'envois partiels, des délais mieux tenus
 
 **Timeline :** 3-4 mois
 
@@ -221,8 +221,8 @@ Quand vous m'appelez, voilà ce qu'on fait:
 - Go-live zone quand confidence 85%+
 
 **Data points :**
-- SOMACA iFA pilot (4 semaines) → Production +25% efficiency
-- DHL WMS pilot (6 semaines) → Picking -30% time
+- Pilote d'automatisation en usine : environ 4 semaines
+- Pilote WMS en entrepôt : environ 6 semaines
 
 **Coût:** Implementation resources (50-100K MAD)
 
