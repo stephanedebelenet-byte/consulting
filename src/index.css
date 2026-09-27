@@ -474,6 +474,11 @@ html.lenis { height: auto; }
   .pilliers-grid { grid-template-columns: 1fr !important; gap: 1rem !important; }
   /* Systemes (Services) : header 2 colonnes → 1 (même bug récurrent : jamais eu de repli mobile) */
   .systemes-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }
+  /* Conseil : header "Nos offres Conseil" 2 colonnes → 1 (même bug récurrent — la
+     colonne 2 (paragraphe) se retrouve compressée hors viewport ; ne se voyait
+     pas en français, révélé par la version anglaise (27/09/2026, texte plus long
+     ne laissant plus assez de place à la 2e colonne 1fr)) */
+  .conseil-header-grid { grid-template-columns: 1fr !important; gap: 2rem !important; margin-bottom: 3rem !important; }
   /* Systemes : ligne accordéon WMS/TMS/APS — 64px + 3×2.5rem de gap ne laissait que
      ~150px pour le nom complet + le bouton +, débordement mesuré */
   .system-row-grid { grid-template-columns: 28px auto 1fr auto !important; gap: 0.6rem !important; }

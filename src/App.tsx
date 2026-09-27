@@ -4,6 +4,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Layout from './components/Layout'
+import { LocaleProvider, type Locale } from './i18n/locale'
 import HomePage from './pages/HomePage'
 import ConseilPage from './pages/ConseilPage'
 import PrestationsPage from './pages/PrestationsPage'
@@ -70,12 +71,17 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={routeKey}>
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
+        <Route path="/en" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
+        <Route path="/en/consulting" element={<PageTransition><ConseilPage /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
+        <Route path="/en/services" element={<PageTransition><PrestationsPage /></PageTransition>} />
         <Route path="/control-tower" element={<PageTransition><ControlTowerPage /></PageTransition>} />
+        <Route path="/en/control-tower" element={<PageTransition><ControlTowerPage /></PageTransition>} />
         <Route path="/services" element={<ServicesRedirect />} />
         <Route path="/references" element={<PageTransition><ReferencesPage /></PageTransition>} />
         <Route path="/formation" element={<PageTransition><FormationPage /></PageTransition>} />
+        <Route path="/en/training" element={<PageTransition><FormationPage /></PageTransition>} />
         {/* Le canon (sitemap.xml, llms.txt, liens internes) utilise l'URL avec
             slash final ; on enregistre les deux formes pour ne rien casser. */}
         <Route path="/formation-rl" element={<PageTransition><FormationRLPage /></PageTransition>} />
@@ -90,12 +96,14 @@ function AnimatedRoutes() {
         ))}
         <Route path="/formation/:programme" element={<PageTransition><FormationProgrammePage /></PageTransition>} />
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
+        <Route path="/en/about" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/blog/:slug" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/evenements/:slug" element={<PageTransition><EvenementPage /></PageTransition>} />
         <Route path="/solutions/marquage-et-tracabilite" element={<PageTransition><MarquageTracabilitePage /></PageTransition>} />
         <Route path="/solutions/carte-visite-digitale-nfc" element={<PageTransition><CarteNfcPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />
+        <Route path="/en/contact" element={<PageTransition><ContactPage /></PageTransition>} />
         <Route path="/confidentialite" element={<PageTransition><ConfidentialitePage /></PageTransition>} />
         <Route path="/outils/dimensionnement-entrepot" element={<PageTransition><DimensionnementEntrepotPage /></PageTransition>} />
         <Route path="/outils/productivite-engins-main-doeuvre" element={<PageTransition><ProductiviteEnginsPage /></PageTransition>} />
@@ -124,10 +132,18 @@ function AnimatedRoutes() {
 // chantier qui corrige le <body> vide de ces pages pour les crawlers qui
 // n'exécutent pas de JS, voir audit GEO du 25/09/2026).
 export function AppRoutes() {
+  const { pathname } = useLocation()
+  // Anglais (27/09/2026) : locale dérivée du préfixe d'URL /en, jamais d'un
+  // choix de navigateur ou d'un cookie — chaque langue a sa propre adresse
+  // indexable (SEO), voir src/i18n/locale.tsx. '/en' et '/en/' visent la même
+  // page que '/'. Englobe Layout (Nav/Footer/MobileTabBar en dépendent aussi).
+  const locale: Locale = pathname === '/en' || pathname.startsWith('/en/') ? 'en' : 'fr'
   return (
-    <Layout>
-      <AnimatedRoutes />
-    </Layout>
+    <LocaleProvider locale={locale}>
+      <Layout>
+        <AnimatedRoutes />
+      </Layout>
+    </LocaleProvider>
   )
 }
 

@@ -1,6 +1,16 @@
+import { useLocale } from '../i18n/locale'
+
 export default function Footer() {
+  const { locale, tr, href: h } = useLocale()
   // Unités métier en tête (voir Nav.tsx), puis pages du cabinet.
-  const nav = [
+  const nav = locale === 'en' ? [
+    { label: 'Nextinotech Academy', href: '/formation' },
+    { label: 'Nextinotech Consulting', href: '/conseil' },
+    { label: 'Nextinotech Digital', href: '/control-tower' },
+    { label: 'Part-Time Supply Chain Direction', href: '/direction-supply-chain-temps-partage' },
+    { label: 'About', href: '/a-propos' },
+    { label: 'Careers', href: '/carriere' },
+  ] : [
     { label: 'Nextinotech Académie', href: '/formation' },
     { label: 'Nextinotech Conseil', href: '/conseil' },
     { label: 'Nextinotech Digital', href: '/control-tower' },
@@ -9,12 +19,22 @@ export default function Footer() {
     { label: 'Carrière', href: '/carriere' },
   ]
 
-  const engagements = [
-    'Indépendant',
-    'DDMRP Certified',
-    '20+ ans terrain Maroc',
-    'PME & ETI — Tarifs publics',
+  const services = locale === 'en' ? [
+    { label: 'On-the-ground training', href: '/formation' },
+    { label: 'Consulting & SC advisory', href: '/conseil' },
+    { label: 'Operational services', href: '/prestations' },
+    { label: 'Part-time supply chain direction', href: '/direction-supply-chain-temps-partage' },
+  ] : [
+    { label: 'Formation terrain', href: '/formation' },
+    { label: 'Conseil & AMOA SC', href: '/conseil' },
+    { label: 'Prestations opérationnelles', href: '/prestations' },
+    { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
   ]
+
+  const engagements = tr(
+    ['Indépendant', 'DDMRP Certified', '20+ ans terrain Maroc', 'PME & ETI — Tarifs publics'],
+    ['Independent', 'DDMRP Certified', '20+ Years on the Ground in Morocco', 'SMEs & Mid-Caps — Public Pricing']
+  )
 
   return (
     <footer
@@ -43,7 +63,7 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <a
-              href="/"
+              href={h('/')}
               style={{
                 fontFamily: 'Manrope, sans-serif',
                 fontSize: '1.4rem',
@@ -74,8 +94,12 @@ export default function Footer() {
                 marginBottom: '1.5rem',
               }}
             >
-              Nextinotech — cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
-              marocaines. Notre seule allégeance est à votre business case.
+              {tr(
+                <>Nextinotech — cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI
+                marocaines. Notre seule allégeance est à votre business case.</>,
+                <>Nextinotech — an independent Supply Chain consulting and advisory firm, dedicated to Moroccan
+                SMEs and mid-caps. Our only allegiance is to your business case.</>
+              )}
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
               {engagements.map((e) => (
@@ -110,13 +134,13 @@ export default function Footer() {
                 marginBottom: '1.5rem',
               }}
             >
-              Navigation
+              {tr('Navigation', 'Navigation')}
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {nav.map(({ label, href }) => (
                 <li key={href}>
                   <a
-                    href={href}
+                    href={h(href)}
                     style={{
                       fontSize: '0.88rem',
                       color: 'var(--mid)',
@@ -147,18 +171,13 @@ export default function Footer() {
                 marginBottom: '1.5rem',
               }}
             >
-              Nos services
+              {tr('Nos services', 'Our Services')}
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              {[
-                { label: 'Formation terrain', href: '/formation' },
-                { label: 'Conseil & AMOA SC', href: '/conseil' },
-                { label: 'Prestations opérationnelles', href: '/prestations' },
-                { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
-              ].map(({ label, href }) => (
+              {services.map(({ label, href }) => (
                 <li key={href}>
                   <a
-                    href={href}
+                    href={h(href)}
                     style={{
                       fontSize: '0.88rem',
                       color: 'var(--mid)',
@@ -192,12 +211,17 @@ export default function Footer() {
               Contact
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
-              {[
+              {(locale === 'en' ? [
+                { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
+                { tag: 'Tel', label: '+212 06 63 44 92 00', href: 'tel:+212663449200' },
+                { tag: 'WA', label: 'WhatsApp', href: 'https://wa.me/212663449200' },
+                { tag: 'Loc.', label: 'Technopark Casablanca, 3rd floor', href: 'https://www.google.com/maps/search/?api=1&query=Technopark+Casablanca+Route+de+Nouaceur' },
+              ] : [
                 { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
                 { tag: 'Tél', label: '+212 06 63 44 92 00', href: 'tel:+212663449200' },
                 { tag: 'WA', label: 'WhatsApp', href: 'https://wa.me/212663449200' },
                 { tag: 'Lieu', label: 'Technopark Casablanca, 3ème étage', href: 'https://www.google.com/maps/search/?api=1&query=Technopark+Casablanca+Route+de+Nouaceur' },
-              ].map(({ tag, label, href }) => (
+              ]).map(({ tag, label, href }) => (
                 <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '0.75rem', minWidth: 0 }}>
                   <span style={{
                     fontFamily: 'DM Mono, monospace',
@@ -261,7 +285,7 @@ export default function Footer() {
                   ((e.target as HTMLElement).style.background = 'var(--blue-bright)')
                 }
               >
-                Prendre RDV →
+                {tr('Prendre RDV →', 'Book a Call →')}
               </a>
             </div>
           </div>
@@ -283,9 +307,9 @@ export default function Footer() {
             letterSpacing: '0.06em',
           }}
         >
-          <span>© 2026 NEXTINOTECH — TOUS DROITS RÉSERVÉS</span>
-          <a href="/confidentialite" style={{ color: 'inherit', textDecoration: 'none' }}>CONFIDENTIALITÉ</a>
-          <span>TECHNOPARK CASABLANCA · MAROC · PME & ETI</span>
+          <span>{tr('© 2026 NEXTINOTECH — TOUS DROITS RÉSERVÉS', '© 2026 NEXTINOTECH — ALL RIGHTS RESERVED')}</span>
+          <a href="/confidentialite" style={{ color: 'inherit', textDecoration: 'none' }}>{tr('CONFIDENTIALITÉ', 'PRIVACY POLICY')}</a>
+          <span>{tr('TECHNOPARK CASABLANCA · MAROC · PME & ETI', 'TECHNOPARK CASABLANCA · MOROCCO · SMES & MID-CAPS')}</span>
         </div>
       </div>
     </footer>

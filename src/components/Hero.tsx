@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useLocale } from '../i18n/locale'
 
 // Guard SSR : ce module est importé par le rendu statique build-time
 // (renderAppRoute, vite.config.ts) qui exécute App en Node, sans window/DOM.
@@ -17,10 +18,23 @@ const LINES = [
   { text: 'avantage compétitif.', italic: true },
 ]
 
+const LINES_EN = [
+  { text: 'Transform', italic: false },
+  { text: 'your Supply', italic: false },
+  { text: 'Chain into a', italic: false },
+  { text: 'competitive edge.', italic: true },
+]
+
 const STATS = [
   { value: '110+', label: 'Missions réalisées' },
   { value: '20+', label: "Ans d'expérience" },
   { value: '~5', label: 'Consultants experts' },
+]
+
+const STATS_EN = [
+  { value: '110+', label: 'Missions completed' },
+  { value: '20+', label: 'Years of experience' },
+  { value: '~5', label: 'Expert consultants' },
 ]
 
 const NODES = [
@@ -134,6 +148,9 @@ function NetworkSVG() {
 export default function Hero() {
   const [textVisible, setTextVisible] = useState(true)
   const heroRef = useRef<HTMLElement>(null)
+  const { locale, tr, href } = useLocale()
+  const lines = locale === 'en' ? LINES_EN : LINES
+  const stats = locale === 'en' ? STATS_EN : STATS
 
   useEffect(() => {
     setTextVisible(true)
@@ -204,7 +221,7 @@ export default function Hero() {
           color: 'var(--mid)',
           textTransform: 'uppercase',
         }}>
-          Logistique · Maroc
+          {tr('Logistique · Maroc', 'Logistics · Morocco')}
         </div>
         <div style={{ width: 1, height: 40, background: 'var(--border)' }} />
       </div>
@@ -233,12 +250,12 @@ export default function Hero() {
           }}
         >
           <span style={{ display: 'block', width: 32, height: 1, background: 'var(--blue-bright)' }} />
-          Cabinet indépendant · Supply Chain · Casablanca, Maroc
+          {tr('Cabinet indépendant · Supply Chain · Casablanca, Maroc', 'Independent Firm · Supply Chain · Casablanca, Morocco')}
         </motion.div>
 
         {/* ── Headline — 4 lines mask-reveal ── */}
         <h1 style={{ margin: 0, marginBottom: '3.5rem' }}>
-          {LINES.map((line, i) => (
+          {lines.map((line, i) => (
             <div
               key={i}
               style={{
@@ -293,8 +310,12 @@ export default function Hero() {
               margin: 0,
             }}
           >
-            Cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI marocaines.
-            Notre seule allégeance est à votre business case.
+            {tr(
+              <>Cabinet indépendant de conseil et d&apos;AMOA en Supply Chain, dédié aux PME et ETI marocaines.
+              Notre seule allégeance est à votre business case.</>,
+              <>An independent Supply Chain consulting and advisory firm, dedicated to Moroccan SMEs and mid-caps.
+              Our only allegiance is to your business case.</>
+            )}
           </motion.p>
 
           <motion.div
@@ -303,11 +324,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 1.1 }}
           >
-            <Link to="/contact" className="btn-primary" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
-              Réserver un échange gratuit →
+            <Link to={href('/contact')} className="btn-primary" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
+              {tr('Réserver un échange gratuit →', 'Book a free call →')}
             </Link>
-            <Link to="/conseil" className="btn-ghost" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
-              Nos offres
+            <Link to={href('/conseil')} className="btn-ghost" style={{ whiteSpace: 'normal', textAlign: 'center', maxWidth: '100%' }}>
+              {tr('Nos offres', 'Our offers')}
             </Link>
           </motion.div>
         </div>
@@ -323,19 +344,19 @@ export default function Hero() {
           bottom: 0, left: 0, right: 0,
           zIndex: 2,
           display: 'grid',
-          gridTemplateColumns: `repeat(${STATS.length}, 1fr)`,
+          gridTemplateColumns: `repeat(${stats.length}, 1fr)`,
           background: 'rgba(255,255,255,0.85)',
           backdropFilter: 'blur(24px) saturate(1.4)',
           WebkitBackdropFilter: 'blur(24px) saturate(1.4)',
           borderTop: '1px solid var(--border)',
         }}
       >
-        {STATS.map((s, i) => (
+        {stats.map((s, i) => (
           <div
             key={s.label}
             style={{
               padding: '1.4rem 1.8rem',
-              borderRight: i < STATS.length - 1 ? '1px solid var(--border)' : 'none',
+              borderRight: i < stats.length - 1 ? '1px solid var(--border)' : 'none',
             }}
           >
             <div className="stat-value">{s.value}</div>

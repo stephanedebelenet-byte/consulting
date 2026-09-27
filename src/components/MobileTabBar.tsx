@@ -15,6 +15,7 @@ import {
   IconChartLine,
 } from '@tabler/icons-react'
 import { useMobileMenu } from '../contexts/MobileMenuContext'
+import { useLocale } from '../i18n/locale'
 
 const TOOLS_ITEMS = [
   { label: 'Dimensionnement entrepôt', href: '/outils/dimensionnement-entrepot', icon: IconRuler2 },
@@ -25,19 +26,33 @@ const TOOLS_ITEMS = [
   { label: 'Démo APS', href: '/demo/aps', icon: IconChartLine },
 ]
 
+const TOOLS_ITEMS_EN = [
+  { label: 'Warehouse Sizing', href: '/outils/dimensionnement-entrepot', icon: IconRuler2 },
+  { label: 'Total Warehouse Cost', href: '/outils/cout-global-entrepot', icon: IconCalculator },
+  { label: 'Equipment & Labor Productivity', href: '/outils/productivite-engins-main-doeuvre', icon: IconGauge },
+  { label: 'WMS Demo', href: '/demo/wms', icon: IconBuildingWarehouse },
+  { label: 'TMS Demo', href: '/demo/tms', icon: IconTruck },
+  { label: 'APS Demo', href: '/demo/aps', icon: IconChartLine },
+]
+
 const ease = [0.16, 1, 0.3, 1] as const
 
 export default function MobileTabBar() {
   const { pathname } = useLocation()
   const { menuOpen, setMenuOpen, toolsOpen, setToolsOpen } = useMobileMenu()
+  const { locale, tr, href } = useLocale()
+
+  // Le préfixe /en (anglais) est retiré avant de tester le chemin : les
+  // match() ci-dessous gardent exactement la même logique qu'en français.
+  const normalized = pathname === '/en' ? '/' : pathname.startsWith('/en/') ? pathname.slice(3) : pathname
 
   const tabs = [
-    { label: 'Accueil', href: '/', icon: IconHome, match: (p: string) => p === '/' },
+    { label: tr('Accueil', 'Home'), href: href('/'), icon: IconHome, match: (p: string) => p === '/' },
     // Unités métier (voir Nav.tsx) : Académie, Conseil, Digital.
-    { label: 'Académie', href: '/formation', icon: IconSchool, match: (p: string) => p === '/formation' || p.startsWith('/formation') || p.startsWith('/ingenierie-formation') },
-    { label: 'Conseil', href: '/conseil', icon: IconBriefcase, match: (p: string) => ['/conseil', '/prestations', '/direction-supply-chain-temps-partage', '/directeur-logistique-mi-temps', '/directeur-achats-mi-temps', '/dsc-vs-recrutement-cdi', '/accompagnement-oea'].includes(p) },
+    { label: tr('Académie', 'Academy'), href: '/formation', icon: IconSchool, match: (p: string) => p === '/formation' || p.startsWith('/formation') || p.startsWith('/ingenierie-formation') },
+    { label: tr('Conseil', 'Consulting'), href: href('/conseil'), icon: IconBriefcase, match: (p: string) => ['/conseil', '/prestations', '/direction-supply-chain-temps-partage', '/directeur-logistique-mi-temps', '/directeur-achats-mi-temps', '/dsc-vs-recrutement-cdi', '/accompagnement-oea'].includes(p) },
     { label: 'Digital', icon: IconTools, action: () => setToolsOpen(!toolsOpen), match: (p: string) => p === '/control-tower' || p.startsWith('/outils') || p.startsWith('/demo') },
-    { label: 'Menu', icon: menuOpen ? IconX : IconMenu2, action: () => setMenuOpen(!menuOpen), match: () => false },
+    { label: tr('Menu', 'Menu'), icon: menuOpen ? IconX : IconMenu2, action: () => setMenuOpen(!menuOpen), match: () => false },
   ]
 
   return (
@@ -55,7 +70,7 @@ export default function MobileTabBar() {
         }}
       >
         {tabs.map((tab) => {
-          const active = tab.match(pathname)
+          const active = tab.match(normalized)
           const Icon = tab.icon
           const content = (
             <>
@@ -124,17 +139,20 @@ export default function MobileTabBar() {
                 <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.6)' }}>
                   Nextinotech Digital
                 </span>
-                <button onClick={() => setToolsOpen(false)} aria-label="Fermer" style={{ background: 'none', border: 'none', padding: 0 }}>
+                <button onClick={() => setToolsOpen(false)} aria-label={tr('Fermer', 'Close')} style={{ background: 'none', border: 'none', padding: 0 }}>
                   <IconX size={20} color="var(--mid)" />
                 </button>
               </div>
-              {[
+              {(locale === 'en' ? [
+                { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · AI)', href: '/control-tower' },
+                { label: 'Systems Integration', href: '/prestations#solutions-it' },
+              ] : [
                 { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · IA)', href: '/control-tower' },
                 { label: 'Intégrateur de Systèmes', href: '/prestations#solutions-it' },
-              ].map(({ label, href }) => (
+              ]).map(({ label, href: itemHref }) => (
                 <Link
                   key={label}
-                  to={href}
+                  to={href(itemHref)}
                   onClick={() => setToolsOpen(false)}
                   style={{ display: 'block', padding: '0.85rem 0', borderBottom: '1px solid rgba(27,53,84,0.08)', fontSize: '0.85rem', color: 'var(--navy)', textDecoration: 'none' }}
                 >
@@ -142,13 +160,13 @@ export default function MobileTabBar() {
                 </Link>
               ))}
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.45)', margin: '1.25rem 0 0.75rem' }}>
-                Simulateurs & démos gratuits
+                {tr('Simulateurs & démos gratuits', 'Free simulators & demos')}
               </div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
-                {TOOLS_ITEMS.map(({ label, href, icon: Icon }) => (
+                {(locale === 'en' ? TOOLS_ITEMS_EN : TOOLS_ITEMS).map(({ label, href: itemHref, icon: Icon }) => (
                   <Link
                     key={label}
-                    to={href}
+                    to={href(itemHref)}
                     onClick={() => setToolsOpen(false)}
                     style={{
                       display: 'flex',

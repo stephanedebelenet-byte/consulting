@@ -12,10 +12,11 @@
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
 import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, buildProgrammesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
+import { PROGRAMMES_EN, FAQ_EN } from './formationsEn'
 import { generateFAQSchema } from '../utils/seoData'
 import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq'
-import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS } from './controlTower'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS, OFFER_TIERS_EN, CONTROL_TOWER_FAQ_EN, CONTROL_TOWER_VIDEO_EN, CONTROL_TOWER_SCREENS_EN } from './controlTower'
 
 export interface PrerenderRoute {
   path: string
@@ -41,6 +42,12 @@ export interface PrerenderRoute {
    * la cause du blocage d'indexation identifié le 22/09/2026.
    */
   bodyHtml?: string
+  /**
+   * Anglais (27/09/2026) : chemin de la même page dans l'autre langue, pour
+   * la paire de balises hreflang réciproques (voir renderRoute, vite.config.ts).
+   * Ex. sur '/', altPath: '/en' ; sur '/en', altPath: '/'.
+   */
+  altPath?: string
 }
 
 const SUFFIX = ' | Nextinotech'
@@ -145,6 +152,7 @@ const STATIC: PrerenderRoute[] = [
     priority: 1.0,
     changefreq: 'monthly',
     lastmod: '2026-08-05',
+    altPath: '/en',
   },
   {
     path: '/conseil',
@@ -155,6 +163,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-08-31',
     isOffer: true,
+    altPath: '/en/consulting',
   },
   {
     path: '/prestations',
@@ -165,6 +174,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-09-22',
     isOffer: true,
+    altPath: '/en/services',
   },
   {
     path: '/control-tower',
@@ -175,6 +185,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-09-22',
     isOffer: true,
+    altPath: '/en/control-tower',
   },
   {
     path: '/references',
@@ -193,6 +204,7 @@ const STATIC: PrerenderRoute[] = [
     priority: 0.75,
     changefreq: 'monthly',
     lastmod: '2026-08-24',
+    altPath: '/en/about',
   },
   {
     path: '/blog',
@@ -211,6 +223,7 @@ const STATIC: PrerenderRoute[] = [
     priority: 0.7,
     changefreq: 'monthly',
     lastmod: '2026-08-05',
+    altPath: '/en/contact',
   },
   {
     path: '/carriere',
@@ -252,6 +265,7 @@ const STATIC: PrerenderRoute[] = [
     changefreq: 'weekly',
     lastmod: '2026-08-06',
     isOffer: true,
+    altPath: '/en/training',
   },
   {
     path: '/formation-rl',
@@ -472,12 +486,18 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
     // /formation/<id> dans llms.txt.
   }))
 
-  return [...STATIC, ...villes, ...programmes].map((r) => {
+  const fr = [...STATIC, ...villes, ...programmes].map((r) => {
     const o = SEO_OVERRIDES[r.path] ?? {}
     const route = { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
     const extra = pageSchemas(route)
     return withBreadcrumb(extra.length ? { ...route, jsonLd: [...(route.jsonLd ?? []), ...extra] } : route)
   })
+  // Anglais (27/09/2026) : routes séparées, hors du pipeline français
+  // (SEO_OVERRIDES, pageSchemas, withBreadcrumb sont pensés pour le français
+  // — FAQ non traduites, fil d'Ariane français…) — chaque entrée d'EN_ROUTES
+  // porte déjà son propre jsonLd complet. Voir src/i18n/locale.tsx : EN_PATHS
+  // doit être tenu à jour en parallèle de cette liste.
+  return [...fr, ...EN_ROUTES]
 }
 
 // Fil d'Ariane propre à chaque page (audit du 26/09/2026). Auparavant, un
@@ -508,6 +528,243 @@ function breadcrumbParents(path: string): { path: string; name: string }[] {
 const SITE_URL = 'https://nextinotech.com'
 const ORG_REF = { '@id': `${SITE_URL}/#organization` }
 const DIGITAL_REF = { '@id': `${SITE_URL}/#digital` }
+
+// Anglais (27/09/2026) : pages traduites, voir src/i18n/locale.tsx
+// (FR_TO_EN) pour la table des pages qui ont une version anglaise et
+// Nav/Footer/MobileTabBar pour le sélecteur de langue. jsonLd autonome
+// (WebPage), référence les mêmes nœuds partagés (#organization, #website)
+// que le graphe français d'index.html — c'est la même entreprise, juste
+// décrite dans une autre langue, pas une entité distincte. Référencée par
+// getPrerenderRoutes() ci-dessus (défini avant ce point du fichier, mais
+// exécuté après : les fonctions ne s'évaluent qu'à l'appel).
+const EN_ROUTES: PrerenderRoute[] = [
+  {
+    path: '/en/about',
+    title: 'About — Independent Supply Chain Firm' + SUFFIX,
+    description:
+      'Nextinotech, an independent Supply Chain firm for Moroccan SMEs and mid-caps. 20+ years on the ground, DDMRP certified team.',
+    priority: 0.75,
+    changefreq: 'monthly',
+    lastmod: '2026-09-27',
+    altPath: '/a-propos',
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/en/about#webpage`,
+      url: `${SITE_URL}/en/about`,
+      name: 'About Nextinotech — Independent Supply Chain Firm',
+      description:
+        'Nextinotech, an independent Supply Chain firm for Moroccan SMEs and mid-caps. 20+ years on the ground, DDMRP certified team.',
+      inLanguage: 'en',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      about: ORG_REF,
+    }],
+  },
+  {
+    path: '/en/contact',
+    title: 'Contact — Supply Chain Consulting & Training, Casablanca',
+    description:
+      'Contact Nextinotech for a Supply Chain diagnosis, consulting mission or training. Reply within 24h. Casablanca, Morocco — contact@nextinotech.com.',
+    priority: 0.7,
+    changefreq: 'monthly',
+    lastmod: '2026-09-27',
+    altPath: '/contact',
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'ContactPage',
+      '@id': `${SITE_URL}/en/contact#webpage`,
+      url: `${SITE_URL}/en/contact`,
+      name: 'Contact — Supply Chain Consulting & Training, Casablanca',
+      description:
+        'Contact Nextinotech for a Supply Chain diagnosis, consulting mission or training. Reply within 24h. Casablanca, Morocco — contact@nextinotech.com.',
+      inLanguage: 'en',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      mainEntity: ORG_REF,
+    }],
+  },
+  {
+    path: '/en/control-tower',
+    title: 'Nextinotech Digital: Control Tower WMS, TMS, IoT, AI',
+    description:
+      'Run your supply chain in real time: WMS, TMS, IMS, AMS, IoT and AI in one control tower. Offer in 3 tiers, team training and advisory included.',
+    priority: 0.85,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/control-tower',
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        '@id': `${SITE_URL}/en/control-tower#service`,
+        name: 'Supply Chain Control Tower',
+        serviceType: 'Real-time supply chain steering (WMS, TMS, IMS, AMS, IoT, AI)',
+        description:
+          'Run your supply chain in real time: WMS, TMS, IMS, AMS, IoT and AI in one control tower. Offer in 3 tiers, team training and advisory included.',
+        url: `${SITE_URL}/en/control-tower`,
+        provider: DIGITAL_REF,
+        areaServed: { '@type': 'Country', name: 'Morocco' },
+        image: CONTROL_TOWER_SCREENS_EN.map((s) => ({
+          '@type': 'ImageObject',
+          contentUrl: SITE_URL + s.src,
+          name: s.title,
+          description: s.alt,
+          width: s.w,
+          height: s.h,
+        })),
+        subjectOf: { '@id': `${SITE_URL}/en/control-tower#video` },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Control Tower Tiers',
+          itemListElement: OFFER_TIERS_EN.map((t) => ({
+            '@type': 'Offer',
+            name: t.name,
+            description: `${t.desc} · ${t.duration}`,
+            priceSpecification: { '@type': 'PriceSpecification', minPrice: Number(t.price.replace(/\D/g, '')) || undefined, priceCurrency: 'MAD', valueAddedTaxIncluded: false },
+          })),
+        },
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        '@id': `${SITE_URL}/en/control-tower#video`,
+        name: CONTROL_TOWER_VIDEO_EN.name,
+        description: CONTROL_TOWER_VIDEO_EN.description,
+        thumbnailUrl: SITE_URL + CONTROL_TOWER_VIDEO_EN.poster,
+        contentUrl: SITE_URL + CONTROL_TOWER_VIDEO_EN.src,
+        uploadDate: CONTROL_TOWER_VIDEO_EN.uploadDate,
+        duration: CONTROL_TOWER_VIDEO_EN.duration,
+        width: CONTROL_TOWER_VIDEO_EN.width,
+        height: CONTROL_TOWER_VIDEO_EN.height,
+        inLanguage: 'en',
+        publisher: ORG_REF,
+      },
+      { ...generateFAQSchema(CONTROL_TOWER_FAQ_EN), '@id': `${SITE_URL}/en/control-tower#faq` },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/en/control-tower#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
+          { '@type': 'ListItem', position: 2, name: 'Control Tower', item: `${SITE_URL}/en/control-tower` },
+        ],
+      },
+    ],
+  },
+  {
+    path: '/en/services',
+    title: 'Operational Logistics Services in Morocco' + SUFFIX,
+    description:
+      'Inventory counting, value-added logistics (co-packing, labeling, kitting, palletizing) and Control Tower integration — run by our own teams in Morocco.',
+    priority: 0.85,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/prestations',
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/en/services#webpage`,
+        url: `${SITE_URL}/en/services`,
+        name: 'Operational Logistics Services in Morocco',
+        description:
+          'Inventory counting, value-added logistics (co-packing, labeling, kitting, palletizing) and Control Tower integration — run by our own teams in Morocco.',
+        inLanguage: 'en',
+        isPartOf: { '@id': `${SITE_URL}/#website` },
+        about: ORG_REF,
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/en/services#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
+          { '@type': 'ListItem', position: 2, name: 'Services', item: `${SITE_URL}/en/services` },
+        ],
+      },
+    ],
+  },
+  {
+    path: '/en/training',
+    title: 'Nextinotech Academy: Supply Chain Training in Morocco',
+    description:
+      '30 training programs across 7 domains: Supply Chain, Lean, Management, Finance, Project, Career. Public and in-house sessions, 2026 calendar.',
+    priority: 0.95,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/formation',
+    jsonLd: [buildProgrammesSchema(PROGRAMMES_EN, FAQ_EN, {
+      lang: 'en',
+      url: `${SITE_URL}/en/training`,
+      itemListName: 'Nextinotech Training Catalogue',
+      academieName: 'Nextinotech Academy',
+      credential: 'Nextinotech Training Certificate',
+      category: 'Professional Training',
+      hotelLocation: '5-star hotel, Casablanca',
+      clientLocation: "Client company's premises",
+      breadcrumb: { home: 'Home', academie: 'Nextinotech Academy' },
+    })],
+  },
+  {
+    path: '/en/consulting',
+    title: 'Nextinotech Consulting — Supply Chain, Stocks, Procurement',
+    description:
+      "Supply Chain consulting for Moroccan SMEs & mid-caps: diagnosis, inventory & DDMRP, procurement, network design, specifications, AI, PMA.",
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: '2026-09-27',
+    isOffer: true,
+    altPath: '/conseil',
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/en/consulting#webpage`,
+        url: `${SITE_URL}/en/consulting`,
+        name: 'Nextinotech Consulting — Supply Chain, Stocks, Procurement',
+        description:
+          "Supply Chain consulting for Moroccan SMEs & mid-caps: diagnosis, inventory & DDMRP, procurement, network design, specifications, AI, PMA.",
+        inLanguage: 'en',
+        isPartOf: { '@id': `${SITE_URL}/#website` },
+        about: ORG_REF,
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${SITE_URL}/en/consulting#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en` },
+          { '@type': 'ListItem', position: 2, name: 'Consulting', item: `${SITE_URL}/en/consulting` },
+        ],
+      },
+    ],
+  },
+  {
+    path: '/en',
+    title: 'Nextinotech — Supply Chain Consulting & Training in Morocco',
+    description:
+      'Independent Supply Chain & Logistics consulting and training firm in Morocco. Diagnosis, DDMRP, network design, WMS/TMS advisory. 20+ years on the ground.',
+    priority: 1.0,
+    changefreq: 'monthly',
+    lastmod: '2026-09-27',
+    altPath: '/',
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/en#webpage`,
+      url: `${SITE_URL}/en`,
+      name: 'Nextinotech — Supply Chain Consulting & Training in Morocco',
+      description:
+        'Independent Supply Chain & Logistics consulting and training firm in Morocco. Diagnosis, DDMRP, network design, WMS/TMS advisory. 20+ years on the ground.',
+      inLanguage: 'en',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      about: ORG_REF,
+      mainEntity: ORG_REF,
+    }],
+  },
+]
 
 // FAQ ajoutées par l'audit du 27/09/2026 (src/data/pageFaq.ts) : même tableau
 // que la section visible, jamais recopié.

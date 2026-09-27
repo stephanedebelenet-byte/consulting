@@ -938,89 +938,112 @@ export function workload(duration: string): string {
   return 'P1D'
 }
 
-export const programmesSchema = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'ItemList',
-      '@id': 'https://nextinotech.com/formation#programmes',
-      name: 'Catalogue de formations Nextinotech',
-      numberOfItems: PROGRAMMES.length,
-      itemListElement: PROGRAMMES.map((p, i) => {
-        const nums = p.price.replace(/\s/g, '').split('–').map(s => parseInt(s.replace(/\D/g, ''), 10)).filter(n => !isNaN(n))
-        const offer: Record<string, unknown> = {
-          '@type': 'Offer',
-          priceCurrency: 'MAD',
-          category: 'Formation professionnelle',
-          url: 'https://nextinotech.com/formation',
-          availability: 'https://schema.org/InStock',
-        }
-        if (nums.length === 2) {
-          offer.priceSpecification = { '@type': 'PriceSpecification', minPrice: nums[0], maxPrice: nums[1], priceCurrency: 'MAD' }
-        } else if (nums.length === 1) {
-          offer.price = nums[0]
-        }
-        const dated = instancesByProgram[p.id] || []
-        const hasCourseInstance = dated.length
-          ? dated.map(d => ({
-              '@type': 'CourseInstance',
-              courseMode: 'Onsite',
-              startDate: d.startDate,
-              endDate: d.endDate,
-              location: {
-                '@type': 'Place',
-                name: d.format === 'inter' ? 'Hôtel 5 étoiles, Casablanca' : "Locaux de l'entreprise cliente",
-                address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' },
-              },
-              offers: { ...offer },
-            }))
-          : [{
-              '@type': 'CourseInstance',
-              courseMode: p.format === 'coaching' ? 'Online' : 'Onsite',
+// Anglais (27/09/2026) : construction paramétrée par langue, pour pouvoir
+// générer le même graphe JSON-LD riche (Course/CourseInstance/Offer) sur le
+// catalogue anglais (/en/training) à partir de PROGRAMMES_EN, sans dupliquer
+// la logique de dates/tarifs (instancesByProgram, workload) qui ne dépend
+// pas de la langue. Voir src/data/formationsEn.ts.
+export function buildProgrammesSchema(
+  programmes: typeof PROGRAMMES,
+  faq: typeof FAQ,
+  opts: { lang: 'fr' | 'en'; url: string; itemListName: string; academieName: string; credential: string; category: string; hotelLocation: string; clientLocation: string; breadcrumb: { home: string; academie: string } }
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'ItemList',
+        '@id': `${opts.url}#programmes`,
+        name: opts.itemListName,
+        numberOfItems: programmes.length,
+        itemListElement: programmes.map((p, i) => {
+          const nums = p.price.replace(/\s/g, '').split('–').map(s => parseInt(s.replace(/\D/g, ''), 10)).filter(n => !isNaN(n))
+          const offer: Record<string, unknown> = {
+            '@type': 'Offer',
+            priceCurrency: 'MAD',
+            category: opts.category,
+            url: opts.url,
+            availability: 'https://schema.org/InStock',
+          }
+          if (nums.length === 2) {
+            offer.priceSpecification = { '@type': 'PriceSpecification', minPrice: nums[0], maxPrice: nums[1], priceCurrency: 'MAD' }
+          } else if (nums.length === 1) {
+            offer.price = nums[0]
+          }
+          const dated = instancesByProgram[p.id] || []
+          const hasCourseInstance = dated.length
+            ? dated.map(d => ({
+                '@type': 'CourseInstance',
+                courseMode: 'Onsite',
+                startDate: d.startDate,
+                endDate: d.endDate,
+                location: {
+                  '@type': 'Place',
+                  name: d.format === 'inter' ? opts.hotelLocation : opts.clientLocation,
+                  address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' },
+                },
+                offers: { ...offer },
+              }))
+            : [{
+                '@type': 'CourseInstance',
+                courseMode: p.format === 'coaching' ? 'Online' : 'Onsite',
+                courseWorkload: workload(p.duration),
+                location: {
+                  '@type': 'Place',
+                  name: p.lieu || 'Casablanca',
+                  address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' },
+                },
+                offers: { ...offer },
+              }]
+          return {
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+              '@type': 'Course',
+              name: p.title,
+              description: p.subtitle,
+              provider: { '@id': ACADEMIE_ID },
+              inLanguage: opts.lang,
+              educationalCredentialAwarded: opts.credential,
               courseWorkload: workload(p.duration),
-              location: {
-                '@type': 'Place',
-                name: p.lieu || 'Casablanca',
-                address: { '@type': 'PostalAddress', addressLocality: 'Casablanca', addressCountry: 'MA' },
-              },
-              offers: { ...offer },
-            }]
-        return {
-          '@type': 'ListItem',
-          position: i + 1,
-          item: {
-            '@type': 'Course',
-            name: p.title,
-            description: p.subtitle,
-            provider: { '@id': ACADEMIE_ID },
-            inLanguage: 'fr',
-            educationalCredentialAwarded: 'Attestation de formation Nextinotech',
-            courseWorkload: workload(p.duration),
-            hasCourseInstance,
-            offers: offer,
-          },
-        }
-      }),
-    },
-    {
-      '@type': 'BreadcrumbList',
-      '@id': 'https://nextinotech.com/formation#breadcrumb',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://nextinotech.com/' },
-        { '@type': 'ListItem', position: 2, name: 'Nextinotech Académie', item: 'https://nextinotech.com/formation' },
-      ],
-    },
-    {
-      '@type': 'FAQPage',
-      '@id': 'https://nextinotech.com/formation#faq',
-      mainEntity: FAQ.map(f => ({
-        '@type': 'Question',
-        name: f.q,
-        acceptedAnswer: { '@type': 'Answer', text: f.a },
-      })),
-    },
-  ],
+              hasCourseInstance,
+              offers: offer,
+            },
+          }
+        }),
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${opts.url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: opts.breadcrumb.home, item: 'https://nextinotech.com/' },
+          { '@type': 'ListItem', position: 2, name: opts.breadcrumb.academie, item: opts.url },
+        ],
+      },
+      {
+        '@type': 'FAQPage',
+        '@id': `${opts.url}#faq`,
+        mainEntity: faq.map(f => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      },
+    ],
+  }
 }
+
+export const programmesSchema = buildProgrammesSchema(PROGRAMMES, FAQ, {
+  lang: 'fr',
+  url: 'https://nextinotech.com/formation',
+  itemListName: 'Catalogue de formations Nextinotech',
+  academieName: 'Nextinotech Académie',
+  credential: 'Attestation de formation Nextinotech',
+  category: 'Formation professionnelle',
+  hotelLocation: 'Hôtel 5 étoiles, Casablanca',
+  clientLocation: "Locaux de l'entreprise cliente",
+  breadcrumb: { home: 'Accueil', academie: 'Nextinotech Académie' },
+})
 
 /* ─── Types & builders réutilisables (composants + prérendu) ── */
 

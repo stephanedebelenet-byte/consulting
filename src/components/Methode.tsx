@@ -1,6 +1,7 @@
 ﻿import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useLocale } from '../i18n/locale'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -35,10 +36,43 @@ const STEPS = [
   },
 ]
 
+const STEPS_EN = [
+  {
+    num: '01',
+    title: 'Field diagnosis',
+    desc: "Before any recommendation, we understand. 2 to 5 days immersed on the ground: interviews, flow observation, data analysis. No boilerplate report.",
+    tag: '2-5 days',
+    icon: '⟳',
+  },
+  {
+    num: '02',
+    title: 'Solution architecture',
+    desc: 'We design a tailored solution with firm deliverables, a committed timeline and a costed target outcome. The business case is validated before any work begins.',
+    tag: '1-3 weeks',
+    icon: '◈',
+  },
+  {
+    num: '03',
+    title: 'Controlled deployment',
+    desc: "On-the-ground support alongside your teams. No consulting from a desk in Paris. We're present at your sites, in your warehouses, with your planners.",
+    tag: '1-6 months',
+    icon: '→',
+  },
+  {
+    num: '04',
+    title: 'Results steering',
+    desc: "The KPIs defined in phase 1 are measured at every step. Monthly review with the executive committee. We stay until the gains are sustained.",
+    tag: 'Ongoing',
+    icon: '◆',
+  },
+]
+
 export default function Methode() {
   const sectionRef = useRef<HTMLElement>(null)
   const lineRef = useRef<HTMLDivElement>(null)
   const stepsRef = useRef<(HTMLDivElement | null)[]>([])
+  const { locale, tr, href } = useLocale()
+  const steps = locale === 'en' ? STEPS_EN : STEPS
 
   useEffect(() => {
     if (!sectionRef.current) return
@@ -120,7 +154,7 @@ export default function Methode() {
           }}
         >
           <div>
-            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>Méthode Nextinotech</div>
+            <div className="section-tag" style={{ color: 'var(--blue-bright)' }}>{tr('Méthode Nextinotech', 'The Nextinotech Method')}</div>
             <h2
               style={{
                 fontFamily: 'Manrope, sans-serif',
@@ -132,9 +166,9 @@ export default function Methode() {
                 letterSpacing: '-0.01em',
               }}
             >
-              Une méthode.
+              {tr('Une méthode.', 'One method.')}
               <br />
-              <span style={{ fontStyle: 'normal', fontWeight: 600 }}>Un résultat mesurable.</span>
+              <span style={{ fontStyle: 'normal', fontWeight: 600 }}>{tr('Un résultat mesurable.', 'One measurable result.')}</span>
             </h2>
           </div>
           <p
@@ -145,9 +179,10 @@ export default function Methode() {
               alignSelf: 'end',
             }}
           >
-            Quatre étapes invariables. Chaque mission démarre par un diagnostic terrain
-            indépendant — jamais par une solution pré-packagée. C&apos;est notre différence
-            structurelle vis-à-vis des grands cabinets.
+            {tr(
+              "Quatre étapes invariables. Chaque mission démarre par un diagnostic terrain indépendant — jamais par une solution pré-packagée. C'est notre différence structurelle vis-à-vis des grands cabinets.",
+              'Four fixed steps. Every engagement starts with an independent field diagnosis — never a pre-packaged solution. That is our structural difference from the big consultancies.'
+            )}
           </p>
         </div>
 
@@ -177,14 +212,14 @@ export default function Methode() {
               zIndex: 1,
             }}
           >
-            {STEPS.map((step, i) => (
+            {steps.map((step, i) => (
               <div
                 key={step.num}
                 ref={(el) => { stepsRef.current[i] = el }}
                 className="method-step"
                 style={{
                   padding: '0 2rem 3rem',
-                  borderRight: i < STEPS.length - 1 ? '1px solid rgba(27,53,84,0.07)' : 'none',
+                  borderRight: i < steps.length - 1 ? '1px solid rgba(27,53,84,0.07)' : 'none',
                   opacity: 0,
                   cursor: 'default',
                 }}
@@ -273,13 +308,13 @@ export default function Methode() {
               color: 'rgba(27,53,84,0.55)',
             }}
           >
-            Prêt à démarrer votre diagnostic ?
+            {tr('Prêt à démarrer votre diagnostic ?', 'Ready to start your diagnosis?')}
           </div>
           <a
-            href="/contact"
+            href={href('/contact')}
             className="btn-primary"
           >
-            Réserver un échange gratuit →
+            {tr('Réserver un échange gratuit →', 'Book a free conversation →')}
           </a>
         </div>
       </div>

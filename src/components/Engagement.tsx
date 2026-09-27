@@ -1,5 +1,6 @@
 ﻿import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
+import { useLocale } from '../i18n/locale'
 
 const GOLD = 'rgba(47,111,181,1)'
 
@@ -53,9 +54,20 @@ const items = [
   },
 ]
 
+// Texte anglais apparié par index aux icônes de `items` (réutilisées telles
+// quelles — mêmes SVG, seul le texte change).
+const TEXT_EN = [
+  { title: 'Total independence', desc: "Our compensation comes exclusively from you, never from a technical third party. We recommend what serves your business case, not our own interests." },
+  { title: 'Transparent pricing', desc: 'All our standard offers are published publicly with their price. No "we\'ll get back to you after internal review."' },
+  { title: 'Outcome-based fees', desc: 'On high-stakes missions (Procurement, Inventory), we offer a portion of our fee indexed to the real, measured gain.' },
+  { title: 'Absolute confidentiality', desc: 'No client name is ever cited without written consent. Public references are only those our clients choose to make public.' },
+]
+
 export default function Engagement() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
+  const { locale, tr } = useLocale()
+  const displayItems = locale === 'en' ? items.map((it, i) => ({ ...it, ...TEXT_EN[i] })) : items
 
   return (
     <section id="engagement" style={{ background: 'var(--paper)', color: 'var(--navy)', padding: 'var(--sp-y-sm) var(--sp-x)' }}>
@@ -68,7 +80,7 @@ export default function Engagement() {
           textTransform: 'uppercase',
           marginBottom: '1.5rem',
         }}>
-          07 / Notre engagement éthique
+          {tr('07 / Notre engagement éthique', '07 / Our ethical commitment')}
         </div>
         <h2
           style={{
@@ -81,7 +93,7 @@ export default function Engagement() {
             color: 'var(--navy)',
           }}
         >
-          Ce qui nous distingue vraiment.
+          {tr('Ce qui nous distingue vraiment.', 'What really sets us apart.')}
         </h2>
 
         <div
@@ -92,7 +104,7 @@ export default function Engagement() {
             gap: '2rem',
           }}
         >
-          {items.map((item, i) => (
+          {displayItems.map((item, i) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 28 }}

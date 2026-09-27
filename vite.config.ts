@@ -176,18 +176,46 @@ function setLinkTag(html: string, rel: string, href: string): string {
 function setHreflang(html: string, lang: string, href: string): string {
   const re = new RegExp(`<link rel="alternate" hreflang="${lang}"[^>]*>`, 'i')
   const tag = `<link rel="alternate" hreflang="${lang}" href="${href}" />`
-  return re.test(html) ? html.replace(re, tag) : html
+  return re.test(html) ? html.replace(re, tag) : html.replace('</head>', `    ${tag}\n</head>`)
+}
+
+// Anglais (27/09/2026) : <html lang="fr"> est en dur dans index.html (le
+// shell réutilisé pour chaque page prérendue). On l'ajuste ici pour les
+// pages anglaises ; SyncHtmlLang (src/components/Layout.tsx) fait de même
+// côté client pour une navigation SPA sans rechargement complet.
+function setHtmlLang(html: string, lang: string): string {
+  return html.replace(/<html lang="[^"]*"/, `<html lang="${lang}"`)
 }
 
 function renderRoute(shell: string, route: PrerenderRoute): string {
   let html = shell
   const url = canonicalFor(route.path)
+  const isEnglish = route.path === '/en' || route.path.startsWith('/en/')
   html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(route.title)}</title>`)
   html = setMetaTag(html, 'name', 'description', route.description)
   html = setLinkTag(html, 'canonical', url)
-  html = setHreflang(html, 'fr-MA', url)
-  html = setHreflang(html, 'fr', url)
-  html = setHreflang(html, 'x-default', url)
+  html = setHtmlLang(html, isEnglish ? 'en' : 'fr')
+  if (isEnglish) {
+    // Page anglaise : hreflang vers elle-même (en) et, si elle existe, vers
+    // sa contrepartie française (fr + x-default — le français reste la
+    // langue par défaut du site, corpus plus large).
+    html = setHreflang(html, 'en', url)
+    if (route.altPath) {
+      const frUrl = canonicalFor(route.altPath)
+      html = setHreflang(html, 'fr-MA', frUrl)
+      html = setHreflang(html, 'fr', frUrl)
+      html = setHreflang(html, 'x-default', frUrl)
+    }
+  } else {
+    html = setHreflang(html, 'fr-MA', url)
+    html = setHreflang(html, 'fr', url)
+    html = setHreflang(html, 'x-default', url)
+    // Page française : hreflang additionnel vers sa contrepartie anglaise,
+    // quand elle existe (voir altPath sur la route, src/data/routeMeta.ts).
+    if (route.altPath) {
+      html = setHreflang(html, 'en', canonicalFor(route.altPath))
+    }
+  }
   html = setMetaTag(html, 'property', 'og:title', route.title)
   html = setMetaTag(html, 'property', 'og:description', route.description)
   html = setMetaTag(html, 'property', 'og:url', url)

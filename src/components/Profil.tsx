@@ -1,5 +1,6 @@
 ﻿import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
+import { useLocale } from '../i18n/locale'
 
 const CREDENTIALS = [
   { label: 'Approche', value: 'Indépendant de tout éditeur logiciel' },
@@ -8,11 +9,25 @@ const CREDENTIALS = [
   { label: 'Transmission', value: 'Académique & terrain' },
 ]
 
+const CREDENTIALS_EN = [
+  { label: 'Approach', value: 'Independent of any software vendor' },
+  { label: 'Certification', value: 'DDMRP Certified' },
+  { label: 'Reach', value: 'France & Europe · Morocco' },
+  { label: 'Teaching', value: 'Academic & field-based' },
+]
+
 const STATS = [
   { value: '20+', label: "Ans d'expérience terrain" },
   { value: '110+', label: 'Missions réalisées' },
   { value: '710M', label: "MAD d'achats pilotés" },
   { value: '6', label: 'Secteurs accompagnés' },
+]
+
+const STATS_EN = [
+  { value: '20+', label: 'Years on the ground' },
+  { value: '110+', label: 'Missions completed' },
+  { value: '710M', label: 'MAD in managed spend' },
+  { value: '6', label: 'Sectors served' },
 ]
 
 const HIGHLIGHTS = [
@@ -54,7 +69,50 @@ const HIGHLIGHTS = [
   },
 ]
 
+const HIGHLIGHTS_EN = [
+  {
+    role: 'Retail & Grocery',
+    org: 'Flow, inventory & procurement optimization',
+    period: 'Sector served',
+    img: '/images/hero-warehouse.webp',
+  },
+  {
+    role: 'Industry & Manufacturing',
+    org: 'S&OP planning · DDMRP deployment',
+    period: 'Sector served',
+    img: '/images/pharma.webp',
+  },
+  {
+    role: 'Real Estate & Construction',
+    org: 'Site logistics · procurement · coordination',
+    period: 'Sector served',
+    img: '/images/construction.webp',
+  },
+  {
+    role: 'Food & Agribusiness',
+    org: 'Traceability · critical supply · compliance',
+    period: 'Sector served',
+    img: '/images/hero-supply-chain.webp',
+  },
+  {
+    role: 'Healthcare & Pharmaceuticals',
+    org: 'Cold chain · critical procurement',
+    period: 'Sector served',
+    img: '/images/healthcare.webp',
+  },
+  {
+    role: 'Transport & 3PL Logistics',
+    org: 'Network design · WMS · TMS · P&L',
+    period: 'Sector served',
+    img: '/images/agro.webp',
+  },
+]
+
 export default function Profil() {
+  const { locale, tr, href } = useLocale()
+  const credentials = locale === 'en' ? CREDENTIALS_EN : CREDENTIALS
+  const stats = locale === 'en' ? STATS_EN : STATS
+  const highlights = locale === 'en' ? HIGHLIGHTS_EN : HIGHLIGHTS
   const heroRef = useRef(null)
   const inView = useInView(heroRef, { once: true, margin: '-80px' })
   const statsRef = useRef(null)
@@ -113,7 +171,7 @@ export default function Profil() {
           color: 'rgba(168,200,236,0.9)',
           textTransform: 'uppercase',
         }}>
-          09 / À propos
+          {tr('09 / À propos', '09 / About')}
         </div>
 
         {/* Content */}
@@ -136,7 +194,7 @@ export default function Profil() {
               textTransform: 'uppercase',
               marginBottom: '1rem',
             }}>
-              Fondateur & Directeur — Nextinotech
+              {tr('Fondateur & Directeur — Nextinotech', 'Founder & Director — Nextinotech')}
             </div>
 
             <h2 style={{
@@ -159,9 +217,14 @@ export default function Profil() {
               maxWidth: 520,
               marginTop: '1.5rem',
             }}>
-              Plus de 20 ans de missions terrain en ingénierie Supply Chain, Logistique et Achats au Maroc et en Europe.
-              Une expertise construite projet par projet, pas dans les manuels.
-              Un cabinet indépendant, sans allégeance à aucun éditeur.
+              {tr(
+                <>Plus de 20 ans de missions terrain en ingénierie Supply Chain, Logistique et Achats au Maroc et en Europe.
+                Une expertise construite projet par projet, pas dans les manuels.
+                Un cabinet indépendant, sans allégeance à aucun éditeur.</>,
+                <>Over 20 years of hands-on Supply Chain, Logistics and Procurement engineering missions in Morocco and Europe.
+                Expertise built project by project, not from textbooks.
+                An independent firm, with no allegiance to any vendor.</>
+              )}
             </p>
           </motion.div>
         </div>
@@ -187,7 +250,7 @@ export default function Profil() {
             borderTop: '1px solid var(--border)',
           }}
         >
-          {STATS.map((s, i) => (
+          {stats.map((s, i) => (
             <motion.div
               key={s.label}
               initial={{ opacity: 0, y: 20 }}
@@ -250,15 +313,15 @@ export default function Profil() {
                 margin: 0,
               }}
             >
-              Notre expertise.
+              {tr('Notre expertise.', 'Our expertise.')}
               <br />
               <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>
-                Des résultats concrets.
+                {tr('Des résultats concrets.', 'Real results.')}
               </span>
             </motion.h3>
 
             <div>
-              {CREDENTIALS.map((c, i) => (
+              {credentials.map((c, i) => (
                 <motion.div
                   key={c.label}
                   initial={{ opacity: 0, x: 16 }}
@@ -302,7 +365,7 @@ export default function Profil() {
             gridTemplateColumns: 'repeat(3, 1fr)',
             gap: '2px',
           }}>
-            {HIGHLIGHTS.map((h, i) => (
+            {highlights.map((h, i) => (
               <motion.div
                 key={h.role}
                 initial={{ opacity: 0, y: 40 }}
@@ -386,8 +449,8 @@ export default function Profil() {
               alignItems: 'center',
             }}
           >
-            <a href="/contact" className="btn-primary">
-              Prendre contact avec nous →
+            <a href={href('/contact')} className="btn-primary">
+              {tr('Prendre contact avec nous →', 'Get in touch →')}
             </a>
             <a
               href="mailto:contact@nextinotech.com"

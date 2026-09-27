@@ -5,6 +5,7 @@ import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { IconPackage, IconStack2, IconTags, IconPuzzle, IconBoxSeam, IconEyeCheck, IconLayersIntersect } from '@tabler/icons-react'
 import { SchemaScript } from './SchemaHelper'
 import { generateFAQSchema } from '../utils/seoData'
+import { useLocale } from '../i18n/locale'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -28,6 +29,29 @@ export const prestationsFAQ = [
   {
     q: 'Le Pack Inventaire peut-il servir à la certification des comptes en fin d\'exercice ?',
     a: "Oui. Au-delà du comptage pour les entreprises, le Pack Inventaire est utilisé par des experts comptables comme appui indépendant à la certification de l'inventaire physique de fin d'exercice : méthode tracée, écarts documentés poste par poste, et un procès-verbal d'inventaire signé remis à l'expert comptable. Nextinotech agit ici comme tiers de comptage indépendant, sans lien avec la valorisation comptable elle-même.",
+  },
+]
+
+export const prestationsFAQ_EN = [
+  {
+    q: 'Does the Inventory Pack include counting equipment?',
+    a: "Yes. Every Inventory Pack tier includes scanning/entry equipment (Tiers 1 and 2) or full equipment (Tier 3), on top of the counting team. The exact sizing — headcount, days, equipment — is refined with you before quoting, based on the site's actual complexity.",
+  },
+  {
+    q: 'Can we order a single service (e.g. bundling only) without a full pack?',
+    a: 'Yes. The 7 Value-Added Logistics Services (co-packing, bundling, labeling/marking, kitting, repackaging, visual quality control, custom palletizing) are presented and billed individually, on quote — no forced pack. Only the Inventory Pack (physical counting) is structured in volume tiers.',
+  },
+  {
+    q: 'Do you operate outside Casablanca for operational services?',
+    a: "Our coverage spans Morocco, as well as France and Europe. Precise logistics conditions (lead time, team and equipment travel) for a site outside Casablanca are confirmed case by case — contact us with your location for a tailored quote.",
+  },
+  {
+    q: 'Who delivers the IT, RFID or ERP projects presented in this offer?',
+    a: 'Nextinotech itself handles scoping, ERP integration and RFID/Track & Trace deployment, end to end, with no subcontracting — the same team that ran the diagnosis leads the technical build.',
+  },
+  {
+    q: 'Can the Inventory Pack support year-end account certification?',
+    a: "Yes. Beyond counting for companies, the Inventory Pack is used by accounting firms as an independent counting party to certify the year-end physical inventory: a traced method, discrepancies documented line by line, and a signed inventory report handed to the accountant. Nextinotech acts here as an independent counting third party, with no link to the accounting valuation itself.",
   },
 ]
 
@@ -99,7 +123,19 @@ const VALEUR_AJOUTEE = [
   { icon: IconLayersIntersect, name: 'Palettisation sur Mesure', desc: 'Constitution de palettes selon vos contraintes clients, transporteur ou stockage.' },
 ]
 
+const VALEUR_AJOUTEE_EN = [
+  { icon: IconPackage, name: 'Co-packing', desc: 'Assembly and packaging of promotional or multi-product packs, on demand.' },
+  { icon: IconStack2, name: 'Bundling', desc: 'Grouping and shrink-wrapping several units into one ready-to-ship parcel.' },
+  { icon: IconTags, name: 'Labeling / Marking', desc: 'Applying labels, barcodes or regulatory markings to your products.' },
+  { icon: IconPuzzle, name: 'Kitting', desc: 'Assembling multi-component kits ready for sale or installation.' },
+  { icon: IconBoxSeam, name: 'Repackaging', desc: 'Repackaging products into new packaging, tailored to your market or client.' },
+  { icon: IconEyeCheck, name: 'Visual Quality Control', desc: 'Visual check before shipping — compliance, condition, completeness.' },
+  { icon: IconLayersIntersect, name: 'Custom Palletizing', desc: 'Building pallets to your customer, carrier or storage constraints.' },
+]
+
 function ServicesValeurAjoutee() {
+  const { locale, tr, href } = useLocale()
+  const services = locale === 'en' ? VALEUR_AJOUTEE_EN : VALEUR_AJOUTEE
   return (
     <div id="services-valeur-ajoutee">
       <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
@@ -113,7 +149,7 @@ function ServicesValeurAjoutee() {
             marginBottom: '1.25rem',
           }}
         >
-          Opéré en interne · Équipe & matériel propres
+          {tr('Opéré en interne · Équipe & matériel propres', 'Run in-house · Our own team & equipment')}
         </div>
         <h3
           style={{
@@ -126,15 +162,18 @@ function ServicesValeurAjoutee() {
             margin: '0 0 0.75rem',
           }}
         >
-          Services Logistiques à Valeur Ajoutée
+          {tr('Services Logistiques à Valeur Ajoutée', 'Value-Added Logistics Services')}
         </h3>
         <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
-          Sept prestations opérées directement par nos équipes, avec notre propre matériel — pas sous-traitées à un tiers.
+          {tr(
+            'Sept prestations opérées directement par nos équipes, avec notre propre matériel — pas sous-traitées à un tiers.',
+            'Seven services run directly by our teams, with our own equipment — never subcontracted.'
+          )}
         </p>
       </div>
 
       <div className="valeur-ajoutee-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2px', background: 'var(--border)', maxWidth: 1100 }}>
-        {VALEUR_AJOUTEE.map((s) => (
+        {services.map((s) => (
           <div key={s.name} style={{ background: '#fff', padding: '2rem 1.75rem' }}>
             <s.icon size={22} stroke={1.6} color="var(--blue-bright)" style={{ marginBottom: '1rem' }} />
             <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '0.98rem', fontWeight: 700, color: 'var(--ink)', marginBottom: '0.5rem', lineHeight: 1.25 }}>
@@ -150,15 +189,15 @@ function ServicesValeurAjoutee() {
       <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', flexWrap: 'wrap', marginTop: '2rem' }}>
         <div>
           <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)' }}>
-            Prix ·&nbsp;
+            {tr('Prix · ', 'Price · ')}
           </span>
-          <span style={{ fontSize: '0.95rem', fontWeight: 700, color: 'var(--ink)' }}>Sur devis</span>
+          <span style={{ fontSize: '0.95rem', fontWeight: 700, color: 'var(--ink)' }}>{tr('Sur devis', 'On quote')}</span>
         </div>
         <a
-          href="/contact"
+          href={href('/contact')}
           className="btn-primary"
         >
-          Discuter de votre besoin →
+          {tr('Discuter de votre besoin →', 'Discuss your needs →')}
         </a>
       </div>
     </div>
@@ -205,7 +244,49 @@ const PACK_INVENTAIRE = {
   ],
 }
 
+const PACK_INVENTAIRE_EN = {
+  title: 'Inventory Pack',
+  tagline: 'Physical counting + included resources.',
+  desc: "The actual sizing — headcount, days, equipment — depends on the site's complexity, not just the number of locations. Each tier below is a starting point, refined with you before quoting. Two audiences: companies running their own inventory, and accounting firms who need an independent counting party to certify the year-end physical inventory.",
+  tiers: [
+    {
+      name: 'Tier 1 — Small site',
+      tag: 'Up to 500 locations',
+      price: 'On quote',
+      duration: 'To be defined',
+      includes: ['Counting team (headcount to be defined)', 'Scanning / entry equipment', 'Discrepancy report'],
+    },
+    {
+      name: 'Tier 2 — Mid-size site',
+      tag: '500 to 2,000 locations',
+      price: 'On quote',
+      duration: 'To be defined',
+      featured: true,
+      includes: [
+        'Reinforced counting team',
+        'Scanning / entry equipment',
+        'Multi-zone coordination',
+        'Detailed report with root-cause analysis',
+      ],
+    },
+    {
+      name: 'Tier 3 — Large site',
+      tag: '2,000+ locations',
+      price: 'On quote',
+      duration: 'To be defined',
+      includes: [
+        'Team sized on quote',
+        'Full equipment',
+        'Parallel multi-team methodology',
+        'Report + corrective action plan',
+      ],
+    },
+  ],
+}
+
 function PackInventaire() {
+  const { locale, tr, href } = useLocale()
+  const pack = locale === 'en' ? PACK_INVENTAIRE_EN : PACK_INVENTAIRE
   return (
     <div id="pack-inventaire" style={{ marginTop: '6rem' }}>
       <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
@@ -219,7 +300,7 @@ function PackInventaire() {
             marginBottom: '1.25rem',
           }}
         >
-          Comptage physique
+          {tr('Comptage physique', 'Physical counting')}
         </div>
         <h3
           style={{
@@ -232,15 +313,15 @@ function PackInventaire() {
             margin: '0 0 0.75rem',
           }}
         >
-          {PACK_INVENTAIRE.title}
+          {pack.title}
         </h3>
         <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
-          {PACK_INVENTAIRE.desc}
+          {pack.desc}
         </p>
       </div>
 
       <div className="pack-inventaire-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
-        {PACK_INVENTAIRE.tiers.map((tier) => (
+        {pack.tiers.map((tier) => (
           <div
             key={tier.name}
             style={{
@@ -301,7 +382,7 @@ function PackInventaire() {
                     marginBottom: '0.35rem',
                   }}
                 >
-                  Prix
+                  {tr('Prix', 'Price')}
                 </div>
                 <div style={{ fontSize: '1rem', fontWeight: 700, color: tier.featured ? '#ffffff' : 'var(--ink)' }}>
                   {tier.price}
@@ -318,7 +399,7 @@ function PackInventaire() {
                     marginBottom: '0.35rem',
                   }}
                 >
-                  Durée
+                  {tr('Durée', 'Duration')}
                 </div>
                 <div style={{ fontSize: '1rem', fontWeight: 500, color: tier.featured ? 'rgba(235,232,225,0.8)' : 'var(--ink)' }}>
                   {tier.duration}
@@ -336,7 +417,7 @@ function PackInventaire() {
                 marginBottom: '0.75rem',
               }}
             >
-              Inclus
+              {tr('Inclus', 'Included')}
             </div>
             <ul style={{ listStyle: 'none', padding: 0, marginBottom: '2rem' }}>
               {tier.includes.map((item) => (
@@ -361,7 +442,7 @@ function PackInventaire() {
             </ul>
 
             <a
-              href="/contact"
+              href={href('/contact')}
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -378,7 +459,7 @@ function PackInventaire() {
               onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
             >
-              Demander un devis Pack Inventaire →
+              {tr('Demander un devis Pack Inventaire →', 'Request an Inventory Pack quote →')}
             </a>
           </div>
         ))}
@@ -409,14 +490,17 @@ function PackInventaire() {
               marginBottom: '0.6rem',
             }}
           >
-            Vous êtes expert comptable ?
+            {tr('Vous êtes expert comptable ?', 'Are you an accounting firm?')}
           </div>
           <p style={{ fontSize: '0.92rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
-            Le Pack Inventaire sert aussi de tiers de comptage indépendant pour la certification de l'inventaire physique de fin d'exercice de vos clients : méthode tracée, écarts documentés, procès-verbal d'inventaire signé — sans lien avec la valorisation comptable.
+            {tr(
+              "Le Pack Inventaire sert aussi de tiers de comptage indépendant pour la certification de l'inventaire physique de fin d'exercice de vos clients : méthode tracée, écarts documentés, procès-verbal d'inventaire signé — sans lien avec la valorisation comptable.",
+              "The Inventory Pack also serves as an independent counting party for certifying your clients' year-end physical inventory: a traced method, documented discrepancies, a signed inventory report — with no link to the accounting valuation."
+            )}
           </p>
         </div>
         <a
-          href="/contact"
+          href={href('/contact')}
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -433,7 +517,7 @@ function PackInventaire() {
             paddingBottom: '2px',
           }}
         >
-          Nous consulter pour un exercice comptable →
+          {tr('Nous consulter pour un exercice comptable →', 'Consult us for a fiscal year engagement →')}
         </a>
       </div>
     </div>
@@ -497,7 +581,55 @@ const PARTENAIRE_IT = {
   ],
 }
 
+const PARTENAIRE_IT_EN = {
+  positioning: "Nextinotech designs and integrates Supply Chain digital solutions itself, end to end — business applications, connecting existing equipment and systems (ERP, IoT, sensors), then turning data into decisions. We work with no subcontracting on missions requiring software development, ERP integration, RFID/IoT field deployment or data intelligence — with the same team that ran the diagnosis.",
+  pillars: [
+    {
+      label: 'Business solutions',
+      title: 'Business applications & workflows',
+      items: [
+        'Warehouse Management (WMS) — stock, receiving, picking, shipping, inventory',
+        'Transport Management (TMS) — planning, execution, tracking and proof of delivery',
+        'Asset Management (AMS) — fixed assets, equipment, location and traceability',
+        'Inventory Management (IMS) — physical inventories, mobility, control and reconciliation',
+      ],
+    },
+    {
+      label: 'Industry 4.0 & IoT',
+      title: 'Automation & connected equipment',
+      items: [
+        'RFID — contactless identification and traceability',
+        'Track & Trace — tracking flows, assets, pallets and equipment',
+        'Pick / Put to Light — operator guidance and error reduction',
+        'DWS / Vision — dimensioning, weighing, scanning and quality control',
+        'Smart marking and industrial integration',
+      ],
+    },
+    {
+      label: 'Data & AI',
+      title: 'From raw data to decisions',
+      items: [
+        'Connecting existing systems — ERP, IoT, API',
+        'Event capture — scans, sensors, transactions',
+        'Orchestration — business rules and workflows',
+        'Analysis — KPIs, BI and real-time alerts',
+        'Optimization — predictive AI and recommendations',
+      ],
+    },
+  ],
+  methode: [
+    { num: '01', title: 'Scope', desc: 'Process mapping & objectives' },
+    { num: '02', title: 'Design', desc: 'Architecture & interfaces' },
+    { num: '03', title: 'Prototype', desc: 'PoC / MVP in the field' },
+    { num: '04', title: 'Deploy', desc: 'Integration & change management' },
+    { num: '05', title: 'Improve', desc: 'Support, data & continuous optimization' },
+  ],
+  references: PARTENAIRE_IT.references,
+}
+
 function PartenaireITOffer() {
+  const { locale, tr, href } = useLocale()
+  const it = locale === 'en' ? PARTENAIRE_IT_EN : PARTENAIRE_IT
   return (
     <div id="solutions-it" style={{ marginTop: '6rem' }}>
       <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
@@ -511,7 +643,7 @@ function PartenaireITOffer() {
             marginBottom: '1.25rem',
           }}
         >
-          Partenaire technique · IT, RFID & Data
+          {tr('Partenaire technique · IT, RFID & Data', 'Technical partner · IT, RFID & Data')}
         </div>
         <h3
           style={{
@@ -524,15 +656,19 @@ function PartenaireITOffer() {
             margin: '0 0 0.75rem',
           }}
         >
-          Solutions IT, RFID & Data
+          {tr('Solutions IT, RFID & Data', 'IT, RFID & Data Solutions')}
         </h3>
         <p style={{ fontSize: '0.95rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
-          Nextinotech s&apos;appuie sur un partenaire technique pour les projets Supply Chain
-          nécessitant du développement logiciel, de l&apos;intégration ERP, du déploiement RFID/Track &amp; Trace
-          ou de la data intelligence.
+          {tr(
+            <>Nextinotech s&apos;appuie sur un partenaire technique pour les projets Supply Chain
+            nécessitant du développement logiciel, de l&apos;intégration ERP, du déploiement RFID/Track &amp; Trace
+            ou de la data intelligence.</>,
+            <>Nextinotech relies on a technical partner for Supply Chain projects requiring software
+            development, ERP integration, RFID/Track &amp; Trace deployment or data intelligence.</>
+          )}
         </p>
         <Link
-          to="/control-tower"
+          to={href('/control-tower')}
           style={{
             display: 'inline-block',
             marginTop: '1.25rem',
@@ -545,7 +681,10 @@ function PartenaireITOffer() {
             borderBottom: '1px solid var(--blue-bright)',
           }}
         >
-          Voir l&apos;offre Control Tower complète (WMS, TMS, IMS, AMS, IoT, IA) →
+          {tr(
+            "Voir l'offre Control Tower complète (WMS, TMS, IMS, AMS, IoT, IA) →",
+            'See the full Control Tower offer (WMS, TMS, IMS, AMS, IoT, AI) →'
+          )}
         </Link>
       </div>
 
@@ -572,15 +711,15 @@ function PartenaireITOffer() {
             marginBottom: '1.5rem',
           }}
         >
-          Partenaire technique
+          {tr('Partenaire technique', 'Technical partner')}
         </div>
 
         <p style={{ fontSize: '1.02rem', color: 'var(--ink)', lineHeight: 1.75, fontWeight: 300, marginBottom: '1.75rem', maxWidth: 720 }}>
-          {PARTENAIRE_IT.positioning}
+          {it.positioning}
         </p>
 
         <div className="partenaire-pillars-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2.5rem', marginBottom: '2.75rem' }}>
-          {PARTENAIRE_IT.pillars.map((p) => (
+          {it.pillars.map((p) => (
             <div key={p.label}>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(47,111,181,0.6)', marginBottom: '0.5rem' }}>
                 {p.label}
@@ -615,10 +754,10 @@ function PartenaireITOffer() {
 
         <div style={{ borderTop: '1px solid rgba(27,53,84,0.08)', paddingTop: '2rem', marginBottom: '2.5rem' }}>
           <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '1.25rem' }}>
-            Méthode de déploiement
+            {tr('Méthode de déploiement', 'Deployment method')}
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem' }}>
-            {PARTENAIRE_IT.methode.map((m) => (
+            {it.methode.map((m) => (
               <div key={m.num} style={{ flex: '1 1 150px', minWidth: 140 }}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.7rem', color: 'var(--blue-bright)', marginBottom: '0.4rem' }}>
                   {m.num}
@@ -636,7 +775,7 @@ function PartenaireITOffer() {
 
         <div style={{ borderTop: '1px solid rgba(27,53,84,0.08)', paddingTop: '2rem', marginBottom: '2.5rem' }}>
           <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.5)', marginBottom: '1.1rem' }}>
-            Références terrain du partenaire · industrie, logistique & institutions
+            {tr('Références terrain du partenaire · industrie, logistique & institutions', "Partner's field references · industry, logistics & institutions")}
           </div>
           <div
             className="partenaire-references-grid"
@@ -647,7 +786,7 @@ function PartenaireITOffer() {
               background: 'var(--border)',
             }}
           >
-            {PARTENAIRE_IT.references.map((r) => (
+            {it.references.map((r) => (
               <div
                 key={r.name}
                 style={{
@@ -690,15 +829,15 @@ function PartenaireITOffer() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', flexWrap: 'wrap' }}>
           <div>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(95,102,114,0.45)', marginBottom: '0.35rem' }}>
-              Prix
+              {tr('Prix', 'Price')}
             </div>
             <div style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--ink)' }}>
-              Sur devis — selon le périmètre technique du projet
+              {tr('Sur devis — selon le périmètre technique du projet', "On quote — based on the project's technical scope")}
             </div>
           </div>
 
           <a
-            href="/contact"
+            href={href('/contact')}
             style={{
               display: 'inline-flex',
               alignItems: 'center',
@@ -715,7 +854,7 @@ function PartenaireITOffer() {
             onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = '0.7')}
             onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = '1')}
           >
-            Discuter d&apos;un projet IT / RFID / Data →
+            {tr("Discuter d'un projet IT / RFID / Data →", 'Discuss an IT / RFID / Data project →')}
           </a>
         </div>
       </div>
@@ -724,9 +863,11 @@ function PartenaireITOffer() {
 }
 
 export default function Prestations() {
+  const { locale, tr, href } = useLocale()
+  const faq = locale === 'en' ? prestationsFAQ_EN : prestationsFAQ
   return (
     <section id="prestations" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
-      <SchemaScript schema={generateFAQSchema(prestationsFAQ)} />
+      <SchemaScript schema={generateFAQSchema(faq)} />
       <div className="section-inner">
         <div style={{
           display: 'grid',
@@ -744,7 +885,7 @@ export default function Prestations() {
               textTransform: 'uppercase',
               marginBottom: '1.5rem',
             }}>
-              01 / Prestations Opérationnelles
+              {tr('01 / Prestations Opérationnelles', '01 / Operational Services')}
             </div>
             <h2
               style={{
@@ -757,7 +898,7 @@ export default function Prestations() {
                 color: 'var(--ink)',
               }}
             >
-              Ce qu'on exécute pour vous.
+              {tr("Ce qu'on exécute pour vous.", 'What we execute for you.')}
             </h2>
           </div>
           <p style={{
@@ -767,8 +908,10 @@ export default function Prestations() {
             fontWeight: 300,
             maxWidth: 440,
           }}>
-            Pas du conseil — de l'exécution. Nos propres équipes, notre propre matériel, sur devis,
-            sans sous-traitance cachée.
+            {tr(
+              "Pas du conseil — de l'exécution. Nos propres équipes, notre propre matériel, sur devis, sans sous-traitance cachée.",
+              'Not advisory — execution. Our own teams, our own equipment, on quote, with no hidden subcontracting.'
+            )}
           </p>
         </div>
 
@@ -781,22 +924,22 @@ export default function Prestations() {
         <div style={{ marginTop: '6rem' }}>
           <div style={{ maxWidth: 640, marginBottom: '3rem' }}>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(47,111,181,0.55)', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
-              Questions fréquentes
+              {tr('Questions fréquentes', 'Frequently Asked Questions')}
             </div>
             <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.8rem, 3.2vw, 2.6rem)', fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.02em', color: 'var(--ink)', margin: 0 }}>
-              Vos questions, nos réponses.
+              {tr('Vos questions, nos réponses.', 'Your questions, our answers.')}
             </h3>
           </div>
           <div style={{ maxWidth: 900 }}>
-            {prestationsFAQ.map((item, i) => (
+            {faq.map((item, i) => (
               <FAQItem key={i} item={item} />
             ))}
           </div>
         </div>
 
         <div style={{ marginTop: '4rem', display: 'flex', gap: '1rem' }}>
-          <a href="/contact" className="btn-primary">Discuter de votre besoin →</a>
-          <a href="/conseil" className="btn-outline">Voir nos offres Conseil</a>
+          <a href={href('/contact')} className="btn-primary">{tr('Discuter de votre besoin →', 'Discuss your needs →')}</a>
+          <a href={href('/conseil')} className="btn-outline">{tr('Voir nos offres Conseil', 'See our Consulting offers')}</a>
         </div>
       </div>
     </section>

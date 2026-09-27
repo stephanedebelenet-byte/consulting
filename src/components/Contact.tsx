@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
+import { useLocale } from '../i18n/locale'
 
 type FormState = 'idle' | 'sending' | 'success' | 'error'
 
@@ -13,9 +14,21 @@ const BESOINS = [
   'Autre',
 ]
 
+const BESOINS_EN = [
+  'Supply Chain Diagnosis',
+  'Inventory Optimization',
+  'WMS / TMS / APS Selection',
+  'Project Management & Advisory',
+  'On-the-Ground Training',
+  'Part-Time SC Direction',
+  'Other',
+]
+
 export default function Contact() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
+  const { locale, tr } = useLocale()
+  const besoins = locale === 'en' ? BESOINS_EN : BESOINS
 
   const [form, setForm] = useState({ nom: '', email: '', tel: '', besoin: '', message: '' })
   const [status, setStatus] = useState<FormState>('idle')
@@ -23,9 +36,9 @@ export default function Contact() {
 
   const validate = () => {
     const e: Record<string, string> = {}
-    if (!form.nom.trim()) e.nom = 'Obligatoire'
-    if (!form.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) e.email = 'Email invalide'
-    if (!form.besoin) e.besoin = 'Choisissez un besoin'
+    if (!form.nom.trim()) e.nom = tr('Obligatoire', 'Required')
+    if (!form.email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) e.email = tr('Email invalide', 'Invalid email')
+    if (!form.besoin) e.besoin = tr('Choisissez un besoin', 'Choose a need')
     return e
   }
 
@@ -90,18 +103,22 @@ export default function Contact() {
           animate={inView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
-          <div className="section-tag" style={{ color: 'rgba(47,111,181,0.9)' }}>Prenons contact</div>
+          <div className="section-tag" style={{ color: 'rgba(47,111,181,0.9)' }}>{tr('Prenons contact', "Let's talk")}</div>
           <h2 style={{
             fontFamily: 'Manrope, sans-serif',
             fontSize: 'clamp(2.2rem, 4vw, 4rem)',
             fontWeight: 900, lineHeight: 1.05, marginBottom: '1.5rem',
             color: 'var(--navy)',
           }}>
-            Prêt à transformer votre Supply Chain en avantage compétitif&nbsp;?
+            {tr('Prêt à transformer votre Supply Chain en avantage compétitif ?', 'Ready to turn your Supply Chain into a competitive edge?')}
           </h2>
           <p style={{ fontSize: '1.05rem', color: 'var(--dark-muted)', lineHeight: 1.8, maxWidth: 460 }}>
-            Le premier échange est gratuit, dure 30 minutes, et n&apos;engage à rien.
-            Nous venons préparés. Vous repartez avec des actions concrètes.
+            {tr(
+              <>Le premier échange est gratuit, dure 30 minutes, et n&apos;engage à rien.
+              Nous venons préparés. Vous repartez avec des actions concrètes.</>,
+              <>The first call is free, takes 30 minutes, and comes with no obligation.
+              We come prepared. You leave with concrete next steps.</>
+            )}
           </p>
 
           <div style={{
@@ -109,12 +126,17 @@ export default function Contact() {
             borderTop: '1px solid rgba(27,53,84,0.1)',
             display: 'flex', flexDirection: 'column', gap: '1rem',
           }}>
-            {[
+            {(locale === 'en' ? [
+              { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
+              { tag: 'Tel',  label: '+212 06 63 44 92 00',                href: 'tel:+212663449200' },
+              { tag: 'WA',   label: 'WhatsApp',                            href: 'https://wa.me/212663449200' },
+              { tag: 'Loc.', label: 'Technopark Casablanca, 3rd floor — Route de Nouaceur, Casablanca', href: undefined },
+            ] : [
               { tag: 'Email', label: 'contact@nextinotech.com', href: 'mailto:contact@nextinotech.com' },
               { tag: 'Tél',  label: '+212 06 63 44 92 00',                href: 'tel:+212663449200' },
               { tag: 'WA',   label: 'WhatsApp',                            href: 'https://wa.me/212663449200' },
               { tag: 'Lieu', label: 'Technopark Casablanca, 3ème étage — Route de Nouaceur, Casablanca', href: undefined },
-            ].map(({ tag, label, href }) => (
+            ]).map(({ tag, label, href }) => (
               <div key={label} style={{ display: 'flex', alignItems: 'baseline', gap: '1rem' }}>
                 <span style={{
                   fontFamily: 'DM Mono, monospace', fontSize: '0.55rem',
@@ -138,10 +160,10 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               style={{ display: 'block', border: '1px solid rgba(27,53,84,0.16)', textDecoration: 'none' }}
-              aria-label="Ouvrir Technopark Casablanca dans Google Maps"
+              aria-label={tr('Ouvrir Technopark Casablanca dans Google Maps', 'Open Technopark Casablanca in Google Maps')}
             >
               <iframe
-                title="Localisation Nextinotech — Technopark Casablanca"
+                title={tr('Localisation Nextinotech — Technopark Casablanca', 'Nextinotech location — Technopark Casablanca')}
                 src="https://www.google.com/maps?q=Technopark+Casablanca,+Route+de+Nouaceur,+Casablanca,+Maroc&output=embed"
                 width="100%"
                 height="220"
@@ -151,7 +173,7 @@ export default function Contact() {
               />
             </a>
             <p style={{ marginTop: '0.6rem', fontSize: '0.78rem', color: 'var(--mid)', fontFamily: 'DM Mono, monospace', letterSpacing: '0.03em' }}>
-              Technopark Casablanca — 3ème étage · Route de Nouaceur, Casablanca
+              {tr('Technopark Casablanca — 3ème étage · Route de Nouaceur, Casablanca', 'Technopark Casablanca — 3rd floor · Route de Nouaceur, Casablanca')}
             </p>
           </div>
         </motion.div>
@@ -186,27 +208,27 @@ export default function Contact() {
                 >
                   <div style={{ fontSize: '3rem', marginBottom: '1.5rem' }}>✓</div>
                   <h3 style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.4rem', color: 'var(--navy)', marginBottom: '0.75rem' }}>
-                    Message envoyé.
+                    {tr('Message envoyé.', 'Message sent.')}
                   </h3>
                   <p style={{ color: 'var(--mid)', fontSize: '0.9rem', lineHeight: 1.7 }}>
-                    Nous revenons vers vous sous 24h ouvrées pour fixer l&apos;échange découverte.
+                    {tr("Nous revenons vers vous sous 24h ouvrées pour fixer l'échange découverte.", 'We will get back to you within 24 business hours to schedule the discovery call.')}
                   </p>
                   <button
                     onClick={() => { setStatus('idle'); setForm({ nom: '', email: '', tel: '', besoin: '', message: '' }) }}
                     style={{ marginTop: '2rem', background: 'none', border: '1px solid rgba(47,111,181,0.4)', color: 'var(--blue-bright)', padding: '0.6rem 1.4rem', cursor: 'pointer', fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}
                   >
-                    Nouveau message
+                    {tr('Nouveau message', 'New message')}
                   </button>
                 </motion.div>
               ) : (
                 <motion.form key="form" onSubmit={handleSubmit} noValidate style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
                   <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: '1.15rem', fontWeight: 700, color: 'var(--navy)', marginBottom: '0.5rem' }}>
-                    Réservez votre échange gratuit
+                    {tr('Réservez votre échange gratuit', 'Book your free call')}
                   </div>
 
                   {/* Nom + Email */}
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                    <FieldWrap label="Nom *" error={errors.nom}>
+                    <FieldWrap label={tr('Nom *', 'Name *')} error={errors.nom}>
                       <input
                         type="text" placeholder="Ahmed" value={form.nom}
                         onChange={e => setForm(f => ({ ...f, nom: e.target.value }))}
@@ -217,7 +239,7 @@ export default function Contact() {
                     </FieldWrap>
                     <FieldWrap label="Email *" error={errors.email}>
                       <input
-                        type="email" placeholder="vous@entreprise.ma" value={form.email}
+                        type="email" placeholder={tr('vous@entreprise.ma', 'you@company.com')} value={form.email}
                         onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
                         onFocus={e => (e.target.style.borderColor = 'rgba(47,111,181,0.6)')}
                         onBlur={e => (e.target.style.borderColor = errors.email ? 'rgba(200,60,60,0.55)' : 'rgba(27,53,84,0.16)')}
@@ -228,7 +250,7 @@ export default function Contact() {
 
                   {/* Téléphone + Besoin */}
                   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                    <FieldWrap label="Téléphone">
+                    <FieldWrap label={tr('Téléphone', 'Phone')}>
                       <input
                         type="tel" placeholder="+212 6XX XXX XXX" value={form.tel}
                         onChange={e => setForm(f => ({ ...f, tel: e.target.value }))}
@@ -237,22 +259,22 @@ export default function Contact() {
                         style={inputStyle('tel')}
                       />
                     </FieldWrap>
-                    <FieldWrap label="Besoin *" error={errors.besoin}>
+                    <FieldWrap label={tr('Besoin *', 'Need *')} error={errors.besoin}>
                       <select
                         value={form.besoin}
                         onChange={e => setForm(f => ({ ...f, besoin: e.target.value }))}
                         style={{ ...inputStyle('besoin'), appearance: 'none', cursor: 'pointer', color: form.besoin ? 'var(--ink)' : 'rgba(27,53,84,0.35)' }}
                       >
-                        <option value="" disabled>Choisir...</option>
-                        {BESOINS.map(b => <option key={b} value={b} style={{ background: '#ffffff', color: 'var(--ink)' }}>{b}</option>)}
+                        <option value="" disabled>{tr('Choisir...', 'Choose...')}</option>
+                        {besoins.map(b => <option key={b} value={b} style={{ background: '#ffffff', color: 'var(--ink)' }}>{b}</option>)}
                       </select>
                     </FieldWrap>
                   </div>
 
                   {/* Message */}
-                  <FieldWrap label="Message *" error={errors.message}>
+                  <FieldWrap label={tr('Message *', 'Message *')} error={errors.message}>
                     <textarea
-                      rows={4} placeholder="Décrivez brièvement votre situation..."
+                      rows={4} placeholder={tr('Décrivez brièvement votre situation...', 'Briefly describe your situation...')}
                       value={form.message}
                       onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
                       onFocus={e => (e.target.style.borderColor = 'rgba(47,111,181,0.6)')}
@@ -263,7 +285,7 @@ export default function Contact() {
 
                   {status === 'error' && (
                     <p style={{ color: 'rgba(200,60,60,0.85)', fontSize: '0.82rem', fontFamily: 'DM Mono, monospace' }}>
-                      Erreur d&apos;envoi. Écrivez-nous directement à contact@nextinotech.com
+                      {tr('Erreur d’envoi. Écrivez-nous directement à contact@nextinotech.com', 'Sending error. Email us directly at contact@nextinotech.com')}
                     </p>
                   )}
 
@@ -285,11 +307,11 @@ export default function Contact() {
                       transition: 'opacity 0.2s',
                     }}
                   >
-                    {status === 'sending' ? 'Envoi en cours...' : 'Envoyer ma demande →'}
+                    {status === 'sending' ? tr('Envoi en cours...', 'Sending...') : tr('Envoyer ma demande →', 'Send my request →')}
                   </motion.button>
 
                   <p style={{ textAlign: 'center', fontSize: '0.72rem', color: 'var(--mid)', fontFamily: 'DM Mono, monospace', letterSpacing: '0.08em' }}>
-                    GRATUIT · SANS ENGAGEMENT · RÉPONSE SOUS 24H
+                    {tr('GRATUIT · SANS ENGAGEMENT · RÉPONSE SOUS 24H', 'FREE · NO OBLIGATION · REPLY WITHIN 24H')}
                   </p>
                 </motion.form>
               )}

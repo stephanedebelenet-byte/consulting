@@ -7,9 +7,12 @@ import PageMeta from './PageMeta'
 import HeroCarousel from './HeroCarousel'
 import { VILLES } from '../data/villesFormation'
 import { PROGRAMMES, FAQ, SESSIONS, programmesSchema, programmeUrl } from '../data/formations'
+import { PROGRAMMES_EN, FAQ_EN, SESSIONS_EN } from '../data/formationsEn'
+import { useLocale } from '../i18n/locale'
 
 /* ─── Brand constants ─────────────────────────────────────── */
 const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Nextinotech, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
+const WA_EN = `https://wa.me/212663449200?text=${encodeURIComponent('Hello Nextinotech, I would like information about your training programs. Could you get back to me?')}`
 const EMAIL = 'mailto:contact@nextinotech.com?subject=Catalogue%20Formations%20Nextinotech'
 
 /* ─── Helpers ─────────────────────────────────────────────── */
@@ -112,10 +115,11 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
 /* ─── Programme Card ──────────────────────────────────────── */
 function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
   const [open, setOpen] = useState(IS_SERVER)
+  const { tr, href } = useLocale()
   const isExternal = p.cta.startsWith('http') || p.cta.startsWith('mailto')
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
-  const isRemote = p.lieu.toLowerCase().includes('visio')
+  const isRemote = p.lieu.toLowerCase().includes('visio') || p.lieu.toLowerCase().includes('remote')
   const accent = p.domaine === 'lean' ? '#2a6b45' : 'var(--navy)'
 
   return (
@@ -138,7 +142,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
             <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', color: accent, opacity: 0.7 }}>{p.num}</span>
             <Tag label={p.badge} format={p.format} />
-            {isRemote && <Tag label="Visio possible" format="inter" />}
+            {isRemote && <Tag label={tr('Visio possible', 'Remote possible')} format="inter" />}
           </div>
 
           <h3 style={{
@@ -160,9 +164,9 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
           {/* Meta row */}
           <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
             {[
-              { label: 'Durée', val: p.duration },
-              { label: 'Groupe', val: p.group },
-              { label: 'Lieu', val: p.lieu },
+              { label: tr('Durée', 'Duration'), val: p.duration },
+              { label: tr('Groupe', 'Group'), val: p.group },
+              { label: tr('Lieu', 'Location'), val: p.lieu },
             ].map(m => (
               <div key={m.label}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: accent, opacity: 0.7, marginBottom: '0.2rem' }}>{m.label}</div>
@@ -218,7 +222,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
               }
             }}
           >
-            {p.format === 'inter' ? 'Réserver →' : p.format === 'coaching' ? 'Planifier →' : 'Demander un devis →'}
+            {p.format === 'inter' ? tr('Réserver →', 'Book →') : p.format === 'coaching' ? tr('Planifier →', 'Schedule →') : tr('Demander un devis →', 'Request a quote →')}
           </a>
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.5rem' }}>
@@ -228,16 +232,16 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
               onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'}
               onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--mid)'}
             >
-              {open ? 'Réduire' : 'Aperçu rapide'}
+              {open ? tr('Réduire', 'Collapse') : tr('Aperçu rapide', 'Quick preview')}
               <motion.span animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.2 }} style={{ display: 'inline-block', fontSize: '1rem', lineHeight: 1 }}>+</motion.span>
             </button>
             <Link
-              to={programmeUrl(p.id)}
+              to={href(programmeUrl(p.id))}
               style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', textDecoration: 'none', transition: 'color 0.2s' }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)')}
               onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = 'var(--mid)')}
             >
-              Fiche complète →
+              {tr('Fiche complète →', 'Full details →')}
             </Link>
           </div>
         </div>
@@ -257,7 +261,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
             <div className="pc-detail-grid" style={{ borderTop: '1px solid var(--border)', padding: '2.5rem 3rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem' }}>
               {/* Modules */}
               <div>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.25rem' }}>Programme</div>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.25rem' }}>{tr('Programme', 'Curriculum')}</div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
                   {p.modules.map((m, i) => (
                     <div key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}>
@@ -270,7 +274,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
               {/* Public + Inclus */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                 <div>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1rem' }}>Pour qui</div>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1rem' }}>{tr('Pour qui', 'Who it’s for')}</div>
                   {p.public.map((pub, i) => (
                     <div key={i} style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', marginBottom: '0.4rem' }}>
                       <span style={{ color: 'var(--blue-bright)', fontSize: '0.4rem' }}>◆</span>
@@ -279,7 +283,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
                   ))}
                 </div>
                 <div>
-                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1rem' }}>Inclus</div>
+                  <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1rem' }}>{tr('Inclus', 'Included')}</div>
                   {p.inclus.map((inc, i) => (
                     <div key={i} style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', marginBottom: '0.4rem' }}>
                       <span style={{ color: 'var(--blue-bright)', fontSize: '0.55rem' }}>✓</span>
@@ -299,26 +303,37 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
 /* ─── Main Component ──────────────────────────────────────── */
 export default function FormationCatalogue() {
   const [activeTab, setActiveTab] = useState<'all' | 'sc' | 'lean' | 'management' | 'finance' | 'projet' | 'carriere' | 'operationnel'>('all')
+  const { locale, tr, href } = useLocale()
+  const programmes = locale === 'en' ? PROGRAMMES_EN : PROGRAMMES
+  const faq = locale === 'en' ? FAQ_EN : FAQ
+  const sessions = locale === 'en' ? SESSIONS_EN : SESSIONS
+  const wa = locale === 'en' ? WA_EN : WA
 
-  const filtered = activeTab === 'all' ? PROGRAMMES : PROGRAMMES.filter(p => p.domaine === activeTab)
+  const filtered = activeTab === 'all' ? programmes : programmes.filter(p => p.domaine === activeTab)
 
   const tabs: { id: typeof activeTab; label: string }[] = [
-    { id: 'all', label: `Tous (${PROGRAMMES.length})` },
+    { id: 'all', label: tr(`Tous (${programmes.length})`, `All (${programmes.length})`) },
     { id: 'sc', label: 'Supply Chain' },
-    { id: 'operationnel', label: 'Opérationnel' },
-    { id: 'lean', label: 'Lean & Amélioration' },
+    { id: 'operationnel', label: tr('Opérationnel', 'Operational') },
+    { id: 'lean', label: tr('Lean & Amélioration', 'Lean & Improvement') },
     { id: 'management', label: 'Management' },
     { id: 'finance', label: 'Finance Ops' },
-    { id: 'projet', label: 'Gestion de Projet' },
-    { id: 'carriere', label: 'Carrière & Bien-être' },
+    { id: 'projet', label: tr('Gestion de Projet', 'Project Management') },
+    { id: 'carriere', label: tr('Carrière & Bien-être', 'Career & Wellbeing') },
   ]
 
   return (
     <>
       <PageMeta
-        title="Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech"
-        description="30 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026."
-        canonical="https://nextinotech.com/formation"
+        title={tr(
+          'Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech',
+          'Supply Chain, Lean, Management, Finance, Project & Career Training — Nextinotech'
+        )}
+        description={tr(
+          '30 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.',
+          '30 training programs across 7 domains: Supply Chain, Operational, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house. Catalogue and 2026 calendar.'
+        )}
+        canonical={`https://nextinotech.com${href('/formation')}`}
       />
       <SchemaScript schema={programmesSchema} />
 
@@ -328,7 +343,7 @@ export default function FormationCatalogue() {
         <div className="section-inner" style={{ position: 'relative', zIndex: 1 }}>
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '2.5rem' }}>
-              01 / Nextinotech Académie · Terrain · Résultats
+              {tr('01 / Nextinotech Académie · Terrain · Résultats', '01 / Nextinotech Academy · Field-Tested · Results')}
             </div>
           </Reveal>
 
@@ -342,28 +357,41 @@ export default function FormationCatalogue() {
               color: 'var(--navy)',
               margin: '0 0 4rem',
             }}>
-              Former.<br />
-              Certifier.<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Transformer.</span>
+              {tr('Former.', 'Train.')}<br />
+              {tr('Certifier.', 'Certify.')}<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('Transformer.', 'Transform.')}</span>
             </h1>
           </Reveal>
 
           <Reveal delay={0.09}>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 660, margin: '0 0 2rem' }}>
-              Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
-              30 programmes sur 7 domaines, du{' '}
-              <Link to="/formation-rl" style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
-              à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
-              Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.
+              {tr(
+                <>Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
+                30 programmes sur 7 domaines, du{' '}
+                <Link to={href('/formation-rl')} style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
+                à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
+                Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.</>,
+                <>Nextinotech trains logistics and supply chain professionals in Morocco:
+                30 programs across 7 domains, from{' '}
+                <Link to={href('/formation-rl')} style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>logistics manager</Link>{' '}
+                to buyer, public sessions in Casablanca and in-house sessions anywhere in Morocco.
+                CSF (OFPPT) / GIAC funding support possible — a training agreement is issued upon enrollment.</>
+              )}
             </p>
           </Reveal>
 
           <Reveal delay={0.11}>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', color: 'var(--mid)', fontWeight: 300 }}>
-              Ce catalogue couvre nos formations Supply Chain. Besoin de formations pour d&apos;autres métiers de votre entreprise (RH, Finance, Marketing, Production, Qualité…) ?{' '}
-              <Link to="/ingenierie-formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)' }}>
-                Découvrir notre ingénierie de formation et le catalogue par métier →
-              </Link>
+              {tr(
+                <>Ce catalogue couvre nos formations Supply Chain. Besoin de formations pour d&apos;autres métiers de votre entreprise (RH, Finance, Marketing, Production, Qualité…) ?{' '}
+                <Link to="/ingenierie-formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)' }}>
+                  Découvrir notre ingénierie de formation et le catalogue par métier →
+                </Link></>,
+                <>This catalogue covers our Supply Chain training. Need training for other roles in your company (HR, Finance, Marketing, Production, Quality…)?{' '}
+                <Link to="/ingenierie-formation" style={{ color: 'var(--blue-bright)', textDecoration: 'none', borderBottom: '1px solid rgba(47,111,181,0.3)' }}>
+                  Discover our training engineering and role-based catalogue →
+                </Link></>
+              )}
             </p>
           </Reveal>
 
@@ -386,9 +414,9 @@ export default function FormationCatalogue() {
             }}
           >
             {[
-              { val: '30', label: 'programmes disponibles' },
-              { val: '7', label: 'domaines de formation' },
-              { val: '20+', label: 'ans de terrain formateur' },
+              { val: '30', label: tr('programmes disponibles', 'programs available') },
+              { val: '7', label: tr('domaines de formation', 'training domains') },
+              { val: '20+', label: tr('ans de terrain formateur', "years of field-tested instruction") },
             ].map((s, i) => (
               <div key={i} style={{ padding: '1.4rem 1.8rem', borderRight: i < 2 ? '1px solid var(--border)' : 'none' }}>
                 <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(1.5rem, 2.4vw, 2.2rem)', fontWeight: 700, color: 'var(--navy)', lineHeight: 1, marginBottom: '0.3rem', letterSpacing: '-0.01em' }}>{s.val}</div>
@@ -403,7 +431,10 @@ export default function FormationCatalogue() {
       <div style={{ background: 'var(--dark-2)', padding: '5rem 4rem', borderTop: '1px solid var(--border)' }}>
         <div className="section-inner">
           <div style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2rem, 5vw, 6.5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', fontStyle: 'italic', color: 'var(--navy)' }}>
-            "Le bon formateur ne vous apprend pas le métier.<br />Il vous fait voir ce que vous faites déjà — autrement."
+            {tr(
+              <>"Le bon formateur ne vous apprend pas le métier.<br />Il vous fait voir ce que vous faites déjà — autrement."</>,
+              <>"A good trainer doesn't teach you the job.<br />They show you what you're already doing — differently."</>
+            )}
           </div>
         </div>
       </div>
@@ -415,11 +446,11 @@ export default function FormationCatalogue() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '4rem', flexWrap: 'wrap', gap: '2rem' }}>
               <div>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-                  02 / Catalogue & calendrier
+                  {tr('02 / Catalogue & calendrier', '02 / Catalogue & calendar')}
                 </div>
                 <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
-                  30 programmes.<br />
-                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>7 domaines d'expertise.</span>
+                  {tr('30 programmes.', '30 programs.')}<br />
+                  <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr("7 domaines d'expertise.", '7 areas of expertise.')}</span>
                 </h2>
               </div>
 
@@ -471,16 +502,16 @@ export default function FormationCatalogue() {
         <div className="section-inner">
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-              Prochaines sessions programmées
+              {tr('Prochaines sessions programmées', 'Upcoming scheduled sessions')}
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 5rem' }}>
-              Calendrier<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Septembre — Décembre 2026.</span>
+              {tr('Calendrier', 'Calendar')}<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('Septembre — Décembre 2026.', 'September — December 2026.')}</span>
             </h2>
           </Reveal>
 
           <div className="formation-calendar-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2px' }}>
-            {SESSIONS.map((month, mi) => (
+            {sessions.map((month, mi) => (
               <Reveal key={month.mois} delay={mi * 0.08}>
                 <div style={{ background: '#fff', padding: '2.5rem', minHeight: 300 }}>
                   {/* Month header */}
@@ -495,19 +526,19 @@ export default function FormationCatalogue() {
                     {month.sessions.map((s, si) => (
                       <div key={si} style={{ borderLeft: `2px solid ${s.format === 'inter' ? 'var(--blue-bright)' : 'var(--border)'}`, paddingLeft: '0.9rem' }}>
                         <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: s.format === 'inter' ? 'var(--blue-bright)' : 'var(--mid)', textTransform: 'uppercase', marginBottom: '0.2rem' }}>
-                          {s.date} · {s.format === 'inter' ? 'Inter' : 'Intra'}
+                          {s.date} · {s.format === 'inter' ? tr('Inter', 'Public') : tr('Intra', 'In-house')}
                         </div>
                         <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.85rem', fontWeight: 600, color: 'var(--navy)', lineHeight: 1.3, marginBottom: '0.3rem' }}>
                           {s.titre}
                         </div>
                         {s.places !== null && (
                           <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.08em', color: s.places <= 4 ? 'var(--blue-bright)' : 'var(--mid)', textTransform: 'uppercase' }}>
-                            {s.places} place{s.places > 1 ? 's' : ''} disponible{s.places > 1 ? 's' : ''}
+                            {tr(`${s.places} place${s.places > 1 ? 's' : ''} disponible${s.places > 1 ? 's' : ''}`, `${s.places} spot${s.places > 1 ? 's' : ''} available`)}
                           </div>
                         )}
                         {s.places === null && (
                           <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.5rem', letterSpacing: '0.08em', color: 'var(--mid)', textTransform: 'uppercase' }}>
-                            Sur demande
+                            {tr('Sur demande', 'On request')}
                           </div>
                         )}
                       </div>
@@ -523,14 +554,14 @@ export default function FormationCatalogue() {
             <div style={{ display: 'flex', gap: '2rem', marginTop: '2rem', flexWrap: 'wrap', alignItems: 'center' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ display: 'inline-block', width: 12, height: 12, background: 'var(--blue-bright)' }} />
-                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>Inter-entreprises</span>
+                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>{tr('Inter-entreprises', 'Public sessions')}</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <span style={{ display: 'inline-block', width: 12, height: 12, background: 'var(--border)' }} />
-                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>Intra-entreprise (sur devis)</span>
+                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)' }}>{tr('Intra-entreprise (sur devis)', 'In-house (on quote)')}</span>
               </div>
               <div style={{ marginLeft: 'auto', fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.1em', color: 'var(--mid)', textTransform: 'uppercase' }}>
-                Planning 2027 disponible sur demande
+                {tr('Planning 2027 disponible sur demande', '2027 schedule available on request')}
               </div>
             </div>
           </Reveal>
@@ -542,7 +573,7 @@ export default function FormationCatalogue() {
         <div className="section-inner">
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-              03 / Détail — programme phare
+              {tr('03 / Détail — programme phare', '03 / Detail — flagship program')}
             </div>
           </Reveal>
 
@@ -550,38 +581,41 @@ export default function FormationCatalogue() {
             {/* Left */}
             <Reveal delay={0.05}>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'var(--blue-bright)', padding: '0.3rem 0.9rem', marginBottom: '2rem' }}>
-                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#ffffff', fontWeight: 700 }}>★ Programme phare</span>
+                <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: '#ffffff', fontWeight: 700 }}>{tr('★ Programme phare', '★ Flagship program')}</span>
               </div>
               <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 1.5rem' }}>
-                Devenir<br />
-                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>Responsable<br />Logistique.</span>
+                {tr('Devenir', 'Becoming a')}<br />
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr(<>Responsable<br />Logistique.</>, <>Logistics<br />Manager.</>)}</span>
               </h2>
               <p style={{ fontSize: '1rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, maxWidth: 480, marginBottom: '2.5rem' }}>
-                Une journée intensive pour structurer votre pilotage logistique. Formateur expert 20+ ans terrain. Hôtel 5★ Casablanca. Tout inclus — déjeuner, support 60 pages, attestation, suivi WhatsApp 30 jours.
+                {tr(
+                  'Une journée intensive pour structurer votre pilotage logistique. Formateur expert 20+ ans terrain. Hôtel 5★ Casablanca. Tout inclus — déjeuner, support 60 pages, attestation, suivi WhatsApp 30 jours.',
+                  "One intensive day to structure your logistics management. Expert trainer, 20+ years in the field. 5-star hotel in Casablanca. All-inclusive — lunch, 60-page course materials, certificate, 30-day WhatsApp follow-up."
+                )}
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
-                <Link to="/formation-rl" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'var(--navy)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
+                <Link to={href('/formation-rl')} style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'var(--navy)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s' }}
                   onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)'}
                   onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--navy)'}
                 >
-                  Voir le programme complet →
+                  {tr('Voir le programme complet →', 'See the full program →')}
                 </Link>
-                <a href={WA} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'transparent', border: '1px solid var(--border)', color: 'var(--navy)', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s' }}
+                <a href={wa} target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', padding: '1rem 2.5rem', background: 'transparent', border: '1px solid var(--border)', color: 'var(--navy)', fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s' }}
                   onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--blue-bright)'; (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)' }}
                   onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)'; (e.currentTarget as HTMLElement).style.color = 'var(--navy)' }}
                 >
-                  Réserver via WhatsApp
+                  {tr('Réserver via WhatsApp', 'Book via WhatsApp')}
                 </a>
               </div>
               {/* Key facts */}
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
                 {[
-                  { l: 'Tarif', v: '1 500 MAD TTC' },
-                  { l: 'Format', v: 'Inter-entreprises' },
-                  { l: 'Durée', v: '1 journée (8h30–17h30)' },
-                  { l: 'Lieu', v: 'Hôtel 5★ Casablanca' },
-                  { l: 'Places', v: '8 à 16 participants' },
-                  { l: 'Suivi', v: 'WhatsApp 30 jours inclus' },
+                  { l: tr('Tarif', 'Price'), v: tr('1 500 MAD TTC', '1,500 MAD incl. VAT') },
+                  { l: tr('Format', 'Format'), v: tr('Inter-entreprises', 'Public session') },
+                  { l: tr('Durée', 'Duration'), v: tr('1 journée (8h30–17h30)', '1 day (8:30am–5:30pm)') },
+                  { l: tr('Lieu', 'Location'), v: tr('Hôtel 5★ Casablanca', '5-star hotel, Casablanca') },
+                  { l: tr('Places', 'Seats'), v: tr('8 à 16 participants', '8 to 16 participants') },
+                  { l: tr('Suivi', 'Follow-up'), v: tr('WhatsApp 30 jours inclus', '30-day WhatsApp follow-up included') },
                 ].map((f, i) => (
                   <div key={i} style={{ borderTop: '1px solid var(--border)', paddingTop: '0.75rem' }}>
                     <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.2rem' }}>{f.l}</div>
@@ -594,19 +628,19 @@ export default function FormationCatalogue() {
             {/* Right — upcoming dates */}
             <Reveal delay={0.12}>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-                Prochaines sessions 2026
+                {tr('Prochaines sessions 2026', 'Upcoming 2026 sessions')}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
                 {[
-                  { date: '18 Septembre 2026', places: 5, status: 'Ouvert' },
-                  { date: '23 Octobre 2026', places: 6, status: 'Ouvert' },
-                  { date: '13 Novembre 2026', places: 8, status: 'Ouvert' },
-                  { date: '11 Décembre 2026', places: 4, status: 'Dernières places' },
+                  { date: tr('18 Septembre 2026', 'September 18, 2026'), places: 5, status: tr('Ouvert', 'Open') },
+                  { date: tr('23 Octobre 2026', 'October 23, 2026'), places: 6, status: tr('Ouvert', 'Open') },
+                  { date: tr('13 Novembre 2026', 'November 13, 2026'), places: 8, status: tr('Ouvert', 'Open') },
+                  { date: tr('11 Décembre 2026', 'December 11, 2026'), places: 4, status: tr('Dernières places', 'Last seats') },
                 ].map((s, i) => (
                   <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem 1.5rem', background: i % 2 === 0 ? '#fff' : 'var(--dark-2)', borderLeft: `2px solid ${s.places <= 4 ? 'var(--blue-bright)' : 'var(--border)'}` }}>
                     <div>
                       <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, color: 'var(--navy)' }}>{s.date}</div>
-                      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', color: 'var(--mid)', marginTop: '0.2rem', textTransform: 'uppercase' }}>{s.places} places disponibles</div>
+                      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', color: 'var(--mid)', marginTop: '0.2rem', textTransform: 'uppercase' }}>{tr(`${s.places} places disponibles`, `${s.places} seats available`)}</div>
                     </div>
                     <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: s.places <= 4 ? 'var(--blue-bright)' : 'var(--mid)', fontWeight: s.places <= 4 ? 700 : 400 }}>
                       {s.status}
@@ -615,9 +649,12 @@ export default function FormationCatalogue() {
                 ))}
               </div>
               <div style={{ marginTop: '2rem', padding: '1.5rem', background: 'rgba(47,111,181,0.06)', borderLeft: '2px solid var(--blue-bright)' }}>
-                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.5rem' }}>Session intra disponible</div>
+                <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.5rem' }}>{tr('Session intra disponible', 'In-house session available')}</div>
                 <div style={{ fontSize: '0.88rem', color: 'var(--dark-muted)', lineHeight: 1.6, fontWeight: 300 }}>
-                  Vous avez 5+ collaborateurs ? Nous organisons cette formation dans vos locaux, adaptée à votre secteur. Contactez-nous pour un devis.
+                  {tr(
+                    'Vous avez 5+ collaborateurs ? Nous organisons cette formation dans vos locaux, adaptée à votre secteur. Contactez-nous pour un devis.',
+                    'Have 5+ employees? We can run this training at your premises, tailored to your industry. Contact us for a quote.'
+                  )}
                 </div>
               </div>
             </Reveal>
@@ -630,15 +667,17 @@ export default function FormationCatalogue() {
         <div className="section-inner">
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-              Couverture · Maroc
+              {tr('Couverture · Maroc', 'Coverage · Morocco')}
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 2rem' }}>
-              Formation logistique<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>par ville.</span>
+              {tr('Formation logistique', 'Logistics training')}<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('par ville.', 'by city.')}</span>
             </h2>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '1.05rem', lineHeight: 1.8, color: 'var(--mid)', fontWeight: 300, maxWidth: 620, margin: '0 0 2.5rem' }}>
-              Sessions inter-entreprise en présentiel à Casablanca, format intra-entreprise partout au Maroc.
-              Contexte économique local et programmes recommandés pour chaque région.
+              {tr(
+                'Sessions inter-entreprise en présentiel à Casablanca, format intra-entreprise partout au Maroc. Contexte économique local et programmes recommandés pour chaque région.',
+                'In-person public sessions in Casablanca, in-house format anywhere in Morocco. Local economic context and recommended programs for each region.'
+              )}
             </p>
           </Reveal>
           <Reveal delay={0.06}>
@@ -659,16 +698,16 @@ export default function FormationCatalogue() {
         <div className="section-inner">
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-              04 / Questions fréquentes
+              {tr('04 / Questions fréquentes', '04 / Frequently Asked Questions')}
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 4rem' }}>
-              Vos questions,<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>nos réponses.</span>
+              {tr('Vos questions,', 'Your questions,')}<br />
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('nos réponses.', 'our answers.')}</span>
             </h2>
           </Reveal>
 
           <div style={{ maxWidth: 900 }}>
-            {FAQ.map((item, i) => (
+            {faq.map((item, i) => (
               <FAQItem key={i} item={item} />
             ))}
           </div>
@@ -681,39 +720,42 @@ export default function FormationCatalogue() {
           <div className="cta-final-grid" style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '6rem', alignItems: 'center' }}>
             <Reveal>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-                05 / Inscription & contact
+                {tr('05 / Inscription & contact', '05 / Enrollment & contact')}
               </div>
               <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 1.5rem' }}>
-                Réserver votre<br />
-                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>prochaine session.</span>
+                {tr('Réserver votre', 'Book your')}<br />
+                <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('prochaine session.', 'next session.')}</span>
               </h2>
               <p style={{ fontSize: '1rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, maxWidth: 520, margin: 0 }}>
-                Réponse sous 24h. Aucun engagement avant confirmation écrite. Annulation gratuite jusqu'à 7 jours avant la session.
+                {tr(
+                  "Réponse sous 24h. Aucun engagement avant confirmation écrite. Annulation gratuite jusqu'à 7 jours avant la session.",
+                  'Reply within 24h. No commitment before written confirmation. Free cancellation up to 7 days before the session.'
+                )}
               </p>
             </Reveal>
 
             <Reveal delay={0.1}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'flex-start' }}>
-                <a href={WA} target="_blank" rel="noopener noreferrer"
+                <a href={wa} target="_blank" rel="noopener noreferrer"
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '1.25rem 3rem', background: 'var(--blue-bright)', color: '#ffffff', fontFamily: 'Jost, sans-serif', fontSize: '1rem', fontWeight: 700, textDecoration: 'none', letterSpacing: '0.04em', transition: 'background 0.2s', whiteSpace: 'nowrap' }}
                   onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = 'var(--navy)'}
                   onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)'}
                 >
-                  Réserver via WhatsApp →
+                  {tr('Réserver via WhatsApp →', 'Book via WhatsApp →')}
                 </a>
                 <a href={EMAIL}
                   style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '1.25rem 3rem', background: 'transparent', border: '1px solid var(--border)', color: 'var(--dark-muted)', fontFamily: 'Jost, sans-serif', fontSize: '1rem', fontWeight: 400, textDecoration: 'none', letterSpacing: '0.04em', transition: 'all 0.2s', whiteSpace: 'nowrap' }}
                   onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--blue-bright)'; (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)' }}
                   onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)'; (e.currentTarget as HTMLElement).style.color = 'var(--dark-muted)' }}
                 >
-                  Écrire par email
+                  {tr('Écrire par email', 'Send an email')}
                 </a>
-                <Link to="/contact"
+                <Link to={href('/contact')}
                   style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', textDecoration: 'none', transition: 'color 0.2s' }}
                   onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'}
                   onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = 'var(--mid)'}
                 >
-                  Ou via le formulaire de contact →
+                  {tr('Ou via le formulaire de contact →', 'Or via the contact form →')}
                 </Link>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.5rem' }}>
                   +212 06 63 44 92 00 · contact@nextinotech.com
