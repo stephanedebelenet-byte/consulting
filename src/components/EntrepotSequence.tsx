@@ -1,6 +1,7 @@
 import { useEffect, useRef, type CSSProperties, type MouseEvent, type Ref } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useLocale } from '../i18n/locale'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -53,6 +54,49 @@ const STEPS: Step[] = [
   },
 ]
 
+const STEPS_EN: Step[] = [
+  {
+    img: '/images/entrepot-sequence/etape-1-chaos-maximal.webp',
+    alt: 'Disorganized warehouse, several forklifts, cluttered floor',
+    title: 'The "paper" stage: invisible until it gets expensive',
+    desc: "Zero traceability, locations tracked in the team's memory, stock discrepancies found too late. Every missing or late order is a customer losing trust. Every misused forklift is a cost that shows up on no dashboard — because there is no dashboard.",
+    ctaLabel: 'Get my diagnosis',
+    ctaHref: '/conseil',
+  },
+  {
+    img: '/images/entrepot-sequence/etape-2-chaos-modere.webp',
+    alt: 'Warehouse with a forklift and an empty management board',
+    title: 'Excel stopped the bleeding, not the problem',
+    desc: "A shared file gives the illusion of control. But without real location management, every pallet search stays a lottery, and the data is only reliable until the next forgotten entry.",
+    ctaLabel: 'See inventory optimization',
+    ctaHref: '/conseil',
+  },
+  {
+    img: '/images/entrepot-sequence/etape-3-transition.webp',
+    alt: 'Forklift and AMR robot coexisting, partial floor marking',
+    title: 'DDMRP: the end of forecasts that get it wrong',
+    desc: "Decoupling buffers calculated from actual consumption (ADU), green/yellow/red zones that drive replenishment automatically. We no longer forecast the future — we react to real demand, continuously.",
+    ctaLabel: 'Discover DDMRP',
+    ctaHref: '/conseil',
+  },
+  {
+    img: '/images/entrepot-sequence/etape-4-amr-seul.webp',
+    alt: 'Autonomous AMR robot, full floor marking, a single operator',
+    title: 'WMS, TMS, APS: three systems, one single truth',
+    desc: "Real-time location, optimized routes, synchronized planning. What the warehouse knows, the team knows at the same instant — and the customer too, if needed.",
+    ctaLabel: 'Explore our WMS/TMS/APS deployments',
+    ctaHref: '/conseil',
+  },
+  {
+    img: '/images/entrepot-sequence/etape-5-final.webp',
+    alt: 'Cobot, workstation and active control screen',
+    title: 'Stop managing emergencies — start driving performance',
+    desc: "A SaaS that forecasts, alerts, and only needs you for the decisions that matter. Our Control Tower deployments cut anomaly detection time by 5 to 10x.",
+    ctaLabel: 'Talk to a consultant',
+    ctaHref: '/contact',
+  },
+]
+
 // Measured after WebP optimization (5 × ~1600px-wide frames). If this ever grows
 // past ~1.2MB (heavier source photos, more steps), mobile drops to 3 frames.
 const MEASURED_TOTAL_KB = 758
@@ -90,9 +134,11 @@ export default function EntrepotSequence() {
   const descRef = useRef<HTMLDivElement>(null)
   const ctaRef = useRef<HTMLAnchorElement>(null)
 
+  const { locale, tr, href } = useLocale()
+  const baseSteps = locale === 'en' ? STEPS_EN : STEPS
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 640
   const useReducedSet = isMobile && MEASURED_TOTAL_KB > MOBILE_WEIGHT_THRESHOLD_KB
-  const activeSteps = useReducedSet ? REDUCED_STEP_INDICES.map((i) => STEPS[i]) : STEPS
+  const activeSteps = useReducedSet ? REDUCED_STEP_INDICES.map((i) => baseSteps[i]) : baseSteps
   const segments = activeSteps.length - 1
 
   useEffect(() => {
@@ -122,7 +168,7 @@ export default function EntrepotSequence() {
       if (descRef.current) descRef.current.textContent = step.desc
       if (ctaRef.current) {
         ctaRef.current.textContent = `${step.ctaLabel} →`
-        ctaRef.current.setAttribute('href', step.ctaHref)
+        ctaRef.current.setAttribute('href', href(step.ctaHref))
       }
     }
 
@@ -218,7 +264,7 @@ export default function EntrepotSequence() {
             className="section-tag"
             style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '1.2rem' }}
           >
-            <span>Comment nous intervenons sur le terrain</span>
+            <span>{tr('Comment nous intervenons sur le terrain', 'How we work on the ground')}</span>
           </div>
           <div
             ref={titleRef}
@@ -249,7 +295,7 @@ export default function EntrepotSequence() {
             {activeSteps[0].desc}
           </div>
           <div style={{ marginTop: '1.5rem' }}>
-            <CtaLink href={activeSteps[0].ctaHref} label={activeSteps[0].ctaLabel} elRef={ctaRef} />
+            <CtaLink href={href(activeSteps[0].ctaHref)} label={activeSteps[0].ctaLabel} elRef={ctaRef} />
           </div>
         </div>
 

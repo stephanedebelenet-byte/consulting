@@ -11,6 +11,7 @@ import {
   IconChevronDown,
 } from '@tabler/icons-react'
 import { useMobileMenu } from '../contexts/MobileMenuContext'
+import { useLocale, switchLocaleHref } from '../i18n/locale'
 
 interface SimpleItem {
   label: string
@@ -65,6 +66,60 @@ const CABINET_ITEMS: SimpleItem[] = [
   { label: 'FAQ', href: '/faq' },
 ]
 
+// Anglais (27/09/2026) : mêmes destinations (hrefs français — voir
+// src/i18n/locale.tsx : useLocale().href() ne préfixe /en que pour les pages
+// déjà traduites, aujourd'hui seulement l'accueil), labels traduits.
+const ACADEMIE_ITEMS_EN: SimpleItem[] = [
+  { label: 'Our Training Programs', href: '/formation' },
+  { label: 'Training Engineering', href: '/ingenierie-formation' },
+  { label: 'Catalog by Profession', href: '/ingenierie-formation/catalogue' },
+  { label: 'Customs & Import-Export Training', href: '/formation/douane-import-export' },
+]
+
+const CONSEIL_ITEMS_EN: SimpleItem[] = [
+  { label: 'Diagnosis & Consulting', href: '/conseil' },
+  { label: 'DDMRP', href: '/conseil' },
+  { label: 'Part-Time Supply Chain Direction', href: '/direction-supply-chain-temps-partage' },
+  { label: 'AEO Status & Customs Regimes', href: '/accompagnement-oea' },
+  { label: 'Inventory Pack', href: '/prestations#pack-inventaire' },
+  { label: 'Value-Added Logistics Services', href: '/prestations#services-valeur-ajoutee' },
+]
+
+const DIGITAL_ITEMS_EN: SimpleItem[] = [
+  { label: 'Control Tower (WMS · TMS · IMS · AMS · IoT · AI)', href: '/control-tower' },
+  { label: 'Systems Integration', href: '/prestations#solutions-it' },
+]
+
+const UNIT_NAMES_EN: Partial<Record<GroupId, string>> = {
+  academie: 'Nextinotech Academy',
+  conseil: 'Nextinotech Consulting',
+  digital: 'Nextinotech Digital',
+}
+
+const TOOLS_ITEMS_EN = [
+  { label: 'Warehouse Sizing', href: '/outils/dimensionnement-entrepot', icon: IconRuler2 },
+  { label: 'Total Warehouse Cost', href: '/outils/cout-global-entrepot', icon: IconCalculator },
+  { label: 'Equipment & Labor Productivity', href: '/outils/productivite-engins-main-doeuvre', icon: IconGauge },
+  { label: 'WMS Demo', href: '/demo/wms', icon: IconBuildingWarehouse },
+  { label: 'TMS Demo', href: '/demo/tms', icon: IconTruck },
+  { label: 'APS Demo', href: '/demo/aps', icon: IconChartLine },
+]
+
+const CABINET_ITEMS_EN: SimpleItem[] = [
+  { label: 'About', href: '/a-propos' },
+  { label: 'References', href: '/references' },
+  { label: 'FAQ', href: '/faq' },
+]
+
+const NAV_ENTRIES_EN: NavEntry[] = [
+  { kind: 'dropdown', id: 'academie', label: 'Academy' },
+  { kind: 'dropdown', id: 'conseil', label: 'Consulting' },
+  { kind: 'dropdown', id: 'digital', label: 'Digital' },
+  { kind: 'dropdown', id: 'cabinet', label: 'Firm' },
+  { kind: 'link', id: 'carriere', label: 'Careers', href: '/carriere' },
+  { kind: 'link', id: 'ressources', label: 'Resources', href: '/blog' },
+]
+
 type GroupId = 'academie' | 'conseil' | 'digital' | 'cabinet'
 
 // Les 3 unités métier en tête, dans l'ordre historique du site (la formation
@@ -83,6 +138,7 @@ const NAV_ENTRIES: NavEntry[] = [
 ]
 
 function SimpleList({ items, onNavigate }: { items: SimpleItem[]; onNavigate: () => void }) {
+  const { tr, href } = useLocale()
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minWidth: 220 }}>
       {items.map((item) =>
@@ -101,13 +157,13 @@ function SimpleList({ items, onNavigate }: { items: SimpleItem[]; onNavigate: ()
           >
             {item.label}
             <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.28)' }}>
-              Bientôt
+              {tr('Bientôt', 'Soon')}
             </span>
           </span>
         ) : (
           <Link
             key={item.label}
-            to={item.href}
+            to={href(item.href)}
             onClick={onNavigate}
             style={{
               padding: '0.75rem 1.25rem',
@@ -128,12 +184,14 @@ function SimpleList({ items, onNavigate }: { items: SimpleItem[]; onNavigate: ()
 }
 
 function ToolsGrid({ onNavigate }: { onNavigate: () => void }) {
+  const { locale, href } = useLocale()
+  const items = locale === 'en' ? TOOLS_ITEMS_EN : TOOLS_ITEMS
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem', minWidth: 480, padding: '0.5rem' }}>
-      {TOOLS_ITEMS.map(({ label, href, icon: Icon }) => (
+      {items.map(({ label, href: itemHref, icon: Icon }) => (
         <Link
           key={label}
-          to={href}
+          to={href(itemHref)}
           onClick={onNavigate}
           style={{
             display: 'flex',
@@ -164,8 +222,10 @@ function ToolsGrid({ onNavigate }: { onNavigate: () => void }) {
 }
 
 function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label: string; active: boolean; openId: GroupId | null; setOpenId: Dispatch<SetStateAction<GroupId | null>> }) {
+  const { locale, tr } = useLocale()
   const isOpen = openId === id
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const unitNames = locale === 'en' ? UNIT_NAMES_EN : UNIT_NAMES
 
   const cancelClose = () => {
     if (closeTimer.current) clearTimeout(closeTimer.current)
@@ -222,24 +282,29 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
               zIndex: 120,
             }}
           >
-            {UNIT_NAMES[id] && (
+            {unitNames[id] && (
               <div style={{ padding: '1rem 1.25rem 0.25rem', fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--mid)' }}>
-                {UNIT_NAMES[id]}
+                {unitNames[id]}
               </div>
             )}
             <SimpleList
               items={
-                id === 'academie' ? ACADEMIE_ITEMS
-                  : id === 'conseil' ? CONSEIL_ITEMS
-                  : id === 'digital' ? DIGITAL_ITEMS
-                  : CABINET_ITEMS
+                locale === 'en'
+                  ? (id === 'academie' ? ACADEMIE_ITEMS_EN
+                    : id === 'conseil' ? CONSEIL_ITEMS_EN
+                    : id === 'digital' ? DIGITAL_ITEMS_EN
+                    : CABINET_ITEMS_EN)
+                  : (id === 'academie' ? ACADEMIE_ITEMS
+                    : id === 'conseil' ? CONSEIL_ITEMS
+                    : id === 'digital' ? DIGITAL_ITEMS
+                    : CABINET_ITEMS)
               }
               onNavigate={() => setOpenId(null)}
             />
             {id === 'digital' && (
               <>
                 <div style={{ padding: '0.75rem 1.25rem 0', fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.45)' }}>
-                  Simulateurs & démos gratuits
+                  {tr('Simulateurs & démos gratuits', 'Free simulators & demos')}
                 </div>
                 <ToolsGrid onNavigate={() => setOpenId(null)} />
               </>
@@ -251,11 +316,12 @@ function NavGroup({ id, label, active, openId, setOpenId }: { id: GroupId; label
   )
 }
 
-function NavLinkItem({ label, href, active }: { label: string; href: string; active: boolean }) {
+function NavLinkItem({ label, href: linkHref, active }: { label: string; href: string; active: boolean }) {
+  const { href } = useLocale()
   return (
     <li>
       <Link
-        to={href}
+        to={href(linkHref)}
         style={{
           display: 'inline-flex',
           alignItems: 'center',
@@ -275,9 +341,39 @@ function NavLinkItem({ label, href, active }: { label: string; href: string; act
   )
 }
 
+// Sélecteur de langue FR/EN — bascule vers l'équivalent de la page courante
+// si une traduction existe, sinon vers l'accueil de la langue cible (voir
+// switchLocaleHref, src/i18n/locale.tsx : jamais de lien mort).
+function LanguageSwitch({ pathname }: { pathname: string }) {
+  const { locale } = useLocale()
+  const target = switchLocaleHref(pathname)
+  return (
+    <Link
+      to={target}
+      aria-label={locale === 'en' ? 'Switch to French' : 'Passer en anglais'}
+      style={{
+        fontFamily: 'DM Mono, monospace',
+        fontSize: '0.72rem',
+        letterSpacing: '0.05em',
+        color: 'var(--mid)',
+        textDecoration: 'none',
+        border: '1px solid rgba(27,53,84,0.18)',
+        padding: '0.35rem 0.6rem',
+        transition: 'color 0.2s, border-color 0.2s',
+      }}
+      onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)'; (e.currentTarget as HTMLElement).style.borderColor = 'var(--blue-bright)' }}
+      onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = 'var(--mid)'; (e.currentTarget as HTMLElement).style.borderColor = 'rgba(27,53,84,0.18)' }}
+    >
+      {locale === 'en' ? 'FR' : 'EN'}
+    </Link>
+  )
+}
+
 export default function Nav() {
   const { pathname } = useLocation()
   const { menuOpen, setMenuOpen } = useMobileMenu()
+  const { locale, tr, href } = useLocale()
+  const navEntries = locale === 'en' ? NAV_ENTRIES_EN : NAV_ENTRIES
 
   const [scrolled, setScrolled] = useState(false)
   const [progress, setProgress] = useState(0)
@@ -350,7 +446,7 @@ export default function Nav() {
       >
         {/* Logo */}
         <Link
-          to="/"
+          to={href('/')}
           style={{
             textDecoration: 'none',
             zIndex: 110,
@@ -373,7 +469,7 @@ export default function Nav() {
 
         {/* Desktop nav — groupes déroulants */}
         <ul className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '2.25rem', listStyle: 'none' }}>
-          {NAV_ENTRIES.map((entry) =>
+          {navEntries.map((entry) =>
             entry.kind === 'dropdown' ? (
               <NavGroup key={entry.id} id={entry.id} label={entry.label} active={groupActive(entry.id)} openId={openGroup} setOpenId={setOpenGroup} />
             ) : (
@@ -381,8 +477,11 @@ export default function Nav() {
             )
           )}
           <li>
+            <LanguageSwitch pathname={pathname} />
+          </li>
+          <li>
             <Link
-              to="/contact"
+              to={href('/contact')}
               style={{
                 fontSize: '0.85rem',
                 fontWeight: 600,
@@ -406,7 +505,7 @@ export default function Nav() {
                 el.style.color = 'var(--paper)'
               }}
             >
-              Contact
+              {tr('Contact', 'Contact')}
             </Link>
           </li>
         </ul>
@@ -437,34 +536,41 @@ export default function Nav() {
           >
             <nav style={{ marginBottom: '2.5rem', marginTop: 'auto' }}>
               <Link
-                to="/contact"
+                to={href('/contact')}
                 className="mobile-nav-item"
                 onClick={() => setMenuOpen(false)}
                 style={{ display: 'block', textDecoration: 'none', color: 'var(--blue-bright)', marginBottom: '2.5rem' }}
               >
-                Contact →
+                {tr('Contact →', 'Contact →')}
               </Link>
 
               {/* Les 3 unités métier, chacune avec sa section, puis Cabinet.
                   Les simulateurs et démos de Nextinotech Digital restent
                   accessibles par l'onglet "Digital" de la barre mobile. */}
-              {([
-                ['Nextinotech Académie', ACADEMIE_ITEMS],
-                ['Nextinotech Conseil', CONSEIL_ITEMS],
-                ['Nextinotech Digital', DIGITAL_ITEMS],
-              ] as const).map(([unit, items]) => (
+              {(locale === 'en'
+                ? [
+                    ['Nextinotech Academy', ACADEMIE_ITEMS_EN],
+                    ['Nextinotech Consulting', CONSEIL_ITEMS_EN],
+                    ['Nextinotech Digital', DIGITAL_ITEMS_EN],
+                  ] as const
+                : [
+                    ['Nextinotech Académie', ACADEMIE_ITEMS],
+                    ['Nextinotech Conseil', CONSEIL_ITEMS],
+                    ['Nextinotech Digital', DIGITAL_ITEMS],
+                  ] as const
+              ).map(([unit, items]) => (
                 <div key={unit} style={{ marginBottom: '2rem' }}>
                   <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
                     {unit}
                   </div>
-                  {items.map(({ label, href }, i) => (
+                  {items.map(({ label, href: itemHref }, i) => (
                     <motion.div
                       key={label}
                       initial={{ opacity: 0, x: 32 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
                     >
-                      <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                      <Link to={href(itemHref)} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
                         {label}
                       </Link>
                     </motion.div>
@@ -474,16 +580,16 @@ export default function Nav() {
 
               <div style={{ marginBottom: '2rem' }}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.16em', textTransform: 'uppercase', color: 'rgba(27,53,84,0.4)', marginBottom: '0.75rem' }}>
-                  Cabinet
+                  {tr('Cabinet', 'Firm')}
                 </div>
-                {CABINET_ITEMS.map(({ label, href }, i) => (
+                {(locale === 'en' ? CABINET_ITEMS_EN : CABINET_ITEMS).map(({ label, href: itemHref }, i) => (
                   <motion.div
                     key={label}
                     initial={{ opacity: 0, x: 32 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.4, delay: 0.1 + i * 0.06 }}
                   >
-                    <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                    <Link to={href(itemHref)} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
                       {label}
                     </Link>
                   </motion.div>
@@ -491,21 +597,45 @@ export default function Nav() {
               </div>
 
               {/* Carrière et Ressources : liens directs (la FAQ est dans Cabinet). */}
-              {[
-                { label: 'Carrière', href: '/carriere' },
-                { label: 'Ressources', href: '/blog' },
-              ].map(({ label, href }, i) => (
+              {(locale === 'en'
+                ? [{ label: 'Careers', href: '/carriere' }, { label: 'Resources', href: '/blog' }]
+                : [{ label: 'Carrière', href: '/carriere' }, { label: 'Ressources', href: '/blog' }]
+              ).map(({ label, href: itemHref }, i) => (
                 <motion.div
                   key={label}
                   initial={{ opacity: 0, x: 32 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.4, delay: 0.1 + (CABINET_ITEMS.length + i) * 0.06 }}
                 >
-                  <Link to={href} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
+                  <Link to={href(itemHref)} className="mobile-nav-item" onClick={() => setMenuOpen(false)} style={{ display: 'block', textDecoration: 'none' }}>
                     {label}
                   </Link>
                 </motion.div>
               ))}
+
+              <motion.div
+                initial={{ opacity: 0, x: 32 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.4, delay: 0.4 }}
+                style={{ marginTop: '1.5rem' }}
+              >
+                <Link
+                  to={switchLocaleHref(pathname)}
+                  onClick={() => setMenuOpen(false)}
+                  style={{
+                    display: 'inline-block',
+                    fontFamily: 'DM Mono, monospace',
+                    fontSize: '0.75rem',
+                    letterSpacing: '0.08em',
+                    color: 'var(--mid)',
+                    textDecoration: 'none',
+                    border: '1px solid rgba(27,53,84,0.18)',
+                    padding: '0.5rem 0.9rem',
+                  }}
+                >
+                  {locale === 'en' ? 'Français (FR)' : 'English (EN)'}
+                </Link>
+              </motion.div>
             </nav>
             <motion.div
               initial={{ opacity: 0 }}
@@ -522,9 +652,9 @@ export default function Nav() {
             >
               <span>Nextinotech</span>
               <span>◆</span>
-              <span>Casablanca, Maroc</span>
+              <span>{tr('Casablanca, Maroc', 'Casablanca, Morocco')}</span>
               <span>◆</span>
-              <span>DDMRP Certifié</span>
+              <span>{tr('DDMRP Certifié', 'DDMRP Certified')}</span>
             </motion.div>
           </motion.div>
         )}

@@ -4,6 +4,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import Layout from './components/Layout'
+import { LocaleProvider, type Locale } from './i18n/locale'
 import HomePage from './pages/HomePage'
 import ConseilPage from './pages/ConseilPage'
 import PrestationsPage from './pages/PrestationsPage'
@@ -70,6 +71,7 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={routeKey}>
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
+        <Route path="/en" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
         <Route path="/control-tower" element={<PageTransition><ControlTowerPage /></PageTransition>} />
@@ -124,10 +126,18 @@ function AnimatedRoutes() {
 // chantier qui corrige le <body> vide de ces pages pour les crawlers qui
 // n'exécutent pas de JS, voir audit GEO du 25/09/2026).
 export function AppRoutes() {
+  const { pathname } = useLocation()
+  // Anglais (27/09/2026) : locale dérivée du préfixe d'URL /en, jamais d'un
+  // choix de navigateur ou d'un cookie — chaque langue a sa propre adresse
+  // indexable (SEO), voir src/i18n/locale.tsx. '/en' et '/en/' visent la même
+  // page que '/'. Englobe Layout (Nav/Footer/MobileTabBar en dépendent aussi).
+  const locale: Locale = pathname === '/en' || pathname.startsWith('/en/') ? 'en' : 'fr'
   return (
-    <Layout>
-      <AnimatedRoutes />
-    </Layout>
+    <LocaleProvider locale={locale}>
+      <Layout>
+        <AnimatedRoutes />
+      </Layout>
+    </LocaleProvider>
   )
 }
 

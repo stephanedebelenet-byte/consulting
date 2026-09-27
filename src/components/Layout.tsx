@@ -14,6 +14,19 @@ import CookieBanner from './CookieBanner'
 import FormationStickyBar from './FormationStickyBar'
 import WhatsAppFab from './WhatsAppFab'
 import { MobileMenuProvider } from '../contexts/MobileMenuContext'
+import { useLocale } from '../i18n/locale'
+
+// <html lang> prérendu par vite.config.ts (renderRoute) ; ce composant
+// l'aligne côté client une fois React monté, au cas où le visiteur navigue
+// entre /fr et /en sans rechargement complet (le SPA ne remonte pas le shell
+// HTML entre deux pages).
+function SyncHtmlLang() {
+  const { locale } = useLocale()
+  useEffect(() => {
+    document.documentElement.lang = locale
+  }, [locale])
+  return null
+}
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -60,6 +73,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <MobileMenuProvider>
       <div className="grain">
+        <SyncHtmlLang />
         <ScrollToTop />
         <Analytics />
         <CustomCursor />

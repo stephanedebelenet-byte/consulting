@@ -1,5 +1,6 @@
 ﻿import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
+import { useLocale } from '../i18n/locale'
 
 const ROW1 = [
   'Renault-Nissan',
@@ -41,6 +42,20 @@ const ROW2 = [
   'European Training Foundation',
   'Task Force Vaccination COVID-19',
   'Formation Grandes Écoles',
+]
+
+const ROW2_EN = [
+  'Independent Consulting',
+  'DDMRP Certified',
+  'Moroccan SMEs & Mid-Caps',
+  'Supply Chain Advisory',
+  'WMS · TMS · APS',
+  '20+ Years on the Ground',
+  'S&OP · DDMRP · IBP',
+  'Casablanca · Tangier · Rabat',
+  'European Training Foundation',
+  'COVID-19 Vaccination Task Force',
+  'Top Business School Training',
 ]
 
 function MarqueeRow({
@@ -121,6 +136,7 @@ function MarqueeRow({
 }
 
 export default function Marquee() {
+  const { locale } = useLocale()
   return (
     <div
       style={{
@@ -131,7 +147,7 @@ export default function Marquee() {
       }}
     >
       <MarqueeRow items={ROW1} direction={1} accentEvery={3} />
-      <MarqueeRow items={ROW2} direction={-1} accentEvery={4} />
+      <MarqueeRow items={locale === 'en' ? ROW2_EN : ROW2} direction={-1} accentEvery={4} />
     </div>
   )
 }

@@ -41,6 +41,12 @@ export interface PrerenderRoute {
    * la cause du blocage d'indexation identifié le 22/09/2026.
    */
   bodyHtml?: string
+  /**
+   * Anglais (27/09/2026) : chemin de la même page dans l'autre langue, pour
+   * la paire de balises hreflang réciproques (voir renderRoute, vite.config.ts).
+   * Ex. sur '/', altPath: '/en' ; sur '/en', altPath: '/'.
+   */
+  altPath?: string
 }
 
 const SUFFIX = ' | Nextinotech'
@@ -145,6 +151,7 @@ const STATIC: PrerenderRoute[] = [
     priority: 1.0,
     changefreq: 'monthly',
     lastmod: '2026-08-05',
+    altPath: '/en',
   },
   {
     path: '/conseil',
@@ -472,12 +479,18 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
     // /formation/<id> dans llms.txt.
   }))
 
-  return [...STATIC, ...villes, ...programmes].map((r) => {
+  const fr = [...STATIC, ...villes, ...programmes].map((r) => {
     const o = SEO_OVERRIDES[r.path] ?? {}
     const route = { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
     const extra = pageSchemas(route)
     return withBreadcrumb(extra.length ? { ...route, jsonLd: [...(route.jsonLd ?? []), ...extra] } : route)
   })
+  // Anglais (27/09/2026) : routes séparées, hors du pipeline français
+  // (SEO_OVERRIDES, pageSchemas, withBreadcrumb sont pensés pour le français
+  // — FAQ non traduites, fil d'Ariane français…) — chaque entrée d'EN_ROUTES
+  // porte déjà son propre jsonLd complet. Voir src/i18n/locale.tsx : EN_PATHS
+  // doit être tenu à jour en parallèle de cette liste.
+  return [...fr, ...EN_ROUTES]
 }
 
 // Fil d'Ariane propre à chaque page (audit du 26/09/2026). Auparavant, un
@@ -508,6 +521,40 @@ function breadcrumbParents(path: string): { path: string; name: string }[] {
 const SITE_URL = 'https://nextinotech.com'
 const ORG_REF = { '@id': `${SITE_URL}/#organization` }
 const DIGITAL_REF = { '@id': `${SITE_URL}/#digital` }
+
+// Anglais (27/09/2026) : première page traduite, voir src/i18n/locale.tsx
+// (EN_PATHS) pour la liste des pages qui ont une version anglaise et
+// Nav/Footer/MobileTabBar pour le sélecteur de langue. jsonLd autonome
+// (WebPage), référence les mêmes nœuds partagés (#organization, #website)
+// que le graphe français d'index.html — c'est la même entreprise, juste
+// décrite dans une autre langue, pas une entité distincte. Référencée par
+// getPrerenderRoutes() ci-dessus (défini avant ce point du fichier, mais
+// exécuté après : les fonctions ne s'évaluent qu'à l'appel).
+const EN_ROUTES: PrerenderRoute[] = [
+  {
+    path: '/en',
+    title: 'Nextinotech — Supply Chain Consulting & Training in Morocco',
+    description:
+      'Independent Supply Chain & Logistics consulting and training firm in Morocco. Diagnosis, DDMRP, network design, WMS/TMS advisory. 20+ years on the ground.',
+    priority: 1.0,
+    changefreq: 'monthly',
+    lastmod: '2026-09-27',
+    altPath: '/',
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/en#webpage`,
+      url: `${SITE_URL}/en`,
+      name: 'Nextinotech — Supply Chain Consulting & Training in Morocco',
+      description:
+        'Independent Supply Chain & Logistics consulting and training firm in Morocco. Diagnosis, DDMRP, network design, WMS/TMS advisory. 20+ years on the ground.',
+      inLanguage: 'en',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      about: ORG_REF,
+      mainEntity: ORG_REF,
+    }],
+  },
+]
 
 // FAQ ajoutées par l'audit du 27/09/2026 (src/data/pageFaq.ts) : même tableau
 // que la section visible, jamais recopié.

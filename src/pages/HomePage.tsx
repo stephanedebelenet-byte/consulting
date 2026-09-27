@@ -5,6 +5,7 @@ import { motion, useInView } from 'framer-motion'
 import Hero from '../components/Hero'
 import Marquee from '../components/Marquee'
 import EntrepotSequence from '../components/EntrepotSequence'
+import { useLocale } from '../i18n/locale'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -31,6 +32,17 @@ const INSIGHT = {
   lede: "perdent entre 15% et 40% de leur efficacité opérationnelle à cause d'erreurs structurelles non détectées. Notre analyse détaille les 10 erreurs les plus fréquentes — et comment les corriger.",
 }
 
+// Le blog n'est pas encore traduit (voir discussion du 27/09/2026) : le lien
+// pointe vers l'article français existant, marqué "(FR)" plutôt que de
+// dupliquer ou d'inventer une traduction de l'analyse elle-même.
+const INSIGHT_EN = {
+  slug: INSIGHT.slug,
+  title: '2026 Supply Chain Audit: The 10 Critical Mistakes Moroccan SMEs Make',
+  stat: '90%',
+  statLabel: 'of Moroccan SMEs',
+  lede: 'lose between 15% and 40% of their operational efficiency to undetected structural mistakes. Our analysis details the 10 most frequent errors — and how to fix them.',
+}
+
 // Les deux familles d'offres, chacune avec sa page pilier dédiée (/conseil, /prestations).
 const ACCOMPAGNEMENTS = [
   {
@@ -53,6 +65,27 @@ const ACCOMPAGNEMENTS = [
   },
 ]
 
+const ACCOMPAGNEMENTS_EN = [
+  {
+    num: '01',
+    eyebrow: "You don't know what to do yet",
+    title: 'Consulting & Expertise.',
+    tagline: 'Diagnosis, DDMRP, IT & AI systems selection and deployment, part-time supply chain direction. An independent, outside perspective.',
+    points: ['Express Diagnosis', 'DDMRP', 'IT & AI Systems (WMS/TMS/APS)', 'Part-Time SC Direction'],
+    href: '/conseil',
+    cta: 'Discover Consulting →',
+  },
+  {
+    num: '02',
+    eyebrow: 'You know what to do, it needs executing',
+    title: 'Operational Services.',
+    tagline: 'Inventory Pack, value-added logistics services, in-house IT & RFID solutions. Our own teams, our own equipment, on quote.',
+    points: ['Inventory Pack', '7 value-added services', 'IT & RFID'],
+    href: '/prestations',
+    cta: 'Discover Our Services →',
+  },
+]
+
 // Même 4 logos et même patron visuel que la section "Ils nous font confiance" de References.tsx.
 const PROOF_LOGOS = [
   { name: 'Diana Holding', file: '/images/logos/diana-holding.svg', height: 34, natW: 153, natH: 46 },
@@ -62,6 +95,9 @@ const PROOF_LOGOS = [
 ]
 
 export default function HomePage() {
+  const { locale, tr, href } = useLocale()
+  const insight = locale === 'en' ? INSIGHT_EN : INSIGHT
+  const accompagnements = locale === 'en' ? ACCOMPAGNEMENTS_EN : ACCOMPAGNEMENTS
   return (
     <>
       <Hero />
@@ -72,14 +108,14 @@ export default function HomePage() {
         <div className="section-inner">
           <FadeUp>
             <div className="section-tag">
-              <span>Analyse · Supply Chain Maroc</span>
+              <span>{tr('Analyse · Supply Chain Maroc', 'Analysis · Supply Chain Morocco')}</span>
             </div>
           </FadeUp>
           <div className="home-insight-grid" style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '4rem', alignItems: 'start', marginTop: '2.5rem' }}>
             <FadeUp delay={0.05}>
               <div style={{ minWidth: 200 }}>
-                <div className="stat-value-lg">{INSIGHT.stat}</div>
-                <div className="stat-label">{INSIGHT.statLabel}</div>
+                <div className="stat-value-lg">{insight.stat}</div>
+                <div className="stat-label">{insight.statLabel}</div>
               </div>
             </FadeUp>
             <FadeUp delay={0.1}>
@@ -96,13 +132,13 @@ export default function HomePage() {
                     maxWidth: 720,
                   }}
                 >
-                  {INSIGHT.title}
+                  {insight.title}
                 </h2>
                 <p style={{ fontSize: '0.95rem', color: 'var(--dark-muted)', lineHeight: 1.8, fontWeight: 300, maxWidth: 560, margin: '0 0 1.5rem' }}>
-                  {INSIGHT.lede}
+                  {insight.lede}
                 </p>
                 <Link
-                  to={`/blog/${INSIGHT.slug}`}
+                  to={`/blog/${insight.slug}`}
                   style={{
                     fontFamily: 'DM Mono, monospace',
                     fontSize: '0.75rem',
@@ -114,7 +150,7 @@ export default function HomePage() {
                     paddingBottom: '2px',
                   }}
                 >
-                  Lire l&apos;analyse →
+                  {tr("Lire l'analyse →", 'Read the analysis (FR) →')}
                 </Link>
               </div>
             </FadeUp>
@@ -130,7 +166,7 @@ export default function HomePage() {
         <div className="section-inner">
           <FadeUp>
             <div className="section-tag">
-              <span>Ce que nous faisons</span>
+              <span>{tr('Ce que nous faisons', 'What we do')}</span>
             </div>
             <h2
               style={{
@@ -144,7 +180,7 @@ export default function HomePage() {
                 maxWidth: 720,
               }}
             >
-              Nos deux façons de vous accompagner.
+              {tr('Nos deux façons de vous accompagner.', 'Two ways we can help you.')}
             </h2>
           </FadeUp>
 
@@ -158,7 +194,7 @@ export default function HomePage() {
               marginTop: '3rem',
             }}
           >
-            {ACCOMPAGNEMENTS.map((a, i) => (
+            {accompagnements.map((a, i) => (
               <FadeUp key={a.num} delay={i * 0.1}>
                 <div style={{ background: '#ffffff', padding: 'clamp(2rem, 3vw, 3rem)', height: '100%', display: 'flex', flexDirection: 'column' }}>
                   <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '1.25rem' }}>
@@ -178,7 +214,7 @@ export default function HomePage() {
                     ))}
                   </ul>
                   <Link
-                    to={a.href}
+                    to={href(a.href)}
                     style={{
                       marginTop: 'auto',
                       fontFamily: 'DM Mono, monospace',
@@ -211,12 +247,12 @@ export default function HomePage() {
           <FadeUp>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '2rem', marginBottom: '2.5rem' }}>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(245,243,238,0.5)' }}>
-                Ils nous font confiance
+                {tr('Ils nous font confiance', 'They trust us')}
               </div>
               <div style={{ display: 'flex', gap: '3rem' }}>
                 <div>
                   <div className="stat-value" style={{ color: '#ffffff' }}>110+</div>
-                  <div className="stat-label" style={{ color: 'rgba(245,243,238,0.5)' }}>Missions réalisées</div>
+                  <div className="stat-label" style={{ color: 'rgba(245,243,238,0.5)' }}>{tr('Missions réalisées', 'Missions completed')}</div>
                 </div>
               </div>
             </div>
@@ -242,7 +278,7 @@ export default function HomePage() {
           <FadeUp delay={0.15}>
             <div style={{ marginTop: '2rem' }}>
               <Link
-                to="/references"
+                to={href('/references')}
                 style={{
                   fontFamily: 'DM Mono, monospace',
                   fontSize: '0.7rem',
@@ -254,7 +290,7 @@ export default function HomePage() {
                   paddingBottom: '2px',
                 }}
               >
-                Voir toutes nos références →
+                {tr('Voir toutes nos références →', 'See all our references →')}
               </Link>
             </div>
           </FadeUp>
@@ -268,7 +304,7 @@ export default function HomePage() {
             <FadeUp>
               <div>
                 <div className="section-tag">
-                  <span>Formation</span>
+                  <span>{tr('Formation', 'Training')}</span>
                 </div>
                 <h2
                   style={{
@@ -281,13 +317,13 @@ export default function HomePage() {
                     margin: '1.5rem 0 1rem',
                   }}
                 >
-                  Devenir Responsable Logistique.
+                  {tr('Devenir Responsable Logistique.', 'Become a Logistics Manager.')}
                 </h2>
                 <p style={{ fontSize: '0.92rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, maxWidth: 480, margin: '0 0 1.75rem' }}>
-                  Des programmes animés par des consultants de terrain, pas des formateurs académiques.
+                  {tr('Des programmes animés par des consultants de terrain, pas des formateurs académiques.', 'Programs led by field consultants, not academic trainers.')}
                 </p>
-                <Link to="/formation" className="btn-primary">
-                  Découvrir nos formations →
+                <Link to={href('/formation')} className="btn-primary">
+                  {tr('Découvrir nos formations →', 'Discover our training programs →')}
                 </Link>
               </div>
             </FadeUp>
@@ -295,11 +331,11 @@ export default function HomePage() {
               <div style={{ display: 'flex', gap: '2.5rem' }}>
                 <div>
                   <div className="stat-value">30</div>
-                  <div className="stat-label">Programmes</div>
+                  <div className="stat-label">{tr('Programmes', 'Programs')}</div>
                 </div>
                 <div>
                   <div className="stat-value">7</div>
-                  <div className="stat-label">Domaines</div>
+                  <div className="stat-label">{tr('Domaines', 'Fields')}</div>
                 </div>
               </div>
             </FadeUp>
@@ -312,7 +348,7 @@ export default function HomePage() {
         <div className="section-inner">
           <FadeUp>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(245,243,238,0.5)', marginBottom: '1.5rem' }}>
-              Prochaine étape
+              {tr('Prochaine étape', 'Next step')}
             </div>
             <h2
               style={{
@@ -326,17 +362,17 @@ export default function HomePage() {
                 maxWidth: 640,
               }}
             >
-              Parlons de votre Supply Chain.
+              {tr('Parlons de votre Supply Chain.', "Let's talk about your Supply Chain.")}
             </h2>
             <p style={{ fontSize: '1rem', color: 'rgba(245,243,238,0.55)', lineHeight: 1.8, fontWeight: 300, maxWidth: 480, margin: '0 0 2.5rem' }}>
-              Un premier échange gratuit, sans engagement, pour évaluer si nous pouvons vous aider.
+              {tr('Un premier échange gratuit, sans engagement, pour évaluer si nous pouvons vous aider.', 'A first call, free and with no obligation, to see if we can help.')}
             </p>
             <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>
-              <Link to="/contact" className="btn-primary">
-                Réserver un échange gratuit →
+              <Link to={href('/contact')} className="btn-primary">
+                {tr('Réserver un échange gratuit →', 'Book a free call →')}
               </Link>
               <Link to="/blog" className="btn-ghost-dark">
-                Lire nos articles →
+                {tr('Lire nos articles →', 'Read our articles (FR) →')}
               </Link>
             </div>
           </FadeUp>
