@@ -7,6 +7,7 @@ import CustomCursor from './CustomCursor'
 import Analytics from './Analytics'
 import Nav from './Nav'
 import Footer from './Footer'
+import PageFaq from './PageFaq'
 import BackToTop from './BackToTop'
 import MobileTabBar from './MobileTabBar'
 import CookieBanner from './CookieBanner'
@@ -64,6 +65,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <CustomCursor />
         <Nav />
         {children}
+        <PageFaq />
         <Footer />
         <BackToTop />
         <MobileTabBar />

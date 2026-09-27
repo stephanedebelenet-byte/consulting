@@ -1033,30 +1033,66 @@ function fmtLabel(f: string): string {
   return f
 }
 
+// FAQ propre à chaque formation (audit du 27/09/2026). Auparavant, 3 questions
+// génériques identiques sur les 28 pages programme — contenu dupliqué, balisé
+// FAQPage 28 fois. Chaque question nomme désormais la formation et chaque
+// réponse reprend ses données (public, modules, inclus, durée, prix).
+function listeFr(items: readonly string[]): string {
+  return items.length < 2 ? items.join('') : `${items.slice(0, -1).join(', ')} et ${items[items.length - 1]}`
+}
+
 export function programmeFaq(p: Programme): { q: string; a: string }[] {
-  return [
+  const t = `« ${p.title} »`
+  const faq = [
     {
-      q: `Quel est le prix de la formation « ${p.title} » ?`,
-      a: `${p.price} ${p.unit}. ${
+      q: `Quel est le prix de la formation ${t} ?`,
+      a: `${p.price} ${p.unit}, pour ${p.duration.toLowerCase()} de formation. ${
         p.format === 'inter'
-          ? "Le tarif inter-entreprise inclut le support de formation, l’attestation et, pour les programmes phares, un suivi WhatsApp de 30 jours."
+          ? 'Tarif par participant, en inter-entreprise.'
           : p.format === 'coaching'
-            ? 'Facturation par session, avec accès entre les séances.'
-            : 'Tarif forfaitaire par groupe pour une session dans vos locaux, contenu adapté à votre secteur.'
+            ? 'Facturation par session.'
+            : 'Tarif forfaitaire pour un groupe de votre entreprise, contenu adapté à votre secteur.'
+      } Le prix comprend : ${listeFr(p.inclus)}.`,
+    },
+    {
+      q: `À qui s'adresse la formation ${t} ?`,
+      a: `Elle s'adresse en priorité aux profils suivants : ${listeFr(p.public)}. ${
+        p.group === 'Sur mesure' ? 'La taille du groupe est définie avec vous.' : `Groupe de ${p.group}, pour garder des échanges individualisés.`
       }`,
     },
     {
-      q: 'La formation est-elle éligible à un financement (CSF / GIAC / OFPPT) ?',
-      a: "Oui. Une convention de formation est remise à l’inscription pour toute prise en charge par votre entreprise, un Contrat Spécial de Formation (CSF) OFPPT ou un dossier GIAC. Nous accompagnons les DRH dans le montage du dossier.",
+      q: `Quel est le programme de la formation ${t} ?`,
+      a: `${p.modules.length} modules : ${listeFr(p.modules)}.`,
     },
     {
-      q: p.format === 'inter' ? 'Peut-on organiser cette formation en intra-entreprise ?' : 'Où se déroule la formation ?',
-      a:
+      q: `Combien de temps dure la formation ${t} et où a-t-elle lieu ?`,
+      a: `${p.duration} (${p.hours}). Lieu : ${p.lieu}. ${
         p.format === 'inter'
-          ? `Oui. Pour 5 participants ou plus d’une même entreprise, la formation est organisée dans vos locaux ou à l’hôtel de votre choix, avec un cas pratique adapté à votre activité. Les sessions inter-entreprise ont lieu à ${p.lieu}.`
-          : `${p.lieu}. Le contenu et les cas pratiques sont bâtis sur votre contexte réel (secteur, données, contraintes).`,
+          ? 'Les dates des prochaines sessions sont communiquées sur demande et confirmées à l’inscription.'
+          : 'Les dates sont fixées avec vous, selon la disponibilité de vos équipes.'
+      }`,
+    },
+    {
+      q: `La formation ${t} est-elle finançable par l'OFPPT ou un GIAC ?`,
+      a: `Oui. Une convention de formation est remise à l’inscription pour une prise en charge par votre entreprise, un Contrat Spécial de Formation (CSF) de l'OFPPT — jusqu'à 70 % des coûts pédagogiques, dans la limite de la taxe de formation professionnelle versée — ou un dossier GIAC. Nous accompagnons la DRH dans le montage du dossier.`,
+    },
+    p.format === 'inter'
+      ? {
+          q: `Peut-on organiser la formation ${t} dans nos locaux ?`,
+          a: `Oui. À partir de 5 participants d’une même entreprise, elle est organisée en intra-entreprise dans vos locaux ou à l’hôtel de votre choix, avec un cas pratique tiré de votre activité. Les sessions inter-entreprise ont lieu à ${p.lieu}.`,
+        }
+      : {
+          q: `La formation ${t} peut-elle être adaptée à notre secteur ?`,
+          a: `Oui, c'est le principe de l'intra-entreprise : un échange préalable permet de bâtir les cas pratiques sur votre secteur, vos données et vos contraintes réelles, pour que les participants appliquent la méthode dès leur retour au poste.`,
+        },
+    {
+      q: `Obtient-on une attestation à l'issue de la formation ${t} ?`,
+      a: `Oui, une attestation de formation Nextinotech est remise à chaque participant, valorisable sur un CV ou un profil LinkedIn. Ce n'est pas un diplôme d'État.${
+        p.id === 'ddmrp' ? " La formation prépare aussi à l'examen officiel de certification du Demand Driven Institute (DDI), passé séparément." : ''
+      }${p.id === 'six-sigma' ? ' La formation prépare au niveau Green Belt.' : ''}`,
     },
   ]
+  return faq
 }
 
 export function programmeIntro(p: Programme): string {

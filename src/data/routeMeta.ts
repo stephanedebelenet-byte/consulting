@@ -12,9 +12,9 @@
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
 import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta, FAQ as formationFAQ } from './formations'
-import { servicesFAQ } from './conseilFaq'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
 import { generateFAQSchema } from '../utils/seoData'
+import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq'
 import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS } from './controlTower'
 
 export interface PrerenderRoute {
@@ -226,13 +226,10 @@ const STATIC: PrerenderRoute[] = [
     title: 'FAQ — Conseil & Formation Supply Chain au Maroc' + SUFFIX,
     description:
       "Réponses aux questions fréquentes sur le conseil Supply Chain, les formations, les tarifs, le financement (CSF / GIAC), les délais et les résultats attendus.",
-    // FAQPage JSON-LD statique au build (même contenu et même générateur que
-    // src/components/Faq.tsx côté client — generateFAQSchema, servicesFAQ,
-    // formationFAQ). Avant ce champ, ce schéma n'existait qu'injecté par le
-    // composant React au montage, donc absent du HTML prérendu : invisible
-    // pour Google au premier passage et pour les crawlers IA qui n'exécutent
-    // pas de JS. Voir audit du 22/09/2026.
-    jsonLd: [generateFAQSchema([...servicesFAQ, ...formationFAQ])],
+    // Pas de FAQPage ici (audit du 27/09/2026) : cette page regroupe les FAQ
+    // de /conseil et /formation, déjà balisées sur ces pages. Google demande de
+    // ne baliser une question répétée qu'une seule fois sur le site ; la règle 14
+    // de check-seo-consistency l'impose.
     priority: 0.75,
     changefreq: 'monthly',
     lastmod: '2026-08-24',
@@ -512,7 +509,16 @@ const SITE_URL = 'https://nextinotech.com'
 const ORG_REF = { '@id': `${SITE_URL}/#organization` }
 const DIGITAL_REF = { '@id': `${SITE_URL}/#digital` }
 
+// FAQ ajoutées par l'audit du 27/09/2026 (src/data/pageFaq.ts) : même tableau
+// que la section visible, jamais recopié.
 function pageSchemas(route: PrerenderRoute): unknown[] {
+  const faq = route.path === '/ingenierie-formation' ? INGENIERIE_FAQ : PAGE_FAQ[route.path]
+  const schemas = baseSchemas(route)
+  if (faq?.length) schemas.push({ ...generateFAQSchema(faq), '@id': `${SITE_URL}${route.path === '/' ? '/' : route.path}#faq` })
+  return schemas
+}
+
+function baseSchemas(route: PrerenderRoute): unknown[] {
   const url = SITE_URL + (route.path === '/' ? '/' : route.path)
   const name = breadcrumbName(route.title)
   const base = { '@context': 'https://schema.org', url, inLanguage: 'fr-MA', isPartOf: { '@id': `${SITE_URL}/#website` } }

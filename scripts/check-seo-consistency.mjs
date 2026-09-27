@@ -69,6 +69,23 @@ function extractBodyText(html) {
   return m[1].replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
+// Texte comparable entre JSON-LD et HTML : entités décodées, apostrophes et
+// espaces unifiés, casse ignorée.
+function normText(s) {
+  return String(s)
+    .replace(/&#x27;|&#39;|&apos;|&rsquo;|’/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&nbsp;| | /g, ' ')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase()
+}
+
+const faqEntries = []
+
 function hasH1(html) {
   return /<h1[\s>]/i.test(html)
 }
@@ -190,6 +207,15 @@ for (const loc of locs) {
     const isSiteGraph = nodes.some((n) => n['@id'] === `${SITE}/#organization` && n['@type'] === 'ProfessionalService')
     if (isSiteGraph) continue
     for (const t of nodes.map((n) => n['@type']).flat().filter(Boolean)) pageTypes[t] = (pageTypes[t] || 0) + 1
+    for (const n of nodes.filter((n) => n['@type'] === 'FAQPage')) {
+      for (const qa of n.mainEntity || []) faqEntries.push({ loc, q: qa.name, a: qa.acceptedAnswer?.text })
+    }
+  }
+  // Règle 13 (27/09/2026) : chaque question du JSON-LD FAQPage doit être
+  // visible dans la page (exigence Google : pas de balisage de contenu caché).
+  const visible = normText(extractBodyText(html.replace(/<script[\s\S]*?<\/script>/g, '')))
+  for (const { q } of faqEntries.filter((e) => e.loc === loc)) {
+    if (q && !visible.includes(normText(q))) fail(`Question FAQPage absente du contenu visible : « ${q} » sur ${loc}`)
   }
   for (const t of ['FAQPage', 'Course', 'Event', 'Article', 'Service', 'ItemList']) {
     if (pageTypes[t] > 1) fail(`JSON-LD "${t}" déclaré ${pageTypes[t]} fois sur ${loc} (doublon)`)
@@ -209,6 +235,21 @@ for (const loc of locs) {
 }
 
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
+
+// ── Règle 14 : pas de FAQ dupliquée entre pages (27/09/2026) ───────────────
+// Une même question avec la même réponse sur deux pages les met en
+// concurrence sur la même requête (cannibalisation) et dilue la réponse que
+// les moteurs doivent attribuer à une seule URL.
+{
+  const seen = new Map()
+  for (const { loc, q, a } of faqEntries) {
+    const key = normText(`${q} ${a}`)
+    const other = seen.get(key)
+    if (other && other !== loc) fail(`FAQ identique sur deux pages (« ${q} ») : ${other} et ${loc}`)
+    else seen.set(key, loc)
+  }
+  console.log(`[check-seo-consistency] ${faqEntries.length} question(s) FAQ vérifiées (visibles, sans doublon entre pages).\n`)
+}
 
 // ── Règle 9 : nom public du fondateur (26/09/2026) ─────────────────────────
 // Le site présente le fondateur sous le nom "Youssef B" (décision du
