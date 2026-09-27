@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { useLocale } from '../i18n/locale'
 
 const CARDS = [
   {
@@ -20,9 +21,29 @@ const CARDS = [
   },
 ]
 
+const CARDS_EN = [
+  {
+    num: '01',
+    title: 'Senior consultants',
+    desc: 'DDMRP certified, trained on the ground, driving your most complex transformations.',
+  },
+  {
+    num: '02',
+    title: 'Junior consultants',
+    desc: 'Trained in-house, with methodological rigor and availability for every mission.',
+  },
+  {
+    num: '03',
+    title: 'Administrative team',
+    desc: 'Experienced and invested, ensuring every project runs smoothly, from quote to close-out.',
+  },
+]
+
 export default function Team() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
+  const { locale, tr, href } = useLocale()
+  const cards = locale === 'en' ? CARDS_EN : CARDS
 
   return (
     <section style={{ background: 'var(--dark)' }}>
@@ -41,7 +62,7 @@ export default function Team() {
           }}
         >
           <span style={{ display: 'block', width: 24, height: 1, background: 'var(--blue-bright)', opacity: 0.5 }} />
-          Équipe · Organisation
+          {tr('Équipe · Organisation', 'Team · Organization')}
         </div>
 
         <div className="team-header-grid" style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '4rem', alignItems: 'end', marginBottom: '4rem' }}>
@@ -59,7 +80,7 @@ export default function Team() {
               margin: 0,
             }}
           >
-            Une équipe complète, à la hauteur de vos enjeux.
+            {tr('Une équipe complète, à la hauteur de vos enjeux.', 'A full team, equal to your challenges.')}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -73,14 +94,18 @@ export default function Team() {
               margin: 0,
             }}
           >
-            Du diagnostic à la transformation opérationnelle, chaque mission s&apos;appuie sur une
-            équipe pluridisciplinaire, pas sur un consultant isolé.
+            {tr(
+              <>Du diagnostic à la transformation opérationnelle, chaque mission s&apos;appuie sur une
+              équipe pluridisciplinaire, pas sur un consultant isolé.</>,
+              <>From diagnosis to operational transformation, every mission relies on a
+              multidisciplinary team, not a single consultant working alone.</>
+            )}
           </motion.p>
         </div>
 
         {/* 3 cards */}
         <div className="team-cards-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginBottom: '3rem' }}>
-          {CARDS.map((c, i) => (
+          {cards.map((c, i) => (
             <motion.div
               key={c.num}
               initial={{ opacity: 0, y: 28 }}
@@ -144,11 +169,15 @@ export default function Team() {
                 color: 'var(--navy)',
                 marginBottom: '0.75rem',
               }}>
-                Accompagnement des directions
+                {tr('Accompagnement des directions', 'Support for leadership teams')}
               </h4>
               <p style={{ fontSize: '0.9rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, margin: 0 }}>
-                Nous accompagnons vos comités de direction dans la conduite du changement —
-                diagnostic, méthode, outils, jusqu&apos;à l&apos;autonomie complète de vos équipes.
+                {tr(
+                  <>Nous accompagnons vos comités de direction dans la conduite du changement —
+                  diagnostic, méthode, outils, jusqu&apos;à l&apos;autonomie complète de vos équipes.</>,
+                  <>We support your leadership teams through change management —
+                  diagnosis, method, tools, all the way to your teams' full autonomy.</>
+                )}
               </p>
             </div>
             <div>
@@ -159,13 +188,13 @@ export default function Team() {
                 color: 'var(--navy)',
                 marginBottom: '0.75rem',
               }}>
-                Formation de vos équipes
+                {tr('Formation de vos équipes', 'Training your teams')}
               </h4>
               <p style={{ fontSize: '0.9rem', color: 'var(--mid)', lineHeight: 1.75, fontWeight: 300, marginBottom: '1.25rem' }}>
-                À tous les niveaux, présentiel ou distanciel.
+                {tr('À tous les niveaux, présentiel ou distanciel.', 'At every level, in person or remote.')}
               </p>
               <Link
-                to="/formation"
+                to={href('/formation')}
                 style={{
                   fontFamily: 'DM Mono, monospace',
                   fontSize: '0.72rem',
@@ -178,7 +207,7 @@ export default function Team() {
                   paddingBottom: '2px',
                 }}
               >
-                Voir nos formations →
+                {tr('Voir nos formations →', 'See our training programs →')}
               </Link>
             </div>
           </div>

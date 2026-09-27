@@ -200,6 +200,7 @@ const STATIC: PrerenderRoute[] = [
     priority: 0.75,
     changefreq: 'monthly',
     lastmod: '2026-08-24',
+    altPath: '/en/about',
   },
   {
     path: '/blog',
@@ -218,6 +219,7 @@ const STATIC: PrerenderRoute[] = [
     priority: 0.7,
     changefreq: 'monthly',
     lastmod: '2026-08-05',
+    altPath: '/en/contact',
   },
   {
     path: '/carriere',
@@ -522,8 +524,8 @@ const SITE_URL = 'https://nextinotech.com'
 const ORG_REF = { '@id': `${SITE_URL}/#organization` }
 const DIGITAL_REF = { '@id': `${SITE_URL}/#digital` }
 
-// Anglais (27/09/2026) : première page traduite, voir src/i18n/locale.tsx
-// (EN_PATHS) pour la liste des pages qui ont une version anglaise et
+// Anglais (27/09/2026) : pages traduites, voir src/i18n/locale.tsx
+// (FR_TO_EN) pour la table des pages qui ont une version anglaise et
 // Nav/Footer/MobileTabBar pour le sélecteur de langue. jsonLd autonome
 // (WebPage), référence les mêmes nœuds partagés (#organization, #website)
 // que le graphe français d'index.html — c'est la même entreprise, juste
@@ -531,6 +533,50 @@ const DIGITAL_REF = { '@id': `${SITE_URL}/#digital` }
 // getPrerenderRoutes() ci-dessus (défini avant ce point du fichier, mais
 // exécuté après : les fonctions ne s'évaluent qu'à l'appel).
 const EN_ROUTES: PrerenderRoute[] = [
+  {
+    path: '/en/about',
+    title: 'About — Independent Supply Chain Firm' + SUFFIX,
+    description:
+      'Nextinotech, an independent Supply Chain firm for Moroccan SMEs and mid-caps. 20+ years on the ground, DDMRP certified team.',
+    priority: 0.75,
+    changefreq: 'monthly',
+    lastmod: '2026-09-27',
+    altPath: '/a-propos',
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/en/about#webpage`,
+      url: `${SITE_URL}/en/about`,
+      name: 'About Nextinotech — Independent Supply Chain Firm',
+      description:
+        'Nextinotech, an independent Supply Chain firm for Moroccan SMEs and mid-caps. 20+ years on the ground, DDMRP certified team.',
+      inLanguage: 'en',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      about: ORG_REF,
+    }],
+  },
+  {
+    path: '/en/contact',
+    title: 'Contact — Supply Chain Consulting & Training, Casablanca',
+    description:
+      'Contact Nextinotech for a Supply Chain diagnosis, consulting mission or training. Reply within 24h. Casablanca, Morocco — contact@nextinotech.com.',
+    priority: 0.7,
+    changefreq: 'monthly',
+    lastmod: '2026-09-27',
+    altPath: '/contact',
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'ContactPage',
+      '@id': `${SITE_URL}/en/contact#webpage`,
+      url: `${SITE_URL}/en/contact`,
+      name: 'Contact — Supply Chain Consulting & Training, Casablanca',
+      description:
+        'Contact Nextinotech for a Supply Chain diagnosis, consulting mission or training. Reply within 24h. Casablanca, Morocco — contact@nextinotech.com.',
+      inLanguage: 'en',
+      isPartOf: { '@id': `${SITE_URL}/#website` },
+      mainEntity: ORG_REF,
+    }],
+  },
   {
     path: '/en',
     title: 'Nextinotech — Supply Chain Consulting & Training in Morocco',

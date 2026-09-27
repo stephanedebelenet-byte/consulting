@@ -92,12 +92,14 @@ function AnimatedRoutes() {
         ))}
         <Route path="/formation/:programme" element={<PageTransition><FormationProgrammePage /></PageTransition>} />
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
+        <Route path="/en/about" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/blog/:slug" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/evenements/:slug" element={<PageTransition><EvenementPage /></PageTransition>} />
         <Route path="/solutions/marquage-et-tracabilite" element={<PageTransition><MarquageTracabilitePage /></PageTransition>} />
         <Route path="/solutions/carte-visite-digitale-nfc" element={<PageTransition><CarteNfcPage /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><ContactPage /></PageTransition>} />
+        <Route path="/en/contact" element={<PageTransition><ContactPage /></PageTransition>} />
         <Route path="/confidentialite" element={<PageTransition><ConfidentialitePage /></PageTransition>} />
         <Route path="/outils/dimensionnement-entrepot" element={<PageTransition><DimensionnementEntrepotPage /></PageTransition>} />
         <Route path="/outils/productivite-engins-main-doeuvre" element={<PageTransition><ProductiviteEnginsPage /></PageTransition>} />
