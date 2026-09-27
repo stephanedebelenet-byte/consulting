@@ -16,7 +16,7 @@ description: "Playbook IA pour l'e-commerce et le last-mile marocain : prévisio
 
 ::stat:: 30 à 40% — taux d'échec de livraison COD typique sans scoring prédictif, contre 15 à 20% avec un scoring de risque bien calibré
 
-> **Un taux d'échec de livraison de 30% n'est pas une fatalité du marché marocain, c'est un problème de scoring qui se résout avec de la donnée historique bien exploitée.** C'est l'un des cas d'usage IA au ROI le plus rapide et le plus direct pour un marchand en ligne. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl).
+> **Un taux d'échec de livraison de 30% n'est pas une fatalité du marché marocain, c'est un problème de scoring qui se résout avec de la donnée historique bien exploitée.** C'est l'un des cas d'usage IA au ROI le plus rapide et le plus direct pour un marchand en ligne. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-desengorger-le-service).
 
 ## Trois cas d'usage prioritaires
 

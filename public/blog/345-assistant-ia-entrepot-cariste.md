@@ -28,7 +28,7 @@ Le voice picking conversationnel d'abord : le cariste pose une question, l'assis
 | Procédures à jour dans la base | Assistant connecté à des consignes obsolètes |
 | Adoption volontaire, pas imposée | Sentiment de surveillance permanente |
 
-> **Un assistant qui ralentit le cariste de trois secondes par tâche perd toute sa valeur sur une journée de 400 lignes préparées.** La rapidité de réponse et la pertinence du contenu comptent, en pratique, bien plus que la sophistication technique de l'outil. Complète notre article sur la [vision par ordinateur en réception](/blog/vision-par-ordinateur-en-rception-et-contrle-qualit-o-en-est).
+> **Un assistant qui ralentit le cariste de trois secondes par tâche perd toute sa valeur sur une journée de 400 lignes préparées.** La rapidité de réponse et la pertinence du contenu comptent, en pratique, bien plus que la sophistication technique de l'outil. Complète notre article sur la [vision par ordinateur en réception](/blog/vision-par-ordinateur-en-reception-et-controle-qualite-ou).
 
 ## Ce qu'il faut retenir
 

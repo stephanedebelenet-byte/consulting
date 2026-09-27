@@ -34,7 +34,7 @@ Voici un test que nous faisons passer avant chaque mission de cadrage : demandez
 | Écarts stock physique vs système | Processus de comptage défaillant |
 | Historique de ventes incohérent | Retours et ventes nettes mélangés |
 
-> **Un projet de fiabilisation de données mal aimé est plus rentable qu'un projet IA mal nourri.** C'est contre-intuitif, mais c'est la conclusion de la majorité de nos audits : les 3 à 6 mois investis dans la donnée déterminent si les 18 mois suivants d'IA porteront leurs fruits. Voir aussi notre article sur le [coût réel d'un projet IA supply chain](/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
+> **Un projet de fiabilisation de données mal aimé est plus rentable qu'un projet IA mal nourri.** C'est contre-intuitif, mais c'est la conclusion de la majorité de nos audits : les 3 à 6 mois investis dans la donnée déterminent si les 18 mois suivants d'IA porteront leurs fruits. Voir aussi notre article sur le [coût réel d'un projet IA supply chain](/blog/cout-d-un-projet-ia-supply-chain-pour-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 

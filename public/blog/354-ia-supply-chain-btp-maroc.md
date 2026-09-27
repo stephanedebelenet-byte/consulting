@@ -24,7 +24,7 @@ description: "Playbook IA pour le BTP marocain : prévision des besoins de chant
 
 ## Deux cas d'usage à traiter séparément
 
-La prévision des besoins de chantier consiste à estimer les quantités de matériaux nécessaires phase par phase, en tenant compte des aléas fréquents de planning — météo, retards de sous-traitance, révisions de dernière minute. La veille et l'indexation des prix matières, elle, suit en continu l'évolution des prix de l'acier et du ciment pour déclencher les clauses de révision contractuelles au bon moment, avant qu'elles ne deviennent un sujet de tension avec le client. Voir notre article dédié sur la [veille prix matières premières](/blog/veille-prix-et-matires-premires-par-ia-anticiper-la-volatili).
+La prévision des besoins de chantier consiste à estimer les quantités de matériaux nécessaires phase par phase, en tenant compte des aléas fréquents de planning — météo, retards de sous-traitance, révisions de dernière minute. La veille et l'indexation des prix matières, elle, suit en continu l'évolution des prix de l'acier et du ciment pour déclencher les clauses de révision contractuelles au bon moment, avant qu'elles ne deviennent un sujet de tension avec le client. Voir notre article dédié sur la [veille prix matières premières](/blog/veille-prix-et-matieres-premieres-par-ia-anticiper-la).
 
 ::stat:: 20 à 30% — variation de prix observée sur l'acier ou le ciment en 12 mois lors des périodes de tension, un écart qui peut consommer toute la marge d'un chantier
 

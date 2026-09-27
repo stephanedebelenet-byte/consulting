@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import { Link } from 'react-router-dom'
+import { slugify } from '../utils/slugify'
 import { motion, useInView } from 'framer-motion'
 import Hero from '../components/Hero'
 import Marquee from '../components/Marquee'
@@ -19,9 +20,12 @@ function FadeUp({ children, delay = 0 }: { children: React.ReactNode; delay?: nu
 
 // Article vedette tiré du blog existant (blog/01-audit-supply-chain-2026.md) — le
 // chiffre et le titre sont repris verbatim, rien n'est inventé pour cette section.
+// Slug calculé depuis le titre, comme pour toute URL du blog : l'ancien slug
+// écrit à la main passait par une redirection 308.
+const INSIGHT_TITLE = 'Audit Supply Chain 2026 : Les 10 Erreurs Critiques que les PME/ME Marocaines Commettent'
 const INSIGHT = {
-  slug: 'audit-supply-chain-2026-les-10-erreurs-critiques-que-les-pme',
-  title: 'Audit Supply Chain 2026 : Les 10 Erreurs Critiques que les PME/ME Marocaines Commettent',
+  slug: slugify(INSIGHT_TITLE),
+  title: INSIGHT_TITLE,
   stat: '90%',
   statLabel: 'des PME/ME marocaines',
   lede: "perdent entre 15% et 40% de leur efficacité opérationnelle à cause d'erreurs structurelles non détectées. Notre analyse détaille les 10 erreurs les plus fréquentes — et comment les corriger.",

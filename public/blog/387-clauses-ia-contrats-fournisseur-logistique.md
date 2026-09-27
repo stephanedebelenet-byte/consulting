@@ -33,7 +33,7 @@ Le point commun entre ces trois profils : aucun n'a vraiment intérêt à cacher
 
 ::stat:: 1 contrat sur 10 — part des contrats fournisseurs et prestataires logistiques marocains qui mentionnent explicitement l'usage d'outils IA, selon nos revues contractuelles
 
-> **Le silence contractuel sur l'IA n'est pas une protection, c'est un angle mort.** Un fournisseur qui utilise un outil non déclaré et non encadré peut exposer vos données sans que vous en ayez jamais été informé — et le découvrir seulement au moment de l'incident. Voir aussi notre article sur la [conformité et la confidentialité des données](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo).
+> **Le silence contractuel sur l'IA n'est pas une protection, c'est un angle mort.** Un fournisseur qui utilise un outil non déclaré et non encadré peut exposer vos données sans que vous en ayez jamais été informé — et le découvrir seulement au moment de l'incident. Voir aussi notre article sur la [conformité et la confidentialité des données](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnees).
 
 ## Ce qu'il faut retenir
 

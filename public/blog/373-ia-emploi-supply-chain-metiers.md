@@ -30,7 +30,7 @@ Les tâches répétitives de saisie, de recoupement manuel de données et de pre
 
 ## Ce qui se crée
 
-De nouveaux rôles hybrides émergent : référent IA au sein d'une équipe métier, analyste data augmenté, category manager pilotant plusieurs outils d'automatisation. Voir notre article sur le [recrutement d'un profil IA appliquée à la supply chain](/blog/recruter-un-profil-ia-applique-la-supply-chain).
+De nouveaux rôles hybrides émergent : référent IA au sein d'une équipe métier, analyste data augmenté, category manager pilotant plusieurs outils d'automatisation. Voir notre article sur le [recrutement d'un profil IA appliquée à la supply chain](/blog/recruter-un-profil-ia-appliquee-a-la-supply-chain).
 
 > **La transformation n'est jamais uniforme : elle dépend de la maturité data de l'entreprise, pas seulement du métier.** Un acheteur dans une entreprise à donnée structurée vit une transformation différente d'un acheteur dans une entreprise où tout reste manuel.
 

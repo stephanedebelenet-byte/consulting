@@ -16,7 +16,7 @@ Le meilleur outil IA du marché, déployé sur une équipe qui n'a pas été pr�
 
 ## Les peurs légitimes à traiter, pas à balayer
 
-Trois objections reviennent presque à l'identique d'une équipe à l'autre, quel que soit le secteur. « L'IA va prendre mon poste » se traite par des faits sur les métiers qui se transforment, pas qui disparaissent — voir notre article sur [l'IA et l'emploi en supply chain](/blog/ia-et-emploi-en-supply-chain-quels-mtiers-se-transforment). « Je vais perdre mon expertise » se répond en montrant que l'IA traite le volume, jamais le jugement : l'expertise terrain reste, et restera, irremplaçable. Quant à « c'est un outil de contrôle », la seule réponse crédible est la transparence totale sur l'usage réel des données collectées — toute ambiguïté sur ce point ruine la confiance avant même le premier déploiement.
+Trois objections reviennent presque à l'identique d'une équipe à l'autre, quel que soit le secteur. « L'IA va prendre mon poste » se traite par des faits sur les métiers qui se transforment, pas qui disparaissent — voir notre article sur [l'IA et l'emploi en supply chain](/blog/ia-et-emploi-en-supply-chain-quels-metiers-se-transforment). « Je vais perdre mon expertise » se répond en montrant que l'IA traite le volume, jamais le jugement : l'expertise terrain reste, et restera, irremplaçable. Quant à « c'est un outil de contrôle », la seule réponse crédible est la transparence totale sur l'usage réel des données collectées — toute ambiguïté sur ce point ruine la confiance avant même le premier déploiement.
 
 ## Le plan en 90 jours
 

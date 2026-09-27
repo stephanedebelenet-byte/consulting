@@ -25,7 +25,7 @@ description: "Qui doit siéger au comité de pilotage d'un projet IA supply chai
 
 ## La composition qui fonctionne
 
-Quatre profils suffisent, rarement plus. Le sponsor métier — direction supply chain, achats ou logistique — porte la décision et l'arbitrage budgétaire. Un représentant des utilisateurs finaux siège aussi : pas seulement des managers, mais des personnes qui utiliseront réellement l'outil au quotidien. La DSI ou un référent technique valide la faisabilité et la sécurité, sans jamais piloter seul le projet. Enfin, un référent finance suit le ROI réel, pas déclaré — voir notre article sur la [mesure du ROI de l'IA](/blog/mesurer-le-roi-de-lia-en-supply-chain-les-kpi-qui-comptent).
+Quatre profils suffisent, rarement plus. Le sponsor métier — direction supply chain, achats ou logistique — porte la décision et l'arbitrage budgétaire. Un représentant des utilisateurs finaux siège aussi : pas seulement des managers, mais des personnes qui utiliseront réellement l'outil au quotidien. La DSI ou un référent technique valide la faisabilité et la sécurité, sans jamais piloter seul le projet. Enfin, un référent finance suit le ROI réel, pas déclaré — voir notre article sur la [mesure du ROI de l'IA](/blog/mesurer-le-roi-de-l-ia-en-supply-chain-les-kpi-qui-comptent).
 
 ::stat:: 4 personnes — la taille optimale d'un comité de pilotage IA supply chain pour une PME/ETI, au-delà de laquelle la prise de décision se dilue
 

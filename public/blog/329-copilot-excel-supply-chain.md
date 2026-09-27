@@ -24,7 +24,7 @@ Le DAX (langage de calcul de Power BI) a une courbe d'apprentissage raide. Un co
 
 ::stat:: 1 jour/semaine — gain de temps moyen observé chez les analystes supply chain qui adoptent un copilot pour le nettoyage et le reporting
 
-> **Le vrai risque n'est pas que le copilot se trompe, c'est qu'on lui fasse confiance sans relire.** Toute formule ou mesure générée doit être testée sur un cas connu avant diffusion. C'est le même principe que celui développé dans notre [tableau de bord IA sans data scientist](/blog/construire-son-premier-tableau-de-bord-ia-supply-chain-sans-).
+> **Le vrai risque n'est pas que le copilot se trompe, c'est qu'on lui fasse confiance sans relire.** Toute formule ou mesure générée doit être testée sur un cas connu avant diffusion. C'est le même principe que celui développé dans notre [tableau de bord IA sans data scientist](/blog/construire-son-premier-tableau-de-bord-ia-supply-chain-sans).
 
 ## Les limites à connaître
 

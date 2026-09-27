@@ -40,7 +40,7 @@ L'ADII utilise explicitement, pour accélérer l'audit et l'évaluation d'un dos
 
 ## Ce qu'il faut retenir
 
-La question à se poser n'est pas « catégorie A ou B ? » mais « quel est mon niveau réel de traçabilité des stocks, de conformité documentaire et de solvabilité, et à quel niveau ISO puis-je me positionner avant l'audit ? ». C'est cette préparation en amont — pas la formulation de la demande — qui détermine la catégorie obtenue. Notre article sur [la procédure complète OEA au Maroc](/blog/statut-oea-maroc-la-procdure-adii-tape-par-tape) détaille les délais et les documents à réunir avant de déposer un dossier.
+La question à se poser n'est pas « catégorie A ou B ? » mais « quel est mon niveau réel de traçabilité des stocks, de conformité documentaire et de solvabilité, et à quel niveau ISO puis-je me positionner avant l'audit ? ». C'est cette préparation en amont — pas la formulation de la demande — qui détermine la catégorie obtenue. Notre article sur [la procédure complète OEA au Maroc](/blog/statut-oea-maroc-la-procedure-adii-etape-par-etape) détaille les délais et les documents à réunir avant de déposer un dossier.
 
 ## Notre accompagnement
 

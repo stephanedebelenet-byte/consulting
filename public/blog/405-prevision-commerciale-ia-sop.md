@@ -30,7 +30,7 @@ Ce que l'IA facilite concrètement, dans ce processus de réconciliation :
 - **Explication des écarts** : la prévision commerciale intègre-t-elle une information terrain (nouveau client, promotion) que le modèle statistique ne connaît pas encore ?
 - **Synthèse pour le cycle S&OP** : préparer la discussion entre commercial et supply chain avec les écarts déjà identifiés et documentés.
 
-> **Le désalignement entre commercial et supply chain n'est presque jamais un problème de mauvaise volonté, c'est un problème de fréquence de communication.** L'IA ne remplace pas cette communication, elle la rend plus fréquente et plus rapide à préparer. Complète notre [copilot de demand planning](/blog/copilot-de-demand-planning-lia-gnrative-au-service-du-prvisi).
+> **Le désalignement entre commercial et supply chain n'est presque jamais un problème de mauvaise volonté, c'est un problème de fréquence de communication.** L'IA ne remplace pas cette communication, elle la rend plus fréquente et plus rapide à préparer. Complète notre [copilot de demand planning](/blog/copilot-de-demand-planning-l-ia-generative-au-service-du).
 
 ## Ce qu'il faut retenir
 

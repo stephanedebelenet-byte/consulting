@@ -30,7 +30,7 @@ Chaque option a ses avantages et ses angles morts, qu'il vaut mieux chiffrer que
 - **Sous-traitance externe** : capacité flexible, mais délai de mise en place et risque qualité à contrôler.
 - **Stock constitué en amont** : lisse la charge, mais immobilise du cash et suppose une demande bien anticipée.
 
-> **Le bon arbitrage n'est presque jamais la même option répétée par habitude, c'est la comparaison chiffrée des trois pour la situation précise du moment.** Une entreprise qui recourt systématiquement aux heures supplémentaires par réflexe paie souvent plus cher qu'une sous-traitance ponctuelle bien négociée. Complète notre article sur les [scénarios S&OP simulés par IA](/blog/gnrer-ses-scnarios-sop-avec-lia-simuler-ruptures-et-arbitrag).
+> **Le bon arbitrage n'est presque jamais la même option répétée par habitude, c'est la comparaison chiffrée des trois pour la situation précise du moment.** Une entreprise qui recourt systématiquement aux heures supplémentaires par réflexe paie souvent plus cher qu'une sous-traitance ponctuelle bien négociée. Complète notre article sur les [scénarios S&OP simulés par IA](/blog/generer-ses-scenarios-sop-avec-l-ia-simuler-ruptures-et).
 
 ## Ce qu'il faut retenir
 

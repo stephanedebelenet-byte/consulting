@@ -26,7 +26,7 @@ Concrètement, l'IA propose un code SH à partir de la description technique du 
 
 ::stat:: 2 à 5 ans — délai pendant lequel un redressement douanier peut être notifié après une déclaration erronée, avec cumul d'intérêts
 
-> **Une erreur de classification répétée sur des centaines de déclarations coûte infiniment plus cher qu'une vérification systématique en amont.** L'IA ne remplace jamais le déclarant en douane expérimenté, mais elle réduit le volume d'erreurs qui échappent à une vérification manuelle sous pression de délai. Complète notre article sur l'[automatisation des documents de douane](/blog/automatiser-les-documents-de-douane-par-lia-dum-bl-packing-l).
+> **Une erreur de classification répétée sur des centaines de déclarations coûte infiniment plus cher qu'une vérification systématique en amont.** L'IA ne remplace jamais le déclarant en douane expérimenté, mais elle réduit le volume d'erreurs qui échappent à une vérification manuelle sous pression de délai. Complète notre article sur l'[automatisation des documents de douane](/blog/automatiser-les-documents-de-douane-par-l-ia-dum-bl-packing).
 
 ## Ce qu'il faut retenir
 

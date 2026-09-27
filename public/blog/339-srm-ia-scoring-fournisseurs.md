@@ -28,7 +28,7 @@ Le scoring continu en premier lieu : qualité, délai, réactivité, calculés a
 | Taux de non-conformité qualité | Mensuel | > 2% |
 | Délai de réponse aux réclamations | Continu | > 5 jours ouvrés |
 
-> **Un score fournisseur automatisé n'est utile que s'il déclenche une action, pas seulement une couleur sur un tableau.** L'IA identifie la dérive ; c'est toujours au category manager de décider de l'escalade, de la revue de contrat ou du plan de sortie — jamais à l'algorithme. Voir notre article sur le [SRM des équipementiers Tier 1](/blog/srm-maroc-grer-ses-fournisseurs-comme-un-actif-stratgique).
+> **Un score fournisseur automatisé n'est utile que s'il déclenche une action, pas seulement une couleur sur un tableau.** L'IA identifie la dérive ; c'est toujours au category manager de décider de l'escalade, de la revue de contrat ou du plan de sortie — jamais à l'algorithme. Voir notre article sur le [SRM des équipementiers Tier 1](/blog/srm-maroc-gerer-ses-fournisseurs-comme-un-actif-strategique).
 
 ## Ce qu'il faut retenir
 

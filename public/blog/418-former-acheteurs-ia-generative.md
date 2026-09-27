@@ -26,7 +26,7 @@ Une formation générique « découverte de l'IA » laisse un acheteur enthousia
 
 ## Les 5 modules du programme
 
-1. **Prompt engineering métier** : la méthode CRAF appliquée aux tâches achats — voir notre [bibliothèque de 30 prompts](/blog/prompt-engineering-pour-les-mtiers-achats-et-supply-chain).
+1. **Prompt engineering métier** : la méthode CRAF appliquée aux tâches achats — voir notre [bibliothèque de 30 prompts](/blog/prompt-engineering-pour-les-metiers-achats-et-supply-chain).
 2. **Analyse de contrats et clauses à risque** : pratique sur des documents réels de l'entreprise.
 3. **Spend analysis et catégorisation** : appliquer l'IA à ses propres données de dépenses.
 4. **Préparation de négociation** : scénarios, BATNA, objections — mise en situation.

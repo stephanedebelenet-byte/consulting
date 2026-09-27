@@ -23,7 +23,7 @@ Le shadow IA apparaît presque toujours pour la même raison : la productivité 
 | Étape | Action |
 |---|---|
 | 1. Constater | Sonder honnêtement les usages réels, sans intention punitive |
-| 2. Cadrer | Publier une charte simple : ce qui est autorisé, ce qui est interdit — voir [gouvernance de l'IA](/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil) |
+| 2. Cadrer | Publier une charte simple : ce qui est autorisé, ce qui est interdit — voir [gouvernance de l'IA](/blog/gouvernance-de-l-ia-en-supply-chain-la-charte-avant-les) |
 | 3. Canaliser | Proposer un outil validé qui couvre les usages légitimes déjà en place |
 
 > **Interdire l'IA sans alternative ne supprime pas l'usage, elle le rend invisible — ce qui est pire pour la sécurité que l'usage lui-même.** La bonne réponse au shadow IA est presque toujours une charte claire et un outil validé rapidement mis à disposition, pas une interdiction sans substitut.

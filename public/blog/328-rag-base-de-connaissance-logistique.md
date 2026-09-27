@@ -30,13 +30,13 @@ Le principe tient en une image simple : la différence entre un employé qui inv
 
 Trois conditions décident, en pratique, si un déploiement RAG tient ses promesses. D'abord des documents à jour : un RAG connecté à des procédures obsolètes donne des réponses fausses, mais avec la même assurance que s'il avait raison — c'est ce qui le rend dangereux plutôt que simplement inutile. Ensuite des sources citées : exigez que l'assistant indique le document et la version utilisée, jamais une réponse nue. Enfin un périmètre limité : un RAG par domaine (qualité, WMS, achats) fonctionne presque toujours mieux qu'un fourre-tout général qui essaie de tout couvrir et finit par mal répondre partout.
 
-> **Le RAG est l'anti-hallucination le plus efficace et le moins cher à déployer.** Contrairement à un fine-tuning coûteux, il se met à jour en rechargeant simplement les documents modifiés, sans réentraîner de modèle. C'est l'option que nous recommandons avant tout projet plus lourd, dans la logique décrite dans [LLM, IA prédictive ou RPA : quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-prdictive-ou-rpa-quel-outil-pour-quel).
+> **Le RAG est l'anti-hallucination le plus efficace et le moins cher à déployer.** Contrairement à un fine-tuning coûteux, il se met à jour en rechargeant simplement les documents modifiés, sans réentraîner de modèle. C'est l'option que nous recommandons avant tout projet plus lourd, dans la logique décrite dans [LLM, IA prédictive ou RPA : quel outil pour quel problème](/blog/ia-supply-chain-llm-ia-predictive-ou-rpa-quel-outil-pour).
 
 ::stat:: 60% — part du temps d'un responsable qualité passée à répondre aux mêmes questions procédurales, selon nos audits terrain
 
 ## Par où commencer
 
-Choisissez un périmètre restreint (une famille de procédures, un site), assurez-vous que la documentation source est propre — voir notre article sur la [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue) — puis testez sur une dizaine d'utilisateurs avant tout déploiement large. Sur une mission de ce type menée pour un site industriel, le premier périmètre choisi (les procédures qualité d'une seule ligne) a suffi à convaincre la direction d'étendre l'outil trois mois plus tard : un RAG mal cadré déçoit vite, un RAG bien cadré change durablement le réflexe d'une équipe.
+Choisissez un périmètre restreint (une famille de procédures, un site), assurez-vous que la documentation source est propre — voir notre article sur la [qualité des données](/blog/qualite-des-donnees-pourquoi-les-projets-ia-supply-chain) — puis testez sur une dizaine d'utilisateurs avant tout déploiement large. Sur une mission de ce type menée pour un site industriel, le premier périmètre choisi (les procédures qualité d'une seule ligne) a suffi à convaincre la direction d'étendre l'outil trois mois plus tard : un RAG mal cadré déçoit vite, un RAG bien cadré change durablement le réflexe d'une équipe.
 
 ## Ce qu'il faut retenir
 

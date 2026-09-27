@@ -28,7 +28,7 @@ Le premier point concerne l'hébergement : où sont stockées les données trans
 | Connexion ERP non documentée | Dépendance non maîtrisée, panne en cascade |
 | Pas de plan de sortie | Verrouillage fournisseur (vendor lock-in) |
 
-> **Le DSI qui valide un projet IA en 48h avec une checklist claire favorise l'adoption ; celui qui bloque par principe pousse les équipes vers le shadow IA.** L'enjeu n'est pas de ralentir, c'est de sécuriser sans freiner. Voir notre article sur le [shadow IA en entreprise](/blog/shadow-ia-en-entreprise-le-risque-des-outils-non-valids).
+> **Le DSI qui valide un projet IA en 48h avec une checklist claire favorise l'adoption ; celui qui bloque par principe pousse les équipes vers le shadow IA.** L'enjeu n'est pas de ralentir, c'est de sécuriser sans freiner. Voir notre article sur le [shadow IA en entreprise](/blog/shadow-ia-en-entreprise-le-risque-des-outils-non-valides).
 
 ## Ce qu'il faut retenir
 

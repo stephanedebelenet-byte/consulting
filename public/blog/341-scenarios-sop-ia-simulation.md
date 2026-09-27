@@ -27,7 +27,7 @@ Le choc de demande d'abord — pic promotionnel, effet saisonnier accentué, arr
 | Pic demande +20% | Rupture probable J+15 | Achat urgent à surcoût | Sécuriser capacité fournisseur clé |
 | Rupture fournisseur 3 semaines | Baisse taux de service -8 pts | Aucun surcoût direct | Activer fournisseur de secours |
 
-> **Le scénario le plus utile n'est pas le plus probable, c'est celui qu'on n'a pas anticipé.** L'IA permet de tester rapidement les cas extrêmes que les équipes n'ont normalement pas le temps de modéliser, et c'est précisément là que se cachent souvent les décisions les plus coûteuses à prendre trop tard. Complète notre article sur le [copilot de demand planning](/blog/copilot-de-demand-planning-lia-gnrative-au-service-du-prvisi).
+> **Le scénario le plus utile n'est pas le plus probable, c'est celui qu'on n'a pas anticipé.** L'IA permet de tester rapidement les cas extrêmes que les équipes n'ont normalement pas le temps de modéliser, et c'est précisément là que se cachent souvent les décisions les plus coûteuses à prendre trop tard. Complète notre article sur le [copilot de demand planning](/blog/copilot-de-demand-planning-l-ia-generative-au-service-du).
 
 ## Ce qu'il faut retenir
 

@@ -28,7 +28,7 @@ Le comptage automatique en tête de liste : vérifier la quantité reçue contre
 | 50 à 200 palettes/jour | Rentable sur les références à forte valeur ou litige fréquent |
 | > 200 palettes/jour | Rentable sur l'ensemble du flux |
 
-> **La vision par ordinateur ne vaut le coût d'installation qu'au-delà d'un certain volume — en dessous, un contrôle manuel bien organisé reste plus rentable.** C'est le calcul de seuil que nous faisons systématiquement avant de recommander cet investissement, plutôt que de vendre la technologie pour elle-même. Complète notre article sur l'[IoT et les capteurs connectés en entrepôt](/blog/iot-et-capteurs-connects-en-entrept-ce-quils-changent-vraime).
+> **La vision par ordinateur ne vaut le coût d'installation qu'au-delà d'un certain volume — en dessous, un contrôle manuel bien organisé reste plus rentable.** C'est le calcul de seuil que nous faisons systématiquement avant de recommander cet investissement, plutôt que de vendre la technologie pour elle-même. Complète notre article sur l'[IoT et les capteurs connectés en entrepôt](/blog/iot-et-capteurs-connectes-en-entrepot-ce-qu-ils-changent).
 
 ## Ce qu'il faut retenir
 

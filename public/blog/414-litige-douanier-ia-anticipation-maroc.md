@@ -14,7 +14,7 @@ description: "Comment l'IA aide à anticiper les points de contrôle douanier à
 
 La plupart des litiges douaniers ne naissent pas d'une fraude délibérée, mais d'une incohérence non détectée à temps : une classification tarifaire discutable répétée sur plusieurs déclarations, une valeur en douane qui varie sans justification documentée. **L'IA permet une revue systématique des déclarations passées pour repérer ces zones de risque avant qu'un contrôle ne les révèle lui-même.** Voici comment structurer cette anticipation.
 
-> **Une entreprise qui identifie et corrige elle-même une incohérence avant un contrôle négocie en position de bonne foi ; une entreprise qui la découvre pendant le contrôle négocie en position de faiblesse.** C'est la différence entre l'anticipation et la réaction, et elle se chiffre en pénalités évitées. Complète notre article sur la [classification tarifaire par IA](/blog/classification-tarifaire-douanire-par-ia-rduire-les-erreurs).
+> **Une entreprise qui identifie et corrige elle-même une incohérence avant un contrôle négocie en position de bonne foi ; une entreprise qui la découvre pendant le contrôle négocie en position de faiblesse.** C'est la différence entre l'anticipation et la réaction, et elle se chiffre en pénalités évitées. Complète notre article sur la [classification tarifaire par IA](/blog/classification-tarifaire-douaniere-par-ia-reduire-les).
 
 ## Ce que l'IA révèle dans une revue rétrospective
 

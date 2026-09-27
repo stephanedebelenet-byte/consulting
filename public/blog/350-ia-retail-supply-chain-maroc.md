@@ -28,7 +28,7 @@ Le réassort automatique par référence et par magasin vient en tête : ajuster
 
 ::stat:: 1 à 2% du chiffre d'affaires — c'est ce que représente la démarque inconnue dans la grande distribution, une part significative détectable plus tôt par IA
 
-> **Le réassort par IA ne remplace pas le category manager, il libère son temps du réapprovisionnement répétitif pour le concentrer sur l'assortiment et la négociation.** C'est le même principe que celui développé dans notre article sur la [prévision de la demande et la réduction des stocks de sécurité](/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-).
+> **Le réassort par IA ne remplace pas le category manager, il libère son temps du réapprovisionnement répétitif pour le concentrer sur l'assortiment et la négociation.** C'est le même principe que celui développé dans notre article sur la [prévision de la demande et la réduction des stocks de sécurité](/blog/ia-predictive-et-prevision-de-la-demande-reduire-ses-stocks).
 
 ## Ce qu'il faut retenir
 

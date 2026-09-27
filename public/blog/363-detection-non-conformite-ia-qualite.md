@@ -30,7 +30,7 @@ description: "Comment l'IA détecte automatiquement les non-conformités récurr
 
 ::stat:: 40% — part des non-conformités récurrentes qui restent non détectées comme telles quand les sources de signalement ne sont pas croisées
 
-> **Le coût réel d'une non-conformité n'est jamais dans l'incident isolé, il est dans la répétition non détectée.** C'est cette répétition que l'IA rend visible, en croisant des sources que personne n'a le temps de croiser manuellement. Complète notre article sur l'[analyse des réclamations clients par IA](/blog/analyse-des-rclamations-clients-par-ia-trouver-le-signal).
+> **Le coût réel d'une non-conformité n'est jamais dans l'incident isolé, il est dans la répétition non détectée.** C'est cette répétition que l'IA rend visible, en croisant des sources que personne n'a le temps de croiser manuellement. Complète notre article sur l'[analyse des réclamations clients par IA](/blog/analyse-des-reclamations-clients-par-ia-trouver-le-signal).
 
 ## Ce qu'il faut retenir
 

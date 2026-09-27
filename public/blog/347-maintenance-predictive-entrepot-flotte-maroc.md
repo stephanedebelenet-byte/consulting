@@ -31,7 +31,7 @@ Sur une mission récente, un client était convaincu qu'il fallait équiper l'in
 
 ::stat:: 30 à 50% — réduction des pannes non planifiées observée sur les équipements sous maintenance prédictive mature, selon les retours industriels
 
-> **La maintenance prédictive n'est pas une technologie universelle, c'est un investissement à cibler sur les équipements où l'arrêt coûte le plus cher.** Équiper l'ensemble d'un parc sans hiérarchisation dilue le budget sur des actifs à faible enjeu. Complète notre article sur l'[IoT et les capteurs connectés en entrepôt](/blog/iot-et-capteurs-connects-en-entrept-ce-quils-changent-vraime).
+> **La maintenance prédictive n'est pas une technologie universelle, c'est un investissement à cibler sur les équipements où l'arrêt coûte le plus cher.** Équiper l'ensemble d'un parc sans hiérarchisation dilue le budget sur des actifs à faible enjeu. Complète notre article sur l'[IoT et les capteurs connectés en entrepôt](/blog/iot-et-capteurs-connectes-en-entrepot-ce-qu-ils-changent).
 
 ## Ce qu'il faut retenir
 

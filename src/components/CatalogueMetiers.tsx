@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
+import { programmeUrl } from '../data/formations'
 import { motion, useInView } from 'framer-motion'
 import SchemaScript from './SchemaHelper'
 import { METIERS_CATALOGUE, METIERS_EMERGENTS } from '../data/catalogueMetiers'
@@ -215,7 +216,7 @@ export default function CatalogueMetiers() {
                     }
                     return t.programId ? (
                       <li key={t.titre}>
-                        <Link to={`/formation/${t.programId}`} style={{ ...itemStyle, textDecoration: 'none' }}>
+                        <Link to={programmeUrl(t.programId)} style={{ ...itemStyle, textDecoration: 'none' }}>
                           {content}
                         </Link>
                       </li>

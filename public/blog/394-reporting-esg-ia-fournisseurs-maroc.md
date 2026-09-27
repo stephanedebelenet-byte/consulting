@@ -30,7 +30,7 @@ Les entreprises marocaines qui exportent vers l'Union européenne, ou qui fourni
 
 ::stat:: 3 à 6 mois — délai typique de collecte ESG manuelle auprès d'un panel fournisseurs de taille moyenne, réduit à quelques semaines avec automatisation
 
-> **Le reporting ESG cesse d'être une contrainte administrative quand la collecte est automatisée : il devient un différenciateur commercial** face à des concurrents qui ne peuvent pas répondre aussi vite à un questionnaire client. Complète notre article sur les [achats durables et RSE fournisseurs](/blog/achats-durables-et-rse-fournisseurs-la-grille-daudit-pour-pm).
+> **Le reporting ESG cesse d'être une contrainte administrative quand la collecte est automatisée : il devient un différenciateur commercial** face à des concurrents qui ne peuvent pas répondre aussi vite à un questionnaire client. Complète notre article sur les [achats durables et RSE fournisseurs](/blog/achats-durables-et-rse-fournisseurs-la-grille-d-audit-pour).
 
 ## Ce qu'il faut retenir
 

@@ -14,7 +14,7 @@ description: "Comment l'IA synthétise en continu les évolutions réglementaire
 
 Les règles du commerce international évoluent en permanence : nouveaux accords de libre-échange, sanctions commerciales, ajustements tarifaires. Une entreprise qui importe ou exporte régulièrement ne peut pas se permettre de découvrir un changement après avoir déjà engagé une opération non conforme — et la veille manuelle exhaustive demande un temps que peu d'équipes commerce international peuvent consacrer en plus de leur charge quotidienne. **Voici comment l'IA structure cette veille sans y passer ses journées.**
 
-> **Une veille réglementaire qui arrive après le changement d'application n'a plus aucune valeur d'anticipation, seulement une valeur de constat.** C'est le délai d'anticipation, pas la simple existence de la veille, qui détermine sa valeur réelle pour l'entreprise. Complète notre article sur les [accords de libre-échange marocains](/blog/accords-de-libre-change-du-maroc-comment-rduire-ses-droits-d).
+> **Une veille réglementaire qui arrive après le changement d'application n'a plus aucune valeur d'anticipation, seulement une valeur de constat.** C'est le délai d'anticipation, pas la simple existence de la veille, qui détermine sa valeur réelle pour l'entreprise. Complète notre article sur les [accords de libre-échange marocains](/blog/accords-de-libre-echange-du-maroc-comment-reduire-ses).
 
 ## Ce qu'une veille IA surveille en continu
 

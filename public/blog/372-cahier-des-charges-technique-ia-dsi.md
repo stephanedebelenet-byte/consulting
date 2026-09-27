@@ -26,7 +26,7 @@ La localisation et la propriété des données viennent en premier : où sont-el
 | Volumétrie | Le contrat garantit-il un débit testé sur notre volume réel ? |
 | Non-réutilisation | Un engagement contractuel existe-t-il, pas seulement une déclaration commerciale ? |
 
-> **Un devis attractif qui ne répond pas à ces 5 clauses coûte souvent plus cher à la sortie qu'à l'entrée.** C'est le moment du cahier des charges, avant la signature, qui protège l'entreprise — jamais la négociation après coup en position de dépendance. Voir notre article sur la [rédaction de cahier des charges assistée par IA](/blog/rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous).
+> **Un devis attractif qui ne répond pas à ces 5 clauses coûte souvent plus cher à la sortie qu'à l'entrée.** C'est le moment du cahier des charges, avant la signature, qui protège l'entreprise — jamais la négociation après coup en position de dépendance. Voir notre article sur la [rédaction de cahier des charges assistée par IA](/blog/rediger-un-cahier-des-charges-avec-l-ia-methode-et-garde).
 
 ## Ce qu'il faut retenir
 

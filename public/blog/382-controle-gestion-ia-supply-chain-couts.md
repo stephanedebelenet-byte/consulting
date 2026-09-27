@@ -26,7 +26,7 @@ Trois types de dérives ressortent le plus souvent d'une surveillance continue. 
 | Surcoût de stockage | Bilan de fin de mois | Détection à l'apparition |
 | Écart coût standard/réel | Analyse rétrospective | Catégorisation en temps réel |
 
-> **Un contrôleur de gestion qui apprend une dérive de coût à la clôture mensuelle ne peut plus agir sur le mois écoulé — il peut seulement l'expliquer.** La détection continue transforme le contrôle de gestion d'un exercice de constat en un outil de pilotage actionnable. Complète notre article sur la [détection d'anomalies sur les stocks et commandes](/blog/dtection-danomalies-et-alertes-intelligentes-sur-stocks-et-c).
+> **Un contrôleur de gestion qui apprend une dérive de coût à la clôture mensuelle ne peut plus agir sur le mois écoulé — il peut seulement l'expliquer.** La détection continue transforme le contrôle de gestion d'un exercice de constat en un outil de pilotage actionnable. Complète notre article sur la [détection d'anomalies sur les stocks et commandes](/blog/detection-d-anomalies-et-alertes-intelligentes-sur-stocks).
 
 ## Ce qu'il faut retenir
 

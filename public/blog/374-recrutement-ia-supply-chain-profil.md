@@ -26,7 +26,7 @@ Le profil qui fonctionne réellement place la connaissance métier supply chain 
 | Aucun collaborateur volontaire identifié | Recrutement externe ciblé, profil hybride |
 | Besoin ponctuel de cadrage technique | Partenaire externe, pas de recrutement |
 
-> **Le meilleur référent IA d'une équipe achats est souvent l'acheteur curieux qui a déjà commencé à utiliser ChatGPT de son côté, pas un profil recruté de l'extérieur sans connaissance du métier.** Identifier et former ce profil interne coûte moins cher et s'ancre mieux dans l'organisation. Voir notre [académie IA interne](/blog/crer-son-acadmie-ia-interne-supply-chain).
+> **Le meilleur référent IA d'une équipe achats est souvent l'acheteur curieux qui a déjà commencé à utiliser ChatGPT de son côté, pas un profil recruté de l'extérieur sans connaissance du métier.** Identifier et former ce profil interne coûte moins cher et s'ancre mieux dans l'organisation. Voir notre [académie IA interne](/blog/creer-son-academie-ia-interne-supply-chain).
 
 ## Ce qu'il faut retenir
 

@@ -28,7 +28,7 @@ Un service administration des ventes (ADV) qui voit son volume de commandes doub
 
 Trois familles de tâches concentrent l'essentiel du gain. La saisie et la vérification de cohérence des commandes entrantes d'abord, avec alerte automatique sur les anomalies de prix, de quantité ou d'adresse — le genre d'erreur qu'un agent fatigué en fin de journée laisse parfois passer. Les réponses aux questions de statut récurrentes ensuite, qui libèrent l'agent pour les cas exigeant un vrai jugement. Et la priorisation des commandes selon l'urgence et la criticité du client, une tâche que peu d'équipes ont le temps de faire correctement à la main quand le volume grimpe.
 
-> **L'objectif d'un ADV augmenté n'est jamais de réduire l'effectif, c'est d'absorber la croissance sans dégrader le service ni recruter au même rythme que le volume.** C'est une nuance qui compte pour l'adhésion des équipes concernées — un agent qui craint pour son poste collabore rarement de bonne foi. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl).
+> **L'objectif d'un ADV augmenté n'est jamais de réduire l'effectif, c'est d'absorber la croissance sans dégrader le service ni recruter au même rythme que le volume.** C'est une nuance qui compte pour l'adhésion des équipes concernées — un agent qui craint pour son poste collabore rarement de bonne foi. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-desengorger-le-service).
 
 ## Ce qu'il faut retenir
 

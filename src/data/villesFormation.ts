@@ -52,7 +52,7 @@ export const VILLES: VilleFormation[] = [
     ],
     formats:
       "Sessions inter-entreprise en présentiel à Casablanca (hôtel 5★, 8 à 16 participants). Format intra-entreprise dans vos locaux pour 5 participants ou plus, avec cas pratique adapté à votre activité.",
-    blog: { label: 'Conseil & supply chain à Casablanca', post: 'conseil-supply-chain-casablanca-expert-logistique-maroc' },
+    blog: { label: 'Conseil & supply chain à Casablanca', post: 'conseil-supply-chain-a-casablanca-expert-logistique-maroc' },
     faq: [
       {
         q: 'Où se déroulent les formations à Casablanca ?',
@@ -90,7 +90,7 @@ export const VILLES: VilleFormation[] = [
     ],
     formats:
       "Sessions inter-entreprise en présentiel à Casablanca (1h en train de Rabat). Format intra-entreprise dans vos locaux à Rabat, Salé ou Kénitra pour 5 participants ou plus.",
-    blog: { label: 'Formation supply chain à Rabat', post: 'formation-supply-chain-rabat-expert-logistique-maroc' },
+    blog: { label: 'Formation supply chain à Rabat', post: 'formation-supply-chain-a-rabat-expert-logistique-maroc' },
     faq: [
       {
         q: 'Les formations ont-elles lieu à Rabat ?',
@@ -128,7 +128,7 @@ export const VILLES: VilleFormation[] = [
     ],
     formats:
       "Sessions inter-entreprise en présentiel à Casablanca. Format intra-entreprise dans vos locaux à Tanger, en zone franche ou à Tétouan pour 5 participants ou plus.",
-    blog: { label: 'Formation logistique Tanger & Kénitra', post: 'formation-logistique-tanger-et-knitra-hub-automobile-et-port' },
+    blog: { label: 'Formation logistique Tanger & Kénitra', post: 'formation-logistique-a-tanger-et-kenitra-hub-automobile-et' },
     faq: [
       {
         q: 'Organisez-vous des formations en zone franche à Tanger ?',
@@ -166,7 +166,7 @@ export const VILLES: VilleFormation[] = [
     ],
     formats:
       "Sessions inter-entreprise en présentiel à Casablanca. Format intra-entreprise dans vos locaux à Marrakech pour 5 participants ou plus, avec cas pratique adapté (hôtellerie, distribution, agro).",
-    blog: { label: 'Formation logistique à Marrakech', post: 'formation-logistique-marrakech-opportunits-et-programme-2026' },
+    blog: { label: 'Formation logistique à Marrakech', post: 'formation-logistique-a-marrakech-opportunites-et-programme' },
     faq: [
       {
         q: 'Formez-vous les équipes hôtelières à Marrakech ?',
@@ -204,7 +204,7 @@ export const VILLES: VilleFormation[] = [
     ],
     formats:
       "Sessions inter-entreprise en présentiel à Casablanca. Format intra-entreprise dans vos locaux à Agadir ou dans la zone d'Aït Melloul pour 5 participants ou plus.",
-    blog: { label: 'Formation logistique à Agadir', post: 'formation-logistique-agadir-supply-chain-export-et-rgion-sou' },
+    blog: { label: 'Formation logistique à Agadir', post: 'formation-logistique-a-agadir-supply-chain-export-et-region' },
     faq: [
       {
         q: 'Le contenu couvre-t-il la chaîne du froid et l’export ?',
@@ -242,7 +242,7 @@ export const VILLES: VilleFormation[] = [
     ],
     formats:
       "Sessions inter-entreprise en présentiel à Casablanca. Format intra-entreprise dans vos locaux à Fès ou Meknès pour 5 participants ou plus.",
-    blog: { label: 'Conseil & supply chain à Fès-Meknès', post: 'conseil-supply-chain-fsmekns-expert-logistique-centre-maroc' },
+    blog: { label: 'Conseil & supply chain à Fès-Meknès', post: 'conseil-supply-chain-fesmeknes-expert-logistique-centre' },
     faq: [
       {
         q: 'Intervenez-vous à Fès et à Meknès ?',

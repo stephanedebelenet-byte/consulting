@@ -25,7 +25,7 @@ Des références jugées rentables cessent parfois de l'être une fois le coût 
 | Volumineuse, faible rotation | Élevée | Souvent dégradée par le coût de stockage |
 | Compacte, rotation rapide | Modérée | Souvent meilleure que perçue |
 
-> **La question n'est jamais « ce produit se vend-il bien ? » mais « ce produit est-il rentable une fois tous les coûts réels imputés ? ».** Ce sont deux questions différentes, et la seconde change souvent radicalement les priorités d'assortiment et de négociation. Complète notre article sur le [landed cost et le coût logistique complet](/blog/ia-et-cot-logistique-complet-ce-quun-produit-cote-vraiment).
+> **La question n'est jamais « ce produit se vend-il bien ? » mais « ce produit est-il rentable une fois tous les coûts réels imputés ? ».** Ce sont deux questions différentes, et la seconde change souvent radicalement les priorités d'assortiment et de négociation. Complète notre article sur le [landed cost et le coût logistique complet](/blog/ia-et-cout-logistique-complet-ce-qu-un-produit-coute).
 
 ## Ce qu'il faut retenir
 

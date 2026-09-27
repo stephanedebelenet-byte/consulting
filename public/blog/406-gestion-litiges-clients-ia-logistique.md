@@ -30,7 +30,7 @@ Ce que l'IA accélère concrètement, à chaque étape du traitement :
 - **Proposition de résolution** : basée sur des cas similaires déjà traités, avec le niveau de compensation habituel.
 - **Rédaction de la réponse client** : ton adapté, informations exactes, prête à valider et envoyer.
 
-> **Un client qui obtient une réponse en quelques heures plutôt qu'en plusieurs jours pardonne beaucoup plus facilement l'incident initial.** La vitesse de traitement d'un litige compte souvent plus, pour la fidélisation, que la générosité de la compensation proposée. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-dsengorger-le-service-cl).
+> **Un client qui obtient une réponse en quelques heures plutôt qu'en plusieurs jours pardonne beaucoup plus facilement l'incident initial.** La vitesse de traitement d'un litige compte souvent plus, pour la fidélisation, que la générosité de la compensation proposée. Complète notre article sur le [chatbot de suivi de commande](/blog/chatbot-de-suivi-de-commande-par-ia-desengorger-le-service).
 
 ## Ce qu'il faut retenir
 

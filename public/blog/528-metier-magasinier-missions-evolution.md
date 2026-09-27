@@ -55,7 +55,7 @@ Selon l'entrepôt, une autorisation de conduite de chariot peut être demandée,
 
 ## Formation et accès au métier
 
-Le métier est accessible avec des formations professionnelles en logistique, mais aussi par l'apprentissage sur le terrain. Les formations courtes sur la gestion des stocks, la sécurité et les outils numériques accélèrent la progression. Voir [la formation gestionnaire de stocks au Maroc](/blog/formation-gestionnaire-de-stocks-au-maroc-metier).
+Le métier est accessible avec des formations professionnelles en logistique, mais aussi par l'apprentissage sur le terrain. Les formations courtes sur la gestion des stocks, la sécurité et les outils numériques accélèrent la progression. Voir [la formation gestionnaire de stocks au Maroc](/blog/formation-gestion-des-stocks-au-maroc-methodes-metier-et).
 
 ## Les évolutions possibles
 

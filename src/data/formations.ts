@@ -1095,6 +1095,14 @@ export function programmeFaq(p: Programme): { q: string; a: string }[] {
   return faq
 }
 
+// Adresse de la fiche d'un programme : les deux programmes phares ont leur
+// propre page d'atterrissage, hors de /formation/<id> (qui serait une 404).
+export function programmeUrl(id: string): string {
+  if (id === 'rl') return '/formation-rl'
+  if (id === 'import') return '/formation-import'
+  return `/formation/${id}`
+}
+
 export function programmeIntro(p: Programme): string {
   return `${p.subtitle} Formation ${fmtLabel(p.format)} de ${p.duration.toLowerCase()}, ${p.lieu.toLowerCase()}, animée par un praticien avec 20+ ans de terrain en Supply Chain, Logistique et Achats au Maroc.`
 }

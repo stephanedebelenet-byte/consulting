@@ -26,7 +26,7 @@ La majorité des discussions sur l'IA en supply chain se concentrent sur la réd
 
 Trois évolutions deviennent économiquement viables. Des services à la demande personnalisés d'abord, à un coût de gestion qui n'était pas rentable avec un traitement manuel — planification à la carte, conseil ponctuel augmenté. Des offres de pilotage externalisé ensuite, pour des PME qui n'avaient pas les moyens d'une équipe supply chain complète mais qui deviennent accessibles dès lors que l'IA absorbe une partie de la charge de suivi. Et une tarification à l'usage plutôt qu'au forfait, rendue possible par un suivi précis et automatisé de la consommation réelle de service.
 
-> **L'IA ne se limite pas à faire moins cher ce qui existait déjà — elle rend possible ce qui n'existait pas parce que le coût de gestion était prohibitif.** C'est cette deuxième dimension, plus stratégique, qui mérite l'attention des dirigeants au-delà du seul calcul de ROI opérationnel. Complète notre article sur la [feuille de route IA de la direction supply chain](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route-).
+> **L'IA ne se limite pas à faire moins cher ce qui existait déjà — elle rend possible ce qui n'existait pas parce que le coût de gestion était prohibitif.** C'est cette deuxième dimension, plus stratégique, qui mérite l'attention des dirigeants au-delà du seul calcul de ROI opérationnel. Complète notre article sur la [feuille de route IA de la direction supply chain](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route).
 
 ## Ce qu'il faut retenir
 

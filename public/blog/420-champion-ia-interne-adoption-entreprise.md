@@ -30,7 +30,7 @@ Dans presque chaque déploiement IA réussi que nous avons accompagné, une mêm
 | Le faire intervenir dans les formations suivantes | Multiplie son influence auprès des pairs |
 | Reconnaître son rôle sans le sur-formaliser en poste officiel | Préserve sa crédibilité de pair, pas de hiérarchie imposée |
 
-> **Un champion IA imposé par la direction n'a jamais la même crédibilité qu'un champion qui a émergé spontanément de l'usage réel.** Le rôle du management est de le repérer et de lui donner de l'espace, pas de le désigner arbitrairement. Complète notre [plan d'acculturation en 90 jours](/blog/acculturation-et-conduite-du-changement-embarquer-les-quipes).
+> **Un champion IA imposé par la direction n'a jamais la même crédibilité qu'un champion qui a émergé spontanément de l'usage réel.** Le rôle du management est de le repérer et de lui donner de l'espace, pas de le désigner arbitrairement. Complète notre [plan d'acculturation en 90 jours](/blog/acculturation-et-conduite-du-changement-embarquer-les).
 
 ## Ce qu'il faut retenir
 

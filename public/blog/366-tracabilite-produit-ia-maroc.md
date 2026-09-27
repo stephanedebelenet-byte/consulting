@@ -28,7 +28,7 @@ La synthèse multi-systèmes instantanée change le premier réflexe : demander 
 
 ::stat:: quelques minutes contre plusieurs heures — le temps de reconstitution d'un historique produit complet en cas de rappel, avec ou sans assistance IA
 
-> **En cas de rappel produit, chaque heure gagnée sur la reconstitution de l'historique est une heure gagnée sur la limitation du risque client et réputationnel.** C'est le cas d'usage où la valeur de l'IA se mesure le plus directement en évitement de crise. Complète notre [playbook aéronautique](/blog/ia-et-supply-chain-aronautique-au-maroc-traabilit-et-conform).
+> **En cas de rappel produit, chaque heure gagnée sur la reconstitution de l'historique est une heure gagnée sur la limitation du risque client et réputationnel.** C'est le cas d'usage où la valeur de l'IA se mesure le plus directement en évitement de crise. Complète notre [playbook aéronautique](/blog/ia-et-supply-chain-aeronautique-au-maroc-tracabilite-et).
 
 ## Ce qu'il faut retenir
 

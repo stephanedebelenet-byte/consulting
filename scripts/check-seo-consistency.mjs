@@ -236,6 +236,32 @@ for (const loc of locs) {
 
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
 
+// ── Règle 15 : aucun lien interne cassé ou redirigé (27/09/2026) ───────────
+// L'audit a trouvé 169 liens internes distincts vers des adresses absentes du
+// site : anciens slugs d'articles (lettres accentuées supprimées), servis par
+// une redirection 308 de vercel.json, et quelques vraies 404. Tout lien
+// interne doit viser directement une page du sitemap ou un fichier de dist/.
+{
+  const inSitemap = new Set(locs.map((l) => new URL(l).pathname.replace(/\/$/, '') || '/'))
+  const bad = new Map()
+  const walkHtml = (dir) => {
+    for (const e of readdirSync(dir, { withFileTypes: true })) {
+      const p = join(dir, e.name)
+      if (e.isDirectory()) walkHtml(p)
+      else if (e.name === 'index.html') {
+        const page = p.slice(DIST_DIR.length).replace(/[\\/]index\.html$/, '').replace(/\\/g, '/') || '/'
+        for (const m of readFileSync(p, 'utf-8').matchAll(/href="(\/[^"#?]*)/g)) {
+          const u = m[1].replace(/\/$/, '') || '/'
+          if (inSitemap.has(u) || /\.[a-z0-9]{2,5}$/i.test(u)) continue
+          if (!bad.has(u)) bad.set(u, page)
+        }
+      }
+    }
+  }
+  walkHtml(DIST_DIR)
+  for (const [u, page] of bad) fail(`Lien interne vers une adresse hors sitemap (404 ou redirection) : ${u} — depuis ${page}`)
+}
+
 // ── Règle 14 : pas de FAQ dupliquée entre pages (27/09/2026) ───────────────
 // Une même question avec la même réponse sur deux pages les met en
 // concurrence sur la même requête (cannibalisation) et dilue la réponse que

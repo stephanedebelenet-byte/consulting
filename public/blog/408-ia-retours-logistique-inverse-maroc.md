@@ -14,7 +14,7 @@ description: "Comment l'IA accélère le traitement des retours e-commerce et di
 
 Le retour d'un produit e-commerce ou de distribution coûte souvent plus cher à traiter que sa marge initiale. La raison est presque toujours la même : le processus — réception, tri, décision, remboursement — reste largement manuel et lent dans la majorité des entreprises marocaines. **L'IA accélère chaque étape de cette chaîne, ce qui réduit à la fois le délai et le coût de traitement.**
 
-> **Le client qui attend deux semaines son remboursement retient l'attente, pas le motif du retour — c'est la vitesse de traitement qui façonne sa décision de racheter ou non.** Complète notre article sur l'[e-commerce et le last-mile](/blog/ia-et-e-commerce-last-mile-prvision-cod-et-gestion-des-retou).
+> **Le client qui attend deux semaines son remboursement retient l'attente, pas le motif du retour — c'est la vitesse de traitement qui façonne sa décision de racheter ou non.** Complète notre article sur l'[e-commerce et le last-mile](/blog/ia-et-e-commerce-last-mile-prevision-cod-et-gestion-des).
 
 ## Les trois étapes accélérées par l'IA
 

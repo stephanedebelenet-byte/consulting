@@ -28,7 +28,7 @@ Trois apports concrets, observés sur le terrain. L'explication en langage clair
 | Explication des choix | Non | Oui — en langage clair |
 | Gestion des exceptions en temps réel | Limité | Proposition de reséquence rapide |
 
-> **Le meilleur algorithme d'optimisation ne sert à rien si le planificateur ne comprend pas pourquoi il a raison — et le remet en cause à chaque exception.** L'explication en langage clair est, très concrètement, ce qui transforme l'adhésion des équipes transport à l'outil d'optimisation. Voir aussi notre article sur les [tournées et le double gain coût-carbone](/blog/optimisation-des-tournes-par-ia-le-double-gain-cot-carbone).
+> **Le meilleur algorithme d'optimisation ne sert à rien si le planificateur ne comprend pas pourquoi il a raison — et le remet en cause à chaque exception.** L'explication en langage clair est, très concrètement, ce qui transforme l'adhésion des équipes transport à l'outil d'optimisation. Voir aussi notre article sur les [tournées et le double gain coût-carbone](/blog/optimisation-des-tournees-par-ia-le-double-gain-cout-carbone).
 
 ## Ce qu'il faut retenir
 

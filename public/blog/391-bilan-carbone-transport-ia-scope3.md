@@ -30,7 +30,7 @@ Une fois ces données connectées, l'automatisation calcule et met en perspectiv
 
 ::stat:: 60 à 80% — part typique des émissions totales d'une entreprise industrielle marocaine concentrée dans le scope 3 logistique et transport
 
-> **Un bilan carbone transport approximatif, fait une fois par an pour un rapport ESG, ne permet aucune action ; un calcul automatisé et continu permet de piloter la réduction, trajet par trajet.** C'est la différence entre un exercice de reporting et un véritable outil de décision. Complète notre article sur l'[optimisation des tournées et le double gain coût-carbone](/blog/optimisation-des-tournes-par-ia-le-double-gain-cot-carbone).
+> **Un bilan carbone transport approximatif, fait une fois par an pour un rapport ESG, ne permet aucune action ; un calcul automatisé et continu permet de piloter la réduction, trajet par trajet.** C'est la différence entre un exercice de reporting et un véritable outil de décision. Complète notre article sur l'[optimisation des tournées et le double gain coût-carbone](/blog/optimisation-des-tournees-par-ia-le-double-gain-cout-carbone).
 
 ## Ce qu'il faut retenir
 

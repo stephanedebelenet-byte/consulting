@@ -16,7 +16,7 @@ description: "Ce n'est presque jamais le contentieux douanier qui fait échouer 
 
 ## Cause n°1 : une gestion des stocks qui ne résiste pas à l'audit
 
-L'arrêté n°690-11 fixe trois critères d'évaluation pour le statut OEA-Simplifications Douanières : la conformité douanière, l'existence d'un système transparent de gestion des écritures commerciales, et la solvabilité financière. Le deuxième critère est celui qui échoue le plus souvent en pratique, pour une raison simple : le stock vu par la comptabilité, le stock vu par l'entrepôt et le stock vu par la douane ne racontent pas toujours la même histoire. Un écart entre stock théorique et stock réel, même minime et même sans intention frauduleuse, remet en cause la transparence exigée par l'auditeur — et c'est exactement le même sujet qui expose une entreprise sous régime douanier suspensif à un risque de redressement, comme nous le détaillons dans notre article sur les [régimes douaniers suspensifs](/blog/rgimes-douaniers-suspensifs-admission-temporaire-eif-stock-t).
+L'arrêté n°690-11 fixe trois critères d'évaluation pour le statut OEA-Simplifications Douanières : la conformité douanière, l'existence d'un système transparent de gestion des écritures commerciales, et la solvabilité financière. Le deuxième critère est celui qui échoue le plus souvent en pratique, pour une raison simple : le stock vu par la comptabilité, le stock vu par l'entrepôt et le stock vu par la douane ne racontent pas toujours la même histoire. Un écart entre stock théorique et stock réel, même minime et même sans intention frauduleuse, remet en cause la transparence exigée par l'auditeur — et c'est exactement le même sujet qui expose une entreprise sous régime douanier suspensif à un risque de redressement, comme nous le détaillons dans notre article sur les [régimes douaniers suspensifs](/blog/regimes-douaniers-suspensifs-admission-temporaire-eif-stock).
 
 ::stat:: 6,81% — taux de pénétration du statut OEA parmi les entreprises marocaines éligibles, un potentiel largement sous-exploité
 
@@ -42,7 +42,7 @@ Le troisième critère porte sur les trois derniers exercices financiers, dont l
 
 ## Ce qu'il faut retenir
 
-Un rejet de demande OEA n'est presque jamais définitif : l'ADII communique le motif du rejet et l'entreprise peut redéposer un dossier après avoir corrigé les points signalés. Mais chaque cycle de rejet coûte plusieurs mois. La bonne séquence est inverse à celle que suivent la plupart des entreprises : diagnostiquer et corriger la traçabilité des stocks et la documentation avant d'engager l'audit, pas pendant. Notre [guide de la procédure OEA étape par étape](/blog/statut-oea-maroc-la-procdure-adii-tape-par-tape) détaille les délais légaux à anticiper.
+Un rejet de demande OEA n'est presque jamais définitif : l'ADII communique le motif du rejet et l'entreprise peut redéposer un dossier après avoir corrigé les points signalés. Mais chaque cycle de rejet coûte plusieurs mois. La bonne séquence est inverse à celle que suivent la plupart des entreprises : diagnostiquer et corriger la traçabilité des stocks et la documentation avant d'engager l'audit, pas pendant. Notre [guide de la procédure OEA étape par étape](/blog/statut-oea-maroc-la-procedure-adii-etape-par-etape) détaille les délais légaux à anticiper.
 
 ## Notre accompagnement
 

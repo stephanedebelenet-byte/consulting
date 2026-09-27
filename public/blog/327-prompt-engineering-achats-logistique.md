@@ -32,9 +32,9 @@ Oubliez ce dernier bloc et le modèle choisira à votre place — souvent une r�
 - Comparer deux devis sur 6 critères (prix, délai, paiement, garantie, MOQ, transport).
 - Préparer 5 questions à poser à un nouveau fournisseur avant qualification.
 - Résumer un contrat-cadre de 8 pages en 10 points d'attention.
-- Rédiger la trame d'un [cahier des charges](/blog/rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous) pour un équipement industriel.
+- Rédiger la trame d'un [cahier des charges](/blog/rediger-un-cahier-des-charges-avec-l-ia-methode-et-garde) pour un équipement industriel.
 
-> **Le prompt le plus utile n'est pas le plus long, c'est celui qui contraint le format de sortie.** Nos clients qui adoptent le mieux l'IA au quotidien ne sont pas ceux qui écrivent les prompts les plus sophistiqués, mais ceux qui réutilisent 10 à 15 prompts stabilisés, comme des macros. C'est la logique développée dans notre article sur les [25 cas d'usage de l'IA générative](/blog/ia-gnrative-en-supply-chain-25-cas-dusage-concrets-au-maroc).
+> **Le prompt le plus utile n'est pas le plus long, c'est celui qui contraint le format de sortie.** Nos clients qui adoptent le mieux l'IA au quotidien ne sont pas ceux qui écrivent les prompts les plus sophistiqués, mais ceux qui réutilisent 10 à 15 prompts stabilisés, comme des macros. C'est la logique développée dans notre article sur les [25 cas d'usage de l'IA générative](/blog/ia-generative-en-supply-chain-25-cas-d-usage-concrets-au).
 
 ::stat:: 30 minutes — temps moyen gagné par analyse fournisseur avec un prompt structuré, contre une lecture manuelle complète
 
@@ -44,7 +44,7 @@ Côté planification, les prompts les plus réutilisés ne demandent pas de cré
 
 ## Les 8 prompts à ne jamais lancer sans relecture
 
-Décision fournisseur finale, chiffres à communiquer en externe, clause juridique engageante, analyse de risque pays — tout ce qui touche à des données personnelles ou des prix négociés confidentiels reste hors périmètre. L'IA propose, l'humain valide, sans exception. Voir notre article sur la [conformité et la confidentialité des données](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo) avant de coller un document réel dans un prompt.
+Décision fournisseur finale, chiffres à communiquer en externe, clause juridique engageante, analyse de risque pays — tout ce qui touche à des données personnelles ou des prix négociés confidentiels reste hors périmètre. L'IA propose, l'humain valide, sans exception. Voir notre article sur la [conformité et la confidentialité des données](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnees) avant de coller un document réel dans un prompt.
 
 ## Ce qu'il faut retenir
 

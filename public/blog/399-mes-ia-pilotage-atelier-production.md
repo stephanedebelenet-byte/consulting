@@ -30,7 +30,7 @@ Trois apports concrets, observés sur le terrain, justifient ce complément :
 
 ::stat:: 30 minutes — temps de transmission de shift réduit lorsque le résumé de production est généré automatiquement plutôt que compilé manuellement
 
-> **Un chef d'atelier qui reçoit un résumé clair en fin de shift agit plus vite qu'un chef d'atelier qui doit interpréter lui-même des courbes de production.** La vitesse de compréhension, pas la quantité de données collectées, détermine la rapidité de réaction. Complète notre article sur l'[ordonnancement de production par IA](/blog/ia-et-ordonnancement-de-production-arbitrer-les-priorits).
+> **Un chef d'atelier qui reçoit un résumé clair en fin de shift agit plus vite qu'un chef d'atelier qui doit interpréter lui-même des courbes de production.** La vitesse de compréhension, pas la quantité de données collectées, détermine la rapidité de réaction. Complète notre article sur l'[ordonnancement de production par IA](/blog/ia-et-ordonnancement-de-production-arbitrer-les-priorites).
 
 ## Ce qu'il faut retenir
 

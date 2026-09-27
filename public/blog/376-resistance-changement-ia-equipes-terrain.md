@@ -26,7 +26,7 @@ La perte d'expertise reconnue vient en premier : « si l'IA fait mon analyse, à
 | Surveillance | Transparence explicite sur l'usage réel des données collectées |
 | Peur de l'échec public | Formation en petit groupe avant déploiement large |
 
-> **Écouter la crainte spécifique de chaque équipe, avant de déployer, coûte moins cher que de la découvrir après, sous forme de sabotage passif ou d'usage détourné.** C'est le point de départ de toute conduite du changement réussie. Complète notre [plan d'acculturation en 90 jours](/blog/acculturation-et-conduite-du-changement-embarquer-les-quipes).
+> **Écouter la crainte spécifique de chaque équipe, avant de déployer, coûte moins cher que de la découvrir après, sous forme de sabotage passif ou d'usage détourné.** C'est le point de départ de toute conduite du changement réussie. Complète notre [plan d'acculturation en 90 jours](/blog/acculturation-et-conduite-du-changement-embarquer-les).
 
 ## Ce qu'il faut retenir
 

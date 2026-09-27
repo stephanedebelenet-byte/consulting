@@ -58,7 +58,7 @@ La compréhension du [coût total de possession](/blog/tco-cout-total-de-possess
 
 ## Parcours et formation
 
-On arrive au poste après une expérience d'acheteur, parfois d'approvisionneur ou d'ingénieur. Une formation en achats, en supply chain ou en gestion, complétée par une formation à la négociation, est la voie la plus courante. Voir [la formation acheteur professionnel au Maroc](/blog/formation-acheteur-professionnel-au-maroc-cursus) et [la formation négociation achats](/blog/formation-negociation-achats-au-maroc-techniques-et-cas). Pour la rémunération, voir [les salaires supply chain au Maroc](/blog/salaires-supply-chain-au-maroc-2026-guide-complet-par-poste).
+On arrive au poste après une expérience d'acheteur, parfois d'approvisionneur ou d'ingénieur. Une formation en achats, en supply chain ou en gestion, complétée par une formation à la négociation, est la voie la plus courante. Voir [la formation acheteur professionnel au Maroc](/blog/formation-acheteur-professionnel-au-maroc-competences) et [la formation négociation achats](/blog/formation-negociation-achats-au-maroc-techniques-et-cas). Pour la rémunération, voir [les salaires supply chain au Maroc](/blog/salaires-supply-chain-au-maroc-2026-guide-complet-par-poste).
 
 ## Les évolutions
 

@@ -16,7 +16,7 @@ Un acheteur qui relit un contrat-cadre de 15 pages cherche, en réalité, cinq c
 
 ## La méthode en 3 étapes
 
-Tout commence par l'anonymisation : retirer noms de parties et montants si le document doit sortir de l'environnement sécurisé de l'entreprise — voir [confidentialité et LLM](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo). Vient ensuite la demande d'extraction structurée plutôt qu'un résumé libre : un tableau avec clause, page, risque identifié — le format compte presque autant que le contenu. Enfin, toute clause signalée à risque doit être validée par un juriste avant négociation ou signature, sans exception.
+Tout commence par l'anonymisation : retirer noms de parties et montants si le document doit sortir de l'environnement sécurisé de l'entreprise — voir [confidentialité et LLM](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnees). Vient ensuite la demande d'extraction structurée plutôt qu'un résumé libre : un tableau avec clause, page, risque identifié — le format compte presque autant que le contenu. Enfin, toute clause signalée à risque doit être validée par un juriste avant négociation ou signature, sans exception.
 
 ## Ce qu'un LLM repère efficacement dans un contrat
 
@@ -34,7 +34,7 @@ Tout commence par l'anonymisation : retirer noms de parties et montants si le do
 | Priorisation des risques | Acheteur — jugement métier sur l'impact business |
 | Validation finale | Juriste — avant toute décision engageante |
 
-> **L'IA change la vitesse de la première lecture, pas la responsabilité de la décision finale.** Un contrat signé sur la seule foi d'une synthèse IA reste une négligence professionnelle, quelle que soit la qualité de l'outil utilisé. C'est le même principe que nous appliquons pour la [rédaction de cahiers des charges assistée par IA](/blog/rdiger-un-cahier-des-charges-avec-lia-mthode-et-garde-fous).
+> **L'IA change la vitesse de la première lecture, pas la responsabilité de la décision finale.** Un contrat signé sur la seule foi d'une synthèse IA reste une négligence professionnelle, quelle que soit la qualité de l'outil utilisé. C'est le même principe que nous appliquons pour la [rédaction de cahiers des charges assistée par IA](/blog/rediger-un-cahier-des-charges-avec-l-ia-methode-et-garde).
 
 ## Ce qu'il faut retenir
 

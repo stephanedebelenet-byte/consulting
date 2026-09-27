@@ -14,7 +14,7 @@ description: "L'IA est-elle un enjeu de souveraineté économique pour le Maroc,
 
 « Le Maroc doit devenir souverain en IA » : la phrase circule dans les discours institutionnels, mais elle reste souvent trop abstraite pour guider la décision concrète d'une PME ou d'une ETI marocaine. La vraie question, à l'échelle d'une entreprise, n'est pas philosophique — c'est celle de la dépendance créée envers des fournisseurs étrangers sur des fonctions devenues critiques. **Voici comment raisonner ce sujet à l'échelle qui compte réellement.**
 
-> **Une PME marocaine n'a ni les moyens ni l'intérêt de résoudre seule l'enjeu de souveraineté nationale en IA — mais elle a tout intérêt à éviter une dépendance non maîtrisée sur ses propres fonctions critiques.** C'est cette distinction d'échelle qui permet d'agir concrètement plutôt que de se perdre dans un débat trop large. Complète notre article sur l'[hébergement LLM et la souveraineté](/blog/llm-cloud-api-prive-ou-modle-local-arbitrer-lhbergement-de-l).
+> **Une PME marocaine n'a ni les moyens ni l'intérêt de résoudre seule l'enjeu de souveraineté nationale en IA — mais elle a tout intérêt à éviter une dépendance non maîtrisée sur ses propres fonctions critiques.** C'est cette distinction d'échelle qui permet d'agir concrètement plutôt que de se perdre dans un débat trop large. Complète notre article sur l'[hébergement LLM et la souveraineté](/blog/llm-cloud-api-privee-ou-modele-local-arbitrer-l-hebergement).
 
 ## Le tableau de lecture par niveau
 

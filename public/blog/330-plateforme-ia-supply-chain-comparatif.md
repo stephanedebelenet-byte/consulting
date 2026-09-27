@@ -22,7 +22,7 @@ Le build, c'est-à-dire un GPT maison, offre la flexibilité maximale mais un co
 
 | Votre situation | Option recommandée |
 |---|---|
-| Data éparpillée, pas d'ERP unifié | Aucune des trois — d'abord [la qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue) |
+| Data éparpillée, pas d'ERP unifié | Aucune des trois — d'abord [la qualité des données](/blog/qualite-des-donnees-pourquoi-les-projets-ia-supply-chain) |
 | ERP en place, besoin ponctuel | Embedded — activer les modules IA existants avant d'acheter autre chose |
 | Multi-sites, planification complexe, budget dédié | Buy — plateforme spécialisée, avec ROI mesurable sur S&OP ou prévision |
 | Cas d'usage unique très spécifique, équipe technique interne | Build ciblé — jamais en remplacement de l'ERP |
@@ -33,7 +33,7 @@ Le build, c'est-à-dire un GPT maison, offre la flexibilité maximale mais un co
 
 ## Le piège du choix par étiquette
 
-Beaucoup d'entreprises choisissent une plateforme sur la réputation du nom, pas sur l'adéquation au besoin réel — un module de prévision embedded bien utilisé bat souvent une plateforme spécialisée mal paramétrée. Un client nous a un jour demandé d'évaluer une plateforme à six chiffres alors que son ERP Odoo disposait déjà, sans le savoir, d'un module de prévision qui couvrait 80% du besoin exprimé. Voir notre grille de sélection dans [choisir un logiciel de prévision de la demande](/blog/choisir-un-logiciel-de-prvision-de-la-demande-les-critres-po).
+Beaucoup d'entreprises choisissent une plateforme sur la réputation du nom, pas sur l'adéquation au besoin réel — un module de prévision embedded bien utilisé bat souvent une plateforme spécialisée mal paramétrée. Un client nous a un jour demandé d'évaluer une plateforme à six chiffres alors que son ERP Odoo disposait déjà, sans le savoir, d'un module de prévision qui couvrait 80% du besoin exprimé. Voir notre grille de sélection dans [choisir un logiciel de prévision de la demande](/blog/choisir-un-logiciel-de-prevision-de-la-demande-les-criteres).
 
 ## Ce qu'il faut retenir
 

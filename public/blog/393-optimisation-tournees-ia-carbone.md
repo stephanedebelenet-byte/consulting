@@ -30,7 +30,7 @@ Trois mécanismes, simples à comprendre, expliquent cette convergence quasi sys
 - **Meilleur taux de chargement** réduit le nombre de trajets nécessaires pour un même volume transporté.
 - **Réduction des trajets à vide** élimine un coût pur, sans aucune contrepartie de service.
 
-> **Une entreprise qui optimise ses tournées pour réduire ses coûts obtient un bilan carbone amélioré sans même chercher à le faire.** C'est, à notre avis, l'argument le plus convaincant pour lancer ce chantier maintenant, sans attendre une contrainte réglementaire qui finira de toute façon par arriver. Complète notre article sur la [planification des tournées avec l'IA](/blog/planifier-ses-tournes-et-son-plan-transport-avec-lia).
+> **Une entreprise qui optimise ses tournées pour réduire ses coûts obtient un bilan carbone amélioré sans même chercher à le faire.** C'est, à notre avis, l'argument le plus convaincant pour lancer ce chantier maintenant, sans attendre une contrainte réglementaire qui finira de toute façon par arriver. Complète notre article sur la [planification des tournées avec l'IA](/blog/planifier-ses-tournees-et-son-plan-transport-avec-l-ia).
 
 ## Ce qu'il faut retenir
 

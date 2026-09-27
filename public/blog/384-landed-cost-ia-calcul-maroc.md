@@ -14,7 +14,7 @@ description: "Comment l'IA calcule automatiquement le coût logistique complet (
 
 **Le prix d'achat affiché par un fournisseur n'est presque jamais le coût réel d'un produit importé.** Transport, droits de douane, assurance, frais de manutention portuaire, coût de stockage jusqu'à la vente : le landed cost complet peut dépasser de 20 à 40% le prix d'achat initial. Et pourtant, beaucoup de décisions d'achat continuent de se prendre sur le seul prix fournisseur affiché en bas de la facture proforma. Voici comment l'IA automatise ce calcul, poste par poste.
 
-Le transport international vient en premier — maritime, aérien ou routier selon l'origine, avec des écarts de coût considérables selon le mode choisi. Les droits de douane et taxes suivent, variables selon la classification tarifaire et l'origine du produit ; voir notre article sur la [classification tarifaire par IA](/blog/classification-tarifaire-douanire-par-ia-rduire-les-erreurs) pour approfondir ce point précis. Les frais portuaires et de manutention, souvent oubliés dans les calculs manuels rapides, pèsent plus lourd qu'on ne le pense. Et le coût de stockage jusqu'à la vente effective, fonction de la rotation réelle du stock, referme la liste.
+Le transport international vient en premier — maritime, aérien ou routier selon l'origine, avec des écarts de coût considérables selon le mode choisi. Les droits de douane et taxes suivent, variables selon la classification tarifaire et l'origine du produit ; voir notre article sur la [classification tarifaire par IA](/blog/classification-tarifaire-douaniere-par-ia-reduire-les) pour approfondir ce point précis. Les frais portuaires et de manutention, souvent oubliés dans les calculs manuels rapides, pèsent plus lourd qu'on ne le pense. Et le coût de stockage jusqu'à la vente effective, fonction de la rotation réelle du stock, referme la liste.
 
 ::stat:: 20 à 40% — écart typique entre le prix d'achat affiché et le coût logistique complet réel d'un produit importé au Maroc
 
@@ -25,7 +25,7 @@ Le transport international vient en premier — maritime, aérien ou routier sel
 | Prix d'achat seul | Choix du fournisseur apparemment le moins cher, en réalité plus coûteux au total |
 | Coût logistique complet calculé | Décision d'achat alignée sur la vraie rentabilité |
 
-> **Deux fournisseurs au même prix d'achat peuvent avoir un landed cost très différent selon leur localisation et les conditions de transport.** C'est ce calcul complet, automatisé par IA, qui révèle le vrai fournisseur le plus compétitif — pas celui qui affiche le prix le plus bas. Complète notre article sur la [marge par référence](/blog/piloter-la-marge-par-rfrence-grce-lia).
+> **Deux fournisseurs au même prix d'achat peuvent avoir un landed cost très différent selon leur localisation et les conditions de transport.** C'est ce calcul complet, automatisé par IA, qui révèle le vrai fournisseur le plus compétitif — pas celui qui affiche le prix le plus bas. Complète notre article sur la [marge par référence](/blog/piloter-la-marge-par-reference-grace-a-l-ia).
 
 ## Ce qu'il faut retenir
 

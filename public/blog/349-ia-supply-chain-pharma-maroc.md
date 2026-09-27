@@ -28,7 +28,7 @@ La sérialisation et la lutte anti-contrefaçon viennent en premier : vérificat
 | Chaîne du froid | Intégrité produit | Réglementaire strict (BPD) |
 | Prévision de pénurie | Continuité de soins | Opérationnel critique |
 
-> **En pharma, l'IA ne réduit jamais l'exigence de conformité — elle réduit le risque qu'une non-conformité passe inaperçue.** C'est la différence fondamentale avec les autres secteurs : ici, la valeur de l'IA se mesure en incidents évités, pas seulement en heures gagnées. Complète notre article sur l'[agro-industrie et la chaîne du froid export](/blog/ia-et-agro-industrie-au-maroc-prvision-de-rcolte-et-chane-du).
+> **En pharma, l'IA ne réduit jamais l'exigence de conformité — elle réduit le risque qu'une non-conformité passe inaperçue.** C'est la différence fondamentale avec les autres secteurs : ici, la valeur de l'IA se mesure en incidents évités, pas seulement en heures gagnées. Complète notre article sur l'[agro-industrie et la chaîne du froid export](/blog/ia-et-agro-industrie-au-maroc-prevision-de-recolte-et).
 
 ## Ce qu'il faut retenir
 

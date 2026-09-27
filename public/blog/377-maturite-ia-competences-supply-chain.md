@@ -27,7 +27,7 @@ Le novice n'a jamais utilisé d'outil IA générative, même à titre personnel 
 | Utilisateur régulier | Cas d'usage métier avancés, automatisation |
 | Utilisateur avancé | Devenir formateur interne, champion IA |
 
-> **Le collaborateur déjà avancé, mal identifié, s'ennuie dans une formation de base et perd tout intérêt pour la démarche.** Une évaluation préalable de 15 minutes par personne évite ce gâchis et permet de transformer les plus avancés en formateurs internes. Voir notre article sur [former ses acheteurs à l'IA générative](/blog/former-ses-acheteurs-lia-gnrative-le-programme-en-5-modules).
+> **Le collaborateur déjà avancé, mal identifié, s'ennuie dans une formation de base et perd tout intérêt pour la démarche.** Une évaluation préalable de 15 minutes par personne évite ce gâchis et permet de transformer les plus avancés en formateurs internes. Voir notre article sur [former ses acheteurs à l'IA générative](/blog/former-ses-acheteurs-a-l-ia-generative-le-programme-en-5).
 
 ## Ce qu'il faut retenir
 

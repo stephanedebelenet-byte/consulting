@@ -24,7 +24,7 @@ Trois signaux reviennent presque systématiquement une fois qu'une catégorisati
 
 1. **Extraire** l'ensemble des factures et bons de commande sur 12 à 24 mois, tous systèmes confondus.
 2. **Catégoriser** automatiquement par famille d'achat (l'IA classe à partir des libellés, même mal normalisés).
-3. **Prioriser** les catégories à fort volume et forte dispersion de prix pour l'action de category management — voir notre article sur le [category management](/blog/category-management-achats-structurer-ses-catgories-pour-plu).
+3. **Prioriser** les catégories à fort volume et forte dispersion de prix pour l'action de category management — voir notre article sur le [category management](/blog/category-management-achats-structurer-ses-categories-pour).
 
 | Catégorie type | Signal fréquent |
 |---|---|
