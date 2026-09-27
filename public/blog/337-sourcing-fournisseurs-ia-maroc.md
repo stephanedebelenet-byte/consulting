@@ -32,7 +32,7 @@ Quatre étapes se prêtent particulièrement bien à l'automatisation. La recher
 
 ## Le piège à éviter
 
-Une liste de fournisseurs générée par IA peut inclure des entreprises qui n'existent plus, qui ont changé d'activité, ou dont les certifications affichées en ligne sont périmées depuis longtemps. Toute liste générée mérite d'être vérifiée avant le premier contact, pas après — voir notre article sur le [SRM et le scoring fournisseurs](/blog/srm-augment-scoring-relances-et-revues-de-performance-par-ia).
+Une liste de fournisseurs générée par IA peut inclure des entreprises qui n'existent plus, qui ont changé d'activité, ou dont les certifications affichées en ligne sont périmées depuis longtemps. Toute liste générée mérite d'être vérifiée avant le premier contact, pas après — voir notre article sur le [SRM et le scoring fournisseurs](/blog/srm-augmente-scoring-relances-et-revues-de-performance-par).
 
 ## Ce qu'il faut retenir
 

@@ -30,7 +30,7 @@ Les trois pertes se décomposent ainsi :
 - **Perte de performance** : écart entre la cadence théorique et la cadence réelle observée.
 - **Perte de qualité** : rebuts, retouches, non-conformités en sortie de ligne.
 
-> **Un TRS calculé une fois par mois pour un rapport de direction ne permet aucune action ; un TRS décomposé rapidement, ligne par ligne, permet de cibler l'investissement d'amélioration continue là où il rapporte le plus.** Complète notre article sur la [détection de défauts par vision IA](/blog/dtection-de-dfauts-en-ligne-de-production-par-vision-ia).
+> **Un TRS calculé une fois par mois pour un rapport de direction ne permet aucune action ; un TRS décomposé rapidement, ligne par ligne, permet de cibler l'investissement d'amélioration continue là où il rapporte le plus.** Complète notre article sur la [détection de défauts par vision IA](/blog/detection-de-defauts-en-ligne-de-production-par-vision-ia).
 
 ## Ce qu'il faut retenir
 

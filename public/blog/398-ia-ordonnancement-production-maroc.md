@@ -30,7 +30,7 @@ Un ordonnanceur de production arbitre en permanence entre plusieurs urgences app
 
 ::stat:: 15 à 20% — réduction typique des retards de livraison observée après l'introduction d'un ordonnancement assisté par IA sur les arbitrages complexes
 
-> **L'ordonnanceur qui arbitre seul, sous pression, avec des informations incomplètes, prend souvent la décision la plus visible plutôt que la plus rentable.** L'IA ne prend pas la décision à sa place, mais elle rend visible ce que l'urgence du moment masque. Complète notre article sur [MES et IA](/blog/mes-et-ia-ce-que-lintelligence-artificielle-ajoute-latelier).
+> **L'ordonnanceur qui arbitre seul, sous pression, avec des informations incomplètes, prend souvent la décision la plus visible plutôt que la plus rentable.** L'IA ne prend pas la décision à sa place, mais elle rend visible ce que l'urgence du moment masque. Complète notre article sur [MES et IA](/blog/mes-et-ia-ce-que-l-intelligence-artificielle-ajoute-a-l).
 
 ## Ce qu'il faut retenir
 

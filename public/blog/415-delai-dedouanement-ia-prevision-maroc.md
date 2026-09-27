@@ -26,7 +26,7 @@ L'IA prévoit trois choses à partir de cet historique : le délai moyen et sa v
 
 ::stat:: 30 à 40% — variabilité observée sur les délais de dédouanement selon la période et le port, un écart trop souvent absent des engagements commerciaux
 
-> **Un engagement de délai export qui ignore la variabilité du dédouanement n'est pas un engagement fiable, c'est un pari optimiste.** La prévision par historique permet de communiquer une fourchette réaliste au client plutôt qu'un chiffre unique qui déçoit une fois sur trois. Complète notre article sur le [Guide PORTNET et BADR](/blog/guide-portnet-et-badr-2026-matriser-les-plateformes-douanire).
+> **Un engagement de délai export qui ignore la variabilité du dédouanement n'est pas un engagement fiable, c'est un pari optimiste.** La prévision par historique permet de communiquer une fourchette réaliste au client plutôt qu'un chiffre unique qui déçoit une fois sur trois. Complète notre article sur le [Guide PORTNET et BADR](/blog/guide-portnet-et-badr-2026-maitriser-les-plateformes).
 
 ## Ce qu'il faut retenir
 

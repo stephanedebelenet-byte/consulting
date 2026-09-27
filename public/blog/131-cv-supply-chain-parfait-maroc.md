@@ -63,7 +63,7 @@ Intégrez ces termes là où ils reflètent votre expérience réelle :
 ## Les 7 Erreurs Fatales
 
 1. **Photo floue ou non professionnelle** (si photo)
-2. **Email non professionnel** (ex: choupimoncoeur@gmail.com)
+2. **Email non professionnel** (ex: choupinette93@example.com)
 3. **Tâches sans résultats** — le recruteur veut voir ce que vous avez accompli, pas ce qu'on vous a demandé de faire
 4. **CV générique** — pas adapté au poste visé
 5. **Plus de 2 pages** — pour moins de 10 ans d'expérience, 1 page suffit

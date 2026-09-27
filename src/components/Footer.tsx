@@ -1,10 +1,11 @@
 export default function Footer() {
+  // Unités métier en tête (voir Nav.tsx), puis pages du cabinet.
   const nav = [
-    { label: 'Formation', href: '/formation' },
-    { label: 'À propos', href: '/a-propos' },
-    { label: 'Conseil', href: '/conseil' },
-    { label: 'Prestations', href: '/prestations' },
+    { label: 'Nextinotech Académie', href: '/formation' },
+    { label: 'Nextinotech Conseil', href: '/conseil' },
+    { label: 'Nextinotech Digital', href: '/control-tower' },
     { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
+    { label: 'À propos', href: '/a-propos' },
     { label: 'Carrière', href: '/carriere' },
   ]
 

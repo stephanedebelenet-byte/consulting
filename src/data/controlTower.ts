@@ -1,0 +1,49 @@
+// Données de l'offre Control Tower (Nextinotech Digital), partagées par la page
+// (src/components/ControlTower.tsx) et par ses données structurées
+// (src/data/routeMeta.ts) : le balisage Service / FAQPage reprend exactement
+// les paliers, tarifs et questions affichés. Module pur, sans React.
+
+export const OFFER_TIERS = [
+  { name: 'Control Tower Mini', price: 'À partir de 135 000 MAD HT', duration: '4 à 6 semaines', desc: '3–5 dashboards Power BI clés · OTIF, stocks, cash' },
+  { name: 'Control Tower Pilote', price: 'À partir de 330 000 MAD HT', duration: '2 à 3 mois', desc: '8–12 dashboards + alertes + rituel COPIL', featured: true },
+  { name: 'Control Tower Pro', price: 'À partir de 840 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · IA/ML · portail mobile dirigeant' },
+]
+
+// Démonstration pédagogique de la plateforme (section « En exploitation » et
+// VideoObject / ImageObject). Données fictives : noms, immatriculations et
+// documents sont inventés. Seule la barre latérale portant le nom d'une
+// organisation réelle est coupée des captures.
+export const CONTROL_TOWER_VIDEO = {
+  src: '/videos/control-tower-demo.mp4',
+  poster: '/images/control-tower/video-poster.webp',
+  name: 'Tour de contrôle transport Nextinotech Digital : démonstration',
+  description:
+    "Démonstration pédagogique d'une tour de contrôle pour une flotte de transport de matériaux au Maroc : carte temps réel des porteurs, statut de chaque véhicule, trajet, chargement, niveau de carburant, GMAO 3D avec les organes à maintenir, puis score d'éco-conduite du conducteur.",
+  duration: 'PT45S',
+  uploadDate: '2026-09-27',
+  width: 1600,
+  height: 772,
+}
+
+export const CONTROL_TOWER_SCREENS = [
+  { src: '/images/control-tower/carte-flotte-temps-reel.webp', w: 1600, h: 774, title: 'Carte temps réel de la flotte', alt: "Tour de contrôle : carte du Maroc avec la position et le statut de chaque camion (en route, en chargement, immobilisé), disponibilité du parc et alertes géofencing" },
+  { src: '/images/control-tower/detail-trajet-vehicule.webp', w: 1600, h: 774, title: 'Trajet, carburant et rotations par véhicule', alt: "Fiche véhicule dans la tour de contrôle : alerte de ralenti, trajet de la centrale à béton au chantier, distance, durée, niveau de carburant et rotations du jour" },
+  { src: '/images/control-tower/tableau-direction.webp', w: 1263, h: 1600, title: 'Tableau de bord direction', alt: "Tableau de bord direction : tonnage livré, rotations, disponibilité du parc, production sur 7 jours, alertes à traiter, attente par site, niveaux des citernes, classement éco-conduite et véhicules immobilisés" },
+  { src: '/images/control-tower/gmao-3d-maintenance.webp', w: 1600, h: 774, title: 'GMAO 3D : organes à maintenir', alt: "GMAO 3D d'un camion : batterie, pneus, filtres et circuit hydraulique signalés selon le kilométrage restant avant maintenance" },
+  { src: '/images/control-tower/citernes-gasoil.webp', w: 1600, h: 774, title: 'Citernes de gasoil sur sites', alt: "Suivi des citernes de gasoil par site : stock total, taux de remplissage, consommation sur 30 jours, autonomie et écarts entre consommation théorique et sonde" },
+  { src: '/images/control-tower/dispatch-board-gantt.webp', w: 1360, h: 772, title: 'Dispatch board : planification par glisser-déposer', alt: "Dispatch board : ordres de transport à servir, Gantt camions par heure et flotte disponible, affectation par glisser-déposer" },
+  { src: '/images/control-tower/document-radar-conformite.webp', w: 1360, h: 772, title: 'Document radar : conformité conducteurs', alt: "Document radar : suivi de conformité des permis et documents de la flotte, documents en vigueur, valides et proches de l'expiration, fiche détaillée par conducteur" },
+]
+
+export const CONTROL_TOWER_FAQ = [
+  { q: "Qu'est-ce qu'une control tower supply chain ?", a: "Une control tower (tour de contrôle) est un poste de pilotage qui consolide en temps réel les données de vos systèmes — WMS, TMS, gestion des stocks, actifs, capteurs IoT — pour détecter les écarts au plan, déclencher des alertes et prioriser les décisions. Elle ne remplace pas vos logiciels : elle en extrait ce qui appelle une action." },
+  { q: 'Combien coûte une control tower au Maroc ?', a: "Chez Nextinotech, trois paliers : Control Tower Mini à partir de 135 000 MAD HT (4 à 6 semaines, 3 à 5 tableaux de bord clés), Control Tower Pilote à partir de 330 000 MAD HT (2 à 3 mois, 8 à 12 tableaux de bord, alertes et rituel COPIL), Control Tower Pro à partir de 840 000 MAD HT (4 à 6 mois, multi-sites, IA et portail mobile dirigeant)." },
+  { q: 'Quels indicateurs suit une control tower ?', a: "Ceux qui déclenchent une décision : taux de service et OTIF, ruptures et couverture de stock des références critiques, commandes en retard de préparation, position et ETA des livraisons, disponibilité du parc et immobilisations, consommation de carburant, cash immobilisé en stock. Le choix des indicateurs et de leurs seuils est la première étape de chaque palier." },
+  { q: 'Une control tower est-elle adaptée à une PME ?', a: "Oui, à condition de commencer petit. Le palier Mini couvre 3 à 5 tableaux de bord sur les sujets qui coûtent le plus (service client, stocks, cash), avec les données déjà disponibles. On étend ensuite le périmètre quand les premières alertes ont prouvé leur valeur." },
+  { q: 'Peut-on voir une control tower en fonctionnement ?', a: "Oui : la vidéo et les captures de cette page montrent une tour de contrôle transport (carte temps réel, fiche véhicule, maintenance, citernes, planification), sur des données fictives. Les démonstrations interactives WMS et TMS du site montrent les systèmes sources qui l'alimentent." },
+  { q: 'Êtes-vous liés à un éditeur de logiciel ?', a: "Non. Nextinotech ne touche aucune commission d'éditeur : nous recommandons et intégrons les outils qui conviennent à votre contexte, qu'il s'agisse de tableaux de bord Power BI, d'une plateforme de control tower du marché ou d'un développement sur mesure." },
+  { q: 'Faut-il avoir déjà un WMS et un TMS avant de déployer un control tower ?', a: "Non, mais c'est l'ordre le plus efficace. Un control tower consomme les données de vos systèmes existants ; sans WMS ni TMS, il démarre avec un périmètre plus restreint (ERP, fichiers manuels), ce qui limite la valeur des premières alertes. Le palier Mini est conçu pour démarrer même avec des systèmes sources encore basiques." },
+  { q: "Quelle est la différence entre le control tower et l'intégration ERP-WMS-TMS ?", a: "L'intégration connecte techniquement vos systèmes entre eux. Le control tower va plus loin : il ajoute les seuils d'alerte, la priorisation des exceptions et la gouvernance de décision qui transforment ces données connectées en pilotage temps réel." },
+  { q: 'Combien de temps pour voir un premier résultat ?', a: 'Le palier Mini (4 à 6 semaines) livre un premier périmètre de 3 à 5 dashboards. Le premier retour sur investissement visible, généralement sur les coûts de transport, arrive typiquement 3 à 6 mois après la fin du déploiement initial.' },
+  { q: "L'IA est-elle obligatoire dans un control tower ?", a: "Non. Un control tower de niveau Mini ou Pilote fonctionne avec des seuils et des alertes configurés manuellement, sans IA. L'IA (détection d'anomalies, priorisation automatique) est le niveau de maturité le plus avancé, pertinent une fois la gouvernance de base stabilisée." },
+]

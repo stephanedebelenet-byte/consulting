@@ -69,6 +69,23 @@ function extractBodyText(html) {
   return m[1].replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
+// Texte comparable entre JSON-LD et HTML : entités décodées, apostrophes et
+// espaces unifiés, casse ignorée.
+function normText(s) {
+  return String(s)
+    .replace(/&#x27;|&#39;|&apos;|&rsquo;|’/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, '&')
+    .replace(/&nbsp;| | /g, ' ')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase()
+}
+
+const faqEntries = []
+
 function hasH1(html) {
   return /<h1[\s>]/i.test(html)
 }
@@ -162,6 +179,12 @@ for (const loc of locs) {
   if (!hasH1(html)) {
     fail(`Page sans <h1> dans le <body> prérendu : ${loc}`)
   }
+  // Règle 5 bis (27/09/2026) : une page du sitemap ne doit jamais rendre la
+  // page 404. Les 6 pages villes le faisaient (route React Router invalide)
+  // tout en passant les règles ci-dessus, puisque la 404 a un H1 et du texte.
+  if (loc !== '/404' && /ERREUR · 404|Page introuvable/.test(bodyText)) {
+    fail(`Page du sitemap rendue comme une 404 (route non reconnue par l'application) : ${loc}`)
+  }
   if (bodyText.length < MIN_BODY_TEXT_LENGTH) {
     fail(`Page avec un <body> quasi vide (${bodyText.length} caractères de texte, minimum ${MIN_BODY_TEXT_LENGTH}) : ${loc}`)
   }
@@ -184,6 +207,15 @@ for (const loc of locs) {
     const isSiteGraph = nodes.some((n) => n['@id'] === `${SITE}/#organization` && n['@type'] === 'ProfessionalService')
     if (isSiteGraph) continue
     for (const t of nodes.map((n) => n['@type']).flat().filter(Boolean)) pageTypes[t] = (pageTypes[t] || 0) + 1
+    for (const n of nodes.filter((n) => n['@type'] === 'FAQPage')) {
+      for (const qa of n.mainEntity || []) faqEntries.push({ loc, q: qa.name, a: qa.acceptedAnswer?.text })
+    }
+  }
+  // Règle 13 (27/09/2026) : chaque question du JSON-LD FAQPage doit être
+  // visible dans la page (exigence Google : pas de balisage de contenu caché).
+  const visible = normText(extractBodyText(html.replace(/<script[\s\S]*?<\/script>/g, '')))
+  for (const { q } of faqEntries.filter((e) => e.loc === loc)) {
+    if (q && !visible.includes(normText(q))) fail(`Question FAQPage absente du contenu visible : « ${q} » sur ${loc}`)
   }
   for (const t of ['FAQPage', 'Course', 'Event', 'Article', 'Service', 'ItemList']) {
     if (pageTypes[t] > 1) fail(`JSON-LD "${t}" déclaré ${pageTypes[t]} fois sur ${loc} (doublon)`)
@@ -203,6 +235,47 @@ for (const loc of locs) {
 }
 
 console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap vérifiées.\n`)
+
+// ── Règle 15 : aucun lien interne cassé ou redirigé (27/09/2026) ───────────
+// L'audit a trouvé 169 liens internes distincts vers des adresses absentes du
+// site : anciens slugs d'articles (lettres accentuées supprimées), servis par
+// une redirection 308 de vercel.json, et quelques vraies 404. Tout lien
+// interne doit viser directement une page du sitemap ou un fichier de dist/.
+{
+  const inSitemap = new Set(locs.map((l) => new URL(l).pathname.replace(/\/$/, '') || '/'))
+  const bad = new Map()
+  const walkHtml = (dir) => {
+    for (const e of readdirSync(dir, { withFileTypes: true })) {
+      const p = join(dir, e.name)
+      if (e.isDirectory()) walkHtml(p)
+      else if (e.name === 'index.html') {
+        const page = p.slice(DIST_DIR.length).replace(/[\\/]index\.html$/, '').replace(/\\/g, '/') || '/'
+        for (const m of readFileSync(p, 'utf-8').matchAll(/href="(\/[^"#?]*)/g)) {
+          const u = m[1].replace(/\/$/, '') || '/'
+          if (inSitemap.has(u) || /\.[a-z0-9]{2,5}$/i.test(u)) continue
+          if (!bad.has(u)) bad.set(u, page)
+        }
+      }
+    }
+  }
+  walkHtml(DIST_DIR)
+  for (const [u, page] of bad) fail(`Lien interne vers une adresse hors sitemap (404 ou redirection) : ${u} — depuis ${page}`)
+}
+
+// ── Règle 14 : pas de FAQ dupliquée entre pages (27/09/2026) ───────────────
+// Une même question avec la même réponse sur deux pages les met en
+// concurrence sur la même requête (cannibalisation) et dilue la réponse que
+// les moteurs doivent attribuer à une seule URL.
+{
+  const seen = new Map()
+  for (const { loc, q, a } of faqEntries) {
+    const key = normText(`${q} ${a}`)
+    const other = seen.get(key)
+    if (other && other !== loc) fail(`FAQ identique sur deux pages (« ${q} ») : ${other} et ${loc}`)
+    else seen.set(key, loc)
+  }
+  console.log(`[check-seo-consistency] ${faqEntries.length} question(s) FAQ vérifiées (visibles, sans doublon entre pages).\n`)
+}
 
 // ── Règle 9 : nom public du fondateur (26/09/2026) ─────────────────────────
 // Le site présente le fondateur sous le nom "Youssef B" (décision du
@@ -261,6 +334,26 @@ console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap 
     fail(sources.has(p)
       ? `Redirection en chaîne : ${r.source} → ${p}, elle-même redirigée — pointer directement vers la destination finale`
       : `Redirection vers une page inexistante : ${r.source} → ${p} (404)`)
+  }
+}
+
+// ── Règle 12 : llms-full.txt ne cite que des articles publiés (26/09/2026) ──
+// Le catalogue de llms-full.txt liste les articles par numéro ("- 447 : …").
+// Le 26/09, il citait encore les 11 études de cas dépubliées pour risque
+// juridique (Bosch, Casanet, Renault, OCP…) et 6 articles fusionnés. Chaque
+// numéro cité doit correspondre à un article du registre src/data/blogFiles.ts.
+{
+  const registrySrc = readFileSync(join(ROOT, 'src', 'data', 'blogFiles.ts'), 'utf-8')
+  const published = new Set(
+    new Function('return ' + registrySrc.slice(registrySrc.indexOf('= [') + 2))().map((f) => parseInt(f, 10))
+  )
+  // Les webinaires (src/data/evenements.ts) sont publiés en pages /evenements/.
+  for (const m of readFileSync(join(ROOT, 'src', 'data', 'evenements.ts'), 'utf-8').matchAll(/file: '(\d+)-/g)) published.add(parseInt(m[1], 10))
+  const full = existsSync(LLMS_FULL_PATH) ? readFileSync(LLMS_FULL_PATH, 'utf-8') : ''
+  const cited = [...full.matchAll(/^- (\d{1,3}) :/gm)].map((m) => parseInt(m[1], 10))
+  const ghosts = [...new Set(cited.filter((n) => !published.has(n)))]
+  if (ghosts.length) {
+    fail(`llms-full.txt cite ${ghosts.length} article(s) non publié(s) : n° ${ghosts.slice(0, 10).join(', ')} — les retirer du catalogue`)
   }
 }
 

@@ -114,7 +114,7 @@ Le commit `9f9da6a` ("remove: nom B et postes occupes supprimes partout", 3 aoû
 
 Trois adresses différentes selon l'article sur lequel on tombe = confusion pour le prospect, risque de message perdu (boîte non relevée), et incohérence de marque. Le plan des 100 articles et `CLAUDE.md` documentent `b.youssef@essor.ma` comme email officiel — **qui n'est ni celui utilisé majoritairement dans le blog, ni celui branché sur le formulaire de contact réel du site.** Il y a une décision à trancher côté produit avant correction (quelle adresse est la bonne aujourd'hui ?), puis à harmoniser partout : blog, `CLAUDE.md`, composants React.
 
-*(Note : "choupimoncoeur@gmail.com" trouvé dans #131 est un exemple pédagogique volontaire — "évitez une adresse email non professionnelle sur votre CV" — pas une fuite. Vérifié, aucune action requise.)*
+*(Note : "choupinette93@example.com" trouvé dans #131 est un exemple pédagogique volontaire — "évitez une adresse email non professionnelle sur votre CV" — pas une fuite. Vérifié, aucune action requise.)*
 
 ### 3.3 — 🟡 À surveiller : stat "18 ans d'expertise" obsolète
 

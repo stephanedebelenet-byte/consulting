@@ -23,12 +23,12 @@ Le cloud public grand public (ChatGPT, Gemini standard) reste le plus simple et 
 | Secteur / donnée | Niveau recommandé |
 |---|---|
 | Usage bureautique général, non sensible | Cloud public avec charte d'usage |
-| Achats, RH, contrats (données personnelles) | API privée avec DPA — voir [loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnes-fo) |
+| Achats, RH, contrats (données personnelles) | API privée avec DPA — voir [loi 09-08 et CNDP](/blog/loi-09-08-et-cndp-utiliser-un-llm-sans-exposer-ses-donnees) |
 | Pharma, défense, OCP, données classifiées | Modèle local ou hébergé au Maroc |
 
 ::stat:: 1 sur 3 — le nombre de questions de conformité qui se résolvent simplement en changeant de niveau d'hébergement plutôt que d'outil
 
-> **L'hébergement n'est pas un choix technologique unique pour toute l'entreprise — c'est un choix par cas d'usage.** Une même organisation peut légitimement utiliser du cloud public pour la rédaction générale et une instance privée pour l'analyse de contrats fournisseurs. Voir notre [gouvernance de l'IA](/blog/gouvernance-de-lia-en-supply-chain-la-charte-avant-les-outil) pour cadrer ces règles par usage.
+> **L'hébergement n'est pas un choix technologique unique pour toute l'entreprise — c'est un choix par cas d'usage.** Une même organisation peut légitimement utiliser du cloud public pour la rédaction générale et une instance privée pour l'analyse de contrats fournisseurs. Voir notre [gouvernance de l'IA](/blog/gouvernance-de-l-ia-en-supply-chain-la-charte-avant-les) pour cadrer ces règles par usage.
 
 ## La latence et le coût, souvent négligés
 

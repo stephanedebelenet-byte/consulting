@@ -2,6 +2,7 @@ import { useState, useRef } from 'react'
 import { IS_SERVER } from '../utils/ssr'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS } from '../data/controlTower'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -165,11 +166,6 @@ function SystemRow({ s, index }: { s: SystemDef; index: number }) {
 
 /* ─── Offre Control Tower (3 paliers — "à partir de", ×3 des tarifs d'origine) ── */
 
-const OFFER_TIERS = [
-  { name: 'Control Tower Mini', price: 'À partir de 135 000 MAD HT', duration: '4 à 6 semaines', desc: '3–5 dashboards Power BI clés · OTIF, stocks, cash' },
-  { name: 'Control Tower Pilote', price: 'À partir de 330 000 MAD HT', duration: '2 à 3 mois', desc: '8–12 dashboards + alertes + rituel COPIL', featured: true },
-  { name: 'Control Tower Pro', price: 'À partir de 840 000 MAD HT', duration: '4 à 6 mois', desc: 'ETI · multi-sites · IA/ML · portail mobile dirigeant' },
-]
 
 function OfferTiers() {
   return (
@@ -217,12 +213,6 @@ const CONSEIL_LINKS = [
 
 const faqEase = [0.16, 1, 0.3, 1] as const
 
-const CONTROL_TOWER_FAQ = [
-  { q: 'Faut-il avoir déjà un WMS et un TMS avant de déployer un control tower ?', a: "Non, mais c'est l'ordre le plus efficace. Un control tower consomme les données de vos systèmes existants ; sans WMS ni TMS, il démarre avec un périmètre plus restreint (ERP, fichiers manuels), ce qui limite la valeur des premières alertes. Le palier Mini est conçu pour démarrer même avec des systèmes sources encore basiques." },
-  { q: "Quelle est la différence entre le control tower et l'intégration ERP-WMS-TMS ?", a: "L'intégration connecte techniquement vos systèmes entre eux. Le control tower va plus loin : il ajoute les seuils d'alerte, la priorisation des exceptions et la gouvernance de décision qui transforment ces données connectées en pilotage temps réel." },
-  { q: 'Combien de temps pour voir un premier résultat ?', a: 'Le palier Mini (4 à 6 semaines) livre un premier périmètre de 3 à 5 dashboards. Le premier retour sur investissement visible, généralement sur les coûts de transport, arrive typiquement 3 à 6 mois après la fin du déploiement initial.' },
-  { q: "L'IA est-elle obligatoire dans un control tower ?", a: "Non. Un control tower de niveau Mini ou Pilote fonctionne avec des seuils et des alertes configurés manuellement, sans IA. L'IA (détection d'anomalies, priorisation automatique) est le niveau de maturité le plus avancé, pertinent une fois la gouvernance de base stabilisée." },
-]
 
 function FAQItem({ item }: { item: { q: string; a: string } }) {
   const [open, setOpen] = useState(IS_SERVER)
@@ -261,12 +251,71 @@ const BLOG_LINKS = [
   { title: 'Maturité Control Tower : où se Situer', to: '/blog/maturite-control-tower-ou-se-situe-une-pme-eti-marocaine-en' },
 ]
 
+/* ─── En exploitation : vidéo + captures de la plateforme ────────── */
+
+const labelStyle = { fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(47,111,181,0.55)', textTransform: 'uppercase', marginBottom: '1.25rem' } as const
+
+function Showcase() {
+  const v = CONTROL_TOWER_VIDEO
+  return (
+    <div style={{ marginBottom: '8rem' }}>
+      <div style={{ maxWidth: 760, marginBottom: '3rem' }}>
+        <div style={labelStyle}>En exploitation · Nextinotech Digital</div>
+        <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 4vw, 5rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.02em', color: 'var(--ink)', margin: '0 0 1.5rem' }}>
+          La tour de contrôle, écran par écran.
+        </h2>
+        <p style={{ fontSize: '1rem', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, margin: 0 }}>
+          Une flotte de transport de matériaux suivie en temps réel : position et statut de chaque porteur,
+          trajets et rotations, carburant, maintenance, planification, conformité des conducteurs.
+          Démonstration pédagogique, données fictives.
+        </p>
+      </div>
+
+      <figure style={{ margin: '0 0 1.5rem', border: '1px solid rgba(27,53,84,0.12)', background: '#fff' }}>
+        <video
+          src={v.src}
+          poster={v.poster}
+          width={v.width}
+          height={v.height}
+          autoPlay
+          muted
+          loop
+          playsInline
+          controls
+          preload="metadata"
+          aria-label={v.name}
+          style={{ display: 'block', width: '100%', height: 'auto' }}
+        />
+        <figcaption style={{ fontSize: '0.85rem', color: 'var(--mid)', lineHeight: 1.6, fontWeight: 300, padding: '1rem 1.25rem' }}>
+          {v.description}
+        </figcaption>
+      </figure>
+
+      {/* La capture verticale (tableau direction) occupe deux rangées : 1 + 6 captures = grille pleine sur 2 colonnes. */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gridAutoFlow: 'dense', alignItems: 'start', gap: '1.5rem' }}>
+        {CONTROL_TOWER_SCREENS.map((s) => (
+          <figure key={s.src} style={{ margin: 0, border: '1px solid rgba(27,53,84,0.12)', background: '#fff', gridRow: s.h > s.w ? 'span 2' : undefined }}>
+            <a href={s.src} target="_blank" rel="noopener" style={{ display: 'block' }}>
+              <img src={s.src} alt={s.alt} width={s.w} height={s.h} loading="lazy" decoding="async" style={{ display: 'block', width: '100%', height: 'auto' }} />
+            </a>
+            <figcaption style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--navy)', padding: '1rem 1.25rem' }}>
+              {s.title}
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 /* ─── Composant principal ────────────────────────────────────── */
 
 export default function ControlTower() {
   return (
     <section id="control-tower" style={{ background: 'var(--paper)', padding: 'var(--sp)' }}>
       <div className="section-inner">
+
+        <Showcase />
 
         {/* Intro */}
         <div className="systemes-header-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'end', marginBottom: '6rem' }}>

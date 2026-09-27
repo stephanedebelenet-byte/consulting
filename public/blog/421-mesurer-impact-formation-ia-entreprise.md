@@ -26,7 +26,7 @@ Un questionnaire de satisfaction distribué en fin de formation IA donne presque
 
 Quatre indicateurs comptent vraiment : le taux d'usage à 90 jours, c'est-à-dire combien de participants utilisent encore l'outil et pas seulement l'ont testé une fois ; le nombre de cas d'usage adoptés par personne, qu'il s'agisse d'un seul usage répété ou de plusieurs usages diversifiés ; le gain de temps mesuré, et non déclaré, comparé avant/après sur une tâche précise et chronométrée ; et le nombre de nouveaux usages générés spontanément par les participants eux-mêmes, sans qu'on les leur ait enseignés — un signe d'appropriation réelle.
 
-> **Une formation qui obtient 9/10 en satisfaction et 10% de taux d'usage à 90 jours a échoué, quel que soit le score de satisfaction affiché dans le rapport.** C'est la mesure dans le temps, pas la mesure du jour même, qui compte pour justifier l'investissement de formation. Complète notre article sur [l'évaluation de la maturité IA des collaborateurs](/blog/valuer-la-maturit-ia-de-ses-collaborateurs-supply-chain).
+> **Une formation qui obtient 9/10 en satisfaction et 10% de taux d'usage à 90 jours a échoué, quel que soit le score de satisfaction affiché dans le rapport.** C'est la mesure dans le temps, pas la mesure du jour même, qui compte pour justifier l'investissement de formation. Complète notre article sur [l'évaluation de la maturité IA des collaborateurs](/blog/evaluer-la-maturite-ia-de-ses-collaborateurs-supply-chain).
 
 ## Ce qu'il faut retenir
 

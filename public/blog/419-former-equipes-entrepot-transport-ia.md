@@ -14,7 +14,7 @@ description: "Comment former des équipes entrepôt et transport à l'IA sans pr
 
 Former des caristes, des préparateurs de commande ou des chauffeurs à l'IA ne peut pas suivre la même pédagogie qu'une formation d'acheteurs ou d'analystes devant un écran. Le terrain a ses propres contraintes : rythme de travail, aisance numérique variable, méfiance légitime envers un outil perçu comme abstrait. Une pédagogie mal adaptée transforme une opportunité en rejet — un client nous a un jour demandé d'intervenir après qu'une première tentative de formation, trop théorique, avait braqué toute une équipe d'entrepôt. **Voici les principes qui fonctionnent réellement sur le terrain.**
 
-> **Un opérateur terrain qui voit l'outil résoudre en 10 secondes un problème qu'il rencontre chaque semaine devient un ambassadeur naturel — aucun discours ne convainc aussi vite qu'une démonstration sur son propre problème.** Complète notre [assistant IA et voix pour le cariste](/blog/assistant-ia-et-voix-pour-le-cariste-prparation-et-formation).
+> **Un opérateur terrain qui voit l'outil résoudre en 10 secondes un problème qu'il rencontre chaque semaine devient un ambassadeur naturel — aucun discours ne convainc aussi vite qu'une démonstration sur son propre problème.** Complète notre [assistant IA et voix pour le cariste](/blog/assistant-ia-et-voix-pour-le-cariste-preparation-et).
 
 ## Le tableau des formats adaptés
 

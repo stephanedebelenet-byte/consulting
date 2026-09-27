@@ -30,7 +30,7 @@ Prédire l'avenir de l'IA en supply chain avec certitude serait malhonnête : le
 - **La gouvernance IA** deviendra une exigence contractuelle standard dans les appels d'offres et les cahiers des charges, pas seulement une bonne pratique recommandée.
 - **La compétence IA appliquée au métier** deviendra un critère de recrutement explicite pour les postes supply chain de niveau intermédiaire et supérieur.
 
-> **Le vrai risque pour une entreprise marocaine n'est pas de se tromper sur la prédiction exacte de 2027, c'est de rester au niveau 2026 pendant que l'écart de maturité avec les leaders continue de se creuser.** Voir notre [benchmark de maturité IA](/blog/benchmark-ia-supply-chain-o-se-situe-une-pme-marocaine).
+> **Le vrai risque pour une entreprise marocaine n'est pas de se tromper sur la prédiction exacte de 2027, c'est de rester au niveau 2026 pendant que l'écart de maturité avec les leaders continue de se creuser.** Voir notre [benchmark de maturité IA](/blog/benchmark-ia-supply-chain-ou-se-situe-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 

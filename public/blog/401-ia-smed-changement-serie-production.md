@@ -29,7 +29,7 @@ Trois apports concrets viennent s'ajouter à la méthode SMED classique :
 - **Préparation anticipée** : signaler à l'avance le prochain changement pour que la préparation externe, au sens SMED, commence avant l'arrêt machine.
 - **Analyse des écarts** : identifier quels changements dépassent systématiquement le temps cible, et pourquoi.
 
-> **Réduire le temps d'un changement de série à 8 minutes ne sert à rien si l'ordonnancement impose 3 changements par jour au lieu d'un seul possible avec un meilleur séquençage.** Les deux leviers — méthode et séquençage — se combinent, ils ne se substituent pas l'un à l'autre. Complète notre article sur l'[ordonnancement de production par IA](/blog/ia-et-ordonnancement-de-production-arbitrer-les-priorits).
+> **Réduire le temps d'un changement de série à 8 minutes ne sert à rien si l'ordonnancement impose 3 changements par jour au lieu d'un seul possible avec un meilleur séquençage.** Les deux leviers — méthode et séquençage — se combinent, ils ne se substituent pas l'un à l'autre. Complète notre article sur l'[ordonnancement de production par IA](/blog/ia-et-ordonnancement-de-production-arbitrer-les-priorites).
 
 ## Ce qu'il faut retenir
 

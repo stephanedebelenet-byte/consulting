@@ -32,7 +32,7 @@ Sur une mission dans ce secteur, la question qui revenait le plus souvent n'éta
 | Collection de base, gros volume prévisible | Sourcing lointain reste compétitif sur le coût |
 | Tension d'approvisionnement matière | Sourcing alternatif identifié rapidement par IA |
 
-> **Dans le textile, l'IA ne remplace pas le style ou la relation fournisseur, elle réduit le temps entre le signal de demande et la décision de réassort.** C'est exactement ce délai qui fait la différence entre un magasin en rupture et un magasin qui capte la vente. Complète notre article sur le [sourcing textile et le denim](/blog/supply-chain-textile-technique-et-denim-ce-qui-diffrencie-le).
+> **Dans le textile, l'IA ne remplace pas le style ou la relation fournisseur, elle réduit le temps entre le signal de demande et la décision de réassort.** C'est exactement ce délai qui fait la différence entre un magasin en rupture et un magasin qui capte la vente. Complète notre article sur le [sourcing textile et le denim](/blog/supply-chain-textile-technique-et-denim-ce-qui-differencie).
 
 ## Ce qu'il faut retenir
 

@@ -50,7 +50,7 @@ Si la commission rend un avis défavorable, l'entreprise est informée des motif
 
 ## Ce qu'il faut retenir
 
-Aucun frais, taxe ou redevance n'est exigible auprès de l'ADII pour l'octroi du statut — le seul coût réel de la démarche est celui du cabinet d'audit externe, engagé et rémunéré par l'entreprise candidate. La procédure elle-même est linéaire et bien documentée par l'administration ; ce qui fait échouer ou traîner un dossier, ce n'est presque jamais un vice de forme, mais l'absence en amont d'une gestion des stocks et des écritures commerciales suffisamment traçable pour soutenir l'audit dans les délais impartis. Notre article sur les [causes réelles d'échec d'une demande OEA](/blog/pourquoi-une-demande-de-statut-oea-choue-au-maroc) détaille ce point.
+Aucun frais, taxe ou redevance n'est exigible auprès de l'ADII pour l'octroi du statut — le seul coût réel de la démarche est celui du cabinet d'audit externe, engagé et rémunéré par l'entreprise candidate. La procédure elle-même est linéaire et bien documentée par l'administration ; ce qui fait échouer ou traîner un dossier, ce n'est presque jamais un vice de forme, mais l'absence en amont d'une gestion des stocks et des écritures commerciales suffisamment traçable pour soutenir l'audit dans les délais impartis. Notre article sur les [causes réelles d'échec d'une demande OEA](/blog/pourquoi-une-demande-de-statut-oea-echoue-au-maroc) détaille ce point.
 
 ## Notre accompagnement
 

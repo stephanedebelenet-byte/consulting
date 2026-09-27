@@ -33,7 +33,7 @@ Tout commence par une baseline avant tout déploiement : mesurer l'indicateur ci
 
 ## L'erreur qui invalide tous les calculs
 
-Beaucoup d'entreprises comparent leur situation « après IA » à une impression subjective de « avant », sans données réelles pour l'étayer. Sans baseline chiffrée, tout ROI présenté n'est qu'une estimation habillée en preuve, et un comex un tant soit peu exigeant finit toujours par s'en apercevoir. Voir notre cadre complet dans [coût d'un projet IA supply chain pour une PME marocaine](/blog/cot-dun-projet-ia-supply-chain-pour-une-pme-marocaine).
+Beaucoup d'entreprises comparent leur situation « après IA » à une impression subjective de « avant », sans données réelles pour l'étayer. Sans baseline chiffrée, tout ROI présenté n'est qu'une estimation habillée en preuve, et un comex un tant soit peu exigeant finit toujours par s'en apercevoir. Voir notre cadre complet dans [coût d'un projet IA supply chain pour une PME marocaine](/blog/cout-d-un-projet-ia-supply-chain-pour-une-pme-marocaine).
 
 ## Ce qu'il faut retenir
 

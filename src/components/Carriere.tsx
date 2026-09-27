@@ -9,6 +9,22 @@ const ease = [0.16, 1, 0.3, 1] as const
 
 const FAQ = [
   {
+    q: 'Quel profil faut-il pour devenir consultant supply chain junior chez Nextinotech ?',
+    a: "Un(e) jeune diplômé(e) en supply chain, logistique, achats ou génie industriel, avec une vraie appétence pour le terrain : entrepôts, ateliers, données de stock. La rigueur et l'envie d'apprendre comptent plus qu'une première expérience ; la méthode s'acquiert en binôme avec un consultant senior.",
+  },
+  {
+    q: 'Où se situe le poste de consultant junior et quel est le contrat ?',
+    a: "Le poste est basé à Casablanca (Technopark), en CDI, avec un démarrage dès que possible. Les missions se déroulent chez les clients, principalement des PME et ETI marocaines, avec des déplacements selon les projets.",
+  },
+  {
+    q: 'Comment un consultant junior est-il formé chez Nextinotech ?',
+    a: "Par un onboarding structuré, un référent senior sur les premières missions et un binôme systématique sur le terrain. La formation interne au DDMRP et l'accès aux supports de méthode du cabinet complètent l'apprentissage, avec une préparation aux certifications pour les profils qui s'investissent.",
+  },
+  {
+    q: 'Quelles compétences développer pour une carrière en supply chain au Maroc ?',
+    a: "Trois familles : les fondamentaux métier (stocks, transport, achats, planification), les outils (Excel avancé, ERP, WMS, TMS, tableaux de bord) et le savoir-être (communication avec les équipes terrain, rigueur, gestion des priorités). L'anglais et l'IA générative deviennent des différenciateurs sur les postes d'encadrement.",
+  },
+  {
     q: 'Comment se déroule le processus de recrutement chez Nextinotech ?',
     a: "Vous postulez par email avec votre CV, ou via notre formulaire de contact. Nous restons une équipe volontairement resserrée : chaque candidature est étudiée individuellement, sans parcours d'entretiens standardisé sur plusieurs semaines. Un profil retenu démarre directement sur le terrain, en binôme avec un consultant senior qui sert de référent sur les premières missions.",
   },

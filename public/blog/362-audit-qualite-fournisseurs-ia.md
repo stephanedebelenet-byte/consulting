@@ -28,7 +28,7 @@ Le calcul continu du score qualité se fait à partir des non-conformités déj�
 
 ::stat:: 50% — temps de préparation d'audit qualité réduit lorsque la notation de base est déjà calculée automatiquement avant la visite
 
-> **Une notation automatisée ne remplace jamais la visite terrain, elle la rend plus ciblée.** L'auditeur qualité arrive avec les signaux déjà identifiés et concentre son temps sur la vérification physique et le dialogue avec le fournisseur, plutôt que sur la compilation de tableurs. Complète notre article sur le [SRM et le scoring fournisseurs](/blog/srm-augment-scoring-relances-et-revues-de-performance-par-ia).
+> **Une notation automatisée ne remplace jamais la visite terrain, elle la rend plus ciblée.** L'auditeur qualité arrive avec les signaux déjà identifiés et concentre son temps sur la vérification physique et le dialogue avec le fournisseur, plutôt que sur la compilation de tableurs. Complète notre article sur le [SRM et le scoring fournisseurs](/blog/srm-augmente-scoring-relances-et-revues-de-performance-par).
 
 ## Ce qu'il faut retenir
 

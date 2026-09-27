@@ -28,7 +28,7 @@ description: "Comment l'IA analyse en masse les réclamations clients pour ident
 
 Une concentration géographique ou par site apparaît souvent en premier : un dépôt ou une usine à l'origine d'une part disproportionnée des réclamations. Vient ensuite une concentration par référence — un produit ou une gamme structurellement plus sujette aux litiges que le reste du catalogue. Enfin, le ton et l'urgence perçue permettent de distinguer une réclamation mineure d'une réclamation qui signale, elle, un vrai risque de perte du client.
 
-> **La réclamation individuelle raconte une histoire ; l'ensemble des réclamations raconte la vérité opérationnelle de votre supply chain.** L'IA permet de lire cette vérité d'ensemble sans attendre qu'elle devienne visible dans un taux de satisfaction en baisse. Complète notre article sur la [détection des non-conformités](/blog/dtection-automatique-des-non-conformits-par-ia).
+> **La réclamation individuelle raconte une histoire ; l'ensemble des réclamations raconte la vérité opérationnelle de votre supply chain.** L'IA permet de lire cette vérité d'ensemble sans attendre qu'elle devienne visible dans un taux de satisfaction en baisse. Complète notre article sur la [détection des non-conformités](/blog/detection-automatique-des-non-conformites-par-ia).
 
 ## Ce qu'il faut retenir
 

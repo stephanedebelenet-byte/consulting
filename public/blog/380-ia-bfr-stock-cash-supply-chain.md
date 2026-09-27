@@ -26,7 +26,7 @@ Le sur-stock de sécurité sur des références à faible variabilité de demand
 | Déstockage des références obsolètes | Ponctuel mais significatif | Aucun si correctement identifié |
 | Renégociation délais fournisseurs | Continu | Tension relationnelle si mal préparée |
 
-> **Réduire le stock de 10% partout est une fausse bonne idée ; réduire le stock de 30% sur les références à faible variabilité et de 0% sur les références critiques est la bonne approche.** C'est la précision du ciblage, permise par l'IA, qui fait la différence entre libérer du cash et créer une crise de service. Complète notre article sur la [prévision de la demande et la réduction des stocks](/blog/ia-prdictive-et-prvision-de-la-demande-rduire-ses-stocks-de-).
+> **Réduire le stock de 10% partout est une fausse bonne idée ; réduire le stock de 30% sur les références à faible variabilité et de 0% sur les références critiques est la bonne approche.** C'est la précision du ciblage, permise par l'IA, qui fait la différence entre libérer du cash et créer une crise de service. Complète notre article sur la [prévision de la demande et la réduction des stocks](/blog/ia-predictive-et-prevision-de-la-demande-reduire-ses-stocks).
 
 ## Ce qu'il faut retenir
 

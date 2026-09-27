@@ -16,7 +16,7 @@ Un délai de livraison unique affiché pour tout le pays — « livraison en 48h
 
 ::stat:: 25 à 35% — réduction des réclamations liées au délai de livraison lorsque la promesse est personnalisée par zone plutôt que générique
 
-> **Une promesse de délai plus longue mais tenue génère toujours plus de satisfaction qu'une promesse courte mais non tenue.** C'est un principe simple de gestion des attentes, que l'IA permet enfin d'appliquer à l'échelle sans effort manuel zone par zone. Complète notre article sur la [prévision COD et l'optimisation de la livraison](/blog/ia-et-e-commerce-last-mile-prvision-cod-et-gestion-des-retou).
+> **Une promesse de délai plus longue mais tenue génère toujours plus de satisfaction qu'une promesse courte mais non tenue.** C'est un principe simple de gestion des attentes, que l'IA permet enfin d'appliquer à l'échelle sans effort manuel zone par zone. Complète notre article sur la [prévision COD et l'optimisation de la livraison](/blog/ia-et-e-commerce-last-mile-prevision-cod-et-gestion-des).
 
 ## Ce que l'IA personnalise dans la promesse de délai
 

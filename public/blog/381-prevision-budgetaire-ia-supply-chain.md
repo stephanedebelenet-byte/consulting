@@ -26,7 +26,7 @@ L'actualisation rapide des hypothèses de coût — carburant, matières premiè
 | Analyse des écarts | Manuelle, plusieurs jours | Automatisée, quelques heures |
 | Simulation de scénario | Rare, sur demande exceptionnelle | Courante, à la demande |
 
-> **Un budget figé pendant 12 mois dans un environnement de prix volatils n'est plus un outil de pilotage, c'est un document historique.** La capacité à réviser rapidement transforme le budget en outil de décision continue plutôt qu'en exercice comptable annuel. Complète notre article sur la [veille prix et matières premières](/blog/veille-prix-et-matires-premires-par-ia-anticiper-la-volatili).
+> **Un budget figé pendant 12 mois dans un environnement de prix volatils n'est plus un outil de pilotage, c'est un document historique.** La capacité à réviser rapidement transforme le budget en outil de décision continue plutôt qu'en exercice comptable annuel. Complète notre article sur la [veille prix et matières premières](/blog/veille-prix-et-matieres-premieres-par-ia-anticiper-la).
 
 ## Ce qu'il faut retenir
 

@@ -1,4 +1,17 @@
 import { useEffect } from 'react'
+import { getPrerenderRoutes } from '../data/routeMeta'
+
+// Titre et description de référence par page (src/data/routeMeta.ts) : ceux
+// du HTML prérendu, vérifiés au build (≤ 60 et ≤ 160 caractères). PageMeta
+// les applique en priorité, pour que la version rendue par le navigateur, que
+// Google indexe, ne diverge plus de la version statique (audit du 26/09/2026 :
+// 8 pages remplaçaient un title optimisé par un title de 61 à 83 caractères).
+const ROUTE_META = new Map(getPrerenderRoutes().map((r) => [r.path, r]))
+
+function routeMetaFor(canonical: string) {
+  const path = canonical.replace(/^https?:\/\/[^/]+/, '') || '/'
+  return ROUTE_META.get(path)
+}
 
 interface PageMetaProps {
   title: string
@@ -17,7 +30,10 @@ function setMeta(selector: string, create: () => HTMLElement, attr: string, valu
   return { tag, prevValue }
 }
 
-export default function PageMeta({ title, description, canonical }: PageMetaProps) {
+export default function PageMeta({ title: titleProp, description: descriptionProp, canonical }: PageMetaProps) {
+  const known = routeMetaFor(canonical)
+  const title = known?.title ?? titleProp
+  const description = known?.description ?? descriptionProp
   useEffect(() => {
     const prevTitle = document.title
     document.title = title

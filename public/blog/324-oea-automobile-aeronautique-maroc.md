@@ -28,7 +28,7 @@ L'ADII accélère explicitement l'évaluation d'un dossier OEA lorsque l'entrepr
 
 ## Le double enjeu de la traçabilité des stocks
 
-Les équipementiers automobiles et aéronautiques opèrent fréquemment sous régime suspensif — admission temporaire pour perfectionnement actif, entrepôt industriel franc. Ces régimes exigent déjà une réconciliation rigoureuse entre stock théorique douanier et stock réel physique, sous peine de redressement. C'est exactement le même système de traçabilité qui conditionne l'obtention du statut OEA : une entreprise qui a déjà structuré cette traçabilité pour rester conforme à son régime suspensif dispose d'une base solide pour son dossier OEA, sans repartir de zéro. Notre article sur les [régimes douaniers suspensifs](/blog/rgimes-douaniers-suspensifs-admission-temporaire-eif-stock-t) détaille ce chantier commun aux deux démarches.
+Les équipementiers automobiles et aéronautiques opèrent fréquemment sous régime suspensif — admission temporaire pour perfectionnement actif, entrepôt industriel franc. Ces régimes exigent déjà une réconciliation rigoureuse entre stock théorique douanier et stock réel physique, sous peine de redressement. C'est exactement le même système de traçabilité qui conditionne l'obtention du statut OEA : une entreprise qui a déjà structuré cette traçabilité pour rester conforme à son régime suspensif dispose d'une base solide pour son dossier OEA, sans repartir de zéro. Notre article sur les [régimes douaniers suspensifs](/blog/regimes-douaniers-suspensifs-admission-temporaire-eif-stock) détaille ce chantier commun aux deux démarches.
 
 | Enjeu sectoriel | Sans statut OEA | Avec statut OEA |
 |---|---|---|

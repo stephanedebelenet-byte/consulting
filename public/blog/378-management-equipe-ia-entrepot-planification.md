@@ -26,7 +26,7 @@ Expliquer les décisions de l'outil, d'abord — pas seulement les siennes propr
 | Une contrainte terrain non visible par l'outil apparaît | Le manager garde le dernier mot, documente l'écart |
 | Un membre de l'équipe résiste ouvertement | Écouter la crainte spécifique avant d'imposer l'usage |
 
-> **Un manager qui délègue aveuglément à l'algorithme perd la confiance de son équipe aussi vite qu'un manager qui le rejette par principe.** Le bon positionnement est celui d'un arbitre qui utilise l'outil sans jamais s'y soumettre sans regard critique. Complète notre article sur l'[assistant IA et voix pour le cariste](/blog/assistant-ia-et-voix-pour-le-cariste-prparation-et-formation).
+> **Un manager qui délègue aveuglément à l'algorithme perd la confiance de son équipe aussi vite qu'un manager qui le rejette par principe.** Le bon positionnement est celui d'un arbitre qui utilise l'outil sans jamais s'y soumettre sans regard critique. Complète notre article sur l'[assistant IA et voix pour le cariste](/blog/assistant-ia-et-voix-pour-le-cariste-preparation-et).
 
 ## Ce qu'il faut retenir
 

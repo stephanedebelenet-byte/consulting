@@ -16,7 +16,7 @@ description: "Un benchmark de maturité IA supply chain pour situer une PME ou E
 
 ::stat:: Niveau 1-2 — le niveau de maturité IA où se situe la majorité des PME et ETI marocaines auditées, comparable à la moyenne des PME européennes
 
-> **Le retard marocain n'est pas sur l'accès à la technologie — les mêmes outils sont disponibles partout — il est sur la structuration de la donnée et la gouvernance.** C'est un retard rattrapable en 18 à 24 mois avec un séquençage clair. Voir notre [feuille de route IA](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route-).
+> **Le retard marocain n'est pas sur l'accès à la technologie — les mêmes outils sont disponibles partout — il est sur la structuration de la donnée et la gouvernance.** C'est un retard rattrapable en 18 à 24 mois avec un séquençage clair. Voir notre [feuille de route IA](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route).
 
 ## Le tableau de positionnement
 

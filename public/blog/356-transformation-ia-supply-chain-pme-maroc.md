@@ -28,7 +28,7 @@ description: "Comment une PME ou ETI marocaine pilote sa transformation IA suppl
 
 Un sponsor métier — direction supply chain, achats ou logistique — porte le projet et arbitre les priorités ; ce n'est jamais à l'IT seule de le faire. Un champion opérationnel par cas d'usage teste l'outil et le fait adopter auprès de ses pairs, ce qui compte souvent plus que n'importe quelle formation descendante. Et un partenaire externe ponctuel intervient pour le cadrage technique et les cas plus complexes nécessitant une expertise data spécifique, sans qu'il soit besoin de l'internaliser tout de suite.
 
-> **Recruter un data scientist avant d'avoir prouvé la valeur sur des cas d'usage simples est l'erreur la plus coûteuse que nous observons.** Le bon séquençage est l'inverse : prouver la valeur d'abord, avec les ressources existantes, puis investir en compétence interne si le volume de cas d'usage le justifie vraiment. Voir notre feuille de route dans [IA et direction supply chain](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route-).
+> **Recruter un data scientist avant d'avoir prouvé la valeur sur des cas d'usage simples est l'erreur la plus coûteuse que nous observons.** Le bon séquençage est l'inverse : prouver la valeur d'abord, avec les ressources existantes, puis investir en compétence interne si le volume de cas d'usage le justifie vraiment. Voir notre feuille de route dans [IA et direction supply chain](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route).
 
 ## Ce qu'il faut retenir
 

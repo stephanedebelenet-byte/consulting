@@ -1,11 +1,10 @@
-import { useParams, Navigate } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 import PageMeta from '../components/PageMeta'
 import PageHero from '../components/PageHero'
 import FormationVille from '../components/FormationVille'
 import { findVille } from '../data/villesFormation'
 
-export default function FormationVillePage() {
-  const { ville: slug } = useParams<{ ville: string }>()
+export default function FormationVillePage({ slug }: { slug: string }) {
   const ville = findVille(slug)
 
   if (!ville) return <Navigate to="/formation" replace />

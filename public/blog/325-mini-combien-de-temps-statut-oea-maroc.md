@@ -25,7 +25,7 @@ L'ADII répond à l'étude d'éligibilité sous 30 jours. Une fois l'éligibilit
 
 ## Ce qu'il faut retenir
 
-La marge de manœuvre sur ce délai n'est pas dans la procédure elle-même, mais dans le diagnostic préalable. Notre [guide complet de la procédure OEA](/blog/statut-oea-maroc-la-procdure-adii-tape-par-tape) détaille chaque étape et son délai légal.
+La marge de manœuvre sur ce délai n'est pas dans la procédure elle-même, mais dans le diagnostic préalable. Notre [guide complet de la procédure OEA](/blog/statut-oea-maroc-la-procedure-adii-etape-par-etape) détaille chaque étape et son délai légal.
 
 **Notre approche.** Diagnostic d'éligibilité en amont pour identifier les écarts avant d'engager l'audit — la variable qui réduit le plus efficacement le calendrier global. [Découvrez notre accompagnement statut OEA](/accompagnement-oea).
 

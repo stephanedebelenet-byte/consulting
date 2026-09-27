@@ -34,7 +34,7 @@ Un comex qui valide un budget IA sur la seule base d'une démonstration impressi
 4. **Quel est le plan de sortie** si le projet ou l'éditeur ne tient pas ses promesses ?
 5. **Quel est le coût total sur 3 ans**, pas seulement le coût de la première année ?
 
-> **Un projet qui ne peut pas répondre clairement à ces 5 questions n'est pas encore prêt pour un budget comex, quelle que soit la qualité de la démonstration produit qui l'accompagne.** C'est cette discipline de validation, pas la sophistication de l'outil, qui protège l'entreprise d'un investissement mal engagé. Voir notre article sur le [business case IA](/blog/business-case-ia-le-modle-financier-pour-convaincre-la-finan).
+> **Un projet qui ne peut pas répondre clairement à ces 5 questions n'est pas encore prêt pour un budget comex, quelle que soit la qualité de la démonstration produit qui l'accompagne.** C'est cette discipline de validation, pas la sophistication de l'outil, qui protège l'entreprise d'un investissement mal engagé. Voir notre article sur le [business case IA](/blog/business-case-ia-le-modele-financier-pour-convaincre-la).
 
 ## Ce qu'il faut retenir
 

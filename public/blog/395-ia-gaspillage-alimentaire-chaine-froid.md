@@ -30,7 +30,7 @@ Trois usages concrets découlent directement de cette détection :
 
 ::stat:: 20 à 30% — part de la marchandise périssable qui pourrait être sauvée avec une détection et une action en temps réel, plutôt qu'un constat après coup
 
-> **Chaque heure d'excursion de température non détectée transforme un incident réparable en perte totale.** C'est la vitesse de détection, pas la sophistication du modèle, qui détermine combien de marchandise peut encore être sauvée. Complète notre article sur l'[agro-industrie et la chaîne du froid export](/blog/ia-et-agro-industrie-au-maroc-prvision-de-rcolte-et-chane-du).
+> **Chaque heure d'excursion de température non détectée transforme un incident réparable en perte totale.** C'est la vitesse de détection, pas la sophistication du modèle, qui détermine combien de marchandise peut encore être sauvée. Complète notre article sur l'[agro-industrie et la chaîne du froid export](/blog/ia-et-agro-industrie-au-maroc-prevision-de-recolte-et).
 
 ## Ce qu'il faut retenir
 

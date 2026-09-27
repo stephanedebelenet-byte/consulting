@@ -28,7 +28,7 @@ Trois usages reviennent le plus souvent. La vérification visuelle de conformit�
 | Conformité d'un échantillon visible | Capacité de production réelle et cadence soutenue |
 | Documentation et process affichés | Relation humaine et confiance construite sur le terrain |
 
-> **L'audit à distance augmente la fréquence de contrôle, la visite physique en garantit la profondeur.** Les deux se complètent : un audit annuel physique reste indispensable, complété par des contrôles à distance plus fréquents entre deux visites. Complète notre article sur la [vision par ordinateur en réception d'entrepôt](/blog/vision-par-ordinateur-en-rception-et-contrle-qualit-o-en-est).
+> **L'audit à distance augmente la fréquence de contrôle, la visite physique en garantit la profondeur.** Les deux se complètent : un audit annuel physique reste indispensable, complété par des contrôles à distance plus fréquents entre deux visites. Complète notre article sur la [vision par ordinateur en réception d'entrepôt](/blog/vision-par-ordinateur-en-reception-et-controle-qualite-ou).
 
 ## Ce qu'il faut retenir
 

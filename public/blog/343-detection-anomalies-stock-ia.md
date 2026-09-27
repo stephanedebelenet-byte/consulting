@@ -25,9 +25,9 @@ La rupture larvée en premier lieu : une couverture de stock qui se dégrade pro
 | Approche | Fonctionnement | Limite |
 |---|---|---|
 | Seuil fixe | Alerte si stock < X unités | Ne détecte pas une dérive progressive |
-| Détection IA comportementale | Alerte si le comportement diffère de l'historique de la référence | Nécessite un historique propre — voir [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue) |
+| Détection IA comportementale | Alerte si le comportement diffère de l'historique de la référence | Nécessite un historique propre — voir [qualité des données](/blog/qualite-des-donnees-pourquoi-les-projets-ia-supply-chain) |
 
-> **L'alerte la plus utile est celle qui arrive avant que le problème ne soit visible dans les KPI standards.** Une fois qu'une rupture apparaît dans le taux de service, il est déjà trop tard pour agir dessus — seule la détection amont laisse encore une marge de manœuvre. Complète notre [control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps-re).
+> **L'alerte la plus utile est celle qui arrive avant que le problème ne soit visible dans les KPI standards.** Une fois qu'une rupture apparaît dans le taux de service, il est déjà trop tard pour agir dessus — seule la détection amont laisse encore une marge de manœuvre. Complète notre [control tower logistique](/blog/control-tower-logistique-piloter-sa-supply-chain-en-temps).
 
 ## Ce qu'il faut retenir
 

@@ -30,7 +30,7 @@ La plupart des efforts de réduction de l'empreinte logistique se concentrent su
 
 ::stat:: 15 à 25% — réduction du volume de transport possible grâce à une optimisation d'emballage dès la conception, selon les retours industriels
 
-> **Réduire l'empreinte logistique après coup, une fois le produit conçu, c'est corriger une décision déjà prise ; l'éco-conception intervient avant que la décision ne soit figée.** C'est le stade où l'effet de levier est le plus important — et pourtant, dans notre expérience, le moins investi par les entreprises marocaines. Complète notre article sur le [bilan carbone transport](/blog/calculer-son-bilan-carbone-transport-par-ia-le-scope-3-autom).
+> **Réduire l'empreinte logistique après coup, une fois le produit conçu, c'est corriger une décision déjà prise ; l'éco-conception intervient avant que la décision ne soit figée.** C'est le stade où l'effet de levier est le plus important — et pourtant, dans notre expérience, le moins investi par les entreprises marocaines. Complète notre article sur le [bilan carbone transport](/blog/calculer-son-bilan-carbone-transport-par-ia-le-scope-3).
 
 ## Ce qu'il faut retenir
 

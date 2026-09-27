@@ -30,7 +30,7 @@ Trois leviers expliquent, concrètement, ce gain :
 - **Routage optimal** : diriger chaque flux retour vers le point de traitement le plus pertinent, pas nécessairement le plus proche géographiquement.
 - **Estimation de la valeur résiduelle** : prioriser le traitement des flux à plus forte valeur de récupération, avant que leur valeur ne se déprécie davantage dans l'attente.
 
-> **L'économie circulaire ne devient rentable que lorsque le coût de tri et de décision passe sous la valeur récupérée — c'est exactement ce que l'automatisation par IA rend possible à grande échelle.** Complète notre article sur la [gestion des retours et la logistique inverse](/blog/ia-et-gestion-des-retours-trier-router-et-rembourser-plus-vi).
+> **L'économie circulaire ne devient rentable que lorsque le coût de tri et de décision passe sous la valeur récupérée — c'est exactement ce que l'automatisation par IA rend possible à grande échelle.** Complète notre article sur la [gestion des retours et la logistique inverse](/blog/ia-et-gestion-des-retours-trier-router-et-rembourser-plus).
 
 ## Ce qu'il faut retenir
 

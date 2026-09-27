@@ -26,7 +26,7 @@ Le Maroc dispose d'un réseau d'accords de libre-échange étendu — avec l'Uni
 
 L'IA vérifie systématiquement trois choses : l'éligibilité aux accords applicables à chaque flux selon le pays d'origine et de destination, les règles d'origine spécifiques — pourcentage de valeur ajoutée locale requis, transformation suffisante selon la nomenclature — et la cohérence de la documentation de preuve d'origine, avant qu'un contrôle ne vienne la remettre en question.
 
-> **Exploiter un accord de libre-échange sans preuve d'origine solide expose à un redressement rétroactif plus coûteux que l'économie initiale réalisée.** L'IA aide à identifier l'opportunité, mais la rigueur documentaire reste la condition de sa validité en cas de contrôle. Complète notre article sur les [accords de libre-échange du Maroc](/blog/accords-de-libre-change-du-maroc-comment-rduire-ses-droits-d).
+> **Exploiter un accord de libre-échange sans preuve d'origine solide expose à un redressement rétroactif plus coûteux que l'économie initiale réalisée.** L'IA aide à identifier l'opportunité, mais la rigueur documentaire reste la condition de sa validité en cas de contrôle. Complète notre article sur les [accords de libre-échange du Maroc](/blog/accords-de-libre-echange-du-maroc-comment-reduire-ses).
 
 ## Ce qu'il faut retenir
 

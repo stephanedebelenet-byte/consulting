@@ -28,7 +28,7 @@ Quatre choses changent concrètement. La transcription et la synthèse de la ré
 | Actions notées de façon disparate | Plan d'action structuré et assigné automatiquement |
 | Historique difficile à retrouver | Recherche instantanée dans l'historique des décisions |
 
-> **Un plan d'action qui arrive trois jours après la réunion a déjà perdu de son urgence.** La vitesse de diffusion du compte rendu reste un facteur d'exécution S&OP largement sous-estimé — voir notre article sur la [génération de scénarios S&OP](/blog/gnrer-ses-scnarios-sop-avec-lia-simuler-ruptures-et-arbitrag).
+> **Un plan d'action qui arrive trois jours après la réunion a déjà perdu de son urgence.** La vitesse de diffusion du compte rendu reste un facteur d'exécution S&OP largement sous-estimé — voir notre article sur la [génération de scénarios S&OP](/blog/generer-ses-scenarios-sop-avec-l-ia-simuler-ruptures-et).
 
 ## Ce qu'il faut retenir
 

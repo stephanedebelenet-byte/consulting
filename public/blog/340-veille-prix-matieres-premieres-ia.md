@@ -28,7 +28,7 @@ Trois familles de signaux méritent une surveillance continue plutôt qu'une lec
 | Hausse acier > 8% en 60 jours | Anticiper la renégociation des contrats BTP/industrie |
 | Tension fret maritime | Sécuriser les capacités avant la hausse tarifaire |
 
-> **La veille n'a de valeur que si elle arrive avant la facture, pas après.** Une alerte IA qui signale une hausse déjà répercutée par le fournisseur n'a strictement aucune valeur de négociation — c'est le délai d'anticipation, et lui seul, qui fait toute la différence. Voir notre article sur la [hausse des prix du carburant](/blog/hausse-des-prix-du-carburant-comment-les-transporteurs-maroc).
+> **La veille n'a de valeur que si elle arrive avant la facture, pas après.** Une alerte IA qui signale une hausse déjà répercutée par le fournisseur n'a strictement aucune valeur de négociation — c'est le délai d'anticipation, et lui seul, qui fait toute la différence. Voir notre article sur la [hausse des prix du carburant](/blog/hausse-des-prix-du-carburant-comment-les-transporteurs).
 
 ## Ce qu'il faut retenir
 

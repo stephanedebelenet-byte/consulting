@@ -14,7 +14,7 @@ description: "Playbook IA pour la filière aéronautique marocaine — traçabil
 
 **La filière aéronautique marocaine s'est structurée autour de Safran et de près de 150 entreprises, sous un niveau d'exigence documentaire que peu de secteurs connaissent.** Traçabilité pièce à vie, conformité AS9100, zéro tolérance sur la documentation manquante : c'est un terrain où l'IA apporte une valeur immédiate, précisément parce que la charge documentaire y est immense et le risque d'erreur humaine coûteux.
 
-> **Dans l'aéronautique, l'erreur documentaire n'est jamais mineure — elle peut immobiliser une pièce ou un lot entier.** L'IA ne remplace jamais le contrôle qualité final, mais elle réduit fortement le risque d'oubli dans une charge devenue trop lourde pour un traitement entièrement manuel. Voir aussi notre [playbook automobile](/blog/ia-et-supply-chain-automobile-au-maroc-prvision-edi-et-jit).
+> **Dans l'aéronautique, l'erreur documentaire n'est jamais mineure — elle peut immobiliser une pièce ou un lot entier.** L'IA ne remplace jamais le contrôle qualité final, mais elle réduit fortement le risque d'oubli dans une charge devenue trop lourde pour un traitement entièrement manuel. Voir aussi notre [playbook automobile](/blog/ia-et-supply-chain-automobile-au-maroc-prevision-edi-et-jit).
 
 ## Le tableau des priorités documentaires
 

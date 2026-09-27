@@ -25,7 +25,7 @@ Le rapport d'audit exigé dans le dossier de candidature est élaboré par un ca
 
 ## Ce qu'il faut retenir
 
-Le budget d'une démarche OEA se prépare comme celui de tout audit de conformité : il dépend directement du niveau de préparation en amont, pas d'un barème fixé par l'administration. Notre article sur les [causes réelles d'échec d'une demande OEA](/blog/pourquoi-une-demande-de-statut-oea-choue-au-maroc) explique pourquoi un diagnostic préalable réduit à la fois le risque de rejet et le coût final de l'audit.
+Le budget d'une démarche OEA se prépare comme celui de tout audit de conformité : il dépend directement du niveau de préparation en amont, pas d'un barème fixé par l'administration. Notre article sur les [causes réelles d'échec d'une demande OEA](/blog/pourquoi-une-demande-de-statut-oea-echoue-au-maroc) explique pourquoi un diagnostic préalable réduit à la fois le risque de rejet et le coût final de l'audit.
 
 **Notre approche.** Diagnostic d'éligibilité et mise en conformité en amont de l'audit, pour limiter son périmètre et son coût. Accompagnement sur devis, adapté à la taille et à la complexité de votre dossier. [Découvrez notre accompagnement statut OEA](/accompagnement-oea).
 

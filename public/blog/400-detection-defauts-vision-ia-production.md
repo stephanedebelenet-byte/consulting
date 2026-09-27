@@ -29,7 +29,7 @@ Un contrôleur qualité en ligne de production, même expérimenté, perd en att
 | Défaut nouveau, jamais vu à l'entraînement | Faible sans réentraînement |
 | Défaut fonctionnel non visible (résistance, étanchéité) | Nécessite un contrôle complémentaire |
 
-> **La vision par ordinateur en production n'élimine jamais le contrôle qualité humain, elle le déplace vers les défauts nouveaux et les cas ambigus que la machine ne sait pas encore reconnaître.** C'est cette complémentarité, pas le remplacement pur, qui donne le meilleur résultat. Complète notre article sur la [vision par ordinateur en réception d'entrepôt](/blog/vision-par-ordinateur-en-rception-et-contrle-qualit-o-en-est).
+> **La vision par ordinateur en production n'élimine jamais le contrôle qualité humain, elle le déplace vers les défauts nouveaux et les cas ambigus que la machine ne sait pas encore reconnaître.** C'est cette complémentarité, pas le remplacement pur, qui donne le meilleur résultat. Complète notre article sur la [vision par ordinateur en réception d'entrepôt](/blog/vision-par-ordinateur-en-reception-et-controle-qualite-ou).
 
 ## Ce qu'il faut retenir
 

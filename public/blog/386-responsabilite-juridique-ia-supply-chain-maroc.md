@@ -26,7 +26,7 @@ Le principe ne change pas avec l'IA, en réalité. L'IA reste un outil d'aide à
 | Contrat avec l'éditeur IA précisant les limites d'usage | Répartition claire des responsabilités techniques |
 | Traçabilité des recommandations et des décisions finales | Reconstitution possible du processus en cas de contestation |
 
-> **L'IA ne déplace jamais la responsabilité juridique, elle déplace le risque de négligence si son usage n'est pas encadré et documenté.** Une entreprise qui suit aveuglément une recommandation IA sans validation humaine documentée s'expose davantage, pas moins. Voir notre article sur les [clauses IA dans les contrats fournisseurs](/blog/clauses-ia-dans-les-contrats-fournisseurs-et-prestataires-lo).
+> **L'IA ne déplace jamais la responsabilité juridique, elle déplace le risque de négligence si son usage n'est pas encadré et documenté.** Une entreprise qui suit aveuglément une recommandation IA sans validation humaine documentée s'expose davantage, pas moins. Voir notre article sur les [clauses IA dans les contrats fournisseurs](/blog/clauses-ia-dans-les-contrats-fournisseurs-et-prestataires).
 
 ## Ce qu'il faut retenir
 

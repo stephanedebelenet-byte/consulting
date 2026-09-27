@@ -26,7 +26,7 @@ Trois fiches de poste évoluent typiquement. L'acheteur junior fait moins de rec
 | Analyste | Reporting répétitif | Recommandation et scénarios |
 | Coordinateur logistique | Suivi de statut manuel | Gestion des exceptions |
 
-> **Le risque n'est pas que l'IA supprime des postes, c'est que personne ne redéfinisse clairement ce que ces postes font désormais avec le temps libéré.** Une réorganisation réussie commence par une conversation explicite sur cette réaffectation, pas par un silence qui laisse chacun deviner. Voir notre article sur l'[IA et l'emploi en supply chain](/blog/ia-et-emploi-en-supply-chain-quels-mtiers-se-transforment).
+> **Le risque n'est pas que l'IA supprime des postes, c'est que personne ne redéfinisse clairement ce que ces postes font désormais avec le temps libéré.** Une réorganisation réussie commence par une conversation explicite sur cette réaffectation, pas par un silence qui laisse chacun deviner. Voir notre article sur l'[IA et l'emploi en supply chain](/blog/ia-et-emploi-en-supply-chain-quels-metiers-se-transforment).
 
 ## Ce qu'il faut retenir
 

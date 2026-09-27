@@ -3,8 +3,6 @@ import { IS_SERVER } from '../utils/ssr'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import { servicesFAQ } from '../data/conseilFaq'
 import { FAQ as formationFAQ } from '../data/formations'
-import { SchemaScript } from './SchemaHelper'
-import { generateFAQSchema } from '../utils/seoData'
 
 const ease = [0.16, 1, 0.3, 1] as const
 
@@ -104,11 +102,8 @@ function FAQSection({ num, title, items }: { num: string; title: string; items: 
 }
 
 export default function Faq() {
-  const allFAQ = [...servicesFAQ, ...formationFAQ]
-
   return (
     <section style={{ background: '#ffffff', padding: '2rem 4rem 8rem', color: 'var(--navy)' }}>
-      <SchemaScript schema={generateFAQSchema(allFAQ)} />
       <div className="section-inner">
         <FAQSection num="01 / Conseil & Diagnostic" title="Missions de conseil." items={servicesFAQ} />
         <FAQSection num="02 / Formation" title="Programmes de formation." items={formationFAQ} />

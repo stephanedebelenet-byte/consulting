@@ -12,9 +12,10 @@
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
 import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta, FAQ as formationFAQ } from './formations'
-import { servicesFAQ } from './conseilFaq'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
 import { generateFAQSchema } from '../utils/seoData'
+import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS } from './controlTower'
 
 export interface PrerenderRoute {
   path: string
@@ -62,13 +63,14 @@ const SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = 
     description: 'Cabinet indépendant de conseil et formation Supply Chain, Logistique et Achats au Maroc : diagnostic, stocks et DDMRP, schéma logistique, AMOA WMS/TMS.',
   },
   '/conseil': {
-    title: 'Conseil Supply Chain au Maroc : Diagnostic, Stocks, Achats',
+    title: 'Nextinotech Conseil : Supply Chain, Stocks, Achats au Maroc',
     description: 'Conseil Supply Chain pour PME et ETI marocaines : diagnostic, stocks et DDMRP, performance achats, schéma logistique, cahiers des charges, IA, AMOA.',
   },
   '/prestations': {
     description: "Prestations logistiques au Maroc : inventaires d'entrepôt, co-packing, étiquetage, kitting, palettisation et Control Tower (WMS, TMS, IoT, IA).",
   },
   '/control-tower': {
+    title: 'Nextinotech Digital : Control Tower WMS, TMS, IoT, IA',
     description: 'Pilotez votre supply chain en temps réel : WMS, TMS, IMS, AMS, IoT et IA réunis dans une tour de contrôle. Offre en 3 paliers, formation et conseil.',
   },
   '/blog': {
@@ -80,7 +82,7 @@ const SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = 
     description: 'Construire sa carrière Supply Chain, Logistique et Achats au Maroc : métiers, compétences recherchées, salaires, plan de développement et formations.',
   },
   '/formation': {
-    title: 'Formations Supply Chain, Lean & Management au Maroc',
+    title: 'Nextinotech Académie : Formations Supply Chain au Maroc',
     description: '30 programmes de formation sur 7 domaines : Supply Chain, Lean, Management, Finance, Projet, Carrière. Inter et intra-entreprise, calendrier 2026.',
   },
   '/formation-rl': {
@@ -224,13 +226,10 @@ const STATIC: PrerenderRoute[] = [
     title: 'FAQ — Conseil & Formation Supply Chain au Maroc' + SUFFIX,
     description:
       "Réponses aux questions fréquentes sur le conseil Supply Chain, les formations, les tarifs, le financement (CSF / GIAC), les délais et les résultats attendus.",
-    // FAQPage JSON-LD statique au build (même contenu et même générateur que
-    // src/components/Faq.tsx côté client — generateFAQSchema, servicesFAQ,
-    // formationFAQ). Avant ce champ, ce schéma n'existait qu'injecté par le
-    // composant React au montage, donc absent du HTML prérendu : invisible
-    // pour Google au premier passage et pour les crawlers IA qui n'exécutent
-    // pas de JS. Voir audit du 22/09/2026.
-    jsonLd: [generateFAQSchema([...servicesFAQ, ...formationFAQ])],
+    // Pas de FAQPage ici (audit du 27/09/2026) : cette page regroupe les FAQ
+    // de /conseil et /formation, déjà balisées sur ces pages. Google demande de
+    // ne baliser une question répétée qu'une seule fois sur le site ; la règle 14
+    // de check-seo-consistency l'impose.
     priority: 0.75,
     changefreq: 'monthly',
     lastmod: '2026-08-24',
@@ -476,7 +475,8 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
   return [...STATIC, ...villes, ...programmes].map((r) => {
     const o = SEO_OVERRIDES[r.path] ?? {}
     const route = { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
-    return withBreadcrumb(route)
+    const extra = pageSchemas(route)
+    return withBreadcrumb(extra.length ? { ...route, jsonLd: [...(route.jsonLd ?? []), ...extra] } : route)
   })
 }
 
@@ -486,8 +486,114 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
 // en contient déjà un (formations, villes, programmes) sont laissées telles
 // quelles. Pas de niveau intermédiaire vers /outils, /demo, /solutions ou
 // /evenements : ces adresses n'existent pas (404).
-const BREADCRUMB_PARENTS: Record<string, { path: string; name: string }> = {
-  '/ingenierie-formation/catalogue': { path: '/ingenierie-formation', name: 'Ingénierie de formation' },
+// Unités métier (26/09/2026) : chaque page d'offre a son unité comme niveau
+// intermédiaire du fil d'Ariane. Les pages d'accueil d'unité (/conseil,
+// /formation, /control-tower) prennent le nom de l'unité via leur title.
+const CONSEIL = { path: '/conseil', name: 'Nextinotech Conseil' }
+const ACADEMIE = { path: '/formation', name: 'Nextinotech Académie' }
+const DIGITAL = { path: '/control-tower', name: 'Nextinotech Digital' }
+
+function breadcrumbParents(path: string): { path: string; name: string }[] {
+  if (['/direction-supply-chain-temps-partage', '/directeur-logistique-mi-temps', '/directeur-achats-mi-temps', '/dsc-vs-recrutement-cdi', '/accompagnement-oea', '/prestations'].includes(path)) return [CONSEIL]
+  if (path === '/ingenierie-formation/catalogue') return [ACADEMIE, { path: '/ingenierie-formation', name: 'Ingénierie de formation' }]
+  if (['/formation-rl', '/formation-import', '/ingenierie-formation'].includes(path) || path.startsWith('/evenements/')) return [ACADEMIE]
+  if (path.startsWith('/outils/') || path.startsWith('/demo/') || path.startsWith('/solutions/')) return [DIGITAL]
+  return []
+}
+
+// Données structurées propres aux pages qui n'en avaient pas (audit du
+// 27/09/2026) : accueil, contact, Control Tower, simulateurs et démos.
+// Construites à partir du title/description de la route et des données
+// affichées (src/data/controlTower.ts), jamais saisies en double.
+const SITE_URL = 'https://nextinotech.com'
+const ORG_REF = { '@id': `${SITE_URL}/#organization` }
+const DIGITAL_REF = { '@id': `${SITE_URL}/#digital` }
+
+// FAQ ajoutées par l'audit du 27/09/2026 (src/data/pageFaq.ts) : même tableau
+// que la section visible, jamais recopié.
+function pageSchemas(route: PrerenderRoute): unknown[] {
+  const faq = route.path === '/ingenierie-formation' ? INGENIERIE_FAQ : PAGE_FAQ[route.path]
+  const schemas = baseSchemas(route)
+  if (faq?.length) schemas.push({ ...generateFAQSchema(faq), '@id': `${SITE_URL}${route.path === '/' ? '/' : route.path}#faq` })
+  return schemas
+}
+
+function baseSchemas(route: PrerenderRoute): unknown[] {
+  const url = SITE_URL + (route.path === '/' ? '/' : route.path)
+  const name = breadcrumbName(route.title)
+  const base = { '@context': 'https://schema.org', url, inLanguage: 'fr-MA', isPartOf: { '@id': `${SITE_URL}/#website` } }
+  if (route.path === '/') {
+    return [{ ...base, '@type': 'WebPage', '@id': `${url}#webpage`, name: route.title, description: route.description, about: ORG_REF, mainEntity: ORG_REF }]
+  }
+  if (route.path === '/contact') {
+    return [{ ...base, '@type': 'ContactPage', '@id': `${url}#webpage`, name: route.title, description: route.description, mainEntity: ORG_REF }]
+  }
+  if (route.path === '/control-tower') {
+    const minPrice = (price: string) => Number(price.replace(/\D/g, '')) || undefined
+    return [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        '@id': `${url}#service`,
+        name: 'Control Tower Supply Chain',
+        serviceType: 'Pilotage supply chain en temps réel (WMS, TMS, IMS, AMS, IoT, IA)',
+        description: route.description,
+        url,
+        provider: DIGITAL_REF,
+        areaServed: { '@type': 'Country', name: 'Maroc' },
+        image: CONTROL_TOWER_SCREENS.map((s) => ({
+          '@type': 'ImageObject',
+          contentUrl: SITE_URL + s.src,
+          name: s.title,
+          description: s.alt,
+          width: s.w,
+          height: s.h,
+        })),
+        subjectOf: { '@id': `${url}#video` },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Paliers Control Tower',
+          itemListElement: OFFER_TIERS.map((t) => ({
+            '@type': 'Offer',
+            name: t.name,
+            description: `${t.desc} · ${t.duration}`,
+            priceSpecification: { '@type': 'PriceSpecification', minPrice: minPrice(t.price), priceCurrency: 'MAD', valueAddedTaxIncluded: false },
+          })),
+        },
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        '@id': `${url}#video`,
+        name: CONTROL_TOWER_VIDEO.name,
+        description: CONTROL_TOWER_VIDEO.description,
+        thumbnailUrl: SITE_URL + CONTROL_TOWER_VIDEO.poster,
+        contentUrl: SITE_URL + CONTROL_TOWER_VIDEO.src,
+        uploadDate: CONTROL_TOWER_VIDEO.uploadDate,
+        duration: CONTROL_TOWER_VIDEO.duration,
+        width: CONTROL_TOWER_VIDEO.width,
+        height: CONTROL_TOWER_VIDEO.height,
+        inLanguage: 'fr-MA',
+        publisher: ORG_REF,
+      },
+      { ...generateFAQSchema(CONTROL_TOWER_FAQ), '@id': `${url}#faq` },
+    ]
+  }
+  if (route.path.startsWith('/outils/') || route.path.startsWith('/demo/')) {
+    return [{
+      ...base,
+      '@type': 'WebApplication',
+      '@id': `${url}#app`,
+      name,
+      description: route.description,
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web',
+      isAccessibleForFree: true,
+      offers: { '@type': 'Offer', price: 0, priceCurrency: 'MAD' },
+      provider: DIGITAL_REF,
+    }]
+  }
+  return []
 }
 
 function hasBreadcrumb(jsonLd: unknown[] | undefined): boolean {
@@ -501,10 +607,9 @@ function breadcrumbName(title: string): string {
 function withBreadcrumb(route: PrerenderRoute): PrerenderRoute {
   if (route.path === '/' || hasBreadcrumb(route.jsonLd)) return route
   const url = `https://nextinotech.com${route.path}`
-  const parent = BREADCRUMB_PARENTS[route.path]
   const items = [
     { name: 'Accueil', item: 'https://nextinotech.com/' },
-    ...(parent ? [{ name: parent.name, item: `https://nextinotech.com${parent.path}` }] : []),
+    ...breadcrumbParents(route.path).map((p) => ({ name: p.name, item: `https://nextinotech.com${p.path}` })),
     { name: breadcrumbName(route.title), item: url },
   ]
   const breadcrumb = {

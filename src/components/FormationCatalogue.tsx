@@ -6,7 +6,7 @@ import SchemaScript from './SchemaHelper'
 import PageMeta from './PageMeta'
 import HeroCarousel from './HeroCarousel'
 import { VILLES } from '../data/villesFormation'
-import { PROGRAMMES, FAQ, SESSIONS, programmesSchema } from '../data/formations'
+import { PROGRAMMES, FAQ, SESSIONS, programmesSchema, programmeUrl } from '../data/formations'
 
 /* ─── Brand constants ─────────────────────────────────────── */
 const WA = `https://wa.me/212663449200?text=${encodeURIComponent('Bonjour Nextinotech, je souhaite des informations sur vos formations. Pouvez-vous me recontacter ?')}`
@@ -232,7 +232,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
               <motion.span animate={{ rotate: open ? 45 : 0 }} transition={{ duration: 0.2 }} style={{ display: 'inline-block', fontSize: '1rem', lineHeight: 1 }}>+</motion.span>
             </button>
             <Link
-              to={p.id === 'rl' ? '/formation-rl' : `/formation/${p.id}`}
+              to={programmeUrl(p.id)}
               style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--mid)', textDecoration: 'none', transition: 'color 0.2s' }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = 'var(--blue-bright)')}
               onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = 'var(--mid)')}
@@ -328,7 +328,7 @@ export default function FormationCatalogue() {
         <div className="section-inner" style={{ position: 'relative', zIndex: 1 }}>
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '2.5rem' }}>
-              01 / Académie · Terrain · Résultats
+              01 / Nextinotech Académie · Terrain · Résultats
             </div>
           </Reveal>
 

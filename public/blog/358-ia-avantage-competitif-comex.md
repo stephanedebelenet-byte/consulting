@@ -28,7 +28,7 @@ description: "Comment un directeur supply chain présente l'IA à son comex comm
 
 Le premier est le risque de retard concurrentiel : quel avantage vos concurrents, locaux ou internationaux présents au Maroc, construisent-ils déjà avec l'IA pendant que la question reste en discussion chez vous ? Le deuxième est le chiffrage direct — jamais « l'IA améliore la supply chain », toujours « X% de réduction de stock, Y jours de délai gagnés ». Le troisième, souvent le plus persuasif dans notre expérience, est le coût de l'inaction : ce que coûte le statu quo sur 24 mois, comparé au coût du projet lui-même.
 
-> **Un comex n'achète pas une technologie, il achète un avantage ou évite une perte.** Présenter l'IA en termes de fonctionnalités perd systématiquement face à une présentation en termes de position concurrentielle. Voir notre feuille de route dans [IA et direction supply chain](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route-).
+> **Un comex n'achète pas une technologie, il achète un avantage ou évite une perte.** Présenter l'IA en termes de fonctionnalités perd systématiquement face à une présentation en termes de position concurrentielle. Voir notre feuille de route dans [IA et direction supply chain](/blog/ia-et-direction-supply-chain-construire-sa-feuille-de-route).
 
 ## Ce qu'il faut retenir
 

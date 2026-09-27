@@ -26,7 +26,7 @@ description: "Les 7 erreurs stratégiques les plus fréquentes qui font échouer
 
 ## Les 7 erreurs, dans l'ordre où elles apparaissent
 
-1. **Viser une plateforme ambitieuse avant d'avoir traité la donnée** — voir [qualité des données](/blog/qualit-des-donnes-pourquoi-les-projets-ia-supply-chain-choue).
+1. **Viser une plateforme ambitieuse avant d'avoir traité la donnée** — voir [qualité des données](/blog/qualite-des-donnees-pourquoi-les-projets-ia-supply-chain).
 2. **Piloter le projet uniquement par l'IT**, sans sponsor métier réellement engagé.
 3. **Lancer plusieurs initiatives en parallèle**, diluant budget et attention entre elles.
 4. **Négliger la conduite du changement**, en pensant à tort que l'outil suffit à l'adoption.

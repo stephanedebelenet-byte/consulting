@@ -7,6 +7,7 @@ import { slugify } from './src/utils/slugify'
 import { EVENEMENTS } from './src/data/evenements'
 import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides'
 import { parseMarkdown } from './src/utils/markdownParser'
+import { offerLinksFor, offerLinksHtml } from './src/data/offerLinks'
 import { BLOG_FILES } from './src/data/blogFiles'
 
 // Registre des articles publiés (source unique, voir src/data/blogFiles.ts).
@@ -127,7 +128,9 @@ export function getBlogRoutes(): PrerenderRoute[] {
       priority: BLOG_PRIORITY_OVERRIDES[slug] ?? 0.7,
       changefreq: 'yearly',
       lastmod: fm.date || undefined,
-      bodyHtml: htmlContent,
+      // Bloc « Pour aller plus loin » vers les offres du sujet (maillage interne,
+      // src/data/offerLinks.ts) — le même que Blog.tsx affiche aux visiteurs.
+      bodyHtml: htmlContent + offerLinksHtml(offerLinksFor({ title: fm.title, keywords: fm.keywords, description: fm.description })),
     })
   }
   return out

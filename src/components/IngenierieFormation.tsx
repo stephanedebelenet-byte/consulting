@@ -7,6 +7,7 @@ import SchemaScript from './SchemaHelper'
 import LogoMarquee from './LogoMarquee'
 import { METIERS_CATALOGUE } from '../data/catalogueMetiers'
 import { trackConversion } from '../utils/analytics'
+import { INGENIERIE_FAQ } from '../data/pageFaq'
 
 const WA_LINK = `https://wa.me/212663449200?text=${encodeURIComponent(
   "Bonjour Nextinotech, je souhaite un diagnostic pour l'ingénierie de formation de mon entreprise.",
@@ -154,32 +155,8 @@ const LIVRABLES = [
   "Système d'évaluation (à chaud / à froid) et tableau de bord de suivi",
 ]
 
-const FAQS = [
-  {
-    q: "Qu'est-ce qu'une ingénierie de formation, concrètement ?",
-    a: "C'est une méthode structurée qui part des vrais besoins de votre entreprise — stratégie, dysfonctionnements terrain, écarts de compétences — pour construire un plan de formation chiffré et priorisé, plutôt que d'acheter des formations au hasard des catalogues.",
-  },
-  {
-    q: 'Est-ce finançable ?',
-    a: "Oui. Au Maroc, une partie du coût peut être pris en charge par le GIAC de votre secteur (GIAC TRANSLOG pour le transport et la logistique, ou l'organisme équivalent de votre branche) et par l'OFPPT via la Taxe de Formation Professionnelle. Nous montons le dossier de prise en charge avec vous.",
-  },
-  {
-    q: 'Combien de temps dure la mission ?',
-    a: 'Comptez 6 à 8 semaines pour une entreprise de 50 à 150 collaborateurs, du premier entretien à la remise du rapport final — variable selon le nombre de sites et de départements à couvrir.',
-  },
-  {
-    q: 'Faut-il ensuite passer par Nextinotech pour les formations ?',
-    a: "Non. Le plan de formation vous appartient. Vous êtes libre de le déployer avec l'organisme de formation de votre choix. Notre seule obligation contractuelle porte sur le diagnostic et le plan — c'est aussi pour cela que nous ne touchons aucune commission sur les formations recommandées.",
-  },
-  {
-    q: 'Que se passe-t-il si le dossier de financement est refusé ?',
-    a: "À ce jour, 100% des dossiers de financement que nous avons accompagnés ont été acceptés — parce que nous vérifions votre éligibilité réelle (adhésion GIAC, situation TFP/CNSS) dès le premier échange, avant tout engagement, et que nous ne montons pas de dossier qui n'a pas de chances raisonnables d'aboutir.",
-  },
-  {
-    q: 'Mes données RH et financières sont-elles protégées ?',
-    a: "Oui. Le diagnostic implique des données sensibles (masse salariale, organisation, pyramide des âges). Elles sont traitées de façon confidentielle, conformément à la loi 09-08 sur la protection des données personnelles, et l'accès à votre dossier sur NextiSuivi est réservé à votre équipe et à votre consultant.",
-  },
-]
+// FAQ : src/data/pageFaq.ts (INGENIERIE_FAQ), partagée avec le JSON-LD FAQPage.
+const FAQS = INGENIERIE_FAQ
 
 const schema = {
   '@context': 'https://schema.org',

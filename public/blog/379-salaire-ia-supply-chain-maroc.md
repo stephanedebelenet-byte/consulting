@@ -26,7 +26,7 @@ Les postes hybrides nouveaux — référent IA, analyste augmenté — apparaiss
 | Postes hybrides nouveaux (référent IA) | Prime observée, en particulier dans les grands groupes |
 | Postes de direction | Attendu comme différenciateur, encore émergent |
 
-> **La compétence IA n'est pas encore un critère salarial dominant au Maroc, mais elle devient un critère de sélection à l'embauche entre deux profils équivalents.** C'est souvent là, plutôt que dans la grille elle-même, que se joue l'avantage concurrentiel du candidat. Complète notre article sur le [recrutement d'un profil IA appliquée à la supply chain](/blog/recruter-un-profil-ia-applique-la-supply-chain).
+> **La compétence IA n'est pas encore un critère salarial dominant au Maroc, mais elle devient un critère de sélection à l'embauche entre deux profils équivalents.** C'est souvent là, plutôt que dans la grille elle-même, que se joue l'avantage concurrentiel du candidat. Complète notre article sur le [recrutement d'un profil IA appliquée à la supply chain](/blog/recruter-un-profil-ia-appliquee-a-la-supply-chain).
 
 ## Ce qu'il faut retenir
 

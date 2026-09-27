@@ -14,7 +14,7 @@ description: "Playbook IA pour la logistique minière et chimique marocaine : pl
 
 **La logistique du vrac minier et chimique marocain — au premier rang, l'écosystème OCP — fonctionne à une échelle qui rend chaque point de pourcentage d'efficacité train-port immédiatement significatif en volume.** C'est un terrain où l'IA de planification et de maintenance prédictive a le plus d'histoire au niveau mondial, et le ROI le mieux documenté — pourtant encore sous-exploité au-delà des plus grands acteurs marocains.
 
-> **Dans le vrac minier, un gain d'efficacité de 2% sur une interface se traduit en volumes considérables sur une année.** C'est ce qui justifie des investissements IA que d'autres secteurs ne pourraient pas amortir aussi vite. Complète notre article sur la [maintenance prédictive des équipements](/blog/maintenance-prdictive-des-quipements-dentrept-et-de-la-flott).
+> **Dans le vrac minier, un gain d'efficacité de 2% sur une interface se traduit en volumes considérables sur une année.** C'est ce qui justifie des investissements IA que d'autres secteurs ne pourraient pas amortir aussi vite. Complète notre article sur la [maintenance prédictive des équipements](/blog/maintenance-predictive-des-equipements-d-entrepot-et-de-la).
 
 ::stat:: 13 milliards de dollars — l'investissement OCP-Fortescue annoncé dans l'hydrogène vert, qui va exiger une chaîne logistique entièrement nouvelle à construire
 
