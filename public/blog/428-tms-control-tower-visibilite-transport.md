@@ -12,7 +12,7 @@ description: "Le TMS optimise une tournée. Le control tower décide s'il faut l
 
 ![Transport et distribution logistique](/images/transport.webp)
 
-**Le TMS planifie et optimise le transport ; le control tower décide, en cours de route, s'il faut dérouter un camion, prioriser une livraison ou alerter un client d'un retard.** La différence tient à un seul élément : le TMS raisonne sur un plan établi à l'avance, le control tower raisonne sur l'écart entre ce plan et la réalité, minute par minute.
+**Le TMS planifie et optimise le transport ; le control tower décide, en cours de route, s'il faut dérouter un camion, prioriser une livraison ou alerter un client d'un retard.** La différence tient à un seul élément : le TMS raisonne sur un plan établi à l'avance, le control tower raisonne sur l'écart entre ce plan et la réalité, minute par minute. (Pour la définition complète d'un TMS, voir notre [guide dédié](/blog/qu-est-ce-qu-un-tms-definition-et-accompagnement-maroc).)
 
 ## Ce que le control tower a besoin de voir depuis le TMS
 

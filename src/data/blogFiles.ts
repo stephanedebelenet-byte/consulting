@@ -540,4 +540,9 @@ export const BLOG_FILES: string[] = [
     '545-promotions-impact-logistique',
     '546-logistique-ramadan-aid-pics-demande',
     '547-risk-management-supply-chain-maroc',
+    '548-wms-maroc-guide-complet',
+    '549-tms-maroc-guide-complet',
+    '550-ams-maroc-guide-complet',
+    '551-ims-maroc-guide-complet',
+    '552-iot-supply-chain-maroc-guide-complet',
   ]

@@ -12,7 +12,7 @@ description: "La majorité des fausses alertes d'un control tower viennent d'un 
 
 ![Données et pilotage supply chain](/images/analytics.webp)
 
-**L'IMS (Inventory Management System) est le système qui calcule les niveaux de stock, les seuils de réapprovisionnement et les prévisions de rupture — c'est lui qui fournit au control tower la matière première de la majorité de ses alertes.** Contrairement au WMS, qui gère la localisation physique dans un entrepôt donné, l'IMS raisonne au niveau de la référence, tous sites confondus : c'est la vue consolidée dont un control tower multi-sites a besoin pour détecter une rupture avant qu'elle ne se matérialise.
+**L'IMS (Inventory Management System) est le système qui calcule les niveaux de stock, les seuils de réapprovisionnement et les prévisions de rupture — c'est lui qui fournit au control tower la matière première de la majorité de ses alertes.** Contrairement au WMS, qui gère la localisation physique dans un entrepôt donné, l'IMS raisonne au niveau de la référence, tous sites confondus : c'est la vue consolidée dont un control tower multi-sites a besoin pour détecter une rupture avant qu'elle ne se matérialise. (Pour la définition complète et la différence avec le WMS, voir notre [guide dédié](/blog/ims-au-maroc-guide-complet-gestion-des-stocks-consolidee).)
 
 ## Pourquoi la majorité des fausses alertes viennent de l'IMS
 

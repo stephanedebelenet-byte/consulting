@@ -11,7 +11,7 @@ description: "Comment réussir le déploiement d'un WMS au Maroc : 5 phases, bud
 
 60% des projets WMS échouent. Pas "échouent" dans le sens où le logiciel ne fonctionne pas — mais échouent dans le sens où les résultats attendus ne sont jamais atteints : la productivité ne s'améliore pas, les erreurs persistent, les équipes contournent le système, et 18 mois après le go-live, on se demande pourquoi on a dépensé autant.
 
-J'ai accompagné plus d'une douzaine de projets WMS au Maroc — chez DHL, des groupes de distribution, des industriels et des PME. Voici ce qui fait réellement la différence entre un projet qui tient ses promesses et un projet qui finit dans les regrets.
+J'ai accompagné plus d'une douzaine de projets WMS au Maroc — chez DHL, des groupes de distribution, des industriels et des PME. Voici ce qui fait réellement la différence entre un projet qui tient ses promesses et un projet qui finit dans les regrets. (Vous n'avez pas encore choisi votre système ? Voir d'abord notre [guide complet WMS au Maroc](/blog/wms-au-maroc-guide-complet-2026-definition-prix-choix) — définition, prix et critères de sélection.)
 
 ![Digitalisation logistique — déploiement WMS et systèmes entrepôt au Maroc](/images/analytics.webp)
 

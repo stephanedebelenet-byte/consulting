@@ -29,7 +29,7 @@ Un WMS Mini SaaS (80 000 à 130 000 MAD HT, 6 à 10 semaines) convient à un ent
 
 ## Ce qu'il faut retenir
 
-La question n'est pas "faut-il un WMS" dans l'absolu, mais "à quel volume mon entrepôt a-t-il dépassé ce qu'un suivi manuel peut gérer correctement". Un diagnostic rapide permet de trancher avant d'investir.
+La question n'est pas "faut-il un WMS" dans l'absolu, mais "à quel volume mon entrepôt a-t-il dépassé ce qu'un suivi manuel peut gérer correctement". Un diagnostic rapide permet de trancher avant d'investir. Pour une vue d'ensemble — définition, fonctionnalités, prix et critères de choix — voir notre [guide complet WMS au Maroc](/blog/wms-au-maroc-guide-complet-2026-definition-prix-choix).
 
 **Notre approche.** Diagnostic Express en 2 à 6 semaines pour évaluer si votre volume justifie un WMS, et lequel des trois niveaux correspond à votre réalité terrain.
 

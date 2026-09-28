@@ -12,7 +12,7 @@ description: "Une interopérabilité robuste commence par trois référentiels a
 
 ![Données et pilotage supply chain](/images/analytics.webp)
 
-**Une entreprise qui utilise un ERP pour son pilotage global, un WMS pour son entrepôt et un TMS pour son transport possède trois systèmes chacun expert dans son domaine — mais qui, sans connexion robuste entre eux, produisent des données incohérentes plutôt qu'une vision unifiée.** Le WMS gère l'entrepôt, le TMS gère le transport, et ensemble avec l'ERP, ils garantissent en théorie la traçabilité complète du flux logistique — en théorie seulement, car sans une intégration bien construite, chaque système développe sa propre version de la réalité, avec des écarts qui s'accumulent et finissent par coûter cher en erreurs opérationnelles.
+**Une entreprise qui utilise un ERP pour son pilotage global, un WMS pour son entrepôt et un TMS pour son transport possède trois systèmes chacun expert dans son domaine — mais qui, sans connexion robuste entre eux, produisent des données incohérentes plutôt qu'une vision unifiée.** Le WMS gère l'entrepôt, le TMS gère le transport, et ensemble avec l'ERP, ils garantissent en théorie la traçabilité complète du flux logistique — en théorie seulement, car sans une intégration bien construite, chaque système développe sa propre version de la réalité, avec des écarts qui s'accumulent et finissent par coûter cher en erreurs opérationnelles. Pour la définition complète de chaque système avant de les connecter, voir nos guides [WMS au Maroc](/blog/wms-au-maroc-guide-complet-2026-definition-prix-choix) et [TMS au Maroc](/blog/qu-est-ce-qu-un-tms-definition-et-accompagnement-maroc).
 
 ## Le point de départ qui détermine tout le reste
 
