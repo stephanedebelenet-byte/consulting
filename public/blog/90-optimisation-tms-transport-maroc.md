@@ -13,7 +13,7 @@ Le transport représente en moyenne 8 à 15% du chiffre d'affaires d'une entrepr
 
 Les taux de chargement qui plafonnent à 60%, les tournées sous-optimisées qui font 40 km de plus que nécessaire, les transporteurs qui ne sont jamais évalués, les factures transport qui ne sont jamais rapprochées des bons de livraison — tout ça a un coût. Un TMS, correctement choisi, déployé et maîtrisé par les équipes, règle ces problèmes et peut réduire le coût transport de 10 à 20%. Mais un TMS mal choisi, mal implémenté ou mal maîtrisé devient une dépense supplémentaire sans retour.
 
-Voici ce que nous avons appris après 12+ projets transport au Maroc.
+Voici ce que nous avons appris après 12+ projets transport au Maroc. (Pour la définition complète d'un TMS et le budget d'un accompagnement de sélection et déploiement, voir aussi notre [guide dédié](/blog/qu-est-ce-qu-un-tms-definition-et-accompagnement-maroc).)
 
 ![Optimisation transport et logistique — TMS et gestion des flux au Maroc](/images/analytics.webp)
 

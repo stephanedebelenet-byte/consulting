@@ -12,7 +12,7 @@ description: "Un control tower n'a pas besoin de tout le WMS, seulement de 5 flu
 
 ![Entrepôt et gestion des flux logistiques](/images/hero-warehouse.webp)
 
-**Un control tower ne réplique pas le WMS, il en extrait un sous-ensemble précis : niveaux de stock par référence critique, statut des commandes en préparation, ruptures et écarts d'inventaire, taux de service par site.** Le reste — l'emplacement exact d'une palette, le détail d'une tâche de préparation — reste l'affaire du WMS. Confondre les deux rôles est l'erreur la plus fréquente dans les projets control tower côté entrepôt.
+**Un control tower ne réplique pas le WMS, il en extrait un sous-ensemble précis : niveaux de stock par référence critique, statut des commandes en préparation, ruptures et écarts d'inventaire, taux de service par site.** Le reste — l'emplacement exact d'une palette, le détail d'une tâche de préparation — reste l'affaire du WMS. Confondre les deux rôles est l'erreur la plus fréquente dans les projets control tower côté entrepôt. (Pour la définition complète d'un WMS, son prix et comment le choisir, voir notre [guide dédié](/blog/wms-au-maroc-guide-complet-2026-definition-prix-choix).)
 
 ## Ce que le WMS doit transmettre, et ce qu'il doit garder pour lui
 

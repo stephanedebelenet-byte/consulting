@@ -12,7 +12,7 @@ description: "Équiper un site de capteurs ne suffit pas à créer un control to
 
 ![Données et pilotage supply chain](/images/charts.webp)
 
-**Plus de 90% des entrepôts utilisent déjà ou prévoient d'adopter des capteurs IoT et de l'IA d'ici 2027 — mais équiper un site de capteurs ne crée pas un control tower utile si les données ne déclenchent aucune décision** ([Itransition](https://www.itransition.com/iot/logistics)). Le coût de l'infrastructure de capteurs, entre 100 000 et 400 000 dollars par site, justifie de choisir précisément où l'IoT apporte une valeur de pilotage plutôt que d'équiper uniformément.
+**Plus de 90% des entrepôts utilisent déjà ou prévoient d'adopter des capteurs IoT et de l'IA d'ici 2027 — mais équiper un site de capteurs ne crée pas un control tower utile si les données ne déclenchent aucune décision** ([Itransition](https://www.itransition.com/iot/logistics)). Le coût de l'infrastructure de capteurs, entre 100 000 et 400 000 dollars par site, justifie de choisir précisément où l'IoT apporte une valeur de pilotage plutôt que d'équiper uniformément. (Voir notre [guide complet IoT supply chain au Maroc](/blog/iot-supply-chain-au-maroc-guide-complet-2026) pour les cas d'usage à retour rapide.)
 
 ## Les capteurs qui alimentent vraiment une décision
 

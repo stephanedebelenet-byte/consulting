@@ -12,7 +12,7 @@ description: "Un chariot élévateur immobilisé sans que personne ne le sache c
 
 ![Entrepôt et gestion des flux logistiques](/images/hero-warehouse.webp)
 
-**L'AMS (Asset Management System) gère le cycle de vie des actifs logistiques — flotte de transport, engins de manutention, équipements de stockage : localisation, statut, maintenance et traçabilité. Sans remontée de ces données vers le control tower, un équipement immobilisé ou mal utilisé reste invisible jusqu'à ce que quelqu'un s'en aperçoive physiquement sur site.**
+**L'AMS (Asset Management System) gère le cycle de vie des actifs logistiques — flotte de transport, engins de manutention, équipements de stockage : localisation, statut, maintenance et traçabilité. Sans remontée de ces données vers le control tower, un équipement immobilisé ou mal utilisé reste invisible jusqu'à ce que quelqu'un s'en aperçoive physiquement sur site.** (Pour la définition complète et l'adoption d'un AMS, voir notre [guide dédié](/blog/ams-au-maroc-guide-complet-gestion-des-actifs-logistiques).)
 
 ## Ce que l'AMS change concrètement sur le terrain
 
