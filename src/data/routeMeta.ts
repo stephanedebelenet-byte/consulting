@@ -11,12 +11,12 @@
 // fichiers llms.txt (voir audit UI/UX — vente indirecte par le contenu) :
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
-import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, buildProgrammesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
-import { PROGRAMMES_EN, FAQ_EN } from './formationsEn'
-import { generateFAQSchema } from '../utils/seoData'
-import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq'
-import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS, OFFER_TIERS_EN, CONTROL_TOWER_FAQ_EN, CONTROL_TOWER_VIDEO_EN, CONTROL_TOWER_SCREENS_EN } from './controlTower'
+import { VILLES, buildVilleSchema } from './villesFormation.ts'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, buildProgrammesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations.ts'
+import { PROGRAMMES_EN, FAQ_EN } from './formationsEn.ts'
+import { generateFAQSchema } from '../utils/seoData.ts'
+import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq.ts'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS, OFFER_TIERS_EN, CONTROL_TOWER_FAQ_EN, CONTROL_TOWER_VIDEO_EN, CONTROL_TOWER_SCREENS_EN } from './controlTower.ts'
 
 export interface PrerenderRoute {
   path: string

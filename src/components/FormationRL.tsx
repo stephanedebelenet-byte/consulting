@@ -4,6 +4,9 @@ import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import PageMeta from './PageMeta'
 import SchemaScript from './SchemaHelper'
+import { SESSIONS } from '../data/formations'
+import { SESSIONS_EN } from '../data/formationsEn'
+import { useLocale } from '../i18n/locale'
 
 /* ─── Constants ─────────────────────────────────────────── */
 const PHONE = '212663449200'
@@ -12,7 +15,12 @@ const WA_MSG = encodeURIComponent(
 )
 const WA_LINK = `https://wa.me/${PHONE}?text=${WA_MSG}`
 const EMAIL_LINK = `mailto:contact@nextinotech.com?subject=Inscription%20formation%20Responsable%20Logistique`
-const PLACES = 5
+function sessionDateLabel(date: string, locale: 'fr' | 'en'): string {
+  const monthNames = locale === 'en'
+    ? { Sep: 'September', Oct: 'October', Nov: 'November', Déc: 'December' }
+    : { Sep: 'septembre', Oct: 'octobre', Nov: 'novembre', Déc: 'décembre' }
+  return date.replace(/Sep|Oct|Nov|Déc/, (month) => monthNames[month as keyof typeof monthNames])
+}
 
 /* ─── Data ───────────────────────────────────────────────── */
 const CIBLES = [
@@ -149,13 +157,23 @@ function CTAButton({ children, href, primary = true, large = false }: {
       }}
       onMouseEnter={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = 'var(--navy)', el.style.borderColor = 'var(--navy)')
-                : (el.style.background = 'var(--blue-bright)', el.style.color = '#ffffff')
+        if (primary) {
+          el.style.background = 'var(--navy)'
+          el.style.borderColor = 'var(--navy)'
+        } else {
+          el.style.background = 'var(--blue-bright)'
+          el.style.color = '#ffffff'
+        }
       }}
       onMouseLeave={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = 'var(--blue-bright)', el.style.borderColor = 'var(--blue-bright)')
-                : (el.style.background = 'transparent', el.style.color = 'var(--blue-bright)')
+        if (primary) {
+          el.style.background = 'var(--blue-bright)'
+          el.style.borderColor = 'var(--blue-bright)'
+        } else {
+          el.style.background = 'transparent'
+          el.style.color = 'var(--blue-bright)'
+        }
       }}
     >
       {children}
@@ -554,7 +572,7 @@ function InscriptionSection() {
    stable entre les re-renders (FAQ, apparition du CTA sticky) : défini à
    l'intérieur de FormationRL(), React le traitait comme un nouveau composant
    à chaque re-render et rejouait son animation d'entrée sans raison. ── */
-const UrgencyBadge = () => (
+const UrgencyBadge = ({ label }: { label: string }) => (
   <motion.div
     initial={{ opacity: 0, scale: 0.9 }}
     animate={{ opacity: 1, scale: 1 }}
@@ -567,7 +585,7 @@ const UrgencyBadge = () => (
   >
     <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#2f6fb5', display: 'inline-block', animation: 'pulse 1.5s infinite' }} />
     <span style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.62rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)' }}>
-      {PLACES} places disponibles — Prochaine session
+      {label}
     </span>
   </motion.div>
 )
@@ -578,6 +596,16 @@ export default function FormationRL() {
   const [showSticky, setShowSticky] = useState(false)
   const statsRef = useRef<HTMLDivElement>(null)
   const statsInView = useInView(statsRef, { once: true, margin: '-80px' })
+  const { locale, tr } = useLocale()
+  const sessions = locale === 'en' ? SESSIONS_EN : SESSIONS
+  const nextSession = sessions.flatMap((month) => month.sessions).find((session) => session.id === 'rl')
+  const sessionPlaces = nextSession?.places ?? null
+  const nextSessionLabel = nextSession
+    ? tr(`${sessionPlaces ?? ''} places disponibles · ${sessionDateLabel(nextSession.date, 'fr')}`, `${sessionPlaces ?? ''} seats available · ${sessionDateLabel(nextSession.date, 'en')}`)
+    : tr('Prochaines dates à venir', 'Upcoming dates coming soon')
+  const placesLabel = sessionPlaces === null
+    ? tr('Dates à confirmer', 'Dates to be confirmed')
+    : tr(`${sessionPlaces} places disponibles`, `${sessionPlaces} seats available`)
 
   /* Sticky CTA on scroll */
   useEffect(() => {
@@ -590,7 +618,7 @@ export default function FormationRL() {
     <div className="grain" style={{ background: 'var(--paper)', minHeight: '100vh', color: 'var(--navy)' }}>
       <PageMeta
         title="Formation Responsable Logistique — Casablanca | Nextinotech"
-        description="Formation intensive 1 journée pour devenir Responsable Logistique. Hôtel 5 étoiles Casablanca. 1 500 MAD tout inclus. Formateur 20+ ans terrain. Places limitées à 8 participants."
+        description="Formation intensive d’une journée pour devenir Responsable Logistique à Casablanca. Tarif tout inclus, formateur expérimenté et prochaines dates de session publiées selon le calendrier disponible."
         canonical="https://nextinotech.com/formation-rl"
       />
       <SchemaScript schema={courseSchema} />
@@ -602,7 +630,7 @@ export default function FormationRL() {
             Devenir Responsable Logistique
           </div>
           <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--mid)', marginTop: '0.15rem' }}>
-            1 500 MAD · 1 journée · Hôtel 5★ · {PLACES} places restantes
+            1 500 MAD · 1 journée · Hôtel 5★ · {placesLabel}
           </div>
         </div>
         <a
@@ -629,7 +657,7 @@ export default function FormationRL() {
         <div className="section-inner frl-hero-grid" style={{ position: 'relative', zIndex: 1, display: 'grid', gridTemplateColumns: '1.05fr 1fr', gap: '4rem', alignItems: 'center' }}>
           <div>
             <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-              <UrgencyBadge />
+              <UrgencyBadge label={nextSessionLabel} />
             </motion.div>
 
             <motion.div
@@ -1039,7 +1067,7 @@ export default function FormationRL() {
         <div className="section-inner" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '3rem' }}>
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.6)', marginBottom: '1rem' }}>
-              {PLACES} places disponibles
+              {placesLabel}
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: '#ffffff', margin: '0 0 1rem' }}>
               Votre prochaine<br />

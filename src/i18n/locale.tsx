@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- Provider, hooks et helpers constituent l’API i18n */
 import { createContext, useContext, type ReactNode } from 'react'
 
 // Infrastructure d'internationalisation (anglais, 27/09/2026). Le site est

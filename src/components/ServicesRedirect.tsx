@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- mapping d’URL partagé avec la navigation */
 import { Navigate } from 'react-router-dom'
 
 // /services a été scindée en /conseil et /prestations. Cette redirection couvre

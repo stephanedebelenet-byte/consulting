@@ -118,13 +118,23 @@ function CTAButton({ children, href, primary = true, large = false }: {
       }}
       onMouseEnter={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = 'var(--navy)', el.style.borderColor = 'var(--navy)')
-                : (el.style.background = 'var(--blue-bright)', el.style.color = '#ffffff')
+        if (primary) {
+          el.style.background = 'var(--navy)'
+          el.style.borderColor = 'var(--navy)'
+        } else {
+          el.style.background = 'var(--blue-bright)'
+          el.style.color = '#ffffff'
+        }
       }}
       onMouseLeave={e => {
         const el = e.currentTarget as HTMLElement
-        primary ? (el.style.background = 'var(--blue-bright)', el.style.borderColor = 'var(--blue-bright)')
-                : (el.style.background = 'transparent', el.style.color = 'var(--blue-bright)')
+        if (primary) {
+          el.style.background = 'var(--blue-bright)'
+          el.style.borderColor = 'var(--blue-bright)'
+        } else {
+          el.style.background = 'transparent'
+          el.style.color = 'var(--blue-bright)'
+        }
       }}
     >
       {children}

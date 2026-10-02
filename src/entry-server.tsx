@@ -13,8 +13,8 @@
 // remplace intégralement ce HTML statique dès que le bundle client s'exécute.
 // Aucun risque de mismatch d'hydratation.
 import { renderToStaticMarkup } from 'react-dom/server'
-import { StaticRouter } from 'react-router-dom/server'
-import { AppRoutes } from './App'
+import { StaticRouter } from 'react-router'
+import { AppRoutes } from './App.server'
 
 export { primeMarkdown } from './data/markdownPreload'
 

@@ -1,5 +1,5 @@
 // English mirror of formations.ts — kept in sync manually.
-import { WA, EMAIL } from './formations'
+import { WA, EMAIL, filterUpcomingSessions } from './formations.ts'
 
 export const PROGRAMMES_EN = [
   {
@@ -868,7 +868,7 @@ export const FAQ_EN = [
 ]
 
 /* ─── Data — 2026 Calendar ─────────────────────────────────── */
-export const SESSIONS_EN = [
+const SCHEDULE_2026_EN = [
   { mois: 'September', sessions: [
     { date: '18 Sep', titre: 'Logistics Manager', format: 'inter', places: 5, id: 'rl' },
     { date: '25–26 Sep', titre: 'DDMRP Practitioner', format: 'inter', places: 8, id: 'ddmrp' },
@@ -902,3 +902,5 @@ export const SESSIONS_EN = [
     { date: '18 Déc', titre: 'Generative AI for Supply Chain & Procurement', format: 'inter', places: 14, id: 'ia-supply-chain' },
   ]},
 ]
+
+export const SESSIONS_EN = filterUpcomingSessions(SCHEDULE_2026_EN)

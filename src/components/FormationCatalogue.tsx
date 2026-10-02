@@ -307,6 +307,13 @@ export default function FormationCatalogue() {
   const programmes = locale === 'en' ? PROGRAMMES_EN : PROGRAMMES
   const faq = locale === 'en' ? FAQ_EN : FAQ
   const sessions = locale === 'en' ? SESSIONS_EN : SESSIONS
+  const rlSessions = sessions.flatMap((month) => month.sessions).filter((session) => session.id === 'rl')
+  const displaySessionDate = (date: string) => locale === 'en'
+    ? date.replace('Sep', 'Sep').replace('Oct', 'Oct').replace('Nov', 'Nov').replace('Déc', 'Dec')
+    : date.replace('Sep', 'Septembre').replace('Oct', 'Octobre').replace('Nov', 'Novembre').replace('Déc', 'Décembre')
+  const sessionRange = sessions.length > 0
+    ? `${sessions[0].mois} — ${sessions[sessions.length - 1].mois} 2026.`
+    : tr('Dates à venir prochainement.', 'New dates coming soon.')
   const wa = locale === 'en' ? WA_EN : WA
 
   const filtered = activeTab === 'all' ? programmes : programmes.filter(p => p.domaine === activeTab)
@@ -330,8 +337,8 @@ export default function FormationCatalogue() {
           'Supply Chain, Lean, Management, Finance, Project & Career Training — Nextinotech'
         )}
         description={tr(
-          '30 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.',
-          '30 training programs across 7 domains: Supply Chain, Operational, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house. Catalogue and 2026 calendar.'
+          '30 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Formations inter et intra-entreprise au Maroc.',
+          '30 training programs across 7 domains: Supply Chain, Operational, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house training in Morocco.'
         )}
         canonical={`https://nextinotech.com${href('/formation')}`}
       />
@@ -497,7 +504,7 @@ export default function FormationCatalogue() {
         </div>
       </section>
 
-      {/* ── Calendrier 2026 (fait partie de la Section 2) ── */}
+      {/* ── Calendrier des prochaines sessions ── */}
       <section style={{ background: 'var(--dark-2)', padding: '6rem 4rem 8rem', color: 'var(--navy)' }}>
         <div className="section-inner">
           <Reveal>
@@ -506,11 +513,11 @@ export default function FormationCatalogue() {
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 5rem' }}>
               {tr('Calendrier', 'Calendar')}<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('Septembre — Décembre 2026.', 'September — December 2026.')}</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{sessionRange}</span>
             </h2>
           </Reveal>
 
-          <div className="formation-calendar-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2px' }}>
+          {sessions.length > 0 ? <div className="formation-calendar-grid" style={{ display: 'grid', gridTemplateColumns: `repeat(${Math.min(sessions.length, 4)}, 1fr)`, gap: '2px' }}>
             {sessions.map((month, mi) => (
               <Reveal key={month.mois} delay={mi * 0.08}>
                 <div style={{ background: '#fff', padding: '2.5rem', minHeight: 300 }}>
@@ -547,7 +554,7 @@ export default function FormationCatalogue() {
                 </div>
               </Reveal>
             ))}
-          </div>
+          </div> : <p>{tr('Les prochaines dates de formation seront publiées ici.', 'Upcoming training dates will be published here.')}</p>}
 
           {/* Legend + note */}
           <Reveal delay={0.2}>
@@ -628,26 +635,22 @@ export default function FormationCatalogue() {
             {/* Right — upcoming dates */}
             <Reveal delay={0.12}>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.58rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>
-                {tr('Prochaines sessions 2026', 'Upcoming 2026 sessions')}
+                {tr('Prochaines sessions', 'Upcoming sessions')}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                {[
-                  { date: tr('18 Septembre 2026', 'September 18, 2026'), places: 5, status: tr('Ouvert', 'Open') },
-                  { date: tr('23 Octobre 2026', 'October 23, 2026'), places: 6, status: tr('Ouvert', 'Open') },
-                  { date: tr('13 Novembre 2026', 'November 13, 2026'), places: 8, status: tr('Ouvert', 'Open') },
-                  { date: tr('11 Décembre 2026', 'December 11, 2026'), places: 4, status: tr('Dernières places', 'Last seats') },
-                ].map((s, i) => (
-                  <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem 1.5rem', background: i % 2 === 0 ? '#fff' : 'var(--dark-2)', borderLeft: `2px solid ${s.places <= 4 ? 'var(--blue-bright)' : 'var(--border)'}` }}>
+                {rlSessions.map((s, i) => (
+                  <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem 1.5rem', background: i % 2 === 0 ? '#fff' : 'var(--dark-2)', borderLeft: `2px solid ${(s.places ?? 0) <= 4 ? 'var(--blue-bright)' : 'var(--border)'}` }}>
                     <div>
-                      <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, color: 'var(--navy)' }}>{s.date}</div>
-                      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', color: 'var(--mid)', marginTop: '0.2rem', textTransform: 'uppercase' }}>{tr(`${s.places} places disponibles`, `${s.places} seats available`)}</div>
+                      <div style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', fontWeight: 600, color: 'var(--navy)' }}>{displaySessionDate(s.date)} 2026</div>
+                      <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', color: 'var(--mid)', marginTop: '0.2rem', textTransform: 'uppercase' }}>{tr(`${s.places ?? 0} places disponibles`, `${s.places ?? 0} seats available`)}</div>
                     </div>
-                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: s.places <= 4 ? 'var(--blue-bright)' : 'var(--mid)', fontWeight: s.places <= 4 ? 700 : 400 }}>
-                      {s.status}
+                    <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.52rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: (s.places ?? 0) <= 4 ? 'var(--blue-bright)' : 'var(--mid)', fontWeight: (s.places ?? 0) <= 4 ? 700 : 400 }}>
+                      {(s.places ?? 0) <= 4 ? tr('Dernières places', 'Last seats') : tr('Ouvert', 'Open')}
                     </div>
                   </div>
                 ))}
               </div>
+              {rlSessions.length === 0 && <p>{tr('Les prochaines dates seront communiquées prochainement.', 'Upcoming dates will be announced soon.')}</p>}
               <div style={{ marginTop: '2rem', padding: '1.5rem', background: 'rgba(47,111,181,0.06)', borderLeft: '2px solid var(--blue-bright)' }}>
                 <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.55rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--blue-bright)', marginBottom: '0.5rem' }}>{tr('Session intra disponible', 'In-house session available')}</div>
                 <div style={{ fontSize: '0.88rem', color: 'var(--dark-muted)', lineHeight: 1.6, fontWeight: 300 }}>
