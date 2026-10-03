@@ -344,16 +344,43 @@ console.log(`\n[check-seo-consistency] ${checked}/${locs.length} URL du sitemap 
 // numéro cité doit correspondre à un article du registre src/data/blogFiles.ts.
 {
   const registrySrc = readFileSync(join(ROOT, 'src', 'data', 'blogFiles.ts'), 'utf-8')
-  const published = new Set(
-    new Function('return ' + registrySrc.slice(registrySrc.indexOf('= [') + 2))().map((f) => parseInt(f, 10))
-  )
+  const registryFiles = new Function('return ' + registrySrc.slice(registrySrc.indexOf('= [') + 2))()
+  const published = new Set(registryFiles.map((f) => parseInt(f, 10)))
   // Les webinaires (src/data/evenements.ts) sont publiés en pages /evenements/.
-  for (const m of readFileSync(join(ROOT, 'src', 'data', 'evenements.ts'), 'utf-8').matchAll(/file: '(\d+)-/g)) published.add(parseInt(m[1], 10))
+  const eventFiles = new Set()
+  for (const m of readFileSync(join(ROOT, 'src', 'data', 'evenements.ts'), 'utf-8').matchAll(/file: '([^']+)'/g)) {
+    eventFiles.add(m[1])
+    published.add(parseInt(m[1], 10))
+  }
   const full = existsSync(LLMS_FULL_PATH) ? readFileSync(LLMS_FULL_PATH, 'utf-8') : ''
   const cited = [...full.matchAll(/^- (\d{1,3}) :/gm)].map((m) => parseInt(m[1], 10))
   const ghosts = [...new Set(cited.filter((n) => !published.has(n)))]
   if (ghosts.length) {
     fail(`llms-full.txt cite ${ghosts.length} article(s) non publié(s) : n° ${ghosts.slice(0, 10).join(', ')} — les retirer du catalogue`)
+  }
+
+  // Les nouveaux articles numérotés à la fin du registre doivent figurer dans
+  // le catalogue LLM. Le contrôle précédent détectait les articles retirés,
+  // mais pas les nouveaux ajouts oubliés (547–552 en octobre 2026).
+  const maxCited = Math.max(0, ...cited)
+  const missingLatest = registryFiles
+    .filter((file) => /^\d+-/.test(file) && !eventFiles.has(file))
+    .map((file) => ({ id: parseInt(file, 10), file }))
+    .filter(({ id }) => id > maxCited)
+  if (missingLatest.length) {
+    fail(`llms-full.txt ne référence pas les derniers articles publiés : ${missingLatest.map(({ id }) => id).join(', ')} — ajoute-les au catalogue`)
+  }
+
+  const expectedBlogPages = registryFiles.filter((file) => !eventFiles.has(file)).length
+  for (const [name, content, pattern] of [
+    ['llms.txt', existsSync(LLMS_PATH) ? readFileSync(LLMS_PATH, 'utf-8') : '', /Blog — Ressources Supply Chain \((\d+) articles\)/],
+    ['llms-full.txt', full, /Catalogue Blog — (\d+) Articles Supply Chain/],
+  ]) {
+    const match = content.match(pattern)
+    if (!match) fail(`${name} ne déclare pas le nombre de pages de blog`)
+    else if (Number(match[1]) !== expectedBlogPages) {
+      fail(`${name} annonce ${match[1]} articles, mais le registre en publie ${expectedBlogPages}`)
+    }
   }
 }
 

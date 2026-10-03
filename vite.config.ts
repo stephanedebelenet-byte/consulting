@@ -24,8 +24,8 @@ const EVENEMENT_FILES = new Set(EVENEMENTS.map((e) => e.file))
 // Ressources hors routes React (fichiers texte statiques) mais qui doivent
 // tout de même figurer dans le sitemap généré.
 const SITEMAP_EXTRAS: { loc: string; lastmod: string; changefreq: string; priority: number }[] = [
-  { loc: '/llms.txt', lastmod: '2026-08-05', changefreq: 'monthly', priority: 0.6 },
-  { loc: '/llms-full.txt', lastmod: '2026-08-05', changefreq: 'monthly', priority: 0.6 },
+  { loc: '/llms.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
+  { loc: '/llms-full.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
 ]
 
 /* ── Articles de blog : scan des .md + génération d'un HTML statique par article ── */
