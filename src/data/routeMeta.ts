@@ -263,7 +263,7 @@ const STATIC: PrerenderRoute[] = [
     jsonLd: [programmesSchema],
     priority: 0.95,
     changefreq: 'weekly',
-    lastmod: '2026-08-06',
+    lastmod: '2026-10-02',
     isOffer: true,
     altPath: '/en/training',
   },
@@ -275,7 +275,7 @@ const STATIC: PrerenderRoute[] = [
     jsonLd: [rlCourseSchema],
     priority: 0.9,
     changefreq: 'weekly',
-    lastmod: '2026-08-31',
+    lastmod: '2026-10-02',
     isOffer: true,
   },
   {
@@ -692,7 +692,7 @@ const EN_ROUTES: PrerenderRoute[] = [
       '30 training programs across 7 domains: Supply Chain, Lean, Management, Finance, Project, Career. Public and in-house sessions, 2026 calendar.',
     priority: 0.95,
     changefreq: 'weekly',
-    lastmod: '2026-09-27',
+    lastmod: '2026-10-02',
     isOffer: true,
     altPath: '/formation',
     jsonLd: [buildProgrammesSchema(PROGRAMMES_EN, FAQ_EN, {

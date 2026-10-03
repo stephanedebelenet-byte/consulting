@@ -100,9 +100,9 @@ Détail : https://nextinotech.com/control-tower — piloter la supply chain en t
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (512 articles)
+## Blog — Ressources Supply Chain (515 articles)
 
-Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 512 articles organisés en thèmes :
+Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 515 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
 Audit supply chain, diagnostic logistique, FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.
@@ -207,6 +207,15 @@ Série de 100 articles de référence sur les méthodes et le contexte opératio
 - **Infrastructures logistiques du Maroc** (517-526) : carte logistique 2026, Nador West Med, port Dakhla Atlantique, Coupe du Monde 2030, fret ferroviaire ONCF, zones logistiques AMDL et Zenata, Kénitra Atlantic Free Zone, port de Casablanca, Oriental, provinces du Sud.
 - **Métiers de la logistique** (527-536) : panorama des métiers, magasinier, cariste, approvisionneur, déclarant en douane, affréteur, responsable ADV, demand planner, responsable achats, chef de quai.
 - **Distribution & commerce** (537-546) : distribution vers le commerce traditionnel, tournées de proximité, grossiste ou distributeur exclusif, VMI, CPFR, omnicanal, click & collect, prévente vs vente-livraison, promotions, logistique du Ramadan et de l'Aïd.
+
+### Risques et systèmes Supply Chain (articles 547-552)
+Gestion des risques Supply Chain au Maroc, puis guides pratiques des systèmes WMS, TMS, AMS, IMS et IoT : choix, périmètre fonctionnel, intégration et contribution au pilotage par Control Tower.
+- **Risk Management Supply Chain** : https://nextinotech.com/blog/supply-chain-risk-management-au-maroc-guide-pratique
+- **WMS au Maroc** : https://nextinotech.com/blog/wms-au-maroc-guide-complet-2026-definition-prix-choix
+- **TMS au Maroc** : https://nextinotech.com/blog/qu-est-ce-qu-un-tms-definition-et-accompagnement-maroc
+- **AMS au Maroc** : https://nextinotech.com/blog/ams-au-maroc-guide-complet-gestion-des-actifs-logistiques
+- **IMS au Maroc** : https://nextinotech.com/blog/ims-au-maroc-guide-complet-gestion-des-stocks-consolidee
+- **IoT Supply Chain au Maroc** : https://nextinotech.com/blog/iot-supply-chain-au-maroc-guide-complet-2026
 
 La liste exhaustive des URLs d'articles figure dans https://nextinotech.com/sitemap.xml.
 
