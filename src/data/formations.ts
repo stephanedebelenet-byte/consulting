@@ -872,7 +872,37 @@ export const FAQ = [
 ]
 
 /* ─── Data — Calendrier 2026 ───────────────────────────────── */
-export const SESSIONS = [
+const MONTHS_2026: Record<string, string> = { Sep: '09', Sept: '09', Oct: '10', Nov: '11', 'Déc': '12', Dec: '12' }
+
+function todayInMorocco(): string {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Africa/Casablanca', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).formatToParts(new Date())
+  const part = (type: string) => parts.find((item) => item.type === type)?.value ?? ''
+  return `${part('year')}-${part('month')}-${part('day')}`
+}
+
+function sessionToDates(date: string): { startDate: string; endDate: string } | null {
+  const parts = date.trim().split(' ')
+  const month = MONTHS_2026[parts[parts.length - 1]]
+  if (!month) return null
+  const [firstDay, lastDay] = parts[0].replace(/[–]/g, '-').split('-')
+  const pad = (day: string) => day.padStart(2, '0')
+  const startDate = `2026-${month}-${pad(firstDay)}`
+  return { startDate, endDate: lastDay ? `2026-${month}-${pad(lastDay)}` : startDate }
+}
+
+export function filterUpcomingSessions<T extends { sessions: { date: string }[] }>(calendar: T[]): T[] {
+  const today = todayInMorocco()
+  return calendar
+    .map((month) => ({ ...month, sessions: month.sessions.filter((session) => {
+      const dates = sessionToDates(session.date)
+      return dates !== null && dates.endDate >= today
+    }) }))
+    .filter((month) => month.sessions.length > 0)
+}
+
+const SCHEDULE_2026 = [
   { mois: 'Septembre', sessions: [
     { date: '18 Sep', titre: 'Responsable Logistique', format: 'inter', places: 5, id: 'rl' },
     { date: '25–26 Sep', titre: 'DDMRP Practitioner', format: 'inter', places: 8, id: 'ddmrp' },
@@ -907,21 +937,11 @@ export const SESSIONS = [
   ]},
 ]
 
+export const SESSIONS = filterUpcomingSessions(SCHEDULE_2026)
+
 /* ─── Schema.org — construit à partir des données ci-dessus ── */
 export const ORG_ID = 'https://nextinotech.com/#organization'
 export const ACADEMIE_ID = 'https://nextinotech.com/#academie' // Nextinotech Académie, prestataire des formations (index.html)
-const MONTHS_2026: Record<string, string> = { Sep: '09', Oct: '10', Nov: '11', 'Déc': '12' }
-
-function sessionToDates(date: string): { startDate: string; endDate: string } | null {
-  const parts = date.trim().split(' ')
-  const mo = MONTHS_2026[parts[parts.length - 1]]
-  if (!mo) return null
-  const [d1, d2] = parts[0].replace(/[–]/g, '-').split('-')
-  const pad = (d: string) => d.padStart(2, '0')
-  const startDate = `2026-${mo}-${pad(d1)}`
-  return { startDate, endDate: d2 ? `2026-${mo}-${pad(d2)}` : startDate }
-}
-
 export const instancesByProgram: Record<string, { startDate: string; endDate: string; format: string }[]> = {}
 for (const block of SESSIONS) {
   for (const s of block.sessions) {
@@ -1209,7 +1229,7 @@ export const RL_FAQ: { q: string; a: string }[] = [
   { q: "Quelle est votre politique d’annulation ?", a: "Annulation gratuite jusqu’à 7 jours avant la session. Après ce délai, possibilité de reporter sur la session suivante sans frais. En cas d’annulation de notre part (session insuffisamment remplie), remboursement intégral immédiat." },
 ]
 
-const RL_SESSIONS_2026 = ['2026-09-18', '2026-10-23', '2026-11-13', '2026-12-11']
+const RL_SESSIONS_2026 = ['2026-09-18', '2026-10-23', '2026-11-13', '2026-12-11'].filter((date) => date >= todayInMorocco())
 const rlOffer = { '@type': 'Offer', price: 1500, priceCurrency: 'MAD', category: 'Formation professionnelle', availability: 'https://schema.org/InStock', url: 'https://nextinotech.com/formation-rl' }
 
 export const rlCourseSchema = {

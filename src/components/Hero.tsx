@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
@@ -146,15 +146,11 @@ function NetworkSVG() {
 }
 
 export default function Hero() {
-  const [textVisible, setTextVisible] = useState(true)
+  const textVisible = true
   const heroRef = useRef<HTMLElement>(null)
   const { locale, tr, href } = useLocale()
   const lines = locale === 'en' ? LINES_EN : LINES
   const stats = locale === 'en' ? STATS_EN : STATS
-
-  useEffect(() => {
-    setTextVisible(true)
-  }, [])
 
   /* ─ Parallax on scroll ─ */
   useEffect(() => {

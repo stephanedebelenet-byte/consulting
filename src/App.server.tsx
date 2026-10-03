@@ -3,48 +3,44 @@
 // statique, et le chargeur de config Vite ne sait pas lire un import CSS.
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { lazy, Suspense } from 'react'
 import Layout from './components/Layout'
 import { LocaleProvider, type Locale } from './i18n/locale'
+import HomePage from './pages/HomePage'
+import ConseilPage from './pages/ConseilPage'
+import PrestationsPage from './pages/PrestationsPage'
 import ServicesRedirect from './components/ServicesRedirect'
+import ReferencesPage from './pages/ReferencesPage'
+import FormationPage from './pages/FormationPage'
+import FormationRLPage from './pages/FormationRLPage'
+import FormationImportPage from './pages/FormationImportPage'
+import FormationVillePage from './pages/FormationVillePage'
 import { VILLES } from './data/villesFormation'
-const HomePage = lazy(() => import('./pages/HomePage'))
-const ConseilPage = lazy(() => import('./pages/ConseilPage'))
-const PrestationsPage = lazy(() => import('./pages/PrestationsPage'))
-const ReferencesPage = lazy(() => import('./pages/ReferencesPage'))
-const FormationPage = lazy(() => import('./pages/FormationPage'))
-const FormationRLPage = lazy(() => import('./pages/FormationRLPage'))
-const FormationImportPage = lazy(() => import('./pages/FormationImportPage'))
-const FormationVillePage = lazy(() => import('./pages/FormationVillePage'))
-const FormationProgrammePage = lazy(() => import('./pages/FormationProgrammePage'))
-const AProposPage = lazy(() => import('./pages/AProposPage'))
-const BlogPage = lazy(() => import('./pages/BlogPage'))
-const EvenementPage = lazy(() => import('./pages/EvenementPage'))
-const MarquageTracabilitePage = lazy(() => import('./pages/MarquageTracabilitePage'))
-const CarteNfcPage = lazy(() => import('./pages/CarteNfcPage'))
-const ContactPage = lazy(() => import('./pages/ContactPage'))
-const ConfidentialitePage = lazy(() => import('./pages/ConfidentialitePage'))
-const DimensionnementEntrepotPage = lazy(() => import('./pages/DimensionnementEntrepotPage'))
-const ProductiviteEnginsPage = lazy(() => import('./pages/ProductiviteEnginsPage'))
-const CoutGlobalEntrepotPage = lazy(() => import('./pages/CoutGlobalEntrepotPage'))
-const FaqPage = lazy(() => import('./pages/FaqPage'))
-const DemoWmsPage = lazy(() => import('./pages/DemoWmsPage'))
-const DemoTmsPage = lazy(() => import('./pages/DemoTmsPage'))
-const DemoApsPage = lazy(() => import('./pages/DemoApsPage'))
-const CarrierePage = lazy(() => import('./pages/CarrierePage'))
-const DirecteurLogistiqueMiTempsPage = lazy(() => import('./pages/DirecteurLogistiqueMiTempsPage'))
-const DirecteurAchatsMiTempsPage = lazy(() => import('./pages/DirecteurAchatsMiTempsPage'))
-const DirectionSCTempsPartagePage = lazy(() => import('./pages/DirectionSCTempsPartagePage'))
-const DscVsRecrutementCdiPage = lazy(() => import('./pages/DscVsRecrutementCdiPage'))
-const AccompagnementOeaPage = lazy(() => import('./pages/AccompagnementOeaPage'))
-const IngenierieFormationPage = lazy(() => import('./pages/IngenierieFormationPage'))
-const CatalogueMetiersPage = lazy(() => import('./pages/CatalogueMetiersPage'))
-const ControlTowerPage = lazy(() => import('./pages/ControlTowerPage'))
-const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
+import FormationProgrammePage from './pages/FormationProgrammePage'
+import AProposPage from './pages/AProposPage'
+import BlogPage from './pages/BlogPage'
+import EvenementPage from './pages/EvenementPage'
+import MarquageTracabilitePage from './pages/MarquageTracabilitePage'
+import CarteNfcPage from './pages/CarteNfcPage'
+import ContactPage from './pages/ContactPage'
+import ConfidentialitePage from './pages/ConfidentialitePage'
+import DimensionnementEntrepotPage from './pages/DimensionnementEntrepotPage'
+import ProductiviteEnginsPage from './pages/ProductiviteEnginsPage'
+import CoutGlobalEntrepotPage from './pages/CoutGlobalEntrepotPage'
+import FaqPage from './pages/FaqPage'
+import DemoWmsPage from './pages/DemoWmsPage'
+import DemoTmsPage from './pages/DemoTmsPage'
+import DemoApsPage from './pages/DemoApsPage'
+import CarrierePage from './pages/CarrierePage'
+import DirecteurLogistiqueMiTempsPage from './pages/DirecteurLogistiqueMiTempsPage'
+import DirecteurAchatsMiTempsPage from './pages/DirecteurAchatsMiTempsPage'
+import DirectionSCTempsPartagePage from './pages/DirectionSCTempsPartagePage'
+import DscVsRecrutementCdiPage from './pages/DscVsRecrutementCdiPage'
+import AccompagnementOeaPage from './pages/AccompagnementOeaPage'
+import IngenierieFormationPage from './pages/IngenierieFormationPage'
+import CatalogueMetiersPage from './pages/CatalogueMetiersPage'
+import ControlTowerPage from './pages/ControlTowerPage'
+import NotFoundPage from './pages/NotFoundPage'
 
-// Les pages restent synchrones pendant le build SSR pour que le HTML remis
-// aux robots contienne leur corps complet. Dans le navigateur, chaque route
-// est chargée à la demande pour réduire le JavaScript initial.
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
@@ -73,7 +69,6 @@ function AnimatedRoutes() {
   const routeKey = location.pathname.startsWith('/blog') ? '/blog' : location.pathname
   return (
     <AnimatePresence mode="wait">
-      <Suspense fallback={<div className="page-loading" role="status">Chargement…</div>}>
       <Routes location={location} key={routeKey}>
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/en" element={<PageTransition><HomePage /></PageTransition>} />
@@ -127,7 +122,6 @@ function AnimatedRoutes() {
         <Route path="/ingenierie-formation/catalogue" element={<PageTransition><CatalogueMetiersPage /></PageTransition>} />
         <Route path="*" element={<PageTransition><NotFoundPage /></PageTransition>} />
       </Routes>
-      </Suspense>
     </AnimatePresence>
   )
 }

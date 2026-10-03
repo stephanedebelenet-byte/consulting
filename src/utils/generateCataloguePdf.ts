@@ -38,12 +38,7 @@ export async function generateCataloguePdf(): Promise<void> {
   const topMargin = 24
   const bottomLimit = pageHeight - 24
 
-  let logo: { dataUrl: string; ratio: number } | null = null
-  try {
-    logo = await loadImageAsDataUrl('/logo-lockup.png')
-  } catch {
-    logo = null
-  }
+  const logo = await loadImageAsDataUrl('/logo-lockup.png').catch(() => null)
 
   let y = topMargin
   let pageCount = 1

@@ -2,14 +2,14 @@ import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs'
 import { resolve, join } from 'node:path'
-import { getPrerenderRoutes, type PrerenderRoute } from './src/data/routeMeta'
-import { slugify } from './src/utils/slugify'
-import { EVENEMENTS } from './src/data/evenements'
-import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides'
-import { parseMarkdown } from './src/utils/markdownParser'
-import { offerLinksFor, offerLinksHtml } from './src/data/offerLinks'
-import { extractArticleFaq } from './src/utils/articleFaq'
-import { BLOG_FILES } from './src/data/blogFiles'
+import { getPrerenderRoutes, type PrerenderRoute } from './src/data/routeMeta.ts'
+import { slugify } from './src/utils/slugify.ts'
+import { EVENEMENTS } from './src/data/evenements.ts'
+import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides.ts'
+import { parseMarkdown } from './src/utils/markdownParser.ts'
+import { offerLinksFor, offerLinksHtml } from './src/data/offerLinks.ts'
+import { extractArticleFaq } from './src/utils/articleFaq.ts'
+import { BLOG_FILES } from './src/data/blogFiles.ts'
 
 // Registre des articles publiés (source unique, voir src/data/blogFiles.ts).
 const PUBLISHED_BLOG_FILES = new Set(BLOG_FILES)
@@ -36,7 +36,7 @@ function blogSlug(title: string): string {
 
 function parseFrontmatter(md: string): Record<string, string> {
   const fm: Record<string, string> = {}
-  const src = md.replace(/^﻿/, '')
+  const src = md.replace(/^\uFEFF/, '')
   if (!src.startsWith('---')) return fm
   const end = src.indexOf('\n---', 3)
   if (end < 0) return fm
@@ -319,7 +319,13 @@ function prerenderHeads(): Plugin {
       }
       let count = 0
       const routes = [...getPrerenderRoutes(), ...getBlogRoutes()]
+      const seenRoutes = new Set<string>()
       for (const route of routes) {
+        const routeKey = route.path === '/' ? '/' : route.path.replace(/\/+$/, '')
+        if (seenRoutes.has(routeKey)) {
+          throw new Error(`URL prérendue dupliquée : ${route.path}`)
+        }
+        seenRoutes.add(routeKey)
         try {
           const html = renderRoute(shell, route)
           const rel = route.path.replace(/^\//, '').replace(/\/$/, '')
@@ -339,13 +345,11 @@ function prerenderHeads(): Plugin {
       writeFileSync(join(dist, '404.html'), render404(shell), 'utf-8')
 
       this.info?.(`prerender-heads: ${count} pages générées`)
-      // eslint-disable-next-line no-console
       console.log(`\n[prerender-heads] ${count} pages HTML générées avec <head> statique`)
 
       const sitemap = generateSitemapXML(routes)
       writeFileSync(join(dist, 'sitemap.xml'), sitemap, 'utf-8')
       const urlCount = routes.length + SITEMAP_EXTRAS.length
-      // eslint-disable-next-line no-console
       console.log(`[prerender-heads] sitemap.xml généré (${urlCount} URLs)`)
 
       // Liste des pages « offre » (isOffer && !hidden), matérialisée en JSON pour

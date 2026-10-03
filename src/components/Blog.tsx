@@ -93,7 +93,7 @@ export default function Blog() {
   useEffect(() => {
     const slug = params.slug || searchParams.get('post')
     if (!slug) {
-      setSelectedPost(null)
+      setSelectedPost(null) // eslint-disable-line react-hooks/set-state-in-effect -- l’URL est la source de vérité pour fermer un article
       return
     }
     if (posts.length === 0) return
