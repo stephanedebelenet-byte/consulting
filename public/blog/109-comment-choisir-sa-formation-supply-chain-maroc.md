@@ -90,7 +90,7 @@ Nextinotech propose des formations supply chain conçues par des praticiens pour
 
 Formats disponibles : présentiel Casablanca, intra-entreprise, et accompagnement individuel.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 39 programmes, 7 domaines, calendrier 2026 et programmation 2027 à confirmer. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** pour recevoir le catalogue complet :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

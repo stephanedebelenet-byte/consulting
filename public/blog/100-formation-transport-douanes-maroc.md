@@ -216,7 +216,7 @@ Un régime qui permet l'import temporaire de marchandises pour transformation pu
 
 Nextinotech forme les équipes achats, logistique et commerce international au Maroc sur les compétences transport et douanes. Nos formateurs ont une expérience terrain des procédures ADII et des négociations d'Incoterms avec des fournisseurs asiatiques, européens et africains.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 39 programmes, 7 domaines, calendrier 2026 et programmation 2027 à confirmer. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 Contactez-nous pour un devis : **contact@nextinotech.com** · **+212 06 63 44 92 00**
 

@@ -17,6 +17,7 @@
     "video:render:stats": "remotion render remotion/index.ts StatsReveal public/videos/stats-reveal.mp4",
     "gsc:submit-sitemap": "node scripts/gsc.mjs submit-sitemap",
     "gsc:coverage-report": "node scripts/gsc.mjs coverage-report",
+    "gsc:performance-report": "node scripts/gsc.mjs performance-report",
     "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {

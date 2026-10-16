@@ -330,8 +330,8 @@ export default function FormationCatalogue() {
           'Supply Chain, Lean, Management, Finance, Project & Career Training — Nextinotech'
         )}
         description={tr(
-          '30 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Catalogue et calendrier 2026.',
-          '30 training programs across 7 domains: Supply Chain, Operational, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house. Catalogue and 2026 calendar.'
+          '39 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Calendrier 2026 et programmation 2027 sur demande.',
+          '39 training programs across 7 domains: Supply Chain, Operations, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house. 2026 calendar and 2027 dates on request.'
         )}
         canonical={`https://nextinotech.com${href('/formation')}`}
       />
@@ -367,12 +367,12 @@ export default function FormationCatalogue() {
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 660, margin: '0 0 2rem' }}>
               {tr(
                 <>Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
-                30 programmes sur 7 domaines, du{' '}
+                39 programmes sur 7 domaines, notamment en supply chain, logistique opérationnelle, douane et commerce international, du{' '}
                 <Link to={href('/formation-rl')} style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
                 à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
                 Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.</>,
                 <>Nextinotech trains logistics and supply chain professionals in Morocco:
-                30 programs across 7 domains, from{' '}
+                39 programs across 7 domains, including supply chain, operational logistics, customs and international trade, from{' '}
                 <Link to={href('/formation-rl')} style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>logistics manager</Link>{' '}
                 to buyer, public sessions in Casablanca and in-house sessions anywhere in Morocco.
                 CSF (OFPPT) / GIAC funding support possible — a training agreement is issued upon enrollment.</>
@@ -449,7 +449,7 @@ export default function FormationCatalogue() {
                   {tr('02 / Catalogue & calendrier', '02 / Catalogue & calendar')}
                 </div>
                 <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
-                  {tr('30 programmes.', '30 programs.')}<br />
+                  {tr('39 programmes.', '39 programs.')}<br />
                   <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr("7 domaines d'expertise.", '7 areas of expertise.')}</span>
                 </h2>
               </div>
@@ -497,7 +497,7 @@ export default function FormationCatalogue() {
         </div>
       </section>
 
-      {/* ── Calendrier 2026 (fait partie de la Section 2) ── */}
+      {/* ── Calendrier 2026 et programmation 2027 à confirmer ── */}
       <section style={{ background: 'var(--dark-2)', padding: '6rem 4rem 8rem', color: 'var(--navy)' }}>
         <div className="section-inner">
           <Reveal>
@@ -506,11 +506,11 @@ export default function FormationCatalogue() {
             </div>
             <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: '0 0 5rem' }}>
               {tr('Calendrier', 'Calendar')}<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('Septembre — Décembre 2026.', 'September — December 2026.')}</span>
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('Septembre — Décembre 2026 · programmation 2027.', 'September — December 2026 · 2027 programme.')}</span>
             </h2>
           </Reveal>
 
-          <div className="formation-calendar-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2px' }}>
+          <div className="formation-calendar-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2px' }}>
             {sessions.map((month, mi) => (
               <Reveal key={month.mois} delay={mi * 0.08}>
                 <div style={{ background: '#fff', padding: '2.5rem', minHeight: 300 }}>

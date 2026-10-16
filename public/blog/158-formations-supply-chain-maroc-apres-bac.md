@@ -110,7 +110,7 @@ Oui, en grande partie : 78 % des recruteurs supply chain marocains déclarent re
 
 Nextinotech accompagne les étudiants dans leur orientation formation et les entreprises dans le développement des compétences de leurs équipes supply chain.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 39 programmes, 7 domaines, calendrier 2026 et programmation 2027 à confirmer. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contactez-nous** :
 📧 contact@nextinotech.com | 📞 +212 663 449 200

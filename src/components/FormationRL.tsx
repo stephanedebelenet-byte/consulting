@@ -81,9 +81,10 @@ import { RL_FAQ as FAQS, rlCourseSchema as courseSchema } from '../data/formatio
    relevé par Lighthouse. rAF synchronise nativement chaque mise à jour
    avec la peinture réelle du navigateur. */
 function useCountUp(target: number, duration = 1800, trigger = false) {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(target)
   useEffect(() => {
     if (!trigger) return
+    setCount(0)
     let rafId: number
     const start = performance.now()
     const tick = (now: number) => {

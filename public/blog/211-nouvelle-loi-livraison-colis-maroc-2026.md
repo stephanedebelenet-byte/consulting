@@ -69,6 +69,7 @@ Contactez-moi pour en parler : contact@nextinotech.com | +212 06 63 44 92 00.
 *Youssef B, fondateur de Nextinotech — 20+ ans d'expérience supply chain au Maroc et en Afrique francophone.*
 
 **Sources consultées pour cet article :**
+- [Secrétariat général du gouvernement — avant-projet de loi relatif à la poste et aux télécommunications](https://www.sgg.gov.ma/portals/0/AvantProjet/284/Avp_Loi_36.25_Fr.pdf)
 - [Le Matin.ma — Livraison de colis : prison, amendes et agréments](https://lematin.ma/economie/livraison-de-colisle-maroc-prepare-un-cadre-legal-pour-assainir-le-secteur/345448)
 - [Consonews — Livraison e-commerce : le Maroc prépare un tour de vis historique](https://consonews.ma/65954.html)
 - [LODJ.ma — Projet de loi 36-25 sur la messagerie express](https://www.lodj.ma/%E2%80%8BProjet-de-loi-36-25-sur-la-messagerie-express-oui-a-la-regulation-mais-pas-a-l-etouffement-entrepreneurial_a174342.html)

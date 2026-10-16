@@ -10,7 +10,7 @@ import PageHero from '../components/PageHero'
 const LINKS = [
   { to: '/', label: 'Accueil', desc: 'Le cabinet, nos offres et nos références.' },
   { to: '/conseil', label: 'Conseil', desc: 'Diagnostic, stocks et DDMRP, achats, schéma logistique, AMOA.' },
-  { to: '/formation', label: 'Formations', desc: '30 programmes Supply Chain, Lean, Management, Finance, Projet.' },
+  { to: '/formation', label: 'Formations', desc: '39 programmes Supply Chain, logistique, Lean, Management et Finance.' },
   { to: '/prestations', label: 'Prestations', desc: 'Inventaires, services logistiques à valeur ajoutée, Control Tower.' },
   { to: '/blog', label: 'Blog', desc: 'Plus de 400 articles Supply Chain, Logistique et Achats au Maroc.' },
   { to: '/contact', label: 'Contact', desc: 'Un échange sous 24h, Casablanca.' },

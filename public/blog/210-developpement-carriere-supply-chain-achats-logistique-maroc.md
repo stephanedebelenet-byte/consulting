@@ -62,7 +62,7 @@ Nextinotech propose une formation d'une journée, **Développement de Carrière 
 
 Si votre plan à 3-5 ans démarre par une prise de poste opérationnelle, notre programme **[Devenir Responsable Logistique](/formation-rl)** (1 journée, 1 500 MAD TTC) est souvent la première étape.
 
-Pour compléter votre plan de carrière, consultez aussi nos articles sur [négocier son salaire en supply chain](/blog/141-negocier-salaire-supply-chain-maroc.md) et sur les [techniques de négociation achats](/blog/119-formation-negociation-achats-maroc.md).
+Pour compléter votre plan de carrière, consultez aussi nos articles sur [négocier son salaire en supply chain](/blog/negocier-son-salaire-en-supply-chain-au-maroc-techniques-et) et sur les [techniques de négociation achats](/blog/formation-negociation-achats-au-maroc-techniques-et-cas).
 
 ## En Résumé
 

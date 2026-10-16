@@ -76,7 +76,7 @@ Nextinotech propose une formation d'une journée dédiée à ce sujet : **Préve
 
 👉 **[Voir le programme complet et les autres formations du catalogue](/formation)**
 
-Pour aller plus loin sur la structuration de votre équipe et de votre propre trajectoire, consultez aussi nos articles sur les [salaires supply chain au Maroc en 2026](/blog/133-salaires-supply-chain-maroc-2026.md) et sur l'[évolution de carrière en supply chain](/blog/140-evolution-carriere-supply-chain-maroc.md).
+Pour aller plus loin sur la structuration de votre équipe et de votre propre trajectoire, consultez aussi nos articles sur les [salaires supply chain au Maroc en 2026](/blog/salaires-supply-chain-au-maroc-2026-guide-complet-par-poste) et sur l'[évolution de carrière en supply chain](/blog/evolution-de-carriere-en-supply-chain-au-maroc-plan-sur-10).
 
 ## En Résumé
 

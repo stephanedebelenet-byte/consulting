@@ -35,7 +35,7 @@ function CountUp({ target, suffix = '', triggerRef }: {
       },
     })
   }, [target, suffix, triggerRef])
-  return <span ref={elRef}>0{suffix}</span>
+  return <span ref={elRef}>{target}{suffix}</span>
 }
 
 export default function Impact() {

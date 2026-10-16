@@ -18,6 +18,11 @@
  *     l'export manuel "Couverture" de Search Console. Respecte un délai
  *     entre appels pour rester sous le quota de l'API.
  *
+ *   node scripts/gsc.mjs performance-report
+ *     Exporte localement les performances Web sur les 16 derniers mois,
+ *     séparées par page, requête et paire requête/page, dans un fichier
+ *     gitignoré utile à l'audit de cannibalisation.
+ *
  * Authentification : compte de service Google Cloud, ajouté comme
  * utilisateur "Propriétaire" (Owner) de la propriété nextinotech.com dans
  * Search Console. Voir PLAN_INDEXATION_HUMANISATION.md, section
@@ -61,6 +66,15 @@ async function getClient() {
   return google.searchconsole({ version: 'v1', auth })
 }
 
+async function getReadOnlyClient() {
+  const keyFile = loadCredentials()
+  const auth = new google.auth.GoogleAuth({
+    keyFile,
+    scopes: ['https://www.googleapis.com/auth/webmasters.readonly'],
+  })
+  return google.searchconsole({ version: 'v1', auth })
+}
+
 function extractSitemapUrls() {
   // Le sitemap est désormais généré au build (vite.config.ts), plus un
   // fichier statique dans public/ — on lit la version buildée.
@@ -82,7 +96,7 @@ function sleep(ms) {
 }
 
 async function coverageReport() {
-  const searchconsole = await getClient()
+  const searchconsole = await getReadOnlyClient()
   const urls = extractSitemapUrls()
   console.log(`[gsc] ${urls.length} URLs à inspecter (≈${Math.ceil(urls.length * 1.1 / 60)} min, 1 req/1.1s pour rester sous le quota).`)
 
@@ -127,11 +141,60 @@ async function coverageReport() {
   console.log(`[gsc] Indexées: ${indexed}/${urls.length} — Non indexées: ${notIndexed}/${urls.length} — Erreurs: ${errors}`)
 }
 
+async function performanceReport() {
+  const searchconsole = await getReadOnlyClient()
+  const end = new Date()
+  end.setUTCDate(end.getUTCDate() - 1)
+  const start = new Date(end)
+  start.setUTCMonth(start.getUTCMonth() - 16)
+  const date = (value) => value.toISOString().slice(0, 10)
+  const startDate = date(start)
+  const endDate = date(end)
+
+  async function fetchRows(dimensions) {
+    const rows = []
+    const rowLimit = 25000
+    for (let startRow = 0; ; startRow += rowLimit) {
+      const { data } = await searchconsole.searchanalytics.query({
+        siteUrl: SITE_URL,
+        requestBody: {
+          startDate,
+          endDate,
+          dimensions,
+          dataState: 'final',
+          rowLimit,
+          startRow,
+        },
+      })
+      const page = data.rows ?? []
+      rows.push(...page)
+      if (page.length < rowLimit) break
+    }
+    return rows
+  }
+
+  const report = {
+    generatedAt: new Date().toISOString(),
+    siteUrl: SITE_URL,
+    searchType: 'web',
+    startDate,
+    endDate,
+    pages: await fetchRows(['page']),
+    queries: await fetchRows(['query']),
+    queryPages: await fetchRows(['query', 'page']),
+  }
+  const outPath = resolve(ROOT, 'gsc-performance-report.json')
+  writeFileSync(outPath, JSON.stringify(report, null, 2), 'utf8')
+  console.log(`[gsc] Rapport de performances écrit : ${outPath}`)
+  console.log(`[gsc] Pages: ${report.pages.length} — Requêtes: ${report.queries.length} — Paires requête/page: ${report.queryPages.length}`)
+}
+
 async function main() {
   const cmd = process.argv[2]
   if (cmd === 'submit-sitemap') return submitSitemap()
   if (cmd === 'coverage-report') return coverageReport()
-  console.log('Usage: node scripts/gsc.mjs <submit-sitemap|coverage-report>')
+  if (cmd === 'performance-report') return performanceReport()
+  console.log('Usage: node scripts/gsc.mjs <submit-sitemap|coverage-report|performance-report>')
   process.exit(1)
 }
 
