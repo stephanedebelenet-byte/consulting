@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- données client partagées entre plusieurs pages */
 import { motion } from 'framer-motion'
 
 export const LOGOS = [

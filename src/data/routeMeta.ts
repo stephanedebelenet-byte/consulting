@@ -11,12 +11,12 @@
 // fichiers llms.txt (voir audit UI/UX — vente indirecte par le contenu) :
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
-import { VILLES, buildVilleSchema } from './villesFormation'
-import { PROGRAMMES, buildProgrammeSchema, programmesSchema, buildProgrammesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations'
-import { PROGRAMMES_EN, FAQ_EN } from './formationsEn'
-import { generateFAQSchema } from '../utils/seoData'
-import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq'
-import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS, OFFER_TIERS_EN, CONTROL_TOWER_FAQ_EN, CONTROL_TOWER_VIDEO_EN, CONTROL_TOWER_SCREENS_EN } from './controlTower'
+import { VILLES, buildVilleSchema } from './villesFormation.ts'
+import { PROGRAMMES, buildProgrammeSchema, programmesSchema, buildProgrammesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations.ts'
+import { PROGRAMMES_EN, FAQ_EN } from './formationsEn.ts'
+import { generateFAQSchema } from '../utils/seoData.ts'
+import { PAGE_FAQ, INGENIERIE_FAQ } from './pageFaq.ts'
+import { OFFER_TIERS, CONTROL_TOWER_FAQ, CONTROL_TOWER_VIDEO, CONTROL_TOWER_SCREENS, OFFER_TIERS_EN, CONTROL_TOWER_FAQ_EN, CONTROL_TOWER_VIDEO_EN, CONTROL_TOWER_SCREENS_EN } from './controlTower.ts'
 
 export interface PrerenderRoute {
   path: string
@@ -269,7 +269,7 @@ const STATIC: PrerenderRoute[] = [
     jsonLd: [programmesSchema],
     priority: 0.95,
     changefreq: 'weekly',
-    lastmod: '2026-08-06',
+    lastmod: '2026-10-02',
     isOffer: true,
     altPath: '/en/training',
   },
@@ -281,7 +281,7 @@ const STATIC: PrerenderRoute[] = [
     jsonLd: [rlCourseSchema],
     priority: 0.9,
     changefreq: 'weekly',
-    lastmod: '2026-08-31',
+    lastmod: '2026-10-02',
     isOffer: true,
   },
   {
@@ -698,7 +698,7 @@ const EN_ROUTES: PrerenderRoute[] = [
       '39 training programs in Supply Chain, Logistics, Management and more. Public and in-company courses across Morocco; 2026 calendar, 2027 dates on request.',
     priority: 0.95,
     changefreq: 'weekly',
-    lastmod: '2026-09-27',
+    lastmod: '2026-10-02',
     isOffer: true,
     altPath: '/formation',
     jsonLd: [buildProgrammesSchema(PROGRAMMES_EN, FAQ_EN, {

@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- données partagées avec le catalogue et la FAQ */
 import { useRef, useState } from 'react'
 import { IS_SERVER } from '../utils/ssr'
 import { Link } from 'react-router-dom'
