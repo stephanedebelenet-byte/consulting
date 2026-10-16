@@ -101,7 +101,7 @@ Les sessions sont organisées chaque mois ; la date de la prochaine session est 
 
 ---
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 30 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 39 programmes, 7 domaines, calendrier 2026 et programmation 2027 à confirmer. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Contact:** contact@nextinotech.com | +212 663 449 200
 

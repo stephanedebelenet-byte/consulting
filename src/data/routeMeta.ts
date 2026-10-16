@@ -90,8 +90,14 @@ const SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = 
   },
   '/formation': {
     title: 'Nextinotech Académie : Formations Supply Chain au Maroc',
-    description: '30 programmes de formation sur 7 domaines : Supply Chain, Lean, Management, Finance, Projet, Carrière. Inter et intra-entreprise, calendrier 2026.',
+    description: '39 formations en Supply Chain, Logistique, Management et plus au Maroc. Sessions inter et intra-entreprise ; calendrier 2026, dates 2027 sur demande.',
   },
+  '/formation/gestion-stocks-approvisionnements': { title: 'Formation Gestion Stocks & Approvisionnements au Maroc' },
+  '/formation/prevision-demande-approvisionnements': { title: 'Formation Prévision et Approvisionnement au Maroc' },
+  '/formation/power-bi-logistique-supply-chain': { title: 'Formation Power BI Logistique au Maroc' },
+  '/formation/logistique-chaine-froid-produits-sensibles': { title: 'Formation Logistique Chaîne du Froid au Maroc' },
+  '/formation/transport-routier-couts-performance': { title: 'Formation Transport Routier au Maroc' },
+  '/formation/qualite-donnees-reference-supply-chain': { title: 'Formation Qualité des Données Supply Chain' },
   '/formation-rl': {
     description: 'Formation Responsable Logistique à Casablanca : 1 journée intensive, 1 500 MAD tout inclus. Stocks, transport, KPI, WMS/TMS. Financement CSF / GIAC.',
   },
@@ -689,7 +695,7 @@ const EN_ROUTES: PrerenderRoute[] = [
     path: '/en/training',
     title: 'Nextinotech Academy: Supply Chain Training in Morocco',
     description:
-      '30 training programs across 7 domains: Supply Chain, Lean, Management, Finance, Project, Career. Public and in-house sessions, 2026 calendar.',
+      '39 training programs in Supply Chain, Logistics, Management and more. Public and in-company courses across Morocco; 2026 calendar, 2027 dates on request.',
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: '2026-10-02',

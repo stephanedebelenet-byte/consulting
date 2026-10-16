@@ -341,7 +341,7 @@ export default function Formation() {
                 textTransform: 'uppercase',
                 color: 'rgba(47,111,181,0.6)',
               }}>
-                30 programmes · 7 domaines — Supply Chain, Opérationnel, Lean, Management, Finance, Projet, Carrière
+                39 programmes · 7 domaines — Supply Chain, Opérationnel, Lean, Management, Finance, Projet, Carrière
               </div>
             </div>
 
@@ -414,7 +414,7 @@ export default function Formation() {
             onMouseEnter={e => ((e.currentTarget as HTMLElement).style.background = 'var(--navy)')}
             onMouseLeave={e => ((e.currentTarget as HTMLElement).style.background = 'var(--blue-bright)')}
           >
-            Voir les 30 programmes →
+            Voir les 39 programmes →
           </Link>
         </div>
       </div>

@@ -311,9 +311,13 @@ export default function FormationCatalogue() {
   const displaySessionDate = (date: string) => locale === 'en'
     ? date.replace('Sep', 'Sep').replace('Oct', 'Oct').replace('Nov', 'Nov').replace('Déc', 'Dec')
     : date.replace('Sep', 'Septembre').replace('Oct', 'Octobre').replace('Nov', 'Novembre').replace('Déc', 'Décembre')
-  const sessionRange = sessions.length > 0
-    ? `${sessions[0].mois} — ${sessions[sessions.length - 1].mois} 2026.`
-    : tr('Dates à venir prochainement.', 'New dates coming soon.')
+  const scheduledMonths = sessions.filter((month) => !month.mois.includes('2027'))
+  const has2027Programme = sessions.some((month) => month.mois.includes('2027'))
+  const sessionRange = scheduledMonths.length > 0
+    ? `${scheduledMonths[0].mois} — ${scheduledMonths[scheduledMonths.length - 1].mois} 2026${has2027Programme ? (locale === 'en' ? ' · 2027 dates on request.' : ' · calendrier 2027 sur demande.') : '.'}`
+    : has2027Programme
+      ? (locale === 'en' ? '2027 programme · dates to be confirmed.' : 'Programmation 2027 · dates à confirmer.')
+      : tr('Dates à venir prochainement.', 'New dates coming soon.')
   const wa = locale === 'en' ? WA_EN : WA
 
   const filtered = activeTab === 'all' ? programmes : programmes.filter(p => p.domaine === activeTab)
@@ -337,8 +341,8 @@ export default function FormationCatalogue() {
           'Supply Chain, Lean, Management, Finance, Project & Career Training — Nextinotech'
         )}
         description={tr(
-          '30 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Formations inter et intra-entreprise au Maroc.',
-          '30 training programs across 7 domains: Supply Chain, Operational, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house training in Morocco.'
+          '39 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Calendrier 2026 et programmation 2027 sur demande.',
+          '39 training programs across 7 domains: Supply Chain, Operations, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house. 2026 calendar and 2027 dates on request.'
         )}
         canonical={`https://nextinotech.com${href('/formation')}`}
       />
@@ -374,12 +378,12 @@ export default function FormationCatalogue() {
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.2rem)', color: 'var(--mid)', lineHeight: 1.8, fontWeight: 300, maxWidth: 660, margin: '0 0 2rem' }}>
               {tr(
                 <>Nextinotech forme les professionnels de la logistique et de la supply chain au Maroc :
-                30 programmes sur 7 domaines, du{' '}
+                39 programmes sur 7 domaines, notamment en supply chain, logistique opérationnelle, douane et commerce international, du{' '}
                 <Link to={href('/formation-rl')} style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>responsable logistique</Link>{' '}
                 à l&apos;acheteur, en inter-entreprise à Casablanca et en intra-entreprise partout au Maroc.
                 Prise en charge CSF (OFPPT) / GIAC possible — convention de formation remise à l&apos;inscription.</>,
                 <>Nextinotech trains logistics and supply chain professionals in Morocco:
-                30 programs across 7 domains, from{' '}
+                39 programs across 7 domains, including supply chain, operational logistics, customs and international trade, from{' '}
                 <Link to={href('/formation-rl')} style={{ color: 'var(--blue-bright)', textDecoration: 'none' }}>logistics manager</Link>{' '}
                 to buyer, public sessions in Casablanca and in-house sessions anywhere in Morocco.
                 CSF (OFPPT) / GIAC funding support possible — a training agreement is issued upon enrollment.</>
@@ -421,7 +425,7 @@ export default function FormationCatalogue() {
             }}
           >
             {[
-              { val: '30', label: tr('programmes disponibles', 'programs available') },
+              { val: '39', label: tr('programmes disponibles', 'programs available') },
               { val: '7', label: tr('domaines de formation', 'training domains') },
               { val: '20+', label: tr('ans de terrain formateur', "years of field-tested instruction") },
             ].map((s, i) => (
@@ -456,7 +460,7 @@ export default function FormationCatalogue() {
                   {tr('02 / Catalogue & calendrier', '02 / Catalogue & calendar')}
                 </div>
                 <h2 style={{ fontFamily: 'Manrope, sans-serif', fontSize: 'clamp(2.5rem, 5vw, 6rem)', fontWeight: 800, lineHeight: 0.92, letterSpacing: '-0.025em', color: 'var(--navy)', margin: 0 }}>
-                  {tr('30 programmes.', '30 programs.')}<br />
+                  {tr('39 programmes.', '39 programs.')}<br />
                   <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr("7 domaines d'expertise.", '7 areas of expertise.')}</span>
                 </h2>
               </div>

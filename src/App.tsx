@@ -69,7 +69,7 @@ function AnimatedRoutes() {
   const location = useLocation()
   // /blog et /blog/<slug> partagent une clé : ouvrir ou fermer un article
   // change l'URL sans remonter la page (pas de transition, pas de rechargement
-  // des 512 articles). Les autres pages gardent une clé par adresse.
+  // des 514 articles). Les autres pages gardent une clé par adresse.
   const routeKey = location.pathname.startsWith('/blog') ? '/blog' : location.pathname
   return (
     <AnimatePresence mode="wait">

@@ -27,7 +27,6 @@ const ACADEMIE_ITEMS: SimpleItem[] = [
   { label: 'Nos formations', href: '/formation' },
   { label: 'Ingénierie de Formation', href: '/ingenierie-formation' },
   { label: 'Catalogue par métier', href: '/ingenierie-formation/catalogue' },
-  { label: 'Formation Douane & Import-Export', href: '/formation/douane-import-export' },
 ]
 
 const CONSEIL_ITEMS: SimpleItem[] = [
@@ -73,7 +72,6 @@ const ACADEMIE_ITEMS_EN: SimpleItem[] = [
   { label: 'Our Training Programs', href: '/formation' },
   { label: 'Training Engineering', href: '/ingenierie-formation' },
   { label: 'Catalog by Profession', href: '/ingenierie-formation/catalogue' },
-  { label: 'Customs & Import-Export Training', href: '/formation/douane-import-export' },
 ]
 
 const CONSEIL_ITEMS_EN: SimpleItem[] = [

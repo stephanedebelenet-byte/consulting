@@ -362,7 +362,7 @@ No pressure. We tell you honnêtement what makes sense pour vous.
 
 ---
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 39 programmes, 7 domaines, calendrier 2026 et programmation 2027 à confirmer. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 **Youssef B**  
 Fondateur, Nextinotech — Expert Supply Chain & Transformation Digitale  

@@ -88,7 +88,7 @@ Nextinotech propose des formations supply chain conçues par des praticiens, pou
 
 Pour un premier pas rapide dans le catalogue, notre programme phare reste **[Devenir Responsable Logistique](/formation-rl)** — 1 journée, 1 500 MAD TTC, sessions mensuelles à Casablanca.
 
-👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 27 programmes, 7 domaines, calendrier 2026. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
+👉 **[Voir le catalogue complet des formations Nextinotech](/formation)** — 39 programmes, 7 domaines, calendrier 2026 et programmation 2027 à confirmer. Pour le programme phare, voir la **[formation Responsable Logistique](/formation-rl)** — 1 jour, Casablanca.
 
 ## Contactez-nous
 

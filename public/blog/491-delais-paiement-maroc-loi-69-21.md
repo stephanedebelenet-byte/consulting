@@ -71,6 +71,8 @@ Vous voulez adapter vos processus achats et vos stocks à la loi 69-21 ? [Décou
 *Youssef B — 20+ ans de terrain, 110+ missions, 0 commission éditeur.*
 
 **Sources consultées pour cet article :**
+- [Ministère de l’Économie et des Finances — textes juridiques relatifs à la loi 69-21](https://www.finances.gov.ma/fr/Pages/textes-juridiques.aspx)
+- [Maroc PME — synthèse des dispositions de la loi 69-21](https://marocpme.gov.ma/wp-content/uploads/2024/06/BV-3_MAROCPME_Septembre-2023_VF-2.pdf)
 - [Konta — Loi 69.21 sur les délais de paiement : ce qu'il faut retenir](https://getkonta.tech/loi-69-21-memo/)
 - [FNH — Délais de paiement : « La loi n°69-21 devra être complétée par d'autres initiatives »](https://fnh.ma/article/actualite-entreprises/delais-paiement-loi-69-21)
 - [Cabinet Jawhari — Délais de paiement au Maroc : loi 69-21, sanctions et droits des créanciers](https://avocat-jawhari.com/2024/05/03/delais-paiement-maroc-loi-69-21/)

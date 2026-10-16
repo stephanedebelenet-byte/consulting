@@ -59,9 +59,10 @@ import { IMPORT_FAQ as FAQS, importCourseSchema as courseSchema } from '../data/
 
 /* ─── Hooks ──────────────────────────────────────────────── */
 function useCountUp(target: number, duration = 1800, trigger = false) {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(target)
   useEffect(() => {
     if (!trigger) return
+    setCount(0)
     let rafId: number
     const start = performance.now()
     const tick = (now: number) => {

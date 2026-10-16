@@ -45,7 +45,7 @@ const OFFERS: Record<string, OfferLink> = {
   carriere: { to: '/carriere', label: 'Carrière Supply Chain au Maroc', desc: 'Métiers, compétences et recrutement chez Nextinotech.' },
   formCarriere: { to: '/formation/developpement-carriere', label: 'Formation Développement de Carrière en Supply Chain', desc: '1 jour à Casablanca, plan de développement individuel.' },
   ingenierie: { to: '/ingenierie-formation', label: 'Ingénierie de Formation & financement GIAC / OFPPT', desc: 'Plan de formation chiffré et dossier de financement.' },
-  formCatalogue: { to: '/formation', label: 'Catalogue des formations Nextinotech Académie', desc: '30 programmes, inter et intra-entreprise, finançables.' },
+  formCatalogue: { to: '/formation', label: 'Catalogue des formations Nextinotech Académie', desc: '39 programmes, inter et intra-entreprise, financement à étudier.' },
   formCaces: { to: '/formation/caces-cariste', label: 'Formation préparatoire CACES R489', desc: 'Caristes formés sur le chariot de votre site.' },
   formPrepa: { to: '/formation/preparateur-commandes', label: 'Formation Préparateur de Commandes', desc: 'Productivité et qualité de préparation, sur site.' },
   formHse: { to: '/formation/hse-entrepot', label: 'Formation HSE Entrepôt & Logistique', desc: '1 jour sur site, risques et prévention en entrepôt.' },

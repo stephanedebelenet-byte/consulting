@@ -12,13 +12,13 @@ description: "Cartographie des risques, manutention, ergonomie, conformité rég
 
 ![Bureau et ressources humaines](/images/office.webp)
 
-**Une formation HSE (Hygiène, Sécurité, Environnement) entrepôt & logistique vise à transmettre aux équipes terrain — responsables HSE, chefs d'équipe, caristes, responsables logistique — les compétences pour identifier et prévenir les risques spécifiques à un site d'entreposage et de transport.** Ce n'est pas une formation générique de sécurité au travail : les risques d'un entrepôt (manutention, chariots élévateurs, stockage en hauteur, flux de circulation) sont différents de ceux d'un bureau ou d'un atelier de production, et une formation qui ne les traite pas spécifiquement laisse les équipes mal préparées face aux situations réelles.
+À la prise de poste, un cariste recule d’une allée pendant qu’un préparateur traverse pour rejoindre une palette. Le risque ne vient pas d’un manque de consignes affichées : il faut que chacun sache où regarder, où circuler et comment arrêter la manœuvre. C’est le type de situation concrète qu’une formation HSE en entrepôt doit permettre aux équipes d’analyser ensemble.
 
 ## Pourquoi une formation spécifique à l'entrepôt, pas une formation HSE générique
 
-Les accidents liés aux engins de manutention comptent parmi les plus fréquents dans les centres de distribution — une réalité documentée notamment en Europe, où l'on recense chaque année plusieurs milliers d'accidents impliquant des chariots élévateurs, la majorité liés à une sous-estimation du danger par des opérateurs habitués à la routine ([Chariotelevateur.fr](https://www.chariotelevateur.fr/post/prevention-accident-chariot-elevateur)) — une donnée européenne, citée ici à titre d'ordre de grandeur, faute d'équivalent marocain publié. Cette routine est précisément ce qu'une formation HSE entrepôt doit rompre : elle ne se contente pas de rappeler des règles générales, elle confronte les équipes à des cas concrets de manutention, de stockage et de circulation propres à leur propre site.
+Les risques à traiter dépendent du site : coactivité piétons-engins, angles morts, stabilité des charges, stockage en hauteur et gestes répétitifs. Faute d’une statistique nationale comparable sur les accidents d’entrepôt, cet article ne transpose pas les chiffres européens au Maroc. L’approche utile consiste à partir des incidents et presque-accidents recensés par l’entreprise, puis à observer les pratiques réelles dans ses allées.
 
-> **Une formation HSE réussie ne se mesure pas au nombre de participants formés, mais à ce qui change concrètement sur le terrain après.** C'est pourquoi un cas pratique sur le site réel de l'entreprise — pas un cas d'école générique — fait la différence entre une formation qui coche une case de conformité et une formation qui réduit réellement le risque.
+Après la session, le responsable peut reprendre la même grille de terrain à 30 jours : les voies piétonnes sont-elles dégagées, les charges correctement stabilisées, les presque-accidents remontés ? Ces observations ne prouvent pas à elles seules une baisse des accidents, mais elles donnent à l’équipe des points concrets à corriger et à suivre.
 
 ## Ce que couvre la Formation HSE Entrepôt & Logistique de Nextinotech
 
@@ -58,4 +58,4 @@ Pour en discuter concrètement, contactez Nextinotech : contact@nextinotech.com 
 
 **Sources consultées pour cet article :**
 - [Chariotelevateur.fr — Prévention Accident Chariot Élévateur : Causes Réelles & Guide 2026 (référence européenne)](https://www.chariotelevateur.fr/post/prevention-accident-chariot-elevateur)
-- [DRH.ma — Code du travail Maroc, titre IV : hygiène et sécurité des salariés](https://drh.ma/legislation-travail-maroc/code-du-travail-maroc/)
+- [Ministère de la Justice — Code du travail marocain, loi n° 65-99](https://adala.justice.gov.ma/api/uploads/2024/04/30/code%20du%20travail-1714463246806.pdf)

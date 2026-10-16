@@ -1,106 +1,101 @@
-﻿---
+---
 title: "Salaires Supply Chain au Maroc 2026 : Guide Complet par Poste et Secteur"
 date: "2026-08-05"
 author: "Youssef B"
 image: "/images/business.webp"
-keywords: "salaires supply chain Maroc 2026, salaire logisticien Maroc, salaire responsable logistique Maroc, salaire supply chain manager Maroc"
-description: "Salaires supply chain au Maroc en 2026 : fourchettes par poste, par secteur et par ville. Ce que vous valez vraiment et comment négocier une augmentation."
+keywords: "salaires supply chain Maroc 2026, salaire logisticien Maroc, salaire responsable logistique Maroc, rémunération logistique Maroc"
+description: "Comment comparer une rémunération en logistique et supply chain au Maroc : périmètre du poste, expérience, secteur, ville et package, sans prendre une grille indicative pour une statistique officielle."
 ---
 
 # Salaires Supply Chain au Maroc 2026 : Guide Complet par Poste et Secteur
 
-La question que tout logisticien se pose : "Est-ce que je suis bien payé ?" La réponse dépend du poste, du secteur, de la ville, et des compétences spécifiques.
+Quel salaire demander pour un poste en logistique ou en supply chain au Maroc ? Il n’existe pas de barème public unique qui permette de répondre sans connaître le niveau de responsabilité, le secteur, la ville et le package. Les chiffres trouvés en ligne peuvent servir de premiers repères, mais ils ne sont comparables que si leur méthode, leur date et leur échantillon sont connus.
 
-Voici les données de marché 2026 basées sur les informations recueillies auprès de recruteurs, de professionnels du secteur, et de 20 ans de missions de conseil au Maroc.
+Ce guide propose une méthode de comparaison pour les candidats et les responsables RH. Il ne présente pas de fourchettes locales comme des statistiques vérifiées lorsqu’aucune enquête représentative et documentée n’est disponible.
 
-![Salaires supply chain logistique Maroc](/images/business.webp)
+![Salaires supply chain et logistique au Maroc](/images/business.webp)
 
-## Salaires par Poste — Marché Marocain 2026
+## Pourquoi deux postes au même intitulé ne se comparent pas toujours
 
-| Poste | Junior (0-3 ans) | Confirmé (3-7 ans) | Senior (7+ ans) |
-|-------|-----------------|-------------------|----------------|
-| Agent logistique / Magasinier | 3 500-5 000 | 5 000-8 000 | 8 000-12 000 |
-| Gestionnaire de stocks | 6 000-9 000 | 9 000-15 000 | 13 000-20 000 |
-| Coordinateur logistique | 7 000-11 000 | 10 000-17 000 | 15 000-22 000 |
-| Chef d'entrepôt | 8 000-14 000 | 13 000-22 000 | 20 000-32 000 |
-| Responsable logistique | 10 000-18 000 | 16 000-28 000 | 25 000-40 000 |
-| Planificateur / Ordonnanceur | 9 000-15 000 | 14 000-24 000 | 22 000-38 000 |
-| Acheteur | 8 000-13 000 | 13 000-23 000 | 20 000-38 000 |
-| Supply Chain Manager | 18 000-30 000 | 28 000-50 000 | 45 000-75 000 |
-| Directeur Achats | 30 000-50 000 | 45 000-75 000 | 65 000-100 000 |
-| Directeur Supply Chain | 35 000-60 000 | 55 000-90 000 | 80 000-130 000 |
+Un « responsable logistique » peut superviser un seul entrepôt ou plusieurs sites, gérer une équipe ou travailler sans management direct, piloter un budget transport ou se concentrer sur l’exécution quotidienne. Le titre seul ne renseigne donc pas assez sur la valeur du poste.
 
-*Salaires bruts mensuels en MAD. Ces fourchettes varient selon la taille de l'entreprise.*
+Avant de comparer deux rémunérations, décrivez le périmètre :
 
-## Les 5 Facteurs qui Poussent le Salaire Vers le Haut
+- nombre de sites, surface et volumes traités ;
+- taille et composition de l’équipe ;
+- responsabilité sur les stocks, le transport, les achats ou la production ;
+- budget et indicateurs directement pilotés ;
+- horaires, astreintes, déplacements et saisonnalité ;
+- autonomie de décision et rattachement hiérarchique.
 
-**1. La certification internationale**
-Un candidat certifié APICS CPIM ou CSCP peut négocier 15 à 25% de plus qu'un profil équivalent sans certification.
+Comparez ensuite des fonctions semblables. Une différence de salaire peut refléter un périmètre plus large plutôt qu’une prime automatique liée au secteur ou à la ville.
 
-**2. La maîtrise des outils technologiques**
-SAP (modules PP, MM, WM) ou maîtrise avancée d'un WMS leader augmente la valeur de marché de 10 à 20%.
+## Les facteurs à documenter
 
-**3. Le secteur**
-Les secteurs automobile, pharmaceutique, et énergie paient 15 à 30% de plus que la distribution et le retail.
+### Expérience et résultats
 
-**4. La taille de l'entreprise**
-Multinationale > Grand groupe marocain > ETI > PME — dans cet ordre général, avec des exceptions.
+L’ancienneté ne résume pas l’expérience utile. Préparez des exemples qui précisent le problème, votre rôle, la période et le résultat mesuré : réduction d’un retard, fiabilisation d’inventaire, amélioration du taux de service ou déploiement d’un outil. N’attribuez pas à votre action seule un résultat collectif sans pouvoir l’expliquer.
 
-**5. Les compétences en management**
-Un Responsable Logistique qui manage une équipe de 20 personnes gagne en moyenne 30% de plus qu'un RL sans équipe directe.
+### Secteur et complexité opérationnelle
 
-## Salaires par Secteur — Comparatif
+La chaîne du froid, les flux tendus, la traçabilité, les contraintes de conformité et les opérations multi-sites peuvent modifier le contenu d’un poste. Ils ne déterminent pas à eux seuls un supplément salarial valable pour toutes les entreprises. Vérifiez la responsabilité réellement confiée et les compétences attendues.
 
-| Secteur | Prime vs moyenne |
-|---------|-----------------|
-| Automobile (Renault, Stellantis, équipementiers) | +20 à +35% |
-| Pharmaceutique | +15 à +25% |
-| Agroalimentaire (multinationales) | +10 à +20% |
-| Distribution / Retail | Base |
-| Agroalimentaire (PME locale) | -10 à -20% |
-| BTP et construction | -5 à +10% |
-| E-commerce | +5 à +15% (en croissance) |
+### Ville et conditions de travail
 
-## Salaires par Ville
+La localisation peut agir sur le bassin d’emploi et les déplacements, mais les comparaisons publiques disponibles ne suffisent pas à établir une prime uniforme entre Casablanca, Tanger, Rabat, Marrakech ou Agadir. Prenez en compte le lieu de travail, le transport, les horaires et les éventuels déplacements.
 
-- **Casablanca :** Salaires les plus élevés — centre économique, présence multinationales
-- **Tanger-Kénitra :** Quasi-équivalent Casablanca pour les profils automobile
-- **Rabat :** 5 à 10% en dessous de Casablanca
-- **Marrakech / Agadir :** 10 à 20% en dessous de Casablanca
-- **Fès / Meknès :** 15 à 25% en dessous
+### Outils et certifications
 
-::stat:: 22% — augmentation salariale moyenne obtenue par les professionnels supply chain qui changent d'entreprise vs 8% pour ceux qui restent (données marché Maroc 2025)
+La maîtrise d’un ERP, d’un WMS ou d’un TMS peut être pertinente si l’outil fait partie du travail quotidien ou d’un projet confié au poste. Une certification peut structurer des connaissances ; elle ne garantit pas à elle seule une hausse de salaire. Consultez les exigences des offres correspondant à votre cible, et comparez le référentiel au besoin réel du poste.
 
-## Comment Savoir si Vous Êtes Sous-Payé
+## Comparer le package, pas seulement le salaire affiché
 
-**Signe #1 :** Votre salaire est inférieur à la fourchette basse de votre poste dans le tableau ci-dessus.
+Demandez si le montant est brut ou net, mensuel ou annuel, et s’il inclut une part variable. Examinez séparément :
 
-**Signe #2 :** Un recruteur vous a contacté récemment avec une offre significativement supérieure.
+| Élément | Points à clarifier |
+|---|---|
+| Salaire fixe | Brut ou net, périodicité, période d’essai |
+| Prime variable | Objectifs, période de calcul, conditions de versement |
+| Avantages | Transport, véhicule, assurance, téléphone, restauration |
+| Temps de travail | Horaires, astreintes, déplacements, heures supplémentaires |
+| Développement | Formation, responsabilités, perspectives d’évolution |
 
-**Signe #3 :** Des collègues de niveau équivalent dans d'autres entreprises gagnent 20%+ de plus.
+Deux offres au même montant brut peuvent avoir une valeur pratique différente selon les avantages, les trajets, les horaires et la stabilité de la part variable.
 
-**Signe #4 :** Vous n'avez pas eu d'augmentation significative depuis 2 ans, malgré de bonnes performances.
+## Où chercher des repères fiables
 
-## La Stratégie pour Augmenter Son Salaire
+Pour établir une comparaison, réunissez plusieurs offres récentes au même niveau de responsabilité et dans la même zone géographique. Demandez aux recruteurs la fourchette budgétée pour le poste. Si une enquête salariale est utilisée, vérifiez sa date, son échantillon, les définitions de postes et si les valeurs sont brutes ou nettes.
 
-**Option A : Négociation interne**
-Documentez vos résultats chiffrés des 12-18 derniers mois. Préparez le benchmark marché. Demandez un entretien avec votre N+1 ou N+2. Proposez un niveau cible justifié.
+Les estimations en ligne peuvent être modélisées à partir d’un échantillon limité ou d’intitulés qui ne correspondent pas exactement à votre poste. Traitez-les comme des indices à vérifier, pas comme un salaire garanti ni une médiane nationale. Pour un poste de responsable logistique, notre article dédié sur les [repères de rémunération et facteurs de comparaison](/blog/salaire-responsable-logistique-au-maroc-2026-grilles-ecarts) précise les limites des estimations disponibles. Pour préparer l’échange avec un employeur, consultez aussi notre guide sur la [négociation salariale en supply chain](/blog/negocier-son-salaire-en-supply-chain-au-maroc-techniques-et).
 
-**Option B : Offre externe comme levier**
-Obtenez une offre externe supérieure. Revenez voir votre employeur. Dans 40-50% des cas, il aligne ou propose un contre-offre.
+## Préparer une négociation
 
-**Option C : Changement d'entreprise**
-Le changement est le moyen le plus rapide d'augmenter significativement son salaire. Mais assurez-vous que les autres conditions (stabilité, mission, équipe) le justifient.
+1. Décrivez le périmètre réel du poste et les responsabilités supplémentaires.
+2. Rassemblez des offres récentes comparables et notez leurs différences.
+3. Préparez deux ou trois résultats professionnels vérifiables.
+4. Clarifiez le package complet et les conditions de la part variable.
+5. Présentez une fourchette argumentée et confirmez les éléments convenus par écrit.
 
-> **Le meilleur levier salarial en supply chain au Maroc reste la formation et la certification. Un APICS CPIM obtenu aujourd'hui peut se traduire par 3 000 à 5 000 MAD de plus par mois dans 12 mois.**
+Évitez de baser une demande sur un pourcentage non sourcé ou une anecdote isolée. Un chiffre n’est utile que si l’on sait précisément quel poste, quelle période et quelle population il décrit.
 
-## Nextinotech — Coaching Négociation Salariale
+## Questions fréquentes
 
-Accompagnement individuel pour préparer votre négociation salariale : benchmark personnalisé, simulation d'entretien, stratégie de communication.
+#### Quel salaire pour un responsable logistique au Maroc ?
 
-Pour monter en compétences avant de négocier, voir aussi notre programme **[Devenir Responsable Logistique](/formation-rl)** — 1 journée, 1 500 MAD TTC.
+Les sources publiques consultées ne permettent pas d’établir une grille nationale représentative pour ce titre, dont le périmètre varie fortement. Comparez des fonctions équivalentes et vérifiez la rémunération fixe, les primes et les avantages.
 
-**À lire aussi :** [Métiers de la Logistique au Maroc : le Panorama Complet](/blog/metiers-de-la-logistique-au-maroc-le-panorama-complet)
+#### Casablanca paie-t-elle toujours mieux que les autres villes ?
 
-**Contactez-nous** :
-📧 contact@nextinotech.com | 📞 +212 663 449 200
+Les données disponibles ne permettent pas de confirmer une prime uniforme pour Casablanca. Comparez des offres récentes de même secteur et de même niveau de responsabilité, en tenant compte des trajets et du coût total du package.
+
+#### Une certification supply chain augmente-t-elle le salaire ?
+
+Une certification peut appuyer une candidature si elle correspond aux missions visées. Les sources consultées ne permettent pas de chiffrer une hausse garantie au Maroc ; vérifiez plutôt les exigences des offres d’emploi ciblées.
+
+## À retenir
+
+Un intitulé de poste ou une estimation isolée ne suffit pas à établir un salaire de marché. Comparez le périmètre, l’expérience, les conditions de travail et le package complet à partir de plusieurs sources récentes et comparables. [Découvrez les formations Nextinotech](/formation) pour développer des compétences utiles à votre poste, ou [contactez l’équipe](/contact) pour échanger sur un besoin précis.
+
+**Sources indicatives :**
+- [ERI SalaryExpert — Supply Chain Manager au Maroc](https://www.salaryexpert.com/salary/job/supply-chain-manager/morocco) — estimation modélisée, intitulé distinct de « Responsable Logistique ».
+- [ANAPEC — offres d’emploi et fiches de postes](https://www.anapec.org/)

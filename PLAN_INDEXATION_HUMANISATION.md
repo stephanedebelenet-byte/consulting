@@ -6,6 +6,15 @@
 
 Ce document est le journal de suivi. Chaque action est cochée au fur et à mesure et datée.
 
+## Point d'étape — 16 octobre 2026
+
+- Search Console indique **531 pages indexées et 180 non indexées** (rapport de couverture mis à jour le 12/10). Le détail observé reste dominé par 159 URL « détectée, actuellement non indexée » ; ces pages nécessitent une revue de valeur et de maillage, pas une demande d'indexation en masse.
+- Le rapport Performance consulté est réglé sur **3 mois**, avec une période de données visible du 30/08 au 14/10 : 98 clics, 7,26 k impressions, CTR 1,3 %, position moyenne 12,2. La plage « 16 mois » demandée n'a pas été obtenue dans les données visibles ; ne pas présenter ces chiffres comme un bilan sur 16 mois.
+- Les requêtes observées (« délais de paiement Maroc », « surestaries et magasinage », « remise documentaire », « FIFO/FEFO », « OTIF », « TPM », etc.) correspondent déjà à des articles du site. Priorité à l'amélioration des pages existantes (intention, extrait, liens vers formations/contact) et à l'analyse des paires requête/page avant d'ajouter des articles ciblant les mêmes sujets.
+- Le build local passe après synchronisation avec le lockfile : 596 pages HTML générées dans un sitemap de 598 URL, 581 FAQ vérifiées, 16 offres contrôlées dans `llms.txt` et `llms-full.txt`, aucune incohérence détectée entre sitemap/canonicals/noindex.
+- Vérification GitHub le 16/10 : les PR historiques #3, #6, #8, #9 et #10 sont toutes déjà fusionnées dans `main` (la dernière le 25/09). Le lot de modifications actuel est présenté séparément dans la [PR #30](https://github.com/stephanedebelenet-byte/consulting/pull/30) ; il n'est pas encore fusionné dans `main` ni déployé en production.
+- Le contrôle anti-cannibalisation interne et les liens/CTA des contenus retravaillés ont été vérifiés. Cela ne constitue ni une vérification exhaustive du web ni une preuve de « non-plagiat » ; aucun détecteur ne permet non plus de certifier qu'un texte a été écrit par un humain. Le propriétaire du site a validé l'article sur le projet de loi 36-25.
+
 ---
 
 ## Ce qui est déjà fait (18/09, cette session)
@@ -24,17 +33,13 @@ Ce document est le journal de suivi. Chaque action est cochée au fur et à mesu
 
 **Les 100 articles du cluster IA (327-426) sont désormais intégralement couverts par la passe d'humanisation**, répartis sur 5 pull requests (#4 mergée, #6/#8/#9/#10 ouvertes). Reste la PR #3 (auteur/footers/liens sur les 411 articles, y compris les 311 hors cluster IA), toujours ouverte et la plus structurante.
 
-## Bloqué — nécessite une action humaine (pas un manque d'outillage, une garde de sécurité volontaire)
+## Historique des fusions — vérifié le 16 octobre 2026
 
-- [ ] **Merger la PR #3** (bylines/footers/liens, 411 fichiers) — **toujours ouverte**, pas encore mergée malgré les lots suivants. Le garde-fou de la session refuse le merge automatique ("Merge Without Review") — un merge de code vers `main` sans relecture humaine n'est délibérément pas quelque chose qu'un agent peut faire seul, même avec autorisation explicite d'exécuter le reste du plan. Une fois mergée, Vercel redéploie automatiquement en production (quelques minutes). Tant qu'elle reste ouverte, tous les articles hors des lots déjà humanisés (327-366) gardent l'ancien auteur "Nextinotech" et les footers dupliqués.
-  → Action : ouvrir https://github.com/stephanedebelenet-byte/consulting/pull/3, relire le diff (surtout 2-3 articles au hasard), cliquer "Squash and merge".
-- [x] ~~Merger la PR #4~~ — fait, mergée le 17/09 23:34.
-- [ ] **Merger la PR #6** (lot 2 d'humanisation, articles `347-366`) : https://github.com/stephanedebelenet-byte/consulting/pull/6
-- [ ] **Merger la PR #8** (lot 3 d'humanisation, articles `367-386`) : https://github.com/stephanedebelenet-byte/consulting/pull/8
-- [ ] **Merger la PR #9** (lot 4 d'humanisation, articles `387-406`) : https://github.com/stephanedebelenet-byte/consulting/pull/9
-- [ ] **Merger la PR #10** (lot 5, dernier, articles `407-426`) : https://github.com/stephanedebelenet-byte/consulting/pull/10
+- [x] PR #3 (auteur/footers/liens), fusionnée le 25/09/2026.
+- [x] PR #4 (lot 1), fusionnée le 17/09/2026.
+- [x] PR #6, #8, #9 et #10 (lots 2 à 5), fusionnées le 25/09/2026.
 
-**Ordre de merge conseillé** : PR #3 d'abord (fondations auteur/footer/liens sur les 411 fichiers), puis #6, #8, #9, #10 dans n'importe quel ordre — elles touchent des fichiers disjoints entre elles, mais chacune peut recouper les zones frontmatter/footer que PR #3 modifie sur les mêmes fichiers. En cas de conflit de merge sur un fichier, Git le signalera clairement ; les zones touchées ne se chevauchent normalement pas (PR #3 = frontmatter + footer, lots = corps de l'article).
+Ces demandes historiques ne bloquent plus le déploiement. Le lot de modifications visible dans l'arbre de travail doit suivre son propre contrôle, commit et revue avant d'être fusionné.
 
 ## Connexion Search Console — ce qui devient automatisable, et ce qui ne l'est jamais
 
@@ -42,18 +47,19 @@ Un outillage (`scripts/gsc.mjs`) a été ajouté au dépôt pour se connecter à
 
 - **Resoumission du sitemap** (`npm run gsc:submit-sitemap`) — équivalent exact du bouton "Envoyer" dans Search Console → Sitemaps.
 - **Rapport de couverture automatisé** (`npm run gsc:coverage-report`) — interroge le statut d'indexation réel de chaque URL du sitemap via l'API d'inspection d'URL, et écrit un `gsc-coverage-report.json` local. Ça remplace l'export manuel CSV que vous avez fourni au départ de ce chantier : je pourrai le relancer moi-même à intervalles réguliers pour suivre la progression sans attendre que vous exportiez un nouveau rapport.
+- **Rapport de performances organiques** (`npm run gsc:performance-report`) — exporte les pages, requêtes et paires requête/page des 16 derniers mois dans `gsc-performance-report.json` (local, gitignoré), pour prioriser les contenus et diagnostiquer la cannibalisation.
 
 ### Procédure de connexion (à faire une seule fois, ~10 minutes, uniquement vous — aucun accès dont je dispose ne permet de le faire à votre place)
 
 1. Aller sur [console.cloud.google.com](https://console.cloud.google.com), créer un projet (ou en choisir un existant).
 2. Dans ce projet, activer l'**API Search Console** (« Search Console API » dans la bibliothèque d'API).
 3. **IAM et administration → Comptes de service → Créer un compte de service.** Aucun rôle particulier à lui donner au niveau du projet — l'accès se fait via Search Console, pas via IAM.
-4. Ouvrir ce compte de service → onglet **Clés → Ajouter une clé → Créer une clé → JSON**. Le téléchargement démarre automatiquement — c'est ce fichier qu'il me faut.
+4. Ouvrir ce compte de service → onglet **Clés → Ajouter une clé → Créer une clé → JSON**. Gardez ce fichier privé : ne l’envoyez pas dans le chat et ne le commitez jamais.
 5. Copier l'adresse e-mail du compte de service (elle ressemble à `xxxx@nom-du-projet.iam.gserviceaccount.com`, visible sur la page du compte de service).
-6. Aller sur [search.google.com/search-console](https://search.google.com/search-console) → propriété `nextinotech.com` → **Paramètres → Utilisateurs et autorisations → Ajouter un utilisateur** → coller l'adresse e-mail du compte de service → autorisation **Propriétaire** (obligatoire pour la resoumission de sitemap).
-7. Placer le fichier JSON téléchargé **hors du dépôt Git**, ou dans le dépôt sous un nom contenant `service-account` (déjà exclu par `.gitignore` — vérifié). Ne jamais le committer : il donne un accès complet en lecture/écriture à la propriété Search Console.
+6. Aller sur [search.google.com/search-console](https://search.google.com/search-console) → propriété `nextinotech.com` → **Paramètres → Utilisateurs et autorisations → Ajouter un utilisateur** → coller l'adresse e-mail du compte de service. Pour les rapports en lecture, choisir **Utilisateur complet** ; le rôle **Propriétaire** n'est nécessaire que si vous souhaitez aussi resoumettre le sitemap par API.
+7. Placer le fichier JSON téléchargé **hors du dépôt Git**. Ne jamais le committer : il donne accès à la propriété Search Console.
 8. Créer (ou compléter) `.env.local` à la racine du dépôt avec `GSC_SERVICE_ACCOUNT_KEY_PATH=/chemin/vers/le/fichier.json` (voir `.env.example`).
-9. Me dire que c'est fait — je lance `npm run gsc:submit-sitemap` puis `npm run gsc:coverage-report` pour établir la première mesure automatisée, et je peux ensuite répéter le rapport de couverture à intervalles réguliers sans repasser par vous.
+9. Me dire que c'est fait — je lance `npm run gsc:performance-report` pour établir la première mesure de requêtes/pages, puis l’analyse de cannibalisation. Aucun envoi de clé ni accès par mot de passe n’est nécessaire.
 
 ## En attendant la connexion — ce qui reste à faire manuellement dans Search Console
 

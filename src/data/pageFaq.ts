@@ -50,7 +50,7 @@ export const PAGE_FAQ: Record<string, PageFaqItem[]> = {
     },
     {
       q: 'Proposez-vous aussi des formations et des outils ?',
-      a: "Oui. Nextinotech Académie propose 30 programmes (logistique, stocks, S&OP, DDMRP, achats, lean, management), en inter-entreprise à Casablanca ou en intra dans vos locaux, finançables CSF/GIAC. Nextinotech Digital propose une control tower, des démonstrations WMS, TMS et APS, et trois simulateurs gratuits pour l'entrepôt.",
+      a: "Oui. Nextinotech Académie propose 39 programmes, dont la formation Douane & Logistique Internationale, dans son catalogue Opérationnel, ainsi que des formations en logistique, stocks, S&OP, DDMRP, achats, lean et management. Les sessions sont proposées en inter-entreprise à Casablanca ou en intra dans vos locaux ; un financement CSF/GIAC peut être étudié selon votre situation. Nextinotech Digital propose aussi une control tower, des démonstrations WMS, TMS et APS, et trois simulateurs gratuits pour l'entrepôt.",
       link: { label: 'Voir les formations', to: '/formation' },
     },
     {
@@ -517,7 +517,7 @@ export const PAGE_FAQ: Record<string, PageFaqItem[]> = {
     },
     {
       q: 'Peut-on commander une formation directement depuis ce catalogue ?',
-      a: "Le catalogue métier sert à construire un plan de formation. Pour une formation prête à l'emploi, avec prix et dates, consultez le catalogue des 30 programmes de Nextinotech Académie.",
+      a: "Le catalogue métier sert à construire un plan de formation. Pour une formation prête à l'emploi, consultez le catalogue des 39 programmes de Nextinotech Académie. Les nouveaux modules affichés pour 2027 sont des propositions : durée, tarif et dates restent à confirmer.",
       link: { label: 'Catalogue des formations', to: '/formation' },
     },
   ],
