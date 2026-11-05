@@ -1,34 +1,44 @@
 ﻿import { motion } from 'framer-motion'
+import { FEATURED_BLOG } from '../data/featuredBlog'
+
+function articleLink(file: string): string {
+  const article = FEATURED_BLOG.find((post) => post.file === file)
+  if (!article) throw new Error(`Article éditorial absent du registre : ${file}`)
+  return `/blog/${article.slug}`
+}
 
 
 const ARTICLES = [
   {
+    href: articleLink('63-certification-ddmrp-maroc'),
     category: 'Planification',
     readTime: '8 min',
     date: 'Mai 2026',
-    title: 'DDMRP : pourquoi les PME marocaines résistent encore à la disruption de la planification',
+    title: 'Formation DDMRP au Maroc : certification Practitioner et pratique terrain',
     excerpt:
-      "La méthode DDMRP réduit le BFR de 20 à 40% en moyenne. Pourtant, moins de 3% des entreprises marocaines l'ont adoptée. Analyse des freins et de la marche à suivre.",
+      "Comprendre les principes DDMRP, les prérequis et le parcours de formation avant de choisir un accompagnement adapté à votre équipe.",
     tag: '— DDMRP · S&OP',
     image: '/images/analytics.webp',
   },
   {
+    href: articleLink('03-digitalisation-supply-chain-pme'),
     category: 'AMOA SI',
     readTime: '11 min',
     date: 'Avril 2026',
-    title: "Appel d'offres ERP : les 7 erreurs qui coûtent cher aux PME et ETI",
+    title: "Digitalisation Supply Chain : choisir un WMS, TMS ou ERP pour sa PME",
     excerpt:
-      "Un projet ERP raté coûte en moyenne 2 à 4× son budget initial. Sept décisions critiques que la plupart des directions achètent trop tard — et comment les éviter.",
+      "Clarifier le besoin métier, comparer les systèmes et structurer un projet de digitalisation adapté à une PME marocaine.",
     tag: '— ERP · Sélection',
     image: '/images/charts.webp',
   },
   {
+    href: articleLink('76-externalisation-logistique-3pl-maroc'),
     category: 'Logistique',
     readTime: '7 min',
     date: 'Mars 2026',
-    title: 'Outsourcing logistique au Maroc : les critères de décision que les consultants ne vous diront pas',
+    title: 'Externalisation logistique au Maroc : quand et comment choisir un 3PL',
     excerpt:
-      'Make or buy logistique — la vraie analyse dépasse le simple coût à la palette. Grille de décision terrain testée sur 12 configurations réelles.',
+      'Comparer les options internes et externalisées, les niveaux de service et les critères de choix d’un prestataire logistique.',
     tag: '— 3PL · Make vs Buy',
     image: '/images/transport.webp',
   },
@@ -37,7 +47,7 @@ const ARTICLES = [
 function ArticleCard({ article, index }: { article: (typeof ARTICLES)[0]; index: number }) {
   return (
     <motion.a
-      href="/blog"
+      href={article.href}
       className="insight-card"
       initial={{ opacity: 0, y: 48 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -411,10 +421,10 @@ export default function Insights() {
                 marginBottom: '0.35rem',
               }}
             >
-              La supply chain marocaine expliquée, chaque mois.
+              Une question sur votre supply chain au Maroc ?
             </div>
             <div style={{ fontSize: '0.85rem', color: 'var(--dark-muted)' }}>
-              Pas de spam. Un article de fond. Des cas concrets. Désinscription en un clic.
+              Décrivez votre besoin à notre équipe pour être orienté vers une ressource ou un accompagnement adapté.
             </div>
           </div>
           <a
@@ -445,7 +455,7 @@ export default function Insights() {
               el.style.color = 'var(--blue-bright)'
             }}
           >
-            S'abonner →
+            Poser une question →
           </a>
         </motion.div>
       </div>

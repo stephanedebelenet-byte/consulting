@@ -1,3 +1,4 @@
+import { BLOG_PAGE_COUNT, blogPagePath } from './blogPagination.ts'
 // Source unique des méta-données par route, consommée par le plugin de prérendu
 // (vite.config.ts) pour injecter <title>, meta description, canonical, OG et
 // JSON-LD dans un fichier HTML statique par page — et pour générer le sitemap
@@ -503,7 +504,14 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
   // — FAQ non traduites, fil d'Ariane français…) — chaque entrée d'EN_ROUTES
   // porte déjà son propre jsonLd complet. Voir src/i18n/locale.tsx : EN_PATHS
   // doit être tenu à jour en parallèle de cette liste.
-  return [...fr, ...EN_ROUTES]
+  const blogPages: PrerenderRoute[] = Array.from({ length: BLOG_PAGE_COUNT - 1 }, (_, i) => ({
+    path: blogPagePath(i + 2),
+    title: `Supply Chain au Maroc : blog, page ${i + 2} | Nextinotech`,
+    description: `Articles Supply Chain, logistique, stocks et systèmes au Maroc. Page ${i + 2} du blog Nextinotech.`,
+    changefreq: 'weekly',
+    priority: 0.4,
+  }))
+  return [...fr, ...EN_ROUTES, ...blogPages.map(withBreadcrumb)]
 }
 
 // Fil d'Ariane propre à chaque page (audit du 26/09/2026). Auparavant, un

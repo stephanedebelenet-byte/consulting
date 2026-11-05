@@ -18,7 +18,11 @@
     "gsc:submit-sitemap": "node scripts/gsc.mjs submit-sitemap",
     "gsc:coverage-report": "node scripts/gsc.mjs coverage-report",
     "gsc:performance-report": "node scripts/gsc.mjs performance-report",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "prebuild": "node scripts/generate-blog-index.mjs",
+    "predev": "node scripts/generate-blog-index.mjs",
+    "test:seo-actions": "node scripts/check-blog-pagination.mjs",
+    "test:blog-browser": "node scripts/check-blog-browser.mjs"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.46.0",

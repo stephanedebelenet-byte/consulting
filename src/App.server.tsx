@@ -98,6 +98,7 @@ function AnimatedRoutes() {
         <Route path="/a-propos" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/en/about" element={<PageTransition><AProposPage /></PageTransition>} />
         <Route path="/blog" element={<PageTransition><BlogPage /></PageTransition>} />
+        <Route path="/blog/page/:page" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/blog/:slug" element={<PageTransition><BlogPage /></PageTransition>} />
         <Route path="/evenements/:slug" element={<PageTransition><EvenementPage /></PageTransition>} />
         <Route path="/solutions/marquage-et-tracabilite" element={<PageTransition><MarquageTracabilitePage /></PageTransition>} />

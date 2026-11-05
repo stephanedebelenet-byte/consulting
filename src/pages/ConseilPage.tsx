@@ -25,8 +25,8 @@ export default function ConseilPage() {
     <>
       <PageHero
         num="01"
-        title={tr('Conseil &', 'Consulting &')}
-        titleItalic={tr('Expertise.', 'Expertise.')}
+        title={tr('Conseil Supply Chain', 'Supply Chain Consulting')}
+        titleItalic={tr('au Maroc.', 'in Morocco.')}
         subtitle={tr(
           'Diagnostic, DDMRP, sélection et déploiement de systèmes, direction supply chain à temps partagé — sans allégeance à aucun éditeur.',
           'Diagnosis, DDMRP, system selection and deployment, part-time supply chain direction — with no allegiance to any vendor.'
