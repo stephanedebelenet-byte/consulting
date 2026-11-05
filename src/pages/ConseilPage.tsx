@@ -10,6 +10,7 @@ import { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { PRESTATIONS_ANCHORS } from '../components/ServicesRedirect'
 import { useLocale } from '../i18n/locale'
+import ServiceAnswers from '../components/ServiceAnswers'
 
 export default function ConseilPage() {
   // Anciens liens /services#pack-inventaire etc. : le 301 serveur
@@ -33,6 +34,7 @@ export default function ConseilPage() {
         )}
         tag={tr('NEXTINOTECH CONSEIL · TERRAIN', 'NEXTINOTECH CONSULTING · FIELD-TESTED')}
       />
+      <ServiceAnswers scope="conseil" />
       <Pourquoi />
       <Statement text={tr('Le bon logiciel ne vaut rien sans la bonne méthode.', 'The right software is worthless without the right method.')} bg="var(--paper)" />
       <Conseil />

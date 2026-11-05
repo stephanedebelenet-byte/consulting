@@ -1,6 +1,7 @@
 import PageHero from '../components/PageHero'
 import Prestations from '../components/Prestations'
 import { useLocale } from '../i18n/locale'
+import ServiceAnswers from '../components/ServiceAnswers'
 
 export default function PrestationsPage() {
   const { tr } = useLocale()
@@ -16,6 +17,7 @@ export default function PrestationsPage() {
         )}
         tag={tr('EXÉCUTION · OPÉRATIONS', 'EXECUTION · OPERATIONS')}
       />
+      <ServiceAnswers scope="prestations" />
       <Prestations />
     </>
   )
