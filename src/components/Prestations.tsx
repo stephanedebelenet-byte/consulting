@@ -513,7 +513,8 @@ function PackInventaire() {
             textDecoration: 'none',
             color: 'var(--ink)',
             fontFamily: 'DM Mono, monospace',
-            whiteSpace: 'nowrap',
+            whiteSpace: 'normal',
+            maxWidth: '100%',
             borderBottom: '1px solid rgba(27,53,84,0.3)',
             paddingBottom: '2px',
           }}
