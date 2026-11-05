@@ -1,3 +1,4 @@
+import { trainingContactLink } from '../utils/trainingContactLink'
 import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
@@ -158,8 +159,8 @@ export default function FormationProgramme({ p }: { p: Programme }) {
               Réponse sous 24h. Précisez votre besoin (inter-entreprise, intra, dates souhaitées).
             </p>
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              <a href={WA} target="_blank" rel="noopener noreferrer" style={cta(true)}>Demander via WhatsApp →</a>
-              <a href={EMAIL} style={cta(false)}>Par email</a>
+              <a href={trainingContactLink(WA, p.title)} target="_blank" rel="noopener noreferrer" style={cta(true)}>Demander via WhatsApp →</a>
+              <a href={trainingContactLink(EMAIL, p.title)} style={cta(false)}>Par email</a>
             </div>
             <p style={{ marginTop: '2.5rem', fontFamily: 'Jost, sans-serif', fontSize: '0.95rem', color: 'rgba(235,232,225,0.55)', fontWeight: 300 }}>
               Voir le{' '}

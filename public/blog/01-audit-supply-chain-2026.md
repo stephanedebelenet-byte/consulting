@@ -231,11 +231,13 @@ Voici les 10 erreurs critiques — et comment les corriger.
 
 ---
 
-## Prochaine Étape : Audit Gratuit 2-3 Jours
+## Prochaine étape : échange découverte gratuit, diagnostic sur devis
 
-Ces 10 erreurs ne sont pas génétiques. Elles se corrigent. Et chaque correction = De 5% à 20% d'efficience récupérée.
+Ces erreurs peuvent être corrigées. Les gains dépendent de la situation initiale et doivent être mesurés sur un périmètre défini.
 
-**Un audit rapide supply chain (2-3 jours, 5-8K MAD) peut identifier précisément** où vous êtes, ce que vous pouvez corriger vite (quick wins 1-3 mois), et ce qui demande transformation (6+ mois).
+**L’échange découverte de 30 minutes est gratuit.** Il sert à préciser votre besoin et ne constitue pas un audit formalisé.
+
+Pour une mission avec analyse et livrables, consultez les [offres de conseil Supply Chain](/conseil). Le Diagnostic Flash y est présenté à 35–55k MAD HT sur deux semaines ; le périmètre et le devis sont confirmés avant engagement.
 
 **Vous avez une question? Une situation spécifique?** Contactez-nous. 20+ ans d'expertise, 110+ missions, 0 commission. On regarde votre situation, on vous dit honnêtement quoi faire.
 

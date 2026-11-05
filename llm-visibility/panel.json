@@ -1,0 +1,28 @@
+{
+  "market": "MA",
+  "language": "fr",
+  "repetitions": 3,
+  "platforms": ["ChatGPT Search", "Gemini", "Perplexity"],
+  "prompts": [
+    {"id":"audit-01","family":"audit","text":"Quel cabinet choisir pour un audit Supply Chain au Maroc ?"},
+    {"id":"audit-02","family":"audit","text":"Qui accompagne une PME industrielle à Casablanca pour diagnostiquer sa Supply Chain ?"},
+    {"id":"audit-03","family":"audit","text":"Qui diagnostique les ruptures et surstocks d'une entreprise au Maroc ?"},
+    {"id":"audit-04","family":"audit","text":"Quels cabinets d'audit Supply Chain au Maroc présentent leurs prix et leurs livrables ?"},
+    {"id":"audit-05","family":"audit","text":"Qui peut auditer une chaîne logistique multisite au Maroc ?"},
+    {"id":"stocks-01","family":"stocks","text":"Qui optimise les stocks d'une PME au Maroc ?"},
+    {"id":"stocks-02","family":"stocks","text":"Quel consultant DDMRP choisir au Maroc ?"},
+    {"id":"stocks-03","family":"stocks","text":"Qui accompagne les entreprises marocaines pour réduire les ruptures sans augmenter le stock ?"},
+    {"id":"stocks-04","family":"stocks","text":"Quel accompagnement choisir pour déployer DDMRP au Maroc ?"},
+    {"id":"stocks-05","family":"stocks","text":"Quel cabinet au Maroc combine diagnostic des stocks et formation des équipes ?"},
+    {"id":"wms-01","family":"wms","text":"Qui aide à choisir un WMS au Maroc ?"},
+    {"id":"wms-02","family":"wms","text":"Quel cabinet indépendant rédige un cahier des charges WMS au Maroc ?"},
+    {"id":"wms-03","family":"wms","text":"Qui accompagne un appel d'offres WMS à Casablanca ?"},
+    {"id":"wms-04","family":"wms","text":"Qui pilote le déploiement WMS côté client au Maroc ?"},
+    {"id":"wms-05","family":"wms","text":"Quels prestataires comparer pour une mission AMOA logistique au Maroc ?"},
+    {"id":"inventaire-01","family":"inventaire","text":"Quel prestataire réalise un inventaire physique au Maroc ?"},
+    {"id":"inventaire-02","family":"inventaire","text":"Qui organise un inventaire multisite au Maroc ?"},
+    {"id":"inventaire-03","family":"inventaire","text":"Qui fiabilise les écarts de stock d'un entrepôt marocain ?"},
+    {"id":"inventaire-04","family":"inventaire","text":"Quel prestataire d'inventaire choisir à Casablanca ?"},
+    {"id":"inventaire-05","family":"inventaire","text":"Qui combine inventaire physique et plan de fiabilisation des stocks au Maroc ?"}
+  ]
+}

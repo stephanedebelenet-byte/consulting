@@ -2,24 +2,16 @@ import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { useSearchParams, useParams, useNavigate, useLocation, Link } from 'react-router-dom'
 import { parseMarkdown, type BlogPost } from '../utils/markdownParser'
-import { BLOG_FILES } from '../data/blogFiles'
+import { BLOG_INDEX } from '../data/blogIndex'
+import { BLOG_PAGE_SIZE, BLOG_PAGE_COUNT, blogPagePath, validBlogPage } from '../data/blogPagination'
 import { getPrimedMarkdown } from '../data/markdownPreload'
 import SchemaScript from './SchemaHelper'
 import { getLenis } from '../hooks/useLenis'
 import { offerLinksFor } from '../data/offerLinks'
 
-// Au build, le markdown des articles est fourni d'avance (voir
-// src/data/markdownPreload.ts) : la page /blog prérendue contient alors la
-// liste complète des articles et leurs liens, lisibles par Google et les
-// crawlers IA. Dans le navigateur, le cache est vide : la liste est chargée
-// par fetch() comme avant.
-function primedPosts(): BlogPost[] {
-  const posts = BLOG_FILES.map((f) => getPrimedMarkdown(f))
-    .filter((raw): raw is string => !!raw)
-    .map((raw) => parseMarkdown(raw))
-  posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  return posts
-}
+// Le catalogue ne contient que des résumés. Le corps d'un article est chargé
+// uniquement à son ouverture ; le HTML initial de chaque article reste prérendu.
+const LIST_POSTS: BlogPost[] = BLOG_INDEX.map((post) => ({ ...post, rawContent: '', htmlContent: '' }))
 
 function readingTime(content: string): number {
   const words = content.trim().split(/\s+/).length
@@ -27,11 +19,15 @@ function readingTime(content: string): number {
 }
 
 export default function Blog() {
-  const [posts, setPosts] = useState<BlogPost[]>(primedPosts)
-  const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null)
-  const [loading, setLoading] = useState(() => posts.length === 0)
+  const posts = LIST_POSTS
   const [searchParams, setSearchParams] = useSearchParams()
-  const params = useParams<{ slug?: string }>()
+  const params = useParams<{ slug?: string; page?: string }>()
+  const page = validBlogPage(params.page) ?? 1
+  const visiblePosts = posts.slice((page - 1) * BLOG_PAGE_SIZE, page * BLOG_PAGE_SIZE)
+  const activeSlug = params.slug || searchParams.get('post')
+  const [article, setArticle] = useState<{ slug: string; post: BlogPost | null; error: string | null } | null>(null)
+  const selectedPost = article?.slug === activeSlug ? article.post : null
+  const articleError = article?.slug === activeSlug ? article.error : null
   const navigate = useNavigate()
   const location = useLocation()
   // Position dans la liste au moment d'ouvrir un article. La liste n'est pas
@@ -56,50 +52,29 @@ export default function Blog() {
   }, [params.slug])
 
   useEffect(() => {
-    const loadPosts = async () => {
+    if (!activeSlug) return
+    const controller = new AbortController()
+    const load = async () => {
       try {
-        // List of all blog files in the /blog folder
-        const blogFiles = BLOG_FILES
-
-        const fetched = await Promise.all(
-          blogFiles.map(async (file) => {
-            try {
-              const response = await fetch(`/blog/${file}.md`)
-              if (!response.ok) return null
-              const content = await response.text()
-              return parseMarkdown(content)
-            } catch (err) {
-              console.error(`Error loading ${file}:`, err)
-              return null
-            }
-          })
-        )
-        const loadedPosts = fetched.filter((p): p is BlogPost => p !== null)
-
-        // Sort by date descending
-        loadedPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-        setPosts(loadedPosts)
-      } finally {
-        setLoading(false)
+        const entry = BLOG_INDEX.find((post) => post.slug === activeSlug)
+        if (!entry) throw new Error('Cet article est introuvable.')
+        let content = getPrimedMarkdown(entry.file)
+        if (!content) {
+          const response = await fetch(`/blog/${entry.file}.md`, { signal: controller.signal })
+          if (!response.ok) throw new Error('Article indisponible')
+          content = await response.text()
+        }
+        if (!controller.signal.aborted) setArticle({ slug: activeSlug, post: parseMarkdown(content), error: null })
+      } catch (error) {
+        if (!controller.signal.aborted) {
+          console.error(error)
+          setArticle({ slug: activeSlug, post: null, error: 'Impossible de charger cet article. Réessayez ou revenez au blog.' })
+        }
       }
     }
-
-    loadPosts()
-  }, [])
-
-  // Deep-link : /blog/<slug> (canonique) ou /blog?post=<slug> (rétro-compat) ouvre l'article visé
-  // L'adresse est la référence : ouvrir un article depuis la liste fait passer
-  // l'URL à /blog/<slug>, le bouton Retour la ramène à /blog et referme l'article.
-  useEffect(() => {
-    const slug = params.slug || searchParams.get('post')
-    if (!slug) {
-      setSelectedPost(null) // eslint-disable-line react-hooks/set-state-in-effect -- l’URL est la source de vérité pour fermer un article
-      return
-    }
-    if (posts.length === 0) return
-    const match = posts.find((p) => p.slug === slug)
-    if (match) setSelectedPost(match)
-  }, [posts, params.slug, searchParams])
+    void load()
+    return () => controller.abort()
+  }, [activeSlug])
 
   return (
     <>
@@ -133,26 +108,13 @@ export default function Blog() {
             </h2>
           </motion.div>
 
-          {loading ? (
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              style={{
-                fontFamily: 'Jost, sans-serif',
-                fontSize: '1rem',
-                color: 'var(--dark-muted)',
-              }}
-            >
-              Chargement des articles...
-            </motion.p>
-          ) : (
             <div style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 300px), 1fr))',
               gap: '2rem',
               marginTop: '2rem',
             }}>
-              {posts.map((post, idx) => (
+              {visiblePosts.map((post, idx) => (
                 <motion.article
                   key={post.slug}
                   initial={{ opacity: 0, y: 48 }}
@@ -312,16 +274,30 @@ export default function Blog() {
                 </motion.article>
               ))}
             </div>
-          )}
+          <nav aria-label="Pagination des articles" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '3rem' }}>
+            {page > 1 && <a href={blogPagePath(page - 1)} rel="prev">← Page précédente</a>}
+            {Array.from({ length: BLOG_PAGE_COUNT }, (_, i) => i + 1).map((number) => (
+              <a key={number} href={blogPagePath(number)} aria-current={number === page ? 'page' : undefined}
+                style={{ padding: '0.5rem', fontWeight: number === page ? 700 : 400 }}>
+                Page {number}
+              </a>
+            ))}
+            {page < BLOG_PAGE_COUNT && <a href={blogPagePath(page + 1)} rel="next">Page suivante →</a>}
+          </nav>
         </div>
       </section>
       )}
 
+      {params.slug && !selectedPost && (
+        <section style={{ padding: '10rem var(--sp-x)' }}>
+          <p role={articleError ? 'alert' : 'status'}>{articleError ?? "Chargement de l'article…"}</p>
+          <a href="/blog">Retour aux articles</a>
+        </section>
+      )}
       {selectedPost && (
         <BlogDetail
           post={selectedPost}
           onClose={() => {
-            setSelectedPost(null)
             // Ouvert depuis la liste : on revient à l'entrée /blog de l'historique
             // (même effet que le bouton Retour). Arrivée directe sur l'URL de
             // l'article : on remplace par /blog, sans quitter le site.
@@ -407,44 +383,10 @@ function BlogDetail({ post, onClose }: BlogDetailProps) {
   }, [post])
 
   useEffect(() => {
-    const prevTitle = document.title
-    const sel = <T extends HTMLMetaElement>(attr: string, val: string) =>
-      document.querySelector<T>(`meta[${attr}="${val}"]`)
-
-    const descMeta   = sel('name', 'description')
-    const ogTitle    = sel('property', 'og:title')
-    const ogDesc     = sel('property', 'og:description')
-    const twTitle    = sel('name', 'twitter:title')
-    const twDesc     = sel('name', 'twitter:description')
-
-    const prevDesc   = descMeta?.content
-    const prevOgT    = ogTitle?.content
-    const prevOgD    = ogDesc?.content
-    const prevTwT    = twTitle?.content
-    const prevTwD    = twDesc?.content
-
-    // Même règle que le <title> prérendu (getBlogRoutes, vite.config.ts) : le
-    // suffixe de marque seulement s'il ne fait pas dépasser ~60 caractères.
-    const articleTitle = post.title.length <= 52 ? `${post.title} | Nextinotech` : post.title
-    document.title = articleTitle
-    if (descMeta && post.description)  descMeta.content = post.description
-    if (ogTitle)                        ogTitle.content  = articleTitle
-    if (ogDesc  && post.description)   ogDesc.content   = post.description
-    if (twTitle)                        twTitle.content  = articleTitle
-    if (twDesc  && post.description)   twDesc.content   = post.description
-
+    const previous = document.body.style.overflow
     document.body.style.overflow = 'hidden'
-
-    return () => {
-      document.title = prevTitle
-      if (descMeta && prevDesc)  descMeta.content = prevDesc
-      if (ogTitle  && prevOgT)   ogTitle.content  = prevOgT
-      if (ogDesc   && prevOgD)   ogDesc.content   = prevOgD
-      if (twTitle  && prevTwT)   twTitle.content  = prevTwT
-      if (twDesc   && prevTwD)   twDesc.content   = prevTwD
-      document.body.style.overflow = 'auto'
-    }
-  }, [post])
+    return () => { document.body.style.overflow = previous }
+  }, [])
 
   return (
     <motion.div

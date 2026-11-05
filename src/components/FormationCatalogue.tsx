@@ -1,3 +1,4 @@
+import { trainingContactLink } from '../utils/trainingContactLink'
 import { useRef, useState } from 'react'
 import { IS_SERVER } from '../utils/ssr'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
@@ -115,7 +116,7 @@ function FAQItem({ item }: { item: { q: string; a: string } }) {
 /* ─── Programme Card ──────────────────────────────────────── */
 function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
   const [open, setOpen] = useState(IS_SERVER)
-  const { tr, href } = useLocale()
+  const { locale, tr, href } = useLocale()
   const isExternal = p.cta.startsWith('http') || p.cta.startsWith('mailto')
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-40px' })
@@ -188,7 +189,7 @@ function ProgramCard({ p }: { p: typeof PROGRAMMES[0] }) {
           </div>
 
           <a
-            href={p.cta}
+            href={trainingContactLink(p.cta, p.title, locale)}
             target={isExternal ? '_blank' : undefined}
             rel={isExternal ? 'noopener noreferrer' : undefined}
             style={{
