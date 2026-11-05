@@ -57,8 +57,8 @@ code = '''JSON.stringify((()=>{
  const end=PLATFORM==='perplexity'?controls.some(b=>b.label==='Copy'):
    PLATFORM==='chatgpt'?controls.some(b=>b.label==='Copy'||b.label==='Regenerate response'):
    !!response?.querySelector('follow-up,elicitations');
- const userSelector=PLATFORM==='gemini'?'user-query':PLATFORM==='chatgpt'?'[data-message-author-role="user"]':'main h1';
- const userTurns=Array.from(document.querySelectorAll(userSelector));
+ const userSelector=PLATFORM==='gemini'?'user-query':PLATFORM==='chatgpt'?'[data-message-author-role="user"]':'main [data-renderer="lm"] p';
+ const userTurns=Array.from(document.querySelectorAll(userSelector)).filter(e=>PLATFORM!=='perplexity'||(!e.closest('.prose')&&!e.closest('[contenteditable="true"]')));
  const submittedPrompt=userTurns.at(-1)?.innerText||'';
  return {url:location.href,host:location.hostname,promptPresent:submittedPrompt.includes(PROMPT),submittedPrompt,
  answerText:response?.innerText||'',inlineCitationUrls:Array.from(response?.querySelectorAll('a[href],[data-pplx-citation-url]')||[])
