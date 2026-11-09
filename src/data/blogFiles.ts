@@ -12,6 +12,7 @@
 //
 // Module pur, sans React : importable depuis vite.config.ts.
 export const BLOG_FILES: string[] = [
+    'recette-wms-scenarios-tests',
     // Articles long-form
     '01-audit-supply-chain-2026',    '03-digitalisation-supply-chain-pme',
     '04-supply-chain-par-secteur',

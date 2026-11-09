@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>اختبار قبول نظام إدارة المستودعات WMS في المغرب</title>
+  <meta name="description" content="ثمانية سيناريوهات عملية لاختبار نظام إدارة المستودعات، مع نموذج لتوثيق النتائج ومعايير لاتخاذ قرار التشغيل.">
+  <link rel="canonical" href="https://nextinotech.com/ar/blog/recette-wms-scenarios-tests">
+  <link rel="alternate" hreflang="fr" href="https://nextinotech.com/blog/recette-wms-au-maroc-8-tests-avant-la-mise-en-service">
+  <link rel="alternate" hreflang="ar" href="https://nextinotech.com/ar/blog/recette-wms-scenarios-tests">
+  <link rel="alternate" hreflang="x-default" href="https://nextinotech.com/blog/recette-wms-au-maroc-8-tests-avant-la-mise-en-service">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="اختبار قبول نظام إدارة المستودعات WMS في المغرب">
+  <meta property="og:description" content="ثمانية سيناريوهات عملية لاختبار نظام إدارة المستودعات، مع نموذج لتوثيق النتائج ومعايير لاتخاذ قرار التشغيل.">
+  <meta property="og:url" content="https://nextinotech.com/ar/blog/recette-wms-scenarios-tests">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "اختبار قبول نظام إدارة المستودعات WMS في المغرب", "description": "ثمانية سيناريوهات عملية لاختبار نظام إدارة المستودعات، مع نموذج لتوثيق النتائج ومعايير لاتخاذ قرار التشغيل.", "mainEntityOfPage": "https://nextinotech.com/ar/blog/recette-wms-scenarios-tests", "inLanguage": "ar", "datePublished": "2026-11-09", "author": {"@type": "Organization", "name": "Nextinotech"}, "publisher": {"@type": "Organization", "name": "Nextinotech"}}</script>
+  <style>
+    :root { font-family: system-ui, sans-serif; color: #18242b; background: #f9faf8; }
+    body { margin: 0; line-height: 1.7; }
+    header, main, footer { width: min(46rem, calc(100% - 2rem)); margin: auto; }
+    header { padding-block: 1rem; border-block-end: 1px solid #dbe2da; }
+    nav { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+    main { padding-block: 2rem; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.7rem); line-height: 1.2; }
+    h2 { margin-block-start: 2rem; line-height: 1.35; }
+    a { color: #1b3554; text-underline-offset: .2em; }
+    .table-scroll { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { padding: .6rem; text-align: start; border: 1px solid #dbe2da; }
+    th { background: #edf1ed; }
+    blockquote { margin-inline: 0; padding-inline-start: 1rem; border-inline-start: 3px solid #1b3554; }
+    footer { padding-block: 1rem; border-block-start: 1px solid #dbe2da; }
+  </style>
+</head>
+<body>
+<header><nav><strong>Nextinotech</strong><a href="https://nextinotech.com/blog">العودة إلى المدونة</a><a href="https://nextinotech.com/blog/recette-wms-au-maroc-8-tests-avant-la-mise-en-service" hreflang="fr" lang="fr">Français</a></nav></header>
+<main><article>
+<h1>اختبار قبول نظام إدارة المستودعات WMS في المغرب</h1>
+<p>قد يمسح عامل المستودع رمز كرتون فتظهر العملية ناجحة، بينما يسجّل نظام تخطيط الموارد ERP عدداً غير صحيح من القطع. يظهر الفرق عند مطابقة المخزون. يكشف اختبار قبول نظام إدارة المستودعات WMS مثل هذه الحالات قبل التشغيل، من الاستلام إلى تسجيل الحركة في الأنظمة المرتبطة.</p>
+<h2>كيف تجهّز اختبار قبول نظام WMS؟</h2>
+<p>اختر أصنافاً تمثّل العمل اليومي. جهّز صنفاً يُستلم بالكرتون ويُباع بالقطعة، وصنفاً يُتتبّع برقم التشغيلة إذا كان ذلك ضمن نطاق المشروع. أضف مواقع تخزين مختلفة وكميات افتتاحية معروفة وطلبات شراء وبيع تجريبية. حدّد أدوار المستخدمين قبل بدء الاختبار حتى يتضح من ينفّذ الحركة ومن يعتمدها.</p>
+<p>أشرك فرق الاستلام والتحضير والشحن. إذا كان مستودع في الدار البيضاء يعمل بنظام الورديات، اختبر تسليم المهام بين ورديتين. يراجع فريق العمليات قابلية تنفيذ الخطوات، فيما يراجع الفريق التقني سجل الحركات والرسائل المتبادلة مع نظام ERP. <a href="https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/testing-strategy-test-types">Microsoft Learn — أنواع اختبارات الأنظمة</a></p>
+<h2>ثمانية سيناريوهات قبل التشغيل</h2>
+<div class="table-scroll"><table><thead><tr><th scope="col">السيناريو</th><th scope="col">الحالة التجريبية</th><th scope="col">النتيجة المنتظرة</th></tr></thead><tbody><tr><td>استلام جزئي</td><td>وصول 8 كراتين من أصل 10</td><td>تسجيل الكمية الفعلية وإظهار الكمية المتبقية</td></tr><tr><td>تحويل وحدة القياس</td><td>كرتون يحتوي على 12 قطعة</td><td>تطابق الكميات وفق الوحدة المحددة في كل نظام</td></tr><tr><td>التوجيه إلى موقع تخزين</td><td>الموقع المقترح غير متاح</td><td>اقتراح بديل يوافق القاعدة أو إظهار استثناء واضح</td></tr><tr><td>تتبّع التشغيلات</td><td>تشغيلتان إحداهما محجوزة</td><td>استبعاد التشغيلة المحجوزة من التحضير وتتبع الحركة</td></tr><tr><td>تحضير الطلب</td><td>نفاد الكمية من موقع الالتقاط</td><td>إظهار العجز وتطبيق مسار المعالجة المتفق عليه</td></tr><tr><td>شحن جزئي</td><td>شحن جزء من الطلب</td><td>إرسال الكمية الفعلية وحالة الطلب إلى النظام المعني</td></tr><tr><td>فرق في الجرد</td><td>اختلاف العد الفعلي عن النظام</td><td>إعادة العد أو اعتماد الفرق من المستخدم المخوّل</td></tr><tr><td>إعادة إرسال رسالة</td><td>وصول رسالة الحركة نفسها مرتين</td><td>احتساب الحركة مرة واحدة وإمكانية تتبع المحاولتين</td></tr></tbody></table></div>
+<p>الأرقام هنا أمثلة للتجربة. استخدم بيانات التعبئة الخاصة بأصنافك وحدّد ما يفترض أن يظهر في كل نظام. وفي اختبار التوجيه للتخزين، سجّل المنطقة وشروط الصنف والنتيجة التي سيُقارن بها الاختبار. <a href="https://learn.microsoft.com/en-us/dynamics365/supply-chain/warehousing/location-directive-acceptance-tests">Microsoft Learn — اختبارات قواعد تحديد المواقع</a></p>
+<h2>كيف توثّق النتيجة؟</h2>
+<p>لكل سيناريو، سجّل معرّف الاختبار والرصيد الابتدائي ودور المنفّذ والخطوة والنتيجة المنتظرة. احتفظ بدليل مثل رقم الحركة أو لقطة من شاشة العمل أو سجل الرسالة. في اختبار إعادة الإرسال، دوّن الرصيد قبل الرسالة وبعد المحاولة الأولى وبعد المحاولة الثانية. بهذه الطريقة يستطيع شخص آخر إعادة الاختبار ومقارنة النتيجة.</p>
+<p>صنّف كل خلل بحسب سببه. غياب رمز صنف يحتاج إلى إصلاح البيانات المرجعية. غياب قرار بشأن الكمية المتبقية من استلام جزئي يحتاج إلى اتفاق تشغيلي. تكرار حركة المخزون رغم وضوح القاعدة يحتاج إلى تصحيح تقني وإعادة اختبار.</p>
+<h2>متى يصبح النظام جاهزاً للتشغيل؟</h2>
+<p>اتفق مسبقاً على شروط قبول النظام. إذا كان الخلل يغيّر المخزون أو يعطّل تتبع التشغيلة أو يوقف الشحن، حدّد مع فريق المشروع الإجراء المطلوب قبل التشغيل. أما الخلل الذي يمكن احتواؤه مؤقتاً، فسجّل الإجراء البديل والمسؤول عنه وموعد إعادة الاختبار.</p>
+<p>نفّذ أيضاً تجربة انتقال تشمل تحميل المخزون وتفعيل الحسابات ومطابقة الأرصدة وإعادة تشغيل الربط بين الأنظمة. إذا كانت أول موجة شحن تبدأ صباحاً، اختبر نافذة التشغيل التي تسبقها فعلياً. سجّل من يتخذ قرار بدء العمل ومن يتدخل إذا تعذّر استئناف عملية أساسية.</p>
+<h2>أسئلة شائعة</h2>
+<h3>هل عرض النظام يكفي لقبوله؟</h3>
+<p>يبيّن العرض طريقة عمل النظام في حالة معدّة مسبقاً. أما اختبار القبول فيتحقق من قواعد مستودعك وبياناته وربطه بالأنظمة الأخرى، بما يشمل الحالات الاستثنائية.</p>
+<h3>من يعتمد نتائج الاختبار؟</h3>
+<p>يعتمد مسؤول العمليات صلاحية المسارات للعمل اليومي، ويقدّم الفريق التقني أدلة الاختبار. ويتخذ صاحب الصلاحية المحدد في المشروع قرار التشغيل بناءً على النتائج والعيوب المفتوحة.</p>
+<p>ابدأ بحصر العمليات التي قد يؤدي تعطلها إلى توقف الاستلام أو اختلال الرصيد أو تأخر الشحن. يمكن لفريق Nextinotech دراسة النطاق ومساعدتك في صياغة اختبارات قابلة للتحقق. <a href="https://nextinotech.com/contact">التواصل مع Nextinotech</a></p>
+</article></main>
+<footer>Nextinotech</footer>
+</body>
+</html>
