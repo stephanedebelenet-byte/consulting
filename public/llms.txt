@@ -114,9 +114,9 @@ Détail : https://nextinotech.com/control-tower — piloter la supply chain en t
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (515 articles)
+## Blog — Ressources Supply Chain (516 articles)
 
-Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 515 articles organisés en thèmes :
+Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 516 articles organisés en thèmes :
 
 ### Conseil, Audit & Transformation (articles 01-100)
 Audit supply chain, diagnostic logistique, FAQ, formations, entrepôts WMS, TMS, lean, schémas directeurs logistiques pour PME et ETI marocaines.

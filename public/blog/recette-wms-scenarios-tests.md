@@ -7,6 +7,8 @@ image: "/images/hero-warehouse.webp"
 keywords: "recette WMS, tests WMS, acceptation utilisateur, entrepôt, Maroc"
 ---
 
+# Recette WMS au Maroc : 8 tests avant la mise en service
+
 [Lire cet article en arabe](https://nextinotech.com/ar/blog/recette-wms-scenarios-tests)
 
 Un préparateur scanne un carton. Le WMS confirme la quantité, mais l’ERP enregistre le mouvement en pièces avec un coefficient erroné. À l’écran, l’opération paraît réussie. En clôture, les stocks divergent. Une recette WMS sert à repérer ce type d’écart avant le démarrage, en vérifiant les opérations du quai jusqu’aux applications qui enregistrent leurs conséquences.
