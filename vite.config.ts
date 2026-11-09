@@ -24,6 +24,7 @@ const EVENEMENT_FILES = new Set(EVENEMENTS.map((e) => e.file))
 // Ressources hors routes React (fichiers texte statiques) mais qui doivent
 // tout de même figurer dans le sitemap généré.
 const SITEMAP_EXTRAS: { loc: string; lastmod: string; changefreq: string; priority: number }[] = [
+  { loc: '/ar/blog/recette-wms-scenarios-tests', lastmod: '2026-11-09', changefreq: 'monthly', priority: 0.6 },
   { loc: '/llms.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
   { loc: '/llms-full.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
 ]
@@ -84,7 +85,11 @@ export function getBlogRoutes(): PrerenderRoute[] {
           description: fm.description || '',
           datePublished: fm.date || undefined,
           dateModified: fm.date || undefined,
-          author: {
+          author: fm.author === 'Nextinotech' ? {
+            '@type': 'Organization',
+            '@id': `${SITE}/#organization`,
+            name: fm.author,
+          } : {
             '@type': 'Person',
             '@id': `${SITE}/#youssef-b`,
             name: fm.author || 'Youssef B',
@@ -215,6 +220,9 @@ function renderRoute(shell: string, route: PrerenderRoute): string {
     if (route.altPath) {
       html = setHreflang(html, 'en', canonicalFor(route.altPath))
     }
+  }
+  if (route.path === '/blog/recette-wms-au-maroc-8-tests-avant-la-mise-en-service') {
+    html = setHreflang(html, 'ar', 'https://nextinotech.com/ar/blog/recette-wms-scenarios-tests')
   }
   html = setMetaTag(html, 'property', 'og:title', route.title)
   html = setMetaTag(html, 'property', 'og:description', route.description)
