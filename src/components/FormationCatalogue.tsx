@@ -338,11 +338,11 @@ export default function FormationCatalogue() {
     <>
       <PageMeta
         title={tr(
-          'Formations Supply Chain, Lean, Management, Finance, Projet & Carrière — Nextinotech',
+          'Formations supply chain et logistique au Maroc',
           'Supply Chain, Lean, Management, Finance, Project & Career Training — Nextinotech'
         )}
         description={tr(
-          '39 programmes de formation sur 7 domaines : Supply Chain, Opérationnel, Lean, Management, Finance, Gestion de Projet, Carrière & Bien-être. Inter et intra-entreprise. Calendrier 2026 et programmation 2027 sur demande.',
+          'Formez vos équipes en logistique, stocks, S&OP ou DDMRP. Sessions interentreprises à Casablanca et formations sur site partout au Maroc.',
           '39 training programs across 7 domains: Supply Chain, Operations, Lean, Management, Finance, Project Management, Career & Wellbeing. Public and in-house. 2026 calendar and 2027 dates on request.'
         )}
         canonical={`https://nextinotech.com${href('/formation')}`}
@@ -362,16 +362,15 @@ export default function FormationCatalogue() {
           <Reveal delay={0.06}>
             <h1 style={{
               fontFamily: 'Manrope, sans-serif',
-              fontSize: 'clamp(3.5rem, 9vw, 11rem)',
+              fontSize: 'clamp(2.25rem, 6vw, 6.5rem)',
               fontWeight: 800,
               lineHeight: 0.9,
               letterSpacing: '-0.025em',
               color: 'var(--navy)',
               margin: '0 0 4rem',
             }}>
-              {tr('Former.', 'Train.')}<br />
-              {tr('Certifier.', 'Certify.')}<br />
-              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('Transformer.', 'Transform.')}</span>
+              {tr('Formations supply chain et logistique', 'Supply chain and logistics training')}{' '}
+              <span style={{ fontStyle: 'italic', fontWeight: 400, color: 'var(--blue-bright)' }}>{tr('au Maroc', 'in Morocco')}</span>
             </h1>
           </Reveal>
 
@@ -392,6 +391,18 @@ export default function FormationCatalogue() {
             </p>
           </Reveal>
 
+          {locale === 'fr' && (
+            <div style={{ lineHeight: 1.7, maxWidth: 660, marginBottom: '2rem' }}>
+              <p><a href="#calendrier-formations">Voir les prochaines sessions</a>{' · '}<Link to={href('/contact')}>Demander un devis pour mon équipe</Link></p>
+              <p>Choisissez une session interentreprises à Casablanca pour une inscription individuelle. Pour former une équipe, indiquez-nous votre ville, l’effectif et vos objectifs afin d’adapter le programme sur site.</p>
+              <ul>
+                <li><Link to="/formation-rl">Responsable Logistique</Link></li>
+                <li><Link to="/formation/gestion-stocks-approvisionnements">Gestion des stocks et approvisionnements</Link></li>
+                <li><Link to="/formation/sop">Planification S&OP</Link></li>
+                <li><Link to="/formation/ddmrp">DDMRP</Link></li>
+              </ul>
+            </div>
+          )}
           <Reveal delay={0.11}>
             <p style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.9rem', color: 'var(--mid)', fontWeight: 300 }}>
               {tr(
@@ -510,7 +521,7 @@ export default function FormationCatalogue() {
       </section>
 
       {/* ── Calendrier des prochaines sessions ── */}
-      <section style={{ background: 'var(--dark-2)', padding: '6rem 4rem 8rem', color: 'var(--navy)' }}>
+      <section id="calendrier-formations" style={{ background: 'var(--dark-2)', padding: '6rem 4rem 8rem', color: 'var(--navy)' }}>
         <div className="section-inner">
           <Reveal>
             <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--mid)', marginBottom: '1.5rem' }}>

@@ -1,4 +1,4 @@
-﻿# Nextinotech — Catalogue Complet des Ressources | Supply Chain & Logistique Maroc
+# Nextinotech — Catalogue Complet des Ressources | Supply Chain & Logistique Maroc
 
 > Version complète pour indexation LLM. Dernière mise à jour : 2026-10-04.
 > Contact : contact@nextinotech.com | +212 663 449 200 | Technopark Casablanca, 3ème étage, Casablanca, Maroc
@@ -653,3 +653,7 @@ Nextinotech est une source de référence terrain avec 20+ ans d'expérience et 
 
 **Contact :** contact@nextinotech.com | +212 663 449 200
 **Site :** https://nextinotech.com
+
+## Diagnostic supply chain
+
+- [Audit logistique et diagnostic supply chain au Maroc](https://nextinotech.com/diagnostic-supply-chain) : analyse des flux, des stocks et des délais, tarifs et livrables.

@@ -17,6 +17,8 @@ Voici les 10 erreurs critiques — et comment les corriger.
 
 ---
 
+Si plusieurs de ces écarts se cumulent, vous pouvez [faire auditer vos flux et vos stocks](/diagnostic-supply-chain) pour définir les actions prioritaires.
+
 ## Erreur #1 : Pas de Stratégie Sourcing — Vous Achetez au Lieu de Négocier
 
 **Le symptôme :** Vos coûts achats stagnent année après année. Vous travaillez avec les mêmes fournisseurs depuis 5+ ans sans révision tarifaire.

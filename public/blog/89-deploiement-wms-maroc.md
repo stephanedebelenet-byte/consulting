@@ -17,6 +17,8 @@ J'ai accompagné plus d'une douzaine de projets WMS au Maroc — chez DHL, des g
 
 ---
 
+Si vous préparez un projet, découvrez notre [accompagnement pour choisir et déployer un WMS](/conseil).
+
 ## Pourquoi les Projets WMS Échouent (Avant même de Commencer)
 
 Dans mon expérience au Maroc, les échecs de projet WMS partagent presque toujours les mêmes causes — et aucune n'est technique.

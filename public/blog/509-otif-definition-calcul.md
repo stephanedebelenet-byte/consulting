@@ -14,6 +14,8 @@ description: "L'OTIF mesure les livraisons à l'heure et complètes. Définition
 
 **L'OTIF, « On Time In Full », est devenu l'indicateur roi du service client logistique. Une livraison compte comme réussie si elle arrive à l'heure et complète ; sinon, elle est ratée. Simple en apparence. Mais une étude de McKinsey menée avec le Trading Partner Alliance auprès de grands fabricants et distributeurs nord-américains a montré que chacun avait sa propre définition, et que 92% d'entre eux jugeaient qu'un standard commun créerait de la valeur. Deux entreprises qui affichent le même OTIF peuvent donc mesurer des choses très différentes.**
 
+Lorsque les écarts persistent, un audit permet de [diagnostiquer les causes des retards et des livraisons incomplètes](/diagnostic-supply-chain).
+
 ## La définition de base
 
 **OTIF = nombre de livraisons à l'heure et complètes / nombre total de livraisons**

@@ -9,6 +9,7 @@ import { LocaleProvider, type Locale } from './i18n/locale'
 import ServicesRedirect from './components/ServicesRedirect'
 import { VILLES } from './data/villesFormation'
 const HomePage = lazy(() => import('./pages/HomePage'))
+const DiagnosticPage = lazy(() => import('./pages/DiagnosticPage'))
 const ConseilPage = lazy(() => import('./pages/ConseilPage'))
 const PrestationsPage = lazy(() => import('./pages/PrestationsPage'))
 const ReferencesPage = lazy(() => import('./pages/ReferencesPage'))
@@ -78,6 +79,7 @@ function AnimatedRoutes() {
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/en" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
+        <Route path="/diagnostic-supply-chain" element={<PageTransition><DiagnosticPage /></PageTransition>} />
         <Route path="/en/consulting" element={<PageTransition><ConseilPage /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
         <Route path="/en/services" element={<PageTransition><PrestationsPage /></PageTransition>} />
