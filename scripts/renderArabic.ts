@@ -13,7 +13,8 @@ export function renderArabicPage(page: typeof arabicPages[number]) {
   const titles: Record<string, string> = {
     'plf-2027-avance-importation': 'مشروع مالية 2027: محاكاة التسبيق عند الاستيراد',
   }
-  const title = escapeHtml(titles[page.file] ?? article.title)
+  const fullTitle = titles[page.file] ?? article.title
+  const title = escapeHtml(fullTitle.length <= 60 ? fullTitle : fullTitle.slice(0, 57).replace(/\s+\S*$/, '') + '…')
   const description = escapeHtml(article.description ?? article.title)
   const url = site + page.ar
   const french = site + page.fr

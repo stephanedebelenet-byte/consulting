@@ -41,3 +41,14 @@ Une entreprise qui importe à la fois des pièces revendues et des équipements 
 ## Former votre équipe import-export
 
 [Consulter le programme et les modalités de la formation Douane à Casablanca](/formation/douane-import-export) ou [demander un échange sur vos opérations d’importation](/contact).
+
+## Guides pratiques pour votre équipe
+
+- [Projet 2027 et TIC sur les cigarettes électroniques](/blog/projet-2027-et-tic-sur-les-cigarettes-electroniques)
+- [Concevoir un registre des changements douaniers](/blog/concevoir-un-registre-des-changements-douaniers)
+- [Dédouanement maritime au Maroc : le chemin des documents](/blog/dedouanement-maritime-au-maroc-le-chemin-des-documents)
+- [Entrepôt sous douane : rapprocher les stocks](/blog/entrepot-sous-douane-rapprocher-les-stocks)
+- [Construire un plan de formation douane sur site](/blog/construire-un-plan-de-formation-douane-sur-site)
+- [Concevoir un audit logistique sur plusieurs sites](/blog/concevoir-un-audit-logistique-sur-plusieurs-sites)
+- [Construire un cahier des charges WMS](/blog/construire-un-cahier-des-charges-wms)
+- [Évaluer les résultats d’une formation logistique](/blog/evaluer-les-resultats-dune-formation-logistique)

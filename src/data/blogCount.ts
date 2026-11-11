@@ -1,2 +1,2 @@
 // Généré par scripts/generate-blog-index.mjs
-export const BLOG_POST_COUNT = 520
+export const BLOG_POST_COUNT = 566

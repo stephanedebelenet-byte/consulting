@@ -1,6 +1,420 @@
 // Généré par scripts/generate-blog-index.mjs ; modifier les fichiers Markdown sources.
 export const BLOG_INDEX = [
   {
+    "file": "guide-fr-ar-05",
+    "slug": "projet-2027-et-tic-sur-les-cigarettes-electroniques",
+    "title": "Projet 2027 et TIC sur les cigarettes électroniques",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "L’article 5 du projet publié inscrit les cigarettes électroniques au tableau des taxes intérieures de consommation, avec une quotité proposée de 100…",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-06",
+    "slug": "viandes-et-animaux-vivants-dans-le-projet-2027",
+    "title": "Viandes et animaux vivants dans le projet 2027",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "L’article 3 du projet mentionne les animaux domestiques vivants des espèces bovine, ovine, caprine et camélidé ainsi que leurs viandes et abats,…",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-07",
+    "slug": "projet-2027-et-regime-douanier-du-mondial-2030",
+    "title": "Projet 2027 et régime douanier du Mondial 2030",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "L’article 6 du projet prévoit un régime douanier de faveur lié à la Coupe du monde 2030.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-08",
+    "slug": "preparer-la-transition-tarifaire-entre-decembre-et-janvier",
+    "title": "Préparer la transition tarifaire entre décembre et janvier",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Une commande émise en décembre peut être déclarée en janvier.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-09",
+    "slug": "concevoir-un-registre-des-changements-douaniers",
+    "title": "Concevoir un registre des changements douaniers",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Un registre opérationnel relie une disposition à une décision.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-10",
+    "slug": "revente-en-letat-et-biens-dinvestissement-classifier-les",
+    "title": "Revente en l’état et biens d’investissement : classifier les flux",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Le projet d’avance à l’importation vise certaines marchandises revendues en l’état et exclut notamment les biens d’investissement.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-11",
+    "slug": "controler-la-valeur-en-douane-avant-depot",
+    "title": "Contrôler la valeur en douane avant dépôt",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Partez du prix réellement payé ou à payer et examinez les ajustements requis au regard des règles d’évaluation.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-12",
+    "slug": "reconcilier-facture-fret-et-assurance",
+    "title": "Réconcilier facture, fret et assurance",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Attribuez un identifiant unique au dossier et rattachez-y facture commerciale, connaissement, facture de transport et police d’assurance.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-13",
+    "slug": "classer-un-produit-composite-dans-le-tarif-douanier",
+    "title": "Classer un produit composite dans le tarif douanier",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Dressez la liste des composants, de leur fonction et de leur rôle dans le produit tel qu’il est présenté.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-14",
+    "slug": "documenter-une-preuve-dorigine-preferentielle",
+    "title": "Documenter une preuve d’origine préférentielle",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "L’origine préférentielle dépend de l’accord applicable au produit, de sa règle spécifique et de la preuve prévue par cet accord.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-15",
+    "slug": "origine-et-provenance-que-saisir-dans-le-dossier",
+    "title": "Origine et provenance : que saisir dans le dossier ?",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Le pays de provenance renseigne le trajet de la marchandise.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-16",
+    "slug": "verifier-un-certificat-dorigine-avant-expedition",
+    "title": "Vérifier un certificat d’origine avant expédition",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Vérifiez que le document présenté est celui admis par l’accord pour ce flux.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-17",
+    "slug": "incoterms-et-valeur-en-douane-le-rapprochement",
+    "title": "Incoterms et valeur en douane : le rapprochement",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "L’Incoterm et le lieu nommé indiquent la répartition contractuelle de certains frais et risques.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-18",
+    "slug": "dedouanement-maritime-au-maroc-le-chemin-des-documents",
+    "title": "Dédouanement maritime au Maroc : le chemin des documents",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Pour un flux maritime, associez à une même expédition la facture, la liste de colisage, le connaissement, les justificatifs d’origine et les…",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-19",
+    "slug": "portnet-et-badr-organiser-les-responsabilites",
+    "title": "PortNet et BADR : organiser les responsabilités",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Cartographiez les démarches au guichet unique PortNet et celles liées à la déclaration douanière dans BADR.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-20",
+    "slug": "controler-un-dossier-de-premiere-importation",
+    "title": "Contrôler un dossier de première importation",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Avant l’acompte fournisseur, vérifiez l’identification du produit, le classement envisagé, les contraintes documentaires, l’Incoterm et la marge…",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-21",
+    "slug": "importer-des-echantillons-etablir-le-bon-dossier",
+    "title": "Importer des échantillons : établir le bon dossier",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Décrivez la nature, la quantité, l’usage et le devenir des échantillons.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-22",
+    "slug": "separer-droits-tva-et-couts-logistiques-dans-le-cout-rendu",
+    "title": "Séparer droits, TVA et coûts logistiques dans le coût rendu",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Construisez un tableau avec prix fournisseur, transport, assurance, assiette douanière, droits, TVA, frais de terminal et livraison finale.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-23",
+    "slug": "reduire-surestaries-et-magasinage-a-la-source",
+    "title": "Réduire surestaries et magasinage à la source",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Relevez les périodes de franchise et les points de départ propres à chaque contrat.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-24",
+    "slug": "preparer-un-controle-douanier-apres-dedouanement",
+    "title": "Préparer un contrôle douanier après dédouanement",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Reconstituez un échantillon de déclarations à partir des écritures achats, logistiques et comptables.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-25",
+    "slug": "organiser-larchivage-des-pieces-import-export",
+    "title": "Organiser l’archivage des pièces import-export",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Utilisez la référence de la déclaration comme clé de recherche et rattachez les documents commerciaux, logistiques, fiscaux et douaniers.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-26",
+    "slug": "choisir-un-transitaire-grille-devaluation",
+    "title": "Choisir un transitaire : grille d’évaluation",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Évaluez le transitaire sur quatre critères documentés, couverture des flux, maîtrise des produits, continuité opérationnelle et transparence des frais.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-27",
+    "slug": "construire-un-tableau-de-bord-du-dedouanement",
+    "title": "Construire un tableau de bord du dédouanement",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Définissez les jalons qui bornent le délai, par exemple dossier complet, déclaration déposée, mainlevée et sortie physique.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-28",
+    "slug": "regimes-economiques-decider-selon-le-flux",
+    "title": "Régimes économiques : décider selon le flux",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Comparez les régimes selon l’usage des biens, leur destination finale, les transformations, les délais, les garanties et la capacité à produire les…",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-29",
+    "slug": "admission-temporaire-suivre-les-echeances",
+    "title": "Admission temporaire : suivre les échéances",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Ouvrez un registre au moment du placement sous régime.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-30",
+    "slug": "entrepot-sous-douane-rapprocher-les-stocks",
+    "title": "Entrepôt sous douane : rapprocher les stocks",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Rapprochez chaque mouvement physique d’un événement enregistré dans le système et du dossier douanier correspondant.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-31",
+    "slug": "reexportation-preparer-les-pieces-de-cloture",
+    "title": "Réexportation : préparer les pièces de clôture",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Avant réexportation, reliez le dossier de sortie à l’entrée initiale, aux quantités concernées et à la référence du régime.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-32",
+    "slug": "preparer-lautoevaluation-oea",
+    "title": "Préparer l’autoévaluation OEA",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Prenez le référentiel OEA applicable à votre demande et transformez chaque exigence en question vérifiable.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-33",
+    "slug": "tester-la-continuite-dune-equipe-import-export",
+    "title": "Tester la continuité d’une équipe import-export",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Choisissez une interruption plausible, par exemple l’absence du déclarant référent ou l’indisponibilité d’un système.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-34",
+    "slug": "former-un-acheteur-aux-risques-douaniers",
+    "title": "Former un acheteur aux risques douaniers",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "L’acheteur influence le dossier avant même la commande.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-35",
+    "slug": "construire-un-plan-de-formation-douane-sur-site",
+    "title": "Construire un plan de formation douane sur site",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Commencez par trois erreurs récurrentes de vos propres dossiers.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-36",
+    "slug": "concevoir-un-audit-logistique-sur-plusieurs-sites",
+    "title": "Concevoir un audit logistique sur plusieurs sites",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Fixez un périmètre commun de données et d’indicateurs, puis adaptez l’observation aux spécificités des sites.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-37",
+    "slug": "mesurer-le-cout-des-ruptures-avant-dagir",
+    "title": "Mesurer le coût des ruptures avant d’agir",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Évaluez les unités réellement perdues, celles reportées et celles remplacées.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-38",
+    "slug": "calculer-le-stock-de-securite-avec-des-delais-variables",
+    "title": "Calculer le stock de sécurité avec des délais variables",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Mesurez la demande observée pendant le délai réel de chaque réapprovisionnement.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-39",
+    "slug": "regler-les-parametres-erp-de-reapprovisionnement",
+    "title": "Régler les paramètres ERP de réapprovisionnement",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Vérifiez l’unité de base, les multiples d’achat, le minimum de commande, les délais et le calendrier fournisseur.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-40",
+    "slug": "preparer-un-pilote-ddmrp",
+    "title": "Préparer un pilote DDMRP",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Sélectionnez une famille où la demande, les délais et les mouvements sont suffisamment documentés.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-41",
+    "slug": "diagnostiquer-un-otif-faible-par-famille-de-commandes",
+    "title": "Diagnostiquer un OTIF faible par famille de commandes",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Définissez à quelle date et à quel niveau le service est mesuré, par exemple commande complète à la date confirmée.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-42",
+    "slug": "organiser-une-revue-sop-mensuelle",
+    "title": "Organiser une revue S&OP mensuelle",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Préparez une vue commune de la demande, des capacités, des stocks et des contraintes à plusieurs mois.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-43",
+    "slug": "construire-un-cahier-des-charges-wms",
+    "title": "Construire un cahier des charges WMS",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Décrivez d’abord les opérations à couvrir, réception, stockage, préparation, inventaire et expédition.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-44",
+    "slug": "evaluer-le-cout-total-dun-projet-wms",
+    "title": "Évaluer le coût total d’un projet WMS",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Établissez un horizon commun de comparaison.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-45",
+    "slug": "choisir-entre-reamenager-et-agrandir-un-entrepot",
+    "title": "Choisir entre réaménager et agrandir un entrepôt",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Mesurez la capacité utile par zone et heure de pointe, puis identifiez les goulots, emplacements, quais, circulation ou préparation.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-46",
+    "slug": "reduire-les-erreurs-de-preparation-et-de-reception",
+    "title": "Réduire les erreurs de préparation et de réception",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Classez les écarts par étape, article, quantité, lot ou dommage.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-47",
+    "slug": "evaluer-les-resultats-dune-formation-logistique",
+    "title": "Évaluer les résultats d’une formation logistique",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Définissez le comportement à changer avant la session et choisissez une mesure de départ.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-48",
+    "slug": "former-une-equipe-au-pilotage-des-stocks",
+    "title": "Former une équipe au pilotage des stocks",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Construisez les exercices sur un assortiment réel anonymisé.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-49",
+    "slug": "structurer-les-90-premiers-jours-dun-responsable-logistique",
+    "title": "Structurer les 90 premiers jours d’un responsable logistique",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Les trente premiers jours servent à observer les flux et établir les mesures de départ.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "guide-fr-ar-50",
+    "slug": "piloter-une-transformation-logistique-avec-un-cabinet-de",
+    "title": "Piloter une transformation logistique avec un cabinet de conseil",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Cadrez avec le cabinet les résultats, le périmètre, les données accessibles et les personnes habilitées à arbitrer.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
     "file": "plf-2027-agrement-transitaires",
     "slug": "plf-2027-agrement-des-transitaires-en-douane",
     "title": "PLF 2027 : agrément des transitaires en douane",
