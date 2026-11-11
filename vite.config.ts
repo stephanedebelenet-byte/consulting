@@ -9,6 +9,8 @@ import { BLOG_PRIORITY_OVERRIDES } from './src/data/blogSitemapOverrides.ts'
 import { parseMarkdown } from './src/utils/markdownParser.ts'
 import { offerLinksFor, offerLinksHtml } from './src/data/offerLinks.ts'
 import { extractArticleFaq } from './src/utils/articleFaq.ts'
+import { arabicAlternates, arabicPages } from './src/data/arabicPages.ts'
+import { renderArabicPage } from './scripts/renderArabic.ts'
 import { BLOG_FILES } from './src/data/blogFiles.ts'
 
 // Registre des articles publiés (source unique, voir src/data/blogFiles.ts).
@@ -25,6 +27,7 @@ const EVENEMENT_FILES = new Set(EVENEMENTS.map((e) => e.file))
 // tout de même figurer dans le sitemap généré.
 const SITEMAP_EXTRAS: { loc: string; lastmod: string; changefreq: string; priority: number }[] = [
   { loc: '/ar/blog/recette-wms-scenarios-tests', lastmod: '2026-11-09', changefreq: 'monthly', priority: 0.6 },
+  ...arabicPages.map(({ ar }) => ({ loc: ar, lastmod: '2026-11-11', changefreq: 'monthly', priority: 0.65 })),
   { loc: '/llms.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
   { loc: '/llms-full.txt', lastmod: '2026-10-04', changefreq: 'monthly', priority: 0.6 },
 ]
@@ -221,9 +224,8 @@ function renderRoute(shell: string, route: PrerenderRoute): string {
       html = setHreflang(html, 'en', canonicalFor(route.altPath))
     }
   }
-  if (route.path === '/blog/recette-wms-au-maroc-8-tests-avant-la-mise-en-service') {
-    html = setHreflang(html, 'ar', 'https://nextinotech.com/ar/blog/recette-wms-scenarios-tests')
-  }
+  const arabicPath = arabicAlternates.get(route.path)
+  if (arabicPath) html = setHreflang(html, 'ar', SITE + arabicPath)
   html = setMetaTag(html, 'property', 'og:title', route.title)
   html = setMetaTag(html, 'property', 'og:description', route.description)
   html = setMetaTag(html, 'property', 'og:url', url)
@@ -354,6 +356,13 @@ function prerenderHeads(): Plugin {
 
       this.info?.(`prerender-heads: ${count} pages générées`)
       console.log(`\n[prerender-heads] ${count} pages HTML générées avec <head> statique`)
+
+      for (const page of arabicPages) {
+        if (!seenRoutes.has(page.fr)) throw new Error('Page française manquante : ' + page.fr)
+        const outDir = join(dist, page.ar.slice(1))
+        mkdirSync(outDir, { recursive: true })
+        writeFileSync(join(outDir, 'index.html'), renderArabicPage(page), 'utf-8')
+      }
 
       const sitemap = generateSitemapXML(routes)
       writeFileSync(join(dist, 'sitemap.xml'), sitemap, 'utf-8')

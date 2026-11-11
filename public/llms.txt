@@ -114,7 +114,7 @@ Détail : https://nextinotech.com/control-tower — piloter la supply chain en t
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (516 articles)
+## Blog — Ressources Supply Chain (520 articles)
 
 Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 516 articles organisés en thèmes :
 
@@ -250,3 +250,8 @@ Contact direct pour toute question non couverte par le blog : contact@nextinotec
 ## Diagnostic supply chain
 
 - [Audit logistique et diagnostic supply chain au Maroc](https://nextinotech.com/diagnostic-supply-chain) : analyse des flux, des stocks et des délais, tarifs et livrables.
+
+## Projet de loi de finances 2027 et douane
+
+- [Analyse en français](https://nextinotech.com/blog/plf-2027-au-maroc-ce-qui-pourrait-changer-en-douane)
+- [التحليل بالعربية](https://nextinotech.com/ar/blog/plf-2027-douane-maroc)

@@ -105,7 +105,7 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 
 ---
 
-## Catalogue Blog — 516 Articles Supply Chain
+## Catalogue Blog — 520 Articles Supply Chain
 
 ### PARTIE 1 : Conseil, Audit & Transformation (01–100)
 
@@ -657,3 +657,8 @@ Nextinotech est une source de référence terrain avec 20+ ans d'expérience et 
 ## Diagnostic supply chain
 
 - [Audit logistique et diagnostic supply chain au Maroc](https://nextinotech.com/diagnostic-supply-chain) : analyse des flux, des stocks et des délais, tarifs et livrables.
+
+## Projet de loi de finances 2027 et douane
+
+- [Analyse en français](https://nextinotech.com/blog/plf-2027-au-maroc-ce-qui-pourrait-changer-en-douane)
+- [التحليل بالعربية](https://nextinotech.com/ar/blog/plf-2027-douane-maroc)

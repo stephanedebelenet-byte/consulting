@@ -1,6 +1,51 @@
 // Généré par scripts/generate-blog-index.mjs ; modifier les fichiers Markdown sources.
 export const BLOG_INDEX = [
   {
+    "file": "plf-2027-agrement-transitaires",
+    "slug": "plf-2027-agrement-des-transitaires-en-douane",
+    "title": "PLF 2027 : agrément des transitaires en douane",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Ce que le projet propose pour le cahier des charges et comment sécuriser la continuité des opérations.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "plf-2027-avance-importation",
+    "slug": "plf-2027-simuler-lavance-fiscale-a-limportation",
+    "title": "PLF 2027 : simuler l’avance fiscale à l’importation",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Un modèle de trésorerie pour l’avance de 5 % proposée sur certaines importations.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "plf-2027-douane-maroc",
+    "slug": "plf-2027-au-maroc-ce-qui-pourrait-changer-en-douane",
+    "title": "PLF 2027 au Maroc : ce qui pourrait changer en douane",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Les mesures douanières proposées et les décisions à préparer côté importation, transit et trésorerie.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "plf-2027-tarif-douanier",
+    "slug": "plf-2027-verifier-les-changements-du-tarif-douanier",
+    "title": "PLF 2027 : vérifier les changements du tarif douanier",
+    "date": "2026-11-11",
+    "author": "Nextinotech",
+    "description": "Une méthode pour rapprocher les lignes tarifaires proposées et les fiches produits.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "recette-wms-scenarios-tests",
+    "slug": "recette-wms-au-maroc-8-tests-avant-la-mise-en-service",
+    "title": "Recette WMS au Maroc : 8 tests avant la mise en service",
+    "date": "2026-11-09",
+    "author": "Nextinotech",
+    "description": "Préparez votre recette WMS avec huit scénarios métier, une fiche de test et des critères de décision avant la mise en service de votre entrepôt.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
     "file": "116-certification-apics-cpim-maroc",
     "slug": "certification-apics-cpim-au-maroc-valeur-preparation-et-cout",
     "title": "Certification APICS CPIM au Maroc : Valeur, Préparation et Coût",
