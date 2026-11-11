@@ -32,4 +32,12 @@ Une entreprise qui importe à la fois des pièces revendues et des équipements 
 - [Projet publié le 23 octobre, articles 3 à 7](https://www.finances.gov.ma/Publication/db/2027/corps-PLF2027-fr.pdf)
 - [Vote en commission annoncé le 11 novembre](https://www.finances.gov.ma/am/Pages/detail-actualite.aspx?fiche=7855)
 
-[Découvrir la formation Douane et Logistique internationale](/formation/douane-import-export)
+## Approfondir chaque mesure
+
+- [Simuler l’avance fiscale et son effet sur la trésorerie](/blog/plf-2027-simuler-lavance-fiscale-a-limportation)
+- [Préparer le suivi de l’agrément des transitaires](/blog/plf-2027-agrement-des-transitaires-en-douane)
+- [Vérifier les changements du tarif douanier](/blog/plf-2027-verifier-les-changements-du-tarif-douanier)
+
+## Former votre équipe import-export
+
+[Consulter le programme et les modalités de la formation Douane à Casablanca](/formation/douane-import-export) ou [demander un échange sur vos opérations d’importation](/contact).

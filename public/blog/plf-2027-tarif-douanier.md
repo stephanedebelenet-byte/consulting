@@ -27,4 +27,8 @@ Attribuez un propriétaire à chaque référence incertaine, puis vérifiez le t
 
 [Source officielle, article 4 et tableaux tarifaires](https://www.finances.gov.ma/Publication/db/2027/corps-PLF2027-fr.pdf)
 
-[Découvrir la formation Douane et Logistique internationale](/formation/douane-import-export)
+Consultez [la synthèse des propositions douanières du PLF 2027](/blog/plf-2027-au-maroc-ce-qui-pourrait-changer-en-douane) puis [simulez l’avance fiscale à l’importation](/blog/plf-2027-simuler-lavance-fiscale-a-limportation) pour isoler les effets sur la trésorerie.
+
+## Former votre équipe import-export
+
+[Consulter le programme et les modalités de la formation Douane à Casablanca](/formation/douane-import-export) ou [demander un échange sur vos opérations d’importation](/contact).

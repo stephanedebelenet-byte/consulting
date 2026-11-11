@@ -27,4 +27,8 @@ Testez la simulation sur trois cas : revente en l’état, bien d’investisseme
 
 [Source officielle, article 7 et dispositions d’entrée en vigueur](https://www.finances.gov.ma/Publication/db/2027/corps-PLF2027-fr.pdf)
 
-[Découvrir la formation Douane et Logistique internationale](/formation/douane-import-export)
+Pour replacer cette mesure dans son contexte, consultez [la synthèse douanière du PLF 2027](/blog/plf-2027-au-maroc-ce-qui-pourrait-changer-en-douane). Pour compléter votre simulation, [vérifiez les lignes tarifaires de vos références](/blog/plf-2027-verifier-les-changements-du-tarif-douanier).
+
+## Former votre équipe import-export
+
+[Consulter le programme et les modalités de la formation Douane à Casablanca](/formation/douane-import-export) ou [demander un échange sur vos opérations d’importation](/contact).

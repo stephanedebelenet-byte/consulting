@@ -27,4 +27,12 @@ date: "2026-11-11"
 - [نص المشروع المنشور في 23 أكتوبر، المواد من 3 إلى 7](https://www.finances.gov.ma/Publication/db/2027/corps-plf-2027_Ar.pdf)
 - [بلاغ التصويت في اللجنة بتاريخ 11 نونبر](https://www.finances.gov.ma/am/Pages/detail-actualite.aspx?fiche=7855)
 
-[التكوين في الجمارك واللوجستيك الدولي](/ar/formation/douane-import-export)
+## تفاصيل كل تدبير
+
+- [محاكاة أثر التسبيق الضريبي على السيولة](/ar/blog/plf-2027-avance-importation)
+- [متابعة اعتماد المعشرين الجمركيين](/ar/blog/plf-2027-agrement-transitaires)
+- [مراجعة التغييرات المقترحة في التعريفة الجمركية](/ar/blog/plf-2027-tarif-douanier)
+
+## تكوين فريق الاستيراد والتصدير
+
+[اطّلعوا على برنامج التكوين الجمركي وشروط التسجيل بالدار البيضاء](/ar/formation/douane-import-export) أو [اطلبوا لقاءً لمناقشة عمليات الاستيراد](/contact).
