@@ -64,6 +64,14 @@ export default function FormationProgramme({ p }: { p: Programme }) {
             </p>
           </FadeUp>
 
+          {p.id === 'douane-import-export' && (
+            <p>
+              <Link to="/blog/plf-2027-au-maroc-ce-qui-pourrait-changer-en-douane">Lire notre analyse des propositions douanières du PLF 2027</Link>
+              {' · '}
+              <a href="/ar/formation/douane-import-export" lang="ar" hrefLang="ar">برنامج التكوين بالعربية</a>
+            </p>
+          )}
+
           <FadeUp delay={0.06}>
             <div style={{ marginTop: '2.5rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '1px', background: 'var(--border)', border: '1px solid var(--border)' }}>
               {[

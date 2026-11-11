@@ -12,6 +12,10 @@
 //
 // Module pur, sans React : importable depuis vite.config.ts.
 export const BLOG_FILES: string[] = [
+    'plf-2027-douane-maroc',
+    'plf-2027-avance-importation',
+    'plf-2027-agrement-transitaires',
+    'plf-2027-tarif-douanier',
     'recette-wms-scenarios-tests',
     // Articles long-form
     '01-audit-supply-chain-2026',    '03-digitalisation-supply-chain-pme',

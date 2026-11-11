@@ -7,6 +7,7 @@ import CustomCursor from './CustomCursor'
 import Analytics from './Analytics'
 import Nav from './Nav'
 import Footer from './Footer'
+import { arabicAlternates } from '../data/arabicPages'
 import PageFaq from './PageFaq'
 import BackToTop from './BackToTop'
 import MobileTabBar from './MobileTabBar'
@@ -69,6 +70,8 @@ export function Statement({ text, bg = 'var(--ink)', accent = 'var(--navy)' }: {
 }
 
 export default function Layout({ children }: { children: ReactNode }) {
+  const { pathname } = useLocation()
+  const arabicPath = arabicAlternates.get(pathname.replace(/\/$/, ''))
   useLenis()
   return (
     <MobileMenuProvider>
@@ -78,6 +81,11 @@ export default function Layout({ children }: { children: ReactNode }) {
         <Analytics />
         <CustomCursor />
         <Nav />
+        {arabicPath && (
+          <div style={{ padding: '0.5rem var(--sp-x)', background: 'var(--paper)', textAlign: 'end' }}>
+            <a href={arabicPath} lang="ar" hrefLang="ar">العربية</a>
+          </div>
+        )}
         {children}
         <PageFaq />
         <Footer />
