@@ -52,7 +52,7 @@ const ACCOMPAGNEMENTS = [
     tagline: "Diagnostic, DDMRP, sélection et déploiement de systèmes SI & IA, direction supply chain à temps partagé. Un regard extérieur, indépendant.",
     points: ['Diagnostic Express', 'DDMRP', 'Systèmes SI & IA (WMS/TMS/APS)', 'DSC à temps partagé'],
     href: '/conseil',
-    cta: 'Découvrir le Conseil →',
+    cta: 'Conseil en logistique et supply chain →',
   },
   {
     num: '02',
@@ -323,7 +323,7 @@ export default function HomePage() {
                   {tr('Des programmes animés par des consultants de terrain, pas des formateurs académiques.', 'Programs led by field consultants, not academic trainers.')}
                 </p>
                 <Link to={href('/formation')} className="btn-primary">
-                  {tr('Découvrir nos formations →', 'Discover our training programs →')}
+                  {tr('Formations supply chain et logistique →', 'Discover our training programs →')}
                 </Link>
               </div>
             </FadeUp>

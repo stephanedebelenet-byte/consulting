@@ -17,6 +17,8 @@ Ce n'est pas un reproche. La supply chain est précisément le domaine où les p
 
 ---
 
+Pour cadrer une mission, comparez les livrables, délais et tarifs de notre [diagnostic supply chain pour votre entreprise](/diagnostic-supply-chain).
+
 ## Les 10 Signaux d'Alarme qui Indiquent qu'un Audit est Nécessaire
 
 Avant même de parler de méthode, voici les signaux que j'observe systématiquement chez les entreprises qui ont besoin d'un audit :

@@ -7,6 +7,7 @@ import Layout from './components/Layout'
 import { LocaleProvider, type Locale } from './i18n/locale'
 import HomePage from './pages/HomePage'
 import ConseilPage from './pages/ConseilPage'
+import DiagnosticPage from './pages/DiagnosticPage'
 import PrestationsPage from './pages/PrestationsPage'
 import ServicesRedirect from './components/ServicesRedirect'
 import ReferencesPage from './pages/ReferencesPage'
@@ -73,6 +74,7 @@ function AnimatedRoutes() {
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/en" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/conseil" element={<PageTransition><ConseilPage /></PageTransition>} />
+        <Route path="/diagnostic-supply-chain" element={<PageTransition><DiagnosticPage /></PageTransition>} />
         <Route path="/en/consulting" element={<PageTransition><ConseilPage /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><PrestationsPage /></PageTransition>} />
         <Route path="/en/services" element={<PageTransition><PrestationsPage /></PageTransition>} />

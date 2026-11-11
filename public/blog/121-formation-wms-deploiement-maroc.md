@@ -15,6 +15,8 @@ La formation WMS n'est pas qu'une formation logiciel. C'est une formation sur le
 
 ![Déploiement WMS warehouse management system](/images/analytics.webp)
 
+Pour préparer votre équipe au projet, consultez le [programme de la formation WMS](/formation/wms).
+
 ## Pourquoi Tant de Déploiements WMS Échouent
 
 **Raison #1 : Le WMS est sélectionné avant d'avoir cartographié les besoins.**

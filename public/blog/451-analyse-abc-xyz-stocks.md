@@ -14,6 +14,8 @@ description: "L'analyse ABC-XYZ croise valeur et régularité de la demande. Cal
 
 **La méthode ABC dit ce qui compte. Elle ne dit pas ce qui est prévisible. Or deux articles de classe A peuvent se comporter de façon opposée : l'un se vend 500 unités chaque semaine, l'autre zéro pendant un mois puis 2 000 d'un coup. Les gérer avec les mêmes règles, c'est garantir soit un surstock, soit une rupture. L'analyse XYZ ajoute cette seconde dimension.**
 
+Pour appliquer cette méthode à vos références, découvrez la [formation en gestion des stocks et approvisionnements](/formation/gestion-stocks-approvisionnements).
+
 ## Le principe du XYZ
 
 On mesure la régularité de la demande de chaque référence avec le **coefficient de variation** :
