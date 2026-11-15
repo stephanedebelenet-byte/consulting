@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Déploiement unique du job éditorial sur Google Cloud, à lancer depuis Cloud Shell (navigateur, sans PC configuré).
+# Déploiement unique du job de publication sur Google Cloud, à lancer depuis Cloud Shell (navigateur, sans PC configuré).
 #   git clone https://github.com/stephanedebelenet-byte/consulting.git && cd consulting/cloud/editorial-job
 #   PROJECT_ID=mon-projet bash deploy.sh
 # Relancer le script est sans danger : il met à jour ce qui existe déjà.
@@ -11,7 +11,7 @@ REPO_AR="editorial"
 IMAGE="${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO_AR}/editorial-job:latest"
 SA_NAME="editorial-job"
 SA="${SA_NAME}@${PROJECT_ID}.iam.gserviceaccount.com"
-SECRETS=(GITHUB_TOKEN ANTHROPIC_API_KEY TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID)
+SECRETS=(GITHUB_TOKEN TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID)
 
 gcloud config set project "$PROJECT_ID" >/dev/null
 echo "▶ Activation des API"
@@ -46,7 +46,6 @@ deploy_job() {  # nom, MODE, timeout, mémoire
 }
 echo "▶ Jobs Cloud Run"
 deploy_job editorial-publish publish 1800s 4Gi
-deploy_job editorial-veille veille 3600s 2Gi
 
 echo "▶ Planification (Cloud Scheduler, heure de Casablanca)"
 gcloud projects add-iam-policy-binding "$PROJECT_ID" --member="serviceAccount:$SA" \
@@ -62,10 +61,9 @@ schedule() {  # nom tâche, job, cron
   fi
 }
 schedule publish-quotidien editorial-publish "0 6 * * 1-5"
-schedule veille-hebdo editorial-veille "0 7 * * 0"
 
 echo
 echo "✅ Terminé."
 echo "   Publication : du lundi au vendredi à 6 h (articles dont la date est arrivée)."
-echo "   Veille : le dimanche à 7 h (pull request d'articles d'actualité à relire)."
+echo "   Veille d'actualité : routine Claude Code (abonnement), voir README.md."
 echo "   Test immédiat : gcloud run jobs execute editorial-publish --region=$REGION"

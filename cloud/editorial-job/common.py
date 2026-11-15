@@ -1,7 +1,6 @@
 """Outils communs du job éditorial (Cloud Run Jobs) : git, GitHub, Telegram, données du site.
 
-Aucun secret n'est écrit dans ce dépôt : GITHUB_TOKEN, ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN et
-TELEGRAM_CHAT_ID sont injectés par Secret Manager comme variables d'environnement du job.
+Aucun secret n'est écrit dans ce dépôt : GITHUB_TOKEN, TELEGRAM_BOT_TOKEN et TELEGRAM_CHAT_ID sont injectés par Secret Manager comme variables d'environnement du job.
 """
 from __future__ import annotations
 
@@ -14,7 +13,6 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-import requests
 
 REPO = os.environ.get("GITHUB_REPO", "stephanedebelenet-byte/consulting")
 BRANCH_MAIN = os.environ.get("GITHUB_MAIN_BRANCH", "main")
@@ -64,6 +62,8 @@ def telegram(message: str) -> None:
     if not token or not chat:
         print("[telegram] non configuré :", message[:300])
         return
+    import requests  # importé ici : la routine Claude Code utilise ce module sans requests
+
     try:
         requests.post(
             f"https://api.telegram.org/bot{token}/sendMessage",
@@ -76,6 +76,8 @@ def telegram(message: str) -> None:
 
 def create_pull_request(branch: str, title: str, body: str) -> str:
     """Ouvre une pull request vers la branche principale et renvoie son adresse."""
+    import requests
+
     r = requests.post(
         f"https://api.github.com/repos/{REPO}/pulls",
         headers={

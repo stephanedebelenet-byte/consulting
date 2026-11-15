@@ -1,13 +1,10 @@
-"""Point d'entrée du conteneur : MODE=publish ou MODE=veille (variable d'environnement du job Cloud Run)."""
+"""Point d'entrée du conteneur Cloud Run (MODE=publish). La veille tourne dans une routine Claude Code, voir README."""
 import os
 import sys
 
-mode = os.environ.get("MODE", "")
-if mode == "publish":
-    from publish import main
-elif mode == "veille":
-    from veille import main
-else:
-    sys.exit(f"MODE inconnu : {mode!r} (attendu : publish ou veille)")
+if os.environ.get("MODE", "publish") != "publish":
+    sys.exit(f"MODE inconnu : {os.environ['MODE']!r} (seul « publish » existe)")
+
+from publish import main
 
 raise SystemExit(main())

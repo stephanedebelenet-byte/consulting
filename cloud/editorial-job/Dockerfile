@@ -1,5 +1,5 @@
-# Job éditorial nextinotech.com (Cloud Run Jobs) : publication planifiée et veille d'actualité.
-# Node 24 pour le site (build Vite, scripts .mjs/.ts), Python pour l'orchestration et l'API Claude.
+# Job éditorial nextinotech.com (Cloud Run Jobs) : publication planifiée (aucun appel à Claude).
+# Node 24 pour le site (build Vite, scripts .mjs/.ts), Python pour l'orchestration.
 FROM node:24-slim
 
 RUN apt-get update \

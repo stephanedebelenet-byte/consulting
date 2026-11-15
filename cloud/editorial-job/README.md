@@ -1,51 +1,58 @@
-# Job éditorial nextinotech.com (Google Cloud)
+# Automatisation éditoriale nextinotech.com
 
-Deux tâches tournent dans Google Cloud. Aucun PC n'a besoin d'être allumé.
+Tout tourne dans le cloud, sans PC allumé et sans API Claude payante.
 
-| Tâche | Quand | Ce qu'elle fait |
-|---|---|---|
-| `editorial-publish` | du lundi au vendredi à 6 h (Casablanca) | Publie les brouillons de `content/drafts/` dont la date est arrivée, compile le site comme garde-fou, puis pousse sur `main`. Vercel redéploie ensuite. Si la compilation échoue, rien n'est poussé et une alerte Telegram est envoyée. |
-| `editorial-veille` | le dimanche à 7 h | Collecte l'actualité de la semaine (loi de finances, douane, ports, champions marocains, leaders internationaux, tendances supply chain : voir `sources.json`). Claude vérifie les faits par recherche web et rédige 3 articles FR + AR datés sur les prochains mardis et jeudis libres. Il ouvre ensuite une **pull request**. Rien n'est publié tant que la PR n'est pas fusionnée. |
+| Tâche | Où | Quand (Casablanca) | Ce qu'elle fait |
+|---|---|---|---|
+| Publication | Google Cloud Run Jobs (`editorial-publish`) | du lundi au vendredi à 6 h | Publie les brouillons de `content/drafts/` dont la date est arrivée. Le site est compilé avant tout envoi : si la compilation échoue, rien n'est poussé et une alerte Telegram part. Sinon, l'envoi se fait sur `main` et Vercel redéploie. Aucun appel à Claude. |
+| Veille d'actualité | Routine Claude Code, incluse dans l'abonnement Claude | le dimanche à 7 h | Repère l'actualité de la semaine : loi de finances, douane, ports, champions marocains, leaders internationaux, tendances supply chain (voir `sources.json`). Vérifie les faits par recherche web. Rédige 3 articles FR + AR datés sur les prochains mardis et jeudis libres, puis ouvre une **pull request**. Rien n'est publié sans fusion. |
 
-Validation hebdomadaire : vous recevez un message Telegram avec le lien de la PR. Vous relisez sur GitHub, depuis un téléphone si besoin, puis vous cliquez sur « Merge ». Les articles paraissent ensuite à leur date.
+Validation hebdomadaire : GitHub vous prévient de la PR, par e-mail ou par l'application mobile. Vous relisez, puis vous cliquez sur « Merge ». Chaque article paraît ensuite à sa date.
 
-## Déploiement (une seule fois, depuis un navigateur)
+## 1. Publication : déploiement unique depuis un navigateur
 
-1. Ouvrez [Cloud Shell](https://shell.cloud.google.com) (projet Google Cloud avec facturation active).
+1. Ouvrez [Cloud Shell](https://shell.cloud.google.com). Il faut un projet Google Cloud avec un compte de facturation ; l'usage reste en principe dans les quotas gratuits.
 2. Lancez :
    ```bash
    git clone https://github.com/stephanedebelenet-byte/consulting.git
    cd consulting/cloud/editorial-job
    PROJECT_ID=<votre-projet> bash deploy.sh
    ```
-3. Le script demande quatre secrets (saisie masquée) :
-   - `GITHUB_TOKEN` : jeton GitHub *fine-grained*, limité au dépôt `consulting`, avec les droits **Contents : Read and write** et **Pull requests : Read and write**.
-   - `ANTHROPIC_API_KEY` : clé API créée sur console.anthropic.com.
-   - `TELEGRAM_BOT_TOKEN` : jeton fourni par @BotFather.
-   - `TELEGRAM_CHAT_ID` : votre identifiant de conversation (envoyez un message au bot, puis ouvrez `https://api.telegram.org/bot<TOKEN>/getUpdates`).
+3. Le script demande trois secrets (saisie masquée) :
+   - `GITHUB_TOKEN` : jeton GitHub *fine-grained* limité au dépôt `consulting`, avec le droit **Contents : Read and write**.
+   - `TELEGRAM_BOT_TOKEN` et `TELEGRAM_CHAT_ID` : facultatifs (Entrée vide = pas d'alerte Telegram).
 4. Test immédiat : `gcloud run jobs execute editorial-publish --region=europe-west1`.
 
-Pour changer une clé, relancez `deploy.sh` et appuyez sur Entrée pour les secrets à conserver.
+## 2. Veille : routine Claude Code
+
+La routine se gère sur https://claude.ai/code/routines : exécution immédiate, pause, modification de l'heure ou des consignes.
+Elle a besoin de l'application GitHub de Claude installée sur le dépôt `consulting`, pour cloner le dépôt et ouvrir la PR.
+
+Elle s'appuie sur `drafts_tool.py`, qui applique à chaque article les mêmes contrôles qu'en local :
+
+```bash
+python3 cloud/editorial-job/drafts_tool.py contexte            # missions, articles publiés, brouillons, prochains numéros et dates
+python3 cloud/editorial-job/drafts_tool.py titres              # titres d'actualité de la semaine (Google News)
+python3 cloud/editorial-job/drafts_tool.py enregistrer a.json  # contrôle puis écrit content/drafts/fr|ar/NNN-*.md
+```
+
+Contrôles effectués :
+- longueur du titre et de la description ;
+- au moins 700 mots en FR et 450 en AR ;
+- au moins deux sources ;
+- adresse de page non encore prise ;
+- liens internes limités aux articles publiés et aux missions existantes.
+
+Si un contrôle échoue, rien n'est écrit et le script affiche les corrections à faire.
 
 ## Réglages
 
-- **Sujets de veille** : modifiez `sources.json` (piliers et requêtes, nombre d'articles par semaine), puis relancez `deploy.sh` pour reconstruire l'image.
-- **Horaires** : variables `schedule` en fin de `deploy.sh`.
-- **Mettre la veille en pause** : `gcloud scheduler jobs pause veille-hebdo --location=europe-west1`.
-
-## Garde-fous de la veille
-
-- Faits vérifiés par recherche web, au moins deux sources par article, et liste des sources en bas de page.
-- Un projet de loi est toujours présenté comme un projet. Ton neutre sur les entreprises.
-- Contrôles automatiques avant écriture : longueur du titre et de la description, nombre de mots, adresse déjà prise, liens internes limités aux articles publiés et aux missions existantes.
-- Le modèle utilisé est `claude-opus-5-5`. Le repli de sécurité côté serveur est activé (`fallbacks="default"`) : si une requête est bloquée par les filtres de sécurité, l'API peut la réessayer sur un autre modèle.
-- **La relecture humaine reste obligatoire** : la PR est le point de contrôle.
-
-## Coûts
-
-- **Cloud Run, Scheduler, Secret Manager** : l'usage décrit (environ 5 minutes par jour) reste en général dans les quotas gratuits. Vérifiez sur la page de facturation.
-- **API Claude** : une exécution de veille par semaine (recherches web + 3 articles bilingues). Suivez le coût réel sur console.anthropic.com et fixez-y une limite de dépense mensuelle.
+- **Sujets de veille** : modifiez `sources.json`. La routine relit ce fichier à chaque exécution.
+- **Horaire de publication** : ligne `schedule` en fin de `deploy.sh`, puis relancez le script.
+- **Mettre la publication en pause** : `gcloud scheduler jobs pause publish-quotidien --location=europe-west1`.
 
 ## Fichiers
 
-`main.py` (point d'entrée, variable `MODE`), `publish.py`, `veille.py`, `common.py` (git, GitHub, Telegram, dates), `sources.json`, `Dockerfile`, `deploy.sh`.
+- `main.py`, `publish.py`, `common.py` : publication (Cloud Run).
+- `drafts_tool.py`, `sources.json` : veille (routine).
+- `Dockerfile`, `deploy.sh` : déploiement.
