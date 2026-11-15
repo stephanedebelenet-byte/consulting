@@ -75,7 +75,7 @@ export function getBlogRoutes(): PrerenderRoute[] {
     // pages en "Détectée, actuellement non indexée").
     const { htmlContent, rawContent } = parseMarkdown(raw)
     const articleFaq = extractArticleFaq(rawContent)
-    const slug = blogSlug(fm.title)
+    const slug = fm.slug || blogSlug(fm.title)
     const url = `${SITE}/blog/${slug}`
     const image = fm.image ? (fm.image.startsWith('http') ? fm.image : SITE + fm.image) : `${SITE}/logo-full.png`
     const jsonLd = {

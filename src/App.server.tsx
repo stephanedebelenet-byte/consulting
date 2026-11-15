@@ -28,6 +28,8 @@ import DimensionnementEntrepotPage from './pages/DimensionnementEntrepotPage'
 import ProductiviteEnginsPage from './pages/ProductiviteEnginsPage'
 import CoutGlobalEntrepotPage from './pages/CoutGlobalEntrepotPage'
 import FaqPage from './pages/FaqPage'
+import MissionsPage from './pages/MissionsPage'
+import MissionPage from './pages/MissionPage'
 import DemoWmsPage from './pages/DemoWmsPage'
 import DemoTmsPage from './pages/DemoTmsPage'
 import DemoApsPage from './pages/DemoApsPage'
@@ -120,6 +122,8 @@ function AnimatedRoutes() {
         <Route path="/directeur-achats-mi-temps" element={<PageTransition><DirecteurAchatsMiTempsPage /></PageTransition>} />
         <Route path="/direction-supply-chain-temps-partage" element={<PageTransition><DirectionSCTempsPartagePage /></PageTransition>} />
         <Route path="/dsc-vs-recrutement-cdi" element={<PageTransition><DscVsRecrutementCdiPage /></PageTransition>} />
+        <Route path="/missions" element={<PageTransition><MissionsPage /></PageTransition>} />
+        <Route path="/missions/:mission" element={<PageTransition><MissionPage /></PageTransition>} />
         <Route path="/accompagnement-oea" element={<PageTransition><AccompagnementOeaPage /></PageTransition>} />
         <Route path="/ingenierie-formation" element={<PageTransition><IngenierieFormationPage /></PageTransition>} />
         <Route path="/ingenierie-formation/catalogue" element={<PageTransition><CatalogueMetiersPage /></PageTransition>} />

@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components -- prepare() est appelé par preloadRoute (App.tsx) avant le premier rendu */
 import { useParams } from 'react-router-dom'
 import PageHero from '../components/PageHero'
 import Blog from '../components/Blog'
@@ -6,6 +7,22 @@ import NotFoundPage from './NotFoundPage'
 import PageMeta from '../components/PageMeta'
 import { validBlogPage, blogPagePath } from '../data/blogPagination'
 import { BLOG_INDEX } from '../data/blogIndex'
+import { primeMarkdown, getPrimedMarkdown } from '../data/markdownPreload'
+
+/**
+ * Appelé par preloadRoute (App.tsx) avant le premier rendu : charge le
+ * Markdown de l'article demandé pour que <Blog /> l'affiche dès son premier
+ * rendu. Sans cela, l'article arrivait après coup et repoussait le pied de
+ * page (CLS de 0,27 mesuré sur ordinateur, audit du 15/11/2026).
+ */
+export async function prepare(pathname: string): Promise<void> {
+  const slug = pathname.match(/^\/blog\/([^/]+)$/)?.[1]
+  if (!slug || slug === 'page') return
+  const entry = BLOG_INDEX.find((post) => post.slug === slug)
+  if (!entry || getPrimedMarkdown(entry.file)) return
+  const response = await fetch(`/blog/${entry.file}.md`)
+  if (response.ok) primeMarkdown(entry.file, await response.text())
+}
 
 export default function BlogPage() {
   const { slug, page: pageParam } = useParams<{ slug?: string; page?: string }>()

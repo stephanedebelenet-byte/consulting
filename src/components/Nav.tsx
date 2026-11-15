@@ -30,8 +30,12 @@ const ACADEMIE_ITEMS: SimpleItem[] = [
 ]
 
 const CONSEIL_ITEMS: SimpleItem[] = [
+  { label: 'Toutes nos missions', href: '/missions' },
+  { label: 'Conformité & réglementation', href: '/missions#conformite' },
+  { label: 'Normes & exigences clients', href: '/missions#normes' },
+  { label: 'Coûts, contrôle de gestion & audit', href: '/missions#couts' },
+  { label: 'Investissement & business plans', href: '/missions#investissement' },
   { label: 'Diagnostic & Conseil', href: '/conseil' },
-  { label: 'DDMRP', href: '/conseil' },
   { label: 'Direction SC à Temps Partagé', href: '/direction-supply-chain-temps-partage' },
   { label: 'Statut OEA & Régimes Douaniers', href: '/accompagnement-oea' },
   { label: 'Pack Inventaire', href: '/prestations#pack-inventaire' },

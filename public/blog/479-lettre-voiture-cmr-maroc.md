@@ -1,11 +1,12 @@
 ---
-title: "Lettre de Voiture CMR : Transport Routier Maroc-Europe"
+title: "Lettre de voiture CMR : mentions, réserves et responsabilité"
+slug: "lettre-de-voiture-cmr-transport-routier-maroc-europe"
 date: "2026-09-25"
 author: "Youssef B"
 schema: "Article"
 image: "/images/transport.webp"
 keywords: "lettre de voiture CMR, CMR Maroc, transport routier international, convention CMR, transport Maroc Europe camion"
-description: "La lettre de voiture CMR encadre le transport routier international Maroc-Europe. Rôle, mentions, réserves, responsabilité du transporteur."
+description: "Lettre de voiture CMR pour le transport routier Maroc–Europe : mentions obligatoires, réserves à la livraison et responsabilité du transporteur."
 ---
 
 # Lettre de Voiture CMR : Transport Routier Maroc-Europe

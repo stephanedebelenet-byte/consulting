@@ -79,6 +79,72 @@ Détail : https://nextinotech.com/accompagnement-oea
 
 Cabinet d'accompagnement pour l'obtention du statut OEA auprès de l'ADII (Administration des Douanes) et pour la mise en place des régimes douaniers suspensifs : diagnostic, mise en conformité, dossier de candidature, audit à blanc, coaching le jour de l'audit — simplifications douanières pour PME et ETI exportatrices/importatrices.
 
+
+<!-- missions:start -->
+### Missions de conseil (catalogue)
+
+Catalogue : https://nextinotech.com/missions — 42 missions classées par déclencheur, avec durée et budget indicatif HT.
+
+#### Conformité & réglementation
+- Conformité aux délais de paiement (loi 69-21) : https://nextinotech.com/missions/conformite-delais-de-paiement-loi-69-21
+- Inventaire de fin d'exercice & fiabilisation des stocks : https://nextinotech.com/missions/inventaire-fin-exercice
+- Facturation électronique : préparer le circuit achats et réception : https://nextinotech.com/missions/facturation-electronique-circuit-achats
+- Marchés publics : organiser les achats d'un acheteur public : https://nextinotech.com/missions/marches-publics-acheteur-public
+- Marchés publics : la cellule appels d'offres d'une PME : https://nextinotech.com/missions/marches-publics-cellule-appels-d-offres
+- Bonnes pratiques de distribution pharmaceutique (BPD) : https://nextinotech.com/missions/bonnes-pratiques-distribution-pharmaceutique
+- Transport de matières dangereuses : conformité à la loi 30-05 : https://nextinotech.com/missions/transport-matieres-dangereuses-loi-30-05
+
+#### Normes & certifications
+- Préparer l'audit ISO : volet achats et logistique (ISO 9001, 28000, 37001, 22301) : https://nextinotech.com/missions/preparation-audit-iso-achats-logistique
+- Fournisseur automobile : MMOG/LE et volet logistique de l’IATF 16949 : https://nextinotech.com/missions/fournisseur-automobile-mmog-le-iatf
+- Aéronautique : achats et traçabilité selon l’EN 9100 / EN 9120 : https://nextinotech.com/missions/aeronautique-en-9100-en-9120-achats-tracabilite
+- Sûreté d'entrepôt : préparation TAPA FSR et ISO 28000 : https://nextinotech.com/missions/surete-entrepot-tapa-iso-28000
+- Entrepôt agroalimentaire et froid : IFS Logistics, BRCGS, ONSSA : https://nextinotech.com/missions/entrepot-agroalimentaire-froid-ifs-brcgs
+
+#### Exigences des clients & export
+- Exigences des clients européens : EUDR, emballages, carbone, questionnaires RSE : https://nextinotech.com/missions/exigences-clients-europeens-export
+- Préparer un audit social SMETA ou amfori BSCI : https://nextinotech.com/missions/audit-social-smeta-bsci
+
+#### Filiales de groupes internationaux
+- Filiale prête pour l'audit du siège : https://nextinotech.com/missions/filiale-prete-audit-siege
+- Évaluer ses fournisseurs face au risque de corruption (Sapin II) : https://nextinotech.com/missions/evaluation-fournisseurs-sapin-2
+- Contrôle interne du processus achats : https://nextinotech.com/missions/controle-interne-achats
+- Prix de transfert : analyse fonctionnelle achats et logistique : https://nextinotech.com/missions/prix-de-transfert-analyse-fonctionnelle-supply-chain
+
+#### Performance & cash
+- Programme BFR : libérer le cash des stocks : https://nextinotech.com/missions/programme-bfr-cash-stocks
+- Audit de la fonction achats : https://nextinotech.com/missions/audit-fonction-achats
+- Réduction des coûts achats par catégorie : https://nextinotech.com/missions/reduction-couts-achats-categories
+- Appel d'offres transport et prestataire logistique : https://nextinotech.com/missions/appel-d-offres-transport-prestataire-logistique
+- Due diligence supply chain (rachat, investissement) : https://nextinotech.com/missions/due-diligence-supply-chain
+
+#### Coûts, prix de revient & contrôle de gestion
+- Coût logistique complet et rentabilité par client (cost-to-serve) : https://nextinotech.com/missions/cout-logistique-complet-cost-to-serve
+- Prix de revient transport routier et grille tarifaire : https://nextinotech.com/missions/prix-de-revient-transport-routier
+- Prix de revient à l'importation (coût rendu) et prix de vente : https://nextinotech.com/missions/prix-de-revient-importation-cout-rendu
+- Tarification d’un prestataire logistique (3PL) : https://nextinotech.com/missions/tarification-prestataire-logistique-3pl
+- Faire ou faire faire : faut-il externaliser la logistique ? : https://nextinotech.com/missions/faire-ou-faire-faire-externalisation-logistique
+- Mise en place du contrôle de gestion supply chain : https://nextinotech.com/missions/controle-de-gestion-supply-chain
+- Budget achats et logistique, coûts standards : https://nextinotech.com/missions/budget-achats-logistique-couts-standards
+- Contrôleur de gestion supply chain à temps partagé : https://nextinotech.com/missions/controleur-de-gestion-supply-chain-temps-partage
+
+#### Investissement & business plans
+- Business plan d'une nouvelle activité : https://nextinotech.com/missions/business-plan-nouvelle-activite
+- Nouvelle plateforme logistique : opportunité et faisabilité : https://nextinotech.com/missions/nouvelle-plateforme-logistique-faisabilite
+- Investissement flotte : nouveau porteur, renouvellement, achat ou leasing : https://nextinotech.com/missions/investissement-flotte-porteur-achat-leasing
+- Dossier de financement et de primes à l’investissement : https://nextinotech.com/missions/dossier-financement-primes-investissement
+- Business case d'automatisation d'entrepôt : https://nextinotech.com/missions/business-case-automatisation-entrepot
+
+#### Audit opérationnel
+- Audit des factures transport et logistique : https://nextinotech.com/missions/audit-factures-transport-logistique
+- Audit du contrat et de la facturation d'un prestataire logistique : https://nextinotech.com/missions/audit-contrat-facturation-prestataire-logistique
+- Audit des stocks et de la démarque : https://nextinotech.com/missions/audit-stocks-demarque
+- Benchmark et audit des coûts logistiques : https://nextinotech.com/missions/benchmark-audit-couts-logistiques
+- Audit interne en co-sourcing : achats, stocks, transport : https://nextinotech.com/missions/audit-interne-co-sourcing-supply-chain
+- Audit des coûts d'importation : frais d'approche, surestaries, droits : https://nextinotech.com/missions/audit-couts-importation
+
+<!-- missions:end -->
+
 ### Prestations Opérationnelles
 Catalogue : https://nextinotech.com/prestations. English version: https://nextinotech.com/en/services.
 
@@ -114,7 +180,7 @@ Détail : https://nextinotech.com/control-tower — piloter la supply chain en t
 - 710M MAD d'achats pilotés
 - 0 commission éditeur — indépendance totale garantie
 
-## Blog — Ressources Supply Chain (566 articles)
+## Blog — Ressources Supply Chain (572 articles)
 
 Le blog de Nextinotech couvre la Supply Chain et la Logistique au Maroc avec 516 articles organisés en thèmes :
 

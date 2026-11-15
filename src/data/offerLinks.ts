@@ -11,6 +11,8 @@
 // Module pur, lu par vite.config.ts (HTML prérendu) et Blog.tsx (rendu
 // navigateur) : le bloc est identique pour les robots et les visiteurs.
 
+import { MISSIONS } from './missions.ts'
+
 export interface OfferLink {
   to: string
   label: string
@@ -134,6 +136,24 @@ function norm(s: string): string {
   return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’‘]/g, "'")
 }
 
+/** Texte ramené au format d'un slug (sans accents, minuscules, tirets) : celui des motifs de missions. */
+export function foldText(s: string): string {
+  return norm(s).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+}
+
+/**
+ * Mission la plus proche du sujet (catalogue /missions, 15/11/2026) : motif
+ * trouvé dans le titre d'abord, dans les mots-clés et la description sinon.
+ * L'ordre de MISSIONS départage : les missions précises sont avant les larges.
+ */
+export function missionLinkFor(post: { title: string; keywords?: string; description?: string }): OfferLink | undefined {
+  const title = foldText(post.title)
+  const rest = foldText(`${post.keywords ?? ''} ${post.description ?? ''}`)
+  const hit = MISSIONS.find((x) => x.motif.test(title)) ?? MISSIONS.find((x) => x.motif.test(rest))
+  if (!hit) return undefined
+  return { to: `/missions/${hit.id}`, label: hit.titre, desc: `${hit.accroche.split('. ')[0].replace(/\.$/, '')}. ${hit.duree}.` }
+}
+
 /** Les 3 offres les plus proches du sujet d'un article (titre prioritaire sur les mots-clés). */
 export function offerLinksFor(post: { title: string; keywords?: string; description?: string }): OfferLink[] {
   const title = norm(post.title)
@@ -160,6 +180,9 @@ export function offerLinksFor(post: { title: string; keywords?: string; descript
     .sort((a, b) => (score.get(b) ?? 0) - (score.get(a) ?? 0))
     .slice(0, 3)
     .map((k) => OFFERS[k])
+  // Mission du catalogue correspondant au sujet : en tête du bloc.
+  const mission = missionLinkFor(post)
+  if (mission) picked.unshift(mission)
   // Article ancré dans une ville : la page formation de cette ville d'abord.
   for (const [re, to, nom] of VILLES) {
     if (re.test(title)) {

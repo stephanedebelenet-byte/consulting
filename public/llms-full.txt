@@ -44,6 +44,71 @@ Détail Conseil & AMOA (points 1 à 7) : https://nextinotech.com/conseil. Englis
 
 ---
 
+<!-- missions:start -->
+### Missions de conseil (catalogue)
+
+Catalogue : https://nextinotech.com/missions — 42 missions classées par déclencheur, avec durée et budget indicatif HT.
+
+#### Conformité & réglementation
+- Conformité aux délais de paiement (loi 69-21) : https://nextinotech.com/missions/conformite-delais-de-paiement-loi-69-21 — Mettre l'entreprise en règle avec la loi 69-21, côté client comme côté fournisseur, et faire de la contrainte un levier de trésorerie. Durée : 2 à 8 semaines. Budget : 35 000 – 130 000 MAD HT.
+- Inventaire de fin d'exercice & fiabilisation des stocks : https://nextinotech.com/missions/inventaire-fin-exercice — Un inventaire annuel préparé, compté et justifié, qui passe sans réserve devant le commissaire aux comptes, puis un stock fiable toute l’année. Durée : 1 à 8 semaines. Budget : 35 000 – 150 000 MAD HT.
+- Facturation électronique : préparer le circuit achats et réception : https://nextinotech.com/missions/facturation-electronique-circuit-achats — Préparer la commande, la réception et la facture fournisseur avant la facture électronique obligatoire, pour ne pas perdre la déductibilité des charges. Durée : 3 à 10 semaines. Budget : 35 000 – 140 000 MAD HT.
+- Marchés publics : organiser les achats d'un acheteur public : https://nextinotech.com/missions/marches-publics-acheteur-public — Des procédures conformes, des délais tenus et un programme prévisionnel publié : la fonction achats d’un établissement public mise en ordre. Durée : 1 à 6 mois. Budget : 60 000 – 260 000 MAD HT.
+- Marchés publics : la cellule appels d'offres d'une PME : https://nextinotech.com/missions/marches-publics-cellule-appels-d-offres — Moins de dossiers rejetés pour vice de forme, des offres mieux chiffrées et une équipe autonome pour répondre aux marchés publics. Durée : 2 à 4 semaines. Budget : 30 000 – 45 000 MAD HT.
+- Bonnes pratiques de distribution pharmaceutique (BPD) : https://nextinotech.com/missions/bonnes-pratiques-distribution-pharmaceutique — Un entrepôt et un transport de produits de santé conformes à la ligne directrice BPD, prêts pour l’inspection. Durée : 3 à 12 semaines. Budget : 50 000 – 170 000 MAD HT.
+- Transport de matières dangereuses : conformité à la loi 30-05 : https://nextinotech.com/missions/transport-matieres-dangereuses-loi-30-05 — Des expéditions de matières dangereuses conformes : classement, emballage, étiquetage, documents et organisation. Durée : 2 à 4 semaines. Budget : 25 000 – 40 000 MAD HT.
+
+#### Normes & certifications
+- Préparer l'audit ISO : volet achats et logistique (ISO 9001, 28000, 37001, 22301) : https://nextinotech.com/missions/preparation-audit-iso-achats-logistique — Arriver à l'audit de certification avec des achats et une logistique maîtrisés : sélection des fournisseurs, sûreté, anticorruption, continuité. Durée : 1 à 12 semaines. Budget : 20 000 – 120 000 MAD HT.
+- Fournisseur automobile : MMOG/LE et volet logistique de l’IATF 16949 : https://nextinotech.com/missions/fournisseur-automobile-mmog-le-iatf — Une autoévaluation logistique MMOG/LE argumentée et un plan de progrès crédible devant le constructeur. Durée : 3 semaines à 4 mois. Budget : 50 000 – 200 000 MAD HT.
+- Aéronautique : achats et traçabilité selon l’EN 9100 / EN 9120 : https://nextinotech.com/missions/aeronautique-en-9100-en-9120-achats-tracabilite — Maîtrise des fournisseurs, traçabilité des lots et prévention des pièces contrefaites au niveau attendu par les donneurs d’ordre aéronautiques. Durée : 4 semaines à 4 mois. Budget : 45 000 – 180 000 MAD HT.
+- Sûreté d'entrepôt : préparation TAPA FSR et ISO 28000 : https://nextinotech.com/missions/surete-entrepot-tapa-iso-28000 — Un entrepôt de marchandises de valeur aux standards de sûreté attendus par les chargeurs internationaux. Durée : 2 semaines à 3 mois. Budget : 30 000 – 140 000 MAD HT.
+- Entrepôt agroalimentaire et froid : IFS Logistics, BRCGS, ONSSA : https://nextinotech.com/missions/entrepot-agroalimentaire-froid-ifs-brcgs — Un entrepôt sous température conforme aux exigences de la grande distribution et de l’ONSSA : chaîne du froid, FEFO, traçabilité, rappels. Durée : 3 semaines à 4 mois. Budget : 35 000 – 150 000 MAD HT.
+
+#### Exigences des clients & export
+- Exigences des clients européens : EUDR, emballages, carbone, questionnaires RSE : https://nextinotech.com/missions/exigences-clients-europeens-export — Savoir ce que vos clients européens vont réellement exiger d'ici 2028, et y répondre sans y passer six mois. Durée : 2 semaines à 4 mois. Budget : 25 000 – 120 000 MAD HT.
+- Préparer un audit social SMETA ou amfori BSCI : https://nextinotech.com/missions/audit-social-smeta-bsci — Un site préparé à l’audit social demandé par les marques : temps de travail, sécurité, registres, sous-traitance. Durée : 2 à 6 semaines. Budget : 30 000 – 60 000 MAD HT.
+
+#### Filiales de groupes internationaux
+- Filiale prête pour l'audit du siège : https://nextinotech.com/missions/filiale-prete-audit-siege — En trois semaines, mesurer achats, stocks et logistique de la filiale contre la politique du groupe, et arriver à l’audit avec un plan déjà engagé. Durée : 3 semaines. Budget : 75 000 – 110 000 MAD HT.
+- Évaluer ses fournisseurs face au risque de corruption (Sapin II) : https://nextinotech.com/missions/evaluation-fournisseurs-sapin-2 — Le volet achats du programme anticorruption du groupe, appliqué à la filiale marocaine : cartographie des risques et évaluation des tiers. Durée : 4 à 8 semaines. Budget : 70 000 – 120 000 MAD HT.
+- Contrôle interne du processus achats : https://nextinotech.com/missions/controle-interne-achats — Une matrice risques et contrôles de la commande au paiement, testée, qui tient devant l’audit interne et le commissaire aux comptes. Durée : 4 à 8 semaines. Budget : 60 000 – 110 000 MAD HT.
+- Prix de transfert : analyse fonctionnelle achats et logistique : https://nextinotech.com/missions/prix-de-transfert-analyse-fonctionnelle-supply-chain — Décrire précisément les fonctions, les risques et les flux achats et logistique intra-groupe pour une documentation de prix de transfert solide. Durée : 3 à 6 semaines. Budget : 40 000 – 80 000 MAD HT.
+
+#### Performance & cash
+- Programme BFR : libérer le cash des stocks : https://nextinotech.com/missions/programme-bfr-cash-stocks — Mesurer la trésorerie immobilisée dans les stocks, fixer des objectifs par famille et la libérer sans dégrader le service. Durée : 4 semaines à 4 mois. Budget : 45 000 – 180 000 MAD HT.
+- Audit de la fonction achats : https://nextinotech.com/missions/audit-fonction-achats — Une grille de maturité en 40 points, une cartographie des dépenses et une feuille de route chiffrée sur 12 mois. Durée : 3 à 4 semaines. Budget : 50 000 – 80 000 MAD HT.
+- Réduction des coûts achats par catégorie : https://nextinotech.com/missions/reduction-couts-achats-categories — Analyse des dépenses, consultations, renégociations : des économies signées et mesurées contre une base validée par écrit. Durée : 3 à 5 mois. Budget : 80 000 – 200 000 MAD HT.
+- Appel d'offres transport et prestataire logistique : https://nextinotech.com/missions/appel-d-offres-transport-prestataire-logistique — Un cahier des charges précis, une consultation comparable et un contrat avec des indicateurs et des pénalités qui protègent. Durée : 6 à 12 semaines. Budget : 70 000 – 160 000 MAD HT.
+- Due diligence supply chain (rachat, investissement) : https://nextinotech.com/missions/due-diligence-supply-chain — Stocks, fournisseurs critiques, capacité logistique et risques opérationnels passés au crible avant de signer. Durée : 2 à 4 semaines. Budget : 90 000 – 160 000 MAD HT.
+
+#### Coûts, prix de revient & contrôle de gestion
+- Coût logistique complet et rentabilité par client (cost-to-serve) : https://nextinotech.com/missions/cout-logistique-complet-cost-to-serve — Ce que coûte réellement de servir chaque client, chaque canal et chaque produit, et ce que l’on gagne vraiment avec eux. Durée : 3 à 8 semaines. Budget : 35 000 – 110 000 MAD HT.
+- Prix de revient transport routier et grille tarifaire : https://nextinotech.com/missions/prix-de-revient-transport-routier — Le coût complet au kilomètre et à l’heure de chaque véhicule, une grille tarifaire défendable et une clause d’indexation gasoil. Durée : 2 à 4 semaines. Budget : 30 000 – 50 000 MAD HT.
+- Prix de revient à l'importation (coût rendu) et prix de vente : https://nextinotech.com/missions/prix-de-revient-importation-cout-rendu — Le vrai coût d’un produit importé, frais d’approche compris, et des prix de vente qui protègent la marge. Durée : 2 à 6 semaines. Budget : 30 000 – 90 000 MAD HT.
+- Tarification d’un prestataire logistique (3PL) : https://nextinotech.com/missions/tarification-prestataire-logistique-3pl — Chiffrer un appel d’offres sans se tromper et savoir quels contrats gagnent de l’argent. Durée : 1 à 5 semaines. Budget : 25 000 – 80 000 MAD HT.
+- Faire ou faire faire : faut-il externaliser la logistique ? : https://nextinotech.com/missions/faire-ou-faire-faire-externalisation-logistique — Comparer, chiffres à l’appui sur cinq ans, la logistique internalisée optimisée et l’externalisation totale ou partielle. Durée : 4 à 6 semaines. Budget : 60 000 – 95 000 MAD HT.
+- Mise en place du contrôle de gestion supply chain : https://nextinotech.com/missions/controle-de-gestion-supply-chain — Des coûts logistiques suivis chaque mois, des unités d’œuvre, un tableau de bord et une revue de performance qui sert à décider. Durée : 3 semaines à 4 mois. Budget : 40 000 – 150 000 MAD HT.
+- Budget achats et logistique, coûts standards : https://nextinotech.com/missions/budget-achats-logistique-couts-standards — Un budget construit sur des volumes et des coûts standards, suivi chaque mois, au lieu d’une reconduction de l’année précédente. Durée : 3 à 5 semaines. Budget : 40 000 – 65 000 MAD HT.
+- Contrôleur de gestion supply chain à temps partagé : https://nextinotech.com/missions/controleur-de-gestion-supply-chain-temps-partage — Un contrôleur de gestion expérimenté, 4 à 8 jours par mois, pour clôturer les coûts, tenir le tableau de bord et préparer le budget. Durée : 6 mois minimum. Budget : 28 000 – 56 000 MAD HT par mois.
+
+#### Investissement & business plans
+- Business plan d'une nouvelle activité : https://nextinotech.com/missions/business-plan-nouvelle-activite — Un business plan bancable, chiffré par des opérationnels, pour lancer une activité, ouvrir un site, créer une filiale ou s’implanter au Maroc. Durée : 3 à 10 semaines. Budget : 40 000 – 160 000 MAD HT.
+- Nouvelle plateforme logistique : opportunité et faisabilité : https://nextinotech.com/missions/nouvelle-plateforme-logistique-faisabilite — Dimensionner, localiser et chiffrer un nouvel entrepôt avant de signer un bail, d’acheter un terrain ou de lancer une construction. Durée : 2 semaines à 3 mois. Budget : 40 000 – 180 000 MAD HT.
+- Investissement flotte : nouveau porteur, renouvellement, achat ou leasing : https://nextinotech.com/missions/investissement-flotte-porteur-achat-leasing — Comparer achat, crédit-bail, location longue durée et sous-traitance sur toute la durée de vie, avant d’acheter un camion. Durée : 1 à 5 semaines. Budget : 25 000 – 80 000 MAD HT.
+- Dossier de financement et de primes à l’investissement : https://nextinotech.com/missions/dossier-financement-primes-investissement — Mettre le projet au format attendu par le centre régional d’investissement et la banque, pièces opérationnelles comprises. Durée : 2 à 3 semaines. Budget : 20 000 – 35 000 MAD HT.
+- Business case d'automatisation d'entrepôt : https://nextinotech.com/missions/business-case-automatisation-entrepot — Vérifier, chiffres à l’appui, le retour sur investissement promis par un intégrateur avant de signer. Durée : 3 à 5 semaines. Budget : 45 000 – 80 000 MAD HT.
+
+#### Audit opérationnel
+- Audit des factures transport et logistique : https://nextinotech.com/missions/audit-factures-transport-logistique — Contrôler les factures de transport contre les tarifs contractuels, récupérer les surfacturations et éviter qu’elles reviennent. Durée : 3 à 6 semaines. Budget : 20 000 – 70 000 MAD HT.
+- Audit du contrat et de la facturation d'un prestataire logistique : https://nextinotech.com/missions/audit-contrat-facturation-prestataire-logistique — Vérifier que le prestataire facture ce qui a été convenu, tient ses engagements et applique les pénalités prévues. Durée : 3 à 5 semaines. Budget : 35 000 – 60 000 MAD HT.
+- Audit des stocks et de la démarque : https://nextinotech.com/missions/audit-stocks-demarque — Comprendre d’où viennent les écarts de stock et la démarque inconnue, et mettre en place les contrôles qui les arrêtent. Durée : 3 à 6 semaines. Budget : 50 000 – 85 000 MAD HT.
+- Benchmark et audit des coûts logistiques : https://nextinotech.com/missions/benchmark-audit-couts-logistiques — Répondre à la question « sommes-nous chers ? » avec des ratios comparables et des gisements d’économies chiffrés. Durée : 3 à 5 semaines. Budget : 45 000 – 70 000 MAD HT.
+- Audit interne en co-sourcing : achats, stocks, transport : https://nextinotech.com/missions/audit-interne-co-sourcing-supply-chain — Des auditeurs spécialistes de la supply chain pour exécuter les missions du plan d’audit interne sur les achats, les stocks et la logistique. Durée : 6 à 12 jours par mission. Budget : 45 000 – 90 000 MAD HT par mission.
+- Audit des coûts d'importation : frais d'approche, surestaries, droits : https://nextinotech.com/missions/audit-couts-importation — Repérer les droits payés à tort, les surestaries évitables et les frais de transit injustifiés sur 12 mois de dossiers. Durée : 3 à 5 semaines. Budget : 35 000 – 55 000 MAD HT.
+
+<!-- missions:end -->
+
 ## Nextinotech Académie — Catalogue Formations — 39 Programmes, 7 Domaines
 
 **Page catalogue :** https://nextinotech.com/formation — filtrable par domaine, calendrier 2026 et programmation 2027 (dates à confirmer). English version: https://nextinotech.com/en/training.
@@ -105,7 +170,7 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 
 ---
 
-## Catalogue Blog — 566 Articles Supply Chain
+## Catalogue Blog — 572 Articles Supply Chain
 
 ### PARTIE 1 : Conseil, Audit & Transformation (01–100)
 
@@ -636,6 +701,15 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 - 552 : IoT Supply Chain au Maroc : Guide Complet 2026 — https://nextinotech.com/blog/iot-supply-chain-au-maroc-guide-complet-2026
 
 ---
+
+### PARTIE 24 : Conformité, stocks, coûts et formation (601–650)
+
+- 601 : L'inventaire est-il obligatoire ? Ce que disent la loi 9-88 et le CGNC — https://nextinotech.com/blog/l-inventaire-est-il-obligatoire-ce-que-disent-la-loi-9-88 (version arabe : https://nextinotech.com/ar/blog/601-inventaire-obligatoire-loi-9-88)
+- 602 : Inventaire de fin d'année : le rétroplanning sur 6 semaines — https://nextinotech.com/blog/inventaire-de-fin-d-annee-le-retroplanning-sur-6-semaines (version arabe : https://nextinotech.com/ar/blog/602-retroplanning-inventaire-fin-annee)
+- 603 : Faire rembourser ses formations par l'OFPPT : la procédure CSF — https://nextinotech.com/blog/faire-rembourser-ses-formations-par-l-ofppt-la-procedure-csf (version arabe : https://nextinotech.com/ar/blog/603-csf-ofppt-rembourser-formations)
+- 604 : GIAC : financer l'ingénierie de son plan de formation — https://nextinotech.com/blog/giac-financer-l-ingenierie-de-son-plan-de-formation (version arabe : https://nextinotech.com/ar/blog/604-giac-ingenierie-plan-formation)
+- 605 : Plan de formation achats et logistique 2027 : le modèle — https://nextinotech.com/blog/plan-de-formation-achats-et-logistique-2027-le-modele (version arabe : https://nextinotech.com/ar/blog/605-plan-formation-achats-logistique-2027)
+- 606 : Écarts d'inventaire : les analyser, les expliquer, les comptabiliser — https://nextinotech.com/blog/ecarts-d-inventaire-les-analyser-les-expliquer-les (version arabe : https://nextinotech.com/ar/blog/606-ecarts-inventaire-analyser-comptabiliser)
 
 ## Autorisation d'indexation
 

@@ -51,6 +51,12 @@ export const arabicArticles = [
   { file: 'plf-2027-avance-importation', title: 'PLF 2027 : simuler l’avance fiscale à l’importation' },
   { file: 'plf-2027-agrement-transitaires', title: 'PLF 2027 : agrément des transitaires en douane' },
   { file: 'plf-2027-tarif-douanier', title: 'PLF 2027 : vérifier les changements du tarif douanier' },
+  { file: '601-inventaire-obligatoire-loi-9-88', title: 'L\'inventaire est-il obligatoire ? Ce que disent la loi 9-88 et le CGNC' },
+  { file: '602-retroplanning-inventaire-fin-annee', title: 'Inventaire de fin d\'année : le rétroplanning sur 6 semaines' },
+  { file: '603-csf-ofppt-rembourser-formations', title: 'Faire rembourser ses formations par l\'OFPPT : la procédure CSF' },
+  { file: '604-giac-ingenierie-plan-formation', title: 'GIAC : financer l\'ingénierie de son plan de formation' },
+  { file: '605-plan-formation-achats-logistique-2027', title: 'Plan de formation achats et logistique 2027 : le modèle' },
+  { file: '606-ecarts-inventaire-analyser-comptabiliser', title: 'Écarts d\'inventaire : les analyser, les expliquer, les comptabiliser' },
 ]
 
 export const arabicPages = [

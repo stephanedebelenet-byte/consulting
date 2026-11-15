@@ -1,11 +1,12 @@
 ---
-title: "Régimes Douaniers Suspensifs (Admission Temporaire, EIF) : Stock Théorique vs Stock Réel"
+title: "Régimes suspensifs au Maroc : admission temporaire et EIF"
+slug: "regimes-douaniers-suspensifs-admission-temporaire-eif-stock"
 date: "2026-08-26"
 author: "Youssef B"
 schema: "Article"
 image: "/images/conseil.webp"
 keywords: "admission temporaire maroc, entrepôt industriel franc maroc, régime douanier suspensif, apurement douane maroc, stock théorique douane"
-description: "Le stock vu par la douane n'est pas toujours le stock vu par la logistique. Ce que dit le Code des douanes marocain sur l'Admission Temporaire et l'EIF, et le risque réel d'écart."
+description: "Admission temporaire et entrepôt industriel franc (EIF) : ce que dit le Code des douanes, l'apurement et le risque d'écart entre stock douanier et stock réel."
 ---
 
 # Régimes Douaniers Suspensifs (Admission Temporaire, EIF) : Stock Théorique vs Stock Réel

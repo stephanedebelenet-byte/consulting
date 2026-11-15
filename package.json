@@ -9,6 +9,7 @@
     "postbuild": "node scripts/check-seo-consistency.mjs",
     "build:prerender": "npm run build",
     "seo:check": "node scripts/check-seo-consistency.mjs",
+    "blog:publish": "node scripts/publish-drafts.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "video:studio": "remotion studio remotion/index.ts",
