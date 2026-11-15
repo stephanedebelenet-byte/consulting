@@ -36,6 +36,10 @@ description: "Tarifs non appliqués, surcharges non prévues, doublons, mauvaise
 6. **Réclamer** avec un dossier de preuves : expédition, tarif applicable, montant facturé, montant dû.
 7. **Corriger la source** : grilles à jour dans le système, liste des surcharges, clause d'indexation clarifiée.
 
+## Un exemple de dossier de réclamation
+
+Un distributeur contrôle les factures de son transporteur régional sur douze mois. Trois anomalies ressortent : une grille tarifaire renégociée en avril mais appliquée seulement à partir de juillet, une surcharge de « rendez-vous » facturée sur toutes les livraisons alors que le contrat ne la prévoit que pour les livraisons en grande distribution, et une révision carburant appliquée à la hausse en mars mais jamais à la baisse en septembre. Chaque anomalie fait l'objet d'un tableau : expéditions concernées, tarif contractuel, montant facturé, montant dû, écart. Le dossier est envoyé avec les extraits du contrat. Le transporteur émet un avoir pour les deux premières anomalies et la discussion porte sur la troisième, dont l'indice de référence n'était pas écrit dans le contrat : c'est elle qui justifie la réécriture de la clause.
+
 ## Quand contrôler tout, quand échantillonner
 
 Sur un petit volume de factures, un contrôle exhaustif est possible. Sur des milliers d'expéditions, un échantillon bien construit révèle les erreurs systématiques (mauvaise grille, surcharge récurrente) ; une fois identifiées, elles se recalculent sur toute la période.

@@ -57,6 +57,18 @@ Cette décomposition évite les discussions stériles : un dépassement causé p
 | Décembre | Validation, mensualisation |
 | Chaque mois | Suivi des écarts en comité |
 
+## Un exemple de décomposition d'écart
+
+Budget de préparation de mars : 100 000 lignes à 2,05 dirhams, soit 205 000 dirhams. Réel : 112 000 lignes pour 240 000 dirhams.
+
+| Effet | Calcul | Montant |
+|---|---|---|
+| Volume | (112 000 − 100 000) × 2,05 | + 24 600 MAD |
+| Coût unitaire | (240 000 ÷ 112 000 − 2,05) × 112 000 | + 10 400 MAD |
+| **Écart total** | 240 000 − 205 000 | **+ 35 000 MAD** |
+
+Les deux tiers de l'écart viennent des volumes supplémentaires, qui ont aussi produit du chiffre d'affaires. Le tiers restant, une hausse du coût par ligne de 2,05 à 2,14 dirhams, est le vrai sujet de discussion : recours à l'intérim pour absorber le pic, baisse de productivité, heures supplémentaires. C'est sur lui que porte le plan d'action.
+
 ## Les erreurs fréquentes
 
 Reconduire sans volumes, oublier la saisonnalité, ignorer les contrats indexés au 1er janvier, budgéter des économies sans plan d'action, ne jamais analyser les écarts.
