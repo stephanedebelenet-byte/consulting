@@ -13,6 +13,7 @@ import { BLOG_PAGE_COUNT, blogPagePath } from './blogPagination.ts'
 // le contrôle de complétude l'ignore sciemment au lieu de la signaler.
 
 import { VILLES, buildVilleSchema } from './villesFormation.ts'
+import { MISSIONS, FAMILLES, missionsDe, buildMissionSchema, missionDescription, missionTitle } from './missions.ts'
 import { PROGRAMMES, buildProgrammeSchema, programmesSchema, buildProgrammesSchema, rlCourseSchema, importCourseSchema, catalogueMeta } from './formations.ts'
 import { PROGRAMMES_EN, FAQ_EN } from './formationsEn.ts'
 import { generateFAQSchema } from '../utils/seoData.ts'
@@ -502,7 +503,37 @@ export function getPrerenderRoutes(): PrerenderRoute[] {
     // /formation/<id> dans llms.txt.
   }))
 
-  const fr = [...STATIC, ...villes, ...programmes].map((r) => {
+  // Catalogue des missions (15/11/2026) : la page /missions est l'offre
+  // référencée dans llms.txt ; chaque mission en est une déclinaison.
+  const missionsHub: PrerenderRoute = {
+    path: '/missions',
+    title: 'Missions de conseil achats et logistique au Maroc',
+    description: 'Conformité, normes, exigences clients, filiales de groupes, coûts, investissement et audit : 42 missions de conseil, avec durée et budget indicatif.',
+    priority: 0.9,
+    changefreq: 'weekly',
+    lastmod: '2026-11-15',
+    isOffer: true,
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      '@id': 'https://nextinotech.com/missions#liste',
+      name: 'Missions de conseil Nextinotech',
+      itemListElement: FAMILLES.flatMap((f) => missionsDe(f.id)).map((x, i) => ({
+        '@type': 'ListItem', position: i + 1, name: x.titre, url: `https://nextinotech.com/missions/${x.id}`,
+      })),
+    }],
+  }
+  const missions: PrerenderRoute[] = MISSIONS.map((x) => ({
+    path: `/missions/${x.id}`,
+    title: missionTitle(x).length <= 47 ? `${missionTitle(x)}${SUFFIX}` : missionTitle(x),
+    description: missionDescription(x),
+    jsonLd: buildMissionSchema(x),
+    priority: 0.8,
+    changefreq: 'monthly',
+    lastmod: '2026-11-15',
+  }))
+
+  const fr = [...STATIC, ...villes, ...programmes, missionsHub, ...missions].map((r) => {
     const o = SEO_OVERRIDES[r.path] ?? {}
     const route = { ...r, title: o.title ?? fitTitle(r.title), description: o.description ?? r.description }
     const extra = pageSchemas(route)
@@ -540,6 +571,8 @@ function breadcrumbParents(path: string): { path: string; name: string }[] {
   if (['/direction-supply-chain-temps-partage', '/directeur-logistique-mi-temps', '/directeur-achats-mi-temps', '/dsc-vs-recrutement-cdi', '/accompagnement-oea', '/prestations'].includes(path)) return [CONSEIL]
   if (path === '/ingenierie-formation/catalogue') return [ACADEMIE, { path: '/ingenierie-formation', name: 'Ingénierie de formation' }]
   if (['/formation-rl', '/formation-import', '/ingenierie-formation'].includes(path) || path.startsWith('/evenements/')) return [ACADEMIE]
+  if (path === '/missions') return [CONSEIL]
+  if (path.startsWith('/missions/')) return [CONSEIL, { path: '/missions', name: 'Missions' }]
   if (path.startsWith('/outils/') || path.startsWith('/demo/') || path.startsWith('/solutions/')) return [DIGITAL]
   return []
 }

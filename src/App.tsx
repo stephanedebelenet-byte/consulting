@@ -64,6 +64,8 @@ const AccompagnementOeaPage = lazyPage(() => import('./pages/AccompagnementOeaPa
 const IngenierieFormationPage = lazyPage(() => import('./pages/IngenierieFormationPage'))
 const CatalogueMetiersPage = lazyPage(() => import('./pages/CatalogueMetiersPage'))
 const ControlTowerPage = lazyPage(() => import('./pages/ControlTowerPage'))
+const MissionsPage = lazyPage(() => import('./pages/MissionsPage'))
+const MissionPage = lazyPage(() => import('./pages/MissionPage'))
 const NotFoundPage = lazyPage(() => import('./pages/NotFoundPage'))
 
 
@@ -103,6 +105,8 @@ const ROUTE_PAGES: [RegExp, { preload: () => Promise<PageModule> }][] = [
   [/^\/accompagnement-oea$/, AccompagnementOeaPage],
   [/^\/ingenierie-formation$/, IngenierieFormationPage],
   [/^\/ingenierie-formation\/catalogue$/, CatalogueMetiersPage],
+  [/^\/missions$/, MissionsPage],
+  [/^\/missions\/[^/]+$/, MissionPage],
 ]
 
 /** Charge le code de la page demandée avant le premier rendu (voir lazyPage). */
@@ -203,6 +207,8 @@ function AnimatedRoutes() {
         <Route path="/directeur-achats-mi-temps" element={<PageTransition><DirecteurAchatsMiTempsPage /></PageTransition>} />
         <Route path="/direction-supply-chain-temps-partage" element={<PageTransition><DirectionSCTempsPartagePage /></PageTransition>} />
         <Route path="/dsc-vs-recrutement-cdi" element={<PageTransition><DscVsRecrutementCdiPage /></PageTransition>} />
+        <Route path="/missions" element={<PageTransition><MissionsPage /></PageTransition>} />
+        <Route path="/missions/:mission" element={<PageTransition><MissionPage /></PageTransition>} />
         <Route path="/accompagnement-oea" element={<PageTransition><AccompagnementOeaPage /></PageTransition>} />
         <Route path="/ingenierie-formation" element={<PageTransition><IngenierieFormationPage /></PageTransition>} />
         <Route path="/ingenierie-formation/catalogue" element={<PageTransition><CatalogueMetiersPage /></PageTransition>} />
