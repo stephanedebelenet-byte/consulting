@@ -6,7 +6,7 @@ author: "Youssef B"
 image: "/images/business.webp"
 schema: "Article"
 keywords: "contrat prestation logistique, contrat 3pl clauses, indicateurs pénalités prestataire logistique, externalisation entrepôt contrat, clause de réversibilité logistique"
-description: "Périmètre, prix, indicateurs, pénalités, responsabilité, inventaire, réversibilité : les clauses d'un contrat de prestation logistique qui protègent le chargeur."
+description: "Périmètre, prix, indicateurs, pénalités, responsabilité, inventaire, réversibilité : les clauses d'un contrat logistique qui protègent le chargeur."
 ---
 
 # Contrat avec un prestataire logistique : les clauses à négocier
