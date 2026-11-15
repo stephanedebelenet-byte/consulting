@@ -98,11 +98,12 @@ if (newAr.length) {
 // 4. Index du blog.
 execFileSync(process.execPath, [join(ROOT, 'scripts', 'generate-blog-index.mjs')], { cwd: ROOT, stdio: 'inherit' })
 
-// 5. llms.txt et llms-full.txt : total et catalogue numéroté (partie 24 : articles 601 à 650).
+// 5. llms.txt et llms-full.txt : total et catalogue numéroté (partie 24 : articles 601 et suivants,
+// y compris ceux de la veille d'actualité, numérotés à partir de 651).
 const count = Number(readFileSync(join(ROOT, 'src', 'data', 'blogCount.ts'), 'utf8').match(/BLOG_POST_COUNT = (\d+)/)[1])
 const registry = readFileSync(filesPath, 'utf8')
-const HEAD = '### PARTIE 24 : Conformité, stocks, coûts et formation (601–650)'
-const published24 = [...registry.matchAll(/'(6\d\d-[^']+)'/g)].map((m) => m[1]).filter((f) => Number(f.slice(0, 3)) <= 650)
+const HEAD = '### PARTIE 24 : Conformité, stocks, coûts, formation et actualité (601 et suivants)'
+const published24 = [...registry.matchAll(/'([6-9]\d\d-[^']+)'/g)].map((m) => m[1])
 for (const name of ['llms.txt', 'llms-full.txt']) {
   const p = join(ROOT, 'public', name)
   let t = readFileSync(p, 'utf8')
@@ -117,7 +118,8 @@ for (const name of ['llms.txt', 'llms-full.txt']) {
       })
       .join('')
     const block = `${HEAD}\n\n${lines}\n`
-    const re = new RegExp(HEAD.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\r?\\n\\r?\\n(?:- .*\\r?\\n)*\\r?\\n')
+    // Tout titre « PARTIE 24 » déjà présent est remplacé, quel que soit son libellé précédent.
+    const re = /### PARTIE 24 : [^\r\n]*\r?\n\r?\n(?:- .*\r?\n)*\r?\n/
     t = re.test(t) ? t.replace(re, () => block) : t.replace("## Autorisation d'indexation", block + "## Autorisation d'indexation")
   }
   writeFileSync(p, t)
