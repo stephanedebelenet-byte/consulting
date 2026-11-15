@@ -1,0 +1,61 @@
+# Publication planifiée des articles (remplace le job Google Cloud : gratuit, sans carte, sans secret à créer).
+# Du lundi au vendredi à 6 h, heure de Casablanca (05:00 UTC) : publie les brouillons de content/drafts/ dont la
+# date est arrivée, compile le site comme garde-fou, puis pousse sur main (Vercel redéploie).
+# Si la compilation échoue, rien n'est poussé et GitHub envoie un e-mail d'échec.
+name: Publier les articles
+
+on:
+  schedule:
+    - cron: "0 5 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-articles
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TZ: Africa/Casablanca
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Articles arrivés à date
+        id: plan
+        run: |
+          node scripts/publish-drafts.mjs --dry-run | tee plan.txt
+          if grep -q '^\[publish-drafts\] 20' plan.txt; then echo "due=true" >> "$GITHUB_OUTPUT"; else echo "Rien à publier aujourd'hui."; fi
+
+      - name: Publier
+        if: steps.plan.outputs.due == 'true'
+        run: node scripts/publish-drafts.mjs
+
+      - name: Compiler (garde-fou SEO)
+        if: steps.plan.outputs.due == 'true'
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+
+      - name: Pousser sur main
+        if: steps.plan.outputs.due == 'true'
+        run: |
+          git config user.name "Nextinotech Éditorial (bot)"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/blog content src/data/blogFiles.ts src/data/arabicPages.ts src/data/blogIndex.ts \
+            src/data/blogCount.ts src/data/featuredBlog.ts public/llms.txt public/llms-full.txt
+          if git diff --cached --quiet; then echo "Aucun changement."; exit 0; fi
+          titles=$(grep '^\[publish-drafts\] 20' plan.txt | sed -E 's/^\[publish-drafts\] [0-9-]+ +//; s/ +\(\+ AR\)//; s/^/- /')
+          git commit -m "Publier les articles du $(date +%d/%m/%Y)" -m "$titles"
+          git push origin HEAD:main

@@ -1,0 +1,49 @@
+{
+  "_doc": "Requêtes de veille (Google News RSS, sans clé). Chaque pilier fournit des titres de la semaine ; Claude vérifie ensuite par recherche web et cite ses sources. Ajouter ou retirer des requêtes sans toucher au code.",
+  "articles_par_semaine": 3,
+  "jours_recherche": 8,
+  "piliers": {
+    "Loi de finances et fiscalité des entreprises": [
+      "loi de finances 2027 Maroc",
+      "projet de loi de finances Maroc douane",
+      "DGI Maroc entreprises nouvelle mesure",
+      "délais de paiement Maroc DGI",
+      "facturation électronique Maroc DGI"
+    ],
+    "Douane, ports et commerce extérieur": [
+      "ADII douane Maroc nouveauté",
+      "Tanger Med trafic conteneurs",
+      "port Nador West Med",
+      "port Dakhla Atlantique",
+      "Marsa Maroc",
+      "exportations Maroc Union européenne règlement"
+    ],
+    "Champions marocains de la supply chain et de l'industrie": [
+      "OCP logistique",
+      "Renault Tanger usine",
+      "Stellantis Kénitra",
+      "Label'Vie Marjane logistique",
+      "SNTL logistique Maroc",
+      "CTM messagerie",
+      "zone logistique AMDL Maroc",
+      "Royal Air Maroc Cargo"
+    ],
+    "Leaders internationaux implantés ou actifs au Maroc": [
+      "DHL Maroc",
+      "Maersk Maroc",
+      "CMA CGM Maroc",
+      "MSC Maroc port",
+      "Amazon Maroc logistique",
+      "Airbus Safran Maroc sous-traitance",
+      "Yazaki Lear Maroc câblage"
+    ],
+    "Tendances supply chain et logistique": [
+      "supply chain Maroc 2027",
+      "logistique Maroc investissement entrepôt",
+      "transport routier Maroc gasoil prix",
+      "nearshoring Maroc Europe industrie",
+      "Mondial 2030 Maroc logistique infrastructures",
+      "mer Rouge fret maritime tarifs"
+    ]
+  }
+}
