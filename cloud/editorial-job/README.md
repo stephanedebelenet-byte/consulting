@@ -4,12 +4,14 @@ Tout tourne dans le cloud, sans PC allumé et sans API Claude payante.
 
 | Tâche | Où | Quand (Casablanca) | Ce qu'elle fait |
 |---|---|---|---|
-| Publication | Google Cloud Run Jobs (`editorial-publish`) | du lundi au vendredi à 6 h | Publie les brouillons de `content/drafts/` dont la date est arrivée. Le site est compilé avant tout envoi : si la compilation échoue, rien n'est poussé et une alerte Telegram part. Sinon, l'envoi se fait sur `main` et Vercel redéploie. Aucun appel à Claude. |
+| Publication | GitHub Actions (`.github/workflows/publish-articles.yml`) | du lundi au vendredi à 6 h | Publie les brouillons de `content/drafts/` dont la date est arrivée. Le site est compilé avant tout envoi : si la compilation échoue, rien n'est poussé et GitHub envoie un e-mail. Sinon, l'envoi se fait sur `main` et Vercel redéploie. Gratuit, sans carte bancaire ni secret à créer. Lancement manuel : onglet Actions > « Publier les articles » > Run workflow. |
 | Veille d'actualité | Routine Claude Code, incluse dans l'abonnement Claude | le dimanche à 7 h | Repère l'actualité de la semaine : loi de finances, douane, ports, champions marocains, leaders internationaux, tendances supply chain (voir `sources.json`). Vérifie les faits par recherche web. Rédige 3 articles FR + AR datés sur les prochains mardis et jeudis libres, puis ouvre une **pull request**. Rien n'est publié sans fusion. |
 
 Validation hebdomadaire : GitHub vous prévient de la PR, par e-mail ou par l'application mobile. Vous relisez, puis vous cliquez sur « Merge ». Chaque article paraît ensuite à sa date.
 
-## 1. Publication : déploiement unique depuis un navigateur
+## 1. Publication sur Google Cloud (facultatif, en remplacement de GitHub Actions)
+
+À utiliser seulement si vous préférez Google Cloud. Désactivez alors le workflow GitHub pour ne pas publier deux fois.
 
 1. Ouvrez [Cloud Shell](https://shell.cloud.google.com). Il faut un projet Google Cloud avec un compte de facturation ; l'usage reste en principe dans les quotas gratuits.
 2. Lancez :
