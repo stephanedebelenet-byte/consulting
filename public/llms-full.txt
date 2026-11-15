@@ -170,7 +170,7 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 
 ---
 
-## Catalogue Blog — 566 Articles Supply Chain
+## Catalogue Blog — 572 Articles Supply Chain
 
 ### PARTIE 1 : Conseil, Audit & Transformation (01–100)
 
@@ -701,6 +701,15 @@ Toutes les formations incluent un support de formation et une attestation Nextin
 - 552 : IoT Supply Chain au Maroc : Guide Complet 2026 — https://nextinotech.com/blog/iot-supply-chain-au-maroc-guide-complet-2026
 
 ---
+
+### PARTIE 24 : Conformité, stocks, coûts et formation (601–650)
+
+- 601 : L'inventaire est-il obligatoire ? Ce que disent la loi 9-88 et le CGNC — https://nextinotech.com/blog/l-inventaire-est-il-obligatoire-ce-que-disent-la-loi-9-88 (version arabe : https://nextinotech.com/ar/blog/601-inventaire-obligatoire-loi-9-88)
+- 602 : Inventaire de fin d'année : le rétroplanning sur 6 semaines — https://nextinotech.com/blog/inventaire-de-fin-d-annee-le-retroplanning-sur-6-semaines (version arabe : https://nextinotech.com/ar/blog/602-retroplanning-inventaire-fin-annee)
+- 603 : Faire rembourser ses formations par l'OFPPT : la procédure CSF — https://nextinotech.com/blog/faire-rembourser-ses-formations-par-l-ofppt-la-procedure-csf (version arabe : https://nextinotech.com/ar/blog/603-csf-ofppt-rembourser-formations)
+- 604 : GIAC : financer l'ingénierie de son plan de formation — https://nextinotech.com/blog/giac-financer-l-ingenierie-de-son-plan-de-formation (version arabe : https://nextinotech.com/ar/blog/604-giac-ingenierie-plan-formation)
+- 605 : Plan de formation achats et logistique 2027 : le modèle — https://nextinotech.com/blog/plan-de-formation-achats-et-logistique-2027-le-modele (version arabe : https://nextinotech.com/ar/blog/605-plan-formation-achats-logistique-2027)
+- 606 : Écarts d'inventaire : les analyser, les expliquer, les comptabiliser — https://nextinotech.com/blog/ecarts-d-inventaire-les-analyser-les-expliquer-les (version arabe : https://nextinotech.com/ar/blog/606-ecarts-inventaire-analyser-comptabiliser)
 
 ## Autorisation d'indexation
 

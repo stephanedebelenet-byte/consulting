@@ -1,6 +1,60 @@
 // Généré par scripts/generate-blog-index.mjs ; modifier les fichiers Markdown sources.
 export const BLOG_INDEX = [
   {
+    "file": "606-ecarts-inventaire-analyser-comptabiliser",
+    "slug": "ecarts-d-inventaire-les-analyser-les-expliquer-les",
+    "title": "Écarts d'inventaire : les analyser, les expliquer, les comptabiliser",
+    "date": "2026-11-27",
+    "author": "Youssef B",
+    "description": "Un écart d'inventaire est une information : trier les écarts, trouver leur cause, décider de l'ajustement et convaincre le commissaire aux comptes.",
+    "image": "/images/analytics.webp"
+  },
+  {
+    "file": "605-plan-formation-achats-logistique-2027",
+    "slug": "plan-de-formation-achats-et-logistique-2027-le-modele",
+    "title": "Plan de formation achats et logistique 2027 : le modèle",
+    "date": "2026-11-25",
+    "author": "Youssef B",
+    "description": "Un plan de formation achats et logistique part des problèmes de l'entreprise : le modèle en six colonnes, le chiffrage et le calendrier de dépôt CSF.",
+    "image": "/images/business.webp"
+  },
+  {
+    "file": "604-giac-ingenierie-plan-formation",
+    "slug": "giac-financer-l-ingenierie-de-son-plan-de-formation",
+    "title": "GIAC : financer l'ingénierie de son plan de formation",
+    "date": "2026-11-23",
+    "author": "Youssef B",
+    "description": "Les GIAC financent une partie des études d'ingénierie de formation : diagnostic, plan, cahier des charges. Fonctionnement et combinaison avec les CSF.",
+    "image": "/images/office.webp"
+  },
+  {
+    "file": "603-csf-ofppt-rembourser-formations",
+    "slug": "faire-rembourser-ses-formations-par-l-ofppt-la-procedure-csf",
+    "title": "Faire rembourser ses formations par l'OFPPT : la procédure CSF",
+    "date": "2026-11-20",
+    "author": "Youssef B",
+    "description": "Les contrats spéciaux de formation de l'OFPPT remboursent une part importante des formations planifiées. Éligibilité, dossier et date limite de dépôt.",
+    "image": "/images/office.webp"
+  },
+  {
+    "file": "602-retroplanning-inventaire-fin-annee",
+    "slug": "inventaire-de-fin-d-annee-le-retroplanning-sur-6-semaines",
+    "title": "Inventaire de fin d'année : le rétroplanning sur 6 semaines",
+    "date": "2026-11-18",
+    "author": "Youssef B",
+    "description": "Six semaines pour préparer un inventaire de fin d'année fiable : données, plan de comptage, formation, gel des mouvements, écarts. Le rétroplanning détaillé.",
+    "image": "/images/hero-warehouse.webp"
+  },
+  {
+    "file": "601-inventaire-obligatoire-loi-9-88",
+    "slug": "l-inventaire-est-il-obligatoire-ce-que-disent-la-loi-9-88",
+    "title": "L'inventaire est-il obligatoire ? Ce que disent la loi 9-88 et le CGNC",
+    "date": "2026-11-16",
+    "author": "Youssef B",
+    "description": "Oui : la loi 9-88 impose un inventaire au moins une fois par exercice, à la clôture. Qui est concerné, ce que vérifient le commissaire aux comptes et la DGI.",
+    "image": "/images/office.webp"
+  },
+  {
     "file": "guide-fr-ar-05",
     "slug": "projet-2027-et-tic-sur-les-cigarettes-electroniques",
     "title": "Projet 2027 et TIC sur les cigarettes électroniques",
