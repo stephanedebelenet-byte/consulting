@@ -1161,6 +1161,22 @@ export function missionTitle(x: Mission): string {
   return full.length <= 60 ? full : x.seoTitre ?? x.titre
 }
 
+/** Offre lisible par les moteurs : fourchette chiffrée (min/max HT) en plus du libellé. */
+function missionOffer(x: Mission, url: string) {
+  const [min, max] = (x.prix.match(/\d[\d\s ]*\d/g) || []).map((n) => Number(n.replace(/\D/g, '')))
+  return {
+    '@type': 'Offer',
+    url,
+    priceCurrency: 'MAD',
+    description: x.prix,
+    availability: 'https://schema.org/InStock',
+    areaServed: { '@type': 'Country', name: 'Maroc' },
+    ...(min
+      ? { priceSpecification: { '@type': 'PriceSpecification', minPrice: min, ...(max ? { maxPrice: max } : {}), priceCurrency: 'MAD', valueAddedTaxIncluded: false } }
+      : {}),
+  }
+}
+
 export function buildMissionSchema(x: Mission): unknown[] {
   const url = `https://nextinotech.com/missions/${x.id}`
   return [
@@ -1174,7 +1190,7 @@ export function buildMissionSchema(x: Mission): unknown[] {
       serviceType: FAMILLES.find((f) => f.id === x.famille)?.label,
       areaServed: { '@type': 'Country', name: 'Maroc' },
       provider: { '@id': 'https://nextinotech.com/#organization' },
-      offers: { '@type': 'Offer', priceCurrency: 'MAD', description: x.prix },
+      offers: missionOffer(x, url),
     },
     {
       '@context': 'https://schema.org',

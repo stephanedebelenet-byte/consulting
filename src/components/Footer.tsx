@@ -27,6 +27,7 @@ export default function Footer() {
   ] : [
     { label: 'Formation terrain', href: '/formation' },
     { label: 'Conseil & AMOA SC', href: '/conseil' },
+    { label: 'Missions de conseil', href: '/missions' },
     { label: 'Prestations opérationnelles', href: '/prestations' },
     { label: 'DSC à temps partagé', href: '/direction-supply-chain-temps-partage' },
   ]
