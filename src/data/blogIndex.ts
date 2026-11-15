@@ -606,10 +606,10 @@ export const BLOG_INDEX = [
   {
     "file": "455-fifo-fefo-lifo-regles-sortie-stock",
     "slug": "fifo-fefo-lifo-quelle-regle-de-sortie-pour-vos-stocks",
-    "title": "FIFO, FEFO, LIFO : Quelle Règle de Sortie pour vos Stocks",
+    "title": "FIFO, FEFO, LIFO : différences et quelle règle choisir",
     "date": "2026-09-25",
     "author": "Youssef B",
-    "description": "FIFO, FEFO ou LIFO : quelle règle de sortie selon vos produits ? Différences, cas en agroalimentaire et pharma, et comment les faire respecter.",
+    "description": "FEFO, FIFO ou LIFO : définitions, différences et exemples en agroalimentaire et pharma. Quelle règle de sortie de stock choisir et comment la faire respecter.",
     "image": "/images/hero-warehouse.webp"
   },
   {
@@ -795,7 +795,7 @@ export const BLOG_INDEX = [
   {
     "file": "476-assurance-transport-marchandises",
     "slug": "assurance-transport-de-marchandises-ce-qui-est-couvert",
-    "title": "Assurance Transport de Marchandises : ce qui Est Couvert",
+    "title": "Assurance transport de marchandises : ce qu'elle couvre",
     "date": "2026-09-25",
     "author": "Youssef B",
     "description": "La responsabilité du transporteur est limitée par la loi et les conventions. Ce que couvre vraiment une assurance marchandises et quand la souscrire.",
@@ -804,10 +804,10 @@ export const BLOG_INDEX = [
   {
     "file": "477-surestaries-frais-magasinage-port",
     "slug": "surestaries-et-frais-de-magasinage-au-port-les-eviter",
-    "title": "Surestaries et Frais de Magasinage au Port : les Éviter",
+    "title": "Frais de magasinage et surestaries au port : les éviter",
     "date": "2026-09-25",
     "author": "Youssef B",
-    "description": "Surestaries, détention et magasinage : comprendre ces frais de retard au port, pourquoi ils explosent et comment les éviter par l'anticipation.",
+    "description": "Surestaries, détention et frais de magasinage au port : qui les facture, comment ils se calculent et comment les éviter en anticipant le dédouanement.",
     "image": "/images/transport.webp"
   },
   {
@@ -822,10 +822,10 @@ export const BLOG_INDEX = [
   {
     "file": "479-lettre-voiture-cmr-maroc",
     "slug": "lettre-de-voiture-cmr-transport-routier-maroc-europe",
-    "title": "Lettre de Voiture CMR : Transport Routier Maroc-Europe",
+    "title": "Lettre de voiture CMR : mentions, réserves et responsabilité",
     "date": "2026-09-25",
     "author": "Youssef B",
-    "description": "La lettre de voiture CMR encadre le transport routier international Maroc-Europe. Rôle, mentions, réserves, responsabilité du transporteur.",
+    "description": "Lettre de voiture CMR pour le transport routier Maroc–Europe : mentions obligatoires, réserves à la livraison et responsabilité du transporteur.",
     "image": "/images/transport.webp"
   },
   {
@@ -930,10 +930,10 @@ export const BLOG_INDEX = [
   {
     "file": "491-delais-paiement-maroc-loi-69-21",
     "slug": "delais-de-paiement-au-maroc-loi-69-21-le-guide-pratique",
-    "title": "Délais de Paiement au Maroc (Loi 69-21) : le Guide Pratique",
+    "title": "Délais de paiement au Maroc (loi 69-21) : règles et amendes",
     "date": "2026-09-25",
     "author": "Youssef B",
-    "description": "Loi 69-21 sur les délais de paiement au Maroc : 60 jours par défaut, 120 jours maximum, amende et déclaration. Ce que doivent savoir achats et finance.",
+    "description": "Délais de paiement au Maroc : 60 jours par défaut, 120 jours maximum (loi 69-21), amende en cas de retard et déclaration à la DGI. Le guide achats et finance.",
     "image": "/images/business.webp"
   },
   {
@@ -948,10 +948,10 @@ export const BLOG_INDEX = [
   {
     "file": "493-remise-documentaire-vs-credit-documentaire",
     "slug": "remise-documentaire-ou-credit-documentaire-lequel-choisir",
-    "title": "Remise Documentaire ou Crédit Documentaire : Lequel Choisir",
+    "title": "Remise documentaire ou crédit documentaire : comment choisir",
     "date": "2026-09-25",
     "author": "Youssef B",
-    "description": "Remise documentaire ou crédit documentaire : différences, niveau de sécurité, coût, et comment choisir selon la relation avec votre partenaire.",
+    "description": "Remise (ou encaissement) documentaire ou crédit documentaire : fonctionnement, coût, niveau de sécurité et comment choisir pour importer ou exporter.",
     "image": "/images/business.webp"
   },
   {
@@ -1092,19 +1092,19 @@ export const BLOG_INDEX = [
   {
     "file": "509-otif-definition-calcul",
     "slug": "otif-definition-calcul-et-pieges-de-l-indicateur-roi",
-    "title": "OTIF : Définition, Calcul et Pièges de l'Indicateur Roi",
+    "title": "OTIF : définition, formule de calcul et exemple chiffré",
     "date": "2026-09-25",
     "author": "Youssef B",
-    "description": "L'OTIF mesure les livraisons à l'heure et complètes. Définition, calcul, choix des règles (date, tolérance, niveau de mesure) et pièges qui le rendent trompeur.",
+    "description": "OTIF = commandes livrées à l'heure et complètes ÷ commandes totales. Formule, exemple chiffré, règles de mesure et pièges qui faussent l'indicateur.",
     "image": "/images/analytics.webp"
   },
   {
     "file": "510-taux-service-fill-rate",
     "slug": "taux-de-service-ou-fill-rate-deux-mesures-a-ne-pas-confondre",
-    "title": "Taux de Service ou Fill Rate : Deux Mesures à ne pas Confondre",
+    "title": "Taux de service et fill rate : définitions et calcul",
     "date": "2026-09-25",
     "author": "Youssef B",
-    "description": "Taux de service ou fill rate ? Deux mesures souvent confondues, qui ne disent pas la même chose. Définitions, calculs, exemple et usages.",
+    "description": "Taux de service ou fill rate ? Deux mesures souvent confondues, qui ne disent pas la même chose. Définitions, formules, exemple chiffré et usages.",
     "image": "/images/analytics.webp"
   },
   {
@@ -2800,10 +2800,10 @@ export const BLOG_INDEX = [
   {
     "file": "234-regimes-douaniers-suspensifs-stock-theorique-vs-reel",
     "slug": "regimes-douaniers-suspensifs-admission-temporaire-eif-stock",
-    "title": "Régimes Douaniers Suspensifs (Admission Temporaire, EIF) : Stock Théorique vs Stock Réel",
+    "title": "Régimes suspensifs au Maroc : admission temporaire et EIF",
     "date": "2026-08-26",
     "author": "Youssef B",
-    "description": "Le stock vu par la douane n'est pas toujours le stock vu par la logistique. Ce que dit le Code des douanes marocain sur l'Admission Temporaire et l'EIF, et le risque réel d'écart.",
+    "description": "Admission temporaire et entrepôt industriel franc (EIF) : ce que dit le Code des douanes, l'apurement et le risque d'écart entre stock douanier et stock réel.",
     "image": "/images/conseil.webp"
   },
   {

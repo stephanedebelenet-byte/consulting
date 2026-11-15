@@ -1,11 +1,12 @@
 ---
-title: "Remise Documentaire ou Crédit Documentaire : Lequel Choisir"
+title: "Remise documentaire ou crédit documentaire : comment choisir"
+slug: "remise-documentaire-ou-credit-documentaire-lequel-choisir"
 date: "2026-09-25"
 author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "remise documentaire, encaissement documentaire, crédit documentaire vs remise documentaire, paiement import export, documents contre paiement"
-description: "Remise documentaire ou crédit documentaire : différences, niveau de sécurité, coût, et comment choisir selon la relation avec votre partenaire."
+description: "Remise (ou encaissement) documentaire ou crédit documentaire : fonctionnement, coût, niveau de sécurité et comment choisir pour importer ou exporter."
 ---
 
 # Remise Documentaire ou Crédit Documentaire : Lequel Choisir

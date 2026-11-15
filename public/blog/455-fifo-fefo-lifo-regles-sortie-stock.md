@@ -1,11 +1,12 @@
 ---
-title: "FIFO, FEFO, LIFO : Quelle Règle de Sortie pour vos Stocks"
+title: "FIFO, FEFO, LIFO : différences et quelle règle choisir"
+slug: "fifo-fefo-lifo-quelle-regle-de-sortie-pour-vos-stocks"
 date: "2026-09-25"
 author: "Youssef B"
 schema: "Article"
 image: "/images/hero-warehouse.webp"
 keywords: "FIFO FEFO LIFO, règle de sortie de stock, FEFO agroalimentaire, premier périmé premier sorti, gestion des lots DLC"
-description: "FIFO, FEFO ou LIFO : quelle règle de sortie selon vos produits ? Différences, cas en agroalimentaire et pharma, et comment les faire respecter."
+description: "FEFO, FIFO ou LIFO : définitions, différences et exemples en agroalimentaire et pharma. Quelle règle de sortie de stock choisir et comment la faire respecter."
 ---
 
 # FIFO, FEFO, LIFO : Quelle Règle de Sortie pour vos Stocks

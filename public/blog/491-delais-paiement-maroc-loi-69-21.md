@@ -1,11 +1,12 @@
 ---
-title: "Délais de Paiement au Maroc (Loi 69-21) : le Guide Pratique"
+title: "Délais de paiement au Maroc (loi 69-21) : règles et amendes"
+slug: "delais-de-paiement-au-maroc-loi-69-21-le-guide-pratique"
 date: "2026-09-25"
 author: "Youssef B"
 schema: "Article"
 image: "/images/business.webp"
 keywords: "délais de paiement Maroc, loi 69-21, délai de paiement 60 jours, amende retard de paiement, déclaration délais de paiement"
-description: "Loi 69-21 sur les délais de paiement au Maroc : 60 jours par défaut, 120 jours maximum, amende et déclaration. Ce que doivent savoir achats et finance."
+description: "Délais de paiement au Maroc : 60 jours par défaut, 120 jours maximum (loi 69-21), amende en cas de retard et déclaration à la DGI. Le guide achats et finance."
 ---
 
 # Délais de Paiement au Maroc (Loi 69-21) : le Guide Pratique

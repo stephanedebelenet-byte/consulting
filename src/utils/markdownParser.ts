@@ -16,6 +16,8 @@ export interface BlogPost {
 
 interface FrontMatter {
   title?: string
+  /** Adresse figée : permet de réécrire le titre sans changer l'URL de l'article. */
+  slug?: string
   date?: string
   author?: string
   description?: string
@@ -41,7 +43,7 @@ export function parseMarkdown(content: string): BlogPost {
       if (colonIdx !== -1) {
         const key = line.slice(0, colonIdx).trim()
         const value = line.slice(colonIdx + 1).trim().replace(/^["']|["']$/g, '')
-        if (key === 'title' || key === 'date' || key === 'author' || key === 'description' || key === 'keywords' || key === 'image' || key === 'quickAnswer' || key === 'schema') {
+        if (key === 'title' || key === 'slug' || key === 'date' || key === 'author' || key === 'description' || key === 'keywords' || key === 'image' || key === 'quickAnswer' || key === 'schema') {
           frontMatter[key as keyof FrontMatter] = value
         }
       }
@@ -50,7 +52,8 @@ export function parseMarkdown(content: string): BlogPost {
 
   const mdContent = lines.slice(frontMatterEnd + 1).join('\n').trim()
 
-  const slug = slugify(frontMatter.title || 'untitled')
+  // `slug` explicite prioritaire : le titre peut évoluer (SEO) sans casser l'URL.
+  const slug = frontMatter.slug || slugify(frontMatter.title || 'untitled')
 
   const htmlContent = markdownToHtml(mdContent)
 

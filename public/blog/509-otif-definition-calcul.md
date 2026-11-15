@@ -1,11 +1,12 @@
 ---
-title: "OTIF : Définition, Calcul et Pièges de l'Indicateur Roi"
+title: "OTIF : définition, formule de calcul et exemple chiffré"
+slug: "otif-definition-calcul-et-pieges-de-l-indicateur-roi"
 date: "2026-09-25"
 author: "Youssef B"
 schema: "Article"
 image: "/images/analytics.webp"
 keywords: "OTIF, on time in full, calcul OTIF, indicateur OTIF logistique, taux de service client"
-description: "L'OTIF mesure les livraisons à l'heure et complètes. Définition, calcul, choix des règles (date, tolérance, niveau de mesure) et pièges qui le rendent trompeur."
+description: "OTIF = commandes livrées à l'heure et complètes ÷ commandes totales. Formule, exemple chiffré, règles de mesure et pièges qui faussent l'indicateur."
 ---
 
 # OTIF : Définition, Calcul et Pièges de l'Indicateur Roi

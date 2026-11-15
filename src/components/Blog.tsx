@@ -25,7 +25,13 @@ export default function Blog() {
   const page = validBlogPage(params.page) ?? 1
   const visiblePosts = posts.slice((page - 1) * BLOG_PAGE_SIZE, page * BLOG_PAGE_SIZE)
   const activeSlug = params.slug || searchParams.get('post')
-  const [article, setArticle] = useState<{ slug: string; post: BlogPost | null; error: string | null } | null>(null)
+  // Article déjà préchargé (voir prepare dans BlogPage.tsx) : rendu dès le
+  // premier affichage, sans attendre l'effet ci-dessous.
+  const [article, setArticle] = useState<{ slug: string; post: BlogPost | null; error: string | null } | null>(() => {
+    const entry = activeSlug ? BLOG_INDEX.find((post) => post.slug === activeSlug) : undefined
+    const primed = entry && getPrimedMarkdown(entry.file)
+    return primed && activeSlug ? { slug: activeSlug, post: parseMarkdown(primed), error: null } : null
+  })
   const selectedPost = article?.slug === activeSlug ? article.post : null
   const articleError = article?.slug === activeSlug ? article.error : null
   const navigate = useNavigate()
@@ -52,7 +58,8 @@ export default function Blog() {
   }, [params.slug])
 
   useEffect(() => {
-    if (!activeSlug) return
+    // Article déjà rendu depuis le cache au premier affichage : pas de rechargement.
+    if (!activeSlug || article?.slug === activeSlug) return
     const controller = new AbortController()
     const load = async () => {
       try {
@@ -74,6 +81,7 @@ export default function Blog() {
     }
     void load()
     return () => controller.abort()
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- ne relancer qu'au changement d'article
   }, [activeSlug])
 
   return (

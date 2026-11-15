@@ -1,5 +1,6 @@
 ---
-title: "Assurance Transport de Marchandises : ce qui Est Couvert"
+title: "Assurance transport de marchandises : ce qu'elle couvre"
+slug: "assurance-transport-de-marchandises-ce-qui-est-couvert"
 date: "2026-09-25"
 author: "Youssef B"
 schema: "Article"
